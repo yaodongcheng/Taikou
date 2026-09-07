@@ -3,7 +3,7 @@
 	<MusicTrack
 		id="aserai_01"
 		event_id="event:/music/musicians/aserai/01"
-		culture="Culture.aserai"
+		culture="Culture.ikoku"
 		location="lords_hall"
 		tempo="78">
 		<Instruments>
@@ -18,7 +18,7 @@
 	<MusicTrack
 		id="aserai_02"
 		event_id="event:/music/musicians/aserai/02"
-		culture="Culture.aserai"
+		culture="Culture.ikoku"
 		location="tavern"
 		tempo="105">
 		<Instruments>
@@ -34,7 +34,7 @@
 	<MusicTrack
 		id="aserai_03"
 		event_id="event:/music/musicians/aserai/03"
-		culture="Culture.aserai"
+		culture="Culture.ikoku"
 		location="lords_hall"
 		tempo="112">
 		<Instruments>
@@ -49,7 +49,7 @@
 	<MusicTrack
 		id="aserai_04"
 		event_id="event:/music/musicians/aserai/04"
-		culture="Culture.aserai"
+		culture="Culture.ikoku"
 		location="tavern"
 		tempo="124">
 		<Instruments>
@@ -64,7 +64,7 @@
 	<MusicTrack
 		id="battania_01"
 		event_id="event:/music/musicians/battania/01"
-		culture="Culture.battania"
+		culture="Culture.ikoku"
 		location="tavern"
 		tempo="113">
 		<Instruments>
@@ -79,7 +79,7 @@
 	<MusicTrack
 		id="battania_02"
 		event_id="event:/music/musicians/battania/02"
-		culture="Culture.battania"
+		culture="Culture.ikoku"
 		location="lords_hall"
 		tempo="74">
 		<Instruments>
@@ -94,7 +94,7 @@
 	<MusicTrack
 		id="battania_03"
 		event_id="event:/music/musicians/battania/03"
-		culture="Culture.battania"
+		culture="Culture.ikoku"
 		location="tavern"
 		tempo="112">
 		<Instruments>
@@ -109,7 +109,7 @@
 	<MusicTrack
 		id="battania_04"
 		event_id="event:/music/musicians/battania/04"
-		culture="Culture.battania"
+		culture="Culture.ikoku"
 		location="lords_hall"
 		tempo="63">
 		<Instruments>
@@ -124,7 +124,7 @@
 	<MusicTrack
 		id="khuzait_01"
 		event_id="event:/music/musicians/khuzait/01"
-		culture="Culture.khuzait"
+		culture="Culture.ikoku"
 		location="tavern"
 		tempo="92">
 		<Instruments>
@@ -139,7 +139,7 @@
 	<MusicTrack
 		id="khuzait_02"
 		event_id="event:/music/musicians/khuzait/02"
-		culture="Culture.khuzait"
+		culture="Culture.ikoku"
 		location="lords_hall"
 		tempo="126">
 		<Instruments>
@@ -154,7 +154,7 @@
 	<MusicTrack
 		id="khuzait_03"
 		event_id="event:/music/musicians/khuzait/03"
-		culture="Culture.khuzait"
+		culture="Culture.ikoku"
 		location="tavern"
 		tempo="88">
 		<Instruments>
@@ -169,7 +169,7 @@
 	<MusicTrack
 		id="khuzait_04"
 		event_id="event:/music/musicians/khuzait/04"
-		culture="Culture.khuzait"
+		culture="Culture.ikoku"
 		location="lords_hall"
 		tempo="140">
 		<Instruments>
@@ -184,7 +184,7 @@
 	<MusicTrack
 		id="sturgia_01"
 		event_id="event:/music/musicians/sturgia/01"
-		culture="Culture.sturgia"
+		culture="Culture.ikoku"
 		location="lords_hall"
 		tempo="66">
 		<Instruments>
@@ -197,7 +197,7 @@
 	<MusicTrack
 		id="sturgia_02"
 		event_id="event:/music/musicians/sturgia/02"
-		culture="Culture.sturgia"
+		culture="Culture.ikoku"
 		location="tavern"
 		tempo="125">
 		<Instruments>
@@ -212,7 +212,7 @@
 	<MusicTrack
 		id="sturgia_03"
 		event_id="event:/music/musicians/sturgia/03"
-		culture="Culture.sturgia"
+		culture="Culture.ikoku"
 		location="tavern"
 		tempo="176">
 		<Instruments>
@@ -225,7 +225,7 @@
 	<MusicTrack
 		id="sturgia_04"
 		event_id="event:/music/musicians/sturgia/04"
-		culture="Culture.sturgia"
+		culture="Culture.ikoku"
 		location="lords_hall"
 		tempo="75">
 		<Instruments>
@@ -240,7 +240,7 @@
 	<MusicTrack
 		id="vlandia_01"
 		event_id="event:/music/musicians/vlandia/01"
-		culture="Culture.vlandia"
+		culture="Culture.ikoku"
 		location="lords_hall"
 		tempo="180">
 		<Instruments>
@@ -257,7 +257,7 @@
 	<MusicTrack
 		id="vlandia_02"
 		event_id="event:/music/musicians/vlandia/02"
-		culture="Culture.vlandia"
+		culture="Culture.ikoku"
 		location="tavern"
 		tempo="88">
 		<Instruments>
@@ -272,7 +272,7 @@
 	<MusicTrack
 		id="vlandia_03"
 		event_id="event:/music/musicians/vlandia/03"
-		culture="Culture.vlandia"
+		culture="Culture.ikoku"
 		location="tavern"
 		tempo="104">
 		<Instruments>
@@ -287,7 +287,7 @@
 	<MusicTrack
 		id="vlandia_04"
 		event_id="event:/music/musicians/vlandia/04"
-		culture="Culture.vlandia"
+		culture="Culture.ikoku"
 		location="lords_hall"
 		tempo="72">
 		<Instruments>
@@ -302,7 +302,7 @@
 	<MusicTrack
 		id="empire_01"
 		event_id="event:/music/musicians/empire/01"
-		culture="Culture.empire"
+		culture="Culture.ikoku"
 		location="tavern"
 		tempo="112">
 		<Instruments>
@@ -317,7 +317,7 @@
 	<MusicTrack
 		id="empire_02"
 		event_id="event:/music/musicians/empire/02"
-		culture="Culture.empire"
+		culture="Culture.ikoku"
 		location="lords_hall"
 		tempo="64">
 		<Instruments>
@@ -332,7 +332,7 @@
 	<MusicTrack
 		id="empire_03"
 		event_id="event:/music/musicians/empire/03"
-		culture="Culture.empire"
+		culture="Culture.ikoku"
 		location="tavern"
 		tempo="102">
 		<Instruments>
@@ -345,7 +345,7 @@
 	<MusicTrack
 		id="empire_04"
 		event_id="event:/music/musicians/empire/04"
-		culture="Culture.empire"
+		culture="Culture.ikoku"
 		location="lords_hall"
 		tempo="80">
 		<Instruments>

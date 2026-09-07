@@ -12,17 +12,9 @@
 		<notable_and_wanderer_templates>
 			<template name="NPCCharacter.lord_oda_nobunaga"/>
 			<template name="NPCCharacter.lord_oda_shibata_katsuie"/>
-			<template name="NPCCharacter.lord_imagawa_yoshimoto"/>
-			<template name="NPCCharacter.lord_imagawa_suemori"/>
 			<template name="NPCCharacter.main_hero"/>
 		</notable_and_wanderer_templates>
-		<lord_templates>
-			<template name="NPCCharacter.lord_template_empire_male"/>
-			<template name="NPCCharacter.lord_template_empire_female"/>
-		</lord_templates>
-		<rebellion_hero_templates>
-			<template name="NPCCharacter.lord_template_empire_male"/>
-			<template name="NPCCharacter.lord_template_empire_female"/>
-		</rebellion_hero_templates>
+		<lord_templates></lord_templates>
+		<rebellion_hero_templates></rebellion_hero_templates>
 	</Culture>
 </SPCultures>

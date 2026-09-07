@@ -6,7 +6,7 @@
 		name="{=cG1g4T3t}Sparring Flyssa"
 		crafting_template="OneHandedSword"
 		is_merchandise="false"
-		culture="Culture.aserai"
+		culture="Culture.ikoku"
 		has_modifier="false">
 		<Pieces>
 			<Piece
@@ -32,7 +32,7 @@
 		name="{=4Ea6pr5p}Sparring Crossbow"
 		body_name="bo_cross_bow_heavy"
 		mesh="crossbow_a"
-		culture="Culture.vlandia"
+		culture="Culture.ikoku"
 		weight="1.0"
 		appearance="0.8"
 		difficulty="0"
@@ -70,7 +70,7 @@
 		name="{=Kba6rxWK}Sparring Scimitar"
 		crafting_template="OneHandedSword"
 		is_merchandise="false"
-		culture="Culture.aserai"
+		culture="Culture.ikoku"
 		has_modifier="false">
 		<Pieces>
 			<Piece
@@ -96,7 +96,7 @@
 		name="{=YmoddWwb}Sparring Seax"
 		crafting_template="Dagger"
 		is_merchandise="false"
-		culture="Culture.sturgia"
+		culture="Culture.ikoku"
 		has_modifier="false">
 		<Pieces>
 			<Piece
@@ -122,7 +122,7 @@
 		name="{=BACi0kaM}Sparring Jagged Spear"
 		crafting_template="TwoHandedPolearm"
 		is_merchandise="false"
-		culture="Culture.aserai"
+		culture="Culture.ikoku"
 		has_modifier="false">
 		<Pieces>
 			<Piece
@@ -140,7 +140,7 @@
 		name="{=YQ9ybgmj}Sparring Glaive"
 		crafting_template="TwoHandedPolearm"
 		is_merchandise="false"
-		culture="Culture.khuzait">
+		culture="Culture.ikoku">
 		<Pieces>
 			<Piece
 				id="spear_blade_19_blunt"
@@ -165,7 +165,7 @@
 		name="{=es77bJBa}Sparring Throwing Dagger"
 		crafting_template="ThrowingKnife"
 		is_merchandise="false"
-		culture="Culture.aserai"
+		culture="Culture.ikoku"
 		has_modifier="false">
 		<Pieces>
 			<Piece
@@ -189,7 +189,7 @@
 		name="{=B0E6Zfyk}Sparring Javelin"
 		crafting_template="Javelin"
 		is_merchandise="false"
-		culture="Culture.khuzait"
+		culture="Culture.ikoku"
 		has_modifier="false">
 		<Pieces>
 			<Piece
@@ -215,7 +215,7 @@
 		name="{=8WlRREMh}Sparring Bamboo Handled Axe"
 		crafting_template="OneHandedAxe"
 		is_merchandise="false"
-		culture="Culture.aserai"
+		culture="Culture.ikoku"
 		has_modifier="false">
 		<Pieces>
 			<Piece
@@ -233,7 +233,7 @@
 		name="{=APO9YcBv}Sparring Two Handed Axe"
 		crafting_template="TwoHandedAxe"
 		is_merchandise="false"
-		culture="Culture.battania"
+		culture="Culture.ikoku"
 		has_modifier="false">
 		<Pieces>
 			<Piece
@@ -251,7 +251,7 @@
 		name="{=lGHrlYqQ}Sparring Twohander"
 		crafting_template="TwoHandedSword"
 		is_merchandise="false"
-		culture="Culture.battania"
+		culture="Culture.ikoku"
 		has_modifier="false">
 		<Pieces>
 			<Piece
@@ -277,7 +277,7 @@
 		name="{=D1webCRZ}Sparring Broadsword"
 		crafting_template="OneHandedSword"
 		is_merchandise="false"
-		culture="Culture.battania">
+		culture="Culture.ikoku">
 		<Pieces>
 			<Piece
 				id="battania_blade_3_blunt"
@@ -302,7 +302,7 @@
 		name="{=2Igdc86g}Sparing Spatha"
 		crafting_template="OneHandedSword"
 		is_merchandise="false"
-		culture="Culture.empire"
+		culture="Culture.ikoku"
 		has_modifier="false">
 		<Pieces>
 			<Piece
@@ -353,7 +353,7 @@
 		name="{=XU0b0yiW}Sparring Lance"
 		crafting_template="TwoHandedPolearm"
 		is_merchandise="false"
-		culture="Culture.empire"
+		culture="Culture.ikoku"
 		has_modifier="false">
 		<Pieces>
 			<Piece
@@ -371,7 +371,7 @@
 		name="{=LpN4YWb2}Sparring Saber"
 		crafting_template="OneHandedSword"
 		is_merchandise="false"
-		culture="Culture.khuzait"
+		culture="Culture.ikoku"
 		has_modifier="false">
 		<Pieces>
 			<Piece
@@ -397,7 +397,7 @@
 		name="{=LLaFEt1m}Sparring Arming Sword"
 		crafting_template="OneHandedSword"
 		is_merchandise="false"
-		culture="Culture.vlandia"
+		culture="Culture.ikoku"
 		has_modifier="false">
 		<Pieces>
 			<Piece
@@ -423,7 +423,7 @@
 		name="{=EbWA5mcO}Sparring Billhook"
 		crafting_template="TwoHandedPolearm"
 		is_merchandise="false"
-		culture="Culture.vlandia"
+		culture="Culture.ikoku"
 		has_modifier="false">
 		<Pieces>
 			<Piece
@@ -449,7 +449,7 @@
 		name="{=XU0b0yiW}Sparring Lance"
 		crafting_template="TwoHandedPolearm"
 		is_merchandise="false"
-		culture="Culture.vlandia"
+		culture="Culture.ikoku"
 		has_modifier="false">
 		<Pieces>
 			<Piece
@@ -467,7 +467,7 @@
 		name="{=5dQdBOTa}Sparring Galloglaich Axe"
 		crafting_template="OneHandedAxe"
 		is_merchandise="false"
-		culture="Culture.sturgia"
+		culture="Culture.ikoku"
 		has_modifier="false">
 		<Pieces>
 			<Piece
@@ -485,7 +485,7 @@
 		name="{=M75Ybg6r}Sparring Throwing Axe"
 		crafting_template="ThrowingAxe"
 		is_merchandise="false"
-		culture="Culture.sturgia">
+		culture="Culture.ikoku">
 		<Pieces>
 			<Piece
 				id="axe_craft_13_head_blunt"
@@ -502,7 +502,7 @@
 		name="{=HIjSiX4E}Sparring Spear"
 		crafting_template="TwoHandedPolearm"
 		is_merchandise="false"
-		culture="Culture.sturgia"
+		culture="Culture.ikoku"
 		has_modifier="false">
 		<Pieces>
 			<Piece
@@ -520,7 +520,7 @@
 		name="{=Rwp23MLA}Sparring Blade"
 		crafting_template="OneHandedSword"
 		is_merchandise="false"
-		culture="Culture.sturgia"
+		culture="Culture.ikoku"
 		has_modifier="false">
 		<Pieces>
 			<Piece
@@ -550,7 +550,7 @@
 		shield_body_name="bo_aserai_shields_d"
 		recalculate_body="false"
 		mesh="aserai_shields_d"
-		culture="Culture.aserai"
+		culture="Culture.ikoku"
 		weight="7.3"
 		is_merchandise="false"
 		appearance="1"
@@ -591,7 +591,7 @@
 		shield_body_name="bo_battania_targe_b"
 		recalculate_body="false"
 		mesh="battania_targe_b"
-		culture="Culture.battania"
+		culture="Culture.ikoku"
 		weight="2.5"
 		appearance="1.1"
 		Type="Shield"
@@ -671,7 +671,7 @@
 		shield_body_name="bo_shield_khuzait_infantary_a"
 		recalculate_body="false"
 		mesh="shield_khuzait_infantary_a"
-		culture="Culture.khuzait"
+		culture="Culture.ikoku"
 		using_tableau="true"
 		weight="2.7"
 		is_merchandise="false"

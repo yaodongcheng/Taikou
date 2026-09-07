@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- TaikouCampaign heroes 最小集（v0）：
      main_hero 全家 = 建号流程依赖（CC 建号后玩家家庭树）；
-     织田 2 名 + 今川 2 名 = 王国/家族 owner。今川家族当前已精简（无领地），条目保留以备数据恢复。 -->
+     织田 2 名 = 王国/家族 owner。今川全删（2026-09-07 数据一致性：Hero 层与 NPCCharacter/
+     spcultures 引用统一，no 悬空引用 —— 见 plans/太阁数据加载taikou-campaign-boot-20260907.md）。 -->
 <Heroes>
 	<Hero
 		id="main_hero"
@@ -20,6 +21,4 @@
 		spouse="Hero.main_hero_father" />
 	<Hero id="lord_oda_nobunaga" faction="Faction.clan_oda" text="{=TAIKOU_hero_nobunaga}Oda Nobunaga"/>
 	<Hero id="lord_oda_shibata_katsuie" faction="Faction.clan_oda" text="{=TAIKOU_hero_shibata}Shibata Katsuie"/>
-	<Hero id="lord_imagawa_yoshimoto" faction="Faction.clan_imagawa" text="{=TAIKOU_hero_yoshimoto}Imagawa Yoshimoto"/>
-	<Hero id="lord_imagawa_suemori" faction="Faction.clan_imagawa" text="{=TAIKOU_hero_suemori}Imagawa Suemori"/>
 </Heroes>

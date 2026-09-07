@@ -9,7 +9,7 @@
 		recalculate_body="true"
 		mesh="torch_g"
 		prefab="torch_a_wm_only_flame"
-		culture="Culture.empire"
+		culture="Culture.ikoku"
 		value="4"
 		weight="0.2"
 		Type="OneHandedWeapon"
@@ -43,7 +43,7 @@
 		name="{=nTc20R1R}Makeshift Sledgehammer"
 		crafting_template="TwoHandedMace"
 		is_merchandise="false"
-		culture="Culture.battania"
+		culture="Culture.ikoku"
 		modifier_group="cheap_weapon">
 		<Pieces>
 			<!-- head is wrong breaks saves if removed dont use this item -->
@@ -61,7 +61,7 @@
 		id="peasant_maul_t1_2"
 		name="{=gYpNILVC}Sledgehammer"
 		crafting_template="TwoHandedMace"
-		culture="Culture.battania"
+		culture="Culture.ikoku"
 		modifier_group="cheap_weapon">
 		<Pieces>
 			<Piece
@@ -266,7 +266,7 @@
 		name="{=cmuMaYGR}Practice Longbow"
 		body_name="bo_composite_longbow_a"
 		mesh="longbow_a"
-		culture="Culture.vlandia"
+		culture="Culture.ikoku"
 		is_merchandise="false"
 		subtype="bow"
 		weight="0.5"
@@ -790,7 +790,7 @@
 		id="aserai_axe_1_t2"
 		name="{=bcjcw1o9}Wood Splitter Axe"
 		crafting_template="OneHandedAxe"
-		culture="Culture.aserai"
+		culture="Culture.ikoku"
 		modifier_group="axe">
 		<Pieces>
 			<Piece
@@ -807,7 +807,7 @@
 		id="aserai_axe_2_t2"
 		name="{=89OWzLBb}Bamboo Handled Ascia Axe"
 		crafting_template="OneHandedAxe"
-		culture="Culture.aserai"
+		culture="Culture.ikoku"
 		modifier_group="axe">
 		<Pieces>
 			<Piece
@@ -824,7 +824,7 @@
 		id="sturgia_axe_2_t2"
 		name="{=hQrLHkaU}Galloglaich Axe"
 		crafting_template="OneHandedAxe"
-		culture="Culture.sturgia"
+		culture="Culture.ikoku"
 		modifier_group="axe">
 		<Pieces>
 			<Piece
@@ -841,7 +841,7 @@
 		id="battania_axe_1_t2"
 		name="{=ljOwXClb}Norse Hatchet"
 		crafting_template="OneHandedAxe"
-		culture="Culture.battania"
+		culture="Culture.ikoku"
 		modifier_group="axe">
 		<Pieces>
 			<Piece
@@ -875,7 +875,7 @@
 		id="southern_small_axe_t2"
 		name="{=bdTQG99v}Bamboo Handled Axe"
 		crafting_template="OneHandedAxe"
-		culture="Culture.aserai"
+		culture="Culture.ikoku"
 		modifier_group="axe">
 		<Pieces>
 			<Piece
@@ -892,7 +892,7 @@
 		id="small_bit_axe_t2"
 		name="{=XRaPBg6d}Small Bit Axe"
 		crafting_template="OneHandedAxe"
-		culture="Culture.aserai"
+		culture="Culture.ikoku"
 		modifier_group="axe">
 		<Pieces>
 			<Piece
@@ -911,7 +911,7 @@
 		id="northern_battle_axe_t3"
 		name="{=DFcMeRdB}Simple Raider Battle Axe"
 		crafting_template="OneHandedAxe"
-		culture="Culture.sturgia"
+		culture="Culture.ikoku"
 		modifier_group="axe">
 		<Pieces>
 			<Piece
@@ -928,7 +928,7 @@
 		id="vlandia_axe_1_t3"
 		name="{=KanKBHcS}Infantry Axe"
 		crafting_template="OneHandedAxe"
-		culture="Culture.vlandia"
+		culture="Culture.ikoku"
 		modifier_group="axe">
 		<Pieces>
 			<Piece
@@ -945,7 +945,7 @@
 		id="sturgia_axe_3_t3"
 		name="{=xgOuAWEE}Commoner Axe"
 		crafting_template="OneHandedAxe"
-		culture="Culture.sturgia"
+		culture="Culture.ikoku"
 		modifier_group="axe">
 		<Pieces>
 			<Piece
@@ -963,7 +963,7 @@
 		id="imperial_axe_t3"
 		name="{=tsaSBPKu}Tzikourion"
 		crafting_template="OneHandedAxe"
-		culture="Culture.empire"
+		culture="Culture.ikoku"
 		modifier_group="axe">
 		<Pieces>
 			<Piece
@@ -981,7 +981,7 @@
 		id="woodland_axe_t3"
 		name="{=6q0nmVtg}Woodland Axe"
 		crafting_template="OneHandedAxe"
-		culture="Culture.battania"
+		culture="Culture.ikoku"
 		modifier_group="axe">
 		<Pieces>
 			<Piece
@@ -1033,7 +1033,7 @@
 		id="vlandia_axe_2_t4"
 		name="{=SDBvC0ON}Spiked Battle Axe"
 		crafting_template="OneHandedAxe"
-		culture="Culture.vlandia"
+		culture="Culture.ikoku"
 		modifier_group="axe">
 		<Pieces>
 			<Piece
@@ -1050,7 +1050,7 @@
 		id="sturgia_axe_4_t4"
 		name="{=Qpl5aCb0}Veteran Warrior Axe"
 		crafting_template="OneHandedAxe"
-		culture="Culture.sturgia"
+		culture="Culture.ikoku"
 		modifier_group="axe">
 		<Pieces>
 			<Piece
@@ -1067,7 +1067,7 @@
 		id="battania_axe_2_t4"
 		name="{=pjvwuVuc}One Handed Bearded Axe"
 		crafting_template="OneHandedAxe"
-		culture="Culture.battania"
+		culture="Culture.ikoku"
 		modifier_group="axe">
 		<Pieces>
 			<Piece
@@ -1085,7 +1085,7 @@
 		id="bamboo_axe_t4"
 		name="{=FAzGPJn6}Bamboo Axe"
 		crafting_template="OneHandedAxe"
-		culture="Culture.aserai"
+		culture="Culture.ikoku"
 		modifier_group="axe">
 		<Pieces>
 			<Piece
@@ -1121,7 +1121,7 @@
 		id="sturgia_axe_5_t5"
 		name="{=uSBxV2Ob}Rectangular Bitted Axe"
 		crafting_template="OneHandedAxe"
-		culture="Culture.sturgia"
+		culture="Culture.ikoku"
 		modifier_group="axe">
 		<Pieces>
 			<Piece
@@ -1138,7 +1138,7 @@
 		id="battania_axe_3_t5"
 		name="{=pP0GacSW}Round Bitted Fine Steel Hatchet"
 		crafting_template="OneHandedAxe"
-		culture="Culture.battania"
+		culture="Culture.ikoku"
 		modifier_group="axe">
 		<Pieces>
 			<Piece
@@ -1159,7 +1159,7 @@
 		id="battania_2haxe_1_t2"
 		name="{=bNABNs8O}Square Bit Two Handed Axe"
 		crafting_template="TwoHandedAxe"
-		culture="Culture.battania"
+		culture="Culture.ikoku"
 		modifier_group="axe">
 		<Pieces>
 			<Piece
@@ -1195,7 +1195,7 @@
 		id="aserai_2haxe_1_t3"
 		name="{=HECAP8QW}Short Handled Bardiche"
 		crafting_template="TwoHandedAxe"
-		culture="Culture.aserai"
+		culture="Culture.ikoku"
 		modifier_group="axe">
 		<Pieces>
 			<Piece
@@ -1229,7 +1229,7 @@
 		id="northern_axe_t3"
 		name="{=QnyD1yWB}Northlander Broad Axe"
 		crafting_template="TwoHandedAxe"
-		culture="Culture.sturgia"
+		culture="Culture.ikoku"
 		modifier_group="axe">
 		<Pieces>
 			<Piece
@@ -1248,7 +1248,7 @@
 		id="vlandia_2haxe_1_t4"
 		name="{=K2Xtca1a}Short Bill"
 		crafting_template="TwoHandedAxe"
-		culture="Culture.vlandia"
+		culture="Culture.ikoku"
 		modifier_group="axe">
 		<Pieces>
 			<Piece
@@ -1265,7 +1265,7 @@
 		id="aserai_2haxe_2_t4"
 		name="{=BAsjzOiH}Executioner Axe"
 		crafting_template="TwoHandedAxe"
-		culture="Culture.aserai"
+		culture="Culture.ikoku"
 		modifier_group="axe">
 		<Pieces>
 			<Piece
@@ -1282,7 +1282,7 @@
 		id="sturgia_2haxe_1_t4"
 		name="{=jhFSLdve}Drilled Two Handed Axe"
 		crafting_template="TwoHandedAxe"
-		culture="Culture.sturgia"
+		culture="Culture.ikoku"
 		modifier_group="axe">
 		<Pieces>
 			<Piece
@@ -1300,7 +1300,7 @@
 		id="hooked_axe_t4"
 		name="{=P9PcIk4q}Hooked Cavalry Axe"
 		crafting_template="TwoHandedAxe"
-		culture="Culture.vlandia"
+		culture="Culture.ikoku"
 		modifier_group="axe">
 		<Pieces>
 			<Piece
@@ -1319,7 +1319,7 @@
 		id="aserai_2haxe_3_t5"
 		name="{=hTPJXK1w}Heavy Executioner Axe"
 		crafting_template="TwoHandedAxe"
-		culture="Culture.aserai"
+		culture="Culture.ikoku"
 		modifier_group="axe">
 		<Pieces>
 			<Piece
@@ -1336,7 +1336,7 @@
 		id="sturgia_2haxe_2_t5"
 		name="{=cKtkyroA}Northlander Decorated Two Handed Axe"
 		crafting_template="TwoHandedAxe"
-		culture="Culture.sturgia"
+		culture="Culture.ikoku"
 		modifier_group="axe">
 		<Pieces>
 			<Piece
@@ -1357,7 +1357,7 @@
 		id="western_spear_1_t2"
 		name="{=hyq1zBg5}Simple Commoner Spear"
 		crafting_template="TwoHandedPolearm"
-		culture="Culture.vlandia"
+		culture="Culture.ikoku"
 		modifier_group="polearm">
 		<Pieces>
 			<Piece
@@ -1374,7 +1374,7 @@
 		id="western_spear_2_t2"
 		name="{=bue69aD4}Simple Short Spear"
 		crafting_template="TwoHandedPolearm"
-		culture="Culture.vlandia"
+		culture="Culture.ikoku"
 		modifier_group="polearm">
 		<Pieces>
 			<Piece
@@ -1391,7 +1391,7 @@
 		id="eastern_spear_1_t2"
 		name="{=yCvBx27Z}Jagged Spear"
 		crafting_template="TwoHandedPolearm"
-		culture="Culture.aserai"
+		culture="Culture.ikoku"
 		modifier_group="polearm">
 		<Pieces>
 			<Piece
@@ -1408,7 +1408,7 @@
 		id="northern_spear_1_t2"
 		name="{=RzLZHrYT}Short Simple Raider Spear"
 		crafting_template="TwoHandedPolearm"
-		culture="Culture.sturgia"
+		culture="Culture.ikoku"
 		modifier_group="polearm">
 		<Pieces>
 			<Piece
@@ -1426,7 +1426,7 @@
 		id="imperial_spear_t2"
 		name="{=Vyw5KNxR}Short Militia Spear"
 		crafting_template="TwoHandedPolearm"
-		culture="Culture.empire"
+		culture="Culture.ikoku"
 		modifier_group="polearm">
 		<Pieces>
 			<Piece
@@ -1443,7 +1443,7 @@
 		id="highland_spear_t2"
 		name="{=rhWOdhjr}Highland War Spear"
 		crafting_template="TwoHandedPolearm"
-		culture="Culture.battania"
+		culture="Culture.ikoku"
 		modifier_group="polearm">
 		<Pieces>
 			<Piece
@@ -1465,7 +1465,7 @@
 		id="military_fork_t2"
 		name="{=FbG3CW5p}Military Fork"
 		crafting_template="TwoHandedPolearm"
-		culture="Culture.sturgia"
+		culture="Culture.ikoku"
 		modifier_group="polearm">
 		<Pieces>
 			<Piece
@@ -1484,7 +1484,7 @@
 		id="western_spear_3_t3"
 		name="{=WQksMqMR}Tall Tipped Long Spear"
 		crafting_template="TwoHandedPolearm"
-		culture="Culture.vlandia"
+		culture="Culture.ikoku"
 		modifier_group="polearm">
 		<Pieces>
 			<Piece
@@ -1505,7 +1505,7 @@
 		id="western_spear_4_t3"
 		name="{=NFT4sLva}Tall Tipped Spear"
 		crafting_template="TwoHandedPolearm"
-		culture="Culture.vlandia"
+		culture="Culture.ikoku"
 		modifier_group="polearm">
 		<Pieces>
 			<Piece
@@ -1522,7 +1522,7 @@
 		id="eastern_spear_2_t3"
 		name="{=G7EbBKuA}Narrow Long Headed Spear"
 		crafting_template="TwoHandedPolearm"
-		culture="Culture.khuzait"
+		culture="Culture.ikoku"
 		modifier_group="polearm">
 		<Pieces>
 			<Piece
@@ -1539,7 +1539,7 @@
 		id="eastern_spear_3_t3"
 		name="{=YGndAhTr}Weighted Steppe Spear"
 		crafting_template="TwoHandedPolearm"
-		culture="Culture.khuzait"
+		culture="Culture.ikoku"
 		modifier_group="polearm">
 		<Pieces>
 			<Piece
@@ -1562,7 +1562,7 @@
 		id="highland_spear_3_t3"
 		name="{=HVcwvRMF}Reinforced Highland Spear"
 		crafting_template="TwoHandedPolearm"
-		culture="Culture.battania"
+		culture="Culture.ikoku"
 		modifier_group="polearm">
 		<Pieces>
 			<Piece
@@ -1579,7 +1579,7 @@
 		id="southern_spear_3_t3"
 		name="{=zH0QF7mE}Knob Headed Spear with Frills"
 		crafting_template="TwoHandedPolearm"
-		culture="Culture.aserai"
+		culture="Culture.ikoku"
 		modifier_group="polearm">
 		<Pieces>
 			<Piece
@@ -1600,7 +1600,7 @@
 		id="southern_spear_4_t3"
 		name="{=IDfl59yt}Knob Headed Spear"
 		crafting_template="TwoHandedPolearm"
-		culture="Culture.aserai"
+		culture="Culture.ikoku"
 		modifier_group="polearm">
 		<Pieces>
 			<Piece
@@ -1621,7 +1621,7 @@
 		id="northern_spear_2_t3"
 		name="{=xTyib5ms}Broad Leaf Shaped Spear"
 		crafting_template="TwoHandedPolearm"
-		culture="Culture.battania"
+		culture="Culture.ikoku"
 		modifier_group="polearm">
 		<Pieces>
 			<Piece
@@ -1642,7 +1642,7 @@
 		id="eastern_throwing_spear_1_t3"
 		name="{=EgrNdBct}Jagged Throwing Spear"
 		crafting_template="TwoHandedPolearm"
-		culture="Culture.khuzait"
+		culture="Culture.ikoku"
 		modifier_group="polearm">
 		<Pieces>
 			<Piece
@@ -1682,7 +1682,7 @@
 		id="western_spear_4_t4"
 		name="{=t28VYqjP}Long Fine Steel Spear"
 		crafting_template="TwoHandedPolearm"
-		culture="Culture.empire"
+		culture="Culture.ikoku"
 		modifier_group="polearm">
 		<Pieces>
 			<Piece
@@ -1707,7 +1707,7 @@
 		id="western_spear_5_t4"
 		name="{=jcOJqWGA}Fine Steel Spear"
 		crafting_template="TwoHandedPolearm"
-		culture="Culture.empire"
+		culture="Culture.ikoku"
 		modifier_group="polearm">
 		<Pieces>
 			<Piece
@@ -1732,7 +1732,7 @@
 		id="eastern_spear_4_t4"
 		name="{=bwXACVOb}Fine Steel Leaf Spear"
 		crafting_template="TwoHandedPolearm"
-		culture="Culture.aserai"
+		culture="Culture.ikoku"
 		modifier_group="polearm">
 		<Pieces>
 			<Piece
@@ -1757,7 +1757,7 @@
 		id="highland_spear_4_t4"
 		name="{=duIWCjdD}Steel Tipped Hooked Spear"
 		crafting_template="TwoHandedPolearm"
-		culture="Culture.battania"
+		culture="Culture.ikoku"
 		modifier_group="polearm">
 		<Pieces>
 			<Piece
@@ -1782,7 +1782,7 @@
 		id="northern_spear_3_t4"
 		name="{=ZLpYFYXo}Jagged Fine Steel Spear"
 		crafting_template="TwoHandedPolearm"
-		culture="Culture.sturgia"
+		culture="Culture.ikoku"
 		modifier_group="polearm">
 		<Pieces>
 			<Piece
@@ -1807,7 +1807,7 @@
 		id="southern_spear_3_t4"
 		name="{=vXYlLH6L}Long Thamaskene Tipped Spear"
 		crafting_template="TwoHandedPolearm"
-		culture="Culture.aserai"
+		culture="Culture.ikoku"
 		modifier_group="polearm">
 		<Pieces>
 			<Piece
@@ -1832,7 +1832,7 @@
 		id="eastern_throwing_spear_2_t4"
 		name="{=kJzIZMBR}Triangular Throwing Spear"
 		crafting_template="TwoHandedPolearm"
-		culture="Culture.khuzait"
+		culture="Culture.ikoku"
 		modifier_group="polearm">
 		<Pieces>
 			<Piece
@@ -1857,7 +1857,7 @@
 		id="imperial_throwing_spear_1_t4"
 		name="{=rkqaCud5}Pilum"
 		crafting_template="TwoHandedPolearm"
-		culture="Culture.empire"
+		culture="Culture.ikoku"
 		modifier_group="polearm">
 		<Pieces>
 			<Piece
@@ -1905,7 +1905,7 @@
 		id="eastern_spear_5_t5"
 		name="{=mWxNSjSP}Thin Fine Steel Hewing Spear"
 		crafting_template="TwoHandedPolearm"
-		culture="Culture.khuzait"
+		culture="Culture.ikoku"
 		modifier_group="polearm">
 		<Pieces>
 			<Piece
@@ -1930,7 +1930,7 @@
 		id="northern_spear_4_t5"
 		name="{=N28bDEhh}Fine Steel Hewing Spear"
 		crafting_template="TwoHandedPolearm"
-		culture="Culture.sturgia"
+		culture="Culture.ikoku"
 		modifier_group="polearm">
 		<Pieces>
 			<Piece
@@ -2035,7 +2035,7 @@
 		id="vlandia_pike_1_t5"
 		name="{=h60wQVVX}Pike"
 		crafting_template="Pike"
-		culture="Culture.vlandia"
+		culture="Culture.ikoku"
 		modifier_group="polearm">
 		<Pieces>
 			<Piece
@@ -2057,7 +2057,7 @@
 		id="billhook_polearm_t2"
 		name="{=Dj64aJKQ}Billhook"
 		crafting_template="TwoHandedPolearm"
-		culture="Culture.vlandia"
+		culture="Culture.ikoku"
 		modifier_group="polearm">
 		<Pieces>
 			<Piece
@@ -2085,7 +2085,7 @@
 		id="sturgia_polearm_1_t5"
 		name="{=160aqzPm}Warrazor"
 		crafting_template="TwoHandedPolearm"
-		culture="Culture.sturgia"
+		culture="Culture.ikoku"
 		modifier_group="polearm">
 		<Pieces>
 			<Piece
@@ -2110,7 +2110,7 @@
 		id="empire_polearm_1_t4"
 		name="{=7LmUe8fQ}Menavlion"
 		crafting_template="TwoHandedPolearm"
-		culture="Culture.empire"
+		culture="Culture.ikoku"
 		modifier_group="polearm">
 		<Pieces>
 			<Piece
@@ -2135,7 +2135,7 @@
 		id="khuzait_polearm_1_t4"
 		name="{=6hwZwODh}Glaive"
 		crafting_template="TwoHandedPolearm"
-		culture="Culture.khuzait"
+		culture="Culture.ikoku"
 		modifier_group="polearm">
 		<Pieces>
 			<Piece
@@ -2161,7 +2161,7 @@
 		id="easter_polesword_t4"
 		name="{=1mCmYNl6}Polesword"
 		crafting_template="TwoHandedPolearm"
-		culture="Culture.aserai"
+		culture="Culture.ikoku"
 		modifier_group="polearm">
 		<Pieces>
 			<Piece
@@ -2186,7 +2186,7 @@
 		id="battania_polearm_1_t5"
 		name="{=V4b2ZRTH}Rhomphaia"
 		crafting_template="TwoHandedPolearm"
-		culture="Culture.battania"
+		culture="Culture.ikoku"
 		modifier_group="polearm">
 		<Pieces>
 			<Piece
@@ -2213,7 +2213,7 @@
 		id="vlandia_polearm_1_t5"
 		name="{=zbsajPMp}Voulge"
 		crafting_template="TwoHandedPolearm"
-		culture="Culture.vlandia"
+		culture="Culture.ikoku"
 		modifier_group="polearm">
 		<Pieces>
 			<Piece
@@ -2238,7 +2238,7 @@
 		id="empire_polearm_2_t5"
 		name="{=UunjXpgb}Fine Steel Menavlion"
 		crafting_template="TwoHandedPolearm"
-		culture="Culture.empire"
+		culture="Culture.ikoku"
 		modifier_group="polearm">
 		<Pieces>
 			<Piece
@@ -2263,7 +2263,7 @@
 		id="khuzait_polearm_2_t5"
 		name="{=JxV66l02}Long Glaive"
 		crafting_template="TwoHandedPolearm"
-		culture="Culture.khuzait"
+		culture="Culture.ikoku"
 		modifier_group="polearm">
 		<Pieces>
 			<Piece
@@ -2292,7 +2292,7 @@
 		id="vlandia_lance_1_t3"
 		name="{=j4XraSN6}Light Lance"
 		crafting_template="TwoHandedPolearm"
-		culture="Culture.vlandia"
+		culture="Culture.ikoku"
 		modifier_group="polearm">
 		<Pieces>
 			<Piece
@@ -2309,7 +2309,7 @@
 		id="empire_lance_1_t3"
 		name="{=TQ1MVhIX}Light Cavalry Lance"
 		crafting_template="TwoHandedPolearm"
-		culture="Culture.empire"
+		culture="Culture.ikoku"
 		modifier_group="polearm">
 		<Pieces>
 			<Piece
@@ -2326,7 +2326,7 @@
 		id="khuzait_lance_1_t3"
 		name="{=UWvOndG0}Light Steppe Rider Lance"
 		crafting_template="TwoHandedPolearm"
-		culture="Culture.khuzait"
+		culture="Culture.ikoku"
 		modifier_group="polearm">
 		<Pieces>
 			<Piece
@@ -2349,7 +2349,7 @@
 		id="aserai_lance_1_t5"
 		name="{=hsRwbHSk}Mamluke Lance"
 		crafting_template="TwoHandedPolearm"
-		culture="Culture.aserai"
+		culture="Culture.ikoku"
 		modifier_group="polearm">
 		<Pieces>
 			<Piece
@@ -2366,7 +2366,7 @@
 		id="vlandia_lance_2_t4"
 		name="{=o5kKAbRu}Knight Lance"
 		crafting_template="TwoHandedPolearm"
-		culture="Culture.vlandia"
+		culture="Culture.ikoku"
 		modifier_group="polearm">
 		<Pieces>
 			<Piece
@@ -2383,7 +2383,7 @@
 		id="empire_lance_2_t4"
 		name="{=VP74qdJ3}Courser Lance"
 		crafting_template="TwoHandedPolearm"
-		culture="Culture.empire"
+		culture="Culture.ikoku"
 		modifier_group="polearm">
 		<Pieces>
 			<Piece
@@ -2400,7 +2400,7 @@
 		id="sturgia_lance_1_t4"
 		name="{=3yh33obu}Druzhinnik Lance"
 		crafting_template="TwoHandedPolearm"
-		culture="Culture.sturgia"
+		culture="Culture.ikoku"
 		modifier_group="polearm">
 		<Pieces>
 			<Piece
@@ -2417,7 +2417,7 @@
 		id="khuzait_lance_2_t4"
 		name="{=k9bmPuTB}Heavy Cavalry Lance"
 		crafting_template="TwoHandedPolearm"
-		culture="Culture.khuzait"
+		culture="Culture.ikoku"
 		modifier_group="polearm">
 		<Pieces>
 			<Piece
@@ -2436,7 +2436,7 @@
 		id="vlandia_lance_3_t5"
 		name="{=sWUbsPty}Heavy Knight Lance"
 		crafting_template="TwoHandedPolearm"
-		culture="Culture.vlandia"
+		culture="Culture.ikoku"
 		modifier_group="polearm">
 		<Pieces>
 			<Piece
@@ -2453,7 +2453,7 @@
 		id="sturgia_lance_2_t5"
 		name="{=tzoARfAm}Heavy Druzhinnik Lance"
 		crafting_template="TwoHandedPolearm"
-		culture="Culture.sturgia"
+		culture="Culture.ikoku"
 		modifier_group="polearm">
 		<Pieces>
 			<Piece
@@ -2470,7 +2470,7 @@
 		id="empire_lance_3_t5"
 		name="{=eND6ECxg}Cataphract Lance"
 		crafting_template="TwoHandedPolearm"
-		culture="Culture.empire"
+		culture="Culture.ikoku"
 		modifier_group="polearm">
 		<Pieces>
 			<Piece
@@ -2487,7 +2487,7 @@
 		id="khuzait_lance_3_t5"
 		name="{=EBRG6qbv}Noble Cavalry Lance"
 		crafting_template="TwoHandedPolearm"
-		culture="Culture.khuzait"
+		culture="Culture.ikoku"
 		modifier_group="polearm">
 		<Pieces>
 			<Piece
@@ -2516,7 +2516,7 @@
 		id="vlandia_sword_1_t2"
 		name="{=w9RLq82l}Iron Arming Sword"
 		crafting_template="OneHandedSword"
-		culture="Culture.vlandia"
+		culture="Culture.ikoku"
 		modifier_group="sword">
 		<Pieces>
 			<Piece
@@ -2541,7 +2541,7 @@
 		id="empire_sword_1_t2"
 		name="{=1CamO1P3}Iron Spatha"
 		crafting_template="OneHandedSword"
-		culture="Culture.empire"
+		culture="Culture.ikoku"
 		modifier_group="sword">
 		<Pieces>
 			<Piece
@@ -2566,7 +2566,7 @@
 		id="aserai_sword_1_t2"
 		name="{=fHj6NbWy}Iron Flyssa"
 		crafting_template="OneHandedSword"
-		culture="Culture.aserai"
+		culture="Culture.ikoku"
 		modifier_group="sword">
 		<Pieces>
 			<Piece
@@ -2591,7 +2591,7 @@
 		id="aserai_sword_2_t2"
 		name="{=JPByibJQ}Iron Scimitar"
 		crafting_template="OneHandedSword"
-		culture="Culture.aserai"
+		culture="Culture.ikoku"
 		modifier_group="sword">
 		<Pieces>
 			<Piece
@@ -2616,7 +2616,7 @@
 		id="khuzait_sword_1_t2"
 		name="{=QjdyYS0m}Iron Saber"
 		crafting_template="OneHandedSword"
-		culture="Culture.khuzait"
+		culture="Culture.ikoku"
 		modifier_group="sword">
 		<Pieces>
 			<Piece
@@ -2641,7 +2641,7 @@
 		id="sturgia_sword_1_t2"
 		name="{=Ag6dujzl}Tapered Blade"
 		crafting_template="OneHandedSword"
-		culture="Culture.sturgia"
+		culture="Culture.ikoku"
 		modifier_group="sword">
 		<Pieces>
 			<Piece
@@ -2666,7 +2666,7 @@
 		id="battania_sword_1_t2"
 		name="{=habJjtmv}Ridged Iron Broadsword"
 		crafting_template="OneHandedSword"
-		culture="Culture.battania"
+		culture="Culture.ikoku"
 		modifier_group="sword">
 		<Pieces>
 			<Piece
@@ -2715,7 +2715,7 @@
 		id="simple_sabre_sword_t2"
 		name="{=oQmUlQWp}Simple Saber "
 		crafting_template="OneHandedSword"
-		culture="Culture.khuzait"
+		culture="Culture.ikoku"
 		modifier_group="sword">
 		<Pieces>
 			<Piece
@@ -2740,7 +2740,7 @@
 		id="simple_back_sword_t2"
 		name="{=IK2Z9zWk}Simple Scimitar"
 		crafting_template="OneHandedSword"
-		culture="Culture.khuzait"
+		culture="Culture.ikoku"
 		modifier_group="sword">
 		<Pieces>
 			<Piece
@@ -2765,7 +2765,7 @@
 		id="iron_spatha_sword_t2"
 		name="{=1CamO1P3}Iron Spatha"
 		crafting_template="OneHandedSword"
-		culture="Culture.empire"
+		culture="Culture.ikoku"
 		modifier_group="sword">
 		<Pieces>
 			<Piece
@@ -2792,7 +2792,7 @@
 		id="vlandia_sword_2_t3"
 		name="{=ha3rVEzP}Ridged Tipped Arming Sword"
 		crafting_template="OneHandedSword"
-		culture="Culture.vlandia"
+		culture="Culture.ikoku"
 		modifier_group="sword">
 		<Pieces>
 			<Piece
@@ -2817,7 +2817,7 @@
 		id="empire_sword_2_t3"
 		name="{=4OaVIYuD}Spatha With Narrow Fuller"
 		crafting_template="OneHandedSword"
-		culture="Culture.empire"
+		culture="Culture.ikoku"
 		modifier_group="sword">
 		<Pieces>
 			<Piece
@@ -2842,7 +2842,7 @@
 		id="empire_sword_3_t3"
 		name="{=M2wvaObX}Spatha"
 		crafting_template="OneHandedSword"
-		culture="Culture.empire"
+		culture="Culture.ikoku"
 		modifier_group="sword">
 		<Pieces>
 			<Piece
@@ -2867,7 +2867,7 @@
 		id="aserai_sword_3_t3"
 		name="{=bANXyotg}Slightly Ridged Flyssa"
 		crafting_template="OneHandedSword"
-		culture="Culture.aserai"
+		culture="Culture.ikoku"
 		modifier_group="sword">
 		<Pieces>
 			<Piece
@@ -2892,7 +2892,7 @@
 		id="khuzait_sword_2_t3"
 		name="{=jSspzlmR}Straight Saber"
 		crafting_template="OneHandedSword"
-		culture="Culture.khuzait"
+		culture="Culture.ikoku"
 		modifier_group="sword">
 		<Pieces>
 			<Piece
@@ -2917,7 +2917,7 @@
 		id="khuzait_sword_3_t3"
 		name="{=eaALL6uO}Long Saber"
 		crafting_template="OneHandedSword"
-		culture="Culture.khuzait"
+		culture="Culture.ikoku"
 		modifier_group="sword">
 		<Pieces>
 			<Piece
@@ -2942,7 +2942,7 @@
 		id="sturgia_sword_2_t3"
 		name="{=FQHaFsyQ}Backsword"
 		crafting_template="OneHandedSword"
-		culture="Culture.sturgia"
+		culture="Culture.ikoku"
 		modifier_group="sword">
 		<Pieces>
 			<Piece
@@ -2967,7 +2967,7 @@
 		id="sturgia_sword_3_t3"
 		name="{=MRIdGqhA}Pointy Warsword"
 		crafting_template="OneHandedSword"
-		culture="Culture.sturgia"
+		culture="Culture.ikoku"
 		modifier_group="sword">
 		<Pieces>
 			<Piece
@@ -2992,7 +2992,7 @@
 		id="battania_sword_2_t3"
 		name="{=HwO0AYul}Broad Ridged Shortsword"
 		crafting_template="OneHandedSword"
-		culture="Culture.battania"
+		culture="Culture.ikoku"
 		modifier_group="sword">
 		<Pieces>
 			<Piece
@@ -3017,7 +3017,7 @@
 		id="battania_sword_3_t3"
 		name="{=8jEDX9J4}Broadsword"
 		crafting_template="OneHandedSword"
-		culture="Culture.battania"
+		culture="Culture.ikoku"
 		modifier_group="sword">
 		<Pieces>
 			<Piece
@@ -3090,7 +3090,7 @@
 		id="broad_ild_sword_t3"
 		name="{=e8amL6a1}Broad Ild"
 		crafting_template="OneHandedSword"
-		culture="Culture.khuzait"
+		culture="Culture.ikoku"
 		modifier_group="sword">
 		<Pieces>
 			<Piece
@@ -3189,7 +3189,7 @@
 		id="vlandia_sword_3_t4"
 		name="{=8mpp8ZCL}Knightly Arming Sword"
 		crafting_template="OneHandedSword"
-		culture="Culture.vlandia"
+		culture="Culture.ikoku"
 		modifier_group="sword">
 		<Pieces>
 			<Piece
@@ -3214,7 +3214,7 @@
 		id="vlandia_sword_4_t4"
 		name="{=ksxylfU4}Ridged Arming Sword"
 		crafting_template="OneHandedSword"
-		culture="Culture.vlandia"
+		culture="Culture.ikoku"
 		modifier_group="sword">
 		<Pieces>
 			<Piece
@@ -3239,7 +3239,7 @@
 		id="empire_sword_4_t4"
 		name="{=AMIdBVZb}Fine Steel Spatha"
 		crafting_template="OneHandedSword"
-		culture="Culture.empire"
+		culture="Culture.ikoku"
 		modifier_group="sword">
 		<Pieces>
 			<Piece
@@ -3264,7 +3264,7 @@
 		id="empire_sword_5_t4"
 		name="{=OLTUHPaD}Fine Steel Paramerion"
 		crafting_template="OneHandedSword"
-		culture="Culture.empire"
+		culture="Culture.ikoku"
 		modifier_group="sword">
 		<Pieces>
 			<Piece
@@ -3289,7 +3289,7 @@
 		id="aserai_sword_4_t4"
 		name="{=dCbrowBV}Fine Steel Long Kaskara"
 		crafting_template="OneHandedSword"
-		culture="Culture.aserai"
+		culture="Culture.ikoku"
 		modifier_group="sword">
 		<Pieces>
 			<Piece
@@ -3314,7 +3314,7 @@
 		id="aserai_sword_5_t4"
 		name="{=fuyj7s3F}Long Fine Steel Scimitar"
 		crafting_template="OneHandedSword"
-		culture="Culture.aserai"
+		culture="Culture.ikoku"
 		modifier_group="sword">
 		<Pieces>
 			<Piece
@@ -3339,7 +3339,7 @@
 		id="aserai_sword_6_t4"
 		name="{=Yd4lmlQp}Narrow Fine Steel Kaskara"
 		crafting_template="OneHandedSword"
-		culture="Culture.aserai"
+		culture="Culture.ikoku"
 		modifier_group="sword">
 		<Pieces>
 			<Piece
@@ -3364,7 +3364,7 @@
 		id="khuzait_sword_4_t4"
 		name="{=gadEbFyj}Fine Steel Saber"
 		crafting_template="OneHandedSword"
-		culture="Culture.khuzait"
+		culture="Culture.ikoku"
 		modifier_group="sword">
 		<Pieces>
 			<Piece
@@ -3389,7 +3389,7 @@
 		id="khuzait_sword_5_t4"
 		name="{=4YTJJaTG}Heavy Sabre"
 		crafting_template="OneHandedSword"
-		culture="Culture.khuzait"
+		culture="Culture.ikoku"
 		modifier_group="sword">
 		<Pieces>
 			<Piece
@@ -3414,7 +3414,7 @@
 		id="sturgia_sword_4_t4"
 		name="{=EadnjRjs}Long Warsword"
 		crafting_template="OneHandedSword"
-		culture="Culture.sturgia"
+		culture="Culture.ikoku"
 		modifier_group="sword">
 		<Pieces>
 			<Piece
@@ -3439,7 +3439,7 @@
 		id="sturgia_sword_5_t4"
 		name="{=SGdY9jmK}Fullered Narrow Warsword"
 		crafting_template="OneHandedSword"
-		culture="Culture.sturgia"
+		culture="Culture.ikoku"
 		modifier_group="sword">
 		<Pieces>
 			<Piece
@@ -3464,7 +3464,7 @@
 		id="battania_sword_4_t4"
 		name="{=57jpWo7g}Fine Steel Cavalry Broadsword"
 		crafting_template="OneHandedSword"
-		culture="Culture.battania"
+		culture="Culture.ikoku"
 		modifier_group="sword">
 		<Pieces>
 			<Piece
@@ -3513,7 +3513,7 @@
 		id="ridged_sabre_sword_t4"
 		name="{=8fK5E68M}Ridged Saber "
 		crafting_template="OneHandedSword"
-		culture="Culture.aserai"
+		culture="Culture.ikoku"
 		modifier_group="sword">
 		<Pieces>
 			<Piece
@@ -3562,7 +3562,7 @@
 		id="desert_long_sword_t4"
 		name="{=gsGjXj8J}Desert Long Sword"
 		crafting_template="OneHandedSword"
-		culture="Culture.aserai"
+		culture="Culture.ikoku"
 		modifier_group="sword">
 		<Pieces>
 			<Piece
@@ -3589,7 +3589,7 @@
 		id="vlandia_sword_5_t5"
 		name="{=VAcSEseI}Wide Fullered Broad Arming Sword"
 		crafting_template="OneHandedSword"
-		culture="Culture.vlandia"
+		culture="Culture.ikoku"
 		modifier_group="sword">
 		<Pieces>
 			<Piece
@@ -3614,7 +3614,7 @@
 		id="empire_sword_6_t5"
 		name="{=1bc4kTaz}Thamaskene Steel Spathion"
 		crafting_template="OneHandedSword"
-		culture="Culture.empire"
+		culture="Culture.ikoku"
 		modifier_group="sword">
 		<Pieces>
 			<Piece
@@ -3639,7 +3639,7 @@
 		id="aserai_sword_7_t5"
 		name="{=zBUT90xQ}Thamaskene Steel Kaskara"
 		crafting_template="OneHandedSword"
-		culture="Culture.aserai"
+		culture="Culture.ikoku"
 		modifier_group="sword">
 		<Pieces>
 			<Piece
@@ -3664,7 +3664,7 @@
 		id="sturgia_sword_5_t5"
 		name="{=jfWzICId}Fullered Long Warsword"
 		crafting_template="OneHandedSword"
-		culture="Culture.sturgia"
+		culture="Culture.ikoku"
 		modifier_group="sword">
 		<Pieces>
 			<Piece
@@ -3689,7 +3689,7 @@
 		id="battania_sword_5_t5"
 		name="{=l9kAJ1Xh}Highland Broad Blade"
 		crafting_template="OneHandedSword"
-		culture="Culture.battania"
+		culture="Culture.ikoku"
 		modifier_group="sword">
 		<Pieces>
 			<Piece
@@ -3715,7 +3715,7 @@
 		name="{=Zcaucj4W}Decorated Arming Sword"
 		crafting_template="OneHandedSword"
 		is_merchandise="false"
-		culture="Culture.vlandia"
+		culture="Culture.ikoku"
 		modifier_group="sword">
 		<Pieces>
 			<Piece
@@ -3741,7 +3741,7 @@
 		name="{=ZsaukY0N}Arming Sword with Circle"
 		crafting_template="OneHandedSword"
 		is_merchandise="false"
-		culture="Culture.vlandia"
+		culture="Culture.ikoku"
 		modifier_group="sword">
 		<Pieces>
 			<Piece
@@ -3767,7 +3767,7 @@
 		name="{=P9FUrH8a}Gold Engraved Arming Sword"
 		crafting_template="OneHandedSword"
 		is_merchandise="false"
-		culture="Culture.vlandia"
+		culture="Culture.ikoku"
 		modifier_group="sword">
 		<Pieces>
 			<Piece
@@ -3793,7 +3793,7 @@
 		name="{=4q69NwNy}Crescent Guarded Arming Sword"
 		crafting_template="OneHandedSword"
 		is_merchandise="false"
-		culture="Culture.vlandia"
+		culture="Culture.ikoku"
 		modifier_group="sword">
 		<Pieces>
 			<Piece
@@ -3815,7 +3815,7 @@
 		name="{=GyYsQlVd}Decorated Short Spatha"
 		crafting_template="OneHandedSword"
 		is_merchandise="false"
-		culture="Culture.empire"
+		culture="Culture.ikoku"
 		modifier_group="sword">
 		<Pieces>
 			<Piece
@@ -3841,7 +3841,7 @@
 		name="{=Rcc0JW6H}Thamaskene Steel Spatha"
 		crafting_template="OneHandedSword"
 		is_merchandise="false"
-		culture="Culture.empire"
+		culture="Culture.ikoku"
 		modifier_group="sword">
 		<Pieces>
 			<Piece
@@ -3867,7 +3867,7 @@
 		name="{=HpdJJO9g}Spatha Blade with Ring Pommel"
 		crafting_template="OneHandedSword"
 		is_merchandise="false"
-		culture="Culture.empire"
+		culture="Culture.ikoku"
 		modifier_group="sword">
 		<Pieces>
 			<Piece
@@ -3893,7 +3893,7 @@
 		name="{=iEbP2INp}Decorated Kaskara"
 		crafting_template="OneHandedSword"
 		is_merchandise="false"
-		culture="Culture.aserai"
+		culture="Culture.ikoku"
 		modifier_group="sword">
 		<Pieces>
 			<Piece
@@ -3919,7 +3919,7 @@
 		name="{=93OHSnEV}Decorated Long Scimitar"
 		crafting_template="OneHandedSword"
 		is_merchandise="false"
-		culture="Culture.aserai"
+		culture="Culture.ikoku"
 		modifier_group="sword">
 		<Pieces>
 			<Piece
@@ -3945,7 +3945,7 @@
 		name="{=bohbzGjg}Decorated Scimitar with Wide Grip"
 		crafting_template="OneHandedSword"
 		is_merchandise="false"
-		culture="Culture.aserai"
+		culture="Culture.ikoku"
 		modifier_group="sword">
 		<Pieces>
 			<Piece
@@ -3971,7 +3971,7 @@
 		name="{=0lNp3f76}Engraved Angular Kaskara"
 		crafting_template="OneHandedSword"
 		is_merchandise="false"
-		culture="Culture.aserai"
+		culture="Culture.ikoku"
 		modifier_group="sword">
 		<Pieces>
 			<Piece
@@ -3997,7 +3997,7 @@
 		name="{=v7WQhge3}Decorated Saber"
 		crafting_template="OneHandedSword"
 		is_merchandise="false"
-		culture="Culture.khuzait"
+		culture="Culture.ikoku"
 		modifier_group="sword">
 		<Pieces>
 			<Piece
@@ -4023,7 +4023,7 @@
 		name="{=a10taTGb}Lion Imprinted Saber"
 		crafting_template="OneHandedSword"
 		is_merchandise="false"
-		culture="Culture.khuzait"
+		culture="Culture.ikoku"
 		modifier_group="sword">
 		<Pieces>
 			<Piece
@@ -4049,7 +4049,7 @@
 		name="{=tpUzcdY6}Tall Gripped Ild Sword"
 		crafting_template="OneHandedSword"
 		is_merchandise="false"
-		culture="Culture.khuzait"
+		culture="Culture.ikoku"
 		modifier_group="sword">
 		<Pieces>
 			<Piece
@@ -4075,7 +4075,7 @@
 		name="{=lXwaLAYP}Thamaskene Steel Warsword"
 		crafting_template="OneHandedSword"
 		is_merchandise="false"
-		culture="Culture.sturgia"
+		culture="Culture.ikoku"
 		modifier_group="sword">
 		<Pieces>
 			<Piece
@@ -4101,7 +4101,7 @@
 		name="{=4wQRk3f5}Decorated Long Warsword"
 		crafting_template="OneHandedSword"
 		is_merchandise="false"
-		culture="Culture.sturgia"
+		culture="Culture.ikoku"
 		modifier_group="sword">
 		<Pieces>
 			<Piece
@@ -4127,7 +4127,7 @@
 		name="{=QA5zGCKf}Decorated Fullered Sword"
 		crafting_template="OneHandedSword"
 		is_merchandise="false"
-		culture="Culture.sturgia"
+		culture="Culture.ikoku"
 		modifier_group="sword">
 		<Pieces>
 			<Piece
@@ -4153,7 +4153,7 @@
 		name="{=06Qoh8AO}Gold Bound Short Warsword"
 		crafting_template="OneHandedSword"
 		is_merchandise="false"
-		culture="Culture.sturgia"
+		culture="Culture.ikoku"
 		modifier_group="sword">
 		<Pieces>
 			<Piece
@@ -4179,7 +4179,7 @@
 		name="{=VucrovFw}Engraved Backsword"
 		crafting_template="OneHandedSword"
 		is_merchandise="false"
-		culture="Culture.battania"
+		culture="Culture.ikoku"
 		modifier_group="sword">
 		<Pieces>
 			<Piece
@@ -4205,7 +4205,7 @@
 		name="{=finesteelbladeweapon}Highland Fine Steel Blade"
 		crafting_template="OneHandedSword"
 		is_merchandise="false"
-		culture="Culture.battania"
+		culture="Culture.ikoku"
 		modifier_group="sword">
 		<Pieces>
 			<Piece
@@ -4231,7 +4231,7 @@
 		name="{=Cr5ak47X}Decorated Broadsword"
 		crafting_template="OneHandedSword"
 		is_merchandise="false"
-		culture="Culture.battania"
+		culture="Culture.ikoku"
 		modifier_group="sword">
 		<Pieces>
 			<Piece
@@ -4260,7 +4260,7 @@
 		id="battania_2hsword_1_t2"
 		name="{=DQaV0i5W}Iron Broadsword"
 		crafting_template="TwoHandedSword"
-		culture="Culture.battania"
+		culture="Culture.ikoku"
 		modifier_group="sword">
 		<Pieces>
 			<Piece
@@ -4307,7 +4307,7 @@
 		id="battania_2hsword_2_t3"
 		name="{=YrAVxmFn}Highland Broadsword"
 		crafting_template="TwoHandedSword"
-		culture="Culture.battania"
+		culture="Culture.ikoku"
 		modifier_group="sword">
 		<Pieces>
 			<Piece
@@ -4332,7 +4332,7 @@
 		id="battania_2hsword_3_t3"
 		name="{=NaaM2O2g}Northlander Wide Fullered Greatsword"
 		crafting_template="TwoHandedSword"
-		culture="Culture.battania"
+		culture="Culture.ikoku"
 		modifier_group="sword">
 		<Pieces>
 			<Piece
@@ -4381,7 +4381,7 @@
 		id="western_2hsword_t3"
 		name="{=ekUvh8Em}Tapered Two-Hander"
 		crafting_template="TwoHandedSword"
-		culture="Culture.vlandia"
+		culture="Culture.ikoku"
 		modifier_group="sword">
 		<Pieces>
 			<Piece
@@ -4406,7 +4406,7 @@
 		id="kaskara_2hsword_t3"
 		name="{=24MA4JLX}Ridged Long Kaskara"
 		crafting_template="TwoHandedSword"
-		culture="Culture.aserai"
+		culture="Culture.ikoku"
 		modifier_group="sword">
 		<Pieces>
 			<Piece
@@ -4433,7 +4433,7 @@
 		id="battania_2hsword_4_t4"
 		name="{=QLcP8bIs}Falx"
 		crafting_template="TwoHandedSword"
-		culture="Culture.battania"
+		culture="Culture.ikoku"
 		modifier_group="sword">
 		<Pieces>
 			<Piece
@@ -4458,7 +4458,7 @@
 		id="northern_2hsword_t4"
 		name="{=1WxLaeQE}Fine Steel Two Handed Sword"
 		crafting_template="TwoHandedSword"
-		culture="Culture.sturgia"
+		culture="Culture.ikoku"
 		modifier_group="sword">
 		<Pieces>
 			<Piece
@@ -4483,7 +4483,7 @@
 		id="battania_2hsword_5_t4"
 		name="{=WUasz2kP}Highland Fine Two Handed Sword"
 		crafting_template="TwoHandedSword"
-		culture="Culture.battania"
+		culture="Culture.ikoku"
 		modifier_group="sword">
 		<Pieces>
 			<Piece
@@ -4508,7 +4508,7 @@
 		id="western_2hsword_t4"
 		name="{=rtRGq1uU}Broad Two Hander"
 		crafting_template="TwoHandedSword"
-		culture="Culture.vlandia"
+		culture="Culture.ikoku"
 		modifier_group="sword">
 		<Pieces>
 			<Piece
@@ -4581,7 +4581,7 @@
 		id="southern_broad_2hsword_t4"
 		name="{=LVQworUy}Broad Kaskara"
 		crafting_template="TwoHandedSword"
-		culture="Culture.aserai"
+		culture="Culture.ikoku"
 		modifier_group="sword">
 		<Pieces>
 			<Piece
@@ -4608,7 +4608,7 @@
 		id="battania_2hsword_5_t5"
 		name="{=62nIvqbA}Battanian Mountain Blade"
 		crafting_template="TwoHandedSword"
-		culture="Culture.battania"
+		culture="Culture.ikoku"
 		modifier_group="sword">
 		<Pieces>
 			<Piece
@@ -4633,7 +4633,7 @@
 		id="vlandia_2hsword_1_t5"
 		name="{=9ZiUK3JJ}Wide Fullered Broad Two Hander"
 		crafting_template="TwoHandedSword"
-		culture="Culture.vlandia"
+		culture="Culture.ikoku"
 		modifier_group="sword">
 		<Pieces>
 			<Piece
@@ -4658,7 +4658,7 @@
 		id="vlandia_2hsword_2_t5"
 		name="{=VAO11FSu}Thamaskene Steel Two Hander"
 		crafting_template="TwoHandedSword"
-		culture="Culture.vlandia"
+		culture="Culture.ikoku"
 		modifier_group="sword">
 		<Pieces>
 			<Piece
@@ -4686,7 +4686,7 @@
 		id="seax"
 		name="{=3Pv0SlYj}Seax"
 		crafting_template="Dagger"
-		culture="Culture.sturgia"
+		culture="Culture.ikoku"
 		modifier_group="sword">
 		<Pieces>
 			<Piece
@@ -4711,7 +4711,7 @@
 		id="celtic_dagger"
 		name="{=vPXWpJTP}Highland Dagger"
 		crafting_template="Dagger"
-		culture="Culture.battania"
+		culture="Culture.ikoku"
 		modifier_group="sword">
 		<Pieces>
 			<Piece
@@ -4734,7 +4734,7 @@
 		id="pugio"
 		name="{=bVzkrtUc}Pugio"
 		crafting_template="Dagger"
-		culture="Culture.empire"
+		culture="Culture.ikoku"
 		modifier_group="sword">
 		<Pieces>
 			<Piece
@@ -4759,7 +4759,7 @@
 		id="hooked_cleaver"
 		name="{=elTXYb9f}Falx Knife"
 		crafting_template="Dagger"
-		culture="Culture.battania"
+		culture="Culture.ikoku"
 		modifier_group="sword">
 		<Pieces>
 			<Piece
@@ -4782,7 +4782,7 @@
 		id="gladius_b"
 		name="{=AOZbTGOS}Xiphos"
 		crafting_template="Dagger"
-		culture="Culture.empire"
+		culture="Culture.ikoku"
 		modifier_group="sword">
 		<Pieces>
 			<Piece
@@ -4810,7 +4810,7 @@
 		id="vlandia_mace_1_t2"
 		name="{=7jH0kuof}Spiked Mace"
 		crafting_template="Mace"
-		culture="Culture.vlandia"
+		culture="Culture.ikoku"
 		modifier_group="mace">
 		<Pieces>
 			<Piece
@@ -4827,7 +4827,7 @@
 		id="empire_mace_1_t2"
 		name="{=HaK3y9yi}Spiked Club"
 		crafting_template="Mace"
-		culture="Culture.empire"
+		culture="Culture.ikoku"
 		modifier_group="mace">
 		<Pieces>
 			<Piece
@@ -4844,7 +4844,7 @@
 		id="aserai_mace_1_t2"
 		name="{=wxL5TdDv}Militia Mace"
 		crafting_template="Mace"
-		culture="Culture.aserai"
+		culture="Culture.ikoku"
 		modifier_group="mace">
 		<Pieces>
 			<Piece
@@ -4861,7 +4861,7 @@
 		id="aserai_mace_2_t2"
 		name="{=6QI8X6CY}Fullered Light Mace"
 		crafting_template="Mace"
-		culture="Culture.aserai"
+		culture="Culture.ikoku"
 		modifier_group="mace">
 		<Pieces>
 			<Piece
@@ -4878,7 +4878,7 @@
 		id="khuzait_mace_1_t2"
 		name="{=N8VJWdVY}Steppe Light Mace"
 		crafting_template="Mace"
-		culture="Culture.khuzait"
+		culture="Culture.ikoku"
 		modifier_group="mace">
 		<Pieces>
 			<Piece
@@ -4897,7 +4897,7 @@
 		id="battania_mace_1_t2"
 		name="{=knobbedclubweapon}Knobbed Club"
 		crafting_template="Mace"
-		culture="Culture.battania"
+		culture="Culture.ikoku"
 		modifier_group="mace">
 		<Pieces>
 			<Piece
@@ -4914,7 +4914,7 @@
 		id="battania_mace_2_t2"
 		name="{=0SpLcthg}Highland Spiked Club"
 		crafting_template="Mace"
-		culture="Culture.battania"
+		culture="Culture.ikoku"
 		modifier_group="mace">
 		<Pieces>
 			<Piece
@@ -4933,7 +4933,7 @@
 		id="aserai_mace_3_t3"
 		name="{=FJDCc3Y2}Heavy Horsemans Mace"
 		crafting_template="Mace"
-		culture="Culture.aserai"
+		culture="Culture.ikoku"
 		modifier_group="mace">
 		<Pieces>
 			<Piece
@@ -4950,7 +4950,7 @@
 		id="battania_mace_1_t3"
 		name="{=9pD32UdV}Highland Mace"
 		crafting_template="Mace"
-		culture="Culture.battania"
+		culture="Culture.ikoku"
 		modifier_group="mace">
 		<Pieces>
 			<Piece
@@ -5023,7 +5023,7 @@
 		id="vlandia_mace_2_t4"
 		name="{=dSTxsYsh}Fullered Cavalry Mace"
 		crafting_template="Mace"
-		culture="Culture.vlandia"
+		culture="Culture.ikoku"
 		modifier_group="mace">
 		<Pieces>
 			<Piece
@@ -5042,7 +5042,7 @@
 		id="empire_mace_2_t4"
 		name="{=4cMV1pY3}Imperial Light Mace"
 		crafting_template="Mace"
-		culture="Culture.empire"
+		culture="Culture.ikoku"
 		modifier_group="mace">
 		<Pieces>
 			<Piece
@@ -5062,7 +5062,7 @@
 		id="empire_mace_3_t4"
 		name="{=YLplNGxb}Calradic Mace"
 		crafting_template="Mace"
-		culture="Culture.empire"
+		culture="Culture.ikoku"
 		modifier_group="mace">
 		<Pieces>
 			<Piece
@@ -5082,7 +5082,7 @@
 		id="aserai_mace_4_t4"
 		name="{=JM8Mjfa0}Spiralled Mace"
 		crafting_template="Mace"
-		culture="Culture.aserai"
+		culture="Culture.ikoku"
 		modifier_group="mace">
 		<Pieces>
 			<Piece
@@ -5099,7 +5099,7 @@
 		id="khuzait_mace_2_t4"
 		name="{=fcgDtZy7}Eastern Heavy Mace"
 		crafting_template="Mace"
-		culture="Culture.khuzait"
+		culture="Culture.ikoku"
 		modifier_group="mace">
 		<Pieces>
 			<Piece
@@ -5116,7 +5116,7 @@
 		id="khuzait_mace_3_t4"
 		name="{=b88lWWOo}Fine Steel Mace"
 		crafting_template="Mace"
-		culture="Culture.khuzait"
+		culture="Culture.ikoku"
 		modifier_group="mace">
 		<Pieces>
 			<Piece
@@ -5133,7 +5133,7 @@
 		id="shishpar_mace_t4"
 		name="{=9EWN9SiT}Light Shishpar Mace"
 		crafting_template="Mace"
-		culture="Culture.aserai"
+		culture="Culture.ikoku"
 		modifier_group="mace">
 		<Pieces>
 			<Piece
@@ -5153,7 +5153,7 @@
 		id="eastern_steel_mace_t4"
 		name="{=xYk4953c}Steel Mace"
 		crafting_template="Mace"
-		culture="Culture.khuzait"
+		culture="Culture.ikoku"
 		modifier_group="mace">
 		<Pieces>
 			<Piece
@@ -5175,7 +5175,7 @@
 		id="vlandia_mace_3_t5"
 		name="{=rnzpyc0N}Pernach"
 		crafting_template="Mace"
-		culture="Culture.vlandia"
+		culture="Culture.ikoku"
 		modifier_group="mace">
 		<Pieces>
 			<Piece
@@ -5195,7 +5195,7 @@
 		id="empire_mace_4_t5"
 		name="{=UMX05EQF}Light Royal Mace"
 		crafting_template="Mace"
-		culture="Culture.empire"
+		culture="Culture.ikoku"
 		modifier_group="mace">
 		<Pieces>
 			<Piece
@@ -5214,7 +5214,7 @@
 		id="empire_mace_5_t5"
 		name="{=Kv4zAMIh}Cataphract Mace"
 		crafting_template="Mace"
-		culture="Culture.empire"
+		culture="Culture.ikoku"
 		modifier_group="mace">
 		<Pieces>
 			<Piece
@@ -5231,7 +5231,7 @@
 		id="khuzait_mace_4_t5"
 		name="{=fz23ajFz}Heavy Flanged Mace"
 		crafting_template="Mace"
-		culture="Culture.khuzait"
+		culture="Culture.ikoku"
 		modifier_group="mace">
 		<Pieces>
 			<Piece
@@ -5256,7 +5256,7 @@
 		name="{=wltdyF2j}Hunting Bow"
 		body_name="bo_composite_shotbow_h"
 		mesh="shortbow_h"
-		culture="Culture.battania"
+		culture="Culture.ikoku"
 		weight="0.3"
 		difficulty="0"
 		appearance="1"
@@ -5296,7 +5296,7 @@
 		name="{=YGQ6UXCo}Mountain Hunting Bow"
 		body_name="bo_composite_shotbow_h"
 		mesh="shortbow_i"
-		culture="Culture.battania"
+		culture="Culture.ikoku"
 		weight="0.3"
 		difficulty="0"
 		appearance="1"
@@ -5336,7 +5336,7 @@
 		name="{=steppebowitem}Steppe Bow"
 		body_name="bo_composite_shotbow_g"
 		mesh="shortbow_g"
-		culture="Culture.khuzait"
+		culture="Culture.ikoku"
 		weight="0.3"
 		difficulty="0"
 		appearance="1"
@@ -5376,7 +5376,7 @@
 		name="{=KTegaNPW}Longbow"
 		body_name="bo_composite_longbow_e"
 		mesh="longbow_f"
-		culture="Culture.battania"
+		culture="Culture.ikoku"
 		weight="0.4"
 		difficulty="15"
 		appearance="1"
@@ -5416,7 +5416,7 @@
 		name="{=mTWvG1xz}Ranger Bow"
 		body_name="bo_composite_longbow_e"
 		mesh="longbow_e"
-		culture="Culture.battania"
+		culture="Culture.ikoku"
 		weight="0.4"
 		difficulty="15"
 		appearance="1"
@@ -5497,7 +5497,7 @@
 		name="{=w6EU77OH}Steppe Recurve Bow"
 		body_name="bo_composite_shotbow_c"
 		mesh="shortbow_d"
-		culture="Culture.khuzait"
+		culture="Culture.ikoku"
 		weight="0.3"
 		difficulty="30"
 		appearance="0.4"
@@ -5537,7 +5537,7 @@
 		name="{=E7miRMw1}Heavy Recurve Bow"
 		body_name="bo_composite_shotbow_b"
 		mesh="shortbow_b"
-		culture="Culture.khuzait"
+		culture="Culture.ikoku"
 		weight="0.3"
 		difficulty="30"
 		appearance="0.4"
@@ -5577,7 +5577,7 @@
 		name="{=tEimkEsU}Nordic Shortbow"
 		body_name="bo_composite_shotbow_c"
 		mesh="shortbow_e"
-		culture="Culture.sturgia"
+		culture="Culture.ikoku"
 		weight="0.3"
 		difficulty="30"
 		appearance="0.6"
@@ -5617,7 +5617,7 @@
 		name="{=A6llHL9s}Lowland Longbow"
 		body_name="bo_composite_longbow_a"
 		mesh="longbow_a"
-		culture="Culture.vlandia"
+		culture="Culture.ikoku"
 		subtype="bow"
 		weight="0.5"
 		difficulty="30"
@@ -5658,7 +5658,7 @@
 		name="{=ZQv5Bcl2}Tribesman Bow"
 		body_name="bo_composite_longbow_g"
 		mesh="longbow_h"
-		culture="Culture.aserai"
+		culture="Culture.ikoku"
 		weight="0.5"
 		difficulty="30"
 		appearance="0.6"
@@ -5700,7 +5700,7 @@
 		name="{=wfhHGTbl}Steppe War Bow"
 		body_name="bo_composite_shotbow_a"
 		mesh="shortbow_a"
-		culture="Culture.khuzait"
+		culture="Culture.ikoku"
 		weight="0.3"
 		difficulty="50"
 		appearance="0.25"
@@ -5740,7 +5740,7 @@
 		name="{=RcCtV0aS}Woodland Yew Bow"
 		body_name="bo_composite_longbow_a"
 		mesh="longbow_d"
-		culture="Culture.battania"
+		culture="Culture.ikoku"
 		weight="0.5"
 		difficulty="50"
 		appearance="0.3"
@@ -5780,7 +5780,7 @@
 		name="{=ZFwKlHIJ}Woodland Longbow"
 		body_name="bo_composite_longbow_a"
 		mesh="longbow_c"
-		culture="Culture.battania"
+		culture="Culture.ikoku"
 		weight="0.1"
 		difficulty="50"
 		appearance="0.1"
@@ -5820,7 +5820,7 @@
 		name="{=OjHwbgeY}Strong Tribesman Bow"
 		body_name="bo_composite_longbow_g"
 		mesh="longbow_i"
-		culture="Culture.aserai"
+		culture="Culture.ikoku"
 		weight="0.3"
 		difficulty="50"
 		appearance="0.1"
@@ -5860,7 +5860,7 @@
 		name="{=ifzgMcrK}Nomad Bow"
 		body_name="bo_composite_longbow_g"
 		mesh="longbow_g"
-		culture="Culture.aserai"
+		culture="Culture.ikoku"
 		weight="0.5"
 		difficulty="50"
 		appearance="0.3"
@@ -5900,7 +5900,7 @@
 		name="{=9YbFEaZ1}Yew Bow"
 		body_name="bo_composite_longbow_a"
 		mesh="longbow_b"
-		culture="Culture.vlandia"
+		culture="Culture.ikoku"
 		difficulty="50"
 		weight="0.5"
 		appearance="0.4"
@@ -6024,7 +6024,7 @@
 		name="{=LAEaH3zB}Simple Light Crossbow"
 		body_name="bo_cross_bow_heavy"
 		mesh="crossbow_a"
-		culture="Culture.empire"
+		culture="Culture.ikoku"
 		weight="1.0"
 		appearance="0.8"
 		difficulty="0"
@@ -6064,7 +6064,7 @@
 		name="{=r07M9xbT}Heavy Crossbow"
 		body_name="bo_cross_bow_heavy"
 		mesh="crossbow_b"
-		culture="Culture.empire"
+		culture="Culture.ikoku"
 		weight="2.7"
 		appearance="0.7"
 		difficulty="20"
@@ -6104,7 +6104,7 @@
 		name="{=0e17RZrZ}Arbalest"
 		body_name="bo_cross_bow_heavy"
 		mesh="crossbow_c"
-		culture="Culture.vlandia"
+		culture="Culture.ikoku"
 		weight="3.0"
 		appearance="0.4"
 		difficulty="20"
@@ -6143,7 +6143,7 @@
 		name="{=K1UFTirG}Light Crossbow"
 		body_name="bo_composite_crossbows"
 		mesh="crossbow_e"
-		culture="Culture.vlandia"
+		culture="Culture.ikoku"
 		weight="2.2"
 		appearance="0.4"
 		difficulty="20"
@@ -6184,7 +6184,7 @@
 		name="{=CPI0wkaZ}Hickory Crossbow"
 		body_name="bo_composite_crossbows"
 		mesh="crossbow_d"
-		culture="Culture.empire"
+		culture="Culture.ikoku"
 		weight="2.2"
 		appearance="0.6"
 		Type="Crossbow"
@@ -6223,7 +6223,7 @@
 		id="crossbow_g"
 		name="{=I1yTY2rx}Fine Light Crossbow"
 		body_name="bo_composite_crossbows"
-		culture="Culture.vlandia"
+		culture="Culture.ikoku"
 		mesh="crossbow_g"
 		weight="2.2"
 		appearance="0.7"
@@ -6265,7 +6265,7 @@
 		name="{=TBW9E2ao}Bound Crossbow"
 		body_name="bo_cross_bow_heavy"
 		mesh="crossbow_f"
-		culture="Culture.vlandia"
+		culture="Culture.ikoku"
 		weight="2.0"
 		appearance="0.8"
 		difficulty="70"
@@ -6333,7 +6333,7 @@
 		id="northern_javelin_1_t2"
 		name="{=1oQWbXJw}Fish Harpoon"
 		crafting_template="Javelin"
-		culture="Culture.sturgia"
+		culture="Culture.ikoku"
 		modifier_group="spear_dart_throwing">
 		<Pieces>
 			<Piece
@@ -6358,7 +6358,7 @@
 		id="eastern_javelin_1_t2"
 		name="{=N0ErUFHS}Jagged Javelin"
 		crafting_template="Javelin"
-		culture="Culture.khuzait"
+		culture="Culture.ikoku"
 		modifier_group="spear_dart_throwing">
 		<Pieces>
 			<Piece
@@ -6385,7 +6385,7 @@
 		id="western_javelin_2_t3"
 		name="{=oV5AhcDl}Lowland Javelin"
 		crafting_template="Javelin"
-		culture="Culture.vlandia"
+		culture="Culture.ikoku"
 		modifier_group="spear_dart_throwing">
 		<Pieces>
 			<Piece
@@ -6410,7 +6410,7 @@
 		id="generic_javelin_1_t3"
 		name="{=YPUDAJDH}Harpoon"
 		crafting_template="Javelin"
-		culture="Culture.sturgia"
+		culture="Culture.ikoku"
 		modifier_group="spear_dart_throwing">
 		<Pieces>
 			<Piece
@@ -6435,7 +6435,7 @@
 		id="northern_javelin_2_t3"
 		name="{=ObGN145P}Woodland Javelin"
 		crafting_template="Javelin"
-		culture="Culture.battania"
+		culture="Culture.ikoku"
 		modifier_group="spear_dart_throwing">
 		<Pieces>
 			<Piece
@@ -6460,7 +6460,7 @@
 		id="eastern_javelin_2_t3"
 		name="{=Th4E7v2h}Horseman Javelin"
 		crafting_template="Javelin"
-		culture="Culture.khuzait"
+		culture="Culture.ikoku"
 		modifier_group="spear_dart_throwing">
 		<Pieces>
 			<Piece
@@ -6487,7 +6487,7 @@
 		id="western_javelin_3_t4"
 		name="{=vmz4vfu5}Hooked Javelin"
 		crafting_template="Javelin"
-		culture="Culture.vlandia"
+		culture="Culture.ikoku"
 		modifier_group="spear_dart_throwing">
 		<Pieces>
 			<Piece
@@ -6512,7 +6512,7 @@
 		id="northern_javelin_3_t4"
 		name="{=ppiy9Cwl}Broad Blade Javelin"
 		crafting_template="Javelin"
-		culture="Culture.sturgia"
+		culture="Culture.ikoku"
 		modifier_group="spear_dart_throwing">
 		<Pieces>
 			<Piece
@@ -6537,7 +6537,7 @@
 		id="eastern_javelin_3_t4"
 		name="{=Z6Ak3H6G}Jereed"
 		crafting_template="Javelin"
-		culture="Culture.aserai"
+		culture="Culture.ikoku"
 		modifier_group="spear_dart_throwing">
 		<Pieces>
 			<Piece
@@ -6566,7 +6566,7 @@
 		id="highland_throwing_axe_1_t2"
 		name="{=GrfnpDxu}Highland Throwing Axe"
 		crafting_template="ThrowingAxe"
-		culture="Culture.battania">
+		culture="Culture.ikoku">
 		<Pieces>
 			<Piece
 				id="axe_craft_4_head"
@@ -6584,7 +6584,7 @@
 		id="southern_throwing_axe_1_t4"
 		name="{=X31qND4N}Tribesman Throwing Axe"
 		crafting_template="ThrowingAxe"
-		culture="Culture.aserai"
+		culture="Culture.ikoku"
 		modifier_group="axe_throwing">
 		<Pieces>
 			<Piece
@@ -6601,7 +6601,7 @@
 		id="northern_throwing_axe_1_t1"
 		name="{=WWRKeqwD}Raider Throwing Axe"
 		crafting_template="ThrowingAxe"
-		culture="Culture.sturgia"
+		culture="Culture.ikoku"
 		modifier_group="axe_throwing">
 		<Pieces>
 			<Piece
@@ -6618,7 +6618,7 @@
 		id="woodland_throwing_axe_1_t1"
 		name="{=GrfnpDxu}Highland Throwing Axe"
 		crafting_template="ThrowingAxe"
-		culture="Culture.battania"
+		culture="Culture.ikoku"
 		modifier_group="axe_throwing">
 		<Pieces>
 			<Piece
@@ -6635,7 +6635,7 @@
 		id="western_throwing_axe_1_t1"
 		name="{=F4xD8gjJ}Francesca"
 		crafting_template="ThrowingAxe"
-		culture="Culture.vlandia"
+		culture="Culture.ikoku"
 		modifier_group="axe_throwing">
 		<Pieces>
 			<Piece
@@ -6652,7 +6652,7 @@
 	<CraftedItem
 		id="lowland_throwing_knife"
 		name="{=zvIax8Kt}Lowland Throwing Knife"
-		culture="Culture.battania"
+		culture="Culture.ikoku"
 		crafting_template="ThrowingKnife"
 		modifier_group="knife_throwing">
 		<Pieces>
@@ -6673,7 +6673,7 @@
 	<CraftedItem
 		id="leafblade_throwing_knife"
 		name="{=te48yHa8}Leafblade Throwing Knife"
-		culture="Culture.battania"
+		culture="Culture.ikoku"
 		crafting_template="ThrowingKnife"
 		modifier_group="knife_throwing">
 		<Pieces>
@@ -6697,7 +6697,7 @@
 		id="desert_throwing_knife"
 		name="{=JXSZelwE}Tribesman Throwing Daggers"
 		crafting_template="ThrowingKnife"
-		culture="Culture.aserai"
+		culture="Culture.ikoku"
 		modifier_group="knife_throwing">
 		<Pieces>
 			<Piece
@@ -6720,7 +6720,7 @@
 		id="celtic_throwing_dagger"
 		name="{=koOrDa9q}Highland Throwing Dagger"
 		crafting_template="ThrowingKnife"
-		culture="Culture.battania"
+		culture="Culture.ikoku"
 		modifier_group="knife_throwing">
 		<Pieces>
 			<Piece
@@ -6742,7 +6742,7 @@
 		id="empire_throwingknife_t5"
 		name="{=QA3k2I4A}Broad Bladed Throwing Knives"
 		crafting_template="ThrowingKnife"
-		culture="Culture.empire"
+		culture="Culture.ikoku"
 		modifier_group="knife_throwing">
 		<Pieces>
 			<Piece
@@ -7259,7 +7259,7 @@
 		mesh="arrow_roman_a"
 		holster_mesh="quiver_roman_a"
 		holster_mesh_with_weapon="quiver_roman_a"
-		culture="Culture.empire"
+		culture="Culture.ikoku"
 		weight="0.05"
 		is_merchandise="false"
 		flying_mesh="arrow_bl_flying"
@@ -7459,7 +7459,7 @@
 		body_name="bo_capsule_arrow"
 		holster_body_name="bo_axe_short"
 		mesh="arrow_bl_e"
-		culture="Culture.khuzait"
+		culture="Culture.ikoku"
 		weight="0.036"
 		appearance="1"
 		flying_mesh="arrow_bl_flying"
@@ -7500,7 +7500,7 @@
 		body_name="bo_capsule_arrow"
 		holster_body_name="bo_axe_short"
 		mesh="arrow_bl_f"
-		culture="Culture.khuzait"
+		culture="Culture.ikoku"
 		weight="0.036"
 		appearance="1"
 		flying_mesh="arrow_bl_flying"
@@ -7785,7 +7785,7 @@
 		holster_mesh="bolt_bl_b_quiver"
 		flying_mesh="bolt_bl_flying"
 		holster_mesh_with_weapon="bolt_bl_b_quiver"
-		culture="Culture.vlandia"
+		culture="Culture.ikoku"
 		weight="0.08"
 		appearance="1"
 		Type="Bolts"
@@ -7827,7 +7827,7 @@
 		holster_mesh="bolt_bl_c_quiver"
 		holster_mesh_with_weapon="bolt_bl_c_quiver"
 		flying_mesh="bolt_bl_flying"
-		culture="Culture.vlandia"
+		culture="Culture.ikoku"
 		weight="0.04"
 		appearance="1"
 		Type="Bolts"
@@ -7869,7 +7869,7 @@
 		holster_mesh="bolt_bl_d_quiver"
 		holster_mesh_with_weapon="bolt_bl_d_quiver"
 		flying_mesh="bolt_bl_flying"
-		culture="Culture.empire"
+		culture="Culture.ikoku"
 		weight="0.06"
 		appearance="1"
 		Type="Bolts"
@@ -7911,7 +7911,7 @@
 		holster_mesh="bolt_bl_e_quiver"
 		holster_mesh_with_weapon="bolt_bl_e_quiver"
 		flying_mesh="bolt_bl_flying"
-		culture="Culture.empire"
+		culture="Culture.ikoku"
 		weight="0.04"
 		appearance="1"
 		Type="Bolts"
@@ -7953,7 +7953,7 @@
 		mesh="arrow_bl_i"
 		holster_mesh="arrow_bl_i_quiver"
 		holster_mesh_with_weapon="arrow_bl_i_quiver"
-		culture="Culture.khuzait"
+		culture="Culture.ikoku"
 		weight="0.05"
 		flying_mesh="arrow_bl_flying"
 		appearance="1"
