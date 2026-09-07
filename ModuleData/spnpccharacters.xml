@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <!-- TaikouCampaign 英雄最小集（v0 占位）：织田/今川 4 名（WY 王/武将），skills/装备留默认（v1 补）。
      面模 = SandBoxCore 通用模板（fighter_empire，日式面模后期集成）。 -->
 <NPCCharacters>
@@ -180,6 +180,18 @@
 	<NPCCharacter id="peasant_farmer" default_group="Infantry" formation_position_preference="Front" level="1" is_basic_troop="true" is_female="false" culture="Culture.ikoku" name="{=TAIKOU_npc_peasant_farmer}Peasant Farmer" occupation="Soldier" skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
 		<face>
 			<face_key_template value="BodyProperty.villager_empire"/>
+		</face>
+		<upgrade_targets></upgrade_targets>
+		<Equipments>
+			<EquipmentRoster civilian="true"/>
+			<EquipmentRoster/>
+		</Equipments>
+	</NPCCharacter>
+
+	<!-- 守卫（neutral_culture basic/elite 兵 + militia_template 兵源——织丰 neutral 同款做派：单兵复用不建兵树） -->
+	<NPCCharacter id="guard" default_group="Infantry" formation_position_preference="Front" level="4" is_female="false" culture="Culture.ikoku" name="{=TAIKOU_npc_guard}Guard" occupation="Soldier" skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+		<face>
+			<face_key_template value="BodyProperty.guard"/>
 		</face>
 		<upgrade_targets></upgrade_targets>
 		<Equipments>

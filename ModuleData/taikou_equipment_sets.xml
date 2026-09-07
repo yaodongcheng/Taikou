@@ -16797,4 +16797,17 @@
 				id="Item.khuzait_curved_boots" />
 		</EquipmentSet>
 	</EquipmentRoster>
+
+	<EquipmentRoster id="neutral_battle_template">
+		<EquipmentSet>
+			<Equipment slot="Item0" id="Item.ridged_sabre_sword_t4" />
+			<Equipment slot="Body" id="Item.battania_civil_b" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster id="neutral_civilian_template">
+		<EquipmentSet civilian="true">
+			<Equipment slot="Body" id="Item.battania_civil_b" />
+			<Equipment slot="Leg" id="Item.leather_shoes" />
+		</EquipmentSet>
+	</EquipmentRoster>
 </EquipmentRosters>
