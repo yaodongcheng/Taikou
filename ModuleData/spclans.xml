@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- TaikouCampaign 家族最小集（v0 占位）：织田/今川 + 玩家占位家族 -->
+<Factions>
+	<Faction id="clan_oda" is_noble="true" owner="Hero.lord_oda_nobunaga" banner_key="11.80.84.864.864.763.762.1.0.0.671.18.103.483.483.764.729.0.0.0" is_minor_faction="false" super_faction="Kingdom.kingdom_oda" label_color="FF5573BE" color="FF5573BE" color2="FFDE9953" alternative_color="FFCBC25D" alternative_color2="FF5D6347" culture="Culture.ikoku" settlement_banner_mesh="encounter_flag_a" name="{=TAIKOU_clan_oda}Oda Nobunaga" short_name="{=TAIKOU_clan_oda_short}Oda" title="{=TAIKOU_clan_oda_short}Oda" text="{=TAIKOU_clan_oda_text}The house of Oda of Owari." tier="3">
+		<Influence>
+			<base_influence value="60.0"/>
+		</Influence>
+	</Faction>
+	<Faction id="clan_imagawa" is_noble="true" owner="Hero.lord_imagawa_yoshimoto" banner_key="11.80.84.864.864.763.762.1.0.0.671.18.103.483.483.764.729.0.0.0" is_minor_faction="false" super_faction="Kingdom.kingdom_imagawa" label_color="FFB05646" color="FFB05646" color2="FFDE9953" alternative_color="FFCBC25D" alternative_color2="FF5D6347" culture="Culture.ikoku" settlement_banner_mesh="encounter_flag_a" name="{=TAIKOU_clan_imagawa}Imagawa Yoshimoto" short_name="{=TAIKOU_clan_imagawa_short}Imagawa" title="{=TAIKOU_clan_imagawa_short}Imagawa" text="{=TAIKOU_clan_imagawa_text}The house of Imagawa of Suruga." tier="3">
+		<Influence>
+			<base_influence value="60.0"/>
+		</Influence>
+	</Faction>
+	<!-- 玩家占位家族（建号结束后主角加入；织丰母本字段最小版） -->
+	<Faction id="player_faction" is_noble="true" owner="Hero.main_hero" banner_key="11.154.116.1536.1536.768.768.1.0.0.609.15.155.483.483.773.729.0.0.0" is_minor_faction="false" label_color="FFD2C0AA" color="FF8D5C44" color2="FFE9A74D" alternative_color="FF6C5749" alternative_color2="FFB3A491" culture="Culture.ikoku" settlement_banner_mesh="encounter_flag_a" name="{=TAIKOU_player_faction}" tier="0"/>
+</Factions>

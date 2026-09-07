@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- TaikouCampaign 世界观：日本战国（太阁5）最小数据包 · v0 占位
+     生成纪律：v0 手写最小集；全量数据（TK5 时代/城村/人物）进数据生成器后由布局表驱动。 -->
+<SPCultures>
+	<Culture id="ikoku"
+			 name="{=TAIKOU_culture_ikoku}Japanese"
+			 basic_troop="NPCCharacter.peasant_farmer"
+			 is_main_culture="true">
+		<lord_templates>
+			<template name="NPCCharacter.lord_template_empire_male"/>
+			<template name="NPCCharacter.lord_template_empire_female"/>
+		</lord_templates>
+		<rebellion_hero_templates>
+			<template name="NPCCharacter.lord_template_empire_male"/>
+			<template name="NPCCharacter.lord_template_empire_female"/>
+		</rebellion_hero_templates>
+	</Culture>
+</SPCultures>

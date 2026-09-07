@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- TaikouCampaign 玩家主队模板（出生点三件套之二）：
+     InitializeMainParty()（CampaignSystem.dll:7253）硬查 PartyTemplateObject "main_hero_party_template"，
+     Native 无、SandBox 有不载入（IncludedGameTypes=Campaign）——必须自带（织丰同款结构）。 -->
+<partyTemplates>
+	<MBPartyTemplate id="main_hero_party_template">
+		<stacks>
+			<PartyTemplateStack min_value="1" max_value="1" troop="NPCCharacter.main_hero" />
+		</stacks>
+	</MBPartyTemplate>
+</partyTemplates>

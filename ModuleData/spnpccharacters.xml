@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- TaikouCampaign 英雄最小集（v0 占位）：织田/今川 4 名（WY 王/武将），skills/装备留默认（v1 补）。
+     面模 = SandBoxCore 通用模板（fighter_empire，日式面模后期集成）。 -->
+<NPCCharacters>
+	<!-- 主角模板（出生点三件套之三）：InitializeMainParty 的 party 模板引用 NPCCharacter.main_hero；原版在 SandBox lords.xml（IncludedGameTypes=Campaign 不载入）→ 自带（骨架抄原版 main_hero，文化=ikoku）。CC 建号从它克隆/修改 -->
+	<NPCCharacter id="main_hero" default_group="Cavalry" is_hero="true" voice="earnest" age="22" is_female="false" culture="Culture.ikoku" name="{=TAIKOU_main_hero}Eren" banner_symbol_mesh_name="test_symbol_a" occupation="Lord" banner_symbol_color="FF000000" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="3" age="22.55" weight="0.5355" build="0.5015" key="00109C0D8000134D59A4894CAAA8A4A6BC7262A86699976479AD7D8A99877A3A007886030768E986000000000000000000000000000000000000000000FC1142" />
+		</face>
+	</NPCCharacter>
+
+	<NPCCharacter id="lord_oda_nobunaga" default_group="Infantry" age="25" voice="curt" is_hero="true" is_female="false" culture="Culture.ikoku" name="{=TAIKOU_hero_nobunaga}Oda Nobunaga" occupation="Lord" banner_symbol_mesh_name="test_symbol_a" banner_symbol_color="FF000000">
+		<face>
+			<face_key_template value="BodyProperty.fighter_empire"/>
+		</face>
+	</NPCCharacter>
+
+	<NPCCharacter id="lord_oda_shibata_katsuie" default_group="Infantry" age="28" voice="curt" is_hero="true" is_female="false" culture="Culture.ikoku" name="{=TAIKOU_hero_shibata}Shibata Katsuie" occupation="Lord" banner_symbol_mesh_name="test_symbol_a" banner_symbol_color="FF000000">
+		<face>
+			<face_key_template value="BodyProperty.fighter_empire"/>
+		</face>
+	</NPCCharacter>
+
+	<NPCCharacter id="lord_imagawa_yoshimoto" default_group="Infantry" age="39" voice="curt" is_hero="true" is_female="false" culture="Culture.ikoku" name="{=TAIKOU_hero_yoshimoto}Imagawa Yoshimoto" occupation="Lord" banner_symbol_mesh_name="test_symbol_a" banner_symbol_color="FF000000">
+		<face>
+			<face_key_template value="BodyProperty.fighter_empire"/>
+		</face>
+	</NPCCharacter>
+
+	<NPCCharacter id="lord_imagawa_suemori" default_group="Infantry" age="14" voice="curt" is_hero="true" is_female="false" culture="Culture.ikoku" name="{=TAIKOU_hero_suemori}Imagawa Suemori" occupation="Lord" banner_symbol_mesh_name="test_symbol_a" banner_symbol_color="FF000000">
+		<face>
+			<face_key_template value="BodyProperty.fighter_empire"/>
+		</face>
+	</NPCCharacter>
+</NPCCharacters>
