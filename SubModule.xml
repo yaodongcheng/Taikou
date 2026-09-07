@@ -16,7 +16,7 @@
 	<SubModules/>
 	<Xmls>
 		<XmlNode>
-			<XmlName id="Items" path="items"/>
+			<XmlName id="Items" path="taikou_items"/>
 			<IncludedGameTypes>
 				<GameType value="Campaign"/>
 				<GameType value="CampaignStoryMode"/>
@@ -129,6 +129,18 @@
 	</XmlNode>
 	<XmlNode>
 		<XmlName id="MusicTracks" path="taikou_music_tracks"/>
+		<IncludedGameTypes>
+			<GameType value="TaikouCampaign"/>
+		</IncludedGameTypes>
+	</XmlNode>
+	<XmlNode>
+		<XmlName id="GameText" path="taikou_module_strings"/>
+		<IncludedGameTypes>
+			<GameType value="TaikouCampaign"/>
+		</IncludedGameTypes>
+	</XmlNode>
+	<XmlNode>
+		<XmlName id="GameText" path="taikou_world_lore_strings"/>
 		<IncludedGameTypes>
 			<GameType value="TaikouCampaign"/>
 		</IncludedGameTypes>

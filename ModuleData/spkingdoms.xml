@@ -22,24 +22,5 @@
 		ruler_title="{=TAIKOU_daimyo}Daimyo"
 		text="{=TAIKOU_kingdom_oda_text}The Oda clan of Owari.">
 	</Kingdom>
-	<Kingdom
-		id="kingdom_imagawa"
-		owner="Hero.lord_imagawa_yoshimoto"
-		banner_key="11.80.84.864.864.763.762.1.0.0.671.18.103.483.483.764.729.0.0.0"
-		primary_banner_color="0xff983f3f"
-		secondary_banner_color="0xffd9c8d9"
-		label_color="FFB05646"
-		color="FFB05646"
-		color2="FFDE9953"
-		alternative_color="FFCBC25D"
-		alternative_color2="FF5D6347"
-		culture="Culture.ikoku"
-		settlement_banner_mesh="encounter_flag_a"
-		flag_mesh="info_screen_flags_a"
-		name="{=TAIKOU_kingdom_imagawa}Imagawa Clan"
-		short_name="{=TAIKOU_kingdom_imagawa_short}Imagawa"
-		title="{=TAIKOU_kingdom_imagawa_short}Imagawa"
-		ruler_title="{=TAIKOU_daimyo}Daimyo"
-		text="{=TAIKOU_kingdom_imagawa_text}The Imagawa clan of Suruga.">
-	</Kingdom>
+	
 </Kingdoms>

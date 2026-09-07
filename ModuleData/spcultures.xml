@@ -5,7 +5,17 @@
 	<Culture id="ikoku"
 			 name="{=TAIKOU_culture_ikoku}Japanese"
 			 basic_troop="NPCCharacter.peasant_farmer"
-			 is_main_culture="true">
+			 is_main_culture="true"
+			 can_have_settlement="true"
+			 town_edge_number="16"
+			 default_party_template="PartyTemplate.main_hero_party_template">
+		<notable_and_wanderer_templates>
+			<template name="NPCCharacter.lord_oda_nobunaga"/>
+			<template name="NPCCharacter.lord_oda_shibata_katsuie"/>
+			<template name="NPCCharacter.lord_imagawa_yoshimoto"/>
+			<template name="NPCCharacter.lord_imagawa_suemori"/>
+			<template name="NPCCharacter.main_hero"/>
+		</notable_and_wanderer_templates>
 		<lord_templates>
 			<template name="NPCCharacter.lord_template_empire_male"/>
 			<template name="NPCCharacter.lord_template_empire_female"/>
