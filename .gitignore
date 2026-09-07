@@ -1,0 +1,18 @@
+# Taikou 数据包仓库 —— 只同步 ModuleData 和 SceneObj/Main_map
+# 其余内容（src / Assets / AssetSources / GUI / bin / .vs / RuntimeDataCache 等）一律不进库。
+
+# 1. 先忽略仓库根下所有内容
+/*
+# 1.5 放行仓库自身的配置与开发工具
+!.gitignore
+!/SubModule.xml
+!/git_gui.py
+# 2. 重新放行两个目标目录
+!/ModuleData/
+!/SceneObj/
+# 3. SceneObj 下只放行 Main_map（ShaderCache 是生成缓存，随 Main_map 一并入库，共约 4MB）
+/SceneObj/*
+!/SceneObj/Main_map/
+# 4. 深入放行目录内全部文件
+!/ModuleData/**
+!/SceneObj/Main_map/**

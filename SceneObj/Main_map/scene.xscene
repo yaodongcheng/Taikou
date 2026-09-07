@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<scene name="Main_map" version="2" unique_token="{E4688D7A-7986-4811-A2ED-9FA8DE71B202}" revision="1788782272232" id_automatic="true">
+<scene name="Main_map" version="2" unique_token="{E4688D7A-7986-4811-A2ED-9FA8DE71B202}" revision="1788786236669" id_automatic="true">
 	<flora_bounding_rect min="0.000, 0.000" max="2048.000, 1280.000"/>
 	<levels>
 		<level name="base" mask="1"/>
@@ -42,6 +42,15 @@
 		</out_of_bounds_effects_properties>
 	</environment_properties>
 	<entities>
+		<game_entity name="town_kyoto" old_prefab_name="">
+			<tags>
+				<tag name="town"/>
+			</tags>
+			<transform position="969.424, 421.563, 4.601" rotation_euler="0.000, 0.000, 0.000" scale="2.000, 2.000, 1.000"/>
+			<components>
+				<meta_mesh_component name="mi_aserai_tower_2"/>
+			</components>
+		</game_entity>
 		<game_entity name="envmap_probe" old_prefab_name="" mobility="1">
 			<visibility_masks>
 				<visibility_mask name="no_shadow" value="true"/>
@@ -59,15 +68,6 @@
 					</variables>
 				</script>
 			</scripts>
-		</game_entity>
-		<game_entity name="town_kyoto" old_prefab_name="">
-			<tags>
-				<tag name="town"/>
-			</tags>
-			<transform position="969.424, 421.563, 4.601" rotation_euler="0.000, 0.000, 0.000" scale="2.000, 2.000, 1.000"/>
-			<components>
-				<meta_mesh_component name="mi_aserai_tower_2"/>
-			</components>
 		</game_entity>
 	</entities>
 	<terrain enabled="true" node_dimension_x="16" node_dimension_y="10" node_size="128.000" lod_multiplier="3.000" min_height="0.000" max_height="22.000" vista_normalmap="" vista_diffuse_name="" vista_diffuse_blend_type="1" vista_diffuse_blend_amount="1.000" vista_layer_detail_distance="10000.000" vista_albedo_multiplier="0.670" vista_detail_albedo_name="" vista_detail_normal_name="" vista_detail_tile="1.000" vista_tileset="WorldMap" use_dynamic_weather_effects="1" dynamic_flowmap_texture_name="main_map_snow_flowmap" colormap_detail_level="0" ao_intensity="4.000">
@@ -4351,7 +4351,7 @@
 			</node>
 		</nodes>
 	</terrain>
-	<editor_data editor_camera_position="970.905, 411.501, 13.254" editor_camera_elevation="-0.029" editor_camera_bearing="-1.667" editor_camera_forward="-0.230, 0.642, -0.731" author="" comment=""/>
+	<editor_data editor_camera_position="980.987, 388.307, 29.222" editor_camera_elevation="0.327" editor_camera_bearing="-1.763" editor_camera_forward="0.915, 0.241, -0.323" author="" comment=""/>
 	<camera_data near_plane="0.100" far_plane="100000.000"/>
 	<Paths/>
 </scene>
