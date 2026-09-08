@@ -1,24 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- TaikouCampaign heroes 最小集（v0）：
-     main_hero 全家 = 建号流程依赖（CC 建号后玩家家庭树）；
-     织田 2 名 = 王国/家族 owner。今川全删（2026-09-07 数据一致性：Hero 层与 NPCCharacter/
-     spcultures 引用统一，no 悬空引用 —— 见 plans/太阁数据加载taikou-campaign-boot-20260907.md）。 -->
+<!-- TaikouCampaign heroes 最小集（2026-09-08 精简裁定：3 名——玩家 + 织田家领主 2 同家族；
+     今川全删/家谱删（father/mother 无消费：3 阶段 CC 无家庭阶段）——见 plans/太阁数据加载taikou-campaign-boot-20260907.md）。 -->
 <Heroes>
-	<Hero
-		id="main_hero"
-		father="Hero.main_hero_father"
-		mother="Hero.main_hero_mother"
-		faction="Faction.player_faction" />
-	<Hero
-		id="main_hero_father"
-		alive="false"
-		faction="Faction.player_faction"
-		spouse="Hero.main_hero_mother" />
-	<Hero
-		id="main_hero_mother"
-		alive="false"
-		faction="Faction.player_faction"
-		spouse="Hero.main_hero_father" />
+	<!-- 英雄最小集（2026-09-08 精简裁定：3 名——玩家 + 织田家领主 2（同家族）；
+	     main_hero 家谱（father/mother）已删：3 阶段 CC 无家庭阶段，无人消费 -->
+	<Hero id="main_hero" faction="Faction.player_faction"/>
 	<Hero id="lord_oda_nobunaga" faction="Faction.clan_oda" text="{=TAIKOU_hero_nobunaga}Oda Nobunaga"/>
 	<Hero id="lord_oda_shibata_katsuie" faction="Faction.clan_oda" text="{=TAIKOU_hero_shibata}Shibata Katsuie"/>
 </Heroes>

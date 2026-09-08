@@ -24,6 +24,7 @@
 				background_mesh="menu_empire_4"
 				wait_mesh="wait_empire_town"
 				gate_rotation="0.208"
+				max_prosperity="70"
 				prosperity="5100" />
 		</Components>
 		<Locations

@@ -116,51 +116,17 @@
       <equipment slot="Gloves" id="Item.lamellar_plate_gauntlets" />
       <equipment slot="Leg" id="Item.decorated_imperial_boots" /-->
 		<Equipments>
+			<!-- 开局贫寒精简（2026-09-08 用户裁定：只留必要——太阁 5 主人公起点）；
+			     原官方全量（马/弓/箭/披风/民用三件套）已削 -->
 			<EquipmentRoster>
-				<equipment
-					slot="Item0"
-					id="Item.ridged_sabre_sword_t4" />
-				<equipment
-					slot="Item1"
-					id="Item.khuzait_lance_2_t4" />
-				<equipment
-					slot="Item2"
-					id="Item.steppe_war_bow" />
-				<equipment
-					slot="Item3"
-					id="Item.bodkin_arrows_a" />
-				<equipment
-					slot="Body"
-					id="Item.battania_civil_b" />
-				<equipment
-					slot="Leg"
-					id="Item.leather_shoes" />
-				<equipment
-					slot="Cape"
-					id="Item.battania_civil_cloak" />
-				<equipment
-					slot="Horse"
-					id="Item.noble_horse" />
+				<equipment slot="Item0" id="Item.ridged_sabre_sword_t4" />
+				<equipment slot="Body" id="Item.battania_civil_b" />
+				<equipment slot="Leg" id="Item.leather_shoes" />
 			</EquipmentRoster>
-			<EquipmentRoster
-				civilian="true">
-				<equipment
-					slot="Body"
-					id="Item.khuzait_civil_coat" />
-				<equipment
-					slot="Leg"
-					id="Item.fine_town_boots" />
-				<equipment
-					slot="Item0"
-					id="Item.vlandia_sword_2_t3" />
+			<EquipmentRoster civilian="true">
+				<equipment slot="Body" id="Item.battania_civil_b" />
+				<equipment slot="Leg" id="Item.leather_shoes" />
 			</EquipmentRoster>
-			<!--Make sure to update main_hero riding skill to horse difficulty if you change horse-->
-			<equipment
-				slot="Horse"
-				id="Item.saddle_horse" />
-			<equipment
-				slot="HorseHarness"
-				id="Item.battania_horse_harness_scaled" />
 		</Equipments>
 	</NPCCharacter>
 
@@ -168,12 +134,33 @@
 		<face>
 			<face_key_template value="BodyProperty.fighter_empire"/>
 		</face>
+		<!-- 带装备（官方英雄形态：内联 equipment，绕开 fallback——2026-09-08 第 5 颗雷修正：英雄无装备 = 引擎 fallback neutral_culture = 链炸） -->
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.ridged_sabre_sword_t4" />
+				<equipment slot="Body" id="Item.battania_civil_b" />
+				<equipment slot="Leg" id="Item.leather_shoes" />
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Body" id="Item.battania_civil_b" />
+			</EquipmentRoster>
+		</Equipments>
 	</NPCCharacter>
 
 	<NPCCharacter id="lord_oda_shibata_katsuie" default_group="Infantry" age="28" voice="curt" is_hero="true" is_female="false" culture="Culture.ikoku" name="{=TAIKOU_hero_shibata}Shibata Katsuie" occupation="Lord" banner_symbol_mesh_name="test_symbol_a" banner_symbol_color="FF000000">
 		<face>
 			<face_key_template value="BodyProperty.fighter_empire"/>
 		</face>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.ridged_sabre_sword_t4" />
+				<equipment slot="Body" id="Item.battania_civil_b" />
+				<equipment slot="Leg" id="Item.leather_shoes" />
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Body" id="Item.battania_civil_b" />
+			</EquipmentRoster>
+		</Equipments>
 	</NPCCharacter>
 
 	<!-- basic_troop 落点（spcultures Culture.ikoku 引用）：v0 农民造兵——参考官方最低层兵模板结构（skill_template+空装备），全字段引用 Taikou 自有资源 -->
@@ -200,5 +187,920 @@
 		</Equipments>
 	</NPCCharacter>
 
+
+	<NPCCharacter id="townsman" default_group="Infantry" level="1" is_female="false" culture="Culture.ikoku" name="{=TAIKOU_npc_townsman}Townsman" occupation="Townsfolk">
+		<face>
+			<face_key_template value="BodyProperty.villager_empire"/>
+		</face>
+		<upgrade_targets></upgrade_targets>
+		<Equipments>
+			<EquipmentRoster civilian="true"/>
+			<EquipmentRoster/>
+		</Equipments>
+	</NPCCharacter>
+
+	<NPCCharacter id="townswoman" default_group="Infantry" level="1" is_female="true" culture="Culture.ikoku" name="{=TAIKOU_npc_townswoman}Townswoman" occupation="Townsfolk">
+		<face>
+			<face_key_template value="BodyProperty.villager_empire"/>
+		</face>
+		<upgrade_targets></upgrade_targets>
+		<Equipments>
+			<EquipmentRoster civilian="true"/>
+			<EquipmentRoster/>
+		</Equipments>
+	</NPCCharacter>
+
+	<NPCCharacter id="townsman_infant" default_group="Infantry" level="1" is_female="false" culture="Culture.ikoku" name="{=TAIKOU_npc_townsman_infant}Townsman Infant" occupation="Townsfolk">
+		<face>
+			<face_key_template value="BodyProperty.villager_empire"/>
+		</face>
+		<upgrade_targets></upgrade_targets>
+		<Equipments>
+			<EquipmentRoster civilian="true"/>
+			<EquipmentRoster/>
+		</Equipments>
+	</NPCCharacter>
+
+	<NPCCharacter id="townsman_child" default_group="Infantry" level="1" is_female="false" culture="Culture.ikoku" name="{=TAIKOU_npc_townsman_child}Townsman Child" occupation="Townsfolk">
+		<face>
+			<face_key_template value="BodyProperty.villager_empire"/>
+		</face>
+		<upgrade_targets></upgrade_targets>
+		<Equipments>
+			<EquipmentRoster civilian="true"/>
+			<EquipmentRoster/>
+		</Equipments>
+	</NPCCharacter>
+
+	<NPCCharacter id="townsman_teenager" default_group="Infantry" level="1" is_female="false" culture="Culture.ikoku" name="{=TAIKOU_npc_townsman_teenager}Townsman Teenager" occupation="Townsfolk">
+		<face>
+			<face_key_template value="BodyProperty.villager_empire"/>
+		</face>
+		<upgrade_targets></upgrade_targets>
+		<Equipments>
+			<EquipmentRoster civilian="true"/>
+			<EquipmentRoster/>
+		</Equipments>
+	</NPCCharacter>
+
+	<NPCCharacter id="townswoman_infant" default_group="Infantry" level="1" is_female="true" culture="Culture.ikoku" name="{=TAIKOU_npc_townswoman_infant}Townswoman Infant" occupation="Townsfolk">
+		<face>
+			<face_key_template value="BodyProperty.villager_empire"/>
+		</face>
+		<upgrade_targets></upgrade_targets>
+		<Equipments>
+			<EquipmentRoster civilian="true"/>
+			<EquipmentRoster/>
+		</Equipments>
+	</NPCCharacter>
+
+	<NPCCharacter id="townswoman_child" default_group="Infantry" level="1" is_female="true" culture="Culture.ikoku" name="{=TAIKOU_npc_townswoman_child}Townswoman Child" occupation="Townsfolk">
+		<face>
+			<face_key_template value="BodyProperty.villager_empire"/>
+		</face>
+		<upgrade_targets></upgrade_targets>
+		<Equipments>
+			<EquipmentRoster civilian="true"/>
+			<EquipmentRoster/>
+		</Equipments>
+	</NPCCharacter>
+
+	<NPCCharacter id="townswoman_teenager" default_group="Infantry" level="1" is_female="true" culture="Culture.ikoku" name="{=TAIKOU_npc_townswoman_teenager}Townswoman Teenager" occupation="Townsfolk">
+		<face>
+			<face_key_template value="BodyProperty.villager_empire"/>
+		</face>
+		<upgrade_targets></upgrade_targets>
+		<Equipments>
+			<EquipmentRoster civilian="true"/>
+			<EquipmentRoster/>
+		</Equipments>
+	</NPCCharacter>
+
+	<NPCCharacter id="villager" default_group="Infantry" level="1" is_female="false" culture="Culture.ikoku" name="{=TAIKOU_npc_villager}Villager" occupation="Villager">
+		<face>
+			<face_key_template value="BodyProperty.villager_empire"/>
+		</face>
+		<upgrade_targets></upgrade_targets>
+		<Equipments>
+			<EquipmentRoster civilian="true"/>
+			<EquipmentRoster/>
+		</Equipments>
+	</NPCCharacter>
+
+	<NPCCharacter id="village_woman" default_group="Infantry" level="1" is_female="true" culture="Culture.ikoku" name="{=TAIKOU_npc_village_woman}Village Woman" occupation="Villager">
+		<face>
+			<face_key_template value="BodyProperty.villager_empire"/>
+		</face>
+		<upgrade_targets></upgrade_targets>
+		<Equipments>
+			<EquipmentRoster civilian="true"/>
+			<EquipmentRoster/>
+		</Equipments>
+	</NPCCharacter>
+
+	<NPCCharacter id="villager_male_child" default_group="Infantry" level="1" is_female="false" culture="Culture.ikoku" name="{=TAIKOU_npc_villager_male_child}Villager Boy" occupation="Villager">
+		<face>
+			<face_key_template value="BodyProperty.villager_empire"/>
+		</face>
+		<upgrade_targets></upgrade_targets>
+		<Equipments>
+			<EquipmentRoster civilian="true"/>
+			<EquipmentRoster/>
+		</Equipments>
+	</NPCCharacter>
+
+	<NPCCharacter id="villager_male_teenager" default_group="Infantry" level="1" is_female="false" culture="Culture.ikoku" name="{=TAIKOU_npc_villager_male_teenager}Villager Young Man" occupation="Villager">
+		<face>
+			<face_key_template value="BodyProperty.villager_empire"/>
+		</face>
+		<upgrade_targets></upgrade_targets>
+		<Equipments>
+			<EquipmentRoster civilian="true"/>
+			<EquipmentRoster/>
+		</Equipments>
+	</NPCCharacter>
+
+	<NPCCharacter id="villager_female_child" default_group="Infantry" level="1" is_female="true" culture="Culture.ikoku" name="{=TAIKOU_npc_villager_female_child}Villager Girl" occupation="Villager">
+		<face>
+			<face_key_template value="BodyProperty.villager_empire"/>
+		</face>
+		<upgrade_targets></upgrade_targets>
+		<Equipments>
+			<EquipmentRoster civilian="true"/>
+			<EquipmentRoster/>
+		</Equipments>
+	</NPCCharacter>
+
+	<NPCCharacter id="villager_female_teenager" default_group="Infantry" level="1" is_female="true" culture="Culture.ikoku" name="{=TAIKOU_npc_villager_female_teenager}Villager Young Woman" occupation="Villager">
+		<face>
+			<face_key_template value="BodyProperty.villager_empire"/>
+		</face>
+		<upgrade_targets></upgrade_targets>
+		<Equipments>
+			<EquipmentRoster civilian="true"/>
+			<EquipmentRoster/>
+		</Equipments>
+	</NPCCharacter>
+
+	<NPCCharacter id="merchant" default_group="Infantry" level="1" is_female="false" culture="Culture.ikoku" name="{=TAIKOU_npc_merchant}Merchant" occupation="Merchant">
+		<face>
+			<face_key_template value="BodyProperty.villager_empire"/>
+		</face>
+		<upgrade_targets></upgrade_targets>
+		<Equipments>
+			<EquipmentRoster civilian="true"/>
+			<EquipmentRoster/>
+		</Equipments>
+	</NPCCharacter>
+
+	<NPCCharacter id="shop_worker" default_group="Infantry" level="1" is_female="false" culture="Culture.ikoku" name="{=TAIKOU_npc_shop_worker}Shop Worker" occupation="ShopWorker">
+		<face>
+			<face_key_template value="BodyProperty.villager_empire"/>
+		</face>
+		<upgrade_targets></upgrade_targets>
+		<Equipments>
+			<EquipmentRoster civilian="true"/>
+			<EquipmentRoster/>
+		</Equipments>
+	</NPCCharacter>
+
+	<NPCCharacter id="blacksmith" default_group="Infantry" level="1" is_female="false" culture="Culture.ikoku" name="{=TAIKOU_npc_blacksmith}Blacksmith" occupation="Blacksmith">
+		<face>
+			<face_key_template value="BodyProperty.villager_empire"/>
+		</face>
+		<upgrade_targets></upgrade_targets>
+		<Equipments>
+			<EquipmentRoster civilian="true"/>
+			<EquipmentRoster/>
+		</Equipments>
+	</NPCCharacter>
+
+	<NPCCharacter id="weaponsmith" default_group="Infantry" level="1" is_female="false" culture="Culture.ikoku" name="{=TAIKOU_npc_weaponsmith}Weaponsmith" occupation="Weaponsmith">
+		<face>
+			<face_key_template value="BodyProperty.villager_empire"/>
+		</face>
+		<upgrade_targets></upgrade_targets>
+		<Equipments>
+			<EquipmentRoster civilian="true"/>
+			<EquipmentRoster/>
+		</Equipments>
+	</NPCCharacter>
+
+	<NPCCharacter id="armorer" default_group="Infantry" level="1" is_female="false" culture="Culture.ikoku" name="{=TAIKOU_npc_armorer}Armorer" occupation="Armorer">
+		<face>
+			<face_key_template value="BodyProperty.villager_empire"/>
+		</face>
+		<upgrade_targets></upgrade_targets>
+		<Equipments>
+			<EquipmentRoster civilian="true"/>
+			<EquipmentRoster/>
+		</Equipments>
+	</NPCCharacter>
+
+	<NPCCharacter id="barber" default_group="Infantry" level="1" is_female="false" culture="Culture.ikoku" name="{=TAIKOU_npc_barber}Barber" occupation="Townsfolk">
+		<face>
+			<face_key_template value="BodyProperty.villager_empire"/>
+		</face>
+		<upgrade_targets></upgrade_targets>
+		<Equipments>
+			<EquipmentRoster civilian="true"/>
+			<EquipmentRoster/>
+		</Equipments>
+	</NPCCharacter>
+
+	<NPCCharacter id="beggar" default_group="Infantry" level="1" is_female="false" culture="Culture.ikoku" name="{=TAIKOU_npc_beggar}Beggar" occupation="Townsfolk">
+		<face>
+			<face_key_template value="BodyProperty.villager_empire"/>
+		</face>
+		<upgrade_targets></upgrade_targets>
+		<Equipments>
+			<EquipmentRoster civilian="true"/>
+			<EquipmentRoster/>
+		</Equipments>
+	</NPCCharacter>
+
+	<NPCCharacter id="female_beggar" default_group="Infantry" level="1" is_female="true" culture="Culture.ikoku" name="{=TAIKOU_npc_female_beggar}Beggar Woman" occupation="Townsfolk">
+		<face>
+			<face_key_template value="BodyProperty.villager_empire"/>
+		</face>
+		<upgrade_targets></upgrade_targets>
+		<Equipments>
+			<EquipmentRoster civilian="true"/>
+			<EquipmentRoster/>
+		</Equipments>
+	</NPCCharacter>
+
+	<NPCCharacter id="female_dancer" default_group="Infantry" level="1" is_female="true" culture="Culture.ikoku" name="{=TAIKOU_npc_female_dancer}Dancer" occupation="Townsfolk">
+		<face>
+			<face_key_template value="BodyProperty.villager_empire"/>
+		</face>
+		<upgrade_targets></upgrade_targets>
+		<Equipments>
+			<EquipmentRoster civilian="true"/>
+			<EquipmentRoster/>
+		</Equipments>
+	</NPCCharacter>
+
+	<NPCCharacter id="musician" default_group="Infantry" level="1" is_female="false" culture="Culture.ikoku" name="{=TAIKOU_npc_musician}Musician" occupation="Musician">
+		<face>
+			<face_key_template value="BodyProperty.villager_empire"/>
+		</face>
+		<upgrade_targets></upgrade_targets>
+		<Equipments>
+			<EquipmentRoster civilian="true"/>
+			<EquipmentRoster/>
+		</Equipments>
+	</NPCCharacter>
+
+	<NPCCharacter id="tavernkeeper" default_group="Infantry" level="1" is_female="false" culture="Culture.ikoku" name="{=TAIKOU_npc_tavernkeeper}Tavernkeeper" occupation="Tavernkeeper">
+		<face>
+			<face_key_template value="BodyProperty.villager_empire"/>
+		</face>
+		<upgrade_targets></upgrade_targets>
+		<Equipments>
+			<EquipmentRoster civilian="true"/>
+			<EquipmentRoster/>
+		</Equipments>
+	</NPCCharacter>
+
+	<NPCCharacter id="tavern_wench" default_group="Infantry" level="1" is_female="true" culture="Culture.ikoku" name="{=TAIKOU_npc_tavern_wench}Tavern Wench" occupation="TavernWench">
+		<face>
+			<face_key_template value="BodyProperty.villager_empire"/>
+		</face>
+		<upgrade_targets></upgrade_targets>
+		<Equipments>
+			<EquipmentRoster civilian="true"/>
+			<EquipmentRoster/>
+		</Equipments>
+	</NPCCharacter>
+
+	<NPCCharacter id="taverngamehost" default_group="Infantry" level="1" is_female="false" culture="Culture.ikoku" name="{=TAIKOU_npc_taverngamehost}Game Host" occupation="TavernGameHost">
+		<face>
+			<face_key_template value="BodyProperty.villager_empire"/>
+		</face>
+		<upgrade_targets></upgrade_targets>
+		<Equipments>
+			<EquipmentRoster civilian="true"/>
+			<EquipmentRoster/>
+		</Equipments>
+	</NPCCharacter>
+
+	<NPCCharacter id="ransom_broker" default_group="Infantry" level="1" is_female="false" culture="Culture.ikoku" name="{=TAIKOU_npc_ransom_broker}Ransom Broker" occupation="RansomBroker">
+		<face>
+			<face_key_template value="BodyProperty.villager_empire"/>
+		</face>
+		<upgrade_targets></upgrade_targets>
+		<Equipments>
+			<EquipmentRoster civilian="true"/>
+			<EquipmentRoster/>
+		</Equipments>
+	</NPCCharacter>
+
+	<NPCCharacter id="merchant_notary" default_group="Infantry" level="1" is_female="false" culture="Culture.ikoku" name="{=TAIKOU_npc_merchant_notary}Merchant Notary" occupation="Merchant">
+		<face>
+			<face_key_template value="BodyProperty.villager_empire"/>
+		</face>
+		<upgrade_targets></upgrade_targets>
+		<Equipments>
+			<EquipmentRoster civilian="true"/>
+			<EquipmentRoster/>
+		</Equipments>
+	</NPCCharacter>
+
+	<NPCCharacter id="artisan_notary" default_group="Infantry" level="1" is_female="false" culture="Culture.ikoku" name="{=TAIKOU_npc_artisan_notary}Artisan Notary" occupation="Artisan">
+		<face>
+			<face_key_template value="BodyProperty.villager_empire"/>
+		</face>
+		<upgrade_targets></upgrade_targets>
+		<Equipments>
+			<EquipmentRoster civilian="true"/>
+			<EquipmentRoster/>
+		</Equipments>
+	</NPCCharacter>
+
+	<NPCCharacter id="preacher_notary" default_group="Infantry" level="1" is_female="false" culture="Culture.ikoku" name="{=TAIKOU_npc_preacher_notary}Preacher Notary" occupation="Preacher">
+		<face>
+			<face_key_template value="BodyProperty.villager_empire"/>
+		</face>
+		<upgrade_targets></upgrade_targets>
+		<Equipments>
+			<EquipmentRoster civilian="true"/>
+			<EquipmentRoster/>
+		</Equipments>
+	</NPCCharacter>
+
+	<NPCCharacter id="rural_notable_notary" default_group="Infantry" level="1" is_female="false" culture="Culture.ikoku" name="{=TAIKOU_npc_rural_notable_notary}Rural Notable" occupation="RuralNotable">
+		<face>
+			<face_key_template value="BodyProperty.villager_empire"/>
+		</face>
+		<upgrade_targets></upgrade_targets>
+		<Equipments>
+			<EquipmentRoster civilian="true"/>
+			<EquipmentRoster/>
+		</Equipments>
+	</NPCCharacter>
+
+	<NPCCharacter id="tournament_master" default_group="Infantry" level="1" is_female="false" culture="Culture.ikoku" name="{=TAIKOU_npc_tournament_master}Tournament Master" occupation="ArenaMaster">
+		<face>
+			<face_key_template value="BodyProperty.villager_empire"/>
+		</face>
+		<upgrade_targets></upgrade_targets>
+		<Equipments>
+			<EquipmentRoster civilian="true"/>
+			<EquipmentRoster/>
+		</Equipments>
+	</NPCCharacter>
+
+	<NPCCharacter id="horseMerchant" default_group="Infantry" level="1" is_female="false" culture="Culture.ikoku" name="{=TAIKOU_npc_horseMerchant}Horse Merchant" occupation="HorseTrader">
+		<face>
+			<face_key_template value="BodyProperty.villager_empire"/>
+		</face>
+		<upgrade_targets></upgrade_targets>
+		<Equipments>
+			<EquipmentRoster civilian="true"/>
+			<EquipmentRoster/>
+		</Equipments>
+	</NPCCharacter>
+
+	<NPCCharacter id="caravan_master" default_group="Infantry" level="1" is_female="false" culture="Culture.ikoku" name="{=TAIKOU_npc_caravan_master}Caravan Master" occupation="CaravanGuard">
+		<face>
+			<face_key_template value="BodyProperty.villager_empire"/>
+		</face>
+		<upgrade_targets></upgrade_targets>
+		<Equipments>
+			<EquipmentRoster civilian="true"/>
+			<EquipmentRoster/>
+		</Equipments>
+	</NPCCharacter>
+
+	<NPCCharacter id="caravan_guard" default_group="Infantry" level="26" is_female="false" culture="Culture.ikoku" name="{=TAIKOU_npc_caravan_guard}Caravan Guard" occupation="CaravanGuard">
+		<face>
+			<face_key_template value="BodyProperty.villager_empire"/>
+		</face>
+		<upgrade_targets></upgrade_targets>
+		<Equipments>
+			<EquipmentRoster civilian="true"/>
+			<EquipmentRoster/>
+		</Equipments>
+	</NPCCharacter>
+
+	<NPCCharacter id="veteran_caravan_guard" default_group="Infantry" level="1" is_female="false" culture="Culture.ikoku" name="{=TAIKOU_npc_veteran_caravan_guard}Caravan Guard (Veteran)" occupation="CaravanGuard">
+		<face>
+			<face_key_template value="BodyProperty.villager_empire"/>
+		</face>
+		<upgrade_targets></upgrade_targets>
+		<Equipments>
+			<EquipmentRoster civilian="true"/>
+			<EquipmentRoster/>
+		</Equipments>
+	</NPCCharacter>
+
+	<NPCCharacter id="armed_trader" default_group="Infantry" level="1" is_female="false" culture="Culture.ikoku" name="{=TAIKOU_npc_armed_trader}Armed Trader" occupation="GoodsTrader">
+		<face>
+			<face_key_template value="BodyProperty.villager_empire"/>
+		</face>
+		<upgrade_targets></upgrade_targets>
+		<Equipments>
+			<EquipmentRoster civilian="true"/>
+			<EquipmentRoster/>
+		</Equipments>
+	</NPCCharacter>
+
+	<NPCCharacter id="gangleader_bodyguard" default_group="Infantry" level="1" is_female="false" culture="Culture.ikoku" name="{=TAIKOU_npc_gangleader_bodyguard}Bodyguard" occupation="Gangster">
+		<face>
+			<face_key_template value="BodyProperty.villager_empire"/>
+		</face>
+		<upgrade_targets></upgrade_targets>
+		<Equipments>
+			<EquipmentRoster civilian="true"/>
+			<EquipmentRoster/>
+		</Equipments>
+	</NPCCharacter>
+
+	<NPCCharacter id="gear_dummy" default_group="Infantry" level="1" is_female="false" culture="Culture.ikoku" name="{=TAIKOU_npc_gear_dummy}Gear Dummy" occupation="Townsfolk">
+		<face>
+			<face_key_template value="BodyProperty.villager_empire"/>
+		</face>
+		<upgrade_targets></upgrade_targets>
+		<Equipments>
+			<EquipmentRoster civilian="true"/>
+			<EquipmentRoster/>
+		</Equipments>
+	</NPCCharacter>
+
+	<NPCCharacter id="gear_practice_dummy" default_group="Infantry" level="1" is_female="false" culture="Culture.ikoku" name="{=TAIKOU_npc_gear_practice_dummy}Practice Dummy" occupation="Townsfolk">
+		<face>
+			<face_key_template value="BodyProperty.villager_empire"/>
+		</face>
+		<upgrade_targets></upgrade_targets>
+		<Equipments>
+			<EquipmentRoster civilian="true"/>
+			<EquipmentRoster/>
+		</Equipments>
+	</NPCCharacter>
+
+
+	<!-- 工匠名流（occupation=Artisan——CreateHeroAtOccupation 按职业从 N&W 模板池挑，2026-09-08 第 9 雷补） -->
+	<NPCCharacter id="artisan" default_group="Infantry" level="2" is_female="false" culture="Culture.ikoku" name="{=TAIKOU_npc_artisan}Artisan" occupation="Artisan">
+		<face>
+			<face_key_template value="BodyProperty.villager_empire"/>
+		</face>
+		<upgrade_targets></upgrade_targets>
+		<Equipments>
+			<EquipmentRoster civilian="true"/>
+			<EquipmentRoster/>
+		</Equipments>
+	</NPCCharacter>
+
+	<NPCCharacter id="townsman" default_group="Infantry" level="1" is_female="false" culture="Culture.ikoku" name="{=TAIKOU_npc_townsman}Townsman" occupation="Townsfolk">
+		<face>
+			<face_key_template value="BodyProperty.villager_empire"/>
+		</face>
+		<upgrade_targets></upgrade_targets>
+		<Equipments>
+			<EquipmentRoster civilian="true"/>
+			<EquipmentRoster/>
+		</Equipments>
+	</NPCCharacter>
+
+	<NPCCharacter id="townswoman" default_group="Infantry" level="1" is_female="true" culture="Culture.ikoku" name="{=TAIKOU_npc_townswoman}Townswoman" occupation="Townsfolk">
+		<face>
+			<face_key_template value="BodyProperty.villager_empire"/>
+		</face>
+		<upgrade_targets></upgrade_targets>
+		<Equipments>
+			<EquipmentRoster civilian="true"/>
+			<EquipmentRoster/>
+		</Equipments>
+	</NPCCharacter>
+
+	<NPCCharacter id="townsman_infant" default_group="Infantry" level="1" is_female="false" culture="Culture.ikoku" name="{=TAIKOU_npc_townsman_infant}Townsman Infant" occupation="Townsfolk">
+		<face>
+			<face_key_template value="BodyProperty.villager_empire"/>
+		</face>
+		<upgrade_targets></upgrade_targets>
+		<Equipments>
+			<EquipmentRoster civilian="true"/>
+			<EquipmentRoster/>
+		</Equipments>
+	</NPCCharacter>
+
+	<NPCCharacter id="townsman_child" default_group="Infantry" level="1" is_female="false" culture="Culture.ikoku" name="{=TAIKOU_npc_townsman_child}Townsman Child" occupation="Townsfolk">
+		<face>
+			<face_key_template value="BodyProperty.villager_empire"/>
+		</face>
+		<upgrade_targets></upgrade_targets>
+		<Equipments>
+			<EquipmentRoster civilian="true"/>
+			<EquipmentRoster/>
+		</Equipments>
+	</NPCCharacter>
+
+	<NPCCharacter id="townsman_teenager" default_group="Infantry" level="1" is_female="false" culture="Culture.ikoku" name="{=TAIKOU_npc_townsman_teenager}Townsman Teenager" occupation="Townsfolk">
+		<face>
+			<face_key_template value="BodyProperty.villager_empire"/>
+		</face>
+		<upgrade_targets></upgrade_targets>
+		<Equipments>
+			<EquipmentRoster civilian="true"/>
+			<EquipmentRoster/>
+		</Equipments>
+	</NPCCharacter>
+
+	<NPCCharacter id="townswoman_infant" default_group="Infantry" level="1" is_female="true" culture="Culture.ikoku" name="{=TAIKOU_npc_townswoman_infant}Townswoman Infant" occupation="Townsfolk">
+		<face>
+			<face_key_template value="BodyProperty.villager_empire"/>
+		</face>
+		<upgrade_targets></upgrade_targets>
+		<Equipments>
+			<EquipmentRoster civilian="true"/>
+			<EquipmentRoster/>
+		</Equipments>
+	</NPCCharacter>
+
+	<NPCCharacter id="townswoman_child" default_group="Infantry" level="1" is_female="true" culture="Culture.ikoku" name="{=TAIKOU_npc_townswoman_child}Townswoman Child" occupation="Townsfolk">
+		<face>
+			<face_key_template value="BodyProperty.villager_empire"/>
+		</face>
+		<upgrade_targets></upgrade_targets>
+		<Equipments>
+			<EquipmentRoster civilian="true"/>
+			<EquipmentRoster/>
+		</Equipments>
+	</NPCCharacter>
+
+	<NPCCharacter id="townswoman_teenager" default_group="Infantry" level="1" is_female="true" culture="Culture.ikoku" name="{=TAIKOU_npc_townswoman_teenager}Townswoman Teenager" occupation="Townsfolk">
+		<face>
+			<face_key_template value="BodyProperty.villager_empire"/>
+		</face>
+		<upgrade_targets></upgrade_targets>
+		<Equipments>
+			<EquipmentRoster civilian="true"/>
+			<EquipmentRoster/>
+		</Equipments>
+	</NPCCharacter>
+
+	<NPCCharacter id="villager" default_group="Infantry" level="1" is_female="false" culture="Culture.ikoku" name="{=TAIKOU_npc_villager}Villager" occupation="Villager">
+		<face>
+			<face_key_template value="BodyProperty.villager_empire"/>
+		</face>
+		<upgrade_targets></upgrade_targets>
+		<Equipments>
+			<EquipmentRoster civilian="true"/>
+			<EquipmentRoster/>
+		</Equipments>
+	</NPCCharacter>
+
+	<NPCCharacter id="village_woman" default_group="Infantry" level="1" is_female="true" culture="Culture.ikoku" name="{=TAIKOU_npc_village_woman}Village Woman" occupation="Villager">
+		<face>
+			<face_key_template value="BodyProperty.villager_empire"/>
+		</face>
+		<upgrade_targets></upgrade_targets>
+		<Equipments>
+			<EquipmentRoster civilian="true"/>
+			<EquipmentRoster/>
+		</Equipments>
+	</NPCCharacter>
+
+	<NPCCharacter id="villager_male_child" default_group="Infantry" level="1" is_female="false" culture="Culture.ikoku" name="{=TAIKOU_npc_villager_male_child}Villager Boy" occupation="Villager">
+		<face>
+			<face_key_template value="BodyProperty.villager_empire"/>
+		</face>
+		<upgrade_targets></upgrade_targets>
+		<Equipments>
+			<EquipmentRoster civilian="true"/>
+			<EquipmentRoster/>
+		</Equipments>
+	</NPCCharacter>
+
+	<NPCCharacter id="villager_male_teenager" default_group="Infantry" level="1" is_female="false" culture="Culture.ikoku" name="{=TAIKOU_npc_villager_male_teenager}Villager Young Man" occupation="Villager">
+		<face>
+			<face_key_template value="BodyProperty.villager_empire"/>
+		</face>
+		<upgrade_targets></upgrade_targets>
+		<Equipments>
+			<EquipmentRoster civilian="true"/>
+			<EquipmentRoster/>
+		</Equipments>
+	</NPCCharacter>
+
+	<NPCCharacter id="villager_female_child" default_group="Infantry" level="1" is_female="true" culture="Culture.ikoku" name="{=TAIKOU_npc_villager_female_child}Villager Girl" occupation="Villager">
+		<face>
+			<face_key_template value="BodyProperty.villager_empire"/>
+		</face>
+		<upgrade_targets></upgrade_targets>
+		<Equipments>
+			<EquipmentRoster civilian="true"/>
+			<EquipmentRoster/>
+		</Equipments>
+	</NPCCharacter>
+
+	<NPCCharacter id="villager_female_teenager" default_group="Infantry" level="1" is_female="true" culture="Culture.ikoku" name="{=TAIKOU_npc_villager_female_teenager}Villager Young Woman" occupation="Villager">
+		<face>
+			<face_key_template value="BodyProperty.villager_empire"/>
+		</face>
+		<upgrade_targets></upgrade_targets>
+		<Equipments>
+			<EquipmentRoster civilian="true"/>
+			<EquipmentRoster/>
+		</Equipments>
+	</NPCCharacter>
+
+	<NPCCharacter id="merchant" default_group="Infantry" level="1" is_female="false" culture="Culture.ikoku" name="{=TAIKOU_npc_merchant}Merchant" occupation="Merchant">
+		<face>
+			<face_key_template value="BodyProperty.villager_empire"/>
+		</face>
+		<upgrade_targets></upgrade_targets>
+		<Equipments>
+			<EquipmentRoster civilian="true"/>
+			<EquipmentRoster/>
+		</Equipments>
+	</NPCCharacter>
+
+	<NPCCharacter id="shop_worker" default_group="Infantry" level="1" is_female="false" culture="Culture.ikoku" name="{=TAIKOU_npc_shop_worker}Shop Worker" occupation="ShopWorker">
+		<face>
+			<face_key_template value="BodyProperty.villager_empire"/>
+		</face>
+		<upgrade_targets></upgrade_targets>
+		<Equipments>
+			<EquipmentRoster civilian="true"/>
+			<EquipmentRoster/>
+		</Equipments>
+	</NPCCharacter>
+
+	<NPCCharacter id="blacksmith" default_group="Infantry" level="1" is_female="false" culture="Culture.ikoku" name="{=TAIKOU_npc_blacksmith}Blacksmith" occupation="Blacksmith">
+		<face>
+			<face_key_template value="BodyProperty.villager_empire"/>
+		</face>
+		<upgrade_targets></upgrade_targets>
+		<Equipments>
+			<EquipmentRoster civilian="true"/>
+			<EquipmentRoster/>
+		</Equipments>
+	</NPCCharacter>
+
+	<NPCCharacter id="weaponsmith" default_group="Infantry" level="1" is_female="false" culture="Culture.ikoku" name="{=TAIKOU_npc_weaponsmith}Weaponsmith" occupation="Weaponsmith">
+		<face>
+			<face_key_template value="BodyProperty.villager_empire"/>
+		</face>
+		<upgrade_targets></upgrade_targets>
+		<Equipments>
+			<EquipmentRoster civilian="true"/>
+			<EquipmentRoster/>
+		</Equipments>
+	</NPCCharacter>
+
+	<NPCCharacter id="armorer" default_group="Infantry" level="1" is_female="false" culture="Culture.ikoku" name="{=TAIKOU_npc_armorer}Armorer" occupation="Armorer">
+		<face>
+			<face_key_template value="BodyProperty.villager_empire"/>
+		</face>
+		<upgrade_targets></upgrade_targets>
+		<Equipments>
+			<EquipmentRoster civilian="true"/>
+			<EquipmentRoster/>
+		</Equipments>
+	</NPCCharacter>
+
+	<NPCCharacter id="barber" default_group="Infantry" level="1" is_female="false" culture="Culture.ikoku" name="{=TAIKOU_npc_barber}Barber" occupation="Townsfolk">
+		<face>
+			<face_key_template value="BodyProperty.villager_empire"/>
+		</face>
+		<upgrade_targets></upgrade_targets>
+		<Equipments>
+			<EquipmentRoster civilian="true"/>
+			<EquipmentRoster/>
+		</Equipments>
+	</NPCCharacter>
+
+	<NPCCharacter id="beggar" default_group="Infantry" level="1" is_female="false" culture="Culture.ikoku" name="{=TAIKOU_npc_beggar}Beggar" occupation="Townsfolk">
+		<face>
+			<face_key_template value="BodyProperty.villager_empire"/>
+		</face>
+		<upgrade_targets></upgrade_targets>
+		<Equipments>
+			<EquipmentRoster civilian="true"/>
+			<EquipmentRoster/>
+		</Equipments>
+	</NPCCharacter>
+
+	<NPCCharacter id="female_beggar" default_group="Infantry" level="1" is_female="true" culture="Culture.ikoku" name="{=TAIKOU_npc_female_beggar}Beggar Woman" occupation="Townsfolk">
+		<face>
+			<face_key_template value="BodyProperty.villager_empire"/>
+		</face>
+		<upgrade_targets></upgrade_targets>
+		<Equipments>
+			<EquipmentRoster civilian="true"/>
+			<EquipmentRoster/>
+		</Equipments>
+	</NPCCharacter>
+
+	<NPCCharacter id="female_dancer" default_group="Infantry" level="1" is_female="true" culture="Culture.ikoku" name="{=TAIKOU_npc_female_dancer}Dancer" occupation="Townsfolk">
+		<face>
+			<face_key_template value="BodyProperty.villager_empire"/>
+		</face>
+		<upgrade_targets></upgrade_targets>
+		<Equipments>
+			<EquipmentRoster civilian="true"/>
+			<EquipmentRoster/>
+		</Equipments>
+	</NPCCharacter>
+
+	<NPCCharacter id="musician" default_group="Infantry" level="1" is_female="false" culture="Culture.ikoku" name="{=TAIKOU_npc_musician}Musician" occupation="Musician">
+		<face>
+			<face_key_template value="BodyProperty.villager_empire"/>
+		</face>
+		<upgrade_targets></upgrade_targets>
+		<Equipments>
+			<EquipmentRoster civilian="true"/>
+			<EquipmentRoster/>
+		</Equipments>
+	</NPCCharacter>
+
+	<NPCCharacter id="tavernkeeper" default_group="Infantry" level="1" is_female="false" culture="Culture.ikoku" name="{=TAIKOU_npc_tavernkeeper}Tavernkeeper" occupation="Tavernkeeper">
+		<face>
+			<face_key_template value="BodyProperty.villager_empire"/>
+		</face>
+		<upgrade_targets></upgrade_targets>
+		<Equipments>
+			<EquipmentRoster civilian="true"/>
+			<EquipmentRoster/>
+		</Equipments>
+	</NPCCharacter>
+
+	<NPCCharacter id="tavern_wench" default_group="Infantry" level="1" is_female="true" culture="Culture.ikoku" name="{=TAIKOU_npc_tavern_wench}Tavern Wench" occupation="TavernWench">
+		<face>
+			<face_key_template value="BodyProperty.villager_empire"/>
+		</face>
+		<upgrade_targets></upgrade_targets>
+		<Equipments>
+			<EquipmentRoster civilian="true"/>
+			<EquipmentRoster/>
+		</Equipments>
+	</NPCCharacter>
+
+	<NPCCharacter id="taverngamehost" default_group="Infantry" level="1" is_female="false" culture="Culture.ikoku" name="{=TAIKOU_npc_taverngamehost}Game Host" occupation="TavernGameHost">
+		<face>
+			<face_key_template value="BodyProperty.villager_empire"/>
+		</face>
+		<upgrade_targets></upgrade_targets>
+		<Equipments>
+			<EquipmentRoster civilian="true"/>
+			<EquipmentRoster/>
+		</Equipments>
+	</NPCCharacter>
+
+	<NPCCharacter id="ransom_broker" default_group="Infantry" level="1" is_female="false" culture="Culture.ikoku" name="{=TAIKOU_npc_ransom_broker}Ransom Broker" occupation="RansomBroker">
+		<face>
+			<face_key_template value="BodyProperty.villager_empire"/>
+		</face>
+		<upgrade_targets></upgrade_targets>
+		<Equipments>
+			<EquipmentRoster civilian="true"/>
+			<EquipmentRoster/>
+		</Equipments>
+	</NPCCharacter>
+
+	<NPCCharacter id="merchant_notary" default_group="Infantry" level="1" is_female="false" culture="Culture.ikoku" name="{=TAIKOU_npc_merchant_notary}Merchant Notary" occupation="Merchant">
+		<face>
+			<face_key_template value="BodyProperty.villager_empire"/>
+		</face>
+		<upgrade_targets></upgrade_targets>
+		<Equipments>
+			<EquipmentRoster civilian="true"/>
+			<EquipmentRoster/>
+		</Equipments>
+	</NPCCharacter>
+
+	<NPCCharacter id="artisan_notary" default_group="Infantry" level="1" is_female="false" culture="Culture.ikoku" name="{=TAIKOU_npc_artisan_notary}Artisan Notary" occupation="Artisan">
+		<face>
+			<face_key_template value="BodyProperty.villager_empire"/>
+		</face>
+		<upgrade_targets></upgrade_targets>
+		<Equipments>
+			<EquipmentRoster civilian="true"/>
+			<EquipmentRoster/>
+		</Equipments>
+	</NPCCharacter>
+
+	<NPCCharacter id="preacher_notary" default_group="Infantry" level="1" is_female="false" culture="Culture.ikoku" name="{=TAIKOU_npc_preacher_notary}Preacher Notary" occupation="Preacher">
+		<face>
+			<face_key_template value="BodyProperty.villager_empire"/>
+		</face>
+		<upgrade_targets></upgrade_targets>
+		<Equipments>
+			<EquipmentRoster civilian="true"/>
+			<EquipmentRoster/>
+		</Equipments>
+	</NPCCharacter>
+
+	<NPCCharacter id="rural_notable_notary" default_group="Infantry" level="1" is_female="false" culture="Culture.ikoku" name="{=TAIKOU_npc_rural_notable_notary}Rural Notable" occupation="RuralNotable">
+		<face>
+			<face_key_template value="BodyProperty.villager_empire"/>
+		</face>
+		<upgrade_targets></upgrade_targets>
+		<Equipments>
+			<EquipmentRoster civilian="true"/>
+			<EquipmentRoster/>
+		</Equipments>
+	</NPCCharacter>
+
+	<NPCCharacter id="tournament_master" default_group="Infantry" level="1" is_female="false" culture="Culture.ikoku" name="{=TAIKOU_npc_tournament_master}Tournament Master" occupation="ArenaMaster">
+		<face>
+			<face_key_template value="BodyProperty.villager_empire"/>
+		</face>
+		<upgrade_targets></upgrade_targets>
+		<Equipments>
+			<EquipmentRoster civilian="true"/>
+			<EquipmentRoster/>
+		</Equipments>
+	</NPCCharacter>
+
+	<NPCCharacter id="horseMerchant" default_group="Infantry" level="1" is_female="false" culture="Culture.ikoku" name="{=TAIKOU_npc_horseMerchant}Horse Merchant" occupation="HorseTrader">
+		<face>
+			<face_key_template value="BodyProperty.villager_empire"/>
+		</face>
+		<upgrade_targets></upgrade_targets>
+		<Equipments>
+			<EquipmentRoster civilian="true"/>
+			<EquipmentRoster/>
+		</Equipments>
+	</NPCCharacter>
+
+	<NPCCharacter id="caravan_master" default_group="Infantry" level="1" is_female="false" culture="Culture.ikoku" name="{=TAIKOU_npc_caravan_master}Caravan Master" occupation="CaravanGuard">
+		<face>
+			<face_key_template value="BodyProperty.villager_empire"/>
+		</face>
+		<upgrade_targets></upgrade_targets>
+		<Equipments>
+			<EquipmentRoster civilian="true"/>
+			<EquipmentRoster/>
+		</Equipments>
+	</NPCCharacter>
+
+	<NPCCharacter id="caravan_guard" default_group="Infantry" level="26" is_female="false" culture="Culture.ikoku" name="{=TAIKOU_npc_caravan_guard}Caravan Guard" occupation="CaravanGuard">
+		<face>
+			<face_key_template value="BodyProperty.villager_empire"/>
+		</face>
+		<upgrade_targets></upgrade_targets>
+		<Equipments>
+			<EquipmentRoster civilian="true"/>
+			<EquipmentRoster/>
+		</Equipments>
+	</NPCCharacter>
+
+	<NPCCharacter id="veteran_caravan_guard" default_group="Infantry" level="1" is_female="false" culture="Culture.ikoku" name="{=TAIKOU_npc_veteran_caravan_guard}Caravan Guard (Veteran)" occupation="CaravanGuard">
+		<face>
+			<face_key_template value="BodyProperty.villager_empire"/>
+		</face>
+		<upgrade_targets></upgrade_targets>
+		<Equipments>
+			<EquipmentRoster civilian="true"/>
+			<EquipmentRoster/>
+		</Equipments>
+	</NPCCharacter>
+
+	<NPCCharacter id="armed_trader" default_group="Infantry" level="1" is_female="false" culture="Culture.ikoku" name="{=TAIKOU_npc_armed_trader}Armed Trader" occupation="GoodsTrader">
+		<face>
+			<face_key_template value="BodyProperty.villager_empire"/>
+		</face>
+		<upgrade_targets></upgrade_targets>
+		<Equipments>
+			<EquipmentRoster civilian="true"/>
+			<EquipmentRoster/>
+		</Equipments>
+	</NPCCharacter>
+
+	<NPCCharacter id="gangleader_bodyguard" default_group="Infantry" level="1" is_female="false" culture="Culture.ikoku" name="{=TAIKOU_npc_gangleader_bodyguard}Bodyguard" occupation="Gangster">
+		<face>
+			<face_key_template value="BodyProperty.villager_empire"/>
+		</face>
+		<upgrade_targets></upgrade_targets>
+		<Equipments>
+			<EquipmentRoster civilian="true"/>
+			<EquipmentRoster/>
+		</Equipments>
+	</NPCCharacter>
+
+	<NPCCharacter id="gear_dummy" default_group="Infantry" level="1" is_female="false" culture="Culture.ikoku" name="{=TAIKOU_npc_gear_dummy}Gear Dummy" occupation="Townsfolk">
+		<face>
+			<face_key_template value="BodyProperty.villager_empire"/>
+		</face>
+		<upgrade_targets></upgrade_targets>
+		<Equipments>
+			<EquipmentRoster civilian="true"/>
+			<EquipmentRoster/>
+		</Equipments>
+	</NPCCharacter>
+
+	<NPCCharacter id="gear_practice_dummy" default_group="Infantry" level="1" is_female="false" culture="Culture.ikoku" name="{=TAIKOU_npc_gear_practice_dummy}Practice Dummy" occupation="Townsfolk">
+		<face>
+			<face_key_template value="BodyProperty.villager_empire"/>
+		</face>
+		<upgrade_targets></upgrade_targets>
+		<Equipments>
+			<EquipmentRoster civilian="true"/>
+			<EquipmentRoster/>
+		</Equipments>
+	</NPCCharacter>
 
 </NPCCharacters>
