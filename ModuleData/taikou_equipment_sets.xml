@@ -24,6 +24,17 @@
 			<Equipment slot="Leg" id="Item.leather_shoes" />
 		</EquipmentSet>
 	</EquipmentRoster>
+	<!-- 🔴 2026-09-08 实机补：1.5.2 Campaign.InitializeDefaultEquipments 需要第三个架子
+	     default_stealth_equipment_roster（1.2.12 引擎的该函数只查前两个，故 1.2.12 机此前无此雷）。
+	     轻装 = 本内容包 items 已确认存在的 id（falchion_sword_t2/battania_civil_b/leather_shoes）；
+	     不带 equipmentType 属性 = 两版本解析器均无未知属性风险（SandBox 官方架子的属性与我们的消费无关）。 -->
+	<EquipmentRoster id="default_stealth_equipment_roster">
+		<EquipmentSet>
+			<Equipment slot="Item0" id="Item.falchion_sword_t2" />
+			<Equipment slot="Body" id="Item.battania_civil_b" />
+			<Equipment slot="Leg" id="Item.leather_shoes" />
+		</EquipmentSet>
+	</EquipmentRoster>
 	<EquipmentRoster id="player_char_creation_default">
 		<EquipmentSet>
 			<Equipment slot="Item0" id="Item.ridged_sabre_sword_t4" />
