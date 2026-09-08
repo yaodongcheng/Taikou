@@ -42,14 +42,81 @@
 		</out_of_bounds_effects_properties>
 	</environment_properties>
 	<entities>
-		<game_entity name="town_kyoto" old_prefab_name="">
-			<tags>
-				<tag name="town"/>
-			</tags>
-			<transform position="969.424, 421.563, 4.601" rotation_euler="0.000, 0.000, 0.000" scale="2.000, 2.000, 1.000"/>
-			<components>
-				<meta_mesh_component name="mi_aserai_tower_2"/>
-			</components>
+		
+		<game_entity name="campaign_icon_capsule_1" old_prefab_name="">
+			<transform position="969.424, 421.563, 20.000" rotation_euler="0.000, 0.000, 0.000"/>
+			<scripts>
+				<script name="Town Entity Manager">
+					<variables>
+						<variable name="Override Factor Color" value="false"/>
+						<variable name="Factor Color" value="1.000, 1.000, 1.000, 1.000"/>
+					</variables>
+				</script>
+			</scripts>
+			<children>
+				<game_entity name="town_kyoto" old_prefab_name="">
+					<tags>
+						<tag name="town"/>
+					</tags>
+					<transform position="0.000, 0.000, -15.399" rotation_euler="0.000, 0.000, 0.000" scale="2.000, 2.000, 1.000"/>
+					<components>
+						<meta_mesh_component name="mi_aserai_tower_2"/>
+					</components>
+				</game_entity>
+			</children>
+		</game_entity>
+		<game_entity name="__empty_object" old_prefab_name="__empty_object" mobility="1">
+			<transform position="700.000, 750.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+			<scripts>
+				<script name="CampaignMapSiegePrefabEntityCache">
+					<variables>
+						<variable name="_attackerBallistaPrefab" value="ballista_a_mapicon"/>
+						<variable name="_defenderBallistaPrefab" value="ballista_b_mapicon"/>
+						<variable name="_attackerFireBallistaPrefab" value="ballista_a_fire_mapicon"/>
+						<variable name="_defenderFireBallistaPrefab" value="ballista_b_fire_mapicon"/>
+						<variable name="_attackerMangonelPrefab" value="mangonel_a_mapicon"/>
+						<variable name="_defenderMangonelPrefab" value="mangonel_b_mapicon"/>
+						<variable name="_attackerFireMangonelPrefab" value="mangonel_a_fire_mapicon"/>
+						<variable name="_defenderFireMangonelPrefab" value="mangonel_b_fire_mapicon"/>
+					</variables>
+				</script>
+			</scripts>
+		</game_entity>
+		<game_entity name="color_grade_manager" old_prefab_name="" mobility="1">
+			<transform position="476.441, 221.187, 2.895" rotation_euler="0.000, 0.000, 0.000"/>
+			<scripts>
+				<script name="MapColorGradeManager">
+					<variables>
+						<variable name="ColorGradeEnabled" value="true"/>
+						<variable name="AtmosphereSimulationEnabled" value="false"/>
+						<variable name="TimeOfDay" value="8.000"/>
+						<variable name="SeasonTimeFactor" value="0.000"/>
+					</variables>
+				</script>
+			</scripts>
+		</game_entity>
+		<game_entity name="empty_object" old_prefab_name="" mobility="1">
+			<transform position="463.025, 375.041, 7.116" rotation_euler="0.000, 0.000, 0.000"/>
+			<scripts>
+				<script name="Town Scene Manager"/>
+			</scripts>
+		</game_entity>
+		<game_entity name="leveller" old_prefab_name="" mobility="1">
+			<transform position="533.560, 550.644, 2.652" rotation_euler="0.000, 0.000, 0.000"/>
+			<scripts>
+				<script name="SceneLeveler">
+					<variables>
+						<variable name="SourceSelectionSetName" value="stul2"/>
+						<variable name="TargetSelectionSetName" value="stul1"/>
+					</variables>
+				</script>
+			</scripts>
+		</game_entity>
+		<game_entity name="__empty_object" old_prefab_name="__empty_object" mobility="1">
+			<transform position="750.000, 750.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+			<scripts>
+				<script name="SettlementPositionScript"/>
+			</scripts>
 		</game_entity>
 		<game_entity name="envmap_probe" old_prefab_name="" mobility="1">
 			<visibility_masks>

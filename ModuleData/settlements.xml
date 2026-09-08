@@ -19,7 +19,7 @@
 			<Town
 				id="town_comp_kyoto"
 				is_castle="false"
-				level="4"
+				level="3"
 				background_crop_position="0.0"
 				background_mesh="menu_empire_4"
 				wait_mesh="wait_empire_town"
@@ -51,5 +51,31 @@
 			<Area type="Backstreet" name="{=TAIKOU_sett_kyoto_alley1}Kyoto Backstreet"/>
 			<Area type="Backstreet" name="{=TAIKOU_sett_kyoto_alley2}Gion Alley"/>
 		</CommonAreas>
+	</Settlement>
+	<!-- 退休据点（2026-09-08 雷 31 修复）：RetirementCampaignBehavior.OnSessionLaunched 硬编码
+	     Settlement.Find("retirement_retreat")——缺 = 每小时 tick NRE；织丰=自建退休整套（ShokuhoRetirementCampaignBehavior），
+	     我们 v0=官方最小条目（组件/图标/场景全官方，位置放京边确保可见）。 -->
+	<Settlement
+		id="retirement_retreat"
+		name="{=TAIKOU_sett_retreat}The Retreat"
+		posX="1090.0"
+		posY="500.0"
+		culture="Culture.ikoku"
+		text="{=!}This is the retirement retreat location.">
+		<Components>
+			<RetirementSettlementComponent
+				id="retirement_component"
+				map_icon="bandit_hideout_b"
+				background_crop_position="0.0"
+				background_mesh="gui_bg_village_battania"
+				wait_mesh="retirement_wait" />
+		</Components>
+		<Locations
+			complex_template="LocationComplexTemplate.retreat_complex">
+			<Location
+				id="retirement_retreat"
+				scene_name="scn_retirement"
+				max_prosperity="100" />
+		</Locations>
 	</Settlement>
 </Settlements>
