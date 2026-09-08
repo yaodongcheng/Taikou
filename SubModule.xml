@@ -31,6 +31,15 @@
 				<GameType value="TaikouCampaign"/>
 			</IncludedGameTypes>
 		</XmlNode>
+		<!-- 🔴 雷 27（2026-09-08）：facgen_template_test_char_0..9 等捏脸模板必需——SandBoxCore 的 NPCCharacters 段只注册
+		     Campaign/CampaignStoryMode/CustomGame/EditorGame，TaikouCampaign 下 GetObject 得 null → BodyGeneratorView NRE。
+		     织丰做派=自家副本+自家 GameType 注册（Shokuho SubModule.xml:417-423）；副本已 sanitize 文化引用→ikoku。 -->
+		<XmlNode>
+			<XmlName id="NPCCharacters" path="spnpccharactertemplates"/>
+			<IncludedGameTypes>
+				<GameType value="TaikouCampaign"/>
+			</IncludedGameTypes>
+		</XmlNode>
 		<XmlNode>
 			<XmlName id="NPCCharacters" path="spnpccharacters"/>
 			<IncludedGameTypes>

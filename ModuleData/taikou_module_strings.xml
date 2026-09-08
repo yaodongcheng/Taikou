@@ -36,6 +36,13 @@
 	<string
 		id="str_player_mother_name.empire"
 		text="{=yvdQ9MD6}Terea" />
+	<!-- CC 文化界面用：文化名/文化描述（id.变化后缀 = 引擎 variation 机制；织丰做派：module_strings 定 id.varkey，实锤 Shokuho module_strings.xml:193-207） -->
+	<string
+		id="str_culture_rich_name.ikoku"
+		text="{=TAIKOU_culture_rich_name_ikoku}Japanese" />
+	<string
+		id="str_culture_description.ikoku"
+		text="{=TAIKOU_culture_description_ikoku}The inhabitants of the Japanese archipelago live in an age of ceaseless war. Centuries of imperial rule have collapsed into a fractured era of feuding warlords, and the shogun's authority burns dim beside the field of banners. Rulers who hold the force of arms are made and unmade in a single season; yet beyond the smoke of battle, the merchant's ledger, the monk's chant and the poet's brush endure, and no conquest can long stand that cannot be honored in the turning of a blade." />
 	<string
 		id="str_game_action_note.DefaultNote"
 		text="{=!}DefaultNote" />

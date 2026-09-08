@@ -100,16 +100,16 @@
 		</ItemComponent>
 		<Flags Civilian="true" />
 	</Item>
-	<Item is_merchandise="true" id="wool" name="{=WVqaRKUm}Wool{@Plural}loads of wool{\@}" mesh="merchandise_wool" item_category="wool" value="40" weight="10" Type="Goods">
+	<Item id="wool" name="{=WVqaRKUm}Wool{@Plural}loads of wool{\@}" mesh="merchandise_wool" item_category="wool" value="40" weight="10" Type="Goods">
 		<Flags Civilian="true" />
 	</Item>
-	<Item is_merchandise="true" id="pottery" name="{=awQrcrt2}Pottery{@Plural}crates of pottery{\@}" mesh="merchandise_pottery" item_category="pottery" value="200" weight="10" Type="Goods">
+	<Item id="pottery" name="{=awQrcrt2}Pottery{@Plural}crates of pottery{\@}" mesh="merchandise_pottery" item_category="pottery" value="200" weight="10" Type="Goods">
 		<Flags Civilian="true" />
 	</Item>
-	<Item is_merchandise="true" id="linen" name="{=DvGueBrU}Linen{@Plural}rolls of linen{\@}" mesh="merchandise_linen" item_category="linen" value="200" weight="10" Type="Goods">
+	<Item id="linen" name="{=DvGueBrU}Linen{@Plural}rolls of linen{\@}" mesh="merchandise_linen" item_category="linen" value="200" weight="10" Type="Goods">
 		<Flags Civilian="true" />
 	</Item>
-	<Item is_merchandise="true" id="leather" name="{=ufnnUxKb}Leather{@Plural}crates of leather{\@}" mesh="merchandise_leather_a" item_category="leather" value="250" weight="10" Type="Goods">
+	<Item id="leather" name="{=ufnnUxKb}Leather{@Plural}crates of leather{\@}" mesh="merchandise_leather_a" item_category="leather" value="250" weight="10" Type="Goods">
 		<Flags Civilian="true" />
 	</Item>
 	<Item id="cheese" name="{=WSk5Sibs}Cheese{@Plural}barrels of cheese{\@}" mesh="merchandise_cheese_b" item_category="cheese" IsFood="true" value="40" weight="10" Type="Goods">
@@ -118,7 +118,7 @@
 		</ItemComponent>
 		<Flags Civilian="true" />
 	</Item>
-	<Item is_merchandise="true" id="butter" name="{=VbL6GFmy}Butter{@Plural}casks of butter{\@}" mesh="merchandise_cheese_b" item_category="butter" IsFood="true" value="25" weight="10" Type="Goods">
+	<Item id="butter" name="{=VbL6GFmy}Butter{@Plural}casks of butter{\@}" mesh="merchandise_cheese_b" item_category="butter" IsFood="true" value="25" weight="10" Type="Goods">
 		<ItemComponent>
 			<Trade morale_bonus="1" />
 		</ItemComponent>
@@ -130,7 +130,7 @@
 		</ItemComponent>
 		<Flags Civilian="true" />
 	</Item>
-	<Item is_merchandise="true" id="wine" name="{=ELsDFwAD}Wine{@Plural}amphorae of wine{\@}" mesh="amphora_slim" item_category="wine" IsFood="false" value="75" weight="10" Type="Goods">
+	<Item id="wine" name="{=ELsDFwAD}Wine{@Plural}amphorae of wine{\@}" mesh="amphora_slim" item_category="wine" IsFood="false" value="75" weight="10" Type="Goods">
 		<ItemComponent>
 			<Trade morale_bonus="3" />
 		</ItemComponent>

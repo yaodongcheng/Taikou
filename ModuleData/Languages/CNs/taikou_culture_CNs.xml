@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<base type="string">
+ <tags>
+  <tag language="简体中文"/>
+ </tags>
+ <strings>
+  <string id="TAIKOU_culture_ikoku" text="日本" />
+  <string id="TAIKOU_culture_rich_name_ikoku" text="日本人" />
+  <string id="TAIKOU_culture_description_ikoku" text="日本列岛正值乱世：幕府权威衰微，各地武将群雄割据。以刀剑争名、以谋略夺权者成败在一念之间，王朝兴衰如风卷残旗；然而硝烟之外，商人的账本、僧侣的诵经与诗人的笔耕从未停歇——真正能长久立足的霸权，终须把荣耀熔进刀锋的转向之中。" />
+ </strings>
+</base>

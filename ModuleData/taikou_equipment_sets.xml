@@ -1,8 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!-- Taikou 装备模板（2026-09-08 引用闭包后 7 个：使用链 2 + 引擎硬编码 5——全内容用保留集物品，织丰式自建）
-     引擎硬编码 MBEquipmentRoster 全集：default_battle/civilian_equipment_roster_neutral（死装备）、
-     player_char_creation_default（CC 建号预览）、npc_disguised_hero_equipment_template（乔装）、
-     conspirator_cutscene_template（剧情过场）——缺一即 NRE（prune 白名单 ENGINE_ROSTER_IDS 同步） -->
+﻿<?xml version="1.0" encoding="utf-8"?>
 <EquipmentRosters>
 	<EquipmentRoster id="neutral_battle_template">
 		<EquipmentSet>

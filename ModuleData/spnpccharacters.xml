@@ -19,11 +19,11 @@
 		<face>
 			<!--face_key value="0011014700fc100e979b77279874cd97b97a74867996a78976e7589688b77ad4000a46550abb987d0000000000000000000000000000000000000000012c3040 " /-->
 			<BodyProperties
-				version="3"
-				age="22.55"
-				weight="0.5355"
-				build="0.5015"
-				key="00109C0D8000134D59A4894CAAA8A4A6BC7262A86699976479AD7D8A99877A3A007886030768E986000000000000000000000000000000000000000000FC1142" />
+				version="4"
+				age="25.84"
+				weight="0.5"
+				build="0.5"
+				key="00050C0CC00010024880587733955036989885856397900087647F088DC120340187761308468511000000000000000000000000000000000000000077144001" />
 		</face>
 		<skills>
 			<skill
@@ -1100,6 +1100,37 @@
 		<Equipments>
 			<EquipmentRoster civilian="true"/>
 			<EquipmentRoster/>
+		</Equipments>
+	</NPCCharacter>
+
+
+	<!-- 黑帮名流（occupation=GangLeader——AlleyCampaignBehavior 的 SetOwner 用 IsGangLeader 匹配，2026-09-08 第 13 雷补） -->
+	<NPCCharacter id="gang_leader" default_group="Infantry" level="3" is_female="false" culture="Culture.ikoku" name="{=TAIKOU_npc_gang_leader}Gang Leader" occupation="GangLeader">
+		<face>
+			<face_key_template value="BodyProperty.villager_empire"/>
+		</face>
+		<upgrade_targets></upgrade_targets>
+		<Equipments>
+			<EquipmentRoster civilian="true"/>
+			<EquipmentRoster/>
+		</Equipments>
+	</NPCCharacter>
+
+
+	<!-- 佣兵（occupation=Mercenary —— RecruitmentCampaignBehavior.BasicMercenaryTroops 消费，2026-09-08 第 15 雷补） -->
+	<NPCCharacter id="mercenary_ikoku" default_group="Infantry" level="6" is_female="false" culture="Culture.ikoku" name="{=TAIKOU_npc_mercenary}Mercenary" occupation="Mercenary">
+		<face>
+			<face_key_template value="BodyProperty.fighter_empire"/>
+		</face>
+		<upgrade_targets></upgrade_targets>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.ridged_sabre_sword_t4" />
+				<equipment slot="Body" id="Item.battania_civil_b" />
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Body" id="Item.battania_civil_b" />
+			</EquipmentRoster>
 		</Equipments>
 	</NPCCharacter>
 

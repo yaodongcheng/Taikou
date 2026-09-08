@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <!-- TaikouCampaign 据点最小集（v0 占位）：
      posX/posY = 日本图世界米坐标（世界 2048×1280m，非织丰 0-1000 域）——
      当前为近似值 ⚠️ 坐标对齐 = 场景实体手摆时校准（此处为准，实体按此摆）。
@@ -47,5 +47,9 @@
 				scene_name_2="empire_castle_keep_a_l2_interior"
 				scene_name_3="empire_castle_keep_a_l3_interior" />
 		</Locations>
+		<CommonAreas>
+			<Area type="Backstreet" name="{=TAIKOU_sett_kyoto_alley1}Kyoto Backstreet"/>
+			<Area type="Backstreet" name="{=TAIKOU_sett_kyoto_alley2}Gion Alley"/>
+		</CommonAreas>
 	</Settlement>
 </Settlements>
