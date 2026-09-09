@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 地痞三档 gangster_1/2/3（2026-09-09 雷 35 修复，手维护数据，勿被生成器覆盖）：
+     根因：SandBoxCore 官方 spnpccharacters.xml 段的 IncludedGameTypes 只有 Campaign/CampaignStoryMode/CustomGame/EditorGame，
+     TaikouCampaign 下被过滤 → DefaultAlleyModel._thug（GetObject<"gangster_1/2/3">）= null → 进城（TownCenter）
+     SpawnLocationCharacters → AlleyCampaignBehavior → AddToCounts(null) NRE（TroopRoster.cs）。
+     织丰做派 = 自家副本 + 自家 GameType 注册（Shokuho spnpccharactertemplates.xml）。
+     内容 = 官方定义结构副本（level/occupation/traits/升级链/face/skill_template 与官方一致）；
+     物品 = Taikou 自有 38 物品集（vanilla 物品未随 Taikou 装载，禁引用 Item.empire_mace_1_t2 等）；
+     民用套装 = 自证 taikou_civil_gangster_t1/2/3（taikou_equipment_sets.xml）。 -->
+<NPCCharacters>
+	<NPCCharacter id="gangster_1" default_group="Infantry" is_hero="false" level="6" name="{=malethug}Thug" occupation="Gangster" is_basic_troop="true" culture="Culture.neutral_culture" skill_template="SkillSet.infantry_heavyinfantry_level6_template_skills">
+		<face>
+			<face_key_template value="BodyProperty.fighter_empire" />
+		</face>
+		<Traits>
+			<Trait id="Smuggler" value="1" />
+			<Trait id="Thug" value="1" />
+		</Traits>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.gangster_2" />
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.battania_mace_1_t2" />
+				<equipment slot="Item1" id="Item.leather_round_shield" />
+				<equipment slot="Body" id="Item.battania_civil_b" />
+				<equipment slot="Leg" id="Item.leather_shoes" />
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.torch" />
+				<equipment slot="Body" id="Item.battania_civil_b" />
+				<equipment slot="Leg" id="Item.leather_shoes" />
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.wooden_sword_t1" />
+				<equipment slot="Body" id="Item.short_padded_robe" />
+				<equipment slot="Leg" id="Item.leather_shoes" />
+			</EquipmentRoster>
+			<EquipmentSet id="taikou_civil_gangster_t1" equipmentType="Civilian" />
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="gangster_2" default_group="Infantry" is_hero="false" level="11" name="{=7aRhhGAs}Expert Thug" occupation="Gangster" culture="Culture.neutral_culture" skill_template="SkillSet.infantry_heavyinfantry_level11_template_skills">
+		<face>
+			<face_key_template value="BodyProperty.fighter_empire" />
+		</face>
+		<Traits>
+			<Trait id="Smuggler" value="2" />
+			<Trait id="Thug" value="2" />
+		</Traits>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.gangster_3" />
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.short_sword_t3" />
+				<equipment slot="Body" id="Item.short_padded_robe" />
+				<equipment slot="Leg" id="Item.leather_cavalier_boots" />
+				<equipment slot="Gloves" id="Item.reinforced_mail_mitten" />
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.falchion_sword_t2" />
+				<equipment slot="Item1" id="Item.leather_round_shield" />
+				<equipment slot="Body" id="Item.short_padded_robe" />
+				<equipment slot="Leg" id="Item.leather_shoes" />
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.short_sword_t3" />
+				<equipment slot="Body" id="Item.battania_civil_b" />
+				<equipment slot="Leg" id="Item.leather_cavalier_boots" />
+			</EquipmentRoster>
+			<EquipmentSet id="taikou_civil_gangster_t2" equipmentType="Civilian" />
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="gangster_3" default_group="Infantry" is_hero="false" level="16" name="{=V1hoeBch}Master Thug" occupation="Gangster" culture="Culture.neutral_culture" skill_template="SkillSet.infantry_heavyinfantry_level16_template_skills">
+		<face>
+			<face_key_template value="BodyProperty.fighter_empire" />
+		</face>
+		<Traits>
+			<Trait id="Smuggler" value="3" />
+			<Trait id="Thug" value="3" />
+		</Traits>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.ridged_sabre_sword_t4" />
+				<equipment slot="Head" id="Item.nasal_helmet_with_mail" />
+				<equipment slot="Body" id="Item.desert_lamellar" />
+				<equipment slot="Leg" id="Item.leather_cavalier_boots" />
+				<equipment slot="Gloves" id="Item.reinforced_mail_mitten" />
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.cleaver_sword_t3" />
+				<equipment slot="Body" id="Item.desert_lamellar" />
+				<equipment slot="Leg" id="Item.leather_shoes" />
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.falchion_sword_t2" />
+				<equipment slot="Item1" id="Item.leather_round_shield" />
+				<equipment slot="Head" id="Item.nasal_helmet_with_mail" />
+				<equipment slot="Body" id="Item.short_padded_robe" />
+				<equipment slot="Leg" id="Item.leather_cavalier_boots" />
+			</EquipmentRoster>
+			<EquipmentSet id="taikou_civil_gangster_t3" equipmentType="Civilian" />
+		</Equipments>
+	</NPCCharacter>
+</NPCCharacters>

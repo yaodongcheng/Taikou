@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <EquipmentRosters>
 	<EquipmentRoster id="neutral_battle_template">
 		<EquipmentSet>
@@ -57,6 +57,44 @@
 	<EquipmentRoster id="conspirator_cutscene_template">
 		<EquipmentSet>
 			<Equipment slot="Body" id="Item.battania_civil_b" />
+		</EquipmentSet>
+	</EquipmentRoster>
+		<EquipmentRoster id="taikou_civil_gangster_t1" culture="Culture.ikoku">
+		<EquipmentSet equipmentType="Civilian">
+			<Equipment slot="Item0" id="Item.battania_mace_1_t2" />
+			<Equipment slot="Body" id="Item.battania_civil_b" />
+			<Equipment slot="Leg" id="Item.leather_shoes" />
+		</EquipmentSet>
+		<EquipmentSet equipmentType="Civilian">
+			<Equipment slot="Item0" id="Item.wooden_sword_t1" />
+			<Equipment slot="Body" id="Item.battania_civil_b" />
+			<Equipment slot="Leg" id="Item.leather_shoes" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster id="taikou_civil_gangster_t2" culture="Culture.ikoku">
+		<EquipmentSet equipmentType="Civilian">
+			<Equipment slot="Item0" id="Item.short_sword_t3" />
+			<Equipment slot="Body" id="Item.short_padded_robe" />
+			<Equipment slot="Leg" id="Item.leather_cavalier_boots" />
+			<Equipment slot="Gloves" id="Item.reinforced_mail_mitten" />
+		</EquipmentSet>
+		<EquipmentSet equipmentType="Civilian">
+			<Equipment slot="Item0" id="Item.falchion_sword_t2" />
+			<Equipment slot="Body" id="Item.short_padded_robe" />
+			<Equipment slot="Leg" id="Item.leather_shoes" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster id="taikou_civil_gangster_t3" culture="Culture.ikoku">
+		<EquipmentSet equipmentType="Civilian">
+			<Equipment slot="Item0" id="Item.ridged_sabre_sword_t4" />
+			<Equipment slot="Head" id="Item.nasal_helmet_with_mail" />
+			<Equipment slot="Body" id="Item.desert_lamellar" />
+			<Equipment slot="Leg" id="Item.leather_cavalier_boots" />
+		</EquipmentSet>
+		<EquipmentSet equipmentType="Civilian">
+			<Equipment slot="Item0" id="Item.cleaver_sword_t3" />
+			<Equipment slot="Body" id="Item.desert_lamellar" />
+			<Equipment slot="Leg" id="Item.leather_shoes" />
 		</EquipmentSet>
 	</EquipmentRoster>
 </EquipmentRosters>

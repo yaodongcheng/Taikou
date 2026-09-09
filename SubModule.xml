@@ -48,6 +48,14 @@
 				<GameType value="TaikouCampaign"/>
 			</IncludedGameTypes>
 		</XmlNode>
+		<!-- 雷 35（2026-09-09）：gangster_1/2/3 = 官方 SandBoxCore 段含（只有 Campaign/StoryMode/CustomGame/EditorGame），
+		     TaikouCampaign 下 DefaultAlleyModel 进城取 "gangster_*" 得 null → AddToCounts NRE。织丰做派 = 自家副本 + 自家注册。 -->
+		<XmlNode>
+			<XmlName id="NPCCharacters" path="taikou_gangsters"/>
+			<IncludedGameTypes>
+				<GameType value="TaikouCampaign"/>
+			</IncludedGameTypes>
+		</XmlNode>
 		<XmlNode>
 			<XmlName id="partyTemplates" path="partyTemplates"/>
 			<IncludedGameTypes>
