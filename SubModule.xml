@@ -154,6 +154,67 @@
 			<GameType value="TaikouCampaign"/>
 		</IncludedGameTypes>
 	</XmlNode>
+	<XmlNode>
+		<!-- 🔴 2026-09-09 雷 35 全量盘底：SandBox 的 9 个 GameText 文本段全部带 GameType 白名单
+		     （Campaign/CampaignStoryMode，SandBox SubModule.xml 实锤）→ TaikouCampaign 下整文件被过滤：
+		     领主介绍（comment_strings）、开战新闻（action_strings）、对话（module_strings）、
+		     流浪者生成名（wanderer_strings）、同伴背景（companion_strings）、特质/配音/评论等。
+		     修法 = 官方文件原样拷贝进 Taikou + 本段注册（补回白名单）；其中评论/动作等以 str_* 查询的
+		     引擎/沙盒代码都要靠它们——缺 = 运行期「Text with id ... doesn't exist!」报错或 NRE。
+		     9 文件清单按 SandBox SubModule.xml 扫描（XML id="GameText" 且带 IncludedGameTypes）。 -->
+		<XmlName id="GameText" path="module_strings"/>
+		<IncludedGameTypes>
+			<GameType value="TaikouCampaign"/>
+		</IncludedGameTypes>
+	</XmlNode>
+	<XmlNode>
+		<XmlName id="GameText" path="world_lore_strings"/>
+		<IncludedGameTypes>
+			<GameType value="TaikouCampaign"/>
+		</IncludedGameTypes>
+	</XmlNode>
+	<XmlNode>
+		<XmlName id="GameText" path="companion_strings"/>
+		<IncludedGameTypes>
+			<GameType value="TaikouCampaign"/>
+		</IncludedGameTypes>
+	</XmlNode>
+	<XmlNode>
+		<XmlName id="GameText" path="wanderer_strings"/>
+		<IncludedGameTypes>
+			<GameType value="TaikouCampaign"/>
+		</IncludedGameTypes>
+	</XmlNode>
+	<XmlNode>
+		<XmlName id="GameText" path="comment_strings"/>
+		<IncludedGameTypes>
+			<GameType value="TaikouCampaign"/>
+		</IncludedGameTypes>
+	</XmlNode>
+	<XmlNode>
+		<XmlName id="GameText" path="comment_on_action_strings"/>
+		<IncludedGameTypes>
+			<GameType value="TaikouCampaign"/>
+		</IncludedGameTypes>
+	</XmlNode>
+	<XmlNode>
+		<XmlName id="GameText" path="trait_strings"/>
+		<IncludedGameTypes>
+			<GameType value="TaikouCampaign"/>
+		</IncludedGameTypes>
+	</XmlNode>
+	<XmlNode>
+		<XmlName id="GameText" path="voice_strings"/>
+		<IncludedGameTypes>
+			<GameType value="TaikouCampaign"/>
+		</IncludedGameTypes>
+	</XmlNode>
+	<XmlNode>
+		<XmlName id="GameText" path="action_strings"/>
+		<IncludedGameTypes>
+			<GameType value="TaikouCampaign"/>
+		</IncludedGameTypes>
+	</XmlNode>
 </Xmls>
 </Module>
 
