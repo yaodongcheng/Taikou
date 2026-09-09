@@ -69,6 +69,45 @@
 					<components>
 						<meta_mesh_component name="mi_aserai_tower_2"/>
 					</components>
+						<children>
+						<!-- 🔴 2026-09-09 点击根因修复：官方定居点实体组必带「bo_town 只碰射线碰撞体」
+						     （SandBox Main_map 7988/14330 行同构；织丰 Main_map 8 处同款）——
+						     地图拾取（SelectEntitiesCollidedWith/GetCursorIntersectionPoint 掩码 79617）
+						     只命中仅碰射线的碰撞体，普通 mesh 不在拾取范围 → 无 bo_town = 无任何命中。
+						     body_flag: only_collide_with_raycast = 射线拾取专用，常驻可见/渲染无关。 -->
+						<game_entity name="bo_town" old_prefab_name="__empty_object" mobility="1">
+							<tags>
+								<tag name="bo_town"/>
+							</tags>
+							<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000" scale="3.500, 3.500, 3.500"/>
+							<physics shape="bo_sphere_collider">
+								<body_flags>
+									<body_flag name="only_collide_with_raycast"/>
+								</body_flags>
+							</physics>
+						</game_entity>
+						<game_entity name="gate_position" old_prefab_name="gate_position" mobility="1">
+							<tags>
+								<tag name="main_map_city_gate"/>
+							</tags>
+							<transform position="0.000, -2.000, 0.000" rotation_euler="0.000, 0.000, 0.561"/>
+						</game_entity>
+						<game_entity name="town_circle_decal" old_prefab_name="town_circle_decal" mobility="1">
+							<tags>
+								<tag name="map_settlement_circle"/>
+							</tags>
+							<!-- v5（2026-09-09 用户反馈圈太大）：回归 vanilla 比例——scale 1.56（父 2× → 世界 3.12m）
+							     = 官方 town_circle_decal 3.38 同级；z 保留 2.6（可见高度，未被塔吞）。 -->
+							<transform position="0.000, 0.000, 2.600" rotation_euler="0.000, 0.000, 2.301" scale="1.560, 1.560, 1.151"/>
+							<components>
+								<decal_component material="decal_city_circle_a" argument="1.000, 1.000, 0.000, 0.000"/>
+							</components>
+							<physics mass="1.000"/>
+							<additional_features>
+								<feature name="apply_factor_color_to_all_components" value="false"/>
+							</additional_features>
+						</game_entity>
+					</children>
 				</game_entity>
 			</children>
 		</game_entity>
