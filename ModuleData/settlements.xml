@@ -16,8 +16,12 @@
       <Location id="lordshall" scene_name_1="empire_castle_keep_a_l1_interior" scene_name_2="empire_castle_keep_a_l2_interior" scene_name_3="empire_castle_keep_a_l3_interior" />
     </Locations>
     <CommonAreas>
+      <!-- 🔴 2026-09-09 进城 NRE 修复：CommonAreaMarker.Tag→GetAlley 按 AreaIndex 取 Alleys，
+           超出 = Tag null → GetAllProps `item2.Tag.Contains` NRE（京实机 15:58）。
+           vanilla 城镇 = Backstreet+Clearing+Waterfront 三项（town_C1 同构）；我们原来只有 2 个 Backstreet。 -->
       <Area type="Backstreet" name="{=TAIKOU_sett_kyoto_alley1}Kyoto Backstreet" />
-      <Area type="Backstreet" name="{=TAIKOU_sett_kyoto_alley2}Gion Alley" />
+      <Area type="Clearing" name="{=TAIKOU_sett_kyoto_clearing}Kyoto Clearing" />
+      <Area type="Waterfront" name="{=TAIKOU_sett_kyoto_waterfront}Kyoto Waterfront" />
     </CommonAreas>
   </Settlement>
   <!-- 退休据点（2026-09-08 雷 31 修复）：RetirementCampaignBehavior.OnSessionLaunched 硬编码
