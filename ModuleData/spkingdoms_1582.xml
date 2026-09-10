@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 🔴 生成物·禁止手改（铁律 22）——由 Scripts/gen_taikou_era_diff.py 从 spkingdoms.xml 派生。
+     若需修改：改生成器的 ERA_DIFF / 基线段后重跑，不要直接编辑本文件。
+     ⚠️ 本段（Kingdoms/spkingdoms*）属「时代差异段」：GameType 互斥注册——
+        spkingdoms.xml → TaikouCampaign / TaikouCampaign1560
+        spkingdoms_1582.xml → TaikouCampaign1582
+     两者**不得同时命中同一 GameType**（同名 XmlName 多段 = 引擎合并加载 → 同名对象重复定义）。
+     🔴 据点 id 跨时代不变（铁律 20）——只换归属，id/坐标/组件全同 → 距离缓存可共用。 -->
+<Kingdoms>
+	<Kingdom
+		id="kingdom_g"
+		owner="Hero.lord_g"
+		banner_key="11.80.84.864.864.763.762.1.0.0.671.18.103.483.483.764.729.0.0.0"
+		primary_banner_color="0xff7a94d0"
+		secondary_banner_color="0xff1d2c53"
+		label_color="FF5573BE"
+		color="FF5573BE"
+		color2="FFDE9953"
+		alternative_color="FFCBC25D"
+		alternative_color2="FF5D6347"
+		culture="Culture.ikoku"
+		settlement_banner_mesh="encounter_flag_a"
+		flag_mesh="info_screen_flags_a"
+		name="{=TAIKOU_kingdom_g}Kingdom G"
+		short_name="{=TAIKOU_kingdom_g_short}Kingdom G"
+		title="{=TAIKOU_kingdom_g_short}Kingdom G"
+		ruler_title="{=TAIKOU_daimyo}Daimyo"
+		text="{=TAIKOU_kingdom_g_text}The realm of Kingdom G (spike placeholder)."
+	>
+	</Kingdom>
+</Kingdoms>

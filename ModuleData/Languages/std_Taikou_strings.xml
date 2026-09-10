@@ -8,6 +8,9 @@
   <strings>
     <string id="TAIKOU_adjective_for_culture" text="Japanese" />
     <string id="TAIKOU_adjective_for_faction" text="Japanese" />
+    <string id="TAIKOU_clan_g" text="Clan G" />
+    <string id="TAIKOU_clan_g_short" text="Clan G" />
+    <string id="TAIKOU_clan_g_text" text="The house of Clan G (spike placeholder)." />
     <string id="TAIKOU_clan_oda" text="Oda Nobunaga" />
     <string id="TAIKOU_clan_oda_short" text="Oda" />
     <string id="TAIKOU_clan_oda_text" text="The house of Oda of Owari." />
@@ -25,8 +28,12 @@
     <string id="TAIKOU_faction_ruler_f" text="Daimyo" />
     <string id="TAIKOU_faction_ruler_name_with_title" text="Daimyo " />
     <string id="TAIKOU_faction_ruler_term_in_speech" text="the Daimyo " />
+    <string id="TAIKOU_hero_g" text="Lord G (spike placeholder)" />
     <string id="TAIKOU_hero_nobunaga" text="Oda Nobunaga" />
     <string id="TAIKOU_hero_shibata" text="Shibata Katsuie" />
+    <string id="TAIKOU_kingdom_g" text="Kingdom G" />
+    <string id="TAIKOU_kingdom_g_short" text="Kingdom G" />
+    <string id="TAIKOU_kingdom_g_text" text="The realm of Kingdom G (spike placeholder)." />
     <string id="TAIKOU_kingdom_oda" text="Oda Clan" />
     <string id="TAIKOU_kingdom_oda_short" text="Oda" />
     <string id="TAIKOU_kingdom_oda_text" text="The Oda clan of Owari." />

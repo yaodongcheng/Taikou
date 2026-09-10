@@ -34,13 +34,20 @@
     <string id="TAIKOU_player_father_name" text="传兵卫" />
     <string id="TAIKOU_player_mother_name" text="绢" />
     <string id="TAIKOU_hero_nobunaga" text="织田信长" />
+    <string id="TAIKOU_hero_g" text="G 家当主" />
     <string id="TAIKOU_hero_shibata" text="柴田胜家" />
     <string id="TAIKOU_kingdom_oda" text="织田家" />
     <string id="TAIKOU_kingdom_oda_short" text="织田" />
     <string id="TAIKOU_kingdom_oda_text" text="尾张的织田家。" />
+    <string id="TAIKOU_kingdom_g" text="G 家" />
+    <string id="TAIKOU_kingdom_g_short" text="G 家" />
+    <string id="TAIKOU_kingdom_g_text" text="G 家的领国（时代切换验证占位）。" />
     <string id="TAIKOU_clan_oda" text="织田家" />
     <string id="TAIKOU_clan_oda_short" text="织田" />
     <string id="TAIKOU_clan_oda_text" text="尾张织田氏。" />
+    <string id="TAIKOU_clan_g" text="G 家" />
+    <string id="TAIKOU_clan_g_short" text="G 家" />
+    <string id="TAIKOU_clan_g_text" text="G 家一门（时代切换验证占位）。" />
     <string id="TAIKOU_sett_kyoto" text="京都" />
     <string id="TAIKOU_sett_kyoto_text" text="日本皇都。" />
     <string id="TAIKOU_sett_kyoto_alley1" text="京都后巷" />

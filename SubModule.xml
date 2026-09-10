@@ -14,6 +14,16 @@
 		<DependedModule Id="StoryMode"/>
 	</DependedModules>
 	<SubModules/>
+	<!-- 🔴 时代剧本切换（2026-09-10 spike）——**一模块多 GameType + 每时代一套数据段**。
+	     引擎按 IncludedGameTypes 过滤段，过滤键 = 战役类名（GameType.GameTypeStringId => GetType().Name）：
+	       TaikouCampaign1560 → 现有 v0 世界（京归织田）· TaikouCampaign1582 → 对照世界（京归 G 家）
+	       TaikouCampaign     → 兼容别名（与 1560 同数据），保留给旧存档与旧入口
+	     规则：①**只有 4 个段有时代差异**（Settlements/Factions/Kingdoms/Heroes），各注册两份、
+	             两份的 GameType **必须互斥**——同名 XmlName 注册多段时引擎是**合并加载**
+	             （官方 SandBox 自己就注册 7 份 NPCCharacters），若两套同时命中同一 GameType，
+	             同名据点/家族/英雄会被定义两遍。
+	           ②其余段跨时代共用 → 追加 TaikouCampaign1582 即可，**不复制文件**。
+	     差异数据由 Scripts/gen_taikou_era_diff.py 生成（铁律 22：改差异改生成器）。 -->
 	<Xmls>
 		<XmlNode>
 			<XmlName id="Items" path="taikou_items"/>
@@ -21,6 +31,8 @@
 				<GameType value="Campaign"/>
 				<GameType value="CampaignStoryMode"/>
 				<GameType value="TaikouCampaign"/>
+				<GameType value="TaikouCampaign1560"/>
+				<GameType value="TaikouCampaign1582"/>
 			</IncludedGameTypes>
 		</XmlNode>
 		<XmlNode>
@@ -29,6 +41,8 @@
 				<GameType value="Campaign"/>
 				<GameType value="CampaignStoryMode"/>
 				<GameType value="TaikouCampaign"/>
+				<GameType value="TaikouCampaign1560"/>
+				<GameType value="TaikouCampaign1582"/>
 			</IncludedGameTypes>
 		</XmlNode>
 		<!-- 🔴 雷 27（2026-09-08）：facgen_template_test_char_0..9 等捏脸模板必需——SandBoxCore 的 NPCCharacters 段只注册
@@ -37,7 +51,11 @@
 		<XmlNode>
 			<XmlName id="NPCCharacters" path="spnpccharactertemplates"/>
 			<IncludedGameTypes>
+				<GameType value="Campaign"/>
+				<GameType value="CampaignStoryMode"/>
 				<GameType value="TaikouCampaign"/>
+				<GameType value="TaikouCampaign1560"/>
+				<GameType value="TaikouCampaign1582"/>
 			</IncludedGameTypes>
 		</XmlNode>
 		<XmlNode>
@@ -46,6 +64,8 @@
 				<GameType value="Campaign"/>
 				<GameType value="CampaignStoryMode"/>
 				<GameType value="TaikouCampaign"/>
+				<GameType value="TaikouCampaign1560"/>
+				<GameType value="TaikouCampaign1582"/>
 			</IncludedGameTypes>
 		</XmlNode>
 		<!-- 雷 35（2026-09-09）：gangster_1/2/3 = 官方 SandBoxCore 段含（只有 Campaign/StoryMode/CustomGame/EditorGame），
@@ -53,7 +73,11 @@
 		<XmlNode>
 			<XmlName id="NPCCharacters" path="taikou_gangsters"/>
 			<IncludedGameTypes>
+				<GameType value="Campaign"/>
+				<GameType value="CampaignStoryMode"/>
 				<GameType value="TaikouCampaign"/>
+				<GameType value="TaikouCampaign1560"/>
+				<GameType value="TaikouCampaign1582"/>
 			</IncludedGameTypes>
 		</XmlNode>
 		<XmlNode>
@@ -62,6 +86,8 @@
 				<GameType value="Campaign"/>
 				<GameType value="CampaignStoryMode"/>
 				<GameType value="TaikouCampaign"/>
+				<GameType value="TaikouCampaign1560"/>
+				<GameType value="TaikouCampaign1582"/>
 			</IncludedGameTypes>
 		</XmlNode>
 		<XmlNode>
@@ -70,6 +96,14 @@
 				<GameType value="Campaign"/>
 				<GameType value="CampaignStoryMode"/>
 				<GameType value="TaikouCampaign"/>
+				<GameType value="TaikouCampaign1560"/>
+			</IncludedGameTypes>
+		</XmlNode>
+		<XmlNode>
+			<XmlName id="Kingdoms" path="spkingdoms_1582"/>
+			<!-- 时代差异段·1582 套（与上一节点 GameType **互斥**，见文件头说明） -->
+			<IncludedGameTypes>
+				<GameType value="TaikouCampaign1582"/>
 			</IncludedGameTypes>
 		</XmlNode>
 		<XmlNode>
@@ -78,6 +112,14 @@
 				<GameType value="Campaign"/>
 				<GameType value="CampaignStoryMode"/>
 				<GameType value="TaikouCampaign"/>
+				<GameType value="TaikouCampaign1560"/>
+			</IncludedGameTypes>
+		</XmlNode>
+		<XmlNode>
+			<XmlName id="Factions" path="spclans_1582"/>
+			<!-- 时代差异段·1582 套（与上一节点 GameType **互斥**，见文件头说明） -->
+			<IncludedGameTypes>
+				<GameType value="TaikouCampaign1582"/>
 			</IncludedGameTypes>
 		</XmlNode>
 		<XmlNode>
@@ -86,6 +128,8 @@
 				<GameType value="Campaign"/>
 				<GameType value="CampaignStoryMode"/>
 				<GameType value="TaikouCampaign"/>
+				<GameType value="TaikouCampaign1560"/>
+				<GameType value="TaikouCampaign1582"/>
 			</IncludedGameTypes>
 		</XmlNode>
 		<XmlNode>
@@ -94,66 +138,120 @@
 				<GameType value="Campaign"/>
 				<GameType value="CampaignStoryMode"/>
 				<GameType value="TaikouCampaign"/>
+				<GameType value="TaikouCampaign1560"/>
+			</IncludedGameTypes>
+		</XmlNode>
+		<XmlNode>
+			<XmlName id="Settlements" path="settlements_1582"/>
+			<!-- 时代差异段·1582 套（与上一节点 GameType **互斥**，见文件头说明） -->
+			<IncludedGameTypes>
+				<GameType value="TaikouCampaign1582"/>
 			</IncludedGameTypes>
 		</XmlNode>
 		<XmlNode>
 		<XmlName id="BodyProperties" path="taikou_bodyproperties"/>
 		<IncludedGameTypes>
+			<GameType value="Campaign"/>
+			<GameType value="CampaignStoryMode"/>
 			<GameType value="TaikouCampaign"/>
+			<GameType value="TaikouCampaign1560"/>
+			<GameType value="TaikouCampaign1582"/>
 		</IncludedGameTypes>
 	</XmlNode>
 	<XmlNode>
 		<XmlName id="SkillSets" path="taikou_skill_sets"/>
 		<IncludedGameTypes>
+			<GameType value="Campaign"/>
+			<GameType value="CampaignStoryMode"/>
 			<GameType value="TaikouCampaign"/>
+			<GameType value="TaikouCampaign1560"/>
+			<GameType value="TaikouCampaign1582"/>
 		</IncludedGameTypes>
 	</XmlNode>
 	<XmlNode>
 		<XmlName id="EquipmentRosters" path="taikou_equipment_sets"/>
 		<IncludedGameTypes>
+			<GameType value="Campaign"/>
+			<GameType value="CampaignStoryMode"/>
 			<GameType value="TaikouCampaign"/>
+			<GameType value="TaikouCampaign1560"/>
+			<GameType value="TaikouCampaign1582"/>
 		</IncludedGameTypes>
 	</XmlNode>
 	<XmlNode>
 		<XmlName id="Concepts" path="taikou_concepts"/>
 		<IncludedGameTypes>
+			<GameType value="Campaign"/>
+			<GameType value="CampaignStoryMode"/>
 			<GameType value="TaikouCampaign"/>
+			<GameType value="TaikouCampaign1560"/>
+			<GameType value="TaikouCampaign1582"/>
 		</IncludedGameTypes>
 	</XmlNode>
 	<XmlNode>
 		<XmlName id="CraftingPieces" path="taikou_crafting_pieces"/>
 		<IncludedGameTypes>
+			<GameType value="Campaign"/>
+			<GameType value="CampaignStoryMode"/>
 			<GameType value="TaikouCampaign"/>
+			<GameType value="TaikouCampaign1560"/>
+			<GameType value="TaikouCampaign1582"/>
 		</IncludedGameTypes>
 	</XmlNode>
 	<XmlNode>
 		<XmlName id="Heroes" path="taikou_heroes"/>
 		<IncludedGameTypes>
+			<GameType value="Campaign"/>
+			<GameType value="CampaignStoryMode"/>
 			<GameType value="TaikouCampaign"/>
+			<GameType value="TaikouCampaign1560"/>
 		</IncludedGameTypes>
 	</XmlNode>
+		<XmlNode>
+			<XmlName id="Heroes" path="taikou_heroes_1582"/>
+			<!-- 时代差异段·1582 套（与上一节点 GameType **互斥**，见文件头说明） -->
+			<IncludedGameTypes>
+				<GameType value="TaikouCampaign1582"/>
+			</IncludedGameTypes>
+		</XmlNode>
 	<XmlNode>
 		<XmlName id="LocationComplexTemplates" path="taikou_location_complex_templates"/>
 		<IncludedGameTypes>
+			<GameType value="Campaign"/>
+			<GameType value="CampaignStoryMode"/>
 			<GameType value="TaikouCampaign"/>
+			<GameType value="TaikouCampaign1560"/>
+			<GameType value="TaikouCampaign1582"/>
 		</IncludedGameTypes>
 	</XmlNode>
 	<XmlNode>
 		<XmlName id="MusicInstruments" path="taikou_music_instruments"/>
 		<IncludedGameTypes>
+			<GameType value="Campaign"/>
+			<GameType value="CampaignStoryMode"/>
 			<GameType value="TaikouCampaign"/>
+			<GameType value="TaikouCampaign1560"/>
+			<GameType value="TaikouCampaign1582"/>
 		</IncludedGameTypes>
 	</XmlNode>
 	<XmlNode>
 		<XmlName id="MusicTracks" path="taikou_music_tracks"/>
 		<IncludedGameTypes>
+			<GameType value="Campaign"/>
+			<GameType value="CampaignStoryMode"/>
 			<GameType value="TaikouCampaign"/>
+			<GameType value="TaikouCampaign1560"/>
+			<GameType value="TaikouCampaign1582"/>
 		</IncludedGameTypes>
 	</XmlNode>
 	<XmlNode>
 		<XmlName id="GameText" path="taikou_strings"/>
 		<IncludedGameTypes>
+			<GameType value="Campaign"/>
+			<GameType value="CampaignStoryMode"/>
 			<GameType value="TaikouCampaign"/>
+			<GameType value="TaikouCampaign1560"/>
+			<GameType value="TaikouCampaign1582"/>
 		</IncludedGameTypes>
 	</XmlNode>
 	<!-- 🔴 2026-09-10 拆雷 49：原 `taikou_module_strings` 段 = 官方 module_strings 的**第二份拷贝** + 自家 19 条
@@ -163,7 +261,11 @@
 	<XmlNode>
 		<XmlName id="GameText" path="taikou_world_lore_strings"/>
 		<IncludedGameTypes>
+			<GameType value="Campaign"/>
+			<GameType value="CampaignStoryMode"/>
 			<GameType value="TaikouCampaign"/>
+			<GameType value="TaikouCampaign1560"/>
+			<GameType value="TaikouCampaign1582"/>
 		</IncludedGameTypes>
 	</XmlNode>
 	<XmlNode>
@@ -176,55 +278,91 @@
 		     9 文件清单按 SandBox SubModule.xml 扫描（XML id="GameText" 且带 IncludedGameTypes）。 -->
 		<XmlName id="GameText" path="module_strings"/>
 		<IncludedGameTypes>
+			<GameType value="Campaign"/>
+			<GameType value="CampaignStoryMode"/>
 			<GameType value="TaikouCampaign"/>
+			<GameType value="TaikouCampaign1560"/>
+			<GameType value="TaikouCampaign1582"/>
 		</IncludedGameTypes>
 	</XmlNode>
 	<XmlNode>
 		<XmlName id="GameText" path="world_lore_strings"/>
 		<IncludedGameTypes>
+			<GameType value="Campaign"/>
+			<GameType value="CampaignStoryMode"/>
 			<GameType value="TaikouCampaign"/>
+			<GameType value="TaikouCampaign1560"/>
+			<GameType value="TaikouCampaign1582"/>
 		</IncludedGameTypes>
 	</XmlNode>
 	<XmlNode>
 		<XmlName id="GameText" path="companion_strings"/>
 		<IncludedGameTypes>
+			<GameType value="Campaign"/>
+			<GameType value="CampaignStoryMode"/>
 			<GameType value="TaikouCampaign"/>
+			<GameType value="TaikouCampaign1560"/>
+			<GameType value="TaikouCampaign1582"/>
 		</IncludedGameTypes>
 	</XmlNode>
 	<XmlNode>
 		<XmlName id="GameText" path="wanderer_strings"/>
 		<IncludedGameTypes>
+			<GameType value="Campaign"/>
+			<GameType value="CampaignStoryMode"/>
 			<GameType value="TaikouCampaign"/>
+			<GameType value="TaikouCampaign1560"/>
+			<GameType value="TaikouCampaign1582"/>
 		</IncludedGameTypes>
 	</XmlNode>
 	<XmlNode>
 		<XmlName id="GameText" path="comment_strings"/>
 		<IncludedGameTypes>
+			<GameType value="Campaign"/>
+			<GameType value="CampaignStoryMode"/>
 			<GameType value="TaikouCampaign"/>
+			<GameType value="TaikouCampaign1560"/>
+			<GameType value="TaikouCampaign1582"/>
 		</IncludedGameTypes>
 	</XmlNode>
 	<XmlNode>
 		<XmlName id="GameText" path="comment_on_action_strings"/>
 		<IncludedGameTypes>
+			<GameType value="Campaign"/>
+			<GameType value="CampaignStoryMode"/>
 			<GameType value="TaikouCampaign"/>
+			<GameType value="TaikouCampaign1560"/>
+			<GameType value="TaikouCampaign1582"/>
 		</IncludedGameTypes>
 	</XmlNode>
 	<XmlNode>
 		<XmlName id="GameText" path="trait_strings"/>
 		<IncludedGameTypes>
+			<GameType value="Campaign"/>
+			<GameType value="CampaignStoryMode"/>
 			<GameType value="TaikouCampaign"/>
+			<GameType value="TaikouCampaign1560"/>
+			<GameType value="TaikouCampaign1582"/>
 		</IncludedGameTypes>
 	</XmlNode>
 	<XmlNode>
 		<XmlName id="GameText" path="voice_strings"/>
 		<IncludedGameTypes>
+			<GameType value="Campaign"/>
+			<GameType value="CampaignStoryMode"/>
 			<GameType value="TaikouCampaign"/>
+			<GameType value="TaikouCampaign1560"/>
+			<GameType value="TaikouCampaign1582"/>
 		</IncludedGameTypes>
 	</XmlNode>
 	<XmlNode>
 		<XmlName id="GameText" path="action_strings"/>
 		<IncludedGameTypes>
+			<GameType value="Campaign"/>
+			<GameType value="CampaignStoryMode"/>
 			<GameType value="TaikouCampaign"/>
+			<GameType value="TaikouCampaign1560"/>
+			<GameType value="TaikouCampaign1582"/>
 		</IncludedGameTypes>
 	</XmlNode>
 </Xmls>

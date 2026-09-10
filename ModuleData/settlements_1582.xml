@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 🔴 生成物·禁止手改（铁律 22）——由 Scripts/gen_taikou_era_diff.py 从 settlements.xml 派生。
+     若需修改：改生成器的 ERA_DIFF / 基线段后重跑，不要直接编辑本文件。
+     ⚠️ 本段（Settlements/settlements*）属「时代差异段」：GameType 互斥注册——
+        settlements.xml → TaikouCampaign / TaikouCampaign1560
+        settlements_1582.xml → TaikouCampaign1582
+     两者**不得同时命中同一 GameType**（同名 XmlName 多段 = 引擎合并加载 → 同名对象重复定义）。
+     🔴 据点 id 跨时代不变（铁律 20）——只换归属，id/坐标/组件全同 → 距离缓存可共用。 -->
+<Settlements>
+  <Settlement id="town_kyoto" name="{=TAIKOU_sett_kyoto}Kyoto" owner="Faction.clan_g" posX="969.424" posY="421.563" culture="Culture.ikoku" gate_posX="969.424" gate_posY="421.563" text="{=TAIKOU_sett_kyoto_text}The Imperial capital of Japan.">
+    <Components>
+      <Town id="town_comp_kyoto" is_castle="false" level="3" background_crop_position="0.0" background_mesh="menu_empire_4" wait_mesh="wait_empire_town" gate_rotation="0.208" max_prosperity="70" prosperity="5100" />
+    </Components>
+    <Locations complex_template="LocationComplexTemplate.town_complex">
+      <Location id="center" scene_name="empire_town_g" scene_name_1="empire_town_g" scene_name_2="empire_town_g" scene_name_3="empire_town_g" />
+      <Location id="arena" scene_name="arena_empire_a" />
+      <Location id="tavern" scene_name="empire_house_c_tavern_a" />
+      <Location id="lordshall" scene_name_1="empire_castle_keep_a_l1_interior" scene_name_2="empire_castle_keep_a_l2_interior" scene_name_3="empire_castle_keep_a_l3_interior" />
+    </Locations>
+    <CommonAreas>
+      <Area type="Backstreet" name="{=TAIKOU_sett_kyoto_alley1}Kyoto Backstreet" />
+      <Area type="Clearing" name="{=TAIKOU_sett_kyoto_clearing}Kyoto Clearing" />
+      <Area type="Waterfront" name="{=TAIKOU_sett_kyoto_waterfront}Kyoto Waterfront" />
+    </CommonAreas>
+  </Settlement>
+  <Settlement id="retirement_retreat" name="{=TAIKOU_sett_retreat}The Retreat" posX="1090.0" posY="500.0" culture="Culture.ikoku" text="{=!}This is the retirement retreat location.">
+    <Components>
+      <RetirementSettlementComponent id="retirement_component" map_icon="bandit_hideout_b" background_crop_position="0.0" background_mesh="gui_bg_village_battania" wait_mesh="retirement_wait" />
+    </Components>
+    <Locations complex_template="LocationComplexTemplate.retreat_complex">
+      <Location id="retirement_retreat" scene_name="scn_retirement" max_prosperity="100" />
+    </Locations>
+  </Settlement>
+</Settlements>
