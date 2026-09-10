@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- 【生成物·禁止手改】由 Scripts/gen_taikou_english_strings.py 从数据 XML 的
-     {=TAIKOU_KEY}English fallback 全量抽取生成——改英文请改数据 XML 的 fallback 再重跑本脚本（铁律 22）。 -->
 <LanguageData id="English" name="English" subtitle_extension="en-GB" supported_iso="en-GB,en-US,en,eng,en-us,en-gb,en-au,en-bz,en-ca,en-ie,en-jm,en-nz,en-za,en-tt" text_processor="TaleWorlds.Localization.TextProcessor.LanguageProcessors.EnglishTextProcessor" under_development="false">
+  <!-- 【生成物·禁止手改】由 Scripts/gen_taikou_english_strings.py 从数据 XML 的
+       {=TAIKOU_KEY}English fallback 全量抽取生成——改英文请改数据 XML 的 fallback 再重跑（铁律 22）。 -->
   <LanguageFile xml_path="std_Taikou_strings.xml" />
 </LanguageData>

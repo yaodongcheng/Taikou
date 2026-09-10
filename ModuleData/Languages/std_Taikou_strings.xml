@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- 【生成物·禁止手改】由 Scripts/gen_taikou_english_strings.py 从数据 XML 的
-     {=TAIKOU_KEY}English fallback 全量抽取生成——改英文请改数据 XML 的 fallback 再重跑本脚本（铁律 22）。 -->
 <base type="string">
+  <!-- 【生成物·禁止手改】由 Scripts/gen_taikou_english_strings.py 从数据 XML 的
+       {=TAIKOU_KEY}English fallback 全量抽取生成——改英文请改数据 XML 的 fallback 再重跑（铁律 22）。 -->
   <tags>
     <tag language="English" />
   </tags>
