@@ -79,7 +79,11 @@
 							<tags>
 								<tag name="bo_town"/>
 							</tags>
-							<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000" scale="3.500, 3.500, 3.500"/>
+							<!-- v2（2026-09-10 用户实测：圈外很远就触发 tooltip）：拾取球与视觉圈是两个独立组件
+							     （bo_town=只有射线碰撞体，tag map_settlement_circle 的 decal=视觉圈）——原 3.5（世界 7.0）
+							     远大于圈（0.936 local）。本轮收到与圈同量级（1.000）→ 实机目视微调，纯 XML 值、无代码参与。
+							     官方惯例（50 城抽样）：bo 与 decal 各配各的、多数同量级。 -->
+							<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000" scale="1.000, 1.000, 1.000"/>
 							<physics shape="bo_sphere_collider">
 								<body_flags>
 									<body_flag name="only_collide_with_raycast"/>
@@ -96,9 +100,9 @@
 							<tags>
 								<tag name="map_settlement_circle"/>
 							</tags>
-							<!-- v5（2026-09-09 用户反馈圈太大）：回归 vanilla 比例——scale 1.56（父 2× → 世界 3.12m）
-							     = 官方 town_circle_decal 3.38 同级；z 保留 2.6（可见高度，未被塔吞）。 -->
-							<transform position="0.000, 0.000, 2.600" rotation_euler="0.000, 0.000, 2.301" scale="1.560, 1.560, 1.151"/>
+							<!-- v6（2026-09-10 用户实测截图定案）：圈仍偏大，手动再缩 3/5 —— 1.56×0.6=0.936（父 2× → 世界 1.87m）。
+							     定案结论：**手动调，不做运行时自动适配**（智能调节代码 2026-09-10 已删）；数值来源 = 用户实机目视比例。 -->
+							<transform position="0.000, 0.000, 2.600" rotation_euler="0.000, 0.000, 2.301" scale="0.936, 0.936, 1.151"/>
 							<components>
 								<decal_component material="decal_city_circle_a" argument="1.000, 1.000, 0.000, 0.000"/>
 							</components>
