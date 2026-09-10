@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 【生成物·禁止手改】由 Scripts/gen_taikou_english_strings.py 从数据 XML 的
+     {=TAIKOU_KEY}English fallback 全量抽取生成——改英文请改数据 XML 的 fallback 再重跑本脚本（铁律 22）。 -->
+<base type="string">
+  <tags>
+    <tag language="English" />
+  </tags>
+  <strings>
+    <string id="TAIKOU_adjective_for_culture" text="Japanese" />
+    <string id="TAIKOU_adjective_for_faction" text="Japanese" />
+    <string id="TAIKOU_clan_oda" text="Oda Nobunaga" />
+    <string id="TAIKOU_clan_oda_short" text="Oda" />
+    <string id="TAIKOU_clan_oda_text" text="The house of Oda of Owari." />
+    <string id="TAIKOU_culture_description_ikoku" text="The inhabitants of the Japanese archipelago live in an age of ceaseless war. Centuries of imperial rule have collapsed into a fractured era of feuding warlords, and the shogun's authority burns dim beside the field of banners. Rulers who hold the force of arms are made and unmade in a single season; yet beyond the smoke of battle, the merchant's ledger, the monk's chant and the poet's brush endure, and no conquest can long stand that cannot be honored in the turning of a blade." />
+    <string id="TAIKOU_culture_ikoku" text="Japanese" />
+    <string id="TAIKOU_culture_neutral" text="Neutral" />
+    <string id="TAIKOU_culture_rich_name_ikoku" text="Japanese" />
+    <string id="TAIKOU_daimyo" text="Daimyo" />
+    <string id="TAIKOU_faction_formal_name" text="Japan" />
+    <string id="TAIKOU_faction_informal_name" text="Japan" />
+    <string id="TAIKOU_faction_noble_name_with_title" text="Lord " />
+    <string id="TAIKOU_faction_official" text="a daimyo" />
+    <string id="TAIKOU_faction_official_f" text="a daimyo" />
+    <string id="TAIKOU_faction_ruler" text="Daimyo" />
+    <string id="TAIKOU_faction_ruler_f" text="Daimyo" />
+    <string id="TAIKOU_faction_ruler_name_with_title" text="Daimyo " />
+    <string id="TAIKOU_faction_ruler_term_in_speech" text="the Daimyo " />
+    <string id="TAIKOU_hero_nobunaga" text="Oda Nobunaga" />
+    <string id="TAIKOU_hero_shibata" text="Shibata Katsuie" />
+    <string id="TAIKOU_kingdom_oda" text="Oda Clan" />
+    <string id="TAIKOU_kingdom_oda_short" text="Oda" />
+    <string id="TAIKOU_kingdom_oda_text" text="The Oda clan of Owari." />
+    <string id="TAIKOU_liege_title" text="rightful daimyo of Japan" />
+    <string id="TAIKOU_liege_title_female" text="rightful daimyo of Japan" />
+    <string id="TAIKOU_main_hero" text="Eren" />
+    <string id="TAIKOU_neutral_term_for_culture" text="Japanese" />
+    <string id="TAIKOU_npc_armed_trader" text="Armed Trader" />
+    <string id="TAIKOU_npc_armorer" text="Armorer" />
+    <string id="TAIKOU_npc_artisan" text="Artisan" />
+    <string id="TAIKOU_npc_artisan_notary" text="Artisan Notary" />
+    <string id="TAIKOU_npc_barber" text="Barber" />
+    <string id="TAIKOU_npc_beggar" text="Beggar" />
+    <string id="TAIKOU_npc_blacksmith" text="Blacksmith" />
+    <string id="TAIKOU_npc_caravan_guard" text="Caravan Guard" />
+    <string id="TAIKOU_npc_caravan_master" text="Caravan Master" />
+    <string id="TAIKOU_npc_female_beggar" text="Beggar Woman" />
+    <string id="TAIKOU_npc_female_dancer" text="Dancer" />
+    <string id="TAIKOU_npc_gang_leader" text="Gang Leader" />
+    <string id="TAIKOU_npc_gangleader_bodyguard" text="Bodyguard" />
+    <string id="TAIKOU_npc_gear_dummy" text="Gear Dummy" />
+    <string id="TAIKOU_npc_gear_practice_dummy" text="Practice Dummy" />
+    <string id="TAIKOU_npc_guard" text="Guard" />
+    <string id="TAIKOU_npc_horseMerchant" text="Horse Merchant" />
+    <string id="TAIKOU_npc_mercenary" text="Mercenary" />
+    <string id="TAIKOU_npc_merchant" text="Merchant" />
+    <string id="TAIKOU_npc_merchant_notary" text="Merchant Notary" />
+    <string id="TAIKOU_npc_musician" text="Musician" />
+    <string id="TAIKOU_npc_peasant_farmer" text="Peasant Farmer" />
+    <string id="TAIKOU_npc_preacher_notary" text="Preacher Notary" />
+    <string id="TAIKOU_npc_ransom_broker" text="Ransom Broker" />
+    <string id="TAIKOU_npc_rural_notable_notary" text="Rural Notable" />
+    <string id="TAIKOU_npc_shop_worker" text="Shop Worker" />
+    <string id="TAIKOU_npc_tavern_wench" text="Tavern Wench" />
+    <string id="TAIKOU_npc_taverngamehost" text="Game Host" />
+    <string id="TAIKOU_npc_tavernkeeper" text="Tavernkeeper" />
+    <string id="TAIKOU_npc_tournament_master" text="Tournament Master" />
+    <string id="TAIKOU_npc_townsman" text="Townsman" />
+    <string id="TAIKOU_npc_townsman_child" text="Townsman Child" />
+    <string id="TAIKOU_npc_townsman_infant" text="Townsman Infant" />
+    <string id="TAIKOU_npc_townsman_teenager" text="Townsman Teenager" />
+    <string id="TAIKOU_npc_townswoman" text="Townswoman" />
+    <string id="TAIKOU_npc_townswoman_child" text="Townswoman Child" />
+    <string id="TAIKOU_npc_townswoman_infant" text="Townswoman Infant" />
+    <string id="TAIKOU_npc_townswoman_teenager" text="Townswoman Teenager" />
+    <string id="TAIKOU_npc_veteran_caravan_guard" text="Caravan Guard (Veteran)" />
+    <string id="TAIKOU_npc_village_woman" text="Village Woman" />
+    <string id="TAIKOU_npc_villager" text="Villager" />
+    <string id="TAIKOU_npc_villager_female_child" text="Villager Girl" />
+    <string id="TAIKOU_npc_villager_female_teenager" text="Villager Young Woman" />
+    <string id="TAIKOU_npc_villager_male_child" text="Villager Boy" />
+    <string id="TAIKOU_npc_villager_male_teenager" text="Villager Young Man" />
+    <string id="TAIKOU_npc_weaponsmith" text="Weaponsmith" />
+    <string id="TAIKOU_player_faction" text="" />
+    <string id="TAIKOU_player_father_name" text="Denbei" />
+    <string id="TAIKOU_player_mother_name" text="Kinu" />
+    <string id="TAIKOU_sett_kyoto" text="Kyoto" />
+    <string id="TAIKOU_sett_kyoto_alley1" text="Kyoto Backstreet" />
+    <string id="TAIKOU_sett_kyoto_clearing" text="Kyoto Clearing" />
+    <string id="TAIKOU_sett_kyoto_text" text="The Imperial capital of Japan." />
+    <string id="TAIKOU_sett_kyoto_waterfront" text="Kyoto Waterfront" />
+    <string id="TAIKOU_sett_retreat" text="The Retreat" />
+    <string id="TAIKOU_short_term_for_faction" text="Japan" />
+  </strings>
+</base>

@@ -151,11 +151,15 @@
 		</IncludedGameTypes>
 	</XmlNode>
 	<XmlNode>
-		<XmlName id="GameText" path="taikou_module_strings"/>
+		<XmlName id="GameText" path="taikou_strings"/>
 		<IncludedGameTypes>
 			<GameType value="TaikouCampaign"/>
 		</IncludedGameTypes>
 	</XmlNode>
+	<!-- 🔴 2026-09-10 拆雷 49：原 `taikou_module_strings` 段 = 官方 module_strings 的**第二份拷贝** + 自家 19 条
+	     .ikoku 变体（官方 219 条被重复定义两遍）。已把自家条目挪进 `taikou_strings`（本段上方），
+	     官方内容由 `module_strings` 段（下方）承担——**官方拷贝一律保持原样，自家串放自己的段**。
+	     ⚠️ 文件 `taikou_module_strings.xml` 已不注册（引擎不读），待人工删除。 -->
 	<XmlNode>
 		<XmlName id="GameText" path="taikou_world_lore_strings"/>
 		<IncludedGameTypes>

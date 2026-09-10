@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- Taikou 自建 GameText 段（**自家文本只放这里**，禁止混进官方原样拷贝的文件——2026-09-10 拆雷 49）。
+     为什么需要这个段：SandBox 的 module_strings/comment_strings 等 9 个文本段全带 GameType 白名单
+     （仅 Campaign/CampaignStoryMode）→ TaikouCampaign 下整文件被过滤 → 引擎/SandBox 代码
+     GameTexts.FindText("str_…") 查空（雷 35 族）。故官方那 9 份原件**原样拷贝**进本包并注册；
+     而「按文化取 variation」的自家补充（官方只给八文化变体、无 .default → 不自备就把 ERROR 文本印给玩家，雷 45；
+     同雷 23）**必须单独成段**，不要往官方拷贝里加——加了就没法在游戏更新时整文件重拷了。
+
+     本文件原有历史：2026-09-08 雷 23 时曾把补充条目直接加进「官方 module_strings 的第二份拷贝
+     taikou_module_strings.xml」→ 官方 219 条被重复定义两遍（该文件 2026-09-10 已退役待删）。
+
+     中文翻译：Languages/CNs/std_Taikou_strings.xml（键集必须与本文件一致）。 -->
+<strings>
+	<string
+		id="str_culture_rich_name.ikoku"
+		text="{=TAIKOU_culture_rich_name_ikoku}Japanese" />
+	<string
+		id="str_culture_description.ikoku"
+		text="{=TAIKOU_culture_description_ikoku}The inhabitants of the Japanese archipelago live in an age of ceaseless war. Centuries of imperial rule have collapsed into a fractured era of feuding warlords, and the shogun's authority burns dim beside the field of banners. Rulers who hold the force of arms are made and unmade in a single season; yet beyond the smoke of battle, the merchant's ledger, the monk's chant and the poet's brush endure, and no conquest can long stand that cannot be honored in the turning of a blade." />
+	<!-- 「按文化取 variation」全族（引擎侧证据：GetAdjectiveForFactionCulture / GetFormalNameForFactionCulture /
+	     ConversationManager.GetLiegeTitle / FinalizeParents 等全部传 *.Culture.StringId；缺 = 玩家可见 ERROR 文本）。
+	     neutral_culture 不补——官方自家 gangster_1/2/3 用的也是 neutral_culture，官方同样没给该文化变体 = 与官方同级。 -->
+	<string
+		id="str_faction_ruler.ikoku"
+		text="{=TAIKOU_faction_ruler}Daimyo" />
+	<string
+		id="str_faction_ruler.ikoku_f"
+		text="{=TAIKOU_faction_ruler_f}Daimyo" />
+	<string
+		id="str_faction_ruler_name_with_title.ikoku"
+		text="{=TAIKOU_faction_ruler_name_with_title}Daimyo {RULER.NAME}" />
+	<string
+		id="str_faction_ruler_term_in_speech.ikoku"
+		text="{=TAIKOU_faction_ruler_term_in_speech}the Daimyo {RULER.NAME}" />
+	<string
+		id="str_adjective_for_culture.ikoku"
+		text="{=TAIKOU_adjective_for_culture}Japanese" />
+	<string
+		id="str_adjective_for_faction.ikoku"
+		text="{=TAIKOU_adjective_for_faction}Japanese" />
+	<string
+		id="str_faction_formal_name_for_culture.ikoku"
+		text="{=TAIKOU_faction_formal_name}Japan" />
+	<string
+		id="str_faction_informal_name_for_culture.ikoku"
+		text="{=TAIKOU_faction_informal_name}Japan" />
+	<string
+		id="str_faction_noble_name_with_title.ikoku"
+		text="{=TAIKOU_faction_noble_name_with_title}Lord {RULER.NAME}" />
+	<string
+		id="str_faction_official.ikoku"
+		text="{=TAIKOU_faction_official}a daimyo" />
+	<string
+		id="str_faction_official.ikoku_f"
+		text="{=TAIKOU_faction_official_f}a daimyo" />
+	<string
+		id="str_neutral_term_for_culture.ikoku"
+		text="{=TAIKOU_neutral_term_for_culture}Japanese" />
+	<string
+		id="str_short_term_for_faction.ikoku"
+		text="{=TAIKOU_short_term_for_faction}Japan" />
+	<string
+		id="str_liege_title.ikoku"
+		text="{=TAIKOU_liege_title}rightful daimyo of Japan" />
+	<string
+		id="str_liege_title_female.ikoku"
+		text="{=TAIKOU_liege_title_female}rightful daimyo of Japan" />
+	<!-- 玩家父母名（引擎 FinalizeParents 按主角文化取名；本战役主线未用，占位补齐防 ERROR 文本，名字可改） -->
+	<string
+		id="str_player_father_name.ikoku"
+		text="{=TAIKOU_player_father_name}Denbei" />
+	<string
+		id="str_player_mother_name.ikoku"
+		text="{=TAIKOU_player_mother_name}Kinu" />
+</strings>

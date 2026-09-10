@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Taikou 中文翻译（人工维护；键集 = 根级 Languages/std_Taikou_strings.xml 的键集，一个都不能少）。
+     引擎为「清单式」加载：任何字符串文件都必须登记在 CNs/language_data.xml 里才会被读（雷 47）。
+     覆盖：①「按文化取 variation」的文本族（官方无 .default，不自备就把 ERROR 文本印给玩家，雷 45）
+           ② 身份名（英雄/家族/王国/据点/文化，雷 48）③ 路人职业名。物品名不在此列（官方键，原版 CN 已覆盖）。 -->
+<base type="string">
+  <tags>
+    <tag language="简体中文" />
+  </tags>
+  <strings>
+    <string id="TAIKOU_culture_ikoku" text="日本" />
+    <string id="TAIKOU_culture_neutral" text="中立" />
+    <string id="TAIKOU_culture_rich_name_ikoku" text="日本人" />
+    <string id="TAIKOU_culture_description_ikoku" text="日本列岛正值乱世：幕府权威衰微，各地武将群雄割据。以刀剑争名、以谋略夺权者成败在一念之间，王朝兴衰如风卷残旗；然而硝烟之外，商人的账本、僧侣的诵经与诗人的笔耕从未停歇——真正能长久立足的霸权，终须把荣耀熔进刀锋的转向之中。" />
+    <string id="TAIKOU_faction_ruler" text="大名" />
+    <string id="TAIKOU_faction_ruler_f" text="大名" />
+    <string id="TAIKOU_faction_ruler_name_with_title" text="大名{RULER.NAME}" />
+    <string id="TAIKOU_faction_ruler_term_in_speech" text="大名{RULER.NAME}" />
+    <string id="TAIKOU_adjective_for_culture" text="日本的" />
+    <string id="TAIKOU_adjective_for_faction" text="日本的" />
+    <string id="TAIKOU_faction_formal_name" text="日本" />
+    <string id="TAIKOU_faction_informal_name" text="日本" />
+    <string id="TAIKOU_faction_noble_name_with_title" text="{RULER.NAME}大人" />
+    <string id="TAIKOU_faction_official" text="大名" />
+    <string id="TAIKOU_faction_official_f" text="大名" />
+    <string id="TAIKOU_neutral_term_for_culture" text="日本人" />
+    <string id="TAIKOU_short_term_for_faction" text="日本" />
+    <string id="TAIKOU_liege_title" text="日本正统之主" />
+    <string id="TAIKOU_liege_title_female" text="日本正统之主" />
+    <string id="TAIKOU_player_father_name" text="传兵卫" />
+    <string id="TAIKOU_player_mother_name" text="绢" />
+    <string id="TAIKOU_hero_nobunaga" text="织田信长" />
+    <string id="TAIKOU_hero_shibata" text="柴田胜家" />
+    <string id="TAIKOU_kingdom_oda" text="织田家" />
+    <string id="TAIKOU_kingdom_oda_short" text="织田" />
+    <string id="TAIKOU_kingdom_oda_text" text="尾张的织田家。" />
+    <string id="TAIKOU_clan_oda" text="织田家" />
+    <string id="TAIKOU_clan_oda_short" text="织田" />
+    <string id="TAIKOU_clan_oda_text" text="尾张织田氏。" />
+    <string id="TAIKOU_sett_kyoto" text="京都" />
+    <string id="TAIKOU_sett_kyoto_text" text="日本皇都。" />
+    <string id="TAIKOU_sett_kyoto_alley1" text="京都后巷" />
+    <string id="TAIKOU_sett_kyoto_clearing" text="京都空地" />
+    <string id="TAIKOU_sett_kyoto_waterfront" text="京都河岸" />
+    <string id="TAIKOU_sett_retreat" text="隐居之地" />
+    <string id="TAIKOU_daimyo" text="大名" />
+    <string id="TAIKOU_player_faction" text="浪人" />
+    <string id="TAIKOU_main_hero" text="主角" />
+    <string id="TAIKOU_npc_armed_trader" text="武装商人" />
+    <string id="TAIKOU_npc_armorer" text="甲匠" />
+    <string id="TAIKOU_npc_artisan" text="工匠" />
+    <string id="TAIKOU_npc_artisan_notary" text="工匠公证人" />
+    <string id="TAIKOU_npc_barber" text="理发师" />
+    <string id="TAIKOU_npc_beggar" text="乞丐" />
+    <string id="TAIKOU_npc_blacksmith" text="铁匠" />
+    <string id="TAIKOU_npc_caravan_guard" text="商队护卫" />
+    <string id="TAIKOU_npc_caravan_master" text="商队首领" />
+    <string id="TAIKOU_npc_female_beggar" text="女乞丐" />
+    <string id="TAIKOU_npc_female_dancer" text="舞女" />
+    <string id="TAIKOU_npc_gang_leader" text="地痞头目" />
+    <string id="TAIKOU_npc_gangleader_bodyguard" text="护卫" />
+    <string id="TAIKOU_npc_gear_dummy" text="装备假人" />
+    <string id="TAIKOU_npc_gear_practice_dummy" text="练习假人" />
+    <string id="TAIKOU_npc_guard" text="卫兵" />
+    <string id="TAIKOU_npc_horseMerchant" text="马商" />
+    <string id="TAIKOU_npc_mercenary" text="佣兵" />
+    <string id="TAIKOU_npc_merchant" text="商人" />
+    <string id="TAIKOU_npc_merchant_notary" text="商人公证人" />
+    <string id="TAIKOU_npc_musician" text="乐师" />
+    <string id="TAIKOU_npc_peasant_farmer" text="农民" />
+    <string id="TAIKOU_npc_preacher_notary" text="传道公证人" />
+    <string id="TAIKOU_npc_ransom_broker" text="赎金经纪人" />
+    <string id="TAIKOU_npc_rural_notable_notary" text="乡绅公证人" />
+    <string id="TAIKOU_npc_shop_worker" text="店员" />
+    <string id="TAIKOU_npc_tavern_wench" text="酒馆女侍" />
+    <string id="TAIKOU_npc_taverngamehost" text="棋局主持" />
+    <string id="TAIKOU_npc_tavernkeeper" text="酒馆老板" />
+    <string id="TAIKOU_npc_tournament_master" text="竞技场主持人" />
+    <string id="TAIKOU_npc_townsman" text="市民" />
+    <string id="TAIKOU_npc_townsman_child" text="男童" />
+    <string id="TAIKOU_npc_townsman_infant" text="男婴" />
+    <string id="TAIKOU_npc_townsman_teenager" text="少年" />
+    <string id="TAIKOU_npc_townswoman" text="女市民" />
+    <string id="TAIKOU_npc_townswoman_child" text="女童" />
+    <string id="TAIKOU_npc_townswoman_infant" text="女婴" />
+    <string id="TAIKOU_npc_townswoman_teenager" text="少女" />
+    <string id="TAIKOU_npc_veteran_caravan_guard" text="商队护卫（老练）" />
+    <string id="TAIKOU_npc_village_woman" text="村妇" />
+    <string id="TAIKOU_npc_villager" text="村民" />
+    <string id="TAIKOU_npc_villager_female_child" text="村女" />
+    <string id="TAIKOU_npc_villager_female_teenager" text="村中少女" />
+    <string id="TAIKOU_npc_villager_male_child" text="村童" />
+    <string id="TAIKOU_npc_villager_male_teenager" text="村中少年" />
+    <string id="TAIKOU_npc_weaponsmith" text="武器匠" />
+  </strings>
+</base>
