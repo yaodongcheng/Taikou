@@ -13,12 +13,12 @@
     <House id="clan_ruzon_1" realm="" name="{=TAIKOU_clan_ruzon_1}Naya" order="4" />
     <House id="clan_yagyuu_1" realm="" name="{=TAIKOU_clan_yagyuu_1}Yagyuu" order="5" />
     <Lord id="lord_tk5_587" house="clan_hattori_1" order="1" name="{=TAIKOU_hero_hanzo}Hattori Hanzo" identity="{=TAIKOU_identity_ashigaru_kumigashira}Ashigaru Corporal" seat="{=TAIKOU_sett_town_tk077}冈崎城" bustup="lwnprof_bustup_587" mini="lwnprof_mini_587" />
-    <Lord id="lord_tk5_279" house="clan_kuki_1" order="1" name="{=TAIKOU_hero_kuki}Kuki Yoshitaka" identity="{=TAIKOU_identity_touryou}Chief" seat="{=TAIKOU_sett_castle_tk265}鸟羽" bustup="lwnprof_bustup_279" mini="lwnprof_mini_279" />
+    <Lord id="lord_tk5_279" house="clan_kuki_1" order="1" name="{=TAIKOU_hero_kuki}Kuki Yoshitaka" identity="{=TAIKOU_identity_touryou}Chief" seat="{=TAIKOU_sett_castle_tk265}鸟羽之砦" bustup="lwnprof_bustup_279" mini="lwnprof_mini_279" />
     <Lord id="lord_tk5_195" house="clan_oda" order="1" name="{=TAIKOU_hero_nobunaga}Oda Nobunaga" identity="{=TAIKOU_identity_daimyo}Daimyo" seat="{=TAIKOU_sett_town_tk080}清洲城" bustup="lwnprof_bustup_195" mini="lwnprof_mini_195" />
     <Lord id="lord_tk5_379" house="clan_oda" order="2" name="{=TAIKOU_hero_shibata}Shibata Katsuie" identity="{=TAIKOU_identity_karou}Senior Retainer" seat="{=TAIKOU_sett_town_tk080}清洲城" bustup="lwnprof_bustup_379" mini="lwnprof_mini_379" />
     <Lord id="lord_tk5_517" house="clan_oda" order="3" name="{=TAIKOU_hero_kinoshita}Kinoshita Tokichiro" identity="{=TAIKOU_identity_ashigaru_kumigashira}Ashigaru Corporal" seat="{=TAIKOU_sett_town_tk080}清洲城" bustup="lwnprof_bustup_1172" mini="lwnprof_mini_1172" />
-    <Lord id="lord_tk5_549" house="clan_ruzon_1" order="1" name="{=TAIKOU_hero_ruzon}Naya Sukezaemon" identity="{=TAIKOU_identity_minarai}Apprentice" bustup="lwnprof_bustup_549" mini="lwnprof_mini_549" />
-    <Lord id="lord_tk5_740" house="clan_yagyuu_1" order="1" name="{=TAIKOU_hero_yagyuu}Yagyuu Munetoshi" identity="{=TAIKOU_identity_shihan}Master" seat="{=TAIKOU_sett_village_tk211}奈良" bustup="lwnprof_bustup_740" mini="lwnprof_mini_740" />
+    <Lord id="lord_tk5_549" house="clan_ruzon_1" order="1" name="{=TAIKOU_hero_ruzon}Naya Sukezaemon" identity="{=TAIKOU_identity_minarai}Apprentice" seat="{=TAIKOU_sett_village_tk215}堺之町" bustup="lwnprof_bustup_549" mini="lwnprof_mini_549" />
+    <Lord id="lord_tk5_740" house="clan_yagyuu_1" order="1" name="{=TAIKOU_hero_yagyuu}Yagyuu Munetoshi" identity="{=TAIKOU_identity_shihan}Master" seat="{=TAIKOU_sett_village_tk211}奈良之町" bustup="lwnprof_bustup_740" mini="lwnprof_mini_740" />
   </Era>
   <Era id="1582">
     <Realm id="kingdom_g" name="{=TAIKOU_kingdom_g}Kingdom G" order="1" />

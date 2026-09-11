@@ -683,7 +683,7 @@
     <string id="TAIKOU_bio_701" text="三好长秀之子。长庆的叔父。名康长，号笑岩。与三好三人众名显于世。虽曾抵抗织田信长的上洛军，但因战败而俯首称臣。本能寺事变后，便脱离四国讨伐军而返回根据地。后来臣属于丰臣秀吉，收秀吉的外甥‧秀次为义子，过从甚密。" />
     <string id="TAIKOU_bio_702" text="义贤之子。阿波胜瑞城主。其父义贤死后，由筿原长房举荐继承家业。但听信谗言，与细川共同讨伐长房。以后，因真之投降了长宗我部而与其作战。在别宫浦战死。" />
     <string id="TAIKOU_bio_703" text="三好家臣。三好三人众之首。最早跟随长庆，转战畿内。长庆死后，侍奉义继。由于与松永久秀对立，从而引起家中内乱。以后被织田信长的畿内平乱军队打败而逃亡，去向不明。" />
-    <string id="TAIKOU_bio_704" text="细川家臣。元长嫡子。三好元长之子。１１岁继承家业，担任细川晴元的主事。争夺主家实权扩充势力，将主公晴元流放，但其嫡子义兴和兄弟暴死，从而失意病死。" />
+    <string id="TAIKOU_bio_704" text="细川家臣。元长之嫡子。三好元长之子。１１岁继承家业，担任细川晴元的主事。争夺主家实权扩充势力，将主公晴元流放，但其嫡子义兴和兄弟暴死，从而失意病死。" />
     <string id="TAIKOU_bio_705" text="细川家臣。摄津榎并城主。政长之子。与杀父仇人三好长庆作战。长庆死后，和三好三人众和好。并投入织田信长的畿内平乱军，摄津丰岛作为领地。此后侍奉丰臣秀吉和德川家康，９６岁故去。" />
     <string id="TAIKOU_bio_706" text="三好家臣。三好三人众之一。与松永久秀一起把将军足利义辉杀害。进攻织田信长，大败而逃。以后侍奉丰臣家第二代，在大阪夏之战中阵亡。入道后号称「清海」。" />
     <string id="TAIKOU_bio_707" text="长庆之嫡子。承蒙将军足利义辉恩惠获得官爵称谓义长，负责后勤工作。在六角家和田山家之战中立下战功，取得胜利。并被寄以希望，但２２岁暴死，据称是被松永久秀毒死。" />
@@ -923,34 +923,34 @@
     <string id="TAIKOU_sett_area_pasture" text="Pasture" />
     <string id="TAIKOU_sett_area_thicket" text="Thicket" />
     <string id="TAIKOU_sett_area_waterfront" text="Waterfront" />
-    <string id="TAIKOU_sett_castle_tk246" text="黑胫巾" />
-    <string id="TAIKOU_sett_castle_tk247" text="羽黑" />
-    <string id="TAIKOU_sett_castle_tk248" text="风魔" />
-    <string id="TAIKOU_sett_castle_tk249" text="户隐" />
-    <string id="TAIKOU_sett_castle_tk250" text="透波" />
-    <string id="TAIKOU_sett_castle_tk251" text="伊贺" />
-    <string id="TAIKOU_sett_castle_tk252" text="轩辙" />
-    <string id="TAIKOU_sett_castle_tk253" text="甲贺" />
-    <string id="TAIKOU_sett_castle_tk254" text="根来" />
-    <string id="TAIKOU_sett_castle_tk255" text="外间" />
-    <string id="TAIKOU_sett_castle_tk256" text="钵屋" />
-    <string id="TAIKOU_sett_castle_tk257" text="山潜" />
-    <string id="TAIKOU_sett_castle_tk258" text="十三凑" />
-    <string id="TAIKOU_sett_castle_tk259" text="石卷" />
-    <string id="TAIKOU_sett_castle_tk260" text="拍崎" />
-    <string id="TAIKOU_sett_castle_tk261" text="冈本" />
-    <string id="TAIKOU_sett_castle_tk262" text="一崎" />
-    <string id="TAIKOU_sett_castle_tk263" text="清水" />
-    <string id="TAIKOU_sett_castle_tk264" text="舞鹤" />
+    <string id="TAIKOU_sett_castle_tk246" text="黑胫巾之里" />
+    <string id="TAIKOU_sett_castle_tk247" text="羽黑之里" />
+    <string id="TAIKOU_sett_castle_tk248" text="风魔之里" />
+    <string id="TAIKOU_sett_castle_tk249" text="户隐之里" />
+    <string id="TAIKOU_sett_castle_tk250" text="透波之里" />
+    <string id="TAIKOU_sett_castle_tk251" text="伊贺之里" />
+    <string id="TAIKOU_sett_castle_tk252" text="轩猿之里" />
+    <string id="TAIKOU_sett_castle_tk253" text="甲贺之里" />
+    <string id="TAIKOU_sett_castle_tk254" text="根来之里" />
+    <string id="TAIKOU_sett_castle_tk255" text="外闻之里" />
+    <string id="TAIKOU_sett_castle_tk256" text="钵屋之里" />
+    <string id="TAIKOU_sett_castle_tk257" text="山潜之里" />
+    <string id="TAIKOU_sett_castle_tk258" text="十三凑之砦" />
+    <string id="TAIKOU_sett_castle_tk259" text="石卷之砦" />
+    <string id="TAIKOU_sett_castle_tk260" text="柏崎之砦" />
+    <string id="TAIKOU_sett_castle_tk261" text="冈本之砦" />
+    <string id="TAIKOU_sett_castle_tk262" text="三崎之砦" />
+    <string id="TAIKOU_sett_castle_tk263" text="清水之砦" />
+    <string id="TAIKOU_sett_castle_tk264" text="舞鹤之砦" />
     <string id="TAIKOU_sett_castle_tk265" text="鸟羽" />
-    <string id="TAIKOU_sett_castle_tk266" text="洲本" />
-    <string id="TAIKOU_sett_castle_tk267" text="美保关" />
-    <string id="TAIKOU_sett_castle_tk268" text="盐饱" />
-    <string id="TAIKOU_sett_castle_tk269" text="岛" />
-    <string id="TAIKOU_sett_castle_tk270" text="千市" />
-    <string id="TAIKOU_sett_castle_tk271" text="一尺屋" />
-    <string id="TAIKOU_sett_castle_tk272" text="江川" />
-    <string id="TAIKOU_sett_castle_tk273" text="坊津" />
+    <string id="TAIKOU_sett_castle_tk266" text="洲本之砦" />
+    <string id="TAIKOU_sett_castle_tk267" text="美保关之砦" />
+    <string id="TAIKOU_sett_castle_tk268" text="盐饱之砦" />
+    <string id="TAIKOU_sett_castle_tk269" text="三岛之砦" />
+    <string id="TAIKOU_sett_castle_tk270" text="十市之砦" />
+    <string id="TAIKOU_sett_castle_tk271" text="一尺屋之砦" />
+    <string id="TAIKOU_sett_castle_tk272" text="江川之砦" />
+    <string id="TAIKOU_sett_castle_tk273" text="坊津之砦" />
     <string id="TAIKOU_sett_retreat" text="The Retreat" />
     <string id="TAIKOU_sett_town_tk000" text="胜山馆" />
     <string id="TAIKOU_sett_town_tk001" text="大浦城" />
@@ -1015,6 +1015,7 @@
     <string id="TAIKOU_sett_town_tk060" text="北之庄城" />
     <string id="TAIKOU_sett_town_tk061" text="金崎城" />
     <string id="TAIKOU_sett_town_tk062" text="户石城" />
+    <string id="TAIKOU_sett_town_tk062_1582" text="上田城" />
     <string id="TAIKOU_sett_town_tk063" text="海津城" />
     <string id="TAIKOU_sett_town_tk064" text="饭山城" />
     <string id="TAIKOU_sett_town_tk065" text="小诸城" />
@@ -1022,13 +1023,14 @@
     <string id="TAIKOU_sett_town_tk067" text="木曾福岛城" />
     <string id="TAIKOU_sett_town_tk068" text="饭田城" />
     <string id="TAIKOU_sett_town_tk069" text="踯躅崎馆" />
+    <string id="TAIKOU_sett_town_tk069_1582" text="甲府城" />
     <string id="TAIKOU_sett_town_tk070" text="岩殿城" />
     <string id="TAIKOU_sett_town_tk071" text="下山城" />
     <string id="TAIKOU_sett_town_tk072" text="骏府城" />
     <string id="TAIKOU_sett_town_tk073" text="兴国寺城" />
     <string id="TAIKOU_sett_town_tk074" text="曳马城" />
     <string id="TAIKOU_sett_town_tk074_1582" text="滨松城" />
-    <string id="TAIKOU_sett_town_tk075" text="二股城" />
+    <string id="TAIKOU_sett_town_tk075" text="二俣城" />
     <string id="TAIKOU_sett_town_tk076" text="高天神城" />
     <string id="TAIKOU_sett_town_tk077" text="冈崎城" />
     <string id="TAIKOU_sett_town_tk078" text="长篠城" />
@@ -1039,7 +1041,7 @@
     <string id="TAIKOU_sett_town_tk083" text="那古野城" />
     <string id="TAIKOU_sett_town_tk084" text="稻叶山城" />
     <string id="TAIKOU_sett_town_tk084_1582" text="岐阜城" />
-    <string id="TAIKOU_sett_town_tk085" text="墨股城" />
+    <string id="TAIKOU_sett_town_tk085" text="墨俣城" />
     <string id="TAIKOU_sett_town_tk086" text="大垣城" />
     <string id="TAIKOU_sett_town_tk087" text="岩村城" />
     <string id="TAIKOU_sett_town_tk088" text="曾根城" />
@@ -1054,7 +1056,8 @@
     <string id="TAIKOU_sett_town_tk096_1582" text="长滨城" />
     <string id="TAIKOU_sett_town_tk097" text="观音寺城" />
     <string id="TAIKOU_sett_town_tk097_1582" text="安土城" />
-    <string id="TAIKOU_sett_town_tk098" text="阪本城" />
+    <string id="TAIKOU_sett_town_tk098_1560" text="坂本城" />
+    <string id="TAIKOU_sett_town_tk098_1582" text="坂本城" />
     <string id="TAIKOU_sett_town_tk099" text="日野城" />
     <string id="TAIKOU_sett_town_tk100" text="多闻山城" />
     <string id="TAIKOU_sett_town_tk101" text="信贵山城" />
@@ -1070,8 +1073,10 @@
     <string id="TAIKOU_sett_town_tk111" text="饭盛城" />
     <string id="TAIKOU_sett_town_tk112" text="高屋城" />
     <string id="TAIKOU_sett_town_tk113" text="石山本愿寺" />
-    <string id="TAIKOU_sett_town_tk114" text="芥川城" />
+    <string id="TAIKOU_sett_town_tk114" text="高槻城" />
+    <string id="TAIKOU_sett_town_tk114_1560" text="芥川城" />
     <string id="TAIKOU_sett_town_tk115" text="有冈城" />
+    <string id="TAIKOU_sett_town_tk115_1582" text="伊丹城" />
     <string id="TAIKOU_sett_town_tk116" text="杂贺城" />
     <string id="TAIKOU_sett_town_tk117" text="新宫城" />
     <string id="TAIKOU_sett_town_tk118" text="鸟取城" />
@@ -1084,6 +1089,7 @@
     <string id="TAIKOU_sett_town_tk125" text="山吹城" />
     <string id="TAIKOU_sett_town_tk126" text="置盐城" />
     <string id="TAIKOU_sett_town_tk127" text="御着城" />
+    <string id="TAIKOU_sett_town_tk127_1582" text="姬路城" />
     <string id="TAIKOU_sett_town_tk128" text="三木城" />
     <string id="TAIKOU_sett_town_tk129" text="上月城" />
     <string id="TAIKOU_sett_town_tk130" text="三星城" />
@@ -1109,7 +1115,7 @@
     <string id="TAIKOU_sett_town_tk150" text="洲本城" />
     <string id="TAIKOU_sett_town_tk151" text="白地城" />
     <string id="TAIKOU_sett_town_tk152" text="冈丰城" />
-    <string id="TAIKOU_sett_town_tk153" text="安芸城" />
+    <string id="TAIKOU_sett_town_tk153" text="安艺城" />
     <string id="TAIKOU_sett_town_tk154" text="中村城" />
     <string id="TAIKOU_sett_town_tk155" text="金石城" />
     <string id="TAIKOU_sett_town_tk156" text="立花山城" />
@@ -1129,75 +1135,78 @@
     <string id="TAIKOU_sett_town_tk170" text="府内城" />
     <string id="TAIKOU_sett_town_tk171" text="冈城" />
     <string id="TAIKOU_sett_town_tk172" text="佐伯城" />
-    <string id="TAIKOU_sett_town_tk173" text="都於郡城" />
+    <string id="TAIKOU_sett_town_tk173" text="都于郡城" />
     <string id="TAIKOU_sett_town_tk174" text="饫肥城" />
     <string id="TAIKOU_sett_town_tk175" text="县城" />
     <string id="TAIKOU_sett_town_tk176" text="大隅高山城" />
     <string id="TAIKOU_sett_town_tk177" text="加治木城" />
     <string id="TAIKOU_sett_town_tk178" text="内城" />
     <string id="TAIKOU_sett_town_tk179" text="出水城" />
-    <string id="TAIKOU_sett_village_tk180" text="宇须岸" />
-    <string id="TAIKOU_sett_village_tk181" text="弘前" />
-    <string id="TAIKOU_sett_village_tk182" text="花卷" />
-    <string id="TAIKOU_sett_village_tk183" text="仙台" />
-    <string id="TAIKOU_sett_village_tk184" text="土崎凑" />
-    <string id="TAIKOU_sett_village_tk185" text="酒田" />
-    <string id="TAIKOU_sett_village_tk186" text="会津" />
-    <string id="TAIKOU_sett_village_tk187" text="鹿岛" />
-    <string id="TAIKOU_sett_village_tk188" text="足利" />
-    <string id="TAIKOU_sett_village_tk189" text="厩桥" />
-    <string id="TAIKOU_sett_village_tk190" text="木更津" />
-    <string id="TAIKOU_sett_village_tk191" text="佐仓" />
-    <string id="TAIKOU_sett_village_tk192" text="江户" />
-    <string id="TAIKOU_sett_village_tk193" text="小田原" />
-    <string id="TAIKOU_sett_village_tk194" text="直江津" />
-    <string id="TAIKOU_sett_village_tk195" text="富山" />
-    <string id="TAIKOU_sett_village_tk196" text="轮岛" />
-    <string id="TAIKOU_sett_village_tk197" text="金泽" />
-    <string id="TAIKOU_sett_village_tk198" text="敦贺" />
-    <string id="TAIKOU_sett_village_tk199" text="小诸" />
-    <string id="TAIKOU_sett_village_tk200" text="诹访" />
-    <string id="TAIKOU_sett_village_tk201" text="甲府" />
-    <string id="TAIKOU_sett_village_tk202" text="骏府" />
-    <string id="TAIKOU_sett_village_tk203" text="滨松" />
-    <string id="TAIKOU_sett_village_tk204" text="冈崎" />
-    <string id="TAIKOU_sett_village_tk205" text="清洲" />
-    <string id="TAIKOU_sett_village_tk206" text="井之口" />
-    <string id="TAIKOU_sett_village_tk207" text="松仓" />
-    <string id="TAIKOU_sett_village_tk208" text="大凑" />
-    <string id="TAIKOU_sett_village_tk209" text="今滨" />
-    <string id="TAIKOU_sett_village_tk210" text="加田" />
+    <string id="TAIKOU_sett_village_tk180" text="宇须岸之町" />
+    <string id="TAIKOU_sett_village_tk181" text="弘前之町" />
+    <string id="TAIKOU_sett_village_tk182" text="花卷之町" />
+    <string id="TAIKOU_sett_village_tk183" text="仙台之町" />
+    <string id="TAIKOU_sett_village_tk184" text="土崎凑之町" />
+    <string id="TAIKOU_sett_village_tk185" text="酒田之町" />
+    <string id="TAIKOU_sett_village_tk186" text="会津之町" />
+    <string id="TAIKOU_sett_village_tk187" text="鹿岛之町" />
+    <string id="TAIKOU_sett_village_tk188" text="足利之町" />
+    <string id="TAIKOU_sett_village_tk189" text="厩桥之町" />
+    <string id="TAIKOU_sett_village_tk190" text="木更津之町" />
+    <string id="TAIKOU_sett_village_tk191" text="佐仓之町" />
+    <string id="TAIKOU_sett_village_tk192" text="江户之町" />
+    <string id="TAIKOU_sett_village_tk193" text="小田原之町" />
+    <string id="TAIKOU_sett_village_tk194" text="直江津之町" />
+    <string id="TAIKOU_sett_village_tk195" text="富山之町" />
+    <string id="TAIKOU_sett_village_tk196" text="轮岛之町" />
+    <string id="TAIKOU_sett_village_tk197" text="金泽之町" />
+    <string id="TAIKOU_sett_village_tk198" text="敦贺之町" />
+    <string id="TAIKOU_sett_village_tk199" text="小诸之町" />
+    <string id="TAIKOU_sett_village_tk200" text="诹访之町" />
+    <string id="TAIKOU_sett_village_tk201" text="甲府之町" />
+    <string id="TAIKOU_sett_village_tk202" text="骏府之町" />
+    <string id="TAIKOU_sett_village_tk203" text="滨松之町" />
+    <string id="TAIKOU_sett_village_tk204" text="冈崎之町" />
+    <string id="TAIKOU_sett_village_tk205" text="清洲之町" />
+    <string id="TAIKOU_sett_village_tk206" text="井之口之町" />
+    <string id="TAIKOU_sett_village_tk206_1582" text="岐阜之町" />
+    <string id="TAIKOU_sett_village_tk207" text="松仓之町" />
+    <string id="TAIKOU_sett_village_tk208" text="大凑之町" />
+    <string id="TAIKOU_sett_village_tk209" text="今滨之町" />
+    <string id="TAIKOU_sett_village_tk209_1582" text="长滨之町" />
+    <string id="TAIKOU_sett_village_tk210" text="目加田之町" />
+    <string id="TAIKOU_sett_village_tk210_1582" text="安土之町" />
     <string id="TAIKOU_sett_village_tk211" text="奈良" />
-    <string id="TAIKOU_sett_village_tk212" text="京" />
-    <string id="TAIKOU_sett_village_tk213" text="龟山" />
-    <string id="TAIKOU_sett_village_tk214" text="小滨" />
+    <string id="TAIKOU_sett_village_tk212" text="京之町" />
+    <string id="TAIKOU_sett_village_tk213" text="龟山之町" />
+    <string id="TAIKOU_sett_village_tk214" text="小滨之町" />
     <string id="TAIKOU_sett_village_tk215" text="界" />
-    <string id="TAIKOU_sett_village_tk216" text="石山" />
-    <string id="TAIKOU_sett_village_tk217" text="杂贺" />
-    <string id="TAIKOU_sett_village_tk218" text="出石" />
-    <string id="TAIKOU_sett_village_tk219" text="鸟取" />
-    <string id="TAIKOU_sett_village_tk220" text="松江" />
-    <string id="TAIKOU_sett_village_tk221" text="温泉津" />
-    <string id="TAIKOU_sett_village_tk222" text="姬路" />
-    <string id="TAIKOU_sett_village_tk223" text="津山" />
-    <string id="TAIKOU_sett_village_tk224" text="长船" />
-    <string id="TAIKOU_sett_village_tk225" text="仓敷" />
-    <string id="TAIKOU_sett_village_tk226" text="尾道" />
-    <string id="TAIKOU_sett_village_tk227" text="严岛" />
-    <string id="TAIKOU_sett_village_tk228" text="赤间关" />
-    <string id="TAIKOU_sett_village_tk229" text="丸龟" />
-    <string id="TAIKOU_sett_village_tk230" text="今治" />
-    <string id="TAIKOU_sett_village_tk231" text="鸣门" />
-    <string id="TAIKOU_sett_village_tk232" text="浦户" />
-    <string id="TAIKOU_sett_village_tk233" text="博多" />
-    <string id="TAIKOU_sett_village_tk234" text="柳川" />
-    <string id="TAIKOU_sett_village_tk235" text="平户" />
-    <string id="TAIKOU_sett_village_tk236" text="八代" />
-    <string id="TAIKOU_sett_village_tk237" text="小仓" />
-    <string id="TAIKOU_sett_village_tk238" text="府内" />
-    <string id="TAIKOU_sett_village_tk239" text="油津" />
-    <string id="TAIKOU_sett_village_tk240" text="鹿屋" />
-    <string id="TAIKOU_sett_village_tk241" text="鹿儿岛" />
+    <string id="TAIKOU_sett_village_tk216" text="石山之町" />
+    <string id="TAIKOU_sett_village_tk217" text="杂贺之町" />
+    <string id="TAIKOU_sett_village_tk218" text="出石之町" />
+    <string id="TAIKOU_sett_village_tk219" text="鸟取之町" />
+    <string id="TAIKOU_sett_village_tk220" text="松江之町" />
+    <string id="TAIKOU_sett_village_tk221" text="温泉津之町" />
+    <string id="TAIKOU_sett_village_tk222" text="姬路之町" />
+    <string id="TAIKOU_sett_village_tk223" text="津山之町" />
+    <string id="TAIKOU_sett_village_tk224" text="长船之町" />
+    <string id="TAIKOU_sett_village_tk225" text="仓敷之町" />
+    <string id="TAIKOU_sett_village_tk226" text="尾道之町" />
+    <string id="TAIKOU_sett_village_tk227" text="严岛之町" />
+    <string id="TAIKOU_sett_village_tk228" text="赤间关之町" />
+    <string id="TAIKOU_sett_village_tk229" text="丸龟之町" />
+    <string id="TAIKOU_sett_village_tk230" text="今治之町" />
+    <string id="TAIKOU_sett_village_tk231" text="鸣门之町" />
+    <string id="TAIKOU_sett_village_tk232" text="浦户之町" />
+    <string id="TAIKOU_sett_village_tk233" text="博多之町" />
+    <string id="TAIKOU_sett_village_tk234" text="柳川之町" />
+    <string id="TAIKOU_sett_village_tk235" text="平户之町" />
+    <string id="TAIKOU_sett_village_tk236" text="八代之町" />
+    <string id="TAIKOU_sett_village_tk237" text="小仓之町" />
+    <string id="TAIKOU_sett_village_tk238" text="府内之町" />
+    <string id="TAIKOU_sett_village_tk239" text="油津之町" />
+    <string id="TAIKOU_sett_village_tk240" text="鹿屋之町" />
+    <string id="TAIKOU_sett_village_tk241" text="鹿儿岛之町" />
     <string id="TAIKOU_short_term_for_faction" text="Japan" />
     <string id="TAIKOU_skill_archer" text="Archery" />
     <string id="TAIKOU_skill_arthmetic" text="Arithmetic" />
