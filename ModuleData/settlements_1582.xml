@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Settlements>
   <!-- Taikou 据点总表（1582 剧本）——生成物（铁律 22）：由 Scripts/gen_taikou_settlements_xml.py 从 csv/Settlements.csv 生成，禁止手改。临时口径：owner 全体 = Faction.clan_oda。 -->
-  <Settlement id="town_tk000" name="{=TAIKOU_sett_town_tk000}胜山馆" owner="Faction.clan_g" posX="1829.8" posY="1076.6" culture="Culture.ikoku">
+  <Settlement id="town_tk000" name="{=TAIKOU_sett_town_tk000}胜山馆" owner="Faction.clan_g" posX="1780.1" posY="1044.6" culture="Culture.ikoku">
     <Components>
       <Town id="town_comp_tk000" is_castle="false" level="3" background_crop_position="0.0" background_mesh="menu_empire_4" wait_mesh="wait_empire_town" gate_rotation="0.208" max_prosperity="70" prosperity="5100" />
     </Components>
@@ -16,7 +16,7 @@
       <Area type="Waterfront" name="{=TAIKOU_sett_area_waterfront}Waterfront" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="town_tk001" name="{=TAIKOU_sett_town_tk001}大浦城" owner="Faction.clan_g" posX="1829.8" posY="971.6" culture="Culture.ikoku">
+  <Settlement id="town_tk001" name="{=TAIKOU_sett_town_tk001}大浦城" owner="Faction.clan_g" posX="1780.2" posY="934.5" culture="Culture.ikoku">
     <Components>
       <Town id="town_comp_tk001" is_castle="false" level="3" background_crop_position="0.0" background_mesh="menu_empire_4" wait_mesh="wait_empire_town" gate_rotation="0.208" max_prosperity="70" prosperity="5100" />
     </Components>
@@ -31,7 +31,7 @@
       <Area type="Waterfront" name="{=TAIKOU_sett_area_waterfront}Waterfront" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="town_tk002" name="{=TAIKOU_sett_town_tk002}八户城" owner="Faction.clan_g" posX="1941.8" posY="916.6" culture="Culture.ikoku">
+  <Settlement id="town_tk002" name="{=TAIKOU_sett_town_tk002}八户城" owner="Faction.clan_g" posX="1872.7" posY="882.9" culture="Culture.ikoku">
     <Components>
       <Town id="town_comp_tk002" is_castle="false" level="3" background_crop_position="0.0" background_mesh="menu_empire_4" wait_mesh="wait_empire_town" gate_rotation="0.208" max_prosperity="70" prosperity="5100" />
     </Components>
@@ -46,7 +46,7 @@
       <Area type="Waterfront" name="{=TAIKOU_sett_area_waterfront}Waterfront" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="town_tk003" name="{=TAIKOU_sett_town_tk003}三户城" owner="Faction.clan_g" posX="1906.2" posY="906.6" culture="Culture.ikoku">
+  <Settlement id="town_tk003" name="{=TAIKOU_sett_town_tk003}三户城" owner="Faction.clan_g" posX="1841.0" posY="874.0" culture="Culture.ikoku">
     <Components>
       <Town id="town_comp_tk003" is_castle="false" level="3" background_crop_position="0.0" background_mesh="menu_empire_4" wait_mesh="wait_empire_town" gate_rotation="0.208" max_prosperity="70" prosperity="5100" />
     </Components>
@@ -61,7 +61,7 @@
       <Area type="Waterfront" name="{=TAIKOU_sett_area_waterfront}Waterfront" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="town_tk004" name="{=TAIKOU_sett_town_tk004}九户城" owner="Faction.clan_g" posX="1916.3" posY="866.6" culture="Culture.ikoku">
+  <Settlement id="town_tk004" name="{=TAIKOU_sett_town_tk004}九户城" owner="Faction.clan_g" posX="1846.6" posY="837.1" culture="Culture.ikoku">
     <Components>
       <Town id="town_comp_tk004" is_castle="false" level="3" background_crop_position="0.0" background_mesh="menu_empire_4" wait_mesh="wait_empire_town" gate_rotation="0.208" max_prosperity="70" prosperity="5100" />
     </Components>
@@ -76,7 +76,7 @@
       <Area type="Waterfront" name="{=TAIKOU_sett_area_waterfront}Waterfront" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="town_tk005" name="{=TAIKOU_sett_town_tk005}不来方城" owner="Faction.clan_g" posX="1855.2" posY="831.6" culture="Culture.ikoku">
+  <Settlement id="town_tk005" name="{=TAIKOU_sett_town_tk005}不来方城" owner="Faction.clan_g" posX="1790.8" posY="805.4" culture="Culture.ikoku">
     <Components>
       <Town id="town_comp_tk005" is_castle="false" level="3" background_crop_position="0.0" background_mesh="menu_empire_4" wait_mesh="wait_empire_town" gate_rotation="0.208" max_prosperity="70" prosperity="5100" />
     </Components>
@@ -91,7 +91,7 @@
       <Area type="Waterfront" name="{=TAIKOU_sett_area_waterfront}Waterfront" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="town_tk006" name="{=TAIKOU_sett_town_tk006}高水寺城" owner="Faction.clan_g" posX="1865.4" posY="811.6" culture="Culture.ikoku">
+  <Settlement id="town_tk006" name="{=TAIKOU_sett_town_tk006}高水寺城" owner="Faction.clan_g" posX="1798.0" posY="786.9" culture="Culture.ikoku">
     <Components>
       <Town id="town_comp_tk006" is_castle="false" level="3" background_crop_position="0.0" background_mesh="menu_empire_4" wait_mesh="wait_empire_town" gate_rotation="0.208" max_prosperity="70" prosperity="5100" />
     </Components>
@@ -106,7 +106,7 @@
       <Area type="Waterfront" name="{=TAIKOU_sett_area_waterfront}Waterfront" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="town_tk007" name="{=TAIKOU_sett_town_tk007}岩出山城" owner="Faction.clan_g" posX="1794.2" posY="706.6" culture="Culture.ikoku">
+  <Settlement id="town_tk007" name="{=TAIKOU_sett_town_tk007}岩出山城" owner="Faction.clan_g" posX="1727.7" posY="690.9" culture="Culture.ikoku">
     <Components>
       <Town id="town_comp_tk007" is_castle="false" level="3" background_crop_position="0.0" background_mesh="menu_empire_4" wait_mesh="wait_empire_town" gate_rotation="0.208" max_prosperity="70" prosperity="5100" />
     </Components>
@@ -121,7 +121,7 @@
       <Area type="Waterfront" name="{=TAIKOU_sett_area_waterfront}Waterfront" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="town_tk008" name="{=TAIKOU_sett_town_tk008}寺池城" owner="Faction.clan_g" posX="1824.7" posY="691.6" culture="Culture.ikoku">
+  <Settlement id="town_tk008" name="{=TAIKOU_sett_town_tk008}寺池城" owner="Faction.clan_g" posX="1753.0" posY="676.8" culture="Culture.ikoku">
     <Components>
       <Town id="town_comp_tk008" is_castle="false" level="3" background_crop_position="0.0" background_mesh="menu_empire_4" wait_mesh="wait_empire_town" gate_rotation="0.208" max_prosperity="70" prosperity="5100" />
     </Components>
@@ -136,7 +136,7 @@
       <Area type="Waterfront" name="{=TAIKOU_sett_area_waterfront}Waterfront" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="town_tk009" name="{=TAIKOU_sett_town_tk009}名生城" owner="Faction.clan_g" posX="1773.8" posY="696.6" culture="Culture.ikoku">
+  <Settlement id="town_tk009" name="{=TAIKOU_sett_town_tk009}名生城" owner="Faction.clan_g" posX="1709.3" posY="681.8" culture="Culture.ikoku">
     <Components>
       <Town id="town_comp_tk009" is_castle="false" level="3" background_crop_position="0.0" background_mesh="menu_empire_4" wait_mesh="wait_empire_town" gate_rotation="0.208" max_prosperity="70" prosperity="5100" />
     </Components>
@@ -151,7 +151,7 @@
       <Area type="Waterfront" name="{=TAIKOU_sett_area_waterfront}Waterfront" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="town_tk010" name="{=TAIKOU_sett_town_tk010}仙台城" owner="Faction.clan_g" posX="1768.7" posY="656.6" culture="Culture.ikoku">
+  <Settlement id="town_tk010" name="{=TAIKOU_sett_town_tk010}仙台城" owner="Faction.clan_g" posX="1701.6" posY="645.1" culture="Culture.ikoku">
     <Components>
       <Town id="town_comp_tk010" is_castle="false" level="3" background_crop_position="0.0" background_mesh="menu_empire_4" wait_mesh="wait_empire_town" gate_rotation="0.208" max_prosperity="70" prosperity="5100" />
     </Components>
@@ -166,7 +166,7 @@
       <Area type="Waterfront" name="{=TAIKOU_sett_area_waterfront}Waterfront" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="town_tk011" name="{=TAIKOU_sett_town_tk011}白石城" owner="Faction.clan_g" posX="1728.0" posY="631.6" culture="Culture.ikoku">
+  <Settlement id="town_tk011" name="{=TAIKOU_sett_town_tk011}白石城" owner="Faction.clan_g" posX="1664.3" posY="622.4" culture="Culture.ikoku">
     <Components>
       <Town id="town_comp_tk011" is_castle="false" level="3" background_crop_position="0.0" background_mesh="menu_empire_4" wait_mesh="wait_empire_town" gate_rotation="0.208" max_prosperity="70" prosperity="5100" />
     </Components>
@@ -181,7 +181,7 @@
       <Area type="Waterfront" name="{=TAIKOU_sett_area_waterfront}Waterfront" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="town_tk012" name="{=TAIKOU_sett_town_tk012}凑城" owner="Faction.clan_g" posX="1733.1" posY="881.6" culture="Culture.ikoku">
+  <Settlement id="town_tk012" name="{=TAIKOU_sett_town_tk012}凑城" owner="Faction.clan_g" posX="1698.1" posY="847.2" culture="Culture.ikoku">
     <Components>
       <Town id="town_comp_tk012" is_castle="false" level="3" background_crop_position="0.0" background_mesh="menu_empire_4" wait_mesh="wait_empire_town" gate_rotation="0.208" max_prosperity="70" prosperity="5100" />
     </Components>
@@ -196,7 +196,7 @@
       <Area type="Waterfront" name="{=TAIKOU_sett_area_waterfront}Waterfront" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="town_tk013" name="{=TAIKOU_sett_town_tk013}桧山城" owner="Faction.clan_g" posX="1753.4" posY="926.6" culture="Culture.ikoku">
+  <Settlement id="town_tk013" name="{=TAIKOU_sett_town_tk013}桧山城" owner="Faction.clan_g" posX="1710.4" posY="893.7" culture="Culture.ikoku">
     <Components>
       <Town id="town_comp_tk013" is_castle="false" level="3" background_crop_position="0.0" background_mesh="menu_empire_4" wait_mesh="wait_empire_town" gate_rotation="0.208" max_prosperity="70" prosperity="5100" />
     </Components>
@@ -211,7 +211,7 @@
       <Area type="Waterfront" name="{=TAIKOU_sett_area_waterfront}Waterfront" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="town_tk014" name="{=TAIKOU_sett_town_tk014}角馆城" owner="Faction.clan_g" posX="1778.9" posY="836.6" culture="Culture.ikoku">
+  <Settlement id="town_tk014" name="{=TAIKOU_sett_town_tk014}角馆城" owner="Faction.clan_g" posX="1725.1" posY="810.7" culture="Culture.ikoku">
     <Components>
       <Town id="town_comp_tk014" is_castle="false" level="3" background_crop_position="0.0" background_mesh="menu_empire_4" wait_mesh="wait_empire_town" gate_rotation="0.208" max_prosperity="70" prosperity="5100" />
     </Components>
@@ -226,7 +226,7 @@
       <Area type="Waterfront" name="{=TAIKOU_sett_area_waterfront}Waterfront" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="town_tk015" name="{=TAIKOU_sett_town_tk015}横手城" owner="Faction.clan_g" posX="1773.8" posY="806.6" culture="Culture.ikoku">
+  <Settlement id="town_tk015" name="{=TAIKOU_sett_town_tk015}横手城" owner="Faction.clan_g" posX="1718.2" posY="783.1" culture="Culture.ikoku">
     <Components>
       <Town id="town_comp_tk015" is_castle="false" level="3" background_crop_position="0.0" background_mesh="menu_empire_4" wait_mesh="wait_empire_town" gate_rotation="0.208" max_prosperity="70" prosperity="5100" />
     </Components>
@@ -241,7 +241,7 @@
       <Area type="Waterfront" name="{=TAIKOU_sett_area_waterfront}Waterfront" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="town_tk016" name="{=TAIKOU_sett_town_tk016}山形城" owner="Faction.clan_g" posX="1687.2" posY="681.6" culture="Culture.ikoku">
+  <Settlement id="town_tk016" name="{=TAIKOU_sett_town_tk016}山形城" owner="Faction.clan_g" posX="1633.1" posY="668.8" culture="Culture.ikoku">
     <Components>
       <Town id="town_comp_tk016" is_castle="false" level="3" background_crop_position="0.0" background_mesh="menu_empire_4" wait_mesh="wait_empire_town" gate_rotation="0.208" max_prosperity="70" prosperity="5100" />
     </Components>
@@ -256,7 +256,7 @@
       <Area type="Waterfront" name="{=TAIKOU_sett_area_waterfront}Waterfront" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="town_tk017" name="{=TAIKOU_sett_town_tk017}鲑延城" owner="Faction.clan_g" posX="1707.6" posY="746.6" culture="Culture.ikoku">
+  <Settlement id="town_tk017" name="{=TAIKOU_sett_town_tk017}鲑延城" owner="Faction.clan_g" posX="1656.0" posY="728.4" culture="Culture.ikoku">
     <Components>
       <Town id="town_comp_tk017" is_castle="false" level="3" background_crop_position="0.0" background_mesh="menu_empire_4" wait_mesh="wait_empire_town" gate_rotation="0.208" max_prosperity="70" prosperity="5100" />
     </Components>
@@ -271,7 +271,7 @@
       <Area type="Waterfront" name="{=TAIKOU_sett_area_waterfront}Waterfront" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="town_tk018" name="{=TAIKOU_sett_town_tk018}尾浦城" owner="Faction.clan_g" posX="1656.7" posY="761.6" culture="Culture.ikoku">
+  <Settlement id="town_tk018" name="{=TAIKOU_sett_town_tk018}尾浦城" owner="Faction.clan_g" posX="1613.2" posY="742.7" culture="Culture.ikoku">
     <Components>
       <Town id="town_comp_tk018" is_castle="false" level="3" background_crop_position="0.0" background_mesh="menu_empire_4" wait_mesh="wait_empire_town" gate_rotation="0.208" max_prosperity="70" prosperity="5100" />
     </Components>
@@ -286,7 +286,7 @@
       <Area type="Waterfront" name="{=TAIKOU_sett_area_waterfront}Waterfront" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="town_tk019" name="{=TAIKOU_sett_town_tk019}米泽城" owner="Faction.clan_g" posX="1656.7" posY="651.6" culture="Culture.ikoku">
+  <Settlement id="town_tk019" name="{=TAIKOU_sett_town_tk019}米泽城" owner="Faction.clan_g" posX="1604.2" posY="641.4" culture="Culture.ikoku">
     <Components>
       <Town id="town_comp_tk019" is_castle="false" level="3" background_crop_position="0.0" background_mesh="menu_empire_4" wait_mesh="wait_empire_town" gate_rotation="0.208" max_prosperity="70" prosperity="5100" />
     </Components>
@@ -301,7 +301,7 @@
       <Area type="Waterfront" name="{=TAIKOU_sett_area_waterfront}Waterfront" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="town_tk020" name="{=TAIKOU_sett_town_tk020}黑川城" owner="Faction.clan_g" posX="1610.9" posY="606.6" culture="Culture.ikoku">
+  <Settlement id="town_tk020" name="{=TAIKOU_sett_town_tk020}黑川城" owner="Faction.clan_g" posX="1560.9" posY="600.4" culture="Culture.ikoku">
     <Components>
       <Town id="town_comp_tk020" is_castle="false" level="3" background_crop_position="0.0" background_mesh="menu_empire_4" wait_mesh="wait_empire_town" gate_rotation="0.208" max_prosperity="70" prosperity="5100" />
     </Components>
@@ -316,7 +316,7 @@
       <Area type="Waterfront" name="{=TAIKOU_sett_area_waterfront}Waterfront" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="town_tk021" name="{=TAIKOU_sett_town_tk021}二本松城" owner="Faction.clan_g" posX="1666.9" posY="581.6" culture="Culture.ikoku">
+  <Settlement id="town_tk021" name="{=TAIKOU_sett_town_tk021}二本松城" owner="Faction.clan_g" posX="1607.3" posY="576.9" culture="Culture.ikoku">
     <Components>
       <Town id="town_comp_tk021" is_castle="false" level="3" background_crop_position="0.0" background_mesh="menu_empire_4" wait_mesh="wait_empire_town" gate_rotation="0.208" max_prosperity="70" prosperity="5100" />
     </Components>
@@ -331,7 +331,7 @@
       <Area type="Waterfront" name="{=TAIKOU_sett_area_waterfront}Waterfront" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="town_tk022" name="{=TAIKOU_sett_town_tk022}须贺川城" owner="Faction.clan_g" posX="1646.5" posY="556.6" culture="Culture.ikoku">
+  <Settlement id="town_tk022" name="{=TAIKOU_sett_town_tk022}须贺川城" owner="Faction.clan_g" posX="1587.7" posY="554.1" culture="Culture.ikoku">
     <Components>
       <Town id="town_comp_tk022" is_castle="false" level="3" background_crop_position="0.0" background_mesh="menu_empire_4" wait_mesh="wait_empire_town" gate_rotation="0.208" max_prosperity="70" prosperity="5100" />
     </Components>
@@ -346,7 +346,7 @@
       <Area type="Waterfront" name="{=TAIKOU_sett_area_waterfront}Waterfront" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="town_tk023" name="{=TAIKOU_sett_town_tk023}小高城" owner="Faction.clan_g" posX="1743.2" posY="566.6" culture="Culture.ikoku">
+  <Settlement id="town_tk023" name="{=TAIKOU_sett_town_tk023}小高城" owner="Faction.clan_g" posX="1672.2" posY="562.4" culture="Culture.ikoku">
     <Components>
       <Town id="town_comp_tk023" is_castle="false" level="3" background_crop_position="0.0" background_mesh="menu_empire_4" wait_mesh="wait_empire_town" gate_rotation="0.208" max_prosperity="70" prosperity="5100" />
     </Components>
@@ -361,7 +361,7 @@
       <Area type="Waterfront" name="{=TAIKOU_sett_area_waterfront}Waterfront" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="town_tk024" name="{=TAIKOU_sett_town_tk024}太田城" owner="Faction.clan_g" posX="1631.2" posY="456.6" culture="Culture.ikoku">
+  <Settlement id="town_tk024" name="{=TAIKOU_sett_town_tk024}太田城" owner="Faction.clan_g" posX="1566.3" posY="462.2" culture="Culture.ikoku">
     <Components>
       <Town id="town_comp_tk024" is_castle="false" level="3" background_crop_position="0.0" background_mesh="menu_empire_4" wait_mesh="wait_empire_town" gate_rotation="0.208" max_prosperity="70" prosperity="5100" />
     </Components>
@@ -376,7 +376,7 @@
       <Area type="Waterfront" name="{=TAIKOU_sett_area_waterfront}Waterfront" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="town_tk025" name="{=TAIKOU_sett_town_tk025}水户城" owner="Faction.clan_g" posX="1616.0" posY="431.6" culture="Culture.ikoku">
+  <Settlement id="town_tk025" name="{=TAIKOU_sett_town_tk025}水户城" owner="Faction.clan_g" posX="1551.0" posY="439.3" culture="Culture.ikoku">
     <Components>
       <Town id="town_comp_tk025" is_castle="false" level="3" background_crop_position="0.0" background_mesh="menu_empire_4" wait_mesh="wait_empire_town" gate_rotation="0.208" max_prosperity="70" prosperity="5100" />
     </Components>
@@ -391,7 +391,7 @@
       <Area type="Waterfront" name="{=TAIKOU_sett_area_waterfront}Waterfront" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="town_tk026" name="{=TAIKOU_sett_town_tk026}土浦城" owner="Faction.clan_g" posX="1570.2" posY="416.6" culture="Culture.ikoku">
+  <Settlement id="town_tk026" name="{=TAIKOU_sett_town_tk026}土浦城" owner="Faction.clan_g" posX="1508.6" posY="425.3" culture="Culture.ikoku">
     <Components>
       <Town id="town_comp_tk026" is_castle="false" level="3" background_crop_position="0.0" background_mesh="menu_empire_4" wait_mesh="wait_empire_town" gate_rotation="0.208" max_prosperity="70" prosperity="5100" />
     </Components>
@@ -406,7 +406,7 @@
       <Area type="Waterfront" name="{=TAIKOU_sett_area_waterfront}Waterfront" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="town_tk027" name="{=TAIKOU_sett_town_tk027}小田城" owner="Faction.clan_g" posX="1560.0" posY="436.6" culture="Culture.ikoku">
+  <Settlement id="town_tk027" name="{=TAIKOU_sett_town_tk027}小田城" owner="Faction.clan_g" posX="1500.6" posY="447.8" culture="Culture.ikoku">
     <Components>
       <Town id="town_comp_tk027" is_castle="false" level="3" background_crop_position="0.0" background_mesh="menu_empire_4" wait_mesh="wait_empire_town" gate_rotation="0.208" max_prosperity="70" prosperity="5100" />
     </Components>
@@ -421,7 +421,7 @@
       <Area type="Waterfront" name="{=TAIKOU_sett_area_waterfront}Waterfront" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="town_tk028" name="{=TAIKOU_sett_town_tk028}宇都宫城" owner="Faction.clan_g" posX="1554.9" posY="496.6" culture="Culture.ikoku">
+  <Settlement id="town_tk028" name="{=TAIKOU_sett_town_tk028}宇都宫城" owner="Faction.clan_g" posX="1503.4" posY="499.6" culture="Culture.ikoku">
     <Components>
       <Town id="town_comp_tk028" is_castle="false" level="3" background_crop_position="0.0" background_mesh="menu_empire_4" wait_mesh="wait_empire_town" gate_rotation="0.208" max_prosperity="70" prosperity="5100" />
     </Components>
@@ -436,7 +436,7 @@
       <Area type="Waterfront" name="{=TAIKOU_sett_area_waterfront}Waterfront" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="town_tk029" name="{=TAIKOU_sett_town_tk029}唐泽山城" owner="Faction.clan_g" posX="1514.2" posY="466.6" culture="Culture.ikoku">
+  <Settlement id="town_tk029" name="{=TAIKOU_sett_town_tk029}唐泽山城" owner="Faction.clan_g" posX="1465.7" posY="472.4" culture="Culture.ikoku">
     <Components>
       <Town id="town_comp_tk029" is_castle="false" level="3" background_crop_position="0.0" background_mesh="menu_empire_4" wait_mesh="wait_empire_town" gate_rotation="0.208" max_prosperity="70" prosperity="5100" />
     </Components>
@@ -451,7 +451,7 @@
       <Area type="Waterfront" name="{=TAIKOU_sett_area_waterfront}Waterfront" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="town_tk030" name="{=TAIKOU_sett_town_tk030}小山城" owner="Faction.clan_g" posX="1534.5" posY="446.6" culture="Culture.ikoku">
+  <Settlement id="town_tk030" name="{=TAIKOU_sett_town_tk030}小山城" owner="Faction.clan_g" posX="1481.7" posY="453.8" culture="Culture.ikoku">
     <Components>
       <Town id="town_comp_tk030" is_castle="false" level="3" background_crop_position="0.0" background_mesh="menu_empire_4" wait_mesh="wait_empire_town" gate_rotation="0.208" max_prosperity="70" prosperity="5100" />
     </Components>
@@ -466,7 +466,7 @@
       <Area type="Waterfront" name="{=TAIKOU_sett_area_waterfront}Waterfront" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="town_tk031" name="{=TAIKOU_sett_town_tk031}乌山城" owner="Faction.clan_g" posX="1600.7" posY="496.6" culture="Culture.ikoku">
+  <Settlement id="town_tk031" name="{=TAIKOU_sett_town_tk031}乌山城" owner="Faction.clan_g" posX="1543.1" posY="499.2" culture="Culture.ikoku">
     <Components>
       <Town id="town_comp_tk031" is_castle="false" level="3" background_crop_position="0.0" background_mesh="menu_empire_4" wait_mesh="wait_empire_town" gate_rotation="0.208" max_prosperity="70" prosperity="5100" />
     </Components>
@@ -481,7 +481,7 @@
       <Area type="Waterfront" name="{=TAIKOU_sett_area_waterfront}Waterfront" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="town_tk032" name="{=TAIKOU_sett_town_tk032}厩桥城" owner="Faction.clan_g" posX="1442.9" posY="496.6" culture="Culture.ikoku">
+  <Settlement id="town_tk032" name="{=TAIKOU_sett_town_tk032}厩桥城" owner="Faction.clan_g" posX="1406.4" posY="500.6" culture="Culture.ikoku">
     <Components>
       <Town id="town_comp_tk032" is_castle="false" level="3" background_crop_position="0.0" background_mesh="menu_empire_4" wait_mesh="wait_empire_town" gate_rotation="0.208" max_prosperity="70" prosperity="5100" />
     </Components>
@@ -496,7 +496,7 @@
       <Area type="Waterfront" name="{=TAIKOU_sett_area_waterfront}Waterfront" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="town_tk033" name="{=TAIKOU_sett_town_tk033}沼田城" owner="Faction.clan_g" posX="1453.1" posY="531.6" culture="Culture.ikoku">
+  <Settlement id="town_tk033" name="{=TAIKOU_sett_town_tk033}沼田城" owner="Faction.clan_g" posX="1418.1" posY="532.7" culture="Culture.ikoku">
     <Components>
       <Town id="town_comp_tk033" is_castle="false" level="3" background_crop_position="0.0" background_mesh="menu_empire_4" wait_mesh="wait_empire_town" gate_rotation="0.208" max_prosperity="70" prosperity="5100" />
     </Components>
@@ -511,7 +511,7 @@
       <Area type="Waterfront" name="{=TAIKOU_sett_area_waterfront}Waterfront" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="town_tk034" name="{=TAIKOU_sett_town_tk034}馆林城" owner="Faction.clan_g" posX="1493.8" posY="446.6" culture="Culture.ikoku">
+  <Settlement id="town_tk034" name="{=TAIKOU_sett_town_tk034}馆林城" owner="Faction.clan_g" posX="1446.4" posY="454.1" culture="Culture.ikoku">
     <Components>
       <Town id="town_comp_tk034" is_castle="false" level="3" background_crop_position="0.0" background_mesh="menu_empire_4" wait_mesh="wait_empire_town" gate_rotation="0.208" max_prosperity="70" prosperity="5100" />
     </Components>
@@ -526,7 +526,7 @@
       <Area type="Waterfront" name="{=TAIKOU_sett_area_waterfront}Waterfront" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="town_tk035" name="{=TAIKOU_sett_town_tk035}箕轮城" owner="Faction.clan_g" posX="1417.4" posY="501.6" culture="Culture.ikoku">
+  <Settlement id="town_tk035" name="{=TAIKOU_sett_town_tk035}箕轮城" owner="Faction.clan_g" posX="1384.8" posY="505.4" culture="Culture.ikoku">
     <Components>
       <Town id="town_comp_tk035" is_castle="false" level="3" background_crop_position="0.0" background_mesh="menu_empire_4" wait_mesh="wait_empire_town" gate_rotation="0.208" max_prosperity="70" prosperity="5100" />
     </Components>
@@ -541,7 +541,7 @@
       <Area type="Waterfront" name="{=TAIKOU_sett_area_waterfront}Waterfront" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="town_tk036" name="{=TAIKOU_sett_town_tk036}胜浦城" owner="Faction.clan_g" posX="1554.9" posY="296.6" culture="Culture.ikoku">
+  <Settlement id="town_tk036" name="{=TAIKOU_sett_town_tk036}胜浦城" owner="Faction.clan_g" posX="1480.6" posY="321.9" culture="Culture.ikoku">
     <Components>
       <Town id="town_comp_tk036" is_castle="false" level="3" background_crop_position="0.0" background_mesh="menu_empire_4" wait_mesh="wait_empire_town" gate_rotation="0.208" max_prosperity="70" prosperity="5100" />
     </Components>
@@ -556,7 +556,7 @@
       <Area type="Waterfront" name="{=TAIKOU_sett_area_waterfront}Waterfront" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="town_tk037" name="{=TAIKOU_sett_town_tk037}久留里城" owner="Faction.clan_g" posX="1519.2" posY="321.6" culture="Culture.ikoku">
+  <Settlement id="town_tk037" name="{=TAIKOU_sett_town_tk037}久留里城" owner="Faction.clan_g" posX="1480.1" posY="353.9" culture="Culture.ikoku">
     <Components>
       <Town id="town_comp_tk037" is_castle="false" level="3" background_crop_position="0.0" background_mesh="menu_empire_4" wait_mesh="wait_empire_town" gate_rotation="0.208" max_prosperity="70" prosperity="5100" />
     </Components>
@@ -571,7 +571,7 @@
       <Area type="Waterfront" name="{=TAIKOU_sett_area_waterfront}Waterfront" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="town_tk038" name="{=TAIKOU_sett_town_tk038}稻村城" owner="Faction.clan_g" posX="1493.8" posY="291.6" culture="Culture.ikoku">
+  <Settlement id="town_tk038" name="{=TAIKOU_sett_town_tk038}稻村城" owner="Faction.clan_g" posX="1384.2" posY="361.9" culture="Culture.ikoku">
     <Components>
       <Town id="town_comp_tk038" is_castle="false" level="3" background_crop_position="0.0" background_mesh="menu_empire_4" wait_mesh="wait_empire_town" gate_rotation="0.208" max_prosperity="70" prosperity="5100" />
     </Components>
@@ -586,7 +586,7 @@
       <Area type="Waterfront" name="{=TAIKOU_sett_area_waterfront}Waterfront" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="town_tk039" name="{=TAIKOU_sett_town_tk039}佐仓城" owner="Faction.clan_g" posX="1570.2" posY="361.6" culture="Culture.ikoku">
+  <Settlement id="town_tk039" name="{=TAIKOU_sett_town_tk039}佐仓城" owner="Faction.clan_g" posX="1512.6" posY="368.4" culture="Culture.ikoku">
     <Components>
       <Town id="town_comp_tk039" is_castle="false" level="3" background_crop_position="0.0" background_mesh="menu_empire_4" wait_mesh="wait_empire_town" gate_rotation="0.208" max_prosperity="70" prosperity="5100" />
     </Components>
@@ -601,7 +601,7 @@
       <Area type="Waterfront" name="{=TAIKOU_sett_area_waterfront}Waterfront" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="town_tk040" name="{=TAIKOU_sett_town_tk040}结城城" owner="Faction.clan_g" posX="1539.6" posY="431.6" culture="Culture.ikoku">
+  <Settlement id="town_tk040" name="{=TAIKOU_sett_town_tk040}结城城" owner="Faction.clan_g" posX="1484.9" posY="439.9" culture="Culture.ikoku">
     <Components>
       <Town id="town_comp_tk040" is_castle="false" level="3" background_crop_position="0.0" background_mesh="menu_empire_4" wait_mesh="wait_empire_town" gate_rotation="0.208" max_prosperity="70" prosperity="5100" />
     </Components>
@@ -616,7 +616,7 @@
       <Area type="Waterfront" name="{=TAIKOU_sett_area_waterfront}Waterfront" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="town_tk041" name="{=TAIKOU_sett_town_tk041}江户城" owner="Faction.clan_g" posX="1493.8" posY="381.6" culture="Culture.ikoku">
+  <Settlement id="town_tk041" name="{=TAIKOU_sett_town_tk041}江户城" owner="Faction.clan_g" posX="1441.1" posY="394.3" culture="Culture.ikoku">
     <Components>
       <Town id="town_comp_tk041" is_castle="false" level="3" background_crop_position="0.0" background_mesh="menu_empire_4" wait_mesh="wait_empire_town" gate_rotation="0.208" max_prosperity="70" prosperity="5100" />
     </Components>
@@ -631,7 +631,7 @@
       <Area type="Waterfront" name="{=TAIKOU_sett_area_waterfront}Waterfront" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="town_tk042" name="{=TAIKOU_sett_town_tk042}岩槻城" owner="Faction.clan_g" posX="1498.9" posY="421.6" culture="Culture.ikoku">
+  <Settlement id="town_tk042" name="{=TAIKOU_sett_town_tk042}岩槻城" owner="Faction.clan_g" posX="1448.8" posY="431.1" culture="Culture.ikoku">
     <Components>
       <Town id="town_comp_tk042" is_castle="false" level="3" background_crop_position="0.0" background_mesh="menu_empire_4" wait_mesh="wait_empire_town" gate_rotation="0.208" max_prosperity="70" prosperity="5100" />
     </Components>
@@ -646,7 +646,7 @@
       <Area type="Waterfront" name="{=TAIKOU_sett_area_waterfront}Waterfront" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="town_tk043" name="{=TAIKOU_sett_town_tk043}河越城" owner="Faction.clan_g" posX="1473.4" posY="426.6" culture="Culture.ikoku">
+  <Settlement id="town_tk043" name="{=TAIKOU_sett_town_tk043}河越城" owner="Faction.clan_g" posX="1427.2" posY="435.9" culture="Culture.ikoku">
     <Components>
       <Town id="town_comp_tk043" is_castle="false" level="3" background_crop_position="0.0" background_mesh="menu_empire_4" wait_mesh="wait_empire_town" gate_rotation="0.208" max_prosperity="70" prosperity="5100" />
     </Components>
@@ -661,7 +661,7 @@
       <Area type="Waterfront" name="{=TAIKOU_sett_area_waterfront}Waterfront" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="town_tk044" name="{=TAIKOU_sett_town_tk044}忍城" owner="Faction.clan_g" posX="1458.2" posY="451.6" culture="Culture.ikoku">
+  <Settlement id="town_tk044" name="{=TAIKOU_sett_town_tk044}忍城" owner="Faction.clan_g" posX="1416.0" posY="459.0" culture="Culture.ikoku">
     <Components>
       <Town id="town_comp_tk044" is_castle="false" level="3" background_crop_position="0.0" background_mesh="menu_empire_4" wait_mesh="wait_empire_town" gate_rotation="0.208" max_prosperity="70" prosperity="5100" />
     </Components>
@@ -676,7 +676,7 @@
       <Area type="Waterfront" name="{=TAIKOU_sett_area_waterfront}Waterfront" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="town_tk045" name="{=TAIKOU_sett_town_tk045}八王子城" owner="Faction.clan_g" posX="1442.9" posY="391.6" culture="Culture.ikoku">
+  <Settlement id="town_tk045" name="{=TAIKOU_sett_town_tk045}八王子城" owner="Faction.clan_g" posX="1397.9" posY="403.9" culture="Culture.ikoku">
     <Components>
       <Town id="town_comp_tk045" is_castle="false" level="3" background_crop_position="0.0" background_mesh="menu_empire_4" wait_mesh="wait_empire_town" gate_rotation="0.208" max_prosperity="70" prosperity="5100" />
     </Components>
@@ -691,7 +691,7 @@
       <Area type="Waterfront" name="{=TAIKOU_sett_area_waterfront}Waterfront" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="town_tk046" name="{=TAIKOU_sett_town_tk046}小田原城" owner="Faction.clan_g" posX="1422.5" posY="346.6" culture="Culture.ikoku">
+  <Settlement id="town_tk046" name="{=TAIKOU_sett_town_tk046}小田原城" owner="Faction.clan_g" posX="1376.6" posY="362.7" culture="Culture.ikoku">
     <Components>
       <Town id="town_comp_tk046" is_castle="false" level="3" background_crop_position="0.0" background_mesh="menu_empire_4" wait_mesh="wait_empire_town" gate_rotation="0.208" max_prosperity="70" prosperity="5100" />
     </Components>
@@ -706,7 +706,7 @@
       <Area type="Waterfront" name="{=TAIKOU_sett_area_waterfront}Waterfront" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="town_tk047" name="{=TAIKOU_sett_town_tk047}玉绳城" owner="Faction.clan_g" posX="1458.2" posY="346.6" culture="Culture.ikoku">
+  <Settlement id="town_tk047" name="{=TAIKOU_sett_town_tk047}玉绳城" owner="Faction.clan_g" posX="1403.7" posY="372.9" culture="Culture.ikoku">
     <Components>
       <Town id="town_comp_tk047" is_castle="false" level="3" background_crop_position="0.0" background_mesh="menu_empire_4" wait_mesh="wait_empire_town" gate_rotation="0.208" max_prosperity="70" prosperity="5100" />
     </Components>
@@ -721,7 +721,7 @@
       <Area type="Waterfront" name="{=TAIKOU_sett_area_waterfront}Waterfront" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="town_tk048" name="{=TAIKOU_sett_town_tk048}韭山城" owner="Faction.clan_g" posX="1371.6" posY="326.6" culture="Culture.ikoku">
+  <Settlement id="town_tk048" name="{=TAIKOU_sett_town_tk048}韭山城" owner="Faction.clan_g" posX="1340.7" posY="335.9" culture="Culture.ikoku">
     <Components>
       <Town id="town_comp_tk048" is_castle="false" level="3" background_crop_position="0.0" background_mesh="menu_empire_4" wait_mesh="wait_empire_town" gate_rotation="0.208" max_prosperity="70" prosperity="5100" />
     </Components>
@@ -736,7 +736,7 @@
       <Area type="Waterfront" name="{=TAIKOU_sett_area_waterfront}Waterfront" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="town_tk049" name="{=TAIKOU_sett_town_tk049}春日山城" owner="Faction.clan_g" posX="1381.8" posY="596.6" culture="Culture.ikoku">
+  <Settlement id="town_tk049" name="{=TAIKOU_sett_town_tk049}春日山城" owner="Faction.clan_g" posX="1361.7" posY="593.2" culture="Culture.ikoku">
     <Components>
       <Town id="town_comp_tk049" is_castle="false" level="3" background_crop_position="0.0" background_mesh="menu_empire_4" wait_mesh="wait_empire_town" gate_rotation="0.208" max_prosperity="70" prosperity="5100" />
     </Components>
@@ -751,7 +751,7 @@
       <Area type="Waterfront" name="{=TAIKOU_sett_area_waterfront}Waterfront" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="town_tk050" name="{=TAIKOU_sett_town_tk050}新发田城" owner="Faction.clan_g" posX="1554.9" posY="671.6" culture="Culture.ikoku">
+  <Settlement id="town_tk050" name="{=TAIKOU_sett_town_tk050}新发田城" owner="Faction.clan_g" posX="1517.7" posY="660.7" culture="Culture.ikoku">
     <Components>
       <Town id="town_comp_tk050" is_castle="false" level="3" background_crop_position="0.0" background_mesh="menu_empire_4" wait_mesh="wait_empire_town" gate_rotation="0.208" max_prosperity="70" prosperity="5100" />
     </Components>
@@ -766,7 +766,7 @@
       <Area type="Waterfront" name="{=TAIKOU_sett_area_waterfront}Waterfront" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="town_tk051" name="{=TAIKOU_sett_town_tk051}本庄城" owner="Faction.clan_g" posX="1595.6" posY="716.6" culture="Culture.ikoku">
+  <Settlement id="town_tk051" name="{=TAIKOU_sett_town_tk051}本庄城" owner="Faction.clan_g" posX="1561.6" posY="696.7" culture="Culture.ikoku">
     <Components>
       <Town id="town_comp_tk051" is_castle="false" level="3" background_crop_position="0.0" background_mesh="menu_empire_4" wait_mesh="wait_empire_town" gate_rotation="0.208" max_prosperity="70" prosperity="5100" />
     </Components>
@@ -781,7 +781,7 @@
       <Area type="Waterfront" name="{=TAIKOU_sett_area_waterfront}Waterfront" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="town_tk052" name="{=TAIKOU_sett_town_tk052}橡尾城" owner="Faction.clan_g" posX="1498.9" posY="641.6" culture="Culture.ikoku">
+  <Settlement id="town_tk052" name="{=TAIKOU_sett_town_tk052}橡尾城" owner="Faction.clan_g" posX="1466.7" posY="633.6" culture="Culture.ikoku">
     <Components>
       <Town id="town_comp_tk052" is_castle="false" level="3" background_crop_position="0.0" background_mesh="menu_empire_4" wait_mesh="wait_empire_town" gate_rotation="0.208" max_prosperity="70" prosperity="5100" />
     </Components>
@@ -796,7 +796,7 @@
       <Area type="Waterfront" name="{=TAIKOU_sett_area_waterfront}Waterfront" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="town_tk053" name="{=TAIKOU_sett_town_tk053}富山城" owner="Faction.clan_g" posX="1224.0" posY="581.6" culture="Culture.ikoku">
+  <Settlement id="town_tk053" name="{=TAIKOU_sett_town_tk053}富山城" owner="Faction.clan_g" posX="1223.8" posY="580.7" culture="Culture.ikoku">
     <Components>
       <Town id="town_comp_tk053" is_castle="false" level="3" background_crop_position="0.0" background_mesh="menu_empire_4" wait_mesh="wait_empire_town" gate_rotation="0.208" max_prosperity="70" prosperity="5100" />
     </Components>
@@ -811,7 +811,7 @@
       <Area type="Waterfront" name="{=TAIKOU_sett_area_waterfront}Waterfront" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="town_tk054" name="{=TAIKOU_sett_town_tk054}鱼津城" owner="Faction.clan_g" posX="1264.7" posY="596.6" culture="Culture.ikoku">
+  <Settlement id="town_tk054" name="{=TAIKOU_sett_town_tk054}鱼津城" owner="Faction.clan_g" posX="1260.7" posY="594.3" culture="Culture.ikoku">
     <Components>
       <Town id="town_comp_tk054" is_castle="false" level="3" background_crop_position="0.0" background_mesh="menu_empire_4" wait_mesh="wait_empire_town" gate_rotation="0.208" max_prosperity="70" prosperity="5100" />
     </Components>
@@ -826,7 +826,7 @@
       <Area type="Waterfront" name="{=TAIKOU_sett_area_waterfront}Waterfront" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="town_tk055" name="{=TAIKOU_sett_town_tk055}七尾城" owner="Faction.clan_g" posX="1213.8" posY="641.6" culture="Culture.ikoku">
+  <Settlement id="town_tk055" name="{=TAIKOU_sett_town_tk055}七尾城" owner="Faction.clan_g" posX="1219.8" posY="636.0" culture="Culture.ikoku">
     <Components>
       <Town id="town_comp_tk055" is_castle="false" level="3" background_crop_position="0.0" background_mesh="menu_empire_4" wait_mesh="wait_empire_town" gate_rotation="0.208" max_prosperity="70" prosperity="5100" />
     </Components>
@@ -841,7 +841,7 @@
       <Area type="Waterfront" name="{=TAIKOU_sett_area_waterfront}Waterfront" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="town_tk056" name="{=TAIKOU_sett_town_tk056}尾山城" owner="Faction.clan_g" posX="1162.9" posY="591.6" culture="Culture.ikoku">
+  <Settlement id="town_tk056" name="{=TAIKOU_sett_town_tk056}尾山城" owner="Faction.clan_g" posX="1171.7" posY="590.5" culture="Culture.ikoku">
     <Components>
       <Town id="town_comp_tk056" is_castle="false" level="3" background_crop_position="0.0" background_mesh="menu_empire_4" wait_mesh="wait_empire_town" gate_rotation="0.208" max_prosperity="70" prosperity="5100" />
     </Components>
@@ -856,7 +856,7 @@
       <Area type="Waterfront" name="{=TAIKOU_sett_area_waterfront}Waterfront" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="town_tk057" name="{=TAIKOU_sett_town_tk057}小松城" owner="Faction.clan_g" posX="1127.2" posY="576.6" culture="Culture.ikoku">
+  <Settlement id="town_tk057" name="{=TAIKOU_sett_town_tk057}小松城" owner="Faction.clan_g" posX="1139.6" posY="577.0" culture="Culture.ikoku">
     <Components>
       <Town id="town_comp_tk057" is_castle="false" level="3" background_crop_position="0.0" background_mesh="menu_empire_4" wait_mesh="wait_empire_town" gate_rotation="0.208" max_prosperity="70" prosperity="5100" />
     </Components>
@@ -871,7 +871,7 @@
       <Area type="Waterfront" name="{=TAIKOU_sett_area_waterfront}Waterfront" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="town_tk058" name="{=TAIKOU_sett_town_tk058}大圣寺城" owner="Faction.clan_g" posX="1101.8" posY="566.6" culture="Culture.ikoku">
+  <Settlement id="town_tk058" name="{=TAIKOU_sett_town_tk058}大圣寺城" owner="Faction.clan_g" posX="1116.7" posY="568.0" culture="Culture.ikoku">
     <Components>
       <Town id="town_comp_tk058" is_castle="false" level="3" background_crop_position="0.0" background_mesh="menu_empire_4" wait_mesh="wait_empire_town" gate_rotation="0.208" max_prosperity="70" prosperity="5100" />
     </Components>
@@ -886,7 +886,7 @@
       <Area type="Waterfront" name="{=TAIKOU_sett_area_waterfront}Waterfront" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="town_tk059" name="{=TAIKOU_sett_town_tk059}一乘谷城" owner="Faction.clan_g" posX="1091.6" posY="531.6" culture="Culture.ikoku">
+  <Settlement id="town_tk059" name="{=TAIKOU_sett_town_tk059}一乘谷城" owner="Faction.clan_g" posX="1105.1" posY="535.8" culture="Culture.ikoku">
     <Components>
       <Town id="town_comp_tk059" is_castle="false" level="3" background_crop_position="0.0" background_mesh="menu_empire_4" wait_mesh="wait_empire_town" gate_rotation="0.208" max_prosperity="70" prosperity="5100" />
     </Components>
@@ -901,7 +901,7 @@
       <Area type="Waterfront" name="{=TAIKOU_sett_area_waterfront}Waterfront" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="town_tk060" name="{=TAIKOU_sett_town_tk060}北之庄城" owner="Faction.clan_g" posX="1081.4" posY="551.6" culture="Culture.ikoku">
+  <Settlement id="town_tk060" name="{=TAIKOU_sett_town_tk060}北之庄城" owner="Faction.clan_g" posX="1096.2" posY="553.8" culture="Culture.ikoku">
     <Components>
       <Town id="town_comp_tk060" is_castle="false" level="3" background_crop_position="0.0" background_mesh="menu_empire_4" wait_mesh="wait_empire_town" gate_rotation="0.208" max_prosperity="70" prosperity="5100" />
     </Components>
@@ -916,7 +916,7 @@
       <Area type="Waterfront" name="{=TAIKOU_sett_area_waterfront}Waterfront" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="town_tk061" name="{=TAIKOU_sett_town_tk061}金崎城" owner="Faction.clan_g" posX="1050.9" posY="501.6" culture="Culture.ikoku">
+  <Settlement id="town_tk061" name="{=TAIKOU_sett_town_tk061}金崎城" owner="Faction.clan_g" posX="1067.7" posY="508.3" culture="Culture.ikoku">
     <Components>
       <Town id="town_comp_tk061" is_castle="false" level="3" background_crop_position="0.0" background_mesh="menu_empire_4" wait_mesh="wait_empire_town" gate_rotation="0.208" max_prosperity="70" prosperity="5100" />
     </Components>
@@ -931,7 +931,7 @@
       <Area type="Waterfront" name="{=TAIKOU_sett_area_waterfront}Waterfront" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="town_tk062" name="{=TAIKOU_sett_town_tk062}户石城" owner="Faction.clan_g" posX="1356.3" posY="516.6" culture="Culture.ikoku">
+  <Settlement id="town_tk062" name="{=TAIKOU_sett_town_tk062}户石城" owner="Faction.clan_g" posX="1333.1" posY="519.7" culture="Culture.ikoku">
     <Components>
       <Town id="town_comp_tk062" is_castle="false" level="3" background_crop_position="0.0" background_mesh="menu_empire_4" wait_mesh="wait_empire_town" gate_rotation="0.208" max_prosperity="70" prosperity="5100" />
     </Components>
@@ -946,7 +946,7 @@
       <Area type="Waterfront" name="{=TAIKOU_sett_area_waterfront}Waterfront" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="town_tk063" name="{=TAIKOU_sett_town_tk063}海津城" owner="Faction.clan_g" posX="1351.2" posY="546.6" culture="Culture.ikoku">
+  <Settlement id="town_tk063" name="{=TAIKOU_sett_town_tk063}海津城" owner="Faction.clan_g" posX="1331.1" posY="547.4" culture="Culture.ikoku">
     <Components>
       <Town id="town_comp_tk063" is_castle="false" level="3" background_crop_position="0.0" background_mesh="menu_empire_4" wait_mesh="wait_empire_town" gate_rotation="0.208" max_prosperity="70" prosperity="5100" />
     </Components>
@@ -961,7 +961,7 @@
       <Area type="Waterfront" name="{=TAIKOU_sett_area_waterfront}Waterfront" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="town_tk064" name="{=TAIKOU_sett_town_tk064}饭山城" owner="Faction.clan_g" posX="1386.9" posY="571.6" culture="Culture.ikoku">
+  <Settlement id="town_tk064" name="{=TAIKOU_sett_town_tk064}饭山城" owner="Faction.clan_g" posX="1364.0" posY="570.1" culture="Culture.ikoku">
     <Components>
       <Town id="town_comp_tk064" is_castle="false" level="3" background_crop_position="0.0" background_mesh="menu_empire_4" wait_mesh="wait_empire_town" gate_rotation="0.208" max_prosperity="70" prosperity="5100" />
     </Components>
@@ -976,7 +976,7 @@
       <Area type="Waterfront" name="{=TAIKOU_sett_area_waterfront}Waterfront" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="town_tk065" name="{=TAIKOU_sett_town_tk065}小诸城" owner="Faction.clan_g" posX="1376.7" posY="491.6" culture="Culture.ikoku">
+  <Settlement id="town_tk065" name="{=TAIKOU_sett_town_tk065}小诸城" owner="Faction.clan_g" posX="1348.7" posY="496.6" culture="Culture.ikoku">
     <Components>
       <Town id="town_comp_tk065" is_castle="false" level="3" background_crop_position="0.0" background_mesh="menu_empire_4" wait_mesh="wait_empire_town" gate_rotation="0.208" max_prosperity="70" prosperity="5100" />
     </Components>
@@ -991,7 +991,7 @@
       <Area type="Waterfront" name="{=TAIKOU_sett_area_waterfront}Waterfront" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="town_tk066" name="{=TAIKOU_sett_town_tk066}高远城" owner="Faction.clan_g" posX="1295.2" posY="451.6" culture="Culture.ikoku">
+  <Settlement id="town_tk066" name="{=TAIKOU_sett_town_tk066}高远城" owner="Faction.clan_g" posX="1274.9" posY="460.4" culture="Culture.ikoku">
     <Components>
       <Town id="town_comp_tk066" is_castle="false" level="3" background_crop_position="0.0" background_mesh="menu_empire_4" wait_mesh="wait_empire_town" gate_rotation="0.208" max_prosperity="70" prosperity="5100" />
     </Components>
@@ -1006,7 +1006,7 @@
       <Area type="Waterfront" name="{=TAIKOU_sett_area_waterfront}Waterfront" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="town_tk067" name="{=TAIKOU_sett_town_tk067}木曾福岛城" owner="Faction.clan_g" posX="1249.4" posY="466.6" culture="Culture.ikoku">
+  <Settlement id="town_tk067" name="{=TAIKOU_sett_town_tk067}木曾福岛城" owner="Faction.clan_g" posX="1236.4" posY="474.6" culture="Culture.ikoku">
     <Components>
       <Town id="town_comp_tk067" is_castle="false" level="3" background_crop_position="0.0" background_mesh="menu_empire_4" wait_mesh="wait_empire_town" gate_rotation="0.208" max_prosperity="70" prosperity="5100" />
     </Components>
@@ -1021,7 +1021,7 @@
       <Area type="Waterfront" name="{=TAIKOU_sett_area_waterfront}Waterfront" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="town_tk068" name="{=TAIKOU_sett_town_tk068}饭田城" owner="Faction.clan_g" posX="1259.6" posY="421.6" culture="Culture.ikoku">
+  <Settlement id="town_tk068" name="{=TAIKOU_sett_town_tk068}饭田城" owner="Faction.clan_g" posX="1241.6" posY="433.1" culture="Culture.ikoku">
     <Components>
       <Town id="town_comp_tk068" is_castle="false" level="3" background_crop_position="0.0" background_mesh="menu_empire_4" wait_mesh="wait_empire_town" gate_rotation="0.208" max_prosperity="70" prosperity="5100" />
     </Components>
@@ -1036,7 +1036,7 @@
       <Area type="Waterfront" name="{=TAIKOU_sett_area_waterfront}Waterfront" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="town_tk069" name="{=TAIKOU_sett_town_tk069}踯躅崎馆" owner="Faction.clan_g" posX="1351.2" posY="421.6" culture="Culture.ikoku">
+  <Settlement id="town_tk069" name="{=TAIKOU_sett_town_tk069}踯躅崎馆" owner="Faction.clan_g" posX="1321.0" posY="432.3" culture="Culture.ikoku">
     <Components>
       <Town id="town_comp_tk069" is_castle="false" level="3" background_crop_position="0.0" background_mesh="menu_empire_4" wait_mesh="wait_empire_town" gate_rotation="0.208" max_prosperity="70" prosperity="5100" />
     </Components>
@@ -1051,7 +1051,7 @@
       <Area type="Waterfront" name="{=TAIKOU_sett_area_waterfront}Waterfront" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="town_tk070" name="{=TAIKOU_sett_town_tk070}岩殿城" owner="Faction.clan_g" posX="1402.2" posY="401.6" culture="Culture.ikoku">
+  <Settlement id="town_tk070" name="{=TAIKOU_sett_town_tk070}岩殿城" owner="Faction.clan_g" posX="1363.4" posY="413.5" culture="Culture.ikoku">
     <Components>
       <Town id="town_comp_tk070" is_castle="false" level="3" background_crop_position="0.0" background_mesh="menu_empire_4" wait_mesh="wait_empire_town" gate_rotation="0.208" max_prosperity="70" prosperity="5100" />
     </Components>
@@ -1066,7 +1066,7 @@
       <Area type="Waterfront" name="{=TAIKOU_sett_area_waterfront}Waterfront" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="town_tk071" name="{=TAIKOU_sett_town_tk071}下山城" owner="Faction.clan_g" posX="1320.7" posY="376.6" culture="Culture.ikoku">
+  <Settlement id="town_tk071" name="{=TAIKOU_sett_town_tk071}下山城" owner="Faction.clan_g" posX="1290.8" posY="391.2" culture="Culture.ikoku">
     <Components>
       <Town id="town_comp_tk071" is_castle="false" level="3" background_crop_position="0.0" background_mesh="menu_empire_4" wait_mesh="wait_empire_town" gate_rotation="0.208" max_prosperity="70" prosperity="5100" />
     </Components>
@@ -1081,7 +1081,7 @@
       <Area type="Waterfront" name="{=TAIKOU_sett_area_waterfront}Waterfront" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="town_tk072" name="{=TAIKOU_sett_town_tk072}骏府城" owner="Faction.clan_g" posX="1295.2" posY="346.6" culture="Culture.ikoku">
+  <Settlement id="town_tk072" name="{=TAIKOU_sett_town_tk072}骏府城" owner="Faction.clan_g" posX="1266.4" posY="363.8" culture="Culture.ikoku">
     <Components>
       <Town id="town_comp_tk072" is_castle="false" level="3" background_crop_position="0.0" background_mesh="menu_empire_4" wait_mesh="wait_empire_town" gate_rotation="0.208" max_prosperity="70" prosperity="5100" />
     </Components>
@@ -1096,7 +1096,7 @@
       <Area type="Waterfront" name="{=TAIKOU_sett_area_waterfront}Waterfront" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="town_tk073" name="{=TAIKOU_sett_town_tk073}兴国寺城" owner="Faction.clan_g" posX="1361.4" posY="346.6" culture="Culture.ikoku">
+  <Settlement id="town_tk073" name="{=TAIKOU_sett_town_tk073}兴国寺城" owner="Faction.clan_g" posX="1316.7" posY="370.4" culture="Culture.ikoku">
     <Components>
       <Town id="town_comp_tk073" is_castle="false" level="3" background_crop_position="0.0" background_mesh="menu_empire_4" wait_mesh="wait_empire_town" gate_rotation="0.208" max_prosperity="70" prosperity="5100" />
     </Components>
@@ -1111,7 +1111,7 @@
       <Area type="Waterfront" name="{=TAIKOU_sett_area_waterfront}Waterfront" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="town_tk074" name="{=TAIKOU_sett_town_tk074_1582}滨松城" owner="Faction.clan_g" posX="1208.7" posY="311.6" culture="Culture.ikoku">
+  <Settlement id="town_tk074" name="{=TAIKOU_sett_town_tk074_1582}滨松城" owner="Faction.clan_g" posX="1206.2" posY="350.4" culture="Culture.ikoku">
     <Components>
       <Town id="town_comp_tk074" is_castle="false" level="3" background_crop_position="0.0" background_mesh="menu_empire_4" wait_mesh="wait_empire_town" gate_rotation="0.208" max_prosperity="70" prosperity="5100" />
     </Components>
@@ -1126,7 +1126,7 @@
       <Area type="Waterfront" name="{=TAIKOU_sett_area_waterfront}Waterfront" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="town_tk075" name="{=TAIKOU_sett_town_tk075}二股城" owner="Faction.clan_g" posX="1224.0" posY="346.6" culture="Culture.ikoku">
+  <Settlement id="town_tk075" name="{=TAIKOU_sett_town_tk075}二股城" owner="Faction.clan_g" posX="1199.7" posY="369.4" culture="Culture.ikoku">
     <Components>
       <Town id="town_comp_tk075" is_castle="false" level="3" background_crop_position="0.0" background_mesh="menu_empire_4" wait_mesh="wait_empire_town" gate_rotation="0.208" max_prosperity="70" prosperity="5100" />
     </Components>
@@ -1141,7 +1141,7 @@
       <Area type="Waterfront" name="{=TAIKOU_sett_area_waterfront}Waterfront" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="town_tk076" name="{=TAIKOU_sett_town_tk076}高天神城" owner="Faction.clan_g" posX="1249.4" posY="306.6" culture="Culture.ikoku">
+  <Settlement id="town_tk076" name="{=TAIKOU_sett_town_tk076}高天神城" owner="Faction.clan_g" posX="1236.7" posY="342.4" culture="Culture.ikoku">
     <Components>
       <Town id="town_comp_tk076" is_castle="false" level="3" background_crop_position="0.0" background_mesh="menu_empire_4" wait_mesh="wait_empire_town" gate_rotation="0.208" max_prosperity="70" prosperity="5100" />
     </Components>
@@ -1156,7 +1156,7 @@
       <Area type="Waterfront" name="{=TAIKOU_sett_area_waterfront}Waterfront" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="town_tk077" name="{=TAIKOU_sett_town_tk077}冈崎城" owner="Faction.clan_g" posX="1142.5" posY="371.6" culture="Culture.ikoku">
+  <Settlement id="town_tk077" name="{=TAIKOU_sett_town_tk077}冈崎城" owner="Faction.clan_g" posX="1136.1" posY="388.1" culture="Culture.ikoku">
     <Components>
       <Town id="town_comp_tk077" is_castle="false" level="3" background_crop_position="0.0" background_mesh="menu_empire_4" wait_mesh="wait_empire_town" gate_rotation="0.208" max_prosperity="70" prosperity="5100" />
     </Components>
@@ -1171,7 +1171,7 @@
       <Area type="Waterfront" name="{=TAIKOU_sett_area_waterfront}Waterfront" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="town_tk078" name="{=TAIKOU_sett_town_tk078}长篠城" owner="Faction.clan_g" posX="1188.3" posY="371.6" culture="Culture.ikoku">
+  <Settlement id="town_tk078" name="{=TAIKOU_sett_town_tk078}长篠城" owner="Faction.clan_g" posX="1175.8" posY="387.7" culture="Culture.ikoku">
     <Components>
       <Town id="town_comp_tk078" is_castle="false" level="3" background_crop_position="0.0" background_mesh="menu_empire_4" wait_mesh="wait_empire_town" gate_rotation="0.208" max_prosperity="70" prosperity="5100" />
     </Components>
@@ -1186,7 +1186,7 @@
       <Area type="Waterfront" name="{=TAIKOU_sett_area_waterfront}Waterfront" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="town_tk079" name="{=TAIKOU_sett_town_tk079}吉田城" owner="Faction.clan_g" posX="1168.0" posY="346.6" culture="Culture.ikoku">
+  <Settlement id="town_tk079" name="{=TAIKOU_sett_town_tk079}吉田城" owner="Faction.clan_g" posX="1167.7" posY="360.4" culture="Culture.ikoku">
     <Components>
       <Town id="town_comp_tk079" is_castle="false" level="3" background_crop_position="0.0" background_mesh="menu_empire_4" wait_mesh="wait_empire_town" gate_rotation="0.208" max_prosperity="70" prosperity="5100" />
     </Components>
@@ -1201,7 +1201,7 @@
       <Area type="Waterfront" name="{=TAIKOU_sett_area_waterfront}Waterfront" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="town_tk080" name="{=TAIKOU_sett_town_tk080}清洲城" owner="Faction.clan_g" posX="1101.8" posY="416.6" culture="Culture.ikoku">
+  <Settlement id="town_tk080" name="{=TAIKOU_sett_town_tk080}清洲城" owner="Faction.clan_g" posX="1104.5" posY="429.9" culture="Culture.ikoku">
     <Components>
       <Town id="town_comp_tk080" is_castle="false" level="3" background_crop_position="0.0" background_mesh="menu_empire_4" wait_mesh="wait_empire_town" gate_rotation="0.208" max_prosperity="70" prosperity="5100" />
     </Components>
@@ -1216,7 +1216,7 @@
       <Area type="Waterfront" name="{=TAIKOU_sett_area_waterfront}Waterfront" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="town_tk081" name="{=TAIKOU_sett_town_tk081}鸣海城" owner="Faction.clan_g" posX="1117.1" posY="386.6" culture="Culture.ikoku">
+  <Settlement id="town_tk081" name="{=TAIKOU_sett_town_tk081}鸣海城" owner="Faction.clan_g" posX="1123.7" posY="403.8" culture="Culture.ikoku">
     <Components>
       <Town id="town_comp_tk081" is_castle="false" level="3" background_crop_position="0.0" background_mesh="menu_empire_4" wait_mesh="wait_empire_town" gate_rotation="0.208" max_prosperity="70" prosperity="5100" />
     </Components>
@@ -1231,7 +1231,7 @@
       <Area type="Waterfront" name="{=TAIKOU_sett_area_waterfront}Waterfront" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="town_tk082" name="{=TAIKOU_sett_town_tk082}小牧山城" owner="Faction.clan_g" posX="1122.2" posY="436.6" culture="Culture.ikoku">
+  <Settlement id="town_tk082" name="{=TAIKOU_sett_town_tk082}小牧山城" owner="Faction.clan_g" posX="1123.8" posY="448.1" culture="Culture.ikoku">
     <Components>
       <Town id="town_comp_tk082" is_castle="false" level="3" background_crop_position="0.0" background_mesh="menu_empire_4" wait_mesh="wait_empire_town" gate_rotation="0.208" max_prosperity="70" prosperity="5100" />
     </Components>
@@ -1246,7 +1246,7 @@
       <Area type="Waterfront" name="{=TAIKOU_sett_area_waterfront}Waterfront" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="town_tk083" name="{=TAIKOU_sett_town_tk083}那古野城" owner="Faction.clan_g" posX="1117.1" posY="411.6" culture="Culture.ikoku">
+  <Settlement id="town_tk083" name="{=TAIKOU_sett_town_tk083}那古野城" owner="Faction.clan_g" posX="1117.3" posY="425.2" culture="Culture.ikoku">
     <Components>
       <Town id="town_comp_tk083" is_castle="false" level="3" background_crop_position="0.0" background_mesh="menu_empire_4" wait_mesh="wait_empire_town" gate_rotation="0.208" max_prosperity="70" prosperity="5100" />
     </Components>
@@ -1261,7 +1261,7 @@
       <Area type="Waterfront" name="{=TAIKOU_sett_area_waterfront}Waterfront" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="town_tk084" name="{=TAIKOU_sett_town_tk084_1582}岐阜城" owner="Faction.clan_g" posX="1122.2" posY="466.6" culture="Culture.ikoku">
+  <Settlement id="town_tk084" name="{=TAIKOU_sett_town_tk084_1582}岐阜城" owner="Faction.clan_g" posX="1126.2" posY="475.7" culture="Culture.ikoku">
     <Components>
       <Town id="town_comp_tk084" is_castle="false" level="3" background_crop_position="0.0" background_mesh="menu_empire_4" wait_mesh="wait_empire_town" gate_rotation="0.208" max_prosperity="70" prosperity="5100" />
     </Components>
@@ -1276,7 +1276,7 @@
       <Area type="Waterfront" name="{=TAIKOU_sett_area_waterfront}Waterfront" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="town_tk085" name="{=TAIKOU_sett_town_tk085}墨股城" owner="Faction.clan_g" posX="1106.9" posY="451.6" culture="Culture.ikoku">
+  <Settlement id="town_tk085" name="{=TAIKOU_sett_town_tk085}墨股城" owner="Faction.clan_g" posX="1111.8" posY="462.1" culture="Culture.ikoku">
     <Components>
       <Town id="town_comp_tk085" is_castle="false" level="3" background_crop_position="0.0" background_mesh="menu_empire_4" wait_mesh="wait_empire_town" gate_rotation="0.208" max_prosperity="70" prosperity="5100" />
     </Components>
@@ -1291,7 +1291,7 @@
       <Area type="Waterfront" name="{=TAIKOU_sett_area_waterfront}Waterfront" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="town_tk086" name="{=TAIKOU_sett_town_tk086}大垣城" owner="Faction.clan_g" posX="1086.5" posY="441.6" culture="Culture.ikoku">
+  <Settlement id="town_tk086" name="{=TAIKOU_sett_town_tk086}大垣城" owner="Faction.clan_g" posX="1093.3" posY="453.0" culture="Culture.ikoku">
     <Components>
       <Town id="town_comp_tk086" is_castle="false" level="3" background_crop_position="0.0" background_mesh="menu_empire_4" wait_mesh="wait_empire_town" gate_rotation="0.208" max_prosperity="70" prosperity="5100" />
     </Components>
@@ -1306,7 +1306,7 @@
       <Area type="Waterfront" name="{=TAIKOU_sett_area_waterfront}Waterfront" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="town_tk087" name="{=TAIKOU_sett_town_tk087}岩村城" owner="Faction.clan_g" posX="1193.4" posY="431.6" culture="Culture.ikoku">
+  <Settlement id="town_tk087" name="{=TAIKOU_sett_town_tk087}岩村城" owner="Faction.clan_g" posX="1185.1" posY="442.9" culture="Culture.ikoku">
     <Components>
       <Town id="town_comp_tk087" is_castle="false" level="3" background_crop_position="0.0" background_mesh="menu_empire_4" wait_mesh="wait_empire_town" gate_rotation="0.208" max_prosperity="70" prosperity="5100" />
     </Components>
@@ -1321,7 +1321,7 @@
       <Area type="Waterfront" name="{=TAIKOU_sett_area_waterfront}Waterfront" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="town_tk088" name="{=TAIKOU_sett_town_tk088}曾根城" owner="Faction.clan_g" posX="1091.6" posY="486.6" culture="Culture.ikoku">
+  <Settlement id="town_tk088" name="{=TAIKOU_sett_town_tk088}曾根城" owner="Faction.clan_g" posX="1101.4" posY="494.4" culture="Culture.ikoku">
     <Components>
       <Town id="town_comp_tk088" is_castle="false" level="3" background_crop_position="0.0" background_mesh="menu_empire_4" wait_mesh="wait_empire_town" gate_rotation="0.208" max_prosperity="70" prosperity="5100" />
     </Components>
@@ -1336,7 +1336,7 @@
       <Area type="Waterfront" name="{=TAIKOU_sett_area_waterfront}Waterfront" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="town_tk089" name="{=TAIKOU_sett_town_tk089}松仓城" owner="Faction.clan_g" posX="1193.4" posY="531.6" culture="Culture.ikoku">
+  <Settlement id="town_tk089" name="{=TAIKOU_sett_town_tk089}松仓城" owner="Faction.clan_g" posX="1193.2" posY="535.0" culture="Culture.ikoku">
     <Components>
       <Town id="town_comp_tk089" is_castle="false" level="3" background_crop_position="0.0" background_mesh="menu_empire_4" wait_mesh="wait_empire_town" gate_rotation="0.208" max_prosperity="70" prosperity="5100" />
     </Components>
@@ -1351,7 +1351,7 @@
       <Area type="Waterfront" name="{=TAIKOU_sett_area_waterfront}Waterfront" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="town_tk090" name="{=TAIKOU_sett_town_tk090}安浓津城" owner="Faction.clan_g" posX="1045.8" posY="356.6" culture="Culture.ikoku">
+  <Settlement id="town_tk090" name="{=TAIKOU_sett_town_tk090}安浓津城" owner="Faction.clan_g" posX="1051.1" posY="375.1" culture="Culture.ikoku">
     <Components>
       <Town id="town_comp_tk090" is_castle="false" level="3" background_crop_position="0.0" background_mesh="menu_empire_4" wait_mesh="wait_empire_town" gate_rotation="0.208" max_prosperity="70" prosperity="5100" />
     </Components>
@@ -1366,7 +1366,7 @@
       <Area type="Waterfront" name="{=TAIKOU_sett_area_waterfront}Waterfront" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="town_tk091" name="{=TAIKOU_sett_town_tk091}大河内城" owner="Faction.clan_g" posX="1020.3" posY="336.6" culture="Culture.ikoku">
+  <Settlement id="town_tk091" name="{=TAIKOU_sett_town_tk091}大河内城" owner="Faction.clan_g" posX="1027.5" posY="357.0" culture="Culture.ikoku">
     <Components>
       <Town id="town_comp_tk091" is_castle="false" level="3" background_crop_position="0.0" background_mesh="menu_empire_4" wait_mesh="wait_empire_town" gate_rotation="0.208" max_prosperity="70" prosperity="5100" />
     </Components>
@@ -1381,7 +1381,7 @@
       <Area type="Waterfront" name="{=TAIKOU_sett_area_waterfront}Waterfront" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="town_tk092" name="{=TAIKOU_sett_town_tk092}长岛城" owner="Faction.clan_g" posX="1081.4" posY="396.6" culture="Culture.ikoku">
+  <Settlement id="town_tk092" name="{=TAIKOU_sett_town_tk092}长岛城" owner="Faction.clan_g" posX="1085.3" posY="411.7" culture="Culture.ikoku">
     <Components>
       <Town id="town_comp_tk092" is_castle="false" level="3" background_crop_position="0.0" background_mesh="menu_empire_4" wait_mesh="wait_empire_town" gate_rotation="0.208" max_prosperity="70" prosperity="5100" />
     </Components>
@@ -1396,7 +1396,7 @@
       <Area type="Waterfront" name="{=TAIKOU_sett_area_waterfront}Waterfront" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="town_tk093" name="{=TAIKOU_sett_town_tk093}鸟羽城" owner="Faction.clan_g" posX="1061.1" posY="321.6" culture="Culture.ikoku">
+  <Settlement id="town_tk093" name="{=TAIKOU_sett_town_tk093}鸟羽城" owner="Faction.clan_g" posX="1061.7" posY="344.9" culture="Culture.ikoku">
     <Components>
       <Town id="town_comp_tk093" is_castle="false" level="3" background_crop_position="0.0" background_mesh="menu_empire_4" wait_mesh="wait_empire_town" gate_rotation="0.208" max_prosperity="70" prosperity="5100" />
     </Components>
@@ -1411,7 +1411,7 @@
       <Area type="Waterfront" name="{=TAIKOU_sett_area_waterfront}Waterfront" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="town_tk094" name="{=TAIKOU_sett_town_tk094}小谷城" owner="Faction.clan_g" posX="1066.2" posY="476.6" culture="Culture.ikoku">
+  <Settlement id="town_tk094" name="{=TAIKOU_sett_town_tk094}小谷城" owner="Faction.clan_g" posX="1078.5" posY="485.4" culture="Culture.ikoku">
     <Components>
       <Town id="town_comp_tk094" is_castle="false" level="3" background_crop_position="0.0" background_mesh="menu_empire_4" wait_mesh="wait_empire_town" gate_rotation="0.208" max_prosperity="70" prosperity="5100" />
     </Components>
@@ -1426,7 +1426,7 @@
       <Area type="Waterfront" name="{=TAIKOU_sett_area_waterfront}Waterfront" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="town_tk095" name="{=TAIKOU_sett_town_tk095}佐和山城" owner="Faction.clan_g" posX="1045.8" posY="441.6" culture="Culture.ikoku">
+  <Settlement id="town_tk095" name="{=TAIKOU_sett_town_tk095}佐和山城" owner="Faction.clan_g" posX="1058.1" posY="453.4" culture="Culture.ikoku">
     <Components>
       <Town id="town_comp_tk095" is_castle="false" level="3" background_crop_position="0.0" background_mesh="menu_empire_4" wait_mesh="wait_empire_town" gate_rotation="0.208" max_prosperity="70" prosperity="5100" />
     </Components>
@@ -1441,7 +1441,7 @@
       <Area type="Waterfront" name="{=TAIKOU_sett_area_waterfront}Waterfront" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="town_tk096" name="{=TAIKOU_sett_town_tk096_1582}长滨城" owner="Faction.clan_g" posX="1066.2" posY="461.6" culture="Culture.ikoku">
+  <Settlement id="town_tk096" name="{=TAIKOU_sett_town_tk096_1582}长滨城" owner="Faction.clan_g" posX="1077.3" posY="471.6" culture="Culture.ikoku">
     <Components>
       <Town id="town_comp_tk096" is_castle="false" level="3" background_crop_position="0.0" background_mesh="menu_empire_4" wait_mesh="wait_empire_town" gate_rotation="0.208" max_prosperity="70" prosperity="5100" />
     </Components>
@@ -1456,7 +1456,7 @@
       <Area type="Waterfront" name="{=TAIKOU_sett_area_waterfront}Waterfront" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="town_tk097" name="{=TAIKOU_sett_town_tk097_1582}安土城" owner="Faction.clan_g" posX="1025.4" posY="416.6" culture="Culture.ikoku">
+  <Settlement id="town_tk097" name="{=TAIKOU_sett_town_tk097_1582}安土城" owner="Faction.clan_g" posX="1038.4" posY="430.6" culture="Culture.ikoku">
     <Components>
       <Town id="town_comp_tk097" is_castle="false" level="3" background_crop_position="0.0" background_mesh="menu_empire_4" wait_mesh="wait_empire_town" gate_rotation="0.208" max_prosperity="70" prosperity="5100" />
     </Components>
@@ -1471,7 +1471,7 @@
       <Area type="Waterfront" name="{=TAIKOU_sett_area_waterfront}Waterfront" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="town_tk098" name="{=TAIKOU_sett_town_tk098}阪本城" owner="Faction.clan_g" posX="984.7" posY="421.6" culture="Culture.ikoku">
+  <Settlement id="town_tk098" name="{=TAIKOU_sett_town_tk098}阪本城" owner="Faction.clan_g" posX="1003.5" posY="435.5" culture="Culture.ikoku">
     <Components>
       <Town id="town_comp_tk098" is_castle="false" level="3" background_crop_position="0.0" background_mesh="menu_empire_4" wait_mesh="wait_empire_town" gate_rotation="0.208" max_prosperity="70" prosperity="5100" />
     </Components>
@@ -1486,7 +1486,7 @@
       <Area type="Waterfront" name="{=TAIKOU_sett_area_waterfront}Waterfront" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="town_tk099" name="{=TAIKOU_sett_town_tk099}日野城" owner="Faction.clan_g" posX="1040.7" posY="406.6" culture="Culture.ikoku">
+  <Settlement id="town_tk099" name="{=TAIKOU_sett_town_tk099}日野城" owner="Faction.clan_g" posX="1050.8" posY="421.2" culture="Culture.ikoku">
     <Components>
       <Town id="town_comp_tk099" is_castle="false" level="3" background_crop_position="0.0" background_mesh="menu_empire_4" wait_mesh="wait_empire_town" gate_rotation="0.208" max_prosperity="70" prosperity="5100" />
     </Components>
@@ -1501,7 +1501,7 @@
       <Area type="Waterfront" name="{=TAIKOU_sett_area_waterfront}Waterfront" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="town_tk100" name="{=TAIKOU_sett_town_tk100}多闻山城" owner="Faction.clan_g" posX="974.5" posY="396.6" culture="Culture.ikoku">
+  <Settlement id="town_tk100" name="{=TAIKOU_sett_town_tk100}多闻山城" owner="Faction.clan_g" posX="992.7" posY="412.6" culture="Culture.ikoku">
     <Components>
       <Town id="town_comp_tk100" is_castle="false" level="3" background_crop_position="0.0" background_mesh="menu_empire_4" wait_mesh="wait_empire_town" gate_rotation="0.208" max_prosperity="70" prosperity="5100" />
     </Components>
@@ -1516,7 +1516,7 @@
       <Area type="Waterfront" name="{=TAIKOU_sett_area_waterfront}Waterfront" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="town_tk101" name="{=TAIKOU_sett_town_tk101}信贵山城" owner="Faction.clan_g" posX="954.2" posY="381.6" culture="Culture.ikoku">
+  <Settlement id="town_tk101" name="{=TAIKOU_sett_town_tk101}信贵山城" owner="Faction.clan_g" posX="973.8" posY="398.9" culture="Culture.ikoku">
     <Components>
       <Town id="town_comp_tk101" is_castle="false" level="3" background_crop_position="0.0" background_mesh="menu_empire_4" wait_mesh="wait_empire_town" gate_rotation="0.208" max_prosperity="70" prosperity="5100" />
     </Components>
@@ -1531,7 +1531,7 @@
       <Area type="Waterfront" name="{=TAIKOU_sett_area_waterfront}Waterfront" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="town_tk102" name="{=TAIKOU_sett_town_tk102}大和郡山城" owner="Faction.clan_g" posX="974.5" posY="366.6" culture="Culture.ikoku">
+  <Settlement id="town_tk102" name="{=TAIKOU_sett_town_tk102}大和郡山城" owner="Faction.clan_g" posX="990.2" posY="385.0" culture="Culture.ikoku">
     <Components>
       <Town id="town_comp_tk102" is_castle="false" level="3" background_crop_position="0.0" background_mesh="menu_empire_4" wait_mesh="wait_empire_town" gate_rotation="0.208" max_prosperity="70" prosperity="5100" />
     </Components>
@@ -1546,7 +1546,7 @@
       <Area type="Waterfront" name="{=TAIKOU_sett_area_waterfront}Waterfront" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="town_tk103" name="{=TAIKOU_sett_town_tk103}伊贺上野城" owner="Faction.clan_g" posX="1005.1" posY="381.6" culture="Culture.ikoku">
+  <Settlement id="town_tk103" name="{=TAIKOU_sett_town_tk103}伊贺上野城" owner="Faction.clan_g" posX="1017.9" posY="398.5" culture="Culture.ikoku">
     <Components>
       <Town id="town_comp_tk103" is_castle="false" level="3" background_crop_position="0.0" background_mesh="menu_empire_4" wait_mesh="wait_empire_town" gate_rotation="0.208" max_prosperity="70" prosperity="5100" />
     </Components>
@@ -1561,7 +1561,7 @@
       <Area type="Waterfront" name="{=TAIKOU_sett_area_waterfront}Waterfront" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="town_tk104" name="{=TAIKOU_sett_town_tk104}胜龙寺城" owner="Faction.clan_g" posX="959.2" posY="406.6" culture="Culture.ikoku">
+  <Settlement id="town_tk104" name="{=TAIKOU_sett_town_tk104}胜龙寺城" owner="Faction.clan_g" posX="980.3" posY="421.9" culture="Culture.ikoku">
     <Components>
       <Town id="town_comp_tk104" is_castle="false" level="3" background_crop_position="0.0" background_mesh="menu_empire_4" wait_mesh="wait_empire_town" gate_rotation="0.208" max_prosperity="70" prosperity="5100" />
     </Components>
@@ -1576,7 +1576,7 @@
       <Area type="Waterfront" name="{=TAIKOU_sett_area_waterfront}Waterfront" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="town_tk105" name="{=TAIKOU_sett_town_tk105}二条城" owner="Faction.clan_g" posX="969.4" posY="436.6" culture="Culture.ikoku">
+  <Settlement id="town_tk105" name="{=TAIKOU_sett_town_tk105}二条城" owner="Faction.clan_g" posX="991.5" posY="449.4" culture="Culture.ikoku">
     <Components>
       <Town id="town_comp_tk105" is_castle="false" level="3" background_crop_position="0.0" background_mesh="menu_empire_4" wait_mesh="wait_empire_town" gate_rotation="0.208" max_prosperity="70" prosperity="5100" />
     </Components>
@@ -1591,7 +1591,7 @@
       <Area type="Waterfront" name="{=TAIKOU_sett_area_waterfront}Waterfront" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="town_tk106" name="{=TAIKOU_sett_town_tk106}丹波龟山城" owner="Faction.clan_g" posX="959.2" posY="451.6" culture="Culture.ikoku">
+  <Settlement id="town_tk106" name="{=TAIKOU_sett_town_tk106}丹波龟山城" owner="Faction.clan_g" posX="983.9" posY="463.3" culture="Culture.ikoku">
     <Components>
       <Town id="town_comp_tk106" is_castle="false" level="3" background_crop_position="0.0" background_mesh="menu_empire_4" wait_mesh="wait_empire_town" gate_rotation="0.208" max_prosperity="70" prosperity="5100" />
     </Components>
@@ -1606,7 +1606,7 @@
       <Area type="Waterfront" name="{=TAIKOU_sett_area_waterfront}Waterfront" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="town_tk107" name="{=TAIKOU_sett_town_tk107}八上城" owner="Faction.clan_g" posX="928.7" posY="461.6" culture="Culture.ikoku">
+  <Settlement id="town_tk107" name="{=TAIKOU_sett_town_tk107}八上城" owner="Faction.clan_g" posX="958.3" posY="472.8" culture="Culture.ikoku">
     <Components>
       <Town id="town_comp_tk107" is_castle="false" level="3" background_crop_position="0.0" background_mesh="menu_empire_4" wait_mesh="wait_empire_town" gate_rotation="0.208" max_prosperity="70" prosperity="5100" />
     </Components>
@@ -1621,7 +1621,7 @@
       <Area type="Waterfront" name="{=TAIKOU_sett_area_waterfront}Waterfront" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="town_tk108" name="{=TAIKOU_sett_town_tk108}福知山城" owner="Faction.clan_g" posX="913.4" posY="476.6" culture="Culture.ikoku">
+  <Settlement id="town_tk108" name="{=TAIKOU_sett_town_tk108}福知山城" owner="Faction.clan_g" posX="946.3" posY="486.7" culture="Culture.ikoku">
     <Components>
       <Town id="town_comp_tk108" is_castle="false" level="3" background_crop_position="0.0" background_mesh="menu_empire_4" wait_mesh="wait_empire_town" gate_rotation="0.208" max_prosperity="70" prosperity="5100" />
     </Components>
@@ -1636,7 +1636,7 @@
       <Area type="Waterfront" name="{=TAIKOU_sett_area_waterfront}Waterfront" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="town_tk109" name="{=TAIKOU_sett_town_tk109}宫津城" owner="Faction.clan_g" posX="918.5" posY="501.6" culture="Culture.ikoku">
+  <Settlement id="town_tk109" name="{=TAIKOU_sett_town_tk109}宫津城" owner="Faction.clan_g" posX="952.7" posY="509.7" culture="Culture.ikoku">
     <Components>
       <Town id="town_comp_tk109" is_castle="false" level="3" background_crop_position="0.0" background_mesh="menu_empire_4" wait_mesh="wait_empire_town" gate_rotation="0.208" max_prosperity="70" prosperity="5100" />
     </Components>
@@ -1651,7 +1651,7 @@
       <Area type="Waterfront" name="{=TAIKOU_sett_area_waterfront}Waterfront" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="town_tk110" name="{=TAIKOU_sett_town_tk110}岸和田城" owner="Faction.clan_g" posX="882.9" posY="361.6" culture="Culture.ikoku">
+  <Settlement id="town_tk110" name="{=TAIKOU_sett_town_tk110}岸和田城" owner="Faction.clan_g" posX="910.5" posY="381.2" culture="Culture.ikoku">
     <Components>
       <Town id="town_comp_tk110" is_castle="false" level="3" background_crop_position="0.0" background_mesh="menu_empire_4" wait_mesh="wait_empire_town" gate_rotation="0.208" max_prosperity="70" prosperity="5100" />
     </Components>
@@ -1666,7 +1666,7 @@
       <Area type="Waterfront" name="{=TAIKOU_sett_area_waterfront}Waterfront" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="town_tk111" name="{=TAIKOU_sett_town_tk111}饭盛城" owner="Faction.clan_g" posX="944.0" posY="401.6" culture="Culture.ikoku">
+  <Settlement id="town_tk111" name="{=TAIKOU_sett_town_tk111}饭盛城" owner="Faction.clan_g" posX="966.6" posY="417.4" culture="Culture.ikoku">
     <Components>
       <Town id="town_comp_tk111" is_castle="false" level="3" background_crop_position="0.0" background_mesh="menu_empire_4" wait_mesh="wait_empire_town" gate_rotation="0.208" max_prosperity="70" prosperity="5100" />
     </Components>
@@ -1681,7 +1681,7 @@
       <Area type="Waterfront" name="{=TAIKOU_sett_area_waterfront}Waterfront" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="town_tk112" name="{=TAIKOU_sett_town_tk112}高屋城" owner="Faction.clan_g" posX="923.6" posY="361.6" culture="Culture.ikoku">
+  <Settlement id="town_tk112" name="{=TAIKOU_sett_town_tk112}高屋城" owner="Faction.clan_g" posX="945.7" posY="380.8" culture="Culture.ikoku">
     <Components>
       <Town id="town_comp_tk112" is_castle="false" level="3" background_crop_position="0.0" background_mesh="menu_empire_4" wait_mesh="wait_empire_town" gate_rotation="0.208" max_prosperity="70" prosperity="5100" />
     </Components>
@@ -1696,7 +1696,7 @@
       <Area type="Waterfront" name="{=TAIKOU_sett_area_waterfront}Waterfront" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="town_tk113" name="{=TAIKOU_sett_town_tk113}石山本愿寺" owner="Faction.clan_g" posX="913.4" posY="401.6" culture="Culture.ikoku">
+  <Settlement id="town_tk113" name="{=TAIKOU_sett_town_tk113}石山本愿寺" owner="Faction.clan_g" posX="948.3" posY="426.8" culture="Culture.ikoku">
     <Components>
       <Town id="town_comp_tk113" is_castle="false" level="3" background_crop_position="0.0" background_mesh="menu_empire_4" wait_mesh="wait_empire_town" gate_rotation="0.208" max_prosperity="70" prosperity="5100" />
     </Components>
@@ -1711,7 +1711,7 @@
       <Area type="Waterfront" name="{=TAIKOU_sett_area_waterfront}Waterfront" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="town_tk114" name="{=TAIKOU_sett_town_tk114}芥川城" owner="Faction.clan_g" posX="949.1" posY="421.6" culture="Culture.ikoku">
+  <Settlement id="town_tk114" name="{=TAIKOU_sett_town_tk114}芥川城" owner="Faction.clan_g" posX="972.7" posY="435.8" culture="Culture.ikoku">
     <Components>
       <Town id="town_comp_tk114" is_castle="false" level="3" background_crop_position="0.0" background_mesh="menu_empire_4" wait_mesh="wait_empire_town" gate_rotation="0.208" max_prosperity="70" prosperity="5100" />
     </Components>
@@ -1726,7 +1726,7 @@
       <Area type="Waterfront" name="{=TAIKOU_sett_area_waterfront}Waterfront" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="town_tk115" name="{=TAIKOU_sett_town_tk115}有冈城" owner="Faction.clan_g" posX="913.4" posY="416.6" culture="Culture.ikoku">
+  <Settlement id="town_tk115" name="{=TAIKOU_sett_town_tk115}有冈城" owner="Faction.clan_g" posX="941.4" posY="431.5" culture="Culture.ikoku">
     <Components>
       <Town id="town_comp_tk115" is_castle="false" level="3" background_crop_position="0.0" background_mesh="menu_empire_4" wait_mesh="wait_empire_town" gate_rotation="0.208" max_prosperity="70" prosperity="5100" />
     </Components>
@@ -1741,7 +1741,7 @@
       <Area type="Waterfront" name="{=TAIKOU_sett_area_waterfront}Waterfront" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="town_tk116" name="{=TAIKOU_sett_town_tk116}杂贺城" owner="Faction.clan_g" posX="857.4" posY="336.6" culture="Culture.ikoku">
+  <Settlement id="town_tk116" name="{=TAIKOU_sett_town_tk116}杂贺城" owner="Faction.clan_g" posX="893.8" posY="351.4" culture="Culture.ikoku">
     <Components>
       <Town id="town_comp_tk116" is_castle="false" level="3" background_crop_position="0.0" background_mesh="menu_empire_4" wait_mesh="wait_empire_town" gate_rotation="0.208" max_prosperity="70" prosperity="5100" />
     </Components>
@@ -1756,7 +1756,7 @@
       <Area type="Waterfront" name="{=TAIKOU_sett_area_waterfront}Waterfront" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="town_tk117" name="{=TAIKOU_sett_town_tk117}新宫城" owner="Faction.clan_g" posX="944.0" posY="266.6" culture="Culture.ikoku">
+  <Settlement id="town_tk117" name="{=TAIKOU_sett_town_tk117}新宫城" owner="Faction.clan_g" posX="955.6" posY="293.2" culture="Culture.ikoku">
     <Components>
       <Town id="town_comp_tk117" is_castle="false" level="3" background_crop_position="0.0" background_mesh="menu_empire_4" wait_mesh="wait_empire_town" gate_rotation="0.208" max_prosperity="70" prosperity="5100" />
     </Components>
@@ -1771,7 +1771,7 @@
       <Area type="Waterfront" name="{=TAIKOU_sett_area_waterfront}Waterfront" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="town_tk118" name="{=TAIKOU_sett_town_tk118}鸟取城" owner="Faction.clan_g" posX="801.4" posY="526.6" culture="Culture.ikoku">
+  <Settlement id="town_tk118" name="{=TAIKOU_sett_town_tk118}鸟取城" owner="Faction.clan_g" posX="853.3" posY="533.7" culture="Culture.ikoku">
     <Components>
       <Town id="town_comp_tk118" is_castle="false" level="3" background_crop_position="0.0" background_mesh="menu_empire_4" wait_mesh="wait_empire_town" gate_rotation="0.208" max_prosperity="70" prosperity="5100" />
     </Components>
@@ -1786,7 +1786,7 @@
       <Area type="Waterfront" name="{=TAIKOU_sett_area_waterfront}Waterfront" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="town_tk119" name="{=TAIKOU_sett_town_tk119}出石城" owner="Faction.clan_g" posX="888.0" posY="511.6" culture="Culture.ikoku">
+  <Settlement id="town_tk119" name="{=TAIKOU_sett_town_tk119}出石城" owner="Faction.clan_g" posX="927.1" posY="519.2" culture="Culture.ikoku">
     <Components>
       <Town id="town_comp_tk119" is_castle="false" level="3" background_crop_position="0.0" background_mesh="menu_empire_4" wait_mesh="wait_empire_town" gate_rotation="0.208" max_prosperity="70" prosperity="5100" />
     </Components>
@@ -1801,7 +1801,7 @@
       <Area type="Waterfront" name="{=TAIKOU_sett_area_waterfront}Waterfront" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="town_tk120" name="{=TAIKOU_sett_town_tk120}羽衣石城" owner="Faction.clan_g" posX="770.9" posY="531.6" culture="Culture.ikoku">
+  <Settlement id="town_tk120" name="{=TAIKOU_sett_town_tk120}羽衣石城" owner="Faction.clan_g" posX="827.3" posY="538.6" culture="Culture.ikoku">
     <Components>
       <Town id="town_comp_tk120" is_castle="false" level="3" background_crop_position="0.0" background_mesh="menu_empire_4" wait_mesh="wait_empire_town" gate_rotation="0.208" max_prosperity="70" prosperity="5100" />
     </Components>
@@ -1816,7 +1816,7 @@
       <Area type="Waterfront" name="{=TAIKOU_sett_area_waterfront}Waterfront" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="town_tk121" name="{=TAIKOU_sett_town_tk121}月山富田城" owner="Faction.clan_g" posX="674.2" posY="551.6" culture="Culture.ikoku">
+  <Settlement id="town_tk121" name="{=TAIKOU_sett_town_tk121}月山富田城" owner="Faction.clan_g" posX="745.2" posY="557.8" culture="Culture.ikoku">
     <Components>
       <Town id="town_comp_tk121" is_castle="false" level="3" background_crop_position="0.0" background_mesh="menu_empire_4" wait_mesh="wait_empire_town" gate_rotation="0.208" max_prosperity="70" prosperity="5100" />
     </Components>
@@ -1831,7 +1831,7 @@
       <Area type="Waterfront" name="{=TAIKOU_sett_area_waterfront}Waterfront" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="town_tk122" name="{=TAIKOU_sett_town_tk122}三刀屋城" owner="Faction.clan_g" posX="628.3" posY="541.6" culture="Culture.ikoku">
+  <Settlement id="town_tk122" name="{=TAIKOU_sett_town_tk122}三刀屋城" owner="Faction.clan_g" posX="704.7" posY="549.0" culture="Culture.ikoku">
     <Components>
       <Town id="town_comp_tk122" is_castle="false" level="3" background_crop_position="0.0" background_mesh="menu_empire_4" wait_mesh="wait_empire_town" gate_rotation="0.208" max_prosperity="70" prosperity="5100" />
     </Components>
@@ -1846,7 +1846,7 @@
       <Area type="Waterfront" name="{=TAIKOU_sett_area_waterfront}Waterfront" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="town_tk123" name="{=TAIKOU_sett_town_tk123}白鹿城" owner="Faction.clan_g" posX="684.3" posY="576.6" culture="Culture.ikoku">
+  <Settlement id="town_tk123" name="{=TAIKOU_sett_town_tk123}白鹿城" owner="Faction.clan_g" posX="762.3" posY="568.3" culture="Culture.ikoku">
     <Components>
       <Town id="town_comp_tk123" is_castle="false" level="3" background_crop_position="0.0" background_mesh="menu_empire_4" wait_mesh="wait_empire_town" gate_rotation="0.208" max_prosperity="70" prosperity="5100" />
     </Components>
@@ -1861,7 +1861,7 @@
       <Area type="Waterfront" name="{=TAIKOU_sett_area_waterfront}Waterfront" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="town_tk124" name="{=TAIKOU_sett_town_tk124}益田城" owner="Faction.clan_g" posX="460.3" posY="511.6" culture="Culture.ikoku">
+  <Settlement id="town_tk124" name="{=TAIKOU_sett_town_tk124}益田城" owner="Faction.clan_g" posX="556.7" posY="522.9" culture="Culture.ikoku">
     <Components>
       <Town id="town_comp_tk124" is_castle="false" level="3" background_crop_position="0.0" background_mesh="menu_empire_4" wait_mesh="wait_empire_town" gate_rotation="0.208" max_prosperity="70" prosperity="5100" />
     </Components>
@@ -1876,7 +1876,7 @@
       <Area type="Waterfront" name="{=TAIKOU_sett_area_waterfront}Waterfront" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="town_tk125" name="{=TAIKOU_sett_town_tk125}山吹城" owner="Faction.clan_g" posX="577.4" posY="541.6" culture="Culture.ikoku">
+  <Settlement id="town_tk125" name="{=TAIKOU_sett_town_tk125}山吹城" owner="Faction.clan_g" posX="660.6" posY="549.5" culture="Culture.ikoku">
     <Components>
       <Town id="town_comp_tk125" is_castle="false" level="3" background_crop_position="0.0" background_mesh="menu_empire_4" wait_mesh="wait_empire_town" gate_rotation="0.208" max_prosperity="70" prosperity="5100" />
     </Components>
@@ -1891,7 +1891,7 @@
       <Area type="Waterfront" name="{=TAIKOU_sett_area_waterfront}Waterfront" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="town_tk126" name="{=TAIKOU_sett_town_tk126}置盐城" owner="Faction.clan_g" posX="837.1" posY="466.6" culture="Culture.ikoku">
+  <Settlement id="town_tk126" name="{=TAIKOU_sett_town_tk126}置盐城" owner="Faction.clan_g" posX="879.3" posY="478.2" culture="Culture.ikoku">
     <Components>
       <Town id="town_comp_tk126" is_castle="false" level="3" background_crop_position="0.0" background_mesh="menu_empire_4" wait_mesh="wait_empire_town" gate_rotation="0.208" max_prosperity="70" prosperity="5100" />
     </Components>
@@ -1906,7 +1906,7 @@
       <Area type="Waterfront" name="{=TAIKOU_sett_area_waterfront}Waterfront" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="town_tk127" name="{=TAIKOU_sett_town_tk127}御着城" owner="Faction.clan_g" posX="837.1" posY="446.6" culture="Culture.ikoku">
+  <Settlement id="town_tk127" name="{=TAIKOU_sett_town_tk127}御着城" owner="Faction.clan_g" posX="877.7" posY="459.8" culture="Culture.ikoku">
     <Components>
       <Town id="town_comp_tk127" is_castle="false" level="3" background_crop_position="0.0" background_mesh="menu_empire_4" wait_mesh="wait_empire_town" gate_rotation="0.208" max_prosperity="70" prosperity="5100" />
     </Components>
@@ -1921,7 +1921,7 @@
       <Area type="Waterfront" name="{=TAIKOU_sett_area_waterfront}Waterfront" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="town_tk128" name="{=TAIKOU_sett_town_tk128}三木城" owner="Faction.clan_g" posX="867.6" posY="426.6" culture="Culture.ikoku">
+  <Settlement id="town_tk128" name="{=TAIKOU_sett_town_tk128}三木城" owner="Faction.clan_g" posX="902.5" posY="441.1" culture="Culture.ikoku">
     <Components>
       <Town id="town_comp_tk128" is_castle="false" level="3" background_crop_position="0.0" background_mesh="menu_empire_4" wait_mesh="wait_empire_town" gate_rotation="0.208" max_prosperity="70" prosperity="5100" />
     </Components>
@@ -1936,7 +1936,7 @@
       <Area type="Waterfront" name="{=TAIKOU_sett_area_waterfront}Waterfront" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="town_tk129" name="{=TAIKOU_sett_town_tk129}上月城" owner="Faction.clan_g" posX="791.2" posY="476.6" culture="Culture.ikoku">
+  <Settlement id="town_tk129" name="{=TAIKOU_sett_town_tk129}上月城" owner="Faction.clan_g" posX="840.5" posY="487.8" culture="Culture.ikoku">
     <Components>
       <Town id="town_comp_tk129" is_castle="false" level="3" background_crop_position="0.0" background_mesh="menu_empire_4" wait_mesh="wait_empire_town" gate_rotation="0.208" max_prosperity="70" prosperity="5100" />
     </Components>
@@ -1951,7 +1951,7 @@
       <Area type="Waterfront" name="{=TAIKOU_sett_area_waterfront}Waterfront" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="town_tk130" name="{=TAIKOU_sett_town_tk130}三星城" owner="Faction.clan_g" posX="740.3" posY="496.6" culture="Culture.ikoku">
+  <Settlement id="town_tk130" name="{=TAIKOU_sett_town_tk130}三星城" owner="Faction.clan_g" posX="798.0" posY="506.6" culture="Culture.ikoku">
     <Components>
       <Town id="town_comp_tk130" is_castle="false" level="3" background_crop_position="0.0" background_mesh="menu_empire_4" wait_mesh="wait_empire_town" gate_rotation="0.208" max_prosperity="70" prosperity="5100" />
     </Components>
@@ -1966,7 +1966,7 @@
       <Area type="Waterfront" name="{=TAIKOU_sett_area_waterfront}Waterfront" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="town_tk131" name="{=TAIKOU_sett_town_tk131}冈山城" owner="Faction.clan_g" posX="735.2" posY="441.6" culture="Culture.ikoku">
+  <Settlement id="town_tk131" name="{=TAIKOU_sett_town_tk131}冈山城" owner="Faction.clan_g" posX="787.8" posY="457.8" culture="Culture.ikoku">
     <Components>
       <Town id="town_comp_tk131" is_castle="false" level="3" background_crop_position="0.0" background_mesh="menu_empire_4" wait_mesh="wait_empire_town" gate_rotation="0.208" max_prosperity="70" prosperity="5100" />
     </Components>
@@ -1981,7 +1981,7 @@
       <Area type="Waterfront" name="{=TAIKOU_sett_area_waterfront}Waterfront" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="town_tk132" name="{=TAIKOU_sett_town_tk132}砥石山城" owner="Faction.clan_g" posX="770.9" posY="441.6" culture="Culture.ikoku">
+  <Settlement id="town_tk132" name="{=TAIKOU_sett_town_tk132}砥石山城" owner="Faction.clan_g" posX="816.8" posY="462.3" culture="Culture.ikoku">
     <Components>
       <Town id="town_comp_tk132" is_castle="false" level="3" background_crop_position="0.0" background_mesh="menu_empire_4" wait_mesh="wait_empire_town" gate_rotation="0.208" max_prosperity="70" prosperity="5100" />
     </Components>
@@ -1996,7 +1996,7 @@
       <Area type="Waterfront" name="{=TAIKOU_sett_area_waterfront}Waterfront" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="town_tk133" name="{=TAIKOU_sett_town_tk133}天神山城" owner="Faction.clan_g" posX="760.7" posY="466.6" culture="Culture.ikoku">
+  <Settlement id="town_tk133" name="{=TAIKOU_sett_town_tk133}天神山城" owner="Faction.clan_g" posX="813.2" posY="478.9" culture="Culture.ikoku">
     <Components>
       <Town id="town_comp_tk133" is_castle="false" level="3" background_crop_position="0.0" background_mesh="menu_empire_4" wait_mesh="wait_empire_town" gate_rotation="0.208" max_prosperity="70" prosperity="5100" />
     </Components>
@@ -2011,7 +2011,7 @@
       <Area type="Waterfront" name="{=TAIKOU_sett_area_waterfront}Waterfront" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="town_tk134" name="{=TAIKOU_sett_town_tk134}备中松山城" owner="Faction.clan_g" posX="674.2" posY="491.6" culture="Culture.ikoku">
+  <Settlement id="town_tk134" name="{=TAIKOU_sett_town_tk134}备中松山城" owner="Faction.clan_g" posX="740.3" posY="502.6" culture="Culture.ikoku">
     <Components>
       <Town id="town_comp_tk134" is_castle="false" level="3" background_crop_position="0.0" background_mesh="menu_empire_4" wait_mesh="wait_empire_town" gate_rotation="0.208" max_prosperity="70" prosperity="5100" />
     </Components>
@@ -2026,7 +2026,7 @@
       <Area type="Waterfront" name="{=TAIKOU_sett_area_waterfront}Waterfront" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="town_tk135" name="{=TAIKOU_sett_town_tk135}备中高松城" owner="Faction.clan_g" posX="709.8" posY="461.6" culture="Culture.ikoku">
+  <Settlement id="town_tk135" name="{=TAIKOU_sett_town_tk135}备中高松城" owner="Faction.clan_g" posX="768.7" posY="474.7" culture="Culture.ikoku">
     <Components>
       <Town id="town_comp_tk135" is_castle="false" level="3" background_crop_position="0.0" background_mesh="menu_empire_4" wait_mesh="wait_empire_town" gate_rotation="0.208" max_prosperity="70" prosperity="5100" />
     </Components>
@@ -2041,7 +2041,7 @@
       <Area type="Waterfront" name="{=TAIKOU_sett_area_waterfront}Waterfront" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="town_tk136" name="{=TAIKOU_sett_town_tk136}三原城" owner="Faction.clan_g" posX="613.1" posY="441.6" culture="Culture.ikoku">
+  <Settlement id="town_tk136" name="{=TAIKOU_sett_town_tk136}三原城" owner="Faction.clan_g" posX="681.8" posY="458.8" culture="Culture.ikoku">
     <Components>
       <Town id="town_comp_tk136" is_castle="false" level="3" background_crop_position="0.0" background_mesh="menu_empire_4" wait_mesh="wait_empire_town" gate_rotation="0.208" max_prosperity="70" prosperity="5100" />
     </Components>
@@ -2056,7 +2056,7 @@
       <Area type="Waterfront" name="{=TAIKOU_sett_area_waterfront}Waterfront" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="town_tk137" name="{=TAIKOU_sett_town_tk137}甲山城" owner="Faction.clan_g" posX="618.2" posY="471.6" culture="Culture.ikoku">
+  <Settlement id="town_tk137" name="{=TAIKOU_sett_town_tk137}甲山城" owner="Faction.clan_g" posX="690.2" posY="484.7" culture="Culture.ikoku">
     <Components>
       <Town id="town_comp_tk137" is_castle="false" level="3" background_crop_position="0.0" background_mesh="menu_empire_4" wait_mesh="wait_empire_town" gate_rotation="0.208" max_prosperity="70" prosperity="5100" />
     </Components>
@@ -2071,7 +2071,7 @@
       <Area type="Waterfront" name="{=TAIKOU_sett_area_waterfront}Waterfront" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="town_tk138" name="{=TAIKOU_sett_town_tk138}吉田郡山城" owner="Faction.clan_g" posX="577.4" posY="481.6" culture="Culture.ikoku">
+  <Settlement id="town_tk138" name="{=TAIKOU_sett_town_tk138}吉田郡山城" owner="Faction.clan_g" posX="655.7" posY="494.2" culture="Culture.ikoku">
     <Components>
       <Town id="town_comp_tk138" is_castle="false" level="3" background_crop_position="0.0" background_mesh="menu_empire_4" wait_mesh="wait_empire_town" gate_rotation="0.208" max_prosperity="70" prosperity="5100" />
     </Components>
@@ -2086,7 +2086,7 @@
       <Area type="Waterfront" name="{=TAIKOU_sett_area_waterfront}Waterfront" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="town_tk139" name="{=TAIKOU_sett_town_tk139}佐东银山城" owner="Faction.clan_g" posX="546.9" posY="471.6" culture="Culture.ikoku">
+  <Settlement id="town_tk139" name="{=TAIKOU_sett_town_tk139}佐东银山城" owner="Faction.clan_g" posX="628.4" posY="485.3" culture="Culture.ikoku">
     <Components>
       <Town id="town_comp_tk139" is_castle="false" level="3" background_crop_position="0.0" background_mesh="menu_empire_4" wait_mesh="wait_empire_town" gate_rotation="0.208" max_prosperity="70" prosperity="5100" />
     </Components>
@@ -2101,7 +2101,7 @@
       <Area type="Waterfront" name="{=TAIKOU_sett_area_waterfront}Waterfront" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="town_tk140" name="{=TAIKOU_sett_town_tk140}樱尾城" owner="Faction.clan_g" posX="490.9" posY="456.6" culture="Culture.ikoku">
+  <Settlement id="town_tk140" name="{=TAIKOU_sett_town_tk140}樱尾城" owner="Faction.clan_g" posX="575.9" posY="474.8" culture="Culture.ikoku">
     <Components>
       <Town id="town_comp_tk140" is_castle="false" level="3" background_crop_position="0.0" background_mesh="menu_empire_4" wait_mesh="wait_empire_town" gate_rotation="0.208" max_prosperity="70" prosperity="5100" />
     </Components>
@@ -2116,7 +2116,7 @@
       <Area type="Waterfront" name="{=TAIKOU_sett_area_waterfront}Waterfront" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="town_tk141" name="{=TAIKOU_sett_town_tk141}山口城" owner="Faction.clan_g" posX="399.2" posY="461.6" culture="Culture.ikoku">
+  <Settlement id="town_tk141" name="{=TAIKOU_sett_town_tk141}山口城" owner="Faction.clan_g" posX="499.8" posY="477.4" culture="Culture.ikoku">
     <Components>
       <Town id="town_comp_tk141" is_castle="false" level="3" background_crop_position="0.0" background_mesh="menu_empire_4" wait_mesh="wait_empire_town" gate_rotation="0.208" max_prosperity="70" prosperity="5100" />
     </Components>
@@ -2131,7 +2131,7 @@
       <Area type="Waterfront" name="{=TAIKOU_sett_area_waterfront}Waterfront" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="town_tk142" name="{=TAIKOU_sett_town_tk142}且山城" owner="Faction.clan_g" posX="338.2" posY="466.6" culture="Culture.ikoku">
+  <Settlement id="town_tk142" name="{=TAIKOU_sett_town_tk142}且山城" owner="Faction.clan_g" posX="447.3" posY="482.5" culture="Culture.ikoku">
     <Components>
       <Town id="town_comp_tk142" is_castle="false" level="3" background_crop_position="0.0" background_mesh="menu_empire_4" wait_mesh="wait_empire_town" gate_rotation="0.208" max_prosperity="70" prosperity="5100" />
     </Components>
@@ -2146,7 +2146,7 @@
       <Area type="Waterfront" name="{=TAIKOU_sett_area_waterfront}Waterfront" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="town_tk143" name="{=TAIKOU_sett_town_tk143}十河城" owner="Faction.clan_g" posX="735.2" posY="386.6" culture="Culture.ikoku">
+  <Settlement id="town_tk143" name="{=TAIKOU_sett_town_tk143}十河城" owner="Faction.clan_g" posX="784.6" posY="405.4" culture="Culture.ikoku">
     <Components>
       <Town id="town_comp_tk143" is_castle="false" level="3" background_crop_position="0.0" background_mesh="menu_empire_4" wait_mesh="wait_empire_town" gate_rotation="0.208" max_prosperity="70" prosperity="5100" />
     </Components>
@@ -2161,7 +2161,7 @@
       <Area type="Waterfront" name="{=TAIKOU_sett_area_waterfront}Waterfront" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="town_tk144" name="{=TAIKOU_sett_town_tk144}天雾城" owner="Faction.clan_g" posX="679.2" posY="396.6" culture="Culture.ikoku">
+  <Settlement id="town_tk144" name="{=TAIKOU_sett_town_tk144}天雾城" owner="Faction.clan_g" posX="737.0" posY="415.1" culture="Culture.ikoku">
     <Components>
       <Town id="town_comp_tk144" is_castle="false" level="3" background_crop_position="0.0" background_mesh="menu_empire_4" wait_mesh="wait_empire_town" gate_rotation="0.208" max_prosperity="70" prosperity="5100" />
     </Components>
@@ -2176,7 +2176,7 @@
       <Area type="Waterfront" name="{=TAIKOU_sett_area_waterfront}Waterfront" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="town_tk145" name="{=TAIKOU_sett_town_tk145}汤筑城" owner="Faction.clan_g" posX="536.7" posY="381.6" culture="Culture.ikoku">
+  <Settlement id="town_tk145" name="{=TAIKOU_sett_town_tk145}汤筑城" owner="Faction.clan_g" posX="612.3" posY="402.5" culture="Culture.ikoku">
     <Components>
       <Town id="town_comp_tk145" is_castle="false" level="3" background_crop_position="0.0" background_mesh="menu_empire_4" wait_mesh="wait_empire_town" gate_rotation="0.208" max_prosperity="70" prosperity="5100" />
     </Components>
@@ -2191,7 +2191,7 @@
       <Area type="Waterfront" name="{=TAIKOU_sett_area_waterfront}Waterfront" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="town_tk146" name="{=TAIKOU_sett_town_tk146}川之江城" owner="Faction.clan_g" posX="648.7" posY="371.6" culture="Culture.ikoku">
+  <Settlement id="town_tk146" name="{=TAIKOU_sett_town_tk146}川之江城" owner="Faction.clan_g" posX="708.5" posY="392.4" culture="Culture.ikoku">
     <Components>
       <Town id="town_comp_tk146" is_castle="false" level="3" background_crop_position="0.0" background_mesh="menu_empire_4" wait_mesh="wait_empire_town" gate_rotation="0.208" max_prosperity="70" prosperity="5100" />
     </Components>
@@ -2206,7 +2206,7 @@
       <Area type="Waterfront" name="{=TAIKOU_sett_area_waterfront}Waterfront" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="town_tk147" name="{=TAIKOU_sett_town_tk147}宇和岛城" owner="Faction.clan_g" posX="485.8" posY="311.6" culture="Culture.ikoku">
+  <Settlement id="town_tk147" name="{=TAIKOU_sett_town_tk147}宇和岛城" owner="Faction.clan_g" posX="562.5" posY="338.5" culture="Culture.ikoku">
     <Components>
       <Town id="town_comp_tk147" is_castle="false" level="3" background_crop_position="0.0" background_mesh="menu_empire_4" wait_mesh="wait_empire_town" gate_rotation="0.208" max_prosperity="70" prosperity="5100" />
     </Components>
@@ -2221,7 +2221,7 @@
       <Area type="Waterfront" name="{=TAIKOU_sett_area_waterfront}Waterfront" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="town_tk148" name="{=TAIKOU_sett_town_tk148}抚养城" owner="Faction.clan_g" posX="786.2" posY="366.6" culture="Culture.ikoku">
+  <Settlement id="town_tk148" name="{=TAIKOU_sett_town_tk148}抚养城" owner="Faction.clan_g" posX="826.8" posY="387.3" culture="Culture.ikoku">
     <Components>
       <Town id="town_comp_tk148" is_castle="false" level="3" background_crop_position="0.0" background_mesh="menu_empire_4" wait_mesh="wait_empire_town" gate_rotation="0.208" max_prosperity="70" prosperity="5100" />
     </Components>
@@ -2236,7 +2236,7 @@
       <Area type="Waterfront" name="{=TAIKOU_sett_area_waterfront}Waterfront" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="town_tk149" name="{=TAIKOU_sett_town_tk149}胜瑞城" owner="Faction.clan_g" posX="760.7" posY="346.6" culture="Culture.ikoku">
+  <Settlement id="town_tk149" name="{=TAIKOU_sett_town_tk149}胜瑞城" owner="Faction.clan_g" posX="803.4" posY="368.4" culture="Culture.ikoku">
     <Components>
       <Town id="town_comp_tk149" is_castle="false" level="3" background_crop_position="0.0" background_mesh="menu_empire_4" wait_mesh="wait_empire_town" gate_rotation="0.208" max_prosperity="70" prosperity="5100" />
     </Components>
@@ -2251,7 +2251,7 @@
       <Area type="Waterfront" name="{=TAIKOU_sett_area_waterfront}Waterfront" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="town_tk150" name="{=TAIKOU_sett_town_tk150}洲本城" owner="Faction.clan_g" posX="832.0" posY="366.6" culture="Culture.ikoku">
+  <Settlement id="town_tk150" name="{=TAIKOU_sett_town_tk150}洲本城" owner="Faction.clan_g" posX="856.3" posY="393.3" culture="Culture.ikoku">
     <Components>
       <Town id="town_comp_tk150" is_castle="false" level="3" background_crop_position="0.0" background_mesh="menu_empire_4" wait_mesh="wait_empire_town" gate_rotation="0.208" max_prosperity="70" prosperity="5100" />
     </Components>
@@ -2266,7 +2266,7 @@
       <Area type="Waterfront" name="{=TAIKOU_sett_area_waterfront}Waterfront" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="town_tk151" name="{=TAIKOU_sett_town_tk151}白地城" owner="Faction.clan_g" posX="664.0" posY="351.6" culture="Culture.ikoku">
+  <Settlement id="town_tk151" name="{=TAIKOU_sett_town_tk151}白地城" owner="Faction.clan_g" posX="720.1" posY="373.8" culture="Culture.ikoku">
     <Components>
       <Town id="town_comp_tk151" is_castle="false" level="3" background_crop_position="0.0" background_mesh="menu_empire_4" wait_mesh="wait_empire_town" gate_rotation="0.208" max_prosperity="70" prosperity="5100" />
     </Components>
@@ -2281,7 +2281,7 @@
       <Area type="Waterfront" name="{=TAIKOU_sett_area_waterfront}Waterfront" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="town_tk152" name="{=TAIKOU_sett_town_tk152}冈丰城" owner="Faction.clan_g" posX="628.3" posY="326.6" culture="Culture.ikoku">
+  <Settlement id="town_tk152" name="{=TAIKOU_sett_town_tk152}冈丰城" owner="Faction.clan_g" posX="687.2" posY="351.1" culture="Culture.ikoku">
     <Components>
       <Town id="town_comp_tk152" is_castle="false" level="3" background_crop_position="0.0" background_mesh="menu_empire_4" wait_mesh="wait_empire_town" gate_rotation="0.208" max_prosperity="70" prosperity="5100" />
     </Components>
@@ -2296,7 +2296,7 @@
       <Area type="Waterfront" name="{=TAIKOU_sett_area_waterfront}Waterfront" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="town_tk153" name="{=TAIKOU_sett_town_tk153}安芸城" owner="Faction.clan_g" posX="669.1" posY="301.6" culture="Culture.ikoku">
+  <Settlement id="town_tk153" name="{=TAIKOU_sett_town_tk153}安芸城" owner="Faction.clan_g" posX="726.8" posY="333.9" culture="Culture.ikoku">
     <Components>
       <Town id="town_comp_tk153" is_castle="false" level="3" background_crop_position="0.0" background_mesh="menu_empire_4" wait_mesh="wait_empire_town" gate_rotation="0.208" max_prosperity="70" prosperity="5100" />
     </Components>
@@ -2311,7 +2311,7 @@
       <Area type="Waterfront" name="{=TAIKOU_sett_area_waterfront}Waterfront" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="town_tk154" name="{=TAIKOU_sett_town_tk154}中村城" owner="Faction.clan_g" posX="526.5" posY="266.6" culture="Culture.ikoku">
+  <Settlement id="town_tk154" name="{=TAIKOU_sett_town_tk154}中村城" owner="Faction.clan_g" posX="588.9" posY="302.4" culture="Culture.ikoku">
     <Components>
       <Town id="town_comp_tk154" is_castle="false" level="3" background_crop_position="0.0" background_mesh="menu_empire_4" wait_mesh="wait_empire_town" gate_rotation="0.208" max_prosperity="70" prosperity="5100" />
     </Components>
@@ -2326,7 +2326,7 @@
       <Area type="Waterfront" name="{=TAIKOU_sett_area_waterfront}Waterfront" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="town_tk155" name="{=TAIKOU_sett_town_tk155}金石城" owner="Faction.clan_g" posX="139.6" posY="551.6" culture="Culture.ikoku">
+  <Settlement id="town_tk155" name="{=TAIKOU_sett_town_tk155}金石城" owner="Faction.clan_g" posX="357.9" posY="470.3" culture="Culture.ikoku">
     <Components>
       <Town id="town_comp_tk155" is_castle="false" level="3" background_crop_position="0.0" background_mesh="menu_empire_4" wait_mesh="wait_empire_town" gate_rotation="0.208" max_prosperity="70" prosperity="5100" />
     </Components>
@@ -2341,7 +2341,7 @@
       <Area type="Waterfront" name="{=TAIKOU_sett_area_waterfront}Waterfront" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="town_tk156" name="{=TAIKOU_sett_town_tk156}立花山城" owner="Faction.clan_g" posX="251.6" posY="441.6" culture="Culture.ikoku">
+  <Settlement id="town_tk156" name="{=TAIKOU_sett_town_tk156}立花山城" owner="Faction.clan_g" posX="370.3" posY="460.2" culture="Culture.ikoku">
     <Components>
       <Town id="town_comp_tk156" is_castle="false" level="3" background_crop_position="0.0" background_mesh="menu_empire_4" wait_mesh="wait_empire_town" gate_rotation="0.208" max_prosperity="70" prosperity="5100" />
     </Components>
@@ -2356,7 +2356,7 @@
       <Area type="Waterfront" name="{=TAIKOU_sett_area_waterfront}Waterfront" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="town_tk157" name="{=TAIKOU_sett_town_tk157}岩屋城" owner="Faction.clan_g" posX="251.6" posY="416.6" culture="Culture.ikoku">
+  <Settlement id="town_tk157" name="{=TAIKOU_sett_town_tk157}岩屋城" owner="Faction.clan_g" posX="368.2" posY="437.2" culture="Culture.ikoku">
     <Components>
       <Town id="town_comp_tk157" is_castle="false" level="3" background_crop_position="0.0" background_mesh="menu_empire_4" wait_mesh="wait_empire_town" gate_rotation="0.208" max_prosperity="70" prosperity="5100" />
     </Components>
@@ -2371,7 +2371,7 @@
       <Area type="Waterfront" name="{=TAIKOU_sett_area_waterfront}Waterfront" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="town_tk158" name="{=TAIKOU_sett_town_tk158}柳川城" owner="Faction.clan_g" posX="216.0" posY="376.6" culture="Culture.ikoku">
+  <Settlement id="town_tk158" name="{=TAIKOU_sett_town_tk158}柳川城" owner="Faction.clan_g" posX="334.1" posY="400.7" culture="Culture.ikoku">
     <Components>
       <Town id="town_comp_tk158" is_castle="false" level="3" background_crop_position="0.0" background_mesh="menu_empire_4" wait_mesh="wait_empire_town" gate_rotation="0.208" max_prosperity="70" prosperity="5100" />
     </Components>
@@ -2386,7 +2386,7 @@
       <Area type="Waterfront" name="{=TAIKOU_sett_area_waterfront}Waterfront" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="town_tk159" name="{=TAIKOU_sett_town_tk159}久留米城" owner="Faction.clan_g" posX="241.4" posY="391.6" culture="Culture.ikoku">
+  <Settlement id="town_tk159" name="{=TAIKOU_sett_town_tk159}久留米城" owner="Faction.clan_g" posX="357.4" posY="414.3" culture="Culture.ikoku">
     <Components>
       <Town id="town_comp_tk159" is_castle="false" level="3" background_crop_position="0.0" background_mesh="menu_empire_4" wait_mesh="wait_empire_town" gate_rotation="0.208" max_prosperity="70" prosperity="5100" />
     </Components>
@@ -2401,7 +2401,7 @@
       <Area type="Waterfront" name="{=TAIKOU_sett_area_waterfront}Waterfront" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="town_tk160" name="{=TAIKOU_sett_town_tk160}佐嘉城" owner="Faction.clan_g" posX="200.7" posY="391.6" culture="Culture.ikoku">
+  <Settlement id="town_tk160" name="{=TAIKOU_sett_town_tk160}佐嘉城" owner="Faction.clan_g" posX="322.1" posY="414.6" culture="Culture.ikoku">
     <Components>
       <Town id="town_comp_tk160" is_castle="false" level="3" background_crop_position="0.0" background_mesh="menu_empire_4" wait_mesh="wait_empire_town" gate_rotation="0.208" max_prosperity="70" prosperity="5100" />
     </Components>
@@ -2416,7 +2416,7 @@
       <Area type="Waterfront" name="{=TAIKOU_sett_area_waterfront}Waterfront" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="town_tk161" name="{=TAIKOU_sett_town_tk161}大村城" owner="Faction.clan_g" posX="149.8" posY="356.6" culture="Culture.ikoku">
+  <Settlement id="town_tk161" name="{=TAIKOU_sett_town_tk161}大村城" owner="Faction.clan_g" posX="272.9" posY="385.8" culture="Culture.ikoku">
     <Components>
       <Town id="town_comp_tk161" is_castle="false" level="3" background_crop_position="0.0" background_mesh="menu_empire_4" wait_mesh="wait_empire_town" gate_rotation="0.208" max_prosperity="70" prosperity="5100" />
     </Components>
@@ -2431,7 +2431,7 @@
       <Area type="Waterfront" name="{=TAIKOU_sett_area_waterfront}Waterfront" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="town_tk162" name="{=TAIKOU_sett_town_tk162}平户城" owner="Faction.clan_g" posX="124.3" posY="406.6" culture="Culture.ikoku">
+  <Settlement id="town_tk162" name="{=TAIKOU_sett_town_tk162}平户城" owner="Faction.clan_g" posX="260.4" posY="425.8" culture="Culture.ikoku">
     <Components>
       <Town id="town_comp_tk162" is_castle="false" level="3" background_crop_position="0.0" background_mesh="menu_empire_4" wait_mesh="wait_empire_town" gate_rotation="0.208" max_prosperity="70" prosperity="5100" />
     </Components>
@@ -2446,7 +2446,7 @@
       <Area type="Waterfront" name="{=TAIKOU_sett_area_waterfront}Waterfront" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="town_tk163" name="{=TAIKOU_sett_town_tk163}日野江城" owner="Faction.clan_g" posX="165.1" posY="321.6" culture="Culture.ikoku">
+  <Settlement id="town_tk163" name="{=TAIKOU_sett_town_tk163}日野江城" owner="Faction.clan_g" posX="282.4" posY="354.9" culture="Culture.ikoku">
     <Components>
       <Town id="town_comp_tk163" is_castle="false" level="3" background_crop_position="0.0" background_mesh="menu_empire_4" wait_mesh="wait_empire_town" gate_rotation="0.208" max_prosperity="70" prosperity="5100" />
     </Components>
@@ -2461,7 +2461,7 @@
       <Area type="Waterfront" name="{=TAIKOU_sett_area_waterfront}Waterfront" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="town_tk164" name="{=TAIKOU_sett_town_tk164}岩尾城" owner="Faction.clan_g" posX="287.2" posY="296.6" culture="Culture.ikoku">
+  <Settlement id="town_tk164" name="{=TAIKOU_sett_town_tk164}岩尾城" owner="Faction.clan_g" posX="389.3" posY="326.4" culture="Culture.ikoku">
     <Components>
       <Town id="town_comp_tk164" is_castle="false" level="3" background_crop_position="0.0" background_mesh="menu_empire_4" wait_mesh="wait_empire_town" gate_rotation="0.208" max_prosperity="70" prosperity="5100" />
     </Components>
@@ -2476,7 +2476,7 @@
       <Area type="Waterfront" name="{=TAIKOU_sett_area_waterfront}Waterfront" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="town_tk165" name="{=TAIKOU_sett_town_tk165}隈本城" owner="Faction.clan_g" posX="241.4" posY="316.6" culture="Culture.ikoku">
+  <Settlement id="town_tk165" name="{=TAIKOU_sett_town_tk165}隈本城" owner="Faction.clan_g" posX="351.3" posY="345.3" culture="Culture.ikoku">
     <Components>
       <Town id="town_comp_tk165" is_castle="false" level="3" background_crop_position="0.0" background_mesh="menu_empire_4" wait_mesh="wait_empire_town" gate_rotation="0.208" max_prosperity="70" prosperity="5100" />
     </Components>
@@ -2491,7 +2491,7 @@
       <Area type="Waterfront" name="{=TAIKOU_sett_area_waterfront}Waterfront" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="town_tk166" name="{=TAIKOU_sett_town_tk166}人吉城" owner="Faction.clan_g" posX="216.0" posY="246.6" culture="Culture.ikoku">
+  <Settlement id="town_tk166" name="{=TAIKOU_sett_town_tk166}人吉城" owner="Faction.clan_g" posX="323.5" posY="281.0" culture="Culture.ikoku">
     <Components>
       <Town id="town_comp_tk166" is_castle="false" level="3" background_crop_position="0.0" background_mesh="menu_empire_4" wait_mesh="wait_empire_town" gate_rotation="0.208" max_prosperity="70" prosperity="5100" />
     </Components>
@@ -2506,7 +2506,7 @@
       <Area type="Waterfront" name="{=TAIKOU_sett_area_waterfront}Waterfront" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="town_tk167" name="{=TAIKOU_sett_town_tk167}八代城" owner="Faction.clan_g" posX="231.2" posY="286.6" culture="Culture.ikoku">
+  <Settlement id="town_tk167" name="{=TAIKOU_sett_town_tk167}八代城" owner="Faction.clan_g" posX="340.0" posY="317.7" culture="Culture.ikoku">
     <Components>
       <Town id="town_comp_tk167" is_castle="false" level="3" background_crop_position="0.0" background_mesh="menu_empire_4" wait_mesh="wait_empire_town" gate_rotation="0.208" max_prosperity="70" prosperity="5100" />
     </Components>
@@ -2521,7 +2521,7 @@
       <Area type="Waterfront" name="{=TAIKOU_sett_area_waterfront}Waterfront" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="town_tk168" name="{=TAIKOU_sett_town_tk168}城井谷城" owner="Faction.clan_g" posX="322.9" posY="401.6" culture="Culture.ikoku">
+  <Settlement id="town_tk168" name="{=TAIKOU_sett_town_tk168}城井谷城" owner="Faction.clan_g" posX="421.4" posY="415.3" culture="Culture.ikoku">
     <Components>
       <Town id="town_comp_tk168" is_castle="false" level="3" background_crop_position="0.0" background_mesh="menu_empire_4" wait_mesh="wait_empire_town" gate_rotation="0.208" max_prosperity="70" prosperity="5100" />
     </Components>
@@ -2536,7 +2536,7 @@
       <Area type="Waterfront" name="{=TAIKOU_sett_area_waterfront}Waterfront" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="town_tk169" name="{=TAIKOU_sett_town_tk169}小仓城" owner="Faction.clan_g" posX="317.8" posY="431.6" culture="Culture.ikoku">
+  <Settlement id="town_tk169" name="{=TAIKOU_sett_town_tk169}小仓城" owner="Faction.clan_g" posX="404.9" posY="429.8" culture="Culture.ikoku">
     <Components>
       <Town id="town_comp_tk169" is_castle="false" level="3" background_crop_position="0.0" background_mesh="menu_empire_4" wait_mesh="wait_empire_town" gate_rotation="0.208" max_prosperity="70" prosperity="5100" />
     </Components>
@@ -2551,7 +2551,7 @@
       <Area type="Waterfront" name="{=TAIKOU_sett_area_waterfront}Waterfront" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="town_tk170" name="{=TAIKOU_sett_town_tk170}府内城" owner="Faction.clan_g" posX="363.6" posY="341.6" culture="Culture.ikoku">
+  <Settlement id="town_tk170" name="{=TAIKOU_sett_town_tk170}府内城" owner="Faction.clan_g" posX="457.4" posY="360.4" culture="Culture.ikoku">
     <Components>
       <Town id="town_comp_tk170" is_castle="false" level="3" background_crop_position="0.0" background_mesh="menu_empire_4" wait_mesh="wait_empire_town" gate_rotation="0.208" max_prosperity="70" prosperity="5100" />
     </Components>
@@ -2566,7 +2566,7 @@
       <Area type="Waterfront" name="{=TAIKOU_sett_area_waterfront}Waterfront" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="town_tk171" name="{=TAIKOU_sett_town_tk171}冈城" owner="Faction.clan_g" posX="322.9" posY="311.6" culture="Culture.ikoku">
+  <Settlement id="town_tk171" name="{=TAIKOU_sett_town_tk171}冈城" owner="Faction.clan_g" posX="421.4" posY="340.0" culture="Culture.ikoku">
     <Components>
       <Town id="town_comp_tk171" is_castle="false" level="3" background_crop_position="0.0" background_mesh="menu_empire_4" wait_mesh="wait_empire_town" gate_rotation="0.208" max_prosperity="70" prosperity="5100" />
     </Components>
@@ -2581,7 +2581,7 @@
       <Area type="Waterfront" name="{=TAIKOU_sett_area_waterfront}Waterfront" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="town_tk172" name="{=TAIKOU_sett_town_tk172}佐伯城" owner="Faction.clan_g" posX="389.1" posY="296.6" culture="Culture.ikoku">
+  <Settlement id="town_tk172" name="{=TAIKOU_sett_town_tk172}佐伯城" owner="Faction.clan_g" posX="472.4" posY="321.9" culture="Culture.ikoku">
     <Components>
       <Town id="town_comp_tk172" is_castle="false" level="3" background_crop_position="0.0" background_mesh="menu_empire_4" wait_mesh="wait_empire_town" gate_rotation="0.208" max_prosperity="70" prosperity="5100" />
     </Components>
@@ -2596,7 +2596,7 @@
       <Area type="Waterfront" name="{=TAIKOU_sett_area_waterfront}Waterfront" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="town_tk173" name="{=TAIKOU_sett_town_tk173}都於郡城" owner="Faction.clan_g" posX="287.2" posY="206.6" culture="Culture.ikoku">
+  <Settlement id="town_tk173" name="{=TAIKOU_sett_town_tk173}都於郡城" owner="Faction.clan_g" posX="378.4" posY="246.9" culture="Culture.ikoku">
     <Components>
       <Town id="town_comp_tk173" is_castle="false" level="3" background_crop_position="0.0" background_mesh="menu_empire_4" wait_mesh="wait_empire_town" gate_rotation="0.208" max_prosperity="70" prosperity="5100" />
     </Components>
@@ -2611,7 +2611,7 @@
       <Area type="Waterfront" name="{=TAIKOU_sett_area_waterfront}Waterfront" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="town_tk174" name="{=TAIKOU_sett_town_tk174}饫肥城" owner="Faction.clan_g" posX="256.7" posY="156.6" culture="Culture.ikoku">
+  <Settlement id="town_tk174" name="{=TAIKOU_sett_town_tk174}饫肥城" owner="Faction.clan_g" posX="351.5" posY="197.8" culture="Culture.ikoku">
     <Components>
       <Town id="town_comp_tk174" is_castle="false" level="3" background_crop_position="0.0" background_mesh="menu_empire_4" wait_mesh="wait_empire_town" gate_rotation="0.208" max_prosperity="70" prosperity="5100" />
     </Components>
@@ -2626,7 +2626,7 @@
       <Area type="Waterfront" name="{=TAIKOU_sett_area_waterfront}Waterfront" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="town_tk175" name="{=TAIKOU_sett_town_tk175}县城" owner="Faction.clan_g" posX="343.2" posY="256.6" culture="Culture.ikoku">
+  <Settlement id="town_tk175" name="{=TAIKOU_sett_town_tk175}县城" owner="Faction.clan_g" posX="425.9" posY="297.9" culture="Culture.ikoku">
     <Components>
       <Town id="town_comp_tk175" is_castle="false" level="3" background_crop_position="0.0" background_mesh="menu_empire_4" wait_mesh="wait_empire_town" gate_rotation="0.208" max_prosperity="70" prosperity="5100" />
     </Components>
@@ -2641,7 +2641,7 @@
       <Area type="Waterfront" name="{=TAIKOU_sett_area_waterfront}Waterfront" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="town_tk176" name="{=TAIKOU_sett_town_tk176}大隅高山城" owner="Faction.clan_g" posX="195.6" posY="126.6" culture="Culture.ikoku">
+  <Settlement id="town_tk176" name="{=TAIKOU_sett_town_tk176}大隅高山城" owner="Faction.clan_g" posX="292.4" posY="167.4" culture="Culture.ikoku">
     <Components>
       <Town id="town_comp_tk176" is_castle="false" level="3" background_crop_position="0.0" background_mesh="menu_empire_4" wait_mesh="wait_empire_town" gate_rotation="0.208" max_prosperity="70" prosperity="5100" />
     </Components>
@@ -2656,7 +2656,7 @@
       <Area type="Waterfront" name="{=TAIKOU_sett_area_waterfront}Waterfront" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="town_tk177" name="{=TAIKOU_sett_town_tk177}加治木城" owner="Faction.clan_g" posX="180.3" posY="186.6" culture="Culture.ikoku">
+  <Settlement id="town_tk177" name="{=TAIKOU_sett_town_tk177}加治木城" owner="Faction.clan_g" posX="287.8" posY="226.1" culture="Culture.ikoku">
     <Components>
       <Town id="town_comp_tk177" is_castle="false" level="3" background_crop_position="0.0" background_mesh="menu_empire_4" wait_mesh="wait_empire_town" gate_rotation="0.208" max_prosperity="70" prosperity="5100" />
     </Components>
@@ -2671,7 +2671,7 @@
       <Area type="Waterfront" name="{=TAIKOU_sett_area_waterfront}Waterfront" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="town_tk178" name="{=TAIKOU_sett_town_tk178}内城" owner="Faction.clan_g" posX="154.9" posY="191.6" culture="Culture.ikoku">
+  <Settlement id="town_tk178" name="{=TAIKOU_sett_town_tk178}内城" owner="Faction.clan_g" posX="266.2" posY="230.9" culture="Culture.ikoku">
     <Components>
       <Town id="town_comp_tk178" is_castle="false" level="3" background_crop_position="0.0" background_mesh="menu_empire_4" wait_mesh="wait_empire_town" gate_rotation="0.208" max_prosperity="70" prosperity="5100" />
     </Components>
@@ -2686,7 +2686,7 @@
       <Area type="Waterfront" name="{=TAIKOU_sett_area_waterfront}Waterfront" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="town_tk179" name="{=TAIKOU_sett_town_tk179}出水城" owner="Faction.clan_g" posX="154.9" posY="241.6" culture="Culture.ikoku">
+  <Settlement id="town_tk179" name="{=TAIKOU_sett_town_tk179}出水城" owner="Faction.clan_g" posX="270.2" posY="277.0" culture="Culture.ikoku">
     <Components>
       <Town id="town_comp_tk179" is_castle="false" level="3" background_crop_position="0.0" background_mesh="menu_empire_4" wait_mesh="wait_empire_town" gate_rotation="0.208" max_prosperity="70" prosperity="5100" />
     </Components>
@@ -2701,7 +2701,7 @@
       <Area type="Waterfront" name="{=TAIKOU_sett_area_waterfront}Waterfront" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="village_tk180" name="{=TAIKOU_sett_village_tk180}宇须岸" owner="Faction.clan_g" posX="1906.2" posY="1096.6" culture="Culture.ikoku">
+  <Settlement id="village_tk180" name="{=TAIKOU_sett_village_tk180}宇须岸" owner="Faction.clan_g" posX="1866.5" posY="1060.6" culture="Culture.ikoku">
     <Components>
       <Village id="village_comp_tk180" village_type="VillageType.silk_plant" hearth="200" gate_rotation="0.008" bound="Settlement.town_tk000" background_crop_position="0.0" background_mesh="gui_bg_village_empire" wait_mesh="wait_empire_village" castle_background_mesh="gui_bg_castle_empire" />
     </Components>
@@ -2714,7 +2714,7 @@
       <Area type="Bog" name="{=TAIKOU_sett_area_bog}Bog" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="village_tk181" name="{=TAIKOU_sett_village_tk181}弘前" owner="Faction.clan_g" posX="1814.5" posY="961.6" culture="Culture.ikoku">
+  <Settlement id="village_tk181" name="{=TAIKOU_sett_village_tk181}弘前" owner="Faction.clan_g" posX="1766.1" posY="925.4" culture="Culture.ikoku">
     <Components>
       <Village id="village_comp_tk181" village_type="VillageType.vineyard" hearth="200" gate_rotation="0.008" bound="Settlement.town_tk001" background_crop_position="0.0" background_mesh="gui_bg_village_empire" wait_mesh="wait_empire_village" castle_background_mesh="gui_bg_castle_empire" />
     </Components>
@@ -2727,7 +2727,7 @@
       <Area type="Bog" name="{=TAIKOU_sett_area_bog}Bog" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="village_tk182" name="{=TAIKOU_sett_village_tk182}花卷" owner="Faction.clan_g" posX="1850.2" posY="806.6" culture="Culture.ikoku">
+  <Settlement id="village_tk182" name="{=TAIKOU_sett_village_tk182}花卷" owner="Faction.clan_g" posX="1784.4" posY="782.4" culture="Culture.ikoku">
     <Components>
       <Village id="village_comp_tk182" village_type="VillageType.wheat_farm" hearth="200" gate_rotation="0.008" bound="Settlement.town_tk006" background_crop_position="0.0" background_mesh="gui_bg_village_empire" wait_mesh="wait_empire_village" castle_background_mesh="gui_bg_castle_empire" />
     </Components>
@@ -2740,7 +2740,7 @@
       <Area type="Bog" name="{=TAIKOU_sett_area_bog}Bog" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="village_tk183" name="{=TAIKOU_sett_village_tk183}仙台" owner="Faction.clan_g" posX="1784.0" posY="666.6" culture="Culture.ikoku">
+  <Settlement id="village_tk183" name="{=TAIKOU_sett_village_tk183}仙台" owner="Faction.clan_g" posX="1715.6" posY="654.1" culture="Culture.ikoku">
     <Components>
       <Village id="village_comp_tk183" village_type="VillageType.fishing" hearth="200" gate_rotation="0.008" bound="Settlement.town_tk010" background_crop_position="0.0" background_mesh="gui_bg_village_empire" wait_mesh="wait_empire_village" castle_background_mesh="gui_bg_castle_empire" />
     </Components>
@@ -2753,7 +2753,7 @@
       <Area type="Bog" name="{=TAIKOU_sett_area_bog}Bog" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="village_tk184" name="{=TAIKOU_sett_village_tk184}土崎凑" owner="Faction.clan_g" posX="1728.0" posY="866.6" culture="Culture.ikoku">
+  <Settlement id="village_tk184" name="{=TAIKOU_sett_village_tk184}土崎凑" owner="Faction.clan_g" posX="1694.6" posY="827.2" culture="Culture.ikoku">
     <Components>
       <Village id="village_comp_tk184" village_type="VillageType.iron_mine" hearth="200" gate_rotation="0.008" bound="Settlement.town_tk012" background_crop_position="0.0" background_mesh="gui_bg_village_empire" wait_mesh="wait_empire_village" castle_background_mesh="gui_bg_castle_empire" />
     </Components>
@@ -2766,7 +2766,7 @@
       <Area type="Bog" name="{=TAIKOU_sett_area_bog}Bog" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="village_tk185" name="{=TAIKOU_sett_village_tk185}酒田" owner="Faction.clan_g" posX="1661.8" posY="776.6" culture="Culture.ikoku">
+  <Settlement id="village_tk185" name="{=TAIKOU_sett_village_tk185}酒田" owner="Faction.clan_g" posX="1627.6" posY="756.7" culture="Culture.ikoku">
     <Components>
       <Village id="village_comp_tk185" village_type="VillageType.horse_ranch" hearth="200" gate_rotation="0.008" bound="Settlement.town_tk018" background_crop_position="0.0" background_mesh="gui_bg_village_empire" wait_mesh="wait_empire_village" castle_background_mesh="gui_bg_castle_empire" />
     </Components>
@@ -2779,7 +2779,7 @@
       <Area type="Bog" name="{=TAIKOU_sett_area_bog}Bog" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="village_tk186" name="{=TAIKOU_sett_village_tk186}会津" owner="Faction.clan_g" posX="1605.8" posY="591.6" culture="Culture.ikoku">
+  <Settlement id="village_tk186" name="{=TAIKOU_sett_village_tk186}会津" owner="Faction.clan_g" posX="1555.2" posY="586.6" culture="Culture.ikoku">
     <Components>
       <Village id="village_comp_tk186" village_type="VillageType.silk_plant" hearth="200" gate_rotation="0.008" bound="Settlement.town_tk020" background_crop_position="0.0" background_mesh="gui_bg_village_empire" wait_mesh="wait_empire_village" castle_background_mesh="gui_bg_castle_empire" />
     </Components>
@@ -2792,7 +2792,7 @@
       <Area type="Bog" name="{=TAIKOU_sett_area_bog}Bog" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="village_tk187" name="{=TAIKOU_sett_village_tk187}鹿岛" owner="Faction.clan_g" posX="1626.2" posY="386.6" culture="Culture.ikoku">
+  <Settlement id="village_tk187" name="{=TAIKOU_sett_village_tk187}鹿岛" owner="Faction.clan_g" posX="1556.2" posY="397.8" culture="Culture.ikoku">
     <Components>
       <Village id="village_comp_tk187" village_type="VillageType.vineyard" hearth="200" gate_rotation="0.008" bound="Settlement.town_tk025" background_crop_position="0.0" background_mesh="gui_bg_village_empire" wait_mesh="wait_empire_village" castle_background_mesh="gui_bg_castle_empire" />
     </Components>
@@ -2805,7 +2805,7 @@
       <Area type="Bog" name="{=TAIKOU_sett_area_bog}Bog" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="village_tk188" name="{=TAIKOU_sett_village_tk188}足利" owner="Faction.clan_g" posX="1493.8" posY="461.6" culture="Culture.ikoku">
+  <Settlement id="village_tk188" name="{=TAIKOU_sett_village_tk188}足利" owner="Faction.clan_g" posX="1447.7" posY="467.9" culture="Culture.ikoku">
     <Components>
       <Village id="village_comp_tk188" village_type="VillageType.wheat_farm" hearth="200" gate_rotation="0.008" bound="Settlement.town_tk034" background_crop_position="0.0" background_mesh="gui_bg_village_empire" wait_mesh="wait_empire_village" castle_background_mesh="gui_bg_castle_empire" />
     </Components>
@@ -2818,7 +2818,7 @@
       <Area type="Bog" name="{=TAIKOU_sett_area_bog}Bog" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="village_tk189" name="{=TAIKOU_sett_village_tk189}厩桥" owner="Faction.clan_g" posX="1442.9" posY="481.6" culture="Culture.ikoku">
+  <Settlement id="village_tk189" name="{=TAIKOU_sett_village_tk189}厩桥" owner="Faction.clan_g" posX="1405.2" posY="486.8" culture="Culture.ikoku">
     <Components>
       <Village id="village_comp_tk189" village_type="VillageType.fishing" hearth="200" gate_rotation="0.008" bound="Settlement.town_tk032" background_crop_position="0.0" background_mesh="gui_bg_village_empire" wait_mesh="wait_empire_village" castle_background_mesh="gui_bg_castle_empire" />
     </Components>
@@ -2831,9 +2831,9 @@
       <Area type="Bog" name="{=TAIKOU_sett_area_bog}Bog" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="village_tk190" name="{=TAIKOU_sett_village_tk190}木更津" owner="Faction.clan_g" posX="1493.8" posY="326.6" culture="Culture.ikoku">
+  <Settlement id="village_tk190" name="{=TAIKOU_sett_village_tk190}木更津" owner="Faction.clan_g" posX="1434.6" posY="373.4" culture="Culture.ikoku">
     <Components>
-      <Village id="village_comp_tk190" village_type="VillageType.iron_mine" hearth="200" gate_rotation="0.008" bound="Settlement.town_tk037" background_crop_position="0.0" background_mesh="gui_bg_village_empire" wait_mesh="wait_empire_village" castle_background_mesh="gui_bg_castle_empire" />
+      <Village id="village_comp_tk190" village_type="VillageType.iron_mine" hearth="200" gate_rotation="0.008" bound="Settlement.town_tk041" background_crop_position="0.0" background_mesh="gui_bg_village_empire" wait_mesh="wait_empire_village" castle_background_mesh="gui_bg_castle_empire" />
     </Components>
     <Locations complex_template="LocationComplexTemplate.village_complex">
       <Location id="village_center" scene_name="empire_village_007" />
@@ -2844,9 +2844,9 @@
       <Area type="Bog" name="{=TAIKOU_sett_area_bog}Bog" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="village_tk191" name="{=TAIKOU_sett_village_tk191}佐仓" owner="Faction.clan_g" posX="1554.9" posY="361.6" culture="Culture.ikoku">
+  <Settlement id="village_tk191" name="{=TAIKOU_sett_village_tk191}佐仓" owner="Faction.clan_g" posX="1470.6" posY="397.3" culture="Culture.ikoku">
     <Components>
-      <Village id="village_comp_tk191" village_type="VillageType.horse_ranch" hearth="200" gate_rotation="0.008" bound="Settlement.town_tk039" background_crop_position="0.0" background_mesh="gui_bg_village_empire" wait_mesh="wait_empire_village" castle_background_mesh="gui_bg_castle_empire" />
+      <Village id="village_comp_tk191" village_type="VillageType.horse_ranch" hearth="200" gate_rotation="0.008" bound="Settlement.town_tk041" background_crop_position="0.0" background_mesh="gui_bg_village_empire" wait_mesh="wait_empire_village" castle_background_mesh="gui_bg_castle_empire" />
     </Components>
     <Locations complex_template="LocationComplexTemplate.village_complex">
       <Location id="village_center" scene_name="empire_village_008" />
@@ -2857,7 +2857,7 @@
       <Area type="Bog" name="{=TAIKOU_sett_area_bog}Bog" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="village_tk192" name="{=TAIKOU_sett_village_tk192}江户" owner="Faction.clan_g" posX="1493.8" posY="366.6" culture="Culture.ikoku">
+  <Settlement id="village_tk192" name="{=TAIKOU_sett_village_tk192}江户" owner="Faction.clan_g" posX="1439.9" posY="380.5" culture="Culture.ikoku">
     <Components>
       <Village id="village_comp_tk192" village_type="VillageType.silk_plant" hearth="200" gate_rotation="0.008" bound="Settlement.town_tk041" background_crop_position="0.0" background_mesh="gui_bg_village_empire" wait_mesh="wait_empire_village" castle_background_mesh="gui_bg_castle_empire" />
     </Components>
@@ -2870,7 +2870,7 @@
       <Area type="Bog" name="{=TAIKOU_sett_area_bog}Bog" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="village_tk193" name="{=TAIKOU_sett_village_tk193}小田原" owner="Faction.clan_g" posX="1407.2" posY="346.6" culture="Culture.ikoku">
+  <Settlement id="village_tk193" name="{=TAIKOU_sett_village_tk193}小田原" owner="Faction.clan_g" posX="1363.3" posY="362.8" culture="Culture.ikoku">
     <Components>
       <Village id="village_comp_tk193" village_type="VillageType.vineyard" hearth="200" gate_rotation="0.008" bound="Settlement.town_tk046" background_crop_position="0.0" background_mesh="gui_bg_village_empire" wait_mesh="wait_empire_village" castle_background_mesh="gui_bg_castle_empire" />
     </Components>
@@ -2883,7 +2883,7 @@
       <Area type="Bog" name="{=TAIKOU_sett_area_bog}Bog" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="village_tk194" name="{=TAIKOU_sett_village_tk194}直江津" owner="Faction.clan_g" posX="1381.8" posY="611.6" culture="Culture.ikoku">
+  <Settlement id="village_tk194" name="{=TAIKOU_sett_village_tk194}直江津" owner="Faction.clan_g" posX="1362.9" posY="607.0" culture="Culture.ikoku">
     <Components>
       <Village id="village_comp_tk194" village_type="VillageType.wheat_farm" hearth="200" gate_rotation="0.008" bound="Settlement.town_tk049" background_crop_position="0.0" background_mesh="gui_bg_village_empire" wait_mesh="wait_empire_village" castle_background_mesh="gui_bg_castle_empire" />
     </Components>
@@ -2896,7 +2896,7 @@
       <Area type="Bog" name="{=TAIKOU_sett_area_bog}Bog" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="village_tk195" name="{=TAIKOU_sett_village_tk195}富山" owner="Faction.clan_g" posX="1224.0" posY="596.6" culture="Culture.ikoku">
+  <Settlement id="village_tk195" name="{=TAIKOU_sett_village_tk195}富山" owner="Faction.clan_g" posX="1225.0" posY="594.5" culture="Culture.ikoku">
     <Components>
       <Village id="village_comp_tk195" village_type="VillageType.fishing" hearth="200" gate_rotation="0.008" bound="Settlement.town_tk053" background_crop_position="0.0" background_mesh="gui_bg_village_empire" wait_mesh="wait_empire_village" castle_background_mesh="gui_bg_castle_empire" />
     </Components>
@@ -2909,7 +2909,7 @@
       <Area type="Bog" name="{=TAIKOU_sett_area_bog}Bog" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="village_tk196" name="{=TAIKOU_sett_village_tk196}轮岛" owner="Faction.clan_g" posX="1213.8" posY="686.6" culture="Culture.ikoku">
+  <Settlement id="village_tk196" name="{=TAIKOU_sett_village_tk196}轮岛" owner="Faction.clan_g" posX="1226.2" posY="675.2" culture="Culture.ikoku">
     <Components>
       <Village id="village_comp_tk196" village_type="VillageType.iron_mine" hearth="200" gate_rotation="0.008" bound="Settlement.town_tk055" background_crop_position="0.0" background_mesh="gui_bg_village_empire" wait_mesh="wait_empire_village" castle_background_mesh="gui_bg_castle_empire" />
     </Components>
@@ -2922,7 +2922,7 @@
       <Area type="Bog" name="{=TAIKOU_sett_area_bog}Bog" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="village_tk197" name="{=TAIKOU_sett_village_tk197}金泽" owner="Faction.clan_g" posX="1147.6" posY="591.6" culture="Culture.ikoku">
+  <Settlement id="village_tk197" name="{=TAIKOU_sett_village_tk197}金泽" owner="Faction.clan_g" posX="1158.4" posY="590.6" culture="Culture.ikoku">
     <Components>
       <Village id="village_comp_tk197" village_type="VillageType.horse_ranch" hearth="200" gate_rotation="0.008" bound="Settlement.town_tk056" background_crop_position="0.0" background_mesh="gui_bg_village_empire" wait_mesh="wait_empire_village" castle_background_mesh="gui_bg_castle_empire" />
     </Components>
@@ -2935,7 +2935,7 @@
       <Area type="Bog" name="{=TAIKOU_sett_area_bog}Bog" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="village_tk198" name="{=TAIKOU_sett_village_tk198}敦贺" owner="Faction.clan_g" posX="1035.6" posY="501.6" culture="Culture.ikoku">
+  <Settlement id="village_tk198" name="{=TAIKOU_sett_village_tk198}敦贺" owner="Faction.clan_g" posX="1050.2" posY="498.3" culture="Culture.ikoku">
     <Components>
       <Village id="village_comp_tk198" village_type="VillageType.silk_plant" hearth="200" gate_rotation="0.008" bound="Settlement.town_tk061" background_crop_position="0.0" background_mesh="gui_bg_village_empire" wait_mesh="wait_empire_village" castle_background_mesh="gui_bg_castle_empire" />
     </Components>
@@ -2948,7 +2948,7 @@
       <Area type="Bog" name="{=TAIKOU_sett_area_bog}Bog" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="village_tk199" name="{=TAIKOU_sett_village_tk199}小诸" owner="Faction.clan_g" posX="1376.7" posY="506.6" culture="Culture.ikoku">
+  <Settlement id="village_tk199" name="{=TAIKOU_sett_village_tk199}小诸" owner="Faction.clan_g" posX="1349.9" posY="510.4" culture="Culture.ikoku">
     <Components>
       <Village id="village_comp_tk199" village_type="VillageType.vineyard" hearth="200" gate_rotation="0.008" bound="Settlement.town_tk065" background_crop_position="0.0" background_mesh="gui_bg_village_empire" wait_mesh="wait_empire_village" castle_background_mesh="gui_bg_castle_empire" />
     </Components>
@@ -2961,7 +2961,7 @@
       <Area type="Bog" name="{=TAIKOU_sett_area_bog}Bog" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="village_tk200" name="{=TAIKOU_sett_village_tk200}诹访" owner="Faction.clan_g" posX="1315.6" posY="481.6" culture="Culture.ikoku">
+  <Settlement id="village_tk200" name="{=TAIKOU_sett_village_tk200}诹访" owner="Faction.clan_g" posX="1295.0" posY="487.9" culture="Culture.ikoku">
     <Components>
       <Village id="village_comp_tk200" village_type="VillageType.wheat_farm" hearth="200" gate_rotation="0.008" bound="Settlement.town_tk066" background_crop_position="0.0" background_mesh="gui_bg_village_empire" wait_mesh="wait_empire_village" castle_background_mesh="gui_bg_castle_empire" />
     </Components>
@@ -2974,7 +2974,7 @@
       <Area type="Bog" name="{=TAIKOU_sett_area_bog}Bog" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="village_tk201" name="{=TAIKOU_sett_village_tk201}甲府" owner="Faction.clan_g" posX="1346.2" posY="406.6" culture="Culture.ikoku">
+  <Settlement id="village_tk201" name="{=TAIKOU_sett_village_tk201}甲府" owner="Faction.clan_g" posX="1315.3" posY="418.6" culture="Culture.ikoku">
     <Components>
       <Village id="village_comp_tk201" village_type="VillageType.fishing" hearth="200" gate_rotation="0.008" bound="Settlement.town_tk069" background_crop_position="0.0" background_mesh="gui_bg_village_empire" wait_mesh="wait_empire_village" castle_background_mesh="gui_bg_castle_empire" />
     </Components>
@@ -2987,7 +2987,7 @@
       <Area type="Bog" name="{=TAIKOU_sett_area_bog}Bog" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="village_tk202" name="{=TAIKOU_sett_village_tk202}骏府" owner="Faction.clan_g" posX="1295.2" posY="331.6" culture="Culture.ikoku">
+  <Settlement id="village_tk202" name="{=TAIKOU_sett_village_tk202}骏府" owner="Faction.clan_g" posX="1265.1" posY="350.0" culture="Culture.ikoku">
     <Components>
       <Village id="village_comp_tk202" village_type="VillageType.iron_mine" hearth="200" gate_rotation="0.008" bound="Settlement.town_tk072" background_crop_position="0.0" background_mesh="gui_bg_village_empire" wait_mesh="wait_empire_village" castle_background_mesh="gui_bg_castle_empire" />
     </Components>
@@ -3000,9 +3000,9 @@
       <Area type="Bog" name="{=TAIKOU_sett_area_bog}Bog" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="village_tk203" name="{=TAIKOU_sett_village_tk203}滨松" owner="Faction.clan_g" posX="1193.4" posY="321.6" culture="Culture.ikoku">
+  <Settlement id="village_tk203" name="{=TAIKOU_sett_village_tk203}滨松" owner="Faction.clan_g" posX="1215.7" posY="381.9" culture="Culture.ikoku">
     <Components>
-      <Village id="village_comp_tk203" village_type="VillageType.horse_ranch" hearth="200" gate_rotation="0.008" bound="Settlement.town_tk074" background_crop_position="0.0" background_mesh="gui_bg_village_empire" wait_mesh="wait_empire_village" castle_background_mesh="gui_bg_castle_empire" />
+      <Village id="village_comp_tk203" village_type="VillageType.horse_ranch" hearth="200" gate_rotation="0.008" bound="Settlement.town_tk075" background_crop_position="0.0" background_mesh="gui_bg_village_empire" wait_mesh="wait_empire_village" castle_background_mesh="gui_bg_castle_empire" />
     </Components>
     <Locations complex_template="LocationComplexTemplate.village_complex">
       <Location id="village_center" scene_name="empire_village_004" />
@@ -3013,9 +3013,9 @@
       <Area type="Bog" name="{=TAIKOU_sett_area_bog}Bog" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="village_tk204" name="{=TAIKOU_sett_village_tk204}冈崎" owner="Faction.clan_g" posX="1127.2" posY="371.6" culture="Culture.ikoku">
+  <Settlement id="village_tk204" name="{=TAIKOU_sett_village_tk204}冈崎" owner="Faction.clan_g" posX="1143.2" posY="408.3" culture="Culture.ikoku">
     <Components>
-      <Village id="village_comp_tk204" village_type="VillageType.silk_plant" hearth="200" gate_rotation="0.008" bound="Settlement.town_tk077" background_crop_position="0.0" background_mesh="gui_bg_village_empire" wait_mesh="wait_empire_village" castle_background_mesh="gui_bg_castle_empire" />
+      <Village id="village_comp_tk204" village_type="VillageType.silk_plant" hearth="200" gate_rotation="0.008" bound="Settlement.town_tk081" background_crop_position="0.0" background_mesh="gui_bg_village_empire" wait_mesh="wait_empire_village" castle_background_mesh="gui_bg_castle_empire" />
     </Components>
     <Locations complex_template="LocationComplexTemplate.village_complex">
       <Location id="village_center" scene_name="empire_village_005" />
@@ -3026,7 +3026,7 @@
       <Area type="Bog" name="{=TAIKOU_sett_area_bog}Bog" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="village_tk205" name="{=TAIKOU_sett_village_tk205}清洲" owner="Faction.clan_g" posX="1101.8" posY="401.6" culture="Culture.ikoku">
+  <Settlement id="village_tk205" name="{=TAIKOU_sett_village_tk205}清洲" owner="Faction.clan_g" posX="1084.7" posY="433.3" culture="Culture.ikoku">
     <Components>
       <Village id="village_comp_tk205" village_type="VillageType.vineyard" hearth="200" gate_rotation="0.008" bound="Settlement.town_tk080" background_crop_position="0.0" background_mesh="gui_bg_village_empire" wait_mesh="wait_empire_village" castle_background_mesh="gui_bg_castle_empire" />
     </Components>
@@ -3039,9 +3039,9 @@
       <Area type="Bog" name="{=TAIKOU_sett_area_bog}Bog" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="village_tk206" name="{=TAIKOU_sett_village_tk206}井之口" owner="Faction.clan_g" posX="1106.9" posY="466.6" culture="Culture.ikoku">
+  <Settlement id="village_tk206" name="{=TAIKOU_sett_village_tk206}井之口" owner="Faction.clan_g" posX="1113.0" posY="475.9" culture="Culture.ikoku">
     <Components>
-      <Village id="village_comp_tk206" village_type="VillageType.wheat_farm" hearth="200" gate_rotation="0.008" bound="Settlement.town_tk085" background_crop_position="0.0" background_mesh="gui_bg_village_empire" wait_mesh="wait_empire_village" castle_background_mesh="gui_bg_castle_empire" />
+      <Village id="village_comp_tk206" village_type="VillageType.wheat_farm" hearth="200" gate_rotation="0.008" bound="Settlement.town_tk084" background_crop_position="0.0" background_mesh="gui_bg_village_empire" wait_mesh="wait_empire_village" castle_background_mesh="gui_bg_castle_empire" />
     </Components>
     <Locations complex_template="LocationComplexTemplate.village_complex">
       <Location id="village_center" scene_name="empire_village_007" />
@@ -3052,7 +3052,7 @@
       <Area type="Bog" name="{=TAIKOU_sett_area_bog}Bog" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="village_tk207" name="{=TAIKOU_sett_village_tk207}松仓" owner="Faction.clan_g" posX="1193.4" posY="516.6" culture="Culture.ikoku">
+  <Settlement id="village_tk207" name="{=TAIKOU_sett_village_tk207}松仓" owner="Faction.clan_g" posX="1192.0" posY="521.2" culture="Culture.ikoku">
     <Components>
       <Village id="village_comp_tk207" village_type="VillageType.fishing" hearth="200" gate_rotation="0.008" bound="Settlement.town_tk089" background_crop_position="0.0" background_mesh="gui_bg_village_empire" wait_mesh="wait_empire_village" castle_background_mesh="gui_bg_castle_empire" />
     </Components>
@@ -3065,7 +3065,7 @@
       <Area type="Bog" name="{=TAIKOU_sett_area_bog}Bog" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="village_tk208" name="{=TAIKOU_sett_village_tk208}大凑" owner="Faction.clan_g" posX="1061.1" posY="336.6" culture="Culture.ikoku">
+  <Settlement id="village_tk208" name="{=TAIKOU_sett_village_tk208}大凑" owner="Faction.clan_g" posX="1062.7" posY="356.6" culture="Culture.ikoku">
     <Components>
       <Village id="village_comp_tk208" village_type="VillageType.iron_mine" hearth="200" gate_rotation="0.008" bound="Settlement.town_tk093" background_crop_position="0.0" background_mesh="gui_bg_village_empire" wait_mesh="wait_empire_village" castle_background_mesh="gui_bg_castle_empire" />
     </Components>
@@ -3078,9 +3078,9 @@
       <Area type="Bog" name="{=TAIKOU_sett_area_bog}Bog" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="village_tk209" name="{=TAIKOU_sett_village_tk209}今滨" owner="Faction.clan_g" posX="1050.9" posY="461.6" culture="Culture.ikoku">
+  <Settlement id="village_tk209" name="{=TAIKOU_sett_village_tk209}今滨" owner="Faction.clan_g" posX="1046.2" posY="476.8" culture="Culture.ikoku">
     <Components>
-      <Village id="village_comp_tk209" village_type="VillageType.horse_ranch" hearth="200" gate_rotation="0.008" bound="Settlement.town_tk096" background_crop_position="0.0" background_mesh="gui_bg_village_empire" wait_mesh="wait_empire_village" castle_background_mesh="gui_bg_castle_empire" />
+      <Village id="village_comp_tk209" village_type="VillageType.horse_ranch" hearth="200" gate_rotation="0.008" bound="Settlement.town_tk095" background_crop_position="0.0" background_mesh="gui_bg_village_empire" wait_mesh="wait_empire_village" castle_background_mesh="gui_bg_castle_empire" />
     </Components>
     <Locations complex_template="LocationComplexTemplate.village_complex">
       <Location id="village_center" scene_name="empire_village_002" />
@@ -3091,7 +3091,7 @@
       <Area type="Bog" name="{=TAIKOU_sett_area_bog}Bog" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="village_tk210" name="{=TAIKOU_sett_village_tk210}加田" owner="Faction.clan_g" posX="1025.4" posY="431.6" culture="Culture.ikoku">
+  <Settlement id="village_tk210" name="{=TAIKOU_sett_village_tk210}加田" owner="Faction.clan_g" posX="1039.6" posY="444.4" culture="Culture.ikoku">
     <Components>
       <Village id="village_comp_tk210" village_type="VillageType.silk_plant" hearth="200" gate_rotation="0.008" bound="Settlement.town_tk097" background_crop_position="0.0" background_mesh="gui_bg_village_empire" wait_mesh="wait_empire_village" castle_background_mesh="gui_bg_castle_empire" />
     </Components>
@@ -3104,9 +3104,9 @@
       <Area type="Bog" name="{=TAIKOU_sett_area_bog}Bog" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="village_tk211" name="{=TAIKOU_sett_village_tk211}奈良" owner="Faction.clan_g" posX="974.5" posY="381.6" culture="Culture.ikoku">
+  <Settlement id="village_tk211" name="{=TAIKOU_sett_village_tk211}奈良" owner="Faction.clan_g" posX="991.4" posY="398.8" culture="Culture.ikoku">
     <Components>
-      <Village id="village_comp_tk211" village_type="VillageType.vineyard" hearth="200" gate_rotation="0.008" bound="Settlement.town_tk100" background_crop_position="0.0" background_mesh="gui_bg_village_empire" wait_mesh="wait_empire_village" castle_background_mesh="gui_bg_castle_empire" />
+      <Village id="village_comp_tk211" village_type="VillageType.vineyard" hearth="200" gate_rotation="0.008" bound="Settlement.town_tk102" background_crop_position="0.0" background_mesh="gui_bg_village_empire" wait_mesh="wait_empire_village" castle_background_mesh="gui_bg_castle_empire" />
     </Components>
     <Locations complex_template="LocationComplexTemplate.village_complex">
       <Location id="village_center" scene_name="empire_village_004" />
@@ -3117,9 +3117,9 @@
       <Area type="Bog" name="{=TAIKOU_sett_area_bog}Bog" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="village_tk212" name="{=TAIKOU_sett_village_tk212}京" owner="Faction.clan_g" posX="969.4" posY="421.6" culture="Culture.ikoku">
+  <Settlement id="village_tk212" name="{=TAIKOU_sett_village_tk212}京" owner="Faction.clan_g" posX="990.3" posY="435.6" culture="Culture.ikoku">
     <Components>
-      <Village id="village_comp_tk212" village_type="VillageType.wheat_farm" hearth="200" gate_rotation="0.008" bound="Settlement.town_tk105" background_crop_position="0.0" background_mesh="gui_bg_village_empire" wait_mesh="wait_empire_village" castle_background_mesh="gui_bg_castle_empire" />
+      <Village id="village_comp_tk212" village_type="VillageType.wheat_farm" hearth="200" gate_rotation="0.008" bound="Settlement.town_tk098" background_crop_position="0.0" background_mesh="gui_bg_village_empire" wait_mesh="wait_empire_village" castle_background_mesh="gui_bg_castle_empire" />
     </Components>
     <Locations complex_template="LocationComplexTemplate.village_complex">
       <Location id="village_center" scene_name="empire_village_005" />
@@ -3130,7 +3130,7 @@
       <Area type="Bog" name="{=TAIKOU_sett_area_bog}Bog" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="village_tk213" name="{=TAIKOU_sett_village_tk213}龟山" owner="Faction.clan_g" posX="944.0" posY="451.6" culture="Culture.ikoku">
+  <Settlement id="village_tk213" name="{=TAIKOU_sett_village_tk213}龟山" owner="Faction.clan_g" posX="970.7" posY="463.5" culture="Culture.ikoku">
     <Components>
       <Village id="village_comp_tk213" village_type="VillageType.fishing" hearth="200" gate_rotation="0.008" bound="Settlement.town_tk106" background_crop_position="0.0" background_mesh="gui_bg_village_empire" wait_mesh="wait_empire_village" castle_background_mesh="gui_bg_castle_empire" />
     </Components>
@@ -3143,7 +3143,7 @@
       <Area type="Bog" name="{=TAIKOU_sett_area_bog}Bog" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="village_tk214" name="{=TAIKOU_sett_village_tk214}小滨" owner="Faction.clan_g" posX="989.8" posY="486.6" culture="Culture.ikoku">
+  <Settlement id="village_tk214" name="{=TAIKOU_sett_village_tk214}小滨" owner="Faction.clan_g" posX="1013.2" posY="495.3" culture="Culture.ikoku">
     <Components>
       <Village id="village_comp_tk214" village_type="VillageType.iron_mine" hearth="200" gate_rotation="0.008" bound="Settlement.town_tk106" background_crop_position="0.0" background_mesh="gui_bg_village_empire" wait_mesh="wait_empire_village" castle_background_mesh="gui_bg_castle_empire" />
     </Components>
@@ -3156,7 +3156,7 @@
       <Area type="Bog" name="{=TAIKOU_sett_area_bog}Bog" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="village_tk215" name="{=TAIKOU_sett_village_tk215}界" owner="Faction.clan_g" posX="898.2" posY="371.6" culture="Culture.ikoku">
+  <Settlement id="village_tk215" name="{=TAIKOU_sett_village_tk215}界" owner="Faction.clan_g" posX="927.8" posY="370.9" culture="Culture.ikoku">
     <Components>
       <Village id="village_comp_tk215" village_type="VillageType.horse_ranch" hearth="200" gate_rotation="0.008" bound="Settlement.town_tk110" background_crop_position="0.0" background_mesh="gui_bg_village_empire" wait_mesh="wait_empire_village" castle_background_mesh="gui_bg_castle_empire" />
     </Components>
@@ -3169,9 +3169,9 @@
       <Area type="Bog" name="{=TAIKOU_sett_area_bog}Bog" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="village_tk216" name="{=TAIKOU_sett_village_tk216}石山" owner="Faction.clan_g" posX="918.5" posY="386.6" culture="Culture.ikoku">
+  <Settlement id="village_tk216" name="{=TAIKOU_sett_village_tk216}石山" owner="Faction.clan_g" posX="965.8" posY="380.4" culture="Culture.ikoku">
     <Components>
-      <Village id="village_comp_tk216" village_type="VillageType.silk_plant" hearth="200" gate_rotation="0.008" bound="Settlement.town_tk113" background_crop_position="0.0" background_mesh="gui_bg_village_empire" wait_mesh="wait_empire_village" castle_background_mesh="gui_bg_castle_empire" />
+      <Village id="village_comp_tk216" village_type="VillageType.silk_plant" hearth="200" gate_rotation="0.008" bound="Settlement.town_tk112" background_crop_position="0.0" background_mesh="gui_bg_village_empire" wait_mesh="wait_empire_village" castle_background_mesh="gui_bg_castle_empire" />
     </Components>
     <Locations complex_template="LocationComplexTemplate.village_complex">
       <Location id="village_center" scene_name="empire_village_001" />
@@ -3182,7 +3182,7 @@
       <Area type="Bog" name="{=TAIKOU_sett_area_bog}Bog" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="village_tk217" name="{=TAIKOU_sett_village_tk217}杂贺" owner="Faction.clan_g" posX="857.4" posY="351.6" culture="Culture.ikoku">
+  <Settlement id="village_tk217" name="{=TAIKOU_sett_village_tk217}杂贺" owner="Faction.clan_g" posX="913.3" posY="356.9" culture="Culture.ikoku">
     <Components>
       <Village id="village_comp_tk217" village_type="VillageType.vineyard" hearth="200" gate_rotation="0.008" bound="Settlement.town_tk116" background_crop_position="0.0" background_mesh="gui_bg_village_empire" wait_mesh="wait_empire_village" castle_background_mesh="gui_bg_castle_empire" />
     </Components>
@@ -3195,7 +3195,7 @@
       <Area type="Bog" name="{=TAIKOU_sett_area_bog}Bog" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="village_tk218" name="{=TAIKOU_sett_village_tk218}出石" owner="Faction.clan_g" posX="872.7" posY="511.6" culture="Culture.ikoku">
+  <Settlement id="village_tk218" name="{=TAIKOU_sett_village_tk218}出石" owner="Faction.clan_g" posX="913.9" posY="519.3" culture="Culture.ikoku">
     <Components>
       <Village id="village_comp_tk218" village_type="VillageType.wheat_farm" hearth="200" gate_rotation="0.008" bound="Settlement.town_tk119" background_crop_position="0.0" background_mesh="gui_bg_village_empire" wait_mesh="wait_empire_village" castle_background_mesh="gui_bg_castle_empire" />
     </Components>
@@ -3208,7 +3208,7 @@
       <Area type="Bog" name="{=TAIKOU_sett_area_bog}Bog" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="village_tk219" name="{=TAIKOU_sett_village_tk219}鸟取" owner="Faction.clan_g" posX="801.4" posY="541.6" culture="Culture.ikoku">
+  <Settlement id="village_tk219" name="{=TAIKOU_sett_village_tk219}鸟取" owner="Faction.clan_g" posX="854.6" posY="547.5" culture="Culture.ikoku">
     <Components>
       <Village id="village_comp_tk219" village_type="VillageType.fishing" hearth="200" gate_rotation="0.008" bound="Settlement.town_tk118" background_crop_position="0.0" background_mesh="gui_bg_village_empire" wait_mesh="wait_empire_village" castle_background_mesh="gui_bg_castle_empire" />
     </Components>
@@ -3221,7 +3221,7 @@
       <Area type="Bog" name="{=TAIKOU_sett_area_bog}Bog" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="village_tk220" name="{=TAIKOU_sett_village_tk220}松江" owner="Faction.clan_g" posX="653.8" posY="571.6" culture="Culture.ikoku">
+  <Settlement id="village_tk220" name="{=TAIKOU_sett_village_tk220}松江" owner="Faction.clan_g" posX="724.3" posY="572.3" culture="Culture.ikoku">
     <Components>
       <Village id="village_comp_tk220" village_type="VillageType.iron_mine" hearth="200" gate_rotation="0.008" bound="Settlement.town_tk121" background_crop_position="0.0" background_mesh="gui_bg_village_empire" wait_mesh="wait_empire_village" castle_background_mesh="gui_bg_castle_empire" />
     </Components>
@@ -3234,7 +3234,7 @@
       <Area type="Bog" name="{=TAIKOU_sett_area_bog}Bog" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="village_tk221" name="{=TAIKOU_sett_village_tk221}温泉津" owner="Faction.clan_g" posX="567.2" posY="556.6" culture="Culture.ikoku">
+  <Settlement id="village_tk221" name="{=TAIKOU_sett_village_tk221}温泉津" owner="Faction.clan_g" posX="642.8" posY="559.3" culture="Culture.ikoku">
     <Components>
       <Village id="village_comp_tk221" village_type="VillageType.horse_ranch" hearth="200" gate_rotation="0.008" bound="Settlement.town_tk125" background_crop_position="0.0" background_mesh="gui_bg_village_empire" wait_mesh="wait_empire_village" castle_background_mesh="gui_bg_castle_empire" />
     </Components>
@@ -3247,7 +3247,7 @@
       <Area type="Bog" name="{=TAIKOU_sett_area_bog}Bog" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="village_tk222" name="{=TAIKOU_sett_village_tk222}姬路" owner="Faction.clan_g" posX="837.1" posY="431.6" culture="Culture.ikoku">
+  <Settlement id="village_tk222" name="{=TAIKOU_sett_village_tk222}姬路" owner="Faction.clan_g" posX="857.8" posY="461.8" culture="Culture.ikoku">
     <Components>
       <Village id="village_comp_tk222" village_type="VillageType.silk_plant" hearth="200" gate_rotation="0.008" bound="Settlement.town_tk127" background_crop_position="0.0" background_mesh="gui_bg_village_empire" wait_mesh="wait_empire_village" castle_background_mesh="gui_bg_castle_empire" />
     </Components>
@@ -3260,7 +3260,7 @@
       <Area type="Bog" name="{=TAIKOU_sett_area_bog}Bog" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="village_tk223" name="{=TAIKOU_sett_village_tk223}津山" owner="Faction.clan_g" posX="760.7" posY="491.6" culture="Culture.ikoku">
+  <Settlement id="village_tk223" name="{=TAIKOU_sett_village_tk223}津山" owner="Faction.clan_g" posX="815.2" posY="501.9" culture="Culture.ikoku">
     <Components>
       <Village id="village_comp_tk223" village_type="VillageType.vineyard" hearth="200" gate_rotation="0.008" bound="Settlement.town_tk130" background_crop_position="0.0" background_mesh="gui_bg_village_empire" wait_mesh="wait_empire_village" castle_background_mesh="gui_bg_castle_empire" />
     </Components>
@@ -3273,9 +3273,9 @@
       <Area type="Bog" name="{=TAIKOU_sett_area_bog}Bog" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="village_tk224" name="{=TAIKOU_sett_village_tk224}长船" owner="Faction.clan_g" posX="755.6" posY="441.6" culture="Culture.ikoku">
+  <Settlement id="village_tk224" name="{=TAIKOU_sett_village_tk224}长船" owner="Faction.clan_g" posX="792.8" posY="477.3" culture="Culture.ikoku">
     <Components>
-      <Village id="village_comp_tk224" village_type="VillageType.wheat_farm" hearth="200" gate_rotation="0.008" bound="Settlement.town_tk132" background_crop_position="0.0" background_mesh="gui_bg_village_empire" wait_mesh="wait_empire_village" castle_background_mesh="gui_bg_castle_empire" />
+      <Village id="village_comp_tk224" village_type="VillageType.wheat_farm" hearth="200" gate_rotation="0.008" bound="Settlement.town_tk131" background_crop_position="0.0" background_mesh="gui_bg_village_empire" wait_mesh="wait_empire_village" castle_background_mesh="gui_bg_castle_empire" />
     </Components>
     <Locations complex_template="LocationComplexTemplate.village_complex">
       <Location id="village_center" scene_name="empire_village_001" />
@@ -3286,7 +3286,7 @@
       <Area type="Bog" name="{=TAIKOU_sett_area_bog}Bog" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="village_tk225" name="{=TAIKOU_sett_village_tk225}仓敷" owner="Faction.clan_g" posX="704.7" posY="436.6" culture="Culture.ikoku">
+  <Settlement id="village_tk225" name="{=TAIKOU_sett_village_tk225}仓敷" owner="Faction.clan_g" posX="760.8" posY="450.8" culture="Culture.ikoku">
     <Components>
       <Village id="village_comp_tk225" village_type="VillageType.fishing" hearth="200" gate_rotation="0.008" bound="Settlement.town_tk135" background_crop_position="0.0" background_mesh="gui_bg_village_empire" wait_mesh="wait_empire_village" castle_background_mesh="gui_bg_castle_empire" />
     </Components>
@@ -3299,7 +3299,7 @@
       <Area type="Bog" name="{=TAIKOU_sett_area_bog}Bog" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="village_tk226" name="{=TAIKOU_sett_village_tk226}尾道" owner="Faction.clan_g" posX="628.3" posY="436.6" culture="Culture.ikoku">
+  <Settlement id="village_tk226" name="{=TAIKOU_sett_village_tk226}尾道" owner="Faction.clan_g" posX="701.8" posY="456.3" culture="Culture.ikoku">
     <Components>
       <Village id="village_comp_tk226" village_type="VillageType.iron_mine" hearth="200" gate_rotation="0.008" bound="Settlement.town_tk136" background_crop_position="0.0" background_mesh="gui_bg_village_empire" wait_mesh="wait_empire_village" castle_background_mesh="gui_bg_castle_empire" />
     </Components>
@@ -3312,7 +3312,7 @@
       <Area type="Bog" name="{=TAIKOU_sett_area_bog}Bog" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="village_tk227" name="{=TAIKOU_sett_village_tk227}严岛" owner="Faction.clan_g" posX="506.2" posY="451.6" culture="Culture.ikoku">
+  <Settlement id="village_tk227" name="{=TAIKOU_sett_village_tk227}严岛" owner="Faction.clan_g" posX="600.9" posY="478.3" culture="Culture.ikoku">
     <Components>
       <Village id="village_comp_tk227" village_type="VillageType.horse_ranch" hearth="200" gate_rotation="0.008" bound="Settlement.town_tk140" background_crop_position="0.0" background_mesh="gui_bg_village_empire" wait_mesh="wait_empire_village" castle_background_mesh="gui_bg_castle_empire" />
     </Components>
@@ -3325,7 +3325,7 @@
       <Area type="Bog" name="{=TAIKOU_sett_area_bog}Bog" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="village_tk228" name="{=TAIKOU_sett_village_tk228}赤间关" owner="Faction.clan_g" posX="322.9" posY="461.6" culture="Culture.ikoku">
+  <Settlement id="village_tk228" name="{=TAIKOU_sett_village_tk228}赤间关" owner="Faction.clan_g" posX="426.9" posY="482.8" culture="Culture.ikoku">
     <Components>
       <Village id="village_comp_tk228" village_type="VillageType.silk_plant" hearth="200" gate_rotation="0.008" bound="Settlement.town_tk142" background_crop_position="0.0" background_mesh="gui_bg_village_empire" wait_mesh="wait_empire_village" castle_background_mesh="gui_bg_castle_empire" />
     </Components>
@@ -3338,7 +3338,7 @@
       <Area type="Bog" name="{=TAIKOU_sett_area_bog}Bog" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="village_tk229" name="{=TAIKOU_sett_village_tk229}丸龟" owner="Faction.clan_g" posX="694.5" posY="401.6" culture="Culture.ikoku">
+  <Settlement id="village_tk229" name="{=TAIKOU_sett_village_tk229}丸龟" owner="Faction.clan_g" posX="750.6" posY="419.6" culture="Culture.ikoku">
     <Components>
       <Village id="village_comp_tk229" village_type="VillageType.vineyard" hearth="200" gate_rotation="0.008" bound="Settlement.town_tk144" background_crop_position="0.0" background_mesh="gui_bg_village_empire" wait_mesh="wait_empire_village" castle_background_mesh="gui_bg_castle_empire" />
     </Components>
@@ -3351,7 +3351,7 @@
       <Area type="Bog" name="{=TAIKOU_sett_area_bog}Bog" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="village_tk230" name="{=TAIKOU_sett_village_tk230}今治" owner="Faction.clan_g" posX="582.5" posY="396.6" culture="Culture.ikoku">
+  <Settlement id="village_tk230" name="{=TAIKOU_sett_village_tk230}今治" owner="Faction.clan_g" posX="643.8" posY="407.8" culture="Culture.ikoku">
     <Components>
       <Village id="village_comp_tk230" village_type="VillageType.wheat_farm" hearth="200" gate_rotation="0.008" bound="Settlement.town_tk145" background_crop_position="0.0" background_mesh="gui_bg_village_empire" wait_mesh="wait_empire_village" castle_background_mesh="gui_bg_castle_empire" />
     </Components>
@@ -3364,7 +3364,7 @@
       <Area type="Bog" name="{=TAIKOU_sett_area_bog}Bog" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="village_tk231" name="{=TAIKOU_sett_village_tk231}鸣门" owner="Faction.clan_g" posX="776.0" posY="346.6" culture="Culture.ikoku">
+  <Settlement id="village_tk231" name="{=TAIKOU_sett_village_tk231}鸣门" owner="Faction.clan_g" posX="819.3" posY="355.9" culture="Culture.ikoku">
     <Components>
       <Village id="village_comp_tk231" village_type="VillageType.fishing" hearth="200" gate_rotation="0.008" bound="Settlement.town_tk149" background_crop_position="0.0" background_mesh="gui_bg_village_empire" wait_mesh="wait_empire_village" castle_background_mesh="gui_bg_castle_empire" />
     </Components>
@@ -3377,7 +3377,7 @@
       <Area type="Bog" name="{=TAIKOU_sett_area_bog}Bog" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="village_tk232" name="{=TAIKOU_sett_village_tk232}浦户" owner="Faction.clan_g" posX="628.3" posY="311.6" culture="Culture.ikoku">
+  <Settlement id="village_tk232" name="{=TAIKOU_sett_village_tk232}浦户" owner="Faction.clan_g" posX="667.8" posY="345.4" culture="Culture.ikoku">
     <Components>
       <Village id="village_comp_tk232" village_type="VillageType.iron_mine" hearth="200" gate_rotation="0.008" bound="Settlement.town_tk152" background_crop_position="0.0" background_mesh="gui_bg_village_empire" wait_mesh="wait_empire_village" castle_background_mesh="gui_bg_castle_empire" />
     </Components>
@@ -3390,7 +3390,7 @@
       <Area type="Bog" name="{=TAIKOU_sett_area_bog}Bog" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="village_tk233" name="{=TAIKOU_sett_village_tk233}博多" owner="Faction.clan_g" posX="236.3" posY="426.6" culture="Culture.ikoku">
+  <Settlement id="village_tk233" name="{=TAIKOU_sett_village_tk233}博多" owner="Faction.clan_g" posX="355.8" posY="446.6" culture="Culture.ikoku">
     <Components>
       <Village id="village_comp_tk233" village_type="VillageType.horse_ranch" hearth="200" gate_rotation="0.008" bound="Settlement.town_tk157" background_crop_position="0.0" background_mesh="gui_bg_village_empire" wait_mesh="wait_empire_village" castle_background_mesh="gui_bg_castle_empire" />
     </Components>
@@ -3403,7 +3403,7 @@
       <Area type="Bog" name="{=TAIKOU_sett_area_bog}Bog" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="village_tk234" name="{=TAIKOU_sett_village_tk234}柳川" owner="Faction.clan_g" posX="216.0" posY="361.6" culture="Culture.ikoku">
+  <Settlement id="village_tk234" name="{=TAIKOU_sett_village_tk234}柳川" owner="Faction.clan_g" posX="332.9" posY="386.9" culture="Culture.ikoku">
     <Components>
       <Village id="village_comp_tk234" village_type="VillageType.silk_plant" hearth="200" gate_rotation="0.008" bound="Settlement.town_tk158" background_crop_position="0.0" background_mesh="gui_bg_village_empire" wait_mesh="wait_empire_village" castle_background_mesh="gui_bg_castle_empire" />
     </Components>
@@ -3416,7 +3416,7 @@
       <Area type="Bog" name="{=TAIKOU_sett_area_bog}Bog" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="village_tk235" name="{=TAIKOU_sett_village_tk235}平户" owner="Faction.clan_g" posX="124.3" posY="421.6" culture="Culture.ikoku">
+  <Settlement id="village_tk235" name="{=TAIKOU_sett_village_tk235}平户" owner="Faction.clan_g" posX="241.4" posY="433.8" culture="Culture.ikoku">
     <Components>
       <Village id="village_comp_tk235" village_type="VillageType.vineyard" hearth="200" gate_rotation="0.008" bound="Settlement.town_tk162" background_crop_position="0.0" background_mesh="gui_bg_village_empire" wait_mesh="wait_empire_village" castle_background_mesh="gui_bg_castle_empire" />
     </Components>
@@ -3429,7 +3429,7 @@
       <Area type="Bog" name="{=TAIKOU_sett_area_bog}Bog" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="village_tk236" name="{=TAIKOU_sett_village_tk236}八代" owner="Faction.clan_g" posX="216.0" posY="286.6" culture="Culture.ikoku">
+  <Settlement id="village_tk236" name="{=TAIKOU_sett_village_tk236}八代" owner="Faction.clan_g" posX="326.8" posY="317.9" culture="Culture.ikoku">
     <Components>
       <Village id="village_comp_tk236" village_type="VillageType.wheat_farm" hearth="200" gate_rotation="0.008" bound="Settlement.town_tk167" background_crop_position="0.0" background_mesh="gui_bg_village_empire" wait_mesh="wait_empire_village" castle_background_mesh="gui_bg_castle_empire" />
     </Components>
@@ -3442,7 +3442,7 @@
       <Area type="Bog" name="{=TAIKOU_sett_area_bog}Bog" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="village_tk237" name="{=TAIKOU_sett_village_tk237}小仓" owner="Faction.clan_g" posX="317.8" posY="446.6" culture="Culture.ikoku">
+  <Settlement id="village_tk237" name="{=TAIKOU_sett_village_tk237}小仓" owner="Faction.clan_g" posX="400.4" posY="450.8" culture="Culture.ikoku">
     <Components>
       <Village id="village_comp_tk237" village_type="VillageType.fishing" hearth="200" gate_rotation="0.008" bound="Settlement.town_tk169" background_crop_position="0.0" background_mesh="gui_bg_village_empire" wait_mesh="wait_empire_village" castle_background_mesh="gui_bg_castle_empire" />
     </Components>
@@ -3455,7 +3455,7 @@
       <Area type="Bog" name="{=TAIKOU_sett_area_bog}Bog" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="village_tk238" name="{=TAIKOU_sett_village_tk238}府内" owner="Faction.clan_g" posX="378.9" posY="341.6" culture="Culture.ikoku">
+  <Settlement id="village_tk238" name="{=TAIKOU_sett_village_tk238}府内" owner="Faction.clan_g" posX="455.9" posY="389.8" culture="Culture.ikoku">
     <Components>
       <Village id="village_comp_tk238" village_type="VillageType.iron_mine" hearth="200" gate_rotation="0.008" bound="Settlement.town_tk170" background_crop_position="0.0" background_mesh="gui_bg_village_empire" wait_mesh="wait_empire_village" castle_background_mesh="gui_bg_castle_empire" />
     </Components>
@@ -3468,7 +3468,7 @@
       <Area type="Bog" name="{=TAIKOU_sett_area_bog}Bog" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="village_tk239" name="{=TAIKOU_sett_village_tk239}油津" owner="Faction.clan_g" posX="256.7" posY="141.6" culture="Culture.ikoku">
+  <Settlement id="village_tk239" name="{=TAIKOU_sett_village_tk239}油津" owner="Faction.clan_g" posX="334.9" posY="186.4" culture="Culture.ikoku">
     <Components>
       <Village id="village_comp_tk239" village_type="VillageType.horse_ranch" hearth="200" gate_rotation="0.008" bound="Settlement.town_tk174" background_crop_position="0.0" background_mesh="gui_bg_village_empire" wait_mesh="wait_empire_village" castle_background_mesh="gui_bg_castle_empire" />
     </Components>
@@ -3481,7 +3481,7 @@
       <Area type="Bog" name="{=TAIKOU_sett_area_bog}Bog" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="village_tk240" name="{=TAIKOU_sett_village_tk240}鹿屋" owner="Faction.clan_g" posX="175.2" posY="131.6" culture="Culture.ikoku">
+  <Settlement id="village_tk240" name="{=TAIKOU_sett_village_tk240}鹿屋" owner="Faction.clan_g" posX="278.9" posY="175.5" culture="Culture.ikoku">
     <Components>
       <Village id="village_comp_tk240" village_type="VillageType.silk_plant" hearth="200" gate_rotation="0.008" bound="Settlement.town_tk176" background_crop_position="0.0" background_mesh="gui_bg_village_empire" wait_mesh="wait_empire_village" castle_background_mesh="gui_bg_castle_empire" />
     </Components>
@@ -3494,9 +3494,9 @@
       <Area type="Bog" name="{=TAIKOU_sett_area_bog}Bog" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="village_tk241" name="{=TAIKOU_sett_village_tk241}鹿儿岛" owner="Faction.clan_g" posX="154.9" posY="171.6" culture="Culture.ikoku">
+  <Settlement id="village_tk241" name="{=TAIKOU_sett_village_tk241}鹿儿岛" owner="Faction.clan_g" posX="278.4" posY="198.9" culture="Culture.ikoku">
     <Components>
-      <Village id="village_comp_tk241" village_type="VillageType.vineyard" hearth="200" gate_rotation="0.008" bound="Settlement.town_tk178" background_crop_position="0.0" background_mesh="gui_bg_village_empire" wait_mesh="wait_empire_village" castle_background_mesh="gui_bg_castle_empire" />
+      <Village id="village_comp_tk241" village_type="VillageType.vineyard" hearth="200" gate_rotation="0.008" bound="Settlement.town_tk177" background_crop_position="0.0" background_mesh="gui_bg_village_empire" wait_mesh="wait_empire_village" castle_background_mesh="gui_bg_castle_empire" />
     </Components>
     <Locations complex_template="LocationComplexTemplate.village_complex">
       <Location id="village_center" scene_name="empire_village_002" />
@@ -3507,59 +3507,7 @@
       <Area type="Bog" name="{=TAIKOU_sett_area_bog}Bog" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="village_tk242" name="{=TAIKOU_sett_village_tk242}釜山" owner="Faction.clan_g" posX="-18.2" posY="1326.6" culture="Culture.ikoku">
-    <Components>
-      <Village id="village_comp_tk242" village_type="VillageType.wheat_farm" hearth="200" gate_rotation="0.008" bound="Settlement.town_tk155" background_crop_position="0.0" background_mesh="gui_bg_village_empire" wait_mesh="wait_empire_village" castle_background_mesh="gui_bg_castle_empire" />
-    </Components>
-    <Locations complex_template="LocationComplexTemplate.village_complex">
-      <Location id="village_center" scene_name="empire_village_003" />
-    </Locations>
-    <CommonAreas>
-      <Area type="Pasture" name="{=TAIKOU_sett_area_pasture}Pasture" />
-      <Area type="Thicket" name="{=TAIKOU_sett_area_thicket}Thicket" />
-      <Area type="Bog" name="{=TAIKOU_sett_area_bog}Bog" />
-    </CommonAreas>
-  </Settlement>
-  <Settlement id="village_tk243" name="{=TAIKOU_sett_village_tk243}宁波" owner="Faction.clan_g" posX="-58.9" posY="1286.6" culture="Culture.ikoku">
-    <Components>
-      <Village id="village_comp_tk243" village_type="VillageType.fishing" hearth="200" gate_rotation="0.008" bound="Settlement.town_tk155" background_crop_position="0.0" background_mesh="gui_bg_village_empire" wait_mesh="wait_empire_village" castle_background_mesh="gui_bg_castle_empire" />
-    </Components>
-    <Locations complex_template="LocationComplexTemplate.village_complex">
-      <Location id="village_center" scene_name="empire_village_004" />
-    </Locations>
-    <CommonAreas>
-      <Area type="Pasture" name="{=TAIKOU_sett_area_pasture}Pasture" />
-      <Area type="Thicket" name="{=TAIKOU_sett_area_thicket}Thicket" />
-      <Area type="Bog" name="{=TAIKOU_sett_area_bog}Bog" />
-    </CommonAreas>
-  </Settlement>
-  <Settlement id="village_tk244" name="{=TAIKOU_sett_village_tk244}那霸" owner="Faction.clan_g" posX="-28.4" posY="1266.6" culture="Culture.ikoku">
-    <Components>
-      <Village id="village_comp_tk244" village_type="VillageType.iron_mine" hearth="200" gate_rotation="0.008" bound="Settlement.town_tk155" background_crop_position="0.0" background_mesh="gui_bg_village_empire" wait_mesh="wait_empire_village" castle_background_mesh="gui_bg_castle_empire" />
-    </Components>
-    <Locations complex_template="LocationComplexTemplate.village_complex">
-      <Location id="village_center" scene_name="empire_village_005" />
-    </Locations>
-    <CommonAreas>
-      <Area type="Pasture" name="{=TAIKOU_sett_area_pasture}Pasture" />
-      <Area type="Thicket" name="{=TAIKOU_sett_area_thicket}Thicket" />
-      <Area type="Bog" name="{=TAIKOU_sett_area_bog}Bog" />
-    </CommonAreas>
-  </Settlement>
-  <Settlement id="village_tk245" name="{=TAIKOU_sett_village_tk245}吕宋" owner="Faction.clan_g" posX="-58.9" posY="1191.6" culture="Culture.ikoku">
-    <Components>
-      <Village id="village_comp_tk245" village_type="VillageType.horse_ranch" hearth="200" gate_rotation="0.008" bound="Settlement.town_tk155" background_crop_position="0.0" background_mesh="gui_bg_village_empire" wait_mesh="wait_empire_village" castle_background_mesh="gui_bg_castle_empire" />
-    </Components>
-    <Locations complex_template="LocationComplexTemplate.village_complex">
-      <Location id="village_center" scene_name="empire_village_006" />
-    </Locations>
-    <CommonAreas>
-      <Area type="Pasture" name="{=TAIKOU_sett_area_pasture}Pasture" />
-      <Area type="Thicket" name="{=TAIKOU_sett_area_thicket}Thicket" />
-      <Area type="Bog" name="{=TAIKOU_sett_area_bog}Bog" />
-    </CommonAreas>
-  </Settlement>
-  <Settlement id="castle_tk246" name="{=TAIKOU_sett_castle_tk246}黑胫巾" owner="Faction.clan_g" posX="1743.2" posY="681.6" culture="Culture.ikoku">
+  <Settlement id="castle_tk246" name="{=TAIKOU_sett_castle_tk246}黑胫巾" owner="Faction.clan_g" posX="1681.6" posY="668.3" culture="Culture.ikoku">
     <Components>
       <Town id="castle_comp_tk246" is_castle="true" level="1" background_crop_position="0.0" background_mesh="menu_empire_1" wait_mesh="wait_empire_town" gate_rotation="0.908" prosperity="420" />
     </Components>
@@ -3569,7 +3517,7 @@
       <Location id="prison" scene_name="empire_dungeon_a" />
     </Locations>
   </Settlement>
-  <Settlement id="castle_tk247" name="{=TAIKOU_sett_castle_tk247}羽黑" owner="Faction.clan_g" posX="1666.9" posY="746.6" culture="Culture.ikoku">
+  <Settlement id="castle_tk247" name="{=TAIKOU_sett_castle_tk247}羽黑" owner="Faction.clan_g" posX="1620.8" posY="728.8" culture="Culture.ikoku">
     <Components>
       <Town id="castle_comp_tk247" is_castle="true" level="1" background_crop_position="0.0" background_mesh="menu_empire_1" wait_mesh="wait_empire_town" gate_rotation="0.908" prosperity="420" />
     </Components>
@@ -3579,7 +3527,7 @@
       <Location id="prison" scene_name="empire_dungeon_a" />
     </Locations>
   </Settlement>
-  <Settlement id="castle_tk248" name="{=TAIKOU_sett_castle_tk248}风魔" owner="Faction.clan_g" posX="1402.2" posY="361.6" culture="Culture.ikoku">
+  <Settlement id="castle_tk248" name="{=TAIKOU_sett_castle_tk248}风魔" owner="Faction.clan_g" posX="1360.2" posY="376.7" culture="Culture.ikoku">
     <Components>
       <Town id="castle_comp_tk248" is_castle="true" level="1" background_crop_position="0.0" background_mesh="menu_empire_1" wait_mesh="wait_empire_town" gate_rotation="0.908" prosperity="420" />
     </Components>
@@ -3589,7 +3537,7 @@
       <Location id="prison" scene_name="empire_dungeon_a" />
     </Locations>
   </Settlement>
-  <Settlement id="castle_tk249" name="{=TAIKOU_sett_castle_tk249}户隐" owner="Faction.clan_g" posX="1346.2" posY="566.6" culture="Culture.ikoku">
+  <Settlement id="castle_tk249" name="{=TAIKOU_sett_castle_tk249}户隐" owner="Faction.clan_g" posX="1328.4" posY="565.9" culture="Culture.ikoku">
     <Components>
       <Town id="castle_comp_tk249" is_castle="true" level="1" background_crop_position="0.0" background_mesh="menu_empire_1" wait_mesh="wait_empire_town" gate_rotation="0.908" prosperity="420" />
     </Components>
@@ -3599,7 +3547,7 @@
       <Location id="prison" scene_name="empire_dungeon_a" />
     </Locations>
   </Settlement>
-  <Settlement id="castle_tk250" name="{=TAIKOU_sett_castle_tk250}透波" owner="Faction.clan_g" posX="1371.6" posY="431.6" culture="Culture.ikoku">
+  <Settlement id="castle_tk250" name="{=TAIKOU_sett_castle_tk250}透波" owner="Faction.clan_g" posX="1339.4" posY="441.4" culture="Culture.ikoku">
     <Components>
       <Town id="castle_comp_tk250" is_castle="true" level="1" background_crop_position="0.0" background_mesh="menu_empire_1" wait_mesh="wait_empire_town" gate_rotation="0.908" prosperity="420" />
     </Components>
@@ -3609,7 +3557,7 @@
       <Location id="prison" scene_name="empire_dungeon_a" />
     </Locations>
   </Settlement>
-  <Settlement id="castle_tk251" name="{=TAIKOU_sett_castle_tk251}伊贺" owner="Faction.clan_g" posX="1015.2" posY="366.6" culture="Culture.ikoku">
+  <Settlement id="castle_tk251" name="{=TAIKOU_sett_castle_tk251}伊贺" owner="Faction.clan_g" posX="1025.5" posY="384.6" culture="Culture.ikoku">
     <Components>
       <Town id="castle_comp_tk251" is_castle="true" level="1" background_crop_position="0.0" background_mesh="menu_empire_1" wait_mesh="wait_empire_town" gate_rotation="0.908" prosperity="420" />
     </Components>
@@ -3619,7 +3567,7 @@
       <Location id="prison" scene_name="empire_dungeon_a" />
     </Locations>
   </Settlement>
-  <Settlement id="castle_tk252" name="{=TAIKOU_sett_castle_tk252}轩辙" owner="Faction.clan_g" posX="1361.4" posY="596.6" culture="Culture.ikoku">
+  <Settlement id="castle_tk252" name="{=TAIKOU_sett_castle_tk252}轩辙" owner="Faction.clan_g" posX="1344.0" posY="593.3" culture="Culture.ikoku">
     <Components>
       <Town id="castle_comp_tk252" is_castle="true" level="1" background_crop_position="0.0" background_mesh="menu_empire_1" wait_mesh="wait_empire_town" gate_rotation="0.908" prosperity="420" />
     </Components>
@@ -3629,7 +3577,7 @@
       <Location id="prison" scene_name="empire_dungeon_a" />
     </Locations>
   </Settlement>
-  <Settlement id="castle_tk253" name="{=TAIKOU_sett_castle_tk253}甲贺" owner="Faction.clan_g" posX="1025.4" posY="396.6" culture="Culture.ikoku">
+  <Settlement id="castle_tk253" name="{=TAIKOU_sett_castle_tk253}甲贺" owner="Faction.clan_g" posX="1036.8" posY="412.1" culture="Culture.ikoku">
     <Components>
       <Town id="castle_comp_tk253" is_castle="true" level="1" background_crop_position="0.0" background_mesh="menu_empire_1" wait_mesh="wait_empire_town" gate_rotation="0.908" prosperity="420" />
     </Components>
@@ -3639,7 +3587,7 @@
       <Location id="prison" scene_name="empire_dungeon_a" />
     </Locations>
   </Settlement>
-  <Settlement id="castle_tk254" name="{=TAIKOU_sett_castle_tk254}根来" owner="Faction.clan_g" posX="882.9" posY="331.6" culture="Culture.ikoku">
+  <Settlement id="castle_tk254" name="{=TAIKOU_sett_castle_tk254}根来" owner="Faction.clan_g" posX="908.0" posY="353.5" culture="Culture.ikoku">
     <Components>
       <Town id="castle_comp_tk254" is_castle="true" level="1" background_crop_position="0.0" background_mesh="menu_empire_1" wait_mesh="wait_empire_town" gate_rotation="0.908" prosperity="420" />
     </Components>
@@ -3649,7 +3597,7 @@
       <Location id="prison" scene_name="empire_dungeon_a" />
     </Locations>
   </Settlement>
-  <Settlement id="castle_tk255" name="{=TAIKOU_sett_castle_tk255}外间" owner="Faction.clan_g" posX="602.9" posY="461.6" culture="Culture.ikoku">
+  <Settlement id="castle_tk255" name="{=TAIKOU_sett_castle_tk255}外间" owner="Faction.clan_g" posX="676.1" posY="475.6" culture="Culture.ikoku">
     <Components>
       <Town id="castle_comp_tk255" is_castle="true" level="1" background_crop_position="0.0" background_mesh="menu_empire_1" wait_mesh="wait_empire_town" gate_rotation="0.908" prosperity="420" />
     </Components>
@@ -3659,7 +3607,7 @@
       <Location id="prison" scene_name="empire_dungeon_a" />
     </Locations>
   </Settlement>
-  <Settlement id="castle_tk256" name="{=TAIKOU_sett_castle_tk256}钵屋" owner="Faction.clan_g" posX="623.2" posY="556.6" culture="Culture.ikoku">
+  <Settlement id="castle_tk256" name="{=TAIKOU_sett_castle_tk256}钵屋" owner="Faction.clan_g" posX="701.5" posY="562.9" culture="Culture.ikoku">
     <Components>
       <Town id="castle_comp_tk256" is_castle="true" level="1" background_crop_position="0.0" background_mesh="menu_empire_1" wait_mesh="wait_empire_town" gate_rotation="0.908" prosperity="420" />
     </Components>
@@ -3669,7 +3617,7 @@
       <Location id="prison" scene_name="empire_dungeon_a" />
     </Locations>
   </Settlement>
-  <Settlement id="castle_tk257" name="{=TAIKOU_sett_castle_tk257}山潜" owner="Faction.clan_g" posX="190.5" posY="231.6" culture="Culture.ikoku">
+  <Settlement id="castle_tk257" name="{=TAIKOU_sett_castle_tk257}山潜" owner="Faction.clan_g" posX="300.3" posY="267.5" culture="Culture.ikoku">
     <Components>
       <Town id="castle_comp_tk257" is_castle="true" level="1" background_crop_position="0.0" background_mesh="menu_empire_1" wait_mesh="wait_empire_town" gate_rotation="0.908" prosperity="420" />
     </Components>
@@ -3679,7 +3627,7 @@
       <Location id="prison" scene_name="empire_dungeon_a" />
     </Locations>
   </Settlement>
-  <Settlement id="castle_tk258" name="{=TAIKOU_sett_castle_tk258}十三凑" owner="Faction.clan_g" posX="1819.6" posY="1016.6" culture="Culture.ikoku">
+  <Settlement id="castle_tk258" name="{=TAIKOU_sett_castle_tk258}十三凑" owner="Faction.clan_g" posX="1774.6" posY="975.6" culture="Culture.ikoku">
     <Components>
       <Town id="castle_comp_tk258" is_castle="true" level="1" background_crop_position="0.0" background_mesh="menu_empire_1" wait_mesh="wait_empire_town" gate_rotation="0.908" prosperity="420" />
     </Components>
@@ -3689,7 +3637,7 @@
       <Location id="prison" scene_name="empire_dungeon_a" />
     </Locations>
   </Settlement>
-  <Settlement id="castle_tk259" name="{=TAIKOU_sett_castle_tk259}石卷" owner="Faction.clan_g" posX="1824.7" posY="666.6" culture="Culture.ikoku">
+  <Settlement id="castle_tk259" name="{=TAIKOU_sett_castle_tk259}石卷" owner="Faction.clan_g" posX="1736.6" posY="664.2" culture="Culture.ikoku">
     <Components>
       <Town id="castle_comp_tk259" is_castle="true" level="1" background_crop_position="0.0" background_mesh="menu_empire_1" wait_mesh="wait_empire_town" gate_rotation="0.908" prosperity="420" />
     </Components>
@@ -3699,7 +3647,7 @@
       <Location id="prison" scene_name="empire_dungeon_a" />
     </Locations>
   </Settlement>
-  <Settlement id="castle_tk260" name="{=TAIKOU_sett_castle_tk260}拍崎" owner="Faction.clan_g" posX="1432.7" posY="626.6" culture="Culture.ikoku">
+  <Settlement id="castle_tk260" name="{=TAIKOU_sett_castle_tk260}拍崎" owner="Faction.clan_g" posX="1411.2" posY="617.3" culture="Culture.ikoku">
     <Components>
       <Town id="castle_comp_tk260" is_castle="true" level="1" background_crop_position="0.0" background_mesh="menu_empire_1" wait_mesh="wait_empire_town" gate_rotation="0.908" prosperity="420" />
     </Components>
@@ -3709,7 +3657,7 @@
       <Location id="prison" scene_name="empire_dungeon_a" />
     </Locations>
   </Settlement>
-  <Settlement id="castle_tk261" name="{=TAIKOU_sett_castle_tk261}冈本" owner="Faction.clan_g" posX="1478.5" posY="291.6" culture="Culture.ikoku">
+  <Settlement id="castle_tk261" name="{=TAIKOU_sett_castle_tk261}冈本" owner="Faction.clan_g" posX="1373.7" posY="337.9" culture="Culture.ikoku">
     <Components>
       <Town id="castle_comp_tk261" is_castle="true" level="1" background_crop_position="0.0" background_mesh="menu_empire_1" wait_mesh="wait_empire_town" gate_rotation="0.908" prosperity="420" />
     </Components>
@@ -3719,7 +3667,7 @@
       <Location id="prison" scene_name="empire_dungeon_a" />
     </Locations>
   </Settlement>
-  <Settlement id="castle_tk262" name="{=TAIKOU_sett_castle_tk262}一崎" owner="Faction.clan_g" posX="1458.2" posY="316.6" culture="Culture.ikoku">
+  <Settlement id="castle_tk262" name="{=TAIKOU_sett_castle_tk262}一崎" owner="Faction.clan_g" posX="1360.2" posY="322.9" culture="Culture.ikoku">
     <Components>
       <Town id="castle_comp_tk262" is_castle="true" level="1" background_crop_position="0.0" background_mesh="menu_empire_1" wait_mesh="wait_empire_town" gate_rotation="0.908" prosperity="420" />
     </Components>
@@ -3729,7 +3677,7 @@
       <Location id="prison" scene_name="empire_dungeon_a" />
     </Locations>
   </Settlement>
-  <Settlement id="castle_tk263" name="{=TAIKOU_sett_castle_tk263}清水" owner="Faction.clan_g" posX="1315.6" posY="341.6" culture="Culture.ikoku">
+  <Settlement id="castle_tk263" name="{=TAIKOU_sett_castle_tk263}清水" owner="Faction.clan_g" posX="1283.6" posY="359.0" culture="Culture.ikoku">
     <Components>
       <Town id="castle_comp_tk263" is_castle="true" level="1" background_crop_position="0.0" background_mesh="menu_empire_1" wait_mesh="wait_empire_town" gate_rotation="0.908" prosperity="420" />
     </Components>
@@ -3739,7 +3687,7 @@
       <Location id="prison" scene_name="empire_dungeon_a" />
     </Locations>
   </Settlement>
-  <Settlement id="castle_tk264" name="{=TAIKOU_sett_castle_tk264}舞鹤" owner="Faction.clan_g" posX="944.0" posY="501.6" culture="Culture.ikoku">
+  <Settlement id="castle_tk264" name="{=TAIKOU_sett_castle_tk264}舞鹤" owner="Faction.clan_g" posX="974.3" posY="508.8" culture="Culture.ikoku">
     <Components>
       <Town id="castle_comp_tk264" is_castle="true" level="1" background_crop_position="0.0" background_mesh="menu_empire_1" wait_mesh="wait_empire_town" gate_rotation="0.908" prosperity="420" />
     </Components>
@@ -3749,7 +3697,7 @@
       <Location id="prison" scene_name="empire_dungeon_a" />
     </Locations>
   </Settlement>
-  <Settlement id="castle_tk265" name="{=TAIKOU_sett_castle_tk265}鸟羽" owner="Faction.clan_g" posX="1081.4" posY="321.6" culture="Culture.ikoku">
+  <Settlement id="castle_tk265" name="{=TAIKOU_sett_castle_tk265}鸟羽" owner="Faction.clan_g" posX="1081.7" posY="342.4" culture="Culture.ikoku">
     <Components>
       <Town id="castle_comp_tk265" is_castle="true" level="1" background_crop_position="0.0" background_mesh="menu_empire_1" wait_mesh="wait_empire_town" gate_rotation="0.908" prosperity="420" />
     </Components>
@@ -3759,7 +3707,7 @@
       <Location id="prison" scene_name="empire_dungeon_a" />
     </Locations>
   </Settlement>
-  <Settlement id="castle_tk266" name="{=TAIKOU_sett_castle_tk266}洲本" owner="Faction.clan_g" posX="832.0" posY="381.6" culture="Culture.ikoku">
+  <Settlement id="castle_tk266" name="{=TAIKOU_sett_castle_tk266}洲本" owner="Faction.clan_g" posX="919.8" posY="430.8" culture="Culture.ikoku">
     <Components>
       <Town id="castle_comp_tk266" is_castle="true" level="1" background_crop_position="0.0" background_mesh="menu_empire_1" wait_mesh="wait_empire_town" gate_rotation="0.908" prosperity="420" />
     </Components>
@@ -3769,7 +3717,7 @@
       <Location id="prison" scene_name="empire_dungeon_a" />
     </Locations>
   </Settlement>
-  <Settlement id="castle_tk267" name="{=TAIKOU_sett_castle_tk267}美保关" owner="Faction.clan_g" posX="669.1" posY="586.6" culture="Culture.ikoku">
+  <Settlement id="castle_tk267" name="{=TAIKOU_sett_castle_tk267}美保关" owner="Faction.clan_g" posX="778.3" posY="555.8" culture="Culture.ikoku">
     <Components>
       <Town id="castle_comp_tk267" is_castle="true" level="1" background_crop_position="0.0" background_mesh="menu_empire_1" wait_mesh="wait_empire_town" gate_rotation="0.908" prosperity="420" />
     </Components>
@@ -3779,7 +3727,7 @@
       <Location id="prison" scene_name="empire_dungeon_a" />
     </Locations>
   </Settlement>
-  <Settlement id="castle_tk268" name="{=TAIKOU_sett_castle_tk268}盐饱" owner="Faction.clan_g" posX="684.3" posY="416.6" culture="Culture.ikoku">
+  <Settlement id="castle_tk268" name="{=TAIKOU_sett_castle_tk268}盐饱" owner="Faction.clan_g" posX="727.8" posY="455.8" culture="Culture.ikoku">
     <Components>
       <Town id="castle_comp_tk268" is_castle="true" level="1" background_crop_position="0.0" background_mesh="menu_empire_1" wait_mesh="wait_empire_town" gate_rotation="0.908" prosperity="420" />
     </Components>
@@ -3789,7 +3737,7 @@
       <Location id="prison" scene_name="empire_dungeon_a" />
     </Locations>
   </Settlement>
-  <Settlement id="castle_tk269" name="{=TAIKOU_sett_castle_tk269}岛" owner="Faction.clan_g" posX="592.7" posY="411.6" culture="Culture.ikoku">
+  <Settlement id="castle_tk269" name="{=TAIKOU_sett_castle_tk269}岛" owner="Faction.clan_g" posX="670.3" posY="398.3" culture="Culture.ikoku">
     <Components>
       <Town id="castle_comp_tk269" is_castle="true" level="1" background_crop_position="0.0" background_mesh="menu_empire_1" wait_mesh="wait_empire_town" gate_rotation="0.908" prosperity="420" />
     </Components>
@@ -3799,7 +3747,7 @@
       <Location id="prison" scene_name="empire_dungeon_a" />
     </Locations>
   </Settlement>
-  <Settlement id="castle_tk270" name="{=TAIKOU_sett_castle_tk270}千市" owner="Faction.clan_g" posX="648.7" posY="311.6" culture="Culture.ikoku">
+  <Settlement id="castle_tk270" name="{=TAIKOU_sett_castle_tk270}千市" owner="Faction.clan_g" posX="710.3" posY="346.4" culture="Culture.ikoku">
     <Components>
       <Town id="castle_comp_tk270" is_castle="true" level="1" background_crop_position="0.0" background_mesh="menu_empire_1" wait_mesh="wait_empire_town" gate_rotation="0.908" prosperity="420" />
     </Components>
@@ -3809,7 +3757,7 @@
       <Location id="prison" scene_name="empire_dungeon_a" />
     </Locations>
   </Settlement>
-  <Settlement id="castle_tk271" name="{=TAIKOU_sett_castle_tk271}一尺屋" owner="Faction.clan_g" posX="394.2" posY="336.6" culture="Culture.ikoku">
+  <Settlement id="castle_tk271" name="{=TAIKOU_sett_castle_tk271}一尺屋" owner="Faction.clan_g" posX="466.9" posY="342.4" culture="Culture.ikoku">
     <Components>
       <Town id="castle_comp_tk271" is_castle="true" level="1" background_crop_position="0.0" background_mesh="menu_empire_1" wait_mesh="wait_empire_town" gate_rotation="0.908" prosperity="420" />
     </Components>
@@ -3819,7 +3767,7 @@
       <Location id="prison" scene_name="empire_dungeon_a" />
     </Locations>
   </Settlement>
-  <Settlement id="castle_tk272" name="{=TAIKOU_sett_castle_tk272}江川" owner="Faction.clan_g" posX="-2.9" posY="371.6" culture="Culture.ikoku">
+  <Settlement id="castle_tk272" name="{=TAIKOU_sett_castle_tk272}江川" owner="Faction.clan_g" posX="104.6" posY="395.3" culture="Culture.ikoku">
     <Components>
       <Town id="castle_comp_tk272" is_castle="true" level="1" background_crop_position="0.0" background_mesh="menu_empire_1" wait_mesh="wait_empire_town" gate_rotation="0.908" prosperity="420" />
     </Components>
@@ -3829,7 +3777,7 @@
       <Location id="prison" scene_name="empire_dungeon_a" />
     </Locations>
   </Settlement>
-  <Settlement id="castle_tk273" name="{=TAIKOU_sett_castle_tk273}坊津" owner="Faction.clan_g" posX="98.9" posY="146.6" culture="Culture.ikoku">
+  <Settlement id="castle_tk273" name="{=TAIKOU_sett_castle_tk273}坊津" owner="Faction.clan_g" posX="214.0" posY="190.0" culture="Culture.ikoku">
     <Components>
       <Town id="castle_comp_tk273" is_castle="true" level="1" background_crop_position="0.0" background_mesh="menu_empire_1" wait_mesh="wait_empire_town" gate_rotation="0.908" prosperity="420" />
     </Components>

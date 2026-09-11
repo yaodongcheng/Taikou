@@ -6,19 +6,34 @@
     <tag language="English" />
   </tags>
   <strings>
+    <string id="TAIKOU_KEY" text="fallback 本地化。 --&gt;
+  &lt;Recommended order=" />
     <string id="TAIKOU_adjective_for_culture" text="Japanese" />
     <string id="TAIKOU_adjective_for_faction" text="Japanese" />
     <string id="TAIKOU_clan_g" text="Clan G" />
     <string id="TAIKOU_clan_g_short" text="Clan G" />
     <string id="TAIKOU_clan_g_text" text="The house of Clan G (spike placeholder)." />
+    <string id="TAIKOU_clan_hattori_1" text="Hattori" />
+    <string id="TAIKOU_clan_hattori_1_text" text="The shadows of Iga." />
+    <string id="TAIKOU_clan_kuki_1" text="Kuki" />
+    <string id="TAIKOU_clan_kuki_1_text" text="The sea lords of Kumano." />
     <string id="TAIKOU_clan_oda" text="Oda Nobunaga" />
     <string id="TAIKOU_clan_oda_short" text="Oda" />
     <string id="TAIKOU_clan_oda_text" text="The house of Oda of Owari." />
+    <string id="TAIKOU_clan_ruzon_1" text="Naya" />
+    <string id="TAIKOU_clan_ruzon_1_text" text="The merchants of Sakai." />
+    <string id="TAIKOU_clan_yagyuu_1" text="Yagyuu" />
+    <string id="TAIKOU_clan_yagyuu_1_text" text="The sword school of Yagyuu." />
     <string id="TAIKOU_culture_description_ikoku" text="The inhabitants of the Japanese archipelago live in an age of ceaseless war. Centuries of imperial rule have collapsed into a fractured era of feuding warlords, and the shogun's authority burns dim beside the field of banners. Rulers who hold the force of arms are made and unmade in a single season; yet beyond the smoke of battle, the merchant's ledger, the monk's chant and the poet's brush endure, and no conquest can long stand that cannot be honored in the turning of a blade." />
     <string id="TAIKOU_culture_ikoku" text="Japanese" />
     <string id="TAIKOU_culture_neutral" text="Neutral" />
     <string id="TAIKOU_culture_rich_name_ikoku" text="Japanese" />
     <string id="TAIKOU_daimyo" text="Daimyo" />
+    <string id="TAIKOU_dim_charm" text="Charisma" />
+    <string id="TAIKOU_dim_command" text="Command" />
+    <string id="TAIKOU_dim_force" text="Valor" />
+    <string id="TAIKOU_dim_govern" text="Governance" />
+    <string id="TAIKOU_dim_wisdom" text="Wisdom" />
     <string id="TAIKOU_faction_formal_name" text="Japan" />
     <string id="TAIKOU_faction_informal_name" text="Japan" />
     <string id="TAIKOU_faction_noble_name_with_title" text="Lord " />
@@ -29,8 +44,13 @@
     <string id="TAIKOU_faction_ruler_name_with_title" text="Daimyo " />
     <string id="TAIKOU_faction_ruler_term_in_speech" text="the Daimyo " />
     <string id="TAIKOU_hero_g" text="Lord G" />
+    <string id="TAIKOU_hero_hanzo" text="Hattori Hanzo" />
+    <string id="TAIKOU_hero_kinoshita" text="Kinoshita Tokichiro" />
+    <string id="TAIKOU_hero_kuki" text="Kuki Yoshitaka" />
     <string id="TAIKOU_hero_nobunaga" text="Oda Nobunaga" />
+    <string id="TAIKOU_hero_ruzon" text="Naya Sukezaemon" />
     <string id="TAIKOU_hero_shibata" text="Shibata Katsuie" />
+    <string id="TAIKOU_hero_yagyuu" text="Yagyuu Munetoshi" />
     <string id="TAIKOU_kingdom_g" text="Kingdom G" />
     <string id="TAIKOU_kingdom_g_short" text="Kingdom G" />
     <string id="TAIKOU_kingdom_g_text" text="The realm of Kingdom G (spike placeholder)." />
@@ -376,5 +396,31 @@
     <string id="TAIKOU_sett_village_tk244" text="那霸" />
     <string id="TAIKOU_sett_village_tk245" text="吕宋" />
     <string id="TAIKOU_short_term_for_faction" text="Japan" />
+    <string id="TAIKOU_skill_archer" text="Archery" />
+    <string id="TAIKOU_skill_arthmetic" text="Arithmetic" />
+    <string id="TAIKOU_skill_build" text="Construction" />
+    <string id="TAIKOU_skill_combat" text="Swordsmanship" />
+    <string id="TAIKOU_skill_debate" text="Rhetoric" />
+    <string id="TAIKOU_skill_etiquette" text="Etiquette" />
+    <string id="TAIKOU_skill_farm" text="Farming" />
+    <string id="TAIKOU_skill_gun" text="Gunnery" />
+    <string id="TAIKOU_skill_medical" text="Medicine" />
+    <string id="TAIKOU_skill_military" text="Strategy" />
+    <string id="TAIKOU_skill_mine" text="Mining" />
+    <string id="TAIKOU_skill_mount" text="Horsemanship" />
+    <string id="TAIKOU_skill_navy" text="Navy" />
+    <string id="TAIKOU_skill_ninja" text="Ninjutsu" />
+    <string id="TAIKOU_skill_soldier" text="Spearmen" />
+    <string id="TAIKOU_skill_tea" text="Tea Ceremony" />
+    <string id="TAIKOU_story_goal_hanzo" text="Unite the realm under the lord you serve. Your work is espionage, seizure and sabotage." />
+    <string id="TAIKOU_story_goal_kinoshita" text="Rise from the ranks and unite the realm. Governance, arms and diplomacy must all be mastered." />
+    <string id="TAIKOU_story_goal_kuki" text="Unite the realm under the lord you serve. Subdue the rival sea lords and pacify the waters." />
+    <string id="TAIKOU_story_goal_ruzon" text="Dominate the markets of the realm. Raise your fortune by trade and by every means at hand." />
+    <string id="TAIKOU_story_goal_yagyuu" text="Perfect your sword and become the finest blade in the land. To that end, revive your school and gather disciples." />
+    <string id="TAIKOU_story_type_bushi" text="Samurai Story" />
+    <string id="TAIKOU_story_type_kenkou" text="Swordmaster Story" />
+    <string id="TAIKOU_story_type_ninja" text="Ninja Story" />
+    <string id="TAIKOU_story_type_shounin" text="Merchant Story" />
+    <string id="TAIKOU_story_type_suigun" text="Sea Lord Story" />
   </strings>
 </base>

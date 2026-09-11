@@ -4,7 +4,7 @@
 <Kingdoms>
 	<Kingdom
 		id="kingdom_oda"
-		owner="Hero.lord_oda_nobunaga"
+		owner="Hero.lord_1_oda"
 		banner_key="11.80.84.864.864.763.762.1.0.0.671.18.103.483.483.764.729.0.0.0"
 		primary_banner_color="0xff7a94d0"
 		secondary_banner_color="0xff1d2c53"

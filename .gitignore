@@ -10,9 +10,31 @@
 # 2. 重新放行两个目标目录
 !/ModuleData/
 !/SceneObj/
-# 3. SceneObj 下只放行 Main_map（ShaderCache 是生成缓存，随 Main_map 一并入库，共约 4MB）
+# 3. SceneObj 下只放行 Main_map
 /SceneObj/*
 !/SceneObj/Main_map/
 # 4. 深入放行目录内全部文件
 !/ModuleData/**
 !/SceneObj/Main_map/**
+
+# ===== 5. 生成缓存：**排除**（2026-09-11 用户裁定；以下规则必须排在放行规则**之后**，
+#         gitignore 是「最后一条命中的规则生效」，写在前面会被上面的 ! 放行盖掉）=====
+#
+# 5.1 据点距离缓存 —— **引擎运行期产物**（只在文件不存在时自建），不是数据源。
+#     库里存一份 = 存一份**陈旧**的：世界改过据点后引擎不重写它，玩家拿到旧缓存
+#     → 家宅打分 `1 − 0/0` = NaN → **家宅/王国家园永远选不中**（雷 53）。
+#     留库里比删掉更糟：删掉条目引擎首跑会重建正确的，留着则一直是错的。
+#     体检入口：Scripts/check_settlement_distance_cache.py
+ModuleData/settlements_distance_cache.bin
+#
+# 5.2 shader 编译缓存 —— D3D11 产物，与显卡/驱动/引擎版本绑定，跨机器无意义。
+#     （原注释「ShaderCache 是生成缓存，随 Main_map 一并入库」的决定已撤回。）
+SceneObj/Main_map/ShaderCache/
+#
+# 🔴 **不在本节的**（有意保留入库，别顺手加进来）：
+#     SceneObj/Main_map/terrain.bin   —— 日本地图地形本体（= 地图本身，缺了没图）
+#     SceneObj/Main_map/navmesh.bin   —— 编辑器烘焙的导航网格（缺 = native AccessViolation，
+#                                        重建要在编辑器里重烘焙，属"生成物但必须交付"）
+#     SceneObj/Main_map/flora.bin     —— 植被表（12 字节占位）
+#     这三份也是二进制、也 diff 不了，但它们是**交付物**：判断标准不是"能不能 diff"，
+#     而是"能不能低成本重跑生成"——地图本体与烘焙产物都不是。

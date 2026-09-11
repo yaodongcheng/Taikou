@@ -1,5 +1,6 @@
-30
+31
 mesh mi_aserai_tower_2
+mesh village_empire_1
 texture cliff_c_h
 texture cliff_c_s
 texture desert_floor_b_n

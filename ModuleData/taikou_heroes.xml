@@ -1,10 +1,26 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- TaikouCampaign heroes 最小集（2026-09-08 精简裁定：3 名——玩家 + 织田家领主 2 同家族；
-     今川全删/家谱删（father/mother 无消费：3 阶段 CC 无家庭阶段）——见 plans/太阁数据加载taikou-campaign-boot-20260907.md）。 -->
+<!-- TaikouCampaign heroes 最小集（2026-09-08 精简裁定：玩家 + 织田家领主 2；2026-09-11 追加「推荐」五人）。
+     今川全删/家谱删（father/mother 无消费：3 阶段 CC 无家庭阶段）——见 plans/太阁数据加载taikou-campaign-boot-20260907.md。
+
+     🔴 每条 <Hero id="X"> 必须有同名 <NPCCharacter id="X">（spnpccharacters.xml），否则**静默被吞**
+        （英雄数少一个 → 家族无可用领主指挥官 → HeroSpawnCampaignBehavior.GetBestAvailableCommander NRE）。
+
+     「推荐」五人（太阁5 五种故事型）：id = CSV 制式，与立绘表 / 画像表同键；1560 年归属见各行注释。
+       木下藤吉郎 → 织田家（1560 足轻组头，史实正确）
+       其余四人 CSV 的 1560 归属分别是今川家 / 无 / 熊野水军 / 纳屋——这些势力当前世界尚未建立，
+       故各自立家族（独立家族，无王国），正是太阁5 里「忍者/剑豪/水军/商人」不走武家仕途的对应形态。
+       🔴 T4 全量数据接入时改由 CSV 的 Kingdom_<年>/Clan_<年> 列生成，本段届时作废。 -->
 <Heroes>
-	<!-- 英雄最小集（2026-09-08 精简裁定：3 名——玩家 + 织田家领主 2（同家族）；
+	<!-- 英雄最小集（2026-09-08 精简裁定：玩家 + 织田家领主 2（同家族）；
 	     main_hero 家谱（father/mother）已删：3 阶段 CC 无家庭阶段，无人消费 -->
 	<Hero id="main_hero" faction="Faction.player_faction"/>
-	<Hero id="lord_oda_nobunaga" faction="Faction.clan_oda" text="{=TAIKOU_hero_nobunaga}Oda Nobunaga"/>
-	<Hero id="lord_oda_shibata_katsuie" faction="Faction.clan_oda" text="{=TAIKOU_hero_shibata}Shibata Katsuie"/>
+	<Hero id="lord_1_oda" faction="Faction.clan_oda" text="{=TAIKOU_hero_nobunaga}Oda Nobunaga"/>
+	<Hero id="lord_1_shibata" faction="Faction.clan_oda" text="{=TAIKOU_hero_shibata}Shibata Katsuie"/>
+
+	<!-- 「推荐」五人（1560 五种故事型） -->
+	<Hero id="lord_1_kinoshita" faction="Faction.clan_oda" text="{=TAIKOU_hero_kinoshita}Kinoshita Tokichiro"/>
+	<Hero id="lord_1_hattori_hanzo" faction="Faction.clan_hattori_1" text="{=TAIKOU_hero_hanzo}Hattori Hanzo"/>
+	<Hero id="lord_1_yagyuu_sekishuusai" faction="Faction.clan_yagyuu_1" text="{=TAIKOU_hero_yagyuu}Yagyuu Munetoshi"/>
+	<Hero id="lord_1_kuki" faction="Faction.clan_kuki_1" text="{=TAIKOU_hero_kuki}Kuki Yoshitaka"/>
+	<Hero id="lord_1_ruzon_sukezaemon" faction="Faction.clan_ruzon_1" text="{=TAIKOU_hero_ruzon}Naya Sukezaemon"/>
 </Heroes>

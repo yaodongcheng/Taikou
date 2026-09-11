@@ -1,11 +1,38 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- TaikouCampaign 家族最小集（v0 占位）：织田/今川 + 玩家占位家族 -->
+<!-- TaikouCampaign 家族最小集（v0 占位）：织田 + 玩家占位家族
+     + 「推荐」四家（2026-09-11）——服部/柳生/九鬼/纳屋，均为**独立家族（无 super_faction）**：
+     它们在 CSV 的 1560 归属是今川家 / 无 / 熊野水军 / 纳屋，这些势力当前世界尚未建立，
+     故各自立家族；对应太阁5 里忍者/剑豪/水军/商人「不走武家仕途」的形态。
+     banner_key 借用官方 SandBox 家族款式（美术占位，与 gen_taikou_era_diff.py 的 spike 家族同口径）。 -->
 <Factions>
-	<Faction id="clan_oda" is_noble="true" owner="Hero.lord_oda_nobunaga" banner_key="11.80.84.864.864.763.762.1.0.0.671.18.103.483.483.764.729.0.0.0" is_minor_faction="false" super_faction="Kingdom.kingdom_oda" label_color="FF5573BE" color="FF5573BE" color2="FFDE9953" alternative_color="FFCBC25D" alternative_color2="FF5D6347" culture="Culture.ikoku" settlement_banner_mesh="encounter_flag_a" name="{=TAIKOU_clan_oda}Oda Nobunaga" short_name="{=TAIKOU_clan_oda_short}Oda" title="{=TAIKOU_clan_oda_short}Oda" text="{=TAIKOU_clan_oda_text}The house of Oda of Owari." tier="3">
+	<Faction id="clan_oda" is_noble="true" owner="Hero.lord_1_oda" banner_key="11.80.84.864.864.763.762.1.0.0.671.18.103.483.483.764.729.0.0.0" is_minor_faction="false" super_faction="Kingdom.kingdom_oda" label_color="FF5573BE" color="FF5573BE" color2="FFDE9953" alternative_color="FFCBC25D" alternative_color2="FF5D6347" culture="Culture.ikoku" settlement_banner_mesh="encounter_flag_a" name="{=TAIKOU_clan_oda}Oda Nobunaga" short_name="{=TAIKOU_clan_oda_short}Oda" title="{=TAIKOU_clan_oda_short}Oda" text="{=TAIKOU_clan_oda_text}The house of Oda of Owari." tier="3">
 		<Influence>
 			<base_influence value="60.0"/>
 		</Influence>
 	</Faction>
 	<!-- 玩家占位家族（建号结束后主角加入；织丰母本字段最小版） -->
 	<Faction id="player_faction" is_noble="true" owner="Hero.main_hero" banner_key="11.154.116.1536.1536.768.768.1.0.0.609.15.155.483.483.773.729.0.0.0" is_minor_faction="false" label_color="FFD2C0AA" color="FF8D5C44" color2="FFE9A74D" alternative_color="FF6C5749" alternative_color2="FFB3A491" culture="Culture.ikoku" settlement_banner_mesh="encounter_flag_a" name="{=TAIKOU_player_faction}" tier="0"/>
+
+	<!-- ── 「推荐」四家（独立家族：无 super_faction）── -->
+	<Faction id="clan_hattori_1" is_noble="true" owner="Hero.lord_1_hattori_hanzo" banner_key="11.148.148.1536.1536.768.768.1.0.0.151.0.155.522.522.764.764.0.0.0" is_minor_faction="false" label_color="FF3E4A63" color="FF3E4A63" color2="FF8FA0C0" alternative_color="FF2B3346" alternative_color2="FF6E7C99" culture="Culture.ikoku" settlement_banner_mesh="encounter_flag_a" name="{=TAIKOU_clan_hattori_1}Hattori" short_name="{=TAIKOU_clan_hattori_1}Hattori" title="{=TAIKOU_clan_hattori_1}Hattori" text="{=TAIKOU_clan_hattori_1_text}The shadows of Iga." tier="2">
+		<Influence>
+			<base_influence value="30.0"/>
+		</Influence>
+	</Faction>
+	<Faction id="clan_yagyuu_1" is_noble="true" owner="Hero.lord_1_yagyuu_sekishuusai" banner_key="11.154.154.1536.1536.764.764.1.0.0.222.150.155.483.483.764.764.0.0.0" is_minor_faction="false" label_color="FF7A6A4A" color="FF7A6A4A" color2="FFD8C89A" alternative_color="FF574A32" alternative_color2="FFB0A176" culture="Culture.ikoku" settlement_banner_mesh="encounter_flag_a" name="{=TAIKOU_clan_yagyuu_1}Yagyuu" short_name="{=TAIKOU_clan_yagyuu_1}Yagyuu" title="{=TAIKOU_clan_yagyuu_1}Yagyuu" text="{=TAIKOU_clan_yagyuu_1_text}The sword school of Yagyuu." tier="2">
+		<Influence>
+			<base_influence value="30.0"/>
+		</Influence>
+	</Faction>
+	<Faction id="clan_kuki_1" is_noble="true" owner="Hero.lord_1_kuki" banner_key="14.2.95.1536.1536.764.764.1.0.0.148.41.0.454.454.764.764.0.0.0" is_minor_faction="false" label_color="FF2E5F8D" color="FF2E5F8D" color2="FF9CC6E8" alternative_color="FF1F425F" alternative_color2="FF6E93B3" culture="Culture.ikoku" settlement_banner_mesh="encounter_flag_a" name="{=TAIKOU_clan_kuki_1}Kuki" short_name="{=TAIKOU_clan_kuki_1}Kuki" title="{=TAIKOU_clan_kuki_1}Kuki" text="{=TAIKOU_clan_kuki_1_text}The sea lords of Kumano." tier="2">
+		<Influence>
+			<base_influence value="30.0"/>
+		</Influence>
+	</Faction>
+	<Faction id="clan_ruzon_1" is_noble="true" owner="Hero.lord_1_ruzon_sukezaemon" banner_key="11.2.2.1536.1536.764.764.1.0.0.219.155.155.454.454.764.764.0.0.0" is_minor_faction="false" label_color="FFA8813C" color="FFA8813C" color2="FFE8CE8E" alternative_color="FF775B27" alternative_color2="FFC4A961" culture="Culture.ikoku" settlement_banner_mesh="encounter_flag_a" name="{=TAIKOU_clan_ruzon_1}Naya" short_name="{=TAIKOU_clan_ruzon_1}Naya" title="{=TAIKOU_clan_ruzon_1}Naya" text="{=TAIKOU_clan_ruzon_1_text}The merchants of Sakai." tier="2">
+		<Influence>
+			<base_influence value="30.0"/>
+		</Influence>
+	</Faction>
 </Factions>
+

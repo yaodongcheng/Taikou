@@ -36,6 +36,42 @@
     <string id="TAIKOU_hero_nobunaga" text="织田信长" />
     <string id="TAIKOU_hero_g" text="G 家当主" />
     <string id="TAIKOU_hero_shibata" text="柴田胜家" />
+    <string id="TAIKOU_hero_kinoshita" text="木下藤吉郎" />
+    <string id="TAIKOU_hero_hanzo" text="服部半藏" />
+    <string id="TAIKOU_hero_yagyuu" text="柳生宗严" />
+    <string id="TAIKOU_hero_kuki" text="九鬼嘉隆" />
+    <string id="TAIKOU_hero_ruzon" text="纳屋助左卫门" />
+    <string id="TAIKOU_story_type_bushi" text="武士型故事" />
+    <string id="TAIKOU_story_type_ninja" text="忍者型故事" />
+    <string id="TAIKOU_story_type_kenkou" text="剑豪型故事" />
+    <string id="TAIKOU_story_type_suigun" text="水军型故事" />
+    <string id="TAIKOU_story_type_shounin" text="商人型故事" />
+    <string id="TAIKOU_story_goal_kinoshita" text="以出人头地，统一天下为目标。内政，军备，外交需面面俱到。" />
+    <string id="TAIKOU_story_goal_hanzo" text="以自己的支持大名统一天下为目标。主要任务为谍报，夺取，破坏活动。" />
+    <string id="TAIKOU_story_goal_yagyuu" text="以磨练剑术成为天下第一为目标。为此要振兴流派，广收弟子。" />
+    <string id="TAIKOU_story_goal_kuki" text="以自己的支持大名统一天下为目标。需要讨伐其他水军，平定海域。" />
+    <string id="TAIKOU_story_goal_ruzon" text="以称霸全国商业圈为目标，要透过买卖等各种手段筹集资金。" />
+    <string id="TAIKOU_dim_command" text="统率" />
+    <string id="TAIKOU_dim_force" text="武力" />
+    <string id="TAIKOU_dim_govern" text="政务" />
+    <string id="TAIKOU_dim_wisdom" text="智谋" />
+    <string id="TAIKOU_dim_charm" text="魅力" />
+    <string id="TAIKOU_skill_soldier" text="足轻" />
+    <string id="TAIKOU_skill_mount" text="骑马" />
+    <string id="TAIKOU_skill_gun" text="火枪" />
+    <string id="TAIKOU_skill_navy" text="水军" />
+    <string id="TAIKOU_skill_archer" text="弓术" />
+    <string id="TAIKOU_skill_combat" text="武艺" />
+    <string id="TAIKOU_skill_military" text="军学" />
+    <string id="TAIKOU_skill_ninja" text="忍术" />
+    <string id="TAIKOU_skill_build" text="建筑" />
+    <string id="TAIKOU_skill_farm" text="开垦" />
+    <string id="TAIKOU_skill_mine" text="矿山" />
+    <string id="TAIKOU_skill_arthmetic" text="算术" />
+    <string id="TAIKOU_skill_etiquette" text="礼法" />
+    <string id="TAIKOU_skill_debate" text="辩才" />
+    <string id="TAIKOU_skill_tea" text="茶道" />
+    <string id="TAIKOU_skill_medical" text="医术" />
     <string id="TAIKOU_kingdom_oda" text="织田家" />
     <string id="TAIKOU_kingdom_oda_short" text="织田" />
     <string id="TAIKOU_kingdom_oda_text" text="尾张的织田家。" />
@@ -48,6 +84,14 @@
     <string id="TAIKOU_clan_g" text="G 家" />
     <string id="TAIKOU_clan_g_short" text="G 家" />
     <string id="TAIKOU_clan_g_text" text="G 家一门（时代切换验证占位）。" />
+    <string id="TAIKOU_clan_hattori_1" text="服部" />
+    <string id="TAIKOU_clan_hattori_1_text" text="伊贺忍者之家。" />
+    <string id="TAIKOU_clan_yagyuu_1" text="柳生" />
+    <string id="TAIKOU_clan_yagyuu_1_text" text="柳生新阴流剑术之宗。" />
+    <string id="TAIKOU_clan_kuki_1" text="九鬼" />
+    <string id="TAIKOU_clan_kuki_1_text" text="熊野滩的水军。" />
+    <string id="TAIKOU_clan_ruzon_1" text="纳屋" />
+    <string id="TAIKOU_clan_ruzon_1_text" text="堺地的商贾。" />
     <string id="TAIKOU_sett_kyoto" text="京都" />
     <string id="TAIKOU_sett_kyoto_text" text="日本皇都。" />
     <string id="TAIKOU_sett_kyoto_alley1" text="京都后巷" />
