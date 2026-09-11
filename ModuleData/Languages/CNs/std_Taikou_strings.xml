@@ -72,6 +72,35 @@
     <string id="TAIKOU_skill_debate" text="辩才" />
     <string id="TAIKOU_skill_tea" text="茶道" />
     <string id="TAIKOU_skill_medical" text="医术" />
+    <string id="TAIKOU_realm_masterless" text="无所属" />
+    <string id="TAIKOU_identity_daimyo" text="大名" />
+    <string id="TAIKOU_identity_kunishu" text="国主" />
+    <string id="TAIKOU_identity_joushu" text="城主" />
+    <string id="TAIKOU_identity_touke" text="当家" />
+    <string id="TAIKOU_identity_karou" text="家老" />
+    <string id="TAIKOU_identity_bushou" text="部将" />
+    <string id="TAIKOU_identity_samurai_daishou" text="侍大将" />
+    <string id="TAIKOU_identity_ashigaru_daishou" text="足轻大将" />
+    <string id="TAIKOU_identity_ashigaru_kumigashira" text="足轻组头" />
+    <string id="TAIKOU_identity_touryou" text="头领" />
+    <string id="TAIKOU_identity_toumoku" text="头目" />
+    <string id="TAIKOU_identity_shihan" text="师范" />
+    <string id="TAIKOU_identity_shihandai" text="师范代" />
+    <string id="TAIKOU_identity_jounin" text="上忍" />
+    <string id="TAIKOU_identity_chunin" text="中忍" />
+    <string id="TAIKOU_identity_genin" text="下忍" />
+    <string id="TAIKOU_identity_rounin" text="浪人" />
+    <string id="TAIKOU_identity_minarai" text="见习" />
+    <string id="TAIKOU_identity_kakei" text="伙计" />
+    <string id="TAIKOU_identity_shoukai" text="掌柜" />
+    <string id="TAIKOU_identity_souryo" text="僧侣" />
+    <string id="TAIKOU_identity_ishi" text="医师" />
+    <string id="TAIKOU_identity_chajin" text="茶人" />
+    <string id="TAIKOU_identity_suifu" text="水夫" />
+    <string id="TAIKOU_identity_suifutou" text="水夫头" />
+    <string id="TAIKOU_identity_sendou" text="船头" />
+    <string id="TAIKOU_identity_funadaishou" text="船大将" />
+    <string id="TAIKOU_identity_kajishi" text="锻冶匠" />
     <string id="TAIKOU_kingdom_oda" text="织田家" />
     <string id="TAIKOU_kingdom_oda_short" text="织田" />
     <string id="TAIKOU_kingdom_oda_text" text="尾张的织田家。" />

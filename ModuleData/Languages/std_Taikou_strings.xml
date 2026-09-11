@@ -43,7 +43,7 @@
     <string id="TAIKOU_faction_ruler_f" text="Daimyo" />
     <string id="TAIKOU_faction_ruler_name_with_title" text="Daimyo " />
     <string id="TAIKOU_faction_ruler_term_in_speech" text="the Daimyo " />
-    <string id="TAIKOU_hero_g" text="Lord G" />
+    <string id="TAIKOU_hero_g" text="Lord G (spike placeholder)" />
     <string id="TAIKOU_hero_hanzo" text="Hattori Hanzo" />
     <string id="TAIKOU_hero_kinoshita" text="Kinoshita Tokichiro" />
     <string id="TAIKOU_hero_kuki" text="Kuki Yoshitaka" />
@@ -51,6 +51,12 @@
     <string id="TAIKOU_hero_ruzon" text="Naya Sukezaemon" />
     <string id="TAIKOU_hero_shibata" text="Shibata Katsuie" />
     <string id="TAIKOU_hero_yagyuu" text="Yagyuu Munetoshi" />
+    <string id="TAIKOU_identity_ashigaru_kumigashira" text="Ashigaru Corporal" />
+    <string id="TAIKOU_identity_daimyo" text="Daimyo" />
+    <string id="TAIKOU_identity_karou" text="Senior Retainer" />
+    <string id="TAIKOU_identity_minarai" text="Apprentice" />
+    <string id="TAIKOU_identity_shihan" text="Master" />
+    <string id="TAIKOU_identity_touryou" text="Chief" />
     <string id="TAIKOU_kingdom_g" text="Kingdom G" />
     <string id="TAIKOU_kingdom_g_short" text="Kingdom G" />
     <string id="TAIKOU_kingdom_g_text" text="The realm of Kingdom G (spike placeholder)." />
@@ -110,6 +116,7 @@
     <string id="TAIKOU_player_faction" text="" />
     <string id="TAIKOU_player_father_name" text="Denbei" />
     <string id="TAIKOU_player_mother_name" text="Kinu" />
+    <string id="TAIKOU_realm_masterless" text="Masterless" />
     <string id="TAIKOU_sett_area_backstreet" text="Backstreet" />
     <string id="TAIKOU_sett_area_bog" text="Bog" />
     <string id="TAIKOU_sett_area_clearing" text="Clearing" />
@@ -391,10 +398,6 @@
     <string id="TAIKOU_sett_village_tk239" text="油津" />
     <string id="TAIKOU_sett_village_tk240" text="鹿屋" />
     <string id="TAIKOU_sett_village_tk241" text="鹿儿岛" />
-    <string id="TAIKOU_sett_village_tk242" text="釜山" />
-    <string id="TAIKOU_sett_village_tk243" text="宁波" />
-    <string id="TAIKOU_sett_village_tk244" text="那霸" />
-    <string id="TAIKOU_sett_village_tk245" text="吕宋" />
     <string id="TAIKOU_short_term_for_faction" text="Japan" />
     <string id="TAIKOU_skill_archer" text="Archery" />
     <string id="TAIKOU_skill_arthmetic" text="Arithmetic" />
