@@ -92,13 +92,13 @@
 			 weapon_practice_stage_3="NPCCharacter.guard"
 			 weaponsmith="NPCCharacter.weaponsmith">
 		<notable_and_wanderer_templates>
-			<template name="NPCCharacter.lord_1_oda"/>
-			<template name="NPCCharacter.lord_1_shibata"/>
-			<template name="NPCCharacter.lord_1_kinoshita"/>
-			<template name="NPCCharacter.lord_1_hattori_hanzo"/>
-			<template name="NPCCharacter.lord_1_yagyuu_sekishuusai"/>
-			<template name="NPCCharacter.lord_1_kuki"/>
-			<template name="NPCCharacter.lord_1_ruzon_sukezaemon"/>
+			<template name="NPCCharacter.lord_tk5_195"/>
+			<template name="NPCCharacter.lord_tk5_379"/>
+			<template name="NPCCharacter.lord_tk5_517"/>
+			<template name="NPCCharacter.lord_tk5_587"/>
+			<template name="NPCCharacter.lord_tk5_740"/>
+			<template name="NPCCharacter.lord_tk5_279"/>
+			<template name="NPCCharacter.lord_tk5_549"/>
 			<template name="NPCCharacter.main_hero"/>
 			<template name="NPCCharacter.merchant"/>
 			<template name="NPCCharacter.artisan"/>

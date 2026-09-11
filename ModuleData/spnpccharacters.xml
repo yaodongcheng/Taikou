@@ -130,7 +130,7 @@
 		</Equipments>
 	</NPCCharacter>
 
-	<NPCCharacter id="lord_1_oda" default_group="Infantry" age="26" voice="curt" is_hero="true" is_female="false" culture="Culture.ikoku" name="{=TAIKOU_hero_nobunaga}Oda Nobunaga" occupation="Lord" banner_symbol_mesh_name="test_symbol_a" banner_symbol_color="FF000000">
+	<NPCCharacter id="lord_tk5_195" default_group="Infantry" age="26" voice="curt" is_hero="true" is_female="false" culture="Culture.ikoku" name="{=TAIKOU_hero_nobunaga}Oda Nobunaga" occupation="Lord" banner_symbol_mesh_name="test_symbol_a" banner_symbol_color="FF000000">
 		<face>
 			<face_key_template value="BodyProperty.fighter_empire"/>
 		</face>
@@ -147,7 +147,7 @@
 		</Equipments>
 	</NPCCharacter>
 
-	<NPCCharacter id="lord_1_shibata" default_group="Infantry" age="38" voice="curt" is_hero="true" is_female="false" culture="Culture.ikoku" name="{=TAIKOU_hero_shibata}Shibata Katsuie" occupation="Lord" banner_symbol_mesh_name="test_symbol_a" banner_symbol_color="FF000000">
+	<NPCCharacter id="lord_tk5_379" default_group="Infantry" age="38" voice="curt" is_hero="true" is_female="false" culture="Culture.ikoku" name="{=TAIKOU_hero_shibata}Shibata Katsuie" occupation="Lord" banner_symbol_mesh_name="test_symbol_a" banner_symbol_color="FF000000">
 		<face>
 			<face_key_template value="BodyProperty.fighter_empire"/>
 		</face>
@@ -167,7 +167,7 @@
 	     `<Heroes>` 段里的每条 `<Hero id="X">` 只有在存在同名 `<NPCCharacter id="X">` 时才会被引擎建出来
 	     ——缺模板的那条**静默被吞**（英雄数少一个，随后家族没有可用的领主指挥官 →
 	     HeroSpawnCampaignBehavior.GetBestAvailableCommander NRE）。
-	     命名/字段照 lord_1_oda 那份；新加英雄 = 这里加一份模板。 -->
+	     命名/字段照 lord_tk5_195 那份；新加英雄 = 这里加一份模板。 -->
 	<NPCCharacter id="lord_g" default_group="Infantry" age="30" voice="curt" is_hero="true" is_female="false" culture="Culture.ikoku" name="{=TAIKOU_hero_g}Lord G" occupation="Lord" banner_symbol_mesh_name="test_symbol_a" banner_symbol_color="FF000000">
 		<face>
 			<face_key_template value="BodyProperty.fighter_empire"/>
@@ -188,7 +188,7 @@
 	     id 一律用 CSV 制式（lord_1_*，铁律 20）——同一 key 同时是立绘表(ProfileStages.csv)与
 	     画像表(taikou_hero_profiles.xml)的键。age = 开局年 1560 − CSV 生年（纳屋 14 岁未及骑砍成年线
 	     18，取 18 以便可扮演）。归属家族见 spclans.xml。 -->
-	<NPCCharacter id="lord_1_kinoshita" default_group="Infantry" age="24" voice="curt" is_hero="true" is_female="false" culture="Culture.ikoku" name="{=TAIKOU_hero_kinoshita}Kinoshita Tokichiro" occupation="Lord" banner_symbol_mesh_name="test_symbol_a" banner_symbol_color="FF000000">
+	<NPCCharacter id="lord_tk5_517" default_group="Infantry" age="24" voice="curt" is_hero="true" is_female="false" culture="Culture.ikoku" name="{=TAIKOU_hero_kinoshita}Kinoshita Tokichiro" occupation="Lord" banner_symbol_mesh_name="test_symbol_a" banner_symbol_color="FF000000">
 		<face>
 			<face_key_template value="BodyProperty.fighter_empire"/>
 		</face>
@@ -204,7 +204,7 @@
 		</Equipments>
 	</NPCCharacter>
 
-	<NPCCharacter id="lord_1_hattori_hanzo" default_group="Infantry" age="18" voice="curt" is_hero="true" is_female="false" culture="Culture.ikoku" name="{=TAIKOU_hero_hanzo}Hattori Hanzo" occupation="Lord" banner_symbol_mesh_name="test_symbol_a" banner_symbol_color="FF000000">
+	<NPCCharacter id="lord_tk5_587" default_group="Infantry" age="18" voice="curt" is_hero="true" is_female="false" culture="Culture.ikoku" name="{=TAIKOU_hero_hanzo}Hattori Hanzo" occupation="Lord" banner_symbol_mesh_name="test_symbol_a" banner_symbol_color="FF000000">
 		<face>
 			<face_key_template value="BodyProperty.fighter_empire"/>
 		</face>
@@ -220,7 +220,7 @@
 		</Equipments>
 	</NPCCharacter>
 
-	<NPCCharacter id="lord_1_yagyuu_sekishuusai" default_group="Infantry" age="33" voice="curt" is_hero="true" is_female="false" culture="Culture.ikoku" name="{=TAIKOU_hero_yagyuu}Yagyuu Munetoshi" occupation="Lord" banner_symbol_mesh_name="test_symbol_a" banner_symbol_color="FF000000">
+	<NPCCharacter id="lord_tk5_740" default_group="Infantry" age="33" voice="curt" is_hero="true" is_female="false" culture="Culture.ikoku" name="{=TAIKOU_hero_yagyuu}Yagyuu Munetoshi" occupation="Lord" banner_symbol_mesh_name="test_symbol_a" banner_symbol_color="FF000000">
 		<face>
 			<face_key_template value="BodyProperty.fighter_empire"/>
 		</face>
@@ -236,7 +236,7 @@
 		</Equipments>
 	</NPCCharacter>
 
-	<NPCCharacter id="lord_1_kuki" default_group="Infantry" age="18" voice="curt" is_hero="true" is_female="false" culture="Culture.ikoku" name="{=TAIKOU_hero_kuki}Kuki Yoshitaka" occupation="Lord" banner_symbol_mesh_name="test_symbol_a" banner_symbol_color="FF000000">
+	<NPCCharacter id="lord_tk5_279" default_group="Infantry" age="18" voice="curt" is_hero="true" is_female="false" culture="Culture.ikoku" name="{=TAIKOU_hero_kuki}Kuki Yoshitaka" occupation="Lord" banner_symbol_mesh_name="test_symbol_a" banner_symbol_color="FF000000">
 		<face>
 			<face_key_template value="BodyProperty.fighter_empire"/>
 		</face>
@@ -252,7 +252,7 @@
 		</Equipments>
 	</NPCCharacter>
 
-	<NPCCharacter id="lord_1_ruzon_sukezaemon" default_group="Infantry" age="18" voice="curt" is_hero="true" is_female="false" culture="Culture.ikoku" name="{=TAIKOU_hero_ruzon}Naya Sukezaemon" occupation="Lord" banner_symbol_mesh_name="test_symbol_a" banner_symbol_color="FF000000">
+	<NPCCharacter id="lord_tk5_549" default_group="Infantry" age="18" voice="curt" is_hero="true" is_female="false" culture="Culture.ikoku" name="{=TAIKOU_hero_ruzon}Naya Sukezaemon" occupation="Lord" banner_symbol_mesh_name="test_symbol_a" banner_symbol_color="FF000000">
 		<face>
 			<face_key_template value="BodyProperty.fighter_empire"/>
 		</face>
