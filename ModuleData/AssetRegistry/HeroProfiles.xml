@@ -197,7 +197,7 @@
                command="66" force="60" govern="33" wisdom="59" charm="52" soldier="2" mount="2" gun="2"
                navy="0" archer="1" combat="1" military="3" ninja="0" build="0" farm="0" mine="0" arthmetic="0" etiquette="0" debate="0" tea="0" medical="1"
                bio="{=TAIKOU_bio_47}大内家臣，后为毛利家臣。大内家灭亡后，投靠毛利元就门下，以猛将著称，尼子家灭亡后任月山富田城代，击败了尼子残势山中鹿之介所部。后辅佐元就五子元秋统治出云。" />
-  <HeroProfile id="lord_tk5_48" birth="1537" die="1613" clan="clan_amano_1" culture="sanyo"
+  <HeroProfile id="lord_tk5_48" birth="1537" die="1613" clan="clan_amano_2" culture="sanyo"
                command="51" force="42" govern="69" wisdom="53" charm="38" soldier="0" mount="1" gun="0"
                navy="0" archer="1" combat="0" military="0" ninja="0" build="1" farm="3" mine="2" arthmetic="2" etiquette="1" debate="2" tea="1" medical="0"
                bio="{=TAIKOU_bio_48}德川家臣。又称三郎兵卫。从家康做人质时代起入德川家为家童。做为冈崎三奉行之一，断案不偏不倚受到称赞。移到关东之后，任江户镇奉行。" />
@@ -213,7 +213,7 @@
                command="68" force="76" govern="24" wisdom="30" charm="53" soldier="1" mount="2" gun="2"
                navy="0" archer="2" combat="2" military="0" ninja="2" build="0" farm="0" mine="0" arthmetic="0" etiquette="1" debate="0" tea="0" medical="0"
                bio="{=TAIKOU_bio_51}丹波豪族。因勇猛而闻名，曾与进攻丹波的明智光秀部队多次交手。在波多野家灭亡后，曾被邀请仕官于明智光秀，但氏纲拒绝之，安排其子氏清出仕。后来氏清在山崎合战中阵亡。" />
-  <HeroProfile id="lord_tk5_52" birth="1535" die="1586" clan="clan_araki_1" culture="kinai"
+  <HeroProfile id="lord_tk5_52" birth="1535" die="1586" clan="clan_araki_2" culture="kinai"
                command="71" force="69" govern="46" wisdom="69" charm="45" soldier="2" mount="1" gun="2"
                navy="0" archer="0" combat="1" military="2" ninja="0" build="1" farm="0" mine="1" arthmetic="2" etiquette="2" debate="2" tea="4" medical="0"
                bio="{=TAIKOU_bio_52}池田家臣。后是织田家臣。摄津有城主。跟随织田家担当摄津的治理。但背叛信长与石山本愿寺结盟企图谋反，将伊丹城改为龙城。未加抵抗而失败，单身逃跑。此后精通茶道，可算是利休七贤人之一。" />
@@ -237,11 +237,11 @@
                command="50" force="43" govern="71" wisdom="53" charm="54" soldier="2" mount="1" gun="0"
                navy="0" archer="0" combat="0" military="0" ninja="0" build="1" farm="3" mine="1" arthmetic="1" etiquette="1" debate="2" tea="1" medical="1"
                bio="{=TAIKOU_bio_57}德川家臣。绰号带刀。少时起近仕家康，曾从军参加姊川之战，长筿之战和长久手之战。深得家康信赖，德川幕府建立后做为近臣参与幕府的政治活动。后担任家康之子赖宣的监护人，赴纪伊。" />
-  <HeroProfile id="lord_tk5_58" birth="1516" die="1582" clan="clan_andoo_1" culture="tosan"
+  <HeroProfile id="lord_tk5_58" birth="1516" die="1582" clan="clan_andoo_2" culture="tosan"
                command="62" force="50" govern="63" wisdom="71" charm="57" soldier="2" mount="1" gun="1"
                navy="0" archer="1" combat="0" military="1" ninja="0" build="0" farm="2" mine="1" arthmetic="0" etiquette="1" debate="0" tea="1" medical="0"
                bio="{=TAIKOU_bio_58}斋藤家臣。美浓三人组之一。与稻叶一铁、氏家卜等投降织田家。后因内通武田氏而被流放。趁本能寺事变而举兵收复领地，但在与稻叶一铁的战斗中战死。" />
-  <HeroProfile id="lord_tk5_59" birth="1520" die="1589" clan="clan_andoo_1" culture="tosan"
+  <HeroProfile id="lord_tk5_59" birth="1520" die="1589" clan="clan_andoo_3" culture="tosan"
                command="41" force="28" govern="76" wisdom="54" charm="64" soldier="0" mount="1" gun="0"
                navy="0" archer="1" combat="0" military="1" ninja="0" build="2" farm="3" mine="3" arthmetic="2" etiquette="2" debate="2" tea="0" medical="2"
                bio="{=TAIKOU_bio_59}北条家臣。侍奉北条家三代人，出任小田原城的出纳奉行，主要活跃在行政方面。以制定了北条家的公共量器而闻名。该量器称「安藤升」。" />
@@ -265,7 +265,7 @@
                command="56" force="30" govern="51" wisdom="43" charm="39" soldier="1" mount="2" gun="0"
                navy="1" archer="0" combat="0" military="0" ninja="0" build="0" farm="1" mine="1" arthmetic="0" etiquette="0" debate="0" tea="1" medical="1"
                bio="{=TAIKOU_bio_64}池田家家臣。人称清兵卫。初姓香川，攻打美浓伊木山城有功，被信长赐予伊木之姓。此后，跟随池田恒兴东征西讨。其出色的表现也受到丰臣秀吉与德川家康的赞赏。关原合战后，与池田辉政一起入封播磨而成为三木城主。" />
-  <HeroProfile id="lord_tk5_65" birth="1551" die="1621" clan="clan_ikeda_1" culture="kinai"
+  <HeroProfile id="lord_tk5_65" birth="1551" die="1621" clan="clan_ikeda_2" culture="kinai"
                command="34" force="26" govern="58" wisdom="64" charm="73" soldier="0" mount="0" gun="1"
                navy="1" archer="0" combat="0" military="1" ninja="0" build="1" farm="1" mine="2" arthmetic="4" etiquette="2" debate="3" tea="2" medical="2"
                bio="{=TAIKOU_bio_65}酒田商人。屋号「镫屋」。客货输送业者。有力商人集团「三十六人众」之首，据说是奥州藤原氏灭亡时逃亡至酒田的遗臣后裔。致力于酒田的发展，在井原西鹤所著『日本永代藏』里，称其为「北国第一购米者，总左卫门之名无人不晓」。" />
@@ -293,15 +293,15 @@
                command="47" force="44" govern="48" wisdom="51" charm="34" soldier="1" mount="0" gun="0"
                navy="0" archer="0" combat="0" military="0" ninja="0" build="0" farm="0" mine="0" arthmetic="1" etiquette="0" debate="0" tea="0" medical="1"
                bio="{=TAIKOU_bio_71}伊达晴宗之四男。后成为石川晴光的义子，继承了石川氏之家业。当初与外甥伊达政宗敌对。但因其未参加小田原攻城之战，而被丰臣秀吉没收领地，之后成为政宗的家臣。" />
-  <HeroProfile id="lord_tk5_72" birth="1535" die="1592" clan="clan_ishikawa_1" culture="ou"
+  <HeroProfile id="lord_tk5_72" birth="1535" die="1592" clan="clan_ishikawa_2" culture="ou"
                command="55" force="41" govern="81" wisdom="83" charm="78" soldier="0" mount="0" gun="1"
                navy="0" archer="1" combat="0" military="2" ninja="0" build="2" farm="3" mine="2" arthmetic="3" etiquette="1" debate="3" tea="2" medical="2"
                bio="{=TAIKOU_bio_72}德川家臣，后转为丰臣家臣。曾任家康的家老，率领西三河派活动。小牧长久手之战后，逃离冈崎，投靠秀吉为臣。德川为防止军事情报泄露，将三河以来的军制改为武田流。" />
-  <HeroProfile id="lord_tk5_73" birth="1541" die="1594" clan="clan_ishikawa_1" culture="ou"
+  <HeroProfile id="lord_tk5_73" birth="1541" die="1594" clan="clan_ishikawa_3" culture="ou"
                command="19" force="78" govern="4" wisdom="61" charm="86" soldier="2" mount="0" gun="2"
                navy="0" archer="2" combat="0" military="0" ninja="4" build="0" farm="0" mine="0" arthmetic="0" etiquette="0" debate="1" tea="2" medical="1"
                bio="{=TAIKOU_bio_73}盗贼。身份不详。以京‧大阪为中心，潜入大名或公家的住宅进行偷窃。据说此人拜师百地三太夫，学得伊贺流忍术。丰臣秀吉下令前田玄以捉捕此人，抓到之后，此人在三条河原被处以锅煮的极刑。" />
-  <HeroProfile id="lord_tk5_74" birth="1506" die="1581" clan="clan_ishikawa_1" culture="ou"
+  <HeroProfile id="lord_tk5_74" birth="1506" die="1581" clan="clan_ishikawa_4" culture="ou"
                command="53" force="56" govern="56" wisdom="59" charm="60" soldier="2" mount="2" gun="1"
                navy="0" archer="2" combat="1" military="2" ninja="0" build="1" farm="2" mine="1" arthmetic="1" etiquette="0" debate="1" tea="0" medical="1"
                bio="{=TAIKOU_bio_74}南部家２３代领主，安信之弟。南部信直的生父。做为津轻郡代，辅佐２４代当主外甥晴政，为扩大南部家的势力做出了贡献。长子信直做了晴政的义子，后为２６代当主。遭家臣大浦为信奇袭，在石川城去世。" />
@@ -353,7 +353,7 @@
                command="10" force="11" govern="12" wisdom="9" charm="88" soldier="0" mount="0" gun="0"
                navy="0" archer="0" combat="0" military="0" ninja="0" build="0" farm="0" mine="0" arthmetic="1" etiquette="4" debate="1" tea="3" medical="1"
                bio="{=TAIKOU_bio_86}土佐一条家第４代家主。房基之子。因其日夜沉湎于酒色，家臣们商议后，将其驱逐出门，家督之位让于其子。之后他接受洗礼成为了天主教徒。以大友宗麟为后援，企图恢复旧领地，最终失败。" />
-  <HeroProfile id="lord_tk5_87" birth="1540" die="1582" clan="clan_ichijo_1" culture="nankai"
+  <HeroProfile id="lord_tk5_87" birth="1540" die="1582" clan="clan_ichijo_2" culture="nankai"
                command="47" force="44" govern="50" wisdom="44" charm="56" soldier="1" mount="1" gun="0"
                navy="0" archer="1" combat="0" military="1" ninja="0" build="0" farm="1" mine="1" arthmetic="0" etiquette="1" debate="0" tea="0" medical="0"
                bio="{=TAIKOU_bio_87}武田家臣。武田信虎八子，信玄的异母兄弟。武田二十四将之一，甲斐名门之后，继承一条氏家统，做为本族成员积极活动。陷入穷境的武田胜赖逃离新府城后，留守城中迎击来犯的德川家康部队，激战中被俘，后被处斩首。" />
@@ -525,11 +525,11 @@
                command="65" force="58" govern="52" wisdom="47" charm="55" soldier="1" mount="2" gun="1"
                navy="0" archer="0" combat="0" military="2" ninja="0" build="0" farm="0" mine="1" arthmetic="0" etiquette="2" debate="1" tea="0" medical="0"
                bio="{=TAIKOU_bio_129}斋藤家臣。美浓三人组之一。与稻叶、安藤投降织田家，斋藤家灭亡。在伊势平乱中战功显赫，在长岛一向讨伐中跟随柴田胜家出战，当织田军撤退时代替负伤的胜家指挥作战，直至战死。" />
-  <HeroProfile id="lord_tk5_130" birth="1565" die="1623" clan="clan_ujiie_1" culture="ou"
+  <HeroProfile id="lord_tk5_130" birth="1565" die="1623" clan="clan_ujiie_2" culture="ou"
                command="66" force="54" govern="27" wisdom="53" charm="41" soldier="2" mount="1" gun="1"
                navy="0" archer="1" combat="1" military="2" ninja="0" build="1" farm="0" mine="0" arthmetic="0" etiquette="0" debate="2" tea="0" medical="0"
                bio="{=TAIKOU_bio_130}最上家臣。成泽城主。成泽忠道之子。出身成泽家，继承氏家守栋而成为元老。在和上杉军之战中，声东击西。家主从义光开始将其当作自家人并担当领地重要职务。" />
-  <HeroProfile id="lord_tk5_131" birth="1534" die="1591" clan="clan_ujiie_1" culture="ou"
+  <HeroProfile id="lord_tk5_131" birth="1534" die="1591" clan="clan_ujiie_2" culture="ou"
                command="50" force="52" govern="60" wisdom="80" charm="77" soldier="1" mount="1" gun="1"
                navy="0" archer="0" combat="0" military="3" ninja="0" build="0" farm="0" mine="0" arthmetic="1" etiquette="2" debate="3" tea="1" medical="1"
                bio="{=TAIKOU_bio_131}最上家臣。定直之子。专长谋略，在对天童家和白乌家的讨伐中贡献巨大。在最上义光的家业继承时，作为与伊达辉宗和解的使者。另外，在真实城的攻打谋略方面，帮助义光出谋划策。" />
@@ -597,7 +597,7 @@
                command="57" force="51" govern="16" wisdom="42" charm="59" soldier="2" mount="1" gun="1"
                navy="0" archer="2" combat="2" military="2" ninja="0" build="0" farm="0" mine="0" arthmetic="0" etiquette="0" debate="0" tea="0" medical="1"
                bio="{=TAIKOU_bio_147}浅井家臣。浅井家的猛将。向主公长政进言暗杀织田信长，不被采纳。姊川交战时打了败仗，同伙都离散了，他单身冲入信长的本阵寻死。" />
-  <HeroProfile id="lord_tk5_148" birth="1532" die="1585" clan="clan_endo_1" culture="kinai"
+  <HeroProfile id="lord_tk5_148" birth="1532" die="1585" clan="clan_endo_2" culture="kinai"
                command="13" force="16" govern="78" wisdom="60" charm="52" soldier="0" mount="0" gun="0"
                navy="0" archer="0" combat="0" military="1" ninja="0" build="2" farm="3" mine="3" arthmetic="3" etiquette="2" debate="2" tea="0" medical="2"
                bio="{=TAIKOU_bio_148}伊达家臣。役行者金传坊之子。伊达家宿老中野宗期间，其才能被发现，侍奉辉宗。受辉宗信任，宗时下台后，成为宿老。担当政事，与织田信长以书信交往。辉宗死后，殉死于其墓前。" />
@@ -609,11 +609,11 @@
                command="49" force="82" govern="36" wisdom="63" charm="21" soldier="1" mount="1" gun="1"
                navy="0" archer="2" combat="3" military="1" ninja="0" build="0" farm="0" mine="0" arthmetic="1" etiquette="2" debate="2" tea="1" medical="0"
                bio="{=TAIKOU_bio_150}奥州豪族。盐松城主。依形势变化与诸家联合，应付乱世。在伊达政宗做了伊达家领主时，前往米泽城投靠，后做为政宗的属下在多次战斗中发挥作用。此外还是擅使十文字枪的高手。" />
-  <HeroProfile id="lord_tk5_151" birth="1520" die="1569" clan="clan_ouchi_1" culture="ou"
+  <HeroProfile id="lord_tk5_151" birth="1520" die="1569" clan="clan_ouchi_2" culture="ou"
                command="51" force="47" govern="45" wisdom="45" charm="50" soldier="1" mount="1" gun="1"
                navy="1" archer="1" combat="1" military="1" ninja="0" build="0" farm="1" mine="0" arthmetic="1" etiquette="2" debate="0" tea="0" medical="0"
                bio="{=TAIKOU_bio_151}周防大内家一族。大内义隆的堂兄弟。与当主‧义隆对立之后逃到丰后，受到大友家的庇护。主家灭亡之后，接受大友家的援助，为了复兴大内家而举兵出征。虽然召集遗臣一起踏上过去的领土‧周防，但最后竟败给毛利家而自杀。" />
-  <HeroProfile id="lord_tk5_152" birth="1532" die="1557" clan="clan_ouchi_1" culture="ou"
+  <HeroProfile id="lord_tk5_152" birth="1532" die="1557" clan="clan_ouchi_3" culture="ou"
                command="38" force="29" govern="28" wisdom="35" charm="37" soldier="0" mount="0" gun="0"
                navy="0" archer="0" combat="0" military="0" ninja="0" build="1" farm="0" mine="0" arthmetic="0" etiquette="3" debate="0" tea="2" medical="1"
                bio="{=TAIKOU_bio_152}大内家当主。大友宗麟之弟。起初的名字为晴英。因母亲为大内义隆之姊，而成为义隆的义子。后来因为陶晴贤的叛变，被拥立为大内家当主。在拜受将军‧足利义辉的一字名讳后，改名为义长。从严岛合战起便开始受到毛利家的压迫，最后被迫自杀身亡。" />
@@ -657,7 +657,7 @@
                command="51" force="55" govern="43" wisdom="60" charm="35" soldier="1" mount="0" gun="1"
                navy="2" archer="1" combat="2" military="1" ninja="0" build="0" farm="0" mine="0" arthmetic="0" etiquette="2" debate="2" tea="0" medical="0"
                bio="{=TAIKOU_bio_162}北条家家臣。资正之子。岩槻城城主。虽然起初身为扇谷上杉家家臣之一与父亲‧资正一起对抗北条家，但当资正外出时，与北条家私通成为北条家家臣。拒绝资正的归城并且放逐资正，成为了岩槻城城主。后来在三船山合战中败给安房里见家而阵亡。" />
-  <HeroProfile id="lord_tk5_163" birth="1527" die="1611" clan="clan_otaa_1" culture="kanto"
+  <HeroProfile id="lord_tk5_163" birth="1527" die="1611" clan="clan_otaa_2" culture="kanto"
                command="37" force="79" govern="62" wisdom="66" charm="71" soldier="1" mount="0" gun="0"
                navy="0" archer="4" combat="0" military="1" ninja="0" build="0" farm="1" mine="0" arthmetic="1" etiquette="3" debate="3" tea="0" medical="2"
                bio="{=TAIKOU_bio_163}织田家家臣。『信长公记』的作者。因为射箭功力有过人之处而成为信长的直属，后来侍奉秀吉。在内政方面施展手腕之余，也致力于军记书物的著作。除了『信长公记』之外，还遗留下『太合样军记之内』等贵重的历史实录书物。" />
@@ -701,7 +701,7 @@
                command="24" force="31" govern="41" wisdom="29" charm="53" soldier="0" mount="0" gun="1"
                navy="0" archer="0" combat="0" military="1" ninja="0" build="0" farm="0" mine="0" arthmetic="2" etiquette="3" debate="0" tea="1" medical="1"
                bio="{=TAIKOU_bio_173}信浓守护‧小笠原家的嫡系。由于数度败给武田信玄，因此投靠上杉谦信而栖身于越后。后来虽移住摄津，又因信长的侵攻而再度向上杉求助。谦信死后，转而倚赖会津芦名家，最后在该地死去。" />
-  <HeroProfile id="lord_tk5_174" birth="1547" die="1600" clan="clan_okamoto_1" culture="hokuriku"
+  <HeroProfile id="lord_tk5_174" birth="1547" die="1600" clan="clan_okamoto_2" culture="hokuriku"
                command="51" force="62" govern="34" wisdom="51" charm="65" soldier="1" mount="1" gun="1"
                navy="1" archer="1" combat="1" military="2" ninja="1" build="1" farm="1" mine="0" arthmetic="0" etiquette="0" debate="0" tea="0" medical="0"
                bio="{=TAIKOU_bio_174}细川家家臣。人称少斋。在细川忠兴出兵会津征伐时，奉命担任玉造细川邸的警护。在石田三成一举出兵压制大阪后，遵从夫人‧葛拉夏（玉子）的请求，用枪刺杀夫人后，自己也一同殉死。" />
@@ -725,15 +725,15 @@
                command="62" force="65" govern="46" wisdom="32" charm="61" soldier="2" mount="1" gun="2"
                navy="4" archer="1" combat="2" military="1" ninja="1" build="2" farm="0" mine="0" arthmetic="1" etiquette="0" debate="0" tea="0" medical="2"
                bio="{=TAIKOU_bio_179}里见家一族。名为安泰。起初虽出家为僧，后来还俗继承父亲的职位。起初他是以冈本城为据点率领里见水军中的一支，后来被主家请求将城让给里见义弘来防备北条家，他爽快地答应了。之后成为了里见义赖的家老。" />
-  <HeroProfile id="lord_tk5_180" birth="1519" die="1583" clan="clan_okumura_1" culture="kanto"
+  <HeroProfile id="lord_tk5_180" birth="1519" die="1583" clan="clan_okumura_2" culture="kanto"
                command="9" force="8" govern="68" wisdom="70" charm="49" soldier="0" mount="0" gun="0"
                navy="0" archer="0" combat="0" military="0" ninja="0" build="1" farm="1" mine="1" arthmetic="1" etiquette="3" debate="3" tea="2" medical="3"
                bio="{=TAIKOU_bio_180}佐竹家臣。作为僧人侍奉在佐竹义笃、义昭、义重等三代人左右。在白河结城家和古河公方文书来往中，在外交中均起到了相当大的作用。待遇优厚，是仅次于佐竹家族的重要人物。" />
-  <HeroProfile id="lord_tk5_181" birth="1537" die="1606" clan="clan_okumura_1" culture="kanto"
+  <HeroProfile id="lord_tk5_181" birth="1537" die="1606" clan="clan_okumura_3" culture="kanto"
                command="70" force="62" govern="22" wisdom="27" charm="53" soldier="1" mount="2" gun="2"
                navy="0" archer="1" combat="4" military="1" ninja="0" build="0" farm="0" mine="0" arthmetic="0" etiquette="2" debate="0" tea="0" medical="0"
                bio="{=TAIKOU_bio_181}相良家臣。１９岁起初次出征以来，历经了１９次作战屡建战功。萨磨大口之战时征讨过岛津家臣川上久朗。之后，著有相良家臣忠军备忘录「冈本赖氏战场日记」。枪法也很有名。" />
-  <HeroProfile id="lord_tk5_182" birth="1546" die="1585" clan="clan_okudaira_1" culture="sanyo"
+  <HeroProfile id="lord_tk5_182" birth="1546" die="1585" clan="clan_okudaira_2" culture="sanyo"
                command="58" force="54" govern="60" wisdom="59" charm="52" soldier="1" mount="1" gun="4"
                navy="2" archer="1" combat="1" military="1" ninja="2" build="0" farm="0" mine="0" arthmetic="0" etiquette="0" debate="0" tea="0" medical="1"
                bio="{=TAIKOU_bio_182}纪伊的豪族，杂贺党成员。积极参加守卫石山本愿寺。擅长射击技术，据说在狙击指挥进攻本愿寺的织田信长的战斗中，曾使信长腿部受伤。后投降信长，信长去世后，投靠丰臣秀吉。" />
@@ -817,11 +817,11 @@
                command="21" force="90" govern="11" wisdom="8" charm="45" soldier="1" mount="1" gun="0"
                navy="0" archer="2" combat="4" military="2" ninja="3" build="0" farm="0" mine="0" arthmetic="0" etiquette="0" debate="0" tea="0" medical="0"
                bio="{=TAIKOU_bio_202}剑术家。起初担任大阪淀川的船头，与伊藤一刀斋相遇后，成为门下头号弟子向一刀斋学习剑术。浪迹各国至下总小金原，为争夺一刀流秘传书的继承权，而与同门师弟‧御子神典膳（小野忠明）决斗，最后因战败而丧命。" />
-  <HeroProfile id="lord_tk5_203" birth="1569" die="1628" clan="clan_sugiya_1" culture="ou"
+  <HeroProfile id="lord_tk5_203" birth="1569" die="1628" clan="clan_sugiya_2" culture="ou"
                command="44" force="90" govern="9" wisdom="52" charm="58" soldier="1" mount="0" gun="0"
                navy="0" archer="1" combat="4" military="3" ninja="0" build="0" farm="0" mine="0" arthmetic="0" etiquette="1" debate="0" tea="0" medical="0"
                bio="{=TAIKOU_bio_203}剑术家。小野派一刀流的创始人。起初侍奉里见家，名为御子神典膳。为了提升自己的剑术至较高的境界而遍历各国时，拜伊藤一刀斋为师。打败师兄‧小野善鬼而获传一刀斋的精髓。在一刀斋的推举之下，担任德川秀忠的剑术指导，而成为小野派一刀流的开山祖师。" />
-  <HeroProfile id="lord_tk5_204" birth="1536" die="1597" clan="clan_sugiya_1" culture="ou"
+  <HeroProfile id="lord_tk5_204" birth="1536" die="1597" clan="clan_sugiya_3" culture="ou"
                command="63" force="49" govern="60" wisdom="66" charm="51" soldier="1" mount="1" gun="1"
                navy="0" archer="1" combat="1" military="2" ninja="0" build="1" farm="2" mine="1" arthmetic="0" etiquette="2" debate="1" tea="0" medical="1"
                bio="{=TAIKOU_bio_204}小野寺家十三代当主。又名辉道。父亲‧惟道因家臣的反叛而自裁身亡，景道为了避难，逃到大宝寺家以求庇护。后来举兵报了父仇而夺回本城。甚至成功地征服了周围的豪族，创造了小野寺家的全盛期，但在关原合战时，由于隶属于西军之下，因此没落。" />
@@ -857,7 +857,7 @@
                command="36" force="42" govern="44" wisdom="21" charm="36" soldier="0" mount="1" gun="1"
                navy="0" archer="0" combat="0" military="0" ninja="0" build="0" farm="1" mine="1" arthmetic="0" etiquette="1" debate="0" tea="0" medical="0"
                bio="{=TAIKOU_bio_212}长宗我部元亲之次子。以赞岐豪族香川信景义子的身份继位家督，从事赞岐的经营。曾为天雾城城主，但败于丰臣军后退归土佐。长兄信亲战死后，家中并无让他继承家业的意思，遂于失意中病死。" />
-  <HeroProfile id="lord_tk5_213" birth="1527" die="1578" clan="clan_kagawa_1" culture="nankai"
+  <HeroProfile id="lord_tk5_213" birth="1527" die="1578" clan="clan_kagawa_2" culture="nankai"
                command="35" force="41" govern="42" wisdom="52" charm="34" soldier="0" mount="0" gun="0"
                navy="0" archer="0" combat="0" military="1" ninja="0" build="1" farm="0" mine="0" arthmetic="0" etiquette="0" debate="1" tea="0" medical="1"
                bio="{=TAIKOU_bio_213}细川家臣。赞岐天雾城主。主家没落后跟随三好义贤。一时间内内通毛利元就，义贤回国后又转向义贤。以后又内通织田信长，由于屈服了长宗我部元亲的侵入，将家业让给了元亲之次子亲和。" />
@@ -925,19 +925,19 @@
                command="35" force="39" govern="58" wisdom="45" charm="49" soldier="0" mount="0" gun="0"
                navy="0" archer="1" combat="0" military="0" ninja="0" build="1" farm="2" mine="0" arthmetic="2" etiquette="1" debate="1" tea="0" medical="0"
                bio="{=TAIKOU_bio_229}今川家臣。氏广之子。葛山城主。在骏东郡领地，执行了家臣宅地分配，年上贡减免和领地内社寺保护等独立政策。由于串通进出骏河的武田信玄而没落，而将领地让给了武田信玄的六儿子。" />
-  <HeroProfile id="lord_tk5_230" birth="1562" die="1611" clan="clan_katō_1" culture="tokai"
+  <HeroProfile id="lord_tk5_230" birth="1562" die="1611" clan="clan_katoo_1" culture="tokai"
                command="80" force="87" govern="60" wisdom="57" charm="79" soldier="4" mount="3" gun="3"
                navy="2" archer="2" combat="3" military="2" ninja="1" build="4" farm="0" mine="2" arthmetic="0" etiquette="0" debate="1" tea="1" medical="0"
                bio="{=TAIKOU_bio_230}丰臣家臣。出生于尾张中村。幼名虎之助。在贱岳之战中建功，是贱岳七本枪之一。征讨九州时表现也很突出，成为了肥后的大名。秀吉死后，与石田三成对立，关原之战归属东军。不仅武功高强，而且也专长筑城和治水。" />
-  <HeroProfile id="lord_tk5_231" birth="1533" die="1572" clan="clan_katō_1" culture="tokai"
+  <HeroProfile id="lord_tk5_231" birth="1533" die="1572" clan="clan_katoo_3" culture="tokai"
                command="65" force="79" govern="13" wisdom="78" charm="21" soldier="2" mount="0" gun="2"
                navy="1" archer="2" combat="2" military="1" ninja="4" build="0" farm="0" mine="0" arthmetic="2" etiquette="0" debate="0" tea="0" medical="0"
                bio="{=TAIKOU_bio_231}忍者。幻术师。人称飞侠加藤。为了要侍奉上杉家，便在越后春日山城下施展「吞牛之术」，使民众们惊讶不已。后来不受上杉谦信信任后，就逃亡至甲斐。改仕武田信玄，但其奇异举动令武田信玄不快，最后被武田家家臣所杀害。" />
-  <HeroProfile id="lord_tk5_232" birth="1537" die="1593" clan="clan_katō_1" culture="tokai"
+  <HeroProfile id="lord_tk5_232" birth="1537" die="1593" clan="clan_katoo_1" culture="tokai"
                command="52" force="54" govern="51" wisdom="49" charm="34" soldier="0" mount="1" gun="1"
                navy="0" archer="0" combat="0" military="0" ninja="0" build="0" farm="1" mine="0" arthmetic="1" etiquette="0" debate="0" tea="1" medical="1"
                bio="{=TAIKOU_bio_232}斋藤家臣，后为丰臣家臣。是斋藤龙兴家臣加藤景泰之子。最初侍奉龙兴，龙兴没落后，又侍奉丰臣秀吉，在攻占浅井、播磨三木城战斗中战功显赫，在讨伐小田原后，成为甲府城主。" />
-  <HeroProfile id="lord_tk5_233" birth="1563" die="1631" clan="clan_katō_1" culture="tokai"
+  <HeroProfile id="lord_tk5_233" birth="1563" die="1631" clan="clan_katoo_2" culture="tokai"
                command="68" force="78" govern="53" wisdom="56" charm="69" soldier="2" mount="2" gun="2"
                navy="3" archer="2" combat="3" military="2" ninja="0" build="2" farm="0" mine="0" arthmetic="0" etiquette="1" debate="0" tea="0" medical="0"
                bio="{=TAIKOU_bio_233}丰臣家臣。幼名孙六。贱岳七杆枪之一。性格冷静沉著，不爱多说话，被称为「沉勇之士」。作为丰臣水军的主力，在四国征讨和九州征讨时，有突出表现。关原作战时归属东军。" />
@@ -1005,7 +1005,7 @@
                command="80" force="32" govern="55" wisdom="58" charm="74" soldier="3" mount="0" gun="3"
                navy="2" archer="1" combat="1" military="2" ninja="2" build="0" farm="0" mine="0" arthmetic="2" etiquette="2" debate="1" tea="0" medical="2"
                bio="{=TAIKOU_bio_249}本愿寺一族。八世法主‧莲如之孙。继承莲淳成为伊势长岛愿证寺的住持。虽然率领伊势长岛一向一揆和织田信长的讨伐军展开激烈的抗战，但在信长在焦土作战中即告败北。最后跳入木曾川自尽身亡。" />
-  <HeroProfile id="lord_tk5_250" birth="1526" die="1582" clan="clan_kōbe_1" culture="kinai"
+  <HeroProfile id="lord_tk5_250" birth="1526" die="1582" clan="clan_koobe_1" culture="kinai"
                command="33" force="25" govern="44" wisdom="40" charm="38" soldier="0" mount="0" gun="1"
                navy="1" archer="0" combat="0" military="1" ninja="0" build="0" farm="0" mine="0" arthmetic="1" etiquette="1" debate="0" tea="1" medical="0"
                bio="{=TAIKOU_bio_250}伊势的豪族。神户城主。曾与进攻伊势的织田军队抗争，沟和后收信长三子信孝为义子。后被信长幽禁在近江日野城，信孝出征讨伐四国时解放，任守城官员。" />
@@ -1029,11 +1029,11 @@
                command="58" force="45" govern="35" wisdom="40" charm="27" soldier="1" mount="2" gun="0"
                navy="0" archer="0" combat="1" military="0" ninja="0" build="0" farm="0" mine="0" arthmetic="0" etiquette="0" debate="0" tea="0" medical="1"
                bio="{=TAIKOU_bio_255}信浓的有力国人。义在之子、义昌之父。虽然与村上、小笠原、诹访等势力一起向甲斐国境出兵，还是败于武田信虎之下。后来降服于武田信玄。飞驒三木家的军势曾侵略木曾谷，被他成功地击退。" />
-  <HeroProfile id="lord_tk5_256" birth="1548" die="1579" clan="clan_hojo_1" culture="kanto"
+  <HeroProfile id="lord_tk5_256" birth="1548" die="1579" clan="clan_hojo_2" culture="kanto"
                command="49" force="65" govern="29" wisdom="41" charm="55" soldier="1" mount="1" gun="0"
                navy="0" archer="1" combat="1" military="1" ninja="0" build="0" farm="1" mine="0" arthmetic="1" etiquette="0" debate="0" tea="0" medical="0"
                bio="{=TAIKOU_bio_256}上杉家臣。高广之子。与父亲高广一起居上野厩桥城，参与关东的经营。曾一时背上杉而投北条，后回归。御馆之乱时做为上杉景虎一方的核心人物，发挥了不小的作用。后为景胜手下杀害。" />
-  <HeroProfile id="lord_tk5_257" birth="1517" die="1587" clan="clan_hojo_1" culture="kanto"
+  <HeroProfile id="lord_tk5_257" birth="1517" die="1587" clan="clan_hojo_2" culture="kanto"
                command="64" force="70" govern="42" wisdom="27" charm="49" soldier="2" mount="1" gun="0"
                navy="0" archer="1" combat="1" military="1" ninja="0" build="0" farm="0" mine="0" arthmetic="0" etiquette="1" debate="0" tea="0" medical="0"
                bio="{=TAIKOU_bio_257}上杉家臣。厩桥城主。越后的本地领主。曾受武田信玄之邀侍之，谦信出仕后回归。其后，在厩桥城率子景广经营关东。曾一时为北条策反，后经赦罪回归上杉。" />
@@ -1069,7 +1069,7 @@
                command="91" force="87" govern="64" wisdom="66" charm="80" soldier="4" mount="4" gun="3"
                navy="1" archer="3" combat="3" military="3" ninja="0" build="2" farm="0" mine="2" arthmetic="1" etiquette="3" debate="1" tea="1" medical="2"
                bio="{=TAIKOU_bio_265}毛利元就次子。继承了安艺名门吉川家，负责攻略山阴地方，战无不胜，名声显赫，是家族中首屈一指的猛将。讨厌侍奉丰臣家，将家督之位传给嫡子元长，但应秀吉之邀出征，病故。" />
-  <HeroProfile id="lord_tk5_266" birth="1525" die="1584" clan="clan_kinoshita_1" culture="kinai"
+  <HeroProfile id="lord_tk5_266" birth="1525" die="1584" clan="clan_kinoshita_2" culture="kinai"
                command="63" force="79" govern="35" wisdom="44" charm="63" soldier="2" mount="3" gun="2"
                navy="0" archer="1" combat="1" military="1" ninja="0" build="1" farm="0" mine="1" arthmetic="0" etiquette="0" debate="0" tea="0" medical="0"
                bio="{=TAIKOU_bio_266}龙造寺家臣。据传是龙造寺四天王之一。冲田缀之战时隶属于锅岛直茂，做为别动队参战。接报隆信阵亡后，说服直茂离开战场，在目送其撤退后冲入敌阵，其后生死不明。" />
@@ -1089,15 +1089,15 @@
                command="55" force="58" govern="45" wisdom="59" charm="49" soldier="1" mount="2" gun="1"
                navy="0" archer="0" combat="1" military="1" ninja="0" build="0" farm="0" mine="1" arthmetic="0" etiquette="0" debate="1" tea="0" medical="1"
                bio="{=TAIKOU_bio_270}大隅的大名。肝付家第１７代当主。兼续之子。与日向的伊东义祐结盟，攻占津岛忠亲的饫肥城，并以其为都城，后在伊地知重兴被岛津义久攻打时，给予伊地知氏支援，与岛津家对抗终生。" />
-  <HeroProfile id="lord_tk5_271" birth="1563" die="1609" clan="clan_kyōgoku_1" culture="kinai"
+  <HeroProfile id="lord_tk5_271" birth="1563" die="1609" clan="clan_kyoogoku_1" culture="kinai"
                command="52" force="45" govern="50" wisdom="62" charm="49" soldier="1" mount="1" gun="1"
                navy="0" archer="0" combat="0" military="1" ninja="0" build="0" farm="0" mine="0" arthmetic="0" etiquette="2" debate="3" tea="2" medical="0"
                bio="{=TAIKOU_bio_271}京极家第19代当主。高吉之子。浅井家灭亡后，侍奉织田信长。虽在本能寺之变时响应明智光秀而一同举兵，但光秀战败身亡。将妹妹嫁与羽柴秀吉为妾而幸以赦免其罪。秀吉死后，石田三成举兵之际，支援德川家作战，但于关原合战前，在西军猛攻之下而开城投降。" />
-  <HeroProfile id="lord_tk5_272" birth="1572" die="1622" clan="clan_kyōgoku_1" culture="kinai"
+  <HeroProfile id="lord_tk5_272" birth="1572" die="1622" clan="clan_kyoogoku_2" culture="kinai"
                command="63" force="55" govern="51" wisdom="60" charm="55" soldier="1" mount="2" gun="1"
                navy="0" archer="0" combat="0" military="0" ninja="0" build="2" farm="2" mine="0" arthmetic="0" etiquette="2" debate="2" tea="1" medical="0"
                bio="{=TAIKOU_bio_272}丰臣家家臣。高吉次子。高次之弟。因娶了毛利秀赖之女为妻，于秀赖逝世后，顺理成章地继承了遗领‧信浓饭田城。在关原合战时隶属东军，在攻击岐阜城及在关原决战时立了战功，使其晋升并转封至丹后宫津城。同时他也是众所皆知的基督徒大名。" />
-  <HeroProfile id="lord_tk5_273" birth="1508" die="1581" clan="clan_kyōgoku_1" culture="kinai"
+  <HeroProfile id="lord_tk5_273" birth="1508" die="1581" clan="clan_kyoogoku_1" culture="kinai"
                command="41" force="30" govern="50" wisdom="61" charm="57" soldier="0" mount="0" gun="0"
                navy="0" archer="0" combat="0" military="0" ninja="0" build="0" farm="0" mine="0" arthmetic="0" etiquette="3" debate="2" tea="2" medical="0"
                bio="{=TAIKOU_bio_273}京极家第十八代当主。京极家是浅井家的旧主。为足利义辉身旁的亲信。义辉横死后，为了让足利义昭成功上洛而四处奔走。织田信长的权势日渐增强后，与义昭形成对立的局面，将嫡子‧高次托付与信长后，自己便选择隐居。" />
@@ -1113,7 +1113,7 @@
                command="39" force="86" govern="9" wisdom="46" charm="87" soldier="3" mount="1" gun="3"
                navy="0" archer="4" combat="3" military="1" ninja="4" build="0" farm="0" mine="0" arthmetic="1" etiquette="0" debate="1" tea="0" medical="2"
                bio="{=TAIKOU_bio_276}真田家臣。真田十勇士之一。伊贺派忍术名人。据说他是浅井长政的侍大将，雾隐弹正左卫门的遗子，师从百地三太夫，得忍术之真传。缘于与猿飞佐助的会面，得以侍奉真田幸村。" />
-  <HeroProfile id="lord_tk5_277" birth="1551" die="1641" clan="clan_kuki_1" culture="kinai"
+  <HeroProfile id="lord_tk5_277" birth="1551" die="1641" clan="clan_kuki_2" culture="kinai"
                command="56" force="63" govern="29" wisdom="56" charm="52" soldier="1" mount="1" gun="1"
                navy="2" archer="2" combat="2" military="1" ninja="1" build="0" farm="0" mine="0" arthmetic="0" etiquette="0" debate="1" tea="0" medical="0"
                bio="{=TAIKOU_bio_277}织田家家臣。后来又侍奉多位大名。因其母亲是九鬼嘉隆之妹，幼年时即由嘉隆养育，也自称自己的姓为九鬼。起初侍奉织田信孝，信孝死后成为加藤清正的家臣。朝鲜出兵后，因为对恩赏有所不满而脱离加藤家。其后辗转侍奉黑田家、小早川家、藤堂家。" />
@@ -1193,11 +1193,11 @@
                command="86" force="100" govern="13" wisdom="12" charm="93" soldier="3" mount="0" gun="0"
                navy="0" archer="3" combat="4" military="3" ninja="2" build="0" farm="0" mine="0" arthmetic="0" etiquette="3" debate="0" tea="0" medical="2"
                bio="{=TAIKOU_bio_296}剑术家。伊势守、又名秀纲。新阴流的创始人。被将军‧足利义辉赐与「天下第一」封号的剑圣。起初侍奉箕轮城主‧长野业正，在城被夺后，回绝武田信玄的邀请，为钻研剑术而游历诸国。领悟「无刀取」的诀窍，并将此技传承给柳生石舟斋。" />
-  <HeroProfile id="lord_tk5_297" birth="1546" die="1613" clan="clan_kōsaka_1" culture="tosan"
+  <HeroProfile id="lord_tk5_297" birth="1546" die="1613" clan="clan_koosaka_1" culture="tosan"
                command="54" force="66" govern="17" wisdom="57" charm="29" soldier="1" mount="0" gun="1"
                navy="0" archer="1" combat="2" military="2" ninja="3" build="0" farm="0" mine="0" arthmetic="0" etiquette="0" debate="0" tea="0" medical="0"
                bio="{=TAIKOU_bio_297}忍者。姓勾阪、又姓向阪。虽自称为高阪昌信一族，但还不能证实。侍奉武田家，担任忍者的头目。主家灭亡后逃亡至摄津，虽拜宫本武藏为师，但因滥杀无辜而被逐出师门。其后，在江户沦为盗贼，与同在江户出没的忍者‧风魔小次郎展开争斗。" />
-  <HeroProfile id="lord_tk5_298" birth="1527" die="1578" clan="clan_kōsaka_1" culture="tosan"
+  <HeroProfile id="lord_tk5_298" birth="1527" die="1578" clan="clan_koosaka_2" culture="tosan"
                command="88" force="79" govern="65" wisdom="68" charm="87" soldier="2" mount="4" gun="2"
                navy="0" archer="2" combat="3" military="4" ninja="2" build="2" farm="0" mine="3" arthmetic="2" etiquette="2" debate="1" tea="0" medical="2"
                bio="{=TAIKOU_bio_298}武田家臣。弹正忠。武田家四名臣之一。从武田信玄属下的家童直升至侍大将。作战用兵在家中首屈一指，同时还是战国三弹正之一，绰号「通辑弹正」。据说是「甲阳军鉴」的原作者。" />
@@ -1213,11 +1213,11 @@
                command="40" force="43" govern="41" wisdom="27" charm="35" soldier="1" mount="0" gun="0"
                navy="2" archer="0" combat="0" military="1" ninja="1" build="0" farm="0" mine="0" arthmetic="2" etiquette="1" debate="0" tea="0" medical="0"
                bio="{=TAIKOU_bio_301}伊予的战国大名。汤筑城主。因其兄晴通早世，而继承家督之位。一方面大野和田氏等家臣谋反，另一方面又招致丰后的大友、土佐的长宗我部、安艺的毛利家等其他国家相继进攻，而苦于应付。" />
-  <HeroProfile id="lord_tk5_302" birth="1530" die="1608" clan="clan_kōri_1" culture="kanto"
+  <HeroProfile id="lord_tk5_302" birth="1530" die="1608" clan="clan_koori_1" culture="kanto"
                command="48" force="52" govern="55" wisdom="59" charm="74" soldier="1" mount="0" gun="1"
                navy="0" archer="0" combat="0" military="0" ninja="0" build="2" farm="1" mine="1" arthmetic="1" etiquette="1" debate="2" tea="1" medical="1"
                bio="{=TAIKOU_bio_302}德川家臣。从家康做人质时起侍奉于德川家。做为冈崎三奉行之一，在三河一向暴动时保护了寺院的佛像和教典，得「佛高力」之美称。在小牧长久手之战中充任议和使者，深得秀吉信赖。" />
-  <HeroProfile id="lord_tk5_303" birth="1519" die="1582" clan="clan_jingu_1" culture="sanyo"
+  <HeroProfile id="lord_tk5_303" birth="1519" die="1582" clan="clan_jingu_2" culture="sanyo"
                command="33" force="35" govern="40" wisdom="39" charm="36" soldier="0" mount="1" gun="0"
                navy="0" archer="0" combat="0" military="1" ninja="0" build="1" farm="1" mine="1" arthmetic="0" etiquette="0" debate="2" tea="0" medical="0"
                bio="{=TAIKOU_bio_303}神保家臣。越中日宫城主。与主公长职一起归属上杉家。长职死后，作为掌握主家实权的上杉派整治家中。一度曾侍奉织田家，但又投降于上杉家，欲进攻织田军被柴田胜家击退。" />
@@ -1245,11 +1245,11 @@
                command="56" force="46" govern="68" wisdom="62" charm="57" soldier="1" mount="0" gun="1"
                navy="1" archer="1" combat="1" military="2" ninja="0" build="2" farm="2" mine="1" arthmetic="1" etiquette="3" debate="1" tea="1" medical="0"
                bio="{=TAIKOU_bio_309}六角家臣。谱代家老，与进藤家一起并称「六角家双藤」。主公义贤父子赴京都时充任警卫。在所谓「观音寺动乱」时，被主公义治杀死于观音寺城中。" />
-  <HeroProfile id="lord_tk5_310" birth="1555" die="1614" clan="clan_goto_1" culture="saikai"
+  <HeroProfile id="lord_tk5_310" birth="1555" die="1614" clan="clan_goto_2" culture="saikai"
                command="63" force="70" govern="17" wisdom="42" charm="52" soldier="2" mount="3" gun="2"
                navy="1" archer="2" combat="3" military="2" ninja="0" build="0" farm="0" mine="0" arthmetic="2" etiquette="1" debate="1" tea="0" medical="0"
                bio="{=TAIKOU_bio_310}伊达家臣。汤目重弘之次子。后成为后藤信家的养嗣子，继承后藤家业。交战时定穿上黄色的母衣，以「黄色后藤」而令人望而生畏。而且，也被称作是「高阪弹正再生」。有勇有谋，逸话颇多。" />
-  <HeroProfile id="lord_tk5_311" birth="1560" die="1615" clan="clan_goto_1" culture="saikai"
+  <HeroProfile id="lord_tk5_311" birth="1560" die="1615" clan="clan_goto_3" culture="saikai"
                command="51" force="82" govern="23" wisdom="64" charm="69" soldier="2" mount="1" gun="2"
                navy="0" archer="3" combat="3" military="2" ninja="0" build="0" farm="0" mine="1" arthmetic="0" etiquette="0" debate="0" tea="1" medical="1"
                bio="{=TAIKOU_bio_311}黑田家臣。又名基次。侍从黑田官兵卫、长政的第二代。作为侍大将立下战功。人送绰号「枪之又兵卫」。但是因有谋反嫌疑而成为浪人。之后被丰臣秀赖召入大阪城。与德川军奋战，战死。" />
@@ -1265,11 +1265,11 @@
                command="81" force="63" govern="92" wisdom="94" charm="84" soldier="4" mount="2" gun="3"
                navy="4" archer="2" combat="2" military="3" ninja="1" build="3" farm="3" mine="4" arthmetic="3" etiquette="2" debate="4" tea="2" medical="2"
                bio="{=TAIKOU_bio_314}毛利元就三子。继承安艺望族小早川家，负责攻略山阳地区。高松城讲和后，没有追击回师讨伐光秀的秀吉。后在丰臣政权下受到重用，直到被封任五大老。" />
-  <HeroProfile id="lord_tk5_315" birth="1582" die="1602" clan="clan_kobayakawa_1" culture="sanyo"
+  <HeroProfile id="lord_tk5_315" birth="1582" die="1602" clan="clan_kobayakawa_3" culture="sanyo"
                command="35" force="24" govern="33" wisdom="40" charm="38" soldier="0" mount="0" gun="1"
                navy="0" archer="0" combat="0" military="1" ninja="1" build="0" farm="0" mine="0" arthmetic="2" etiquette="1" debate="1" tea="2" medical="0"
                bio="{=TAIKOU_bio_315}丰臣秀吉的正宫‧宁宁的外甥。同时也是秀吉的养子，但在秀赖诞生之后，便成为小早川隆景的养子。在关原合战中以西军主力军参战，却反叛西军，突袭并击溃大谷吉继队。此举成为决定东军胜利的关键。因此功勋而得到宇喜多家旧领，但在二十一岁时因病而英年早逝。" />
-  <HeroProfile id="lord_tk5_316" birth="1567" die="1601" clan="clan_kobayakawa_1" culture="sanyo"
+  <HeroProfile id="lord_tk5_316" birth="1567" die="1601" clan="clan_kobayakawa_2" culture="sanyo"
                command="68" force="72" govern="56" wisdom="63" charm="77" soldier="2" mount="1" gun="2"
                navy="2" archer="1" combat="1" military="1" ninja="0" build="0" farm="1" mine="0" arthmetic="1" etiquette="1" debate="1" tea="2" medical="1"
                bio="{=TAIKOU_bio_316}毛利元就九子。被兄长隆景收为义子。秀吉进攻高松城时，做为求和条件被送到大阪做人质。受到秀吉宠爱，娶其义女，并受赐一字。关原之战时从属西军，战后贬为平民。" />
@@ -1293,27 +1293,27 @@
                command="91" force="87" govern="20" wisdom="77" charm="83" soldier="3" mount="2" gun="4"
                navy="2" archer="2" combat="3" military="1" ninja="2" build="2" farm="0" mine="0" arthmetic="1" etiquette="0" debate="0" tea="1" medical="1"
                bio="{=TAIKOU_bio_321}纪伊乡绅杂贺帮。铃木佐大夫之子。率领根来、杂贺的铁砲队守在石山本愿寺内，打击了织田信长的部队。石山开城后在信长和本愿寺之间充当联络人，后侍奉丰臣秀吉，还参与了攻打纪州的战斗。" />
-  <HeroProfile id="lord_tk5_322" birth="1548" die="1573" clan="clan_saitō_1" culture="tokai"
+  <HeroProfile id="lord_tk5_322" birth="1548" die="1573" clan="clan_saitoo_1" culture="tokai"
                command="21" force="29" govern="41" wisdom="17" charm="26" soldier="0" mount="0" gun="0"
                navy="0" archer="0" combat="0" military="0" ninja="1" build="0" farm="0" mine="0" arthmetic="1" etiquette="1" debate="0" tea="1" medical="0"
                bio="{=TAIKOU_bio_322}美浓的战国大名。义龙之嫡子。其父义龙死后，继承家业，美浓三重臣投降后，被织田信长打败。美浓被流放。此后投奔越前的朝仓义景，在刀祢阪之战中战死，与义景一起灭亡。" />
-  <HeroProfile id="lord_tk5_323" birth="1550" die="1587" clan="clan_saitō_1" culture="tokai"
+  <HeroProfile id="lord_tk5_323" birth="1550" die="1587" clan="clan_saitoo_1" culture="tokai"
                command="19" force="89" govern="23" wisdom="17" charm="39" soldier="0" mount="0" gun="2"
                navy="0" archer="3" combat="4" military="0" ninja="0" build="0" farm="0" mine="0" arthmetic="0" etiquette="0" debate="0" tea="0" medical="0"
                bio="{=TAIKOU_bio_323}剑术家。名为胜秀。冢原卜传门下。在镰仓的鹤冈八幡宫参拜时，突然领悟用剑的秘诀而自创「天流」。之后，上京在天皇面前展现名为「一刀三礼」的刀。在与霞流‧樱井霞之助决斗时获胜，郤遭霞之助之父所忌恨，被其用弓箭射死。" />
-  <HeroProfile id="lord_tk5_324" birth="1494" die="1556" clan="clan_saitō_1" culture="tokai"
+  <HeroProfile id="lord_tk5_324" birth="1494" die="1556" clan="clan_saitoo_1" culture="tokai"
                command="83" force="72" govern="75" wisdom="95" charm="69" soldier="3" mount="2" gun="0"
                navy="0" archer="2" combat="2" military="3" ninja="3" build="2" farm="1" mine="2" arthmetic="4" etiquette="1" debate="4" tea="0" medical="3"
                bio="{=TAIKOU_bio_324}美浓的战国大名。又名长井规秀‧斋藤利政。虽然一度出家入佛门，后来还俗成为油贩商。造访美浓时便侍奉美浓守护‧土岐家，继承守护代‧斋藤家之后，即流放了守护。最后终于成为美浓一国的战国枭雄。绰号为「蝮」，但和嫡子‧义龙不和而被义龙讨伐而亡。" />
-  <HeroProfile id="lord_tk5_325" birth="1534" die="1582" clan="clan_saitō_1" culture="tokai"
+  <HeroProfile id="lord_tk5_325" birth="1534" die="1582" clan="clan_saitoo_1" culture="tokai"
                command="62" force="67" govern="33" wisdom="48" charm="55" soldier="2" mount="3" gun="2"
                navy="0" archer="1" combat="3" military="1" ninja="0" build="0" farm="0" mine="1" arthmetic="0" etiquette="1" debate="0" tea="0" medical="0"
                bio="{=TAIKOU_bio_325}斋藤家臣。主家灭亡后，成为明智光秀的家臣头目。在本能寺事变和山崎之战中从军，作了明智军的中坚奋勇战斗，战败后被捕斩首示众。其女是德川家光的奶娘春日局。" />
-  <HeroProfile id="lord_tk5_326" birth="1527" die="1591" clan="clan_saitō_1" culture="tokai"
+  <HeroProfile id="lord_tk5_326" birth="1527" die="1591" clan="clan_saitoo_2" culture="tokai"
                command="63" force="67" govern="66" wisdom="66" charm="65" soldier="2" mount="2" gun="1"
                navy="0" archer="1" combat="2" military="2" ninja="0" build="1" farm="1" mine="1" arthmetic="1" etiquette="1" debate="1" tea="0" medical="1"
                bio="{=TAIKOU_bio_326}上杉家臣。参与攻取越中和下野佐野城战斗，得「越后钟馗」之名。公而无私，在军事和行政两方面发挥才能。谦信故后归属景胜，参与对进攻信州的织田军的防御战。" />
-  <HeroProfile id="lord_tk5_327" birth="1527" die="1561" clan="clan_saitō_1" culture="tokai"
+  <HeroProfile id="lord_tk5_327" birth="1527" die="1561" clan="clan_saitoo_1" culture="tokai"
                command="70" force="59" govern="71" wisdom="69" charm="44" soldier="2" mount="1" gun="1"
                navy="0" archer="0" combat="2" military="2" ninja="2" build="1" farm="1" mine="1" arthmetic="2" etiquette="2" debate="1" tea="0" medical="1"
                bio="{=TAIKOU_bio_327}美浓的战国大名。道三之长子。谣传他是被斋藤道三追放的旧主‧土岐赖艺之子。因为道三打算把家督之位让给同为嫡系的同父异母之弟，因此便将弟弟杀害，举兵讨伐道三而继承稻叶山城城主。后来与道三的女婿‧织田信长形成对立的局面。" />
@@ -1325,7 +1325,7 @@
                command="59" force="47" govern="45" wisdom="55" charm="52" soldier="3" mount="2" gun="1"
                navy="2" archer="1" combat="1" military="1" ninja="0" build="0" farm="0" mine="1" arthmetic="0" etiquette="0" debate="0" tea="0" medical="1"
                bio="{=TAIKOU_bio_329}大友家臣。丰后拇牟礼城主。惟教之孙。岛津家久进攻丰后时，拒绝降服的劝告，坚守城池，屡次击退岛津军。被秀吉授与战功奖状。大友家被贬为平民后，投靠羽柴秀保，侍奉其家臣藤堂高虎。" />
-  <HeroProfile id="lord_tk5_330" birth="1562" die="1638" clan="clan_yoshida_1" culture="nankai"
+  <HeroProfile id="lord_tk5_330" birth="1562" die="1638" clan="clan_yoshida_2" culture="nankai"
                command="39" force="86" govern="34" wisdom="35" charm="58" soldier="1" mount="1" gun="1"
                navy="0" archer="4" combat="3" military="3" ninja="2" build="1" farm="0" mine="0" arthmetic="0" etiquette="3" debate="0" tea="0" medical="0"
                bio="{=TAIKOU_bio_330}人称源八郎。名重氏、号一水轩。原本姓葛卷，学习日置流弓术，迎娶当主吉田重纲的女儿为妻后而改名。其后自创印西派，担任丰臣秀次与结城秀康的弓术老师，在大阪之阵后侍奉德川家。" />
@@ -1501,7 +1501,7 @@
                command="49" force="44" govern="58" wisdom="37" charm="62" soldier="1" mount="1" gun="1"
                navy="0" archer="1" combat="1" military="1" ninja="0" build="1" farm="1" mine="0" arthmetic="0" etiquette="1" debate="1" tea="1" medical="1"
                bio="{=TAIKOU_bio_373}毛利家家臣。隆家之孙。是家中一族家老之首，颇有分量，娶织田信长的女儿为妻。肉户家在两百六十年来，都以安艺五龙城为本据地，但于关原合战败战后，毛利家从中国八国减封至周防两国，元续也被迫移封至周防三丘。" />
-  <HeroProfile id="lord_tk5_374" birth="1542" die="1582" clan="clan_shichijō_1" culture="kinai"
+  <HeroProfile id="lord_tk5_374" birth="1542" die="1582" clan="clan_shichijoo_1" culture="kinai"
                command="54" force="81" govern="14" wisdom="13" charm="56" soldier="2" mount="1" gun="1"
                navy="0" archer="4" combat="3" military="0" ninja="2" build="0" farm="0" mine="1" arthmetic="0" etiquette="0" debate="0" tea="0" medical="0"
                bio="{=TAIKOU_bio_374}阿波的贵族，七条城主。在中富川之战中战死。力大无比的武士，并遗留下许多勇猛的传说。在大山寺举办的「力饼大会」上据说展示了功夫的一部分。" />
@@ -1593,7 +1593,7 @@
                command="63" force="70" govern="28" wisdom="62" charm="66" soldier="1" mount="2" gun="1"
                navy="1" archer="1" combat="2" military="3" ninja="0" build="3" farm="2" mine="0" arthmetic="1" etiquette="1" debate="1" tea="0" medical="0"
                bio="{=TAIKOU_bio_396}毛利家臣。高松城主。跟随小早川隆景战斗，立下功勋。顽强抵抗了织田信长的中国讨伐军，在羽柴秀吉的水攻下顽强作战。城破之前，以赦免守城将士为条件自杀。" />
-  <HeroProfile id="lord_tk5_397" birth="1532" die="1591" clan="clan_shimizu_1" culture="sanyo"
+  <HeroProfile id="lord_tk5_397" birth="1532" die="1591" clan="clan_shimizu_2" culture="sanyo"
                command="63" force="67" govern="31" wisdom="46" charm="65" soldier="2" mount="0" gun="0"
                navy="3" archer="1" combat="1" military="2" ninja="0" build="0" farm="1" mine="0" arthmetic="0" etiquette="0" debate="0" tea="0" medical="0"
                bio="{=TAIKOU_bio_397}北条家臣。纲吉嫡子。伊豆派首领。做为氏康从小培养起来的亲信，转战各地，屡建战功。丰臣秀吉进攻小田原时驻守下田城。与长宗我部元亲、胁阪安治等丰臣水军殊死战斗，不敌，开城投降。" />
@@ -1613,7 +1613,7 @@
                command="72" force="72" govern="74" wisdom="79" charm="78" soldier="3" mount="0" gun="3"
                navy="2" archer="1" combat="0" military="3" ninja="2" build="3" farm="2" mine="1" arthmetic="1" etiquette="2" debate="3" tea="1" medical="2"
                bio="{=TAIKOU_bio_401}本愿寺坊官。石山之战中代替法主显如指挥全军，与铃本重秀一起被称为「大阪左右大将」，抗击了信长，信长去世后，被丰臣秀吉任命为本愿寺镇奉行，并受赠京都七条的土地。" />
-  <HeroProfile id="lord_tk5_402" birth="1553" die="1625" clan="clan_jōjō_1" culture="hokuriku"
+  <HeroProfile id="lord_tk5_402" birth="1553" die="1625" clan="clan_joojoo_1" culture="hokuriku"
                command="54" force="57" govern="52" wisdom="59" charm="52" soldier="1" mount="0" gun="1"
                navy="0" archer="1" combat="1" military="0" ninja="0" build="0" farm="1" mine="0" arthmetic="0" etiquette="1" debate="0" tea="1" medical="0"
                bio="{=TAIKOU_bio_402}上杉家臣。田山义续的次子。初为上杉谦信的义子，继承上条家家统。转战于上野和越中一带。娶上杉景胜之妹。谦信死后，跟随景胜征战立功，然而在信州的统治问题上产生对立而出走。后侍奉德川家，隶属东军，复姓田山。" />
@@ -1653,7 +1653,7 @@
                command="9" force="69" govern="18" wisdom="26" charm="47" soldier="0" mount="0" gun="4"
                navy="0" archer="0" combat="0" military="1" ninja="3" build="0" farm="0" mine="1" arthmetic="1" etiquette="0" debate="0" tea="0" medical="0"
                bio="{=TAIKOU_bio_411}甲贺忍者。为名列甲贺五十三家之一的杉谷家一族。以铁砲能手而闻名。六角义贤看中其能力而请求他暗杀织田信长。伏击因浅井家的背叛而撤退的织田信长却失败告终。之后被矶野员昌逮住而遭到处刑。" />
-  <HeroProfile id="lord_tk5_412" birth="1534" die="1609" clan="clan_suginobō_1" culture="neutral_culture"
+  <HeroProfile id="lord_tk5_412" birth="1534" die="1609" clan="clan_suginoboo_1" culture="neutral_culture"
                command="78" force="79" govern="41" wisdom="69" charm="59" soldier="2" mount="0" gun="4"
                navy="2" archer="2" combat="3" military="2" ninja="3" build="0" farm="0" mine="0" arthmetic="2" etiquette="1" debate="1" tea="0" medical="1"
                bio="{=TAIKOU_bio_412}纪伊根来寺的院主。号自由斋。将铁砲自种子岛传至纪伊的津田监物算长之子。成为叔父‧明算的养子，就杉之坊院主之位后。率领根来寺僧兵所组成的武装集团「根来众」。继承算长所创的津田流砲术。在信长死后，与势力抬头的羽柴秀吉展开对抗。" />
@@ -1669,7 +1669,7 @@
                command="17" force="82" govern="5" wisdom="3" charm="30" soldier="1" mount="1" gun="0"
                navy="0" archer="3" combat="3" military="0" ninja="3" build="0" farm="0" mine="0" arthmetic="0" etiquette="0" debate="0" tea="0" medical="1"
                bio="{=TAIKOU_bio_415}丰臣家臣。侍奉丰臣秀吉和秀赖。大阪冬季之战时驻守博劳渊城寨，因守城失败，被嘲笑为好看不中用的「橙武者」。大阪夏之阵一役奋战雪耻，在与水野胜重军作战时阵亡。" />
-  <HeroProfile id="lord_tk5_416" birth="1555" die="1615" clan="clan_suzukii_1" culture="kinai"
+  <HeroProfile id="lord_tk5_416" birth="1555" die="1615" clan="clan_suzukii_2" culture="kinai"
                command="29" force="18" govern="90" wisdom="80" charm="58" soldier="0" mount="0" gun="0"
                navy="0" archer="1" combat="0" military="2" ninja="0" build="3" farm="3" mine="3" arthmetic="3" etiquette="3" debate="3" tea="1" medical="1"
                bio="{=TAIKOU_bio_416}伊达家臣。和泉守。名秀信、高信、重信均可。作为重臣主要在政治、经济方面帮助政宗。为政宗夺取天下之后，规划了「伊达幕府」的法规条款，临终之际说「已经没用了」而将其烧毁。" />
@@ -1721,11 +1721,11 @@
                command="67" force="68" govern="44" wisdom="54" charm="52" soldier="2" mount="2" gun="0"
                navy="0" archer="1" combat="2" military="1" ninja="0" build="1" farm="1" mine="0" arthmetic="0" etiquette="0" debate="1" tea="0" medical="0"
                bio="{=TAIKOU_bio_428}相马家１６代领主。盛胤嫡子。自从与伊达辉宗交手之后十数年，与伊达家族展开了抗争。关原之战时，因与东军会师迟到，被贬为平民。但后经伊达政宗调解，恢复了原领地。" />
-  <HeroProfile id="lord_tk5_429" birth="1532" die="1588" clan="clan_sō_1" culture="saikai"
+  <HeroProfile id="lord_tk5_429" birth="1532" die="1588" clan="clan_soo_1" culture="saikai"
                command="58" force="39" govern="51" wisdom="47" charm="50" soldier="1" mount="0" gun="0"
                navy="2" archer="0" combat="0" military="1" ninja="0" build="0" farm="0" mine="1" arthmetic="0" etiquette="0" debate="2" tea="0" medical="0"
                bio="{=TAIKOU_bio_429}宗家第十三代当主。对马守护。正当家中叛乱不断时，继承父亲遗志致力平定家中内乱。在位数年后，将家督之位让给外甥‧茂尚，辅佐体弱多病的茂尚执政。企图拥立少贰家进出九州不成，最后向丰臣秀吉投降，成为对朝鲜交涉的负责人。" />
-  <HeroProfile id="lord_tk5_430" birth="1568" die="1615" clan="clan_sō_1" culture="saikai"
+  <HeroProfile id="lord_tk5_430" birth="1568" die="1615" clan="clan_soo_1" culture="saikai"
                command="37" force="29" govern="55" wisdom="72" charm="61" soldier="1" mount="0" gun="0"
                navy="2" archer="0" combat="0" military="0" ninja="0" build="0" farm="0" mine="1" arthmetic="0" etiquette="0" debate="3" tea="0" medical="0"
                bio="{=TAIKOU_bio_430}宗家第十六代当主。对马守护。义调的养子。前两任当主皆英年早逝，他继承家督之位，义调成为其监护人。臣服于丰臣秀吉之下，对马的领地也因此受到保障。避免与朝鲜发生战争而奔走四方。战后在与朝鲜的和睦交涉上有很大的贡献。" />
@@ -1813,7 +1813,7 @@
                command="39" force="25" govern="71" wisdom="70" charm="75" soldier="1" mount="2" gun="0"
                navy="0" archer="1" combat="1" military="1" ninja="0" build="0" farm="2" mine="2" arthmetic="2" etiquette="2" debate="1" tea="1" medical="1"
                bio="{=TAIKOU_bio_451}信玄弟信繁长子。信浓小诸城主。因父亲战死于川中岛之战而继承家督之位。作为家族成员臣仕信玄和胜赖，守小诸城。依其袭承父辈的军事才能为主家尽忠，然而，在织田信长进攻甲斐时被谋害。" />
-  <HeroProfile id="lord_tk5_452" birth="1552" die="1582" clan="clan_takeda_1" culture="tosan"
+  <HeroProfile id="lord_tk5_452" birth="1552" die="1582" clan="clan_takeda_2" culture="tosan"
                command="14" force="9" govern="17" wisdom="36" charm="44" soldier="0" mount="0" gun="0"
                navy="1" archer="0" combat="0" military="0" ninja="0" build="0" farm="0" mine="0" arthmetic="0" etiquette="1" debate="1" tea="0" medical="0"
                bio="{=TAIKOU_bio_452}若狭武田家第九代当主。若狭守护。虽然武田家代代为担任守护职的名家，因领内不断发生一揆（暴动）而使国力越渐衰退。当织田信长势力逼近时，见机服从其下而得以保全部份领土。在本能寺之变后，与明智光秀同一阵线共同侵略佐和山城，后来被秀吉所杀。" />
@@ -1965,7 +1965,7 @@
                command="24" force="83" govern="23" wisdom="57" charm="49" soldier="2" mount="0" gun="4"
                navy="0" archer="1" combat="2" military="1" ninja="4" build="0" farm="0" mine="2" arthmetic="2" etiquette="0" debate="1" tea="1" medical="2"
                bio="{=TAIKOU_bio_489}伊贺忍者。名为清广。精于铁砲术而自创流派。从天正伊贺之乱时起开始亲近德川家。在本能寺之变时，负责保护当时要从界町越过伊贺而返回三河的德川家康。在关原合战及大阪之阵中，率领铁砲队参战。后来成为幕府旗本武士。" />
-  <HeroProfile id="lord_tk5_490" birth="1555" die="1582" clan="clan_tsuda_1" culture="kinai"
+  <HeroProfile id="lord_tk5_490" birth="1555" die="1582" clan="clan_tsuda_2" culture="kinai"
                command="43" force="44" govern="39" wisdom="41" charm="78" soldier="0" mount="1" gun="0"
                navy="1" archer="1" combat="0" military="1" ninja="1" build="0" farm="0" mine="1" arthmetic="1" etiquette="1" debate="0" tea="1" medical="0"
                bio="{=TAIKOU_bio_490}织田信长之弟‧勘十郎信胜之子。元服之后改姓氏为织田旁系的津田姓。以织田军团部将之身转战各地，成为大沟城主。因其为明智光秀女婿之身份，本能寺之变时遭堂兄弟‧织田信孝所杀。" />
@@ -1993,7 +1993,7 @@
                command="68" force="40" govern="68" wisdom="69" charm="80" soldier="2" mount="1" gun="1"
                navy="0" archer="1" combat="0" military="3" ninja="0" build="1" farm="1" mine="0" arthmetic="2" etiquette="1" debate="1" tea="1" medical="0"
                bio="{=TAIKOU_bio_496}土佐一条家臣。因多次对放荡任性的主公兼定谏言而受罚被斩。此事件招致一条家臣的叛离，也是将兼定逐出家门的重要原因。" />
-  <HeroProfile id="lord_tk5_497" birth="1573" die="1644" clan="clan_doi_1" culture="nankai"
+  <HeroProfile id="lord_tk5_497" birth="1573" die="1644" clan="clan_doi_2" culture="nankai"
                command="38" force="21" govern="84" wisdom="64" charm="76" soldier="1" mount="0" gun="1"
                navy="0" archer="1" combat="0" military="1" ninja="0" build="0" farm="3" mine="2" arthmetic="3" etiquette="3" debate="3" tea="1" medical="1"
                bio="{=TAIKOU_bio_497}德川家臣。水野信元之子。成为土井利昌的义子，传为德川家康的私生子。少时起陪仕家康之子秀忠，关原之战时也一起行动。江户幕府时代受到重用，经过家老之职，升任至家老。" />
@@ -2009,7 +2009,7 @@
                command="47" force="43" govern="46" wisdom="53" charm="41" soldier="1" mount="1" gun="1"
                navy="0" archer="1" combat="1" military="1" ninja="0" build="0" farm="0" mine="1" arthmetic="0" etiquette="1" debate="0" tea="0" medical="0"
                bio="{=TAIKOU_bio_500}美浓的贵族。岩村城主。娶织田信长叔母为妻。当武田家臣秋山信友攻打岩村城时依靠信长的援军。与援军明智光秀一起同武田军作战，不久病故。" />
-  <HeroProfile id="lord_tk5_501" birth="1513" die="1564" clan="clan_toyama_1" culture="kanto"
+  <HeroProfile id="lord_tk5_501" birth="1513" die="1564" clan="clan_toyama_2" culture="kanto"
                command="48" force="53" govern="51" wisdom="52" charm="53" soldier="0" mount="0" gun="1"
                navy="0" archer="0" combat="0" military="1" ninja="0" build="1" farm="0" mine="0" arthmetic="0" etiquette="3" debate="0" tea="1" medical="1"
                bio="{=TAIKOU_bio_501}北条家臣，直景嫡子。做为江户派的代表，担任江户城主。曾邀请连歌师宗牧到江户城举行连歌会，可见其通晓风雅之事。第二次国府台之战时充任先锋，与里见所部激战，阵亡。" />
@@ -2057,7 +2057,7 @@
                command="27" force="95" govern="30" wisdom="61" charm="77" soldier="0" mount="1" gun="0"
                navy="0" archer="3" combat="4" military="3" ninja="2" build="0" farm="0" mine="0" arthmetic="0" etiquette="2" debate="0" tea="0" medical="0"
                bio="{=TAIKOU_bio_512}剑术家。景政的兄长。中条流剑术的名家，同时也是善使小太刀的高手。自己开创了富田流。接受斋藤义龙的剑术指导‧梅津某挑战，留下以一根柴薪就战胜梅津某的佳话。因为三十几岁罹患了眼疾，便把家督让给其弟‧景政而出家了。" />
-  <HeroProfile id="lord_tk5_513" birth="1569" die="1589" clan="clan_tomita_1" culture="hokuriku"
+  <HeroProfile id="lord_tk5_513" birth="1569" die="1589" clan="clan_tomita_2" culture="hokuriku"
                command="64" force="67" govern="20" wisdom="23" charm="42" soldier="2" mount="2" gun="1"
                navy="0" archer="0" combat="0" military="1" ninja="0" build="0" farm="0" mine="1" arthmetic="0" etiquette="1" debate="0" tea="0" medical="0"
                bio="{=TAIKOU_bio_513}芦名家臣，美作之子。将监。芦名最高四宿老之一。在与伊达家族的折上原之战时，在其他宿老都背叛的情况下，亲任前锋奋战，一度逼入伊达军主营，但因己方乱了阵脚，随主公盛重逃往常陆。" />
@@ -2097,11 +2097,11 @@
                command="53" force="47" govern="38" wisdom="51" charm="57" soldier="1" mount="2" gun="0"
                navy="0" archer="1" combat="1" military="0" ninja="1" build="0" farm="0" mine="1" arthmetic="0" etiquette="2" debate="1" tea="1" medical="1"
                bio="{=TAIKOU_bio_522}丰臣家家臣。名为忠俊。松永久秀的外甥。接受佛洛伊斯的受洗，成为基督徒。侍奉秀吉，隶属于小西行长麾下。关原合战后，透过高山右近，使得他得以侍奉承认基督教的前田利长。即使德川家康下达了禁教令也没有因此放弃信仰，最后与右近等人一起被流放到马尼拉。" />
-  <HeroProfile id="lord_tk5_523" birth="1522" die="1575" clan="clan_naito_1" culture="sanyo"
+  <HeroProfile id="lord_tk5_523" birth="1522" die="1575" clan="clan_naito_2" culture="sanyo"
                command="78" force="72" govern="82" wisdom="77" charm="79" soldier="2" mount="3" gun="1"
                navy="0" archer="3" combat="3" military="3" ninja="0" build="1" farm="1" mine="1" arthmetic="1" etiquette="1" debate="1" tea="1" medical="1"
                bio="{=TAIKOU_bio_523}武田家臣。武田家四名臣之一。武田信玄之弟信繁阵亡后，升任信玄的副将。作战才略过人，功勋卓著。信玄曾高度评价说「昌丰当然会有不同凡响的作用」。长筿之战时死于砲火之中。" />
-  <HeroProfile id="lord_tk5_524" birth="1528" die="1602" clan="clan_naito_1" culture="sanyo"
+  <HeroProfile id="lord_tk5_524" birth="1528" die="1602" clan="clan_naito_3" culture="sanyo"
                command="40" force="77" govern="56" wisdom="51" charm="67" soldier="1" mount="0" gun="1"
                navy="1" archer="4" combat="3" military="1" ninja="0" build="0" farm="1" mine="1" arthmetic="1" etiquette="1" debate="1" tea="1" medical="1"
                bio="{=TAIKOU_bio_524}德川家臣。弓术高手。起先在叔父内藤清长门下谋生，后其弓箭才能受到青睐，投奔家康之父广忠为官。及至家康，侍奉德川家康两代人，为谱代家臣，德川十六将之一。" />
@@ -2457,7 +2457,7 @@
                command="64" force="69" govern="60" wisdom="38" charm="69" soldier="2" mount="1" gun="0"
                navy="0" archer="2" combat="3" military="1" ninja="0" build="2" farm="0" mine="0" arthmetic="0" etiquette="0" debate="0" tea="0" medical="0"
                bio="{=TAIKOU_bio_612}丰臣家臣。长治之子。秀吉家侍童。由于在贱岳之战中出色表现被列为贱岳七本枪之一，获秀吉所赠军功奖状。其后改姓丰臣，关原之战时属于东军，后侍奉德川秀忠。" />
-  <HeroProfile id="lord_tk5_613" birth="1537" die="1616" clan="clan_fūma_1" culture="neutral_culture"
+  <HeroProfile id="lord_tk5_613" birth="1537" die="1616" clan="clan_fuuma_1" culture="neutral_culture"
                command="66" force="91" govern="3" wisdom="87" charm="50" soldier="2" mount="1" gun="1"
                navy="1" archer="1" combat="3" military="1" ninja="4" build="0" farm="0" mine="1" arthmetic="2" etiquette="0" debate="2" tea="0" medical="3"
                bio="{=TAIKOU_bio_613}相州乱波风魔派领袖。致力于收集情报和骚扰敌后，暗中扶助了北条家族。风魔党的头目每一代都号称「小太郎」，其真实面目不详。据传身高７尺２寸，两目突出，牙出唇外。" />
@@ -2537,7 +2537,7 @@
                command="83" force="86" govern="51" wisdom="79" charm="80" soldier="3" mount="4" gun="3"
                navy="1" archer="1" combat="3" military="3" ninja="2" build="2" farm="1" mine="1" arthmetic="0" etiquette="1" debate="2" tea="0" medical="0"
                bio="{=TAIKOU_bio_632}北条家臣。福岛正成之子。父亲死后侍奉北条氏纲。其勇敢和为人得到认可，娶氏纲之女，成为同家族成员。河越之战时十分活跃，使用在黄色布上墨书八幡的旗帜，被人敬畏称之为「地黄八幡」。" />
-  <HeroProfile id="lord_tk5_633" birth="1521" die="1607" clan="clan_hōzōin_1" culture="neutral_culture"
+  <HeroProfile id="lord_tk5_633" birth="1521" die="1607" clan="clan_hoozooin_1" culture="neutral_culture"
                command="42" force="92" govern="39" wisdom="67" charm="71" soldier="0" mount="0" gun="0"
                navy="0" archer="0" combat="4" military="2" ninja="2" build="0" farm="0" mine="0" arthmetic="0" etiquette="3" debate="2" tea="2" medical="0"
                bio="{=TAIKOU_bio_633}枪术家。人称觉禅坊。宝藏院流枪术的开山袓师。与柳生宗严（石舟斋）一同拜新阴流的上泉信纲为师，共同学习剑术。其后向神道流的成田大膳大夫学习枪术，加上其精心研究之下，创出宝藏院流十文字镰枪的诀窍。据说此人晚年舍弃武艺，一心向佛。" />
@@ -2773,7 +2773,7 @@
                command="61" force="56" govern="52" wisdom="58" charm="43" soldier="2" mount="1" gun="1"
                navy="1" archer="1" combat="2" military="1" ninja="0" build="0" farm="0" mine="0" arthmetic="0" etiquette="0" debate="0" tea="1" medical="1"
                bio="{=TAIKOU_bio_691}德川家家臣。信元之弟。与兄长‧信元不同，仕官于德川家，历经众多战役而表现极为优越。兄长死后，继承家督之位隶属于织田家。在丰臣政权下担任武者奉行等职务，秀吉去世后，重返德川家。最后在关原合战前夕的酒席中，与西军的武将发生口角争论而被杀害。" />
-  <HeroProfile id="lord_tk5_692" birth="1524" die="1575" clan="clan_mizuno_1" culture="kanto"
+  <HeroProfile id="lord_tk5_692" birth="1524" die="1575" clan="clan_mizuno_2" culture="kanto"
                command="62" force="60" govern="34" wisdom="59" charm="36" soldier="2" mount="2" gun="1"
                navy="2" archer="2" combat="2" military="2" ninja="2" build="0" farm="0" mine="0" arthmetic="0" etiquette="0" debate="0" tea="0" medical="0"
                bio="{=TAIKOU_bio_692}织田家臣。忠重之兄。德川家康之母‧阿大之兄。以尾张‧三河的国境附近为本据地，背叛今川家侍奉织田信秀。桶狭间合战发生后，对缔结织田、德川家的同盟颇有贡献。后来被怀疑与武田家串通，被奉信长之令的家康所诛杀。" />
@@ -2857,7 +2857,7 @@
                command="51" force="65" govern="55" wisdom="54" charm="63" soldier="1" mount="0" gun="0"
                navy="0" archer="1" combat="2" military="1" ninja="0" build="0" farm="1" mine="1" arthmetic="1" etiquette="1" debate="1" tea="0" medical="0"
                bio="{=TAIKOU_bio_712}前田家家臣。人称长八郎。又名又兵卫。少年时期便侍奉利家，可谓与其同甘共苦的股肱之臣。合战时数次救过利家性命。于利家成为加贺大名之后，任职金泽町奉行，领俸一万石余。利家过世后，跟随以人质身份前往江户的芳春院（阿松的法名）。" />
-  <HeroProfile id="lord_tk5_713" birth="1546" die="1598" clan="clan_murakami_2" culture="hokuriku"
+  <HeroProfile id="lord_tk5_713" birth="1546" die="1598" clan="clan_murakami_3" culture="hokuriku"
                command="55" force="45" govern="31" wisdom="50" charm="42" soldier="1" mount="2" gun="1"
                navy="0" archer="0" combat="0" military="2" ninja="0" build="0" farm="1" mine="0" arthmetic="0" etiquette="0" debate="2" tea="1" medical="1"
                bio="{=TAIKOU_bio_713}上杉家臣。义清之子。由于父亲义清在与武田信玄的争战中败北，随父逃至越后。后为谦信家臣，活跃于外交与军事领域。后继承与守护上杉同族的山浦家，拜受景胜名中一字，改名景国。" />
@@ -2869,7 +2869,7 @@
                command="56" force="56" govern="17" wisdom="44" charm="53" soldier="1" mount="0" gun="1"
                navy="3" archer="1" combat="2" military="1" ninja="0" build="0" farm="0" mine="0" arthmetic="0" etiquette="0" debate="0" tea="0" medical="0"
                bio="{=TAIKOU_bio_715}能岛村上水军的头领。武吉的嫡子。父亲引退后，继承村上水军的统领。投靠毛利家‧小早川隆景旗下，在朝鲜出兵等战役表现甚佳。在关原之战时，为了取回旧领‧伊予，率领毛利水军加入西军，但在伊予松前登陆后，遭到加藤嘉明的奇袭而战败身亡。" />
-  <HeroProfile id="lord_tk5_716" birth="1503" die="1573" clan="clan_murakami_2" culture="hokuriku"
+  <HeroProfile id="lord_tk5_716" birth="1503" die="1573" clan="clan_murakami_3" culture="hokuriku"
                command="66" force="70" govern="49" wisdom="34" charm="40" soldier="2" mount="2" gun="0"
                navy="0" archer="0" combat="0" military="2" ninja="0" build="0" farm="0" mine="0" arthmetic="1" etiquette="1" debate="2" tea="0" medical="0"
                bio="{=TAIKOU_bio_716}信浓豪族。葛尾城主。曾两度击退武田信玄军进犯，威震八方。因中真田幸隆之计丢失城池，遂求助于上杉谦信。虽经五次川中岛之战，仍未得收复旧地。" />
@@ -2877,11 +2877,11 @@
                command="58" force="62" govern="24" wisdom="23" charm="42" soldier="1" mount="2" gun="0"
                navy="0" archer="1" combat="2" military="1" ninja="0" build="0" farm="0" mine="0" arthmetic="0" etiquette="0" debate="0" tea="0" medical="0"
                bio="{=TAIKOU_bio_717}柴田家家臣。人称胜介。出身尾张，从早期便侍奉胜家，以小姓头的身分领俸一万石。胜家于贱岳之战中落败时，为了让胜家有足够的时间撤退，便举胜家的旗帜以瞒骗敌军，最后与兄长一同战死沙场。" />
-  <HeroProfile id="lord_tk5_718" birth="1577" die="1615" clan="clan_mori_1" culture="sanyo"
+  <HeroProfile id="lord_tk5_718" birth="1577" die="1615" clan="clan_mori_2" culture="sanyo"
                command="47" force="62" govern="27" wisdom="56" charm="61" soldier="1" mount="1" gun="2"
                navy="0" archer="0" combat="2" military="0" ninja="0" build="0" farm="0" mine="0" arthmetic="0" etiquette="0" debate="0" tea="0" medical="0"
                bio="{=TAIKOU_bio_718}丰臣家臣。吉成之子。关原之战时归属西军，并因此失去领地，与父亲一起被发配至土佐，寄居于山内一丰门下。后离开进入大阪城，大阪夏之阵一役与本多忠朝奋战，城破时自杀成仁。" />
-  <HeroProfile id="lord_tk5_719" birth="1575" die="1638" clan="clan_mori_1" culture="sanyo"
+  <HeroProfile id="lord_tk5_719" birth="1575" die="1638" clan="clan_mori_2" culture="sanyo"
                command="14" force="29" govern="67" wisdom="59" charm="58" soldier="0" mount="0" gun="1"
                navy="0" archer="0" combat="0" military="1" ninja="0" build="0" farm="2" mine="1" arthmetic="4" etiquette="0" debate="3" tea="1" medical="2"
                bio="{=TAIKOU_bio_719}丰臣家家臣。算术师。受秀吉之命前往明朝留学，将算盘传入日本。于大阪之阵后成为浪人，自称「天下第一快除」，在江户教授珠算。被称为日本的数学之祖。著有「割算书」等（割算即中文之「除法」）。" />
@@ -2933,7 +2933,7 @@
                command="47" force="32" govern="56" wisdom="44" charm="36" soldier="1" mount="1" gun="1"
                navy="1" archer="0" combat="0" military="0" ninja="0" build="1" farm="1" mine="1" arthmetic="0" etiquette="0" debate="0" tea="0" medical="1"
                bio="{=TAIKOU_bio_731}织田家家臣。可成之六男。长可及兰丸之弟。以小姓（仆僮）之身与兄长们一同侍奉信长。本能寺之变后，因为兄长‧长可与池田恒兴父子一同战死，而继承了家督之位成为金山城主。丰臣秀吉死后与德川家往来密切，关原之战中隶属德川秀忠麾下，攻略上田城时表现甚佳，领地因此" />
-  <HeroProfile id="lord_tk5_732" birth="1556" die="1615" clan="clan_mōri_1" culture="kinai"
+  <HeroProfile id="lord_tk5_732" birth="1556" die="1615" clan="clan_moori_1" culture="kinai"
                command="65" force="82" govern="19" wisdom="44" charm="41" soldier="1" mount="2" gun="0"
                navy="0" archer="0" combat="3" military="1" ninja="0" build="0" farm="0" mine="0" arthmetic="0" etiquette="0" debate="2" tea="0" medical="0"
                bio="{=TAIKOU_bio_732}黑田家臣。名友信。侍从官兵卫、长政之父子二代。与后藤又兵卫合称「双璧」，为家中屈指可数的武将。福岛正则喝干满满一杯酒，受赐名枪「日本号」之事迹后广为流传，也就是「黑田节」。" />
@@ -2941,7 +2941,7 @@
                command="57" force="67" govern="30" wisdom="43" charm="61" soldier="2" mount="2" gun="1"
                navy="0" archer="2" combat="2" military="2" ninja="0" build="0" farm="1" mine="1" arthmetic="1" etiquette="1" debate="0" tea="0" medical="0"
                bio="{=TAIKOU_bio_733}织田家臣。可成的次子。父亲可成死后，归属信长的长子信忠，武功大有提高。参与了镇压长岛一向宗起义和武田进攻战，绰号「鬼武藏」，本能寺事变后，跟随秀吉作战，在小牧长久手之战中战死。" />
-  <HeroProfile id="lord_tk5_734" birth="1546" die="1592" clan="clan_morii_1" culture="tokai"
+  <HeroProfile id="lord_tk5_734" birth="1546" die="1592" clan="clan_morii_2" culture="tokai"
                command="47" force="51" govern="23" wisdom="36" charm="54" soldier="1" mount="0" gun="1"
                navy="3" archer="1" combat="1" military="1" ninja="1" build="2" farm="0" mine="0" arthmetic="0" etiquette="0" debate="0" tea="0" medical="0"
                bio="{=TAIKOU_bio_734}阿波水军的将领。人称志摩守。以鸣门土佐泊作为根据地。秀吉征伐四国后，蜂须贺家政一进入阿波，保全了他的阿波国领土后，他便被编入蜂须贺家受其指挥。也参与九州及小田原的征伐，从海上支援蜂须贺家的战力。最后战死于朝鲜出兵。" />
@@ -2965,15 +2965,15 @@
                command="15" force="49" govern="30" wisdom="56" charm="71" soldier="0" mount="0" gun="4"
                navy="0" archer="0" combat="1" military="2" ninja="0" build="0" farm="0" mine="4" arthmetic="0" etiquette="0" debate="2" tea="0" medical="2"
                bio="{=TAIKOU_bio_739}铁砲锻冶师傅。名清定。原为铸刀师，奉种子岛时尧之令，开始著手制造铁砲。花费数月复制葡萄牙铁砲完成之际，却发生枪枝走火而宣告失败。将女儿嫁给葡萄牙人，习得铁砲零件的制造技术后，成功地制造了第一支国产铁砲。" />
-  <HeroProfile id="lord_tk5_740" birth="1527" die="1606" clan="clan_yagyū_1" culture="neutral_culture"
+  <HeroProfile id="lord_tk5_740" birth="1527" die="1606" clan="clan_yagyuu_1" culture="neutral_culture"
                command="41" force="96" govern="20" wisdom="67" charm="82" soldier="2" mount="1" gun="1"
                navy="0" archer="2" combat="4" military="3" ninja="3" build="0" farm="2" mine="1" arthmetic="0" etiquette="3" debate="0" tea="0" medical="1"
                bio="{=TAIKOU_bio_740}剑术家。名宗严，号石舟斋。大和豪族。为柳生新阴流的开祖。虽为畿内屈指的剑豪而名震四方。但是在惨败给上泉信纲的高徒‧疋田丰五郎后，便向上泉信纲拜师学艺。在领会名为「无刀取」的秘技后，便获颁新阴流的印可状。之后受德川家康的邀请，柳生家自此成为德川家的兵法" />
-  <HeroProfile id="lord_tk5_741" birth="1579" die="1650" clan="clan_yagyūū_1" culture="neutral_culture"
+  <HeroProfile id="lord_tk5_741" birth="1579" die="1650" clan="clan_yagyuu_1" culture="neutral_culture"
                command="32" force="94" govern="24" wisdom="59" charm="55" soldier="1" mount="0" gun="1"
                navy="0" archer="2" combat="4" military="2" ninja="2" build="0" farm="0" mine="0" arthmetic="0" etiquette="0" debate="0" tea="0" medical="0"
                bio="{=TAIKOU_bio_741}剑术家。柳生宗矩之姪子。人称兵库助。「尾张柳生」的开山师祖。以柳生家第一名人之名而众所皆知。由祖父‧石舟斋继承柳生新阴流的道统。关原之战后，虽侍奉过加藤清正，后来出走成为浪人。最后受到尾张德川家的招聘而担任兵法指导一职。" />
-  <HeroProfile id="lord_tk5_742" birth="1571" die="1646" clan="clan_yagyūūū_1" culture="nankai"
+  <HeroProfile id="lord_tk5_742" birth="1571" die="1646" clan="clan_yagyuu_1" culture="nankai"
                command="52" force="90" govern="68" wisdom="81" charm="69" soldier="1" mount="1" gun="1"
                navy="0" archer="1" combat="4" military="4" ninja="0" build="0" farm="0" mine="0" arthmetic="0" etiquette="0" debate="3" tea="0" medical="0"
                bio="{=TAIKOU_bio_742}德川家臣。柳生新阴流派创始人宗严第五子。其父宗严被德川家康召募为兵法教官，因父年迈而被举荐替代父职。其后担任德川家的兵法教练，将柳生新阴派传授给了秀忠。秀忠卒后，改仕家光，成为一万石俸禄的大名。" />
@@ -3025,7 +3025,7 @@
                command="68" force="27" govern="60" wisdom="67" charm="55" soldier="2" mount="2" gun="1"
                navy="2" archer="0" combat="0" military="0" ninja="2" build="1" farm="2" mine="1" arthmetic="3" etiquette="0" debate="3" tea="0" medical="0"
                bio="{=TAIKOU_bio_754}暹罗（现在的泰国）的日本町之头领。出身骏河。搭乘朱印船前往暹罗，成为大城的日本人町头领。在这之后，接受暹罗国王的请求，参加了近邻诸国的战争。深受国王深厚的信赖而得以擢升为重臣之位。后来因为暹罗王家内斗而遭毒杀。（大城：泰国十八世纪中叶以前的旧都城）" />
-  <HeroProfile id="lord_tk5_755" birth="1544" die="1620" clan="clan_yamada_1" culture="saikai"
+  <HeroProfile id="lord_tk5_755" birth="1544" die="1620" clan="clan_yamada_2" culture="saikai"
                command="57" force="51" govern="27" wisdom="34" charm="38" soldier="2" mount="0" gun="1"
                navy="0" archer="0" combat="0" military="0" ninja="0" build="1" farm="0" mine="0" arthmetic="0" etiquette="0" debate="2" tea="0" medical="0"
                bio="{=TAIKOU_bio_755}伊东家臣。在岛津氏进攻日向时，奋起抗战。与长仓勘解由左卫门等一直抵抗岛津氏，但伊东氏被岛津氏灭掉以后，又归属了岛津氏。岛津氏进攻丰后时，又站在大友一方作战。" />
@@ -3033,7 +3033,7 @@
                command="71" force="79" govern="21" wisdom="57" charm="90" soldier="3" mount="3" gun="2"
                navy="0" archer="2" combat="3" military="2" ninja="2" build="0" farm="1" mine="2" arthmetic="1" etiquette="1" debate="2" tea="0" medical="1"
                bio="{=TAIKOU_bio_756}尼子家臣。又称幸盛。尼子十勇士之一。谋划拥戴尼子胜久再兴主家家业。据说曾面对弯月祈愿「愿受种种磨难」。固守上月城，终为毛利所破，未得遂愿。在护送至安艺途中被杀。" />
-  <HeroProfile id="lord_tk5_757" birth="1537" die="1595" clan="clan_yamanaka_1" culture="sanyo"
+  <HeroProfile id="lord_tk5_757" birth="1537" die="1595" clan="clan_yamanaka_2" culture="sanyo"
                command="47" force="61" govern="35" wisdom="40" charm="36" soldier="1" mount="1" gun="1"
                navy="0" archer="2" combat="1" military="1" ninja="3" build="0" farm="0" mine="0" arthmetic="0" etiquette="0" debate="0" tea="0" medical="1"
                bio="{=TAIKOU_bio_757}六角家臣，后为丰臣家臣。以柏木御厨为根据地活动的土豪。是曾为柏木三家之首的甲贺郡中总的首领。侍奉六角家有功，获得奖状。后归属织田信长，再后依附丰臣秀吉。" />
@@ -3189,7 +3189,7 @@
                command="40" force="41" govern="77" wisdom="64" charm="65" soldier="0" mount="0" gun="0"
                navy="0" archer="0" combat="0" military="0" ninja="0" build="2" farm="2" mine="2" arthmetic="1" etiquette="2" debate="2" tea="1" medical="2"
                bio="{=TAIKOU_bio_795}佐竹家臣。作为重臣，侍奉义昭、义重、义宣三代。一时背著主家归属白河结城家。由于在攻打白河城之战中贡献巨大，又回归旧主，作为亲信在内政和外交等各方面发挥了才能。" />
-  <HeroProfile id="lord_tk5_796" birth="1532" die="1571" clan="clan_wada_1" culture="kanto"
+  <HeroProfile id="lord_tk5_796" birth="1532" die="1571" clan="clan_wada_2" culture="kanto"
                command="60" force="59" govern="62" wisdom="71" charm="63" soldier="2" mount="1" gun="2"
                navy="1" archer="1" combat="1" military="2" ninja="3" build="2" farm="1" mine="1" arthmetic="1" etiquette="2" debate="2" tea="1" medical="1"
                bio="{=TAIKOU_bio_796}足利家臣。将军义辉惨死后，成为义辉之弟义昭的家臣，并从暗中支持他就任将军。奉织田信长之命为平定大和做出了努力。保护基督教并将宣教师路易斯‧佛洛伊斯介绍给了信长。" />
@@ -3197,7 +3197,7 @@
                command="51" force="81" govern="11" wisdom="34" charm="57" soldier="2" mount="0" gun="0"
                navy="0" archer="2" combat="3" military="1" ninja="0" build="0" farm="0" mine="0" arthmetic="0" etiquette="0" debate="0" tea="1" medical="0"
                bio="{=TAIKOU_bio_797}丰臣家臣。绰号了。近江阿闭家灭亡后，先后侍奉丰臣、中村、增田和藤堂四家。勇将，有「长枪勘兵卫」之美名。丰臣秀吉进攻小田原时，第一个登上山中城，受到了秀吉的称赞。大阪一役之后成为浪人。" />
-  <HeroProfile id="lord_tk5_798" birth="1542" die="1620" clan="clan_watanabe_1" culture="kanto"
+  <HeroProfile id="lord_tk5_798" birth="1542" die="1620" clan="clan_watanabe_2" culture="kanto"
                command="64" force="73" govern="18" wisdom="44" charm="52" soldier="2" mount="3" gun="1"
                navy="1" archer="1" combat="3" military="1" ninja="0" build="1" farm="0" mine="0" arthmetic="0" etiquette="0" debate="0" tea="0" medical="0"
                bio="{=TAIKOU_bio_798}德川家臣。转战各地，屡建战功，得「善枪半藏」绰号。长久手之战、关原之战时做为禁卫军参战。晚年任尾张德川家家老，辅佐家康九子义直。" />
@@ -3253,7 +3253,7 @@
   <HeroProfile id="lord_tk5_815" birth="1516" die="1555" clan="clan_oda_1" culture="kinai"
                command="20" force="41" govern="30" wisdom="58" charm="21" soldier="1" mount="1" gun="0"
                navy="0" archer="1" combat="1" military="1" ninja="0" build="0" farm="0" mine="0" arthmetic="1" etiquette="0" debate="1" tea="0" medical="0" />
-  <HeroProfile id="lord_tk5_816" birth="1519" die="1563" clan="clan_hosokawa_1" culture="kinai"
+  <HeroProfile id="lord_tk5_816" birth="1519" die="1563" clan="clan_hosokawa_2" culture="kinai"
                command="29" force="19" govern="42" wisdom="38" charm="52" soldier="1" mount="0" gun="0"
                navy="0" archer="1" combat="0" military="0" ninja="1" build="0" farm="0" mine="1" arthmetic="1" etiquette="2" debate="2" tea="1" medical="1" />
   <HeroProfile id="lord_tk5_817" birth="1495" die="1552" clan="clan_rokkaku_1" culture="kinai"
@@ -3283,7 +3283,7 @@
   <HeroProfile id="lord_tk5_825" birth="1555" die="1605" clan="clan_iwama_1" culture="neutral_culture"
                command="14" force="86" govern="21" wisdom="30" charm="32" soldier="1" mount="0" gun="0"
                navy="0" archer="0" combat="4" military="3" ninja="0" build="0" farm="0" mine="0" arthmetic="1" etiquette="0" debate="0" tea="1" medical="1" />
-  <HeroProfile id="lord_tk5_826" birth="1549" die="1619" clan="clan_ganshojii_1" culture="kanto"
+  <HeroProfile id="lord_tk5_826" birth="1549" die="1619" clan="clan_ganshojii_2" culture="kanto"
                command="47" force="39" govern="33" wisdom="44" charm="40" soldier="1" mount="1" gun="1"
                navy="1" archer="2" combat="1" military="1" ninja="0" build="0" farm="0" mine="0" arthmetic="1" etiquette="0" debate="0" tea="1" medical="1" />
   <HeroProfile id="lord_tk5_827" birth="1517" die="1565" clan="clan_matsunaga_1" culture="nankai"
@@ -3358,7 +3358,7 @@
   <HeroProfile id="lord_tk5_850" birth="1493" die="1559" clan="clan_aso_1" culture="saikai"
                command="44" force="32" govern="52" wisdom="60" charm="62" soldier="0" mount="1" gun="1"
                navy="0" archer="0" combat="0" military="1" ninja="0" build="0" farm="0" mine="0" arthmetic="0" etiquette="3" debate="2" tea="2" medical="0" />
-  <HeroProfile id="lord_tk5_851" birth="1500" die="1568" clan="clan_tsuda_1" culture="kinai"
+  <HeroProfile id="lord_tk5_851" birth="1500" die="1568" clan="clan_tsuda_3" culture="kinai"
                command="78" force="82" govern="48" wisdom="62" charm="29" soldier="2" mount="0" gun="4"
                navy="0" archer="1" combat="3" military="3" ninja="3" build="2" farm="0" mine="3" arthmetic="2" etiquette="0" debate="0" tea="0" medical="2" />
   <HeroProfile id="lord_tk5_852" birth="1494" die="1551" clan="clan_sugi_1" culture="ou"
@@ -3439,7 +3439,7 @@
   <HeroProfile id="lord_tk5_877" birth="1537" die="1595" clan="clan_tsutsuii_1" culture="kinai"
                command="29" force="31" govern="63" wisdom="60" charm="39" soldier="1" mount="0" gun="0"
                navy="0" archer="0" combat="0" military="2" ninja="0" build="1" farm="3" mine="0" arthmetic="2" etiquette="2" debate="0" tea="2" medical="0" />
-  <HeroProfile id="lord_tk5_878" birth="1494" die="1583" clan="clan_toki_1" culture="kinai"
+  <HeroProfile id="lord_tk5_878" birth="1494" die="1583" clan="clan_toki_2" culture="kinai"
                command="54" force="62" govern="49" wisdom="70" charm="64" soldier="3" mount="3" gun="2"
                navy="0" archer="2" combat="1" military="3" ninja="0" build="0" farm="0" mine="0" arthmetic="0" etiquette="0" debate="2" tea="0" medical="0" />
   <HeroProfile id="lord_tk5_879" birth="1560" die="1600" clan="clan_mai_1" culture="neutral_culture"
@@ -3469,7 +3469,7 @@
   <HeroProfile id="lord_tk5_887" birth="1540" die="1600" clan="clan_shiba_1" culture="ou"
                command="27" force="31" govern="34" wisdom="32" charm="45" soldier="1" mount="1" gun="0"
                navy="0" archer="2" combat="1" military="1" ninja="0" build="0" farm="0" mine="0" arthmetic="0" etiquette="2" debate="0" tea="0" medical="0" />
-  <HeroProfile id="lord_tk5_888" birth="1541" die="1593" clan="clan_mori_1" culture="sanyo"
+  <HeroProfile id="lord_tk5_888" birth="1541" die="1593" clan="clan_mori_3" culture="sanyo"
                command="53" force="53" govern="37" wisdom="39" charm="32" soldier="2" mount="1" gun="0"
                navy="1" archer="0" combat="0" military="0" ninja="0" build="1" farm="0" mine="1" arthmetic="0" etiquette="0" debate="0" tea="0" medical="0" />
   <HeroProfile id="lord_tk5_889" birth="1543" die="1584" clan="clan_tsugawa_1" culture="ou"
@@ -3478,7 +3478,7 @@
   <HeroProfile id="lord_tk5_890" birth="1519" die="1586" clan="clan_rusu_1" culture="ou"
                command="31" force="38" govern="34" wisdom="63" charm="52" soldier="1" mount="1" gun="0"
                navy="0" archer="0" combat="0" military="0" ninja="0" build="1" farm="1" mine="0" arthmetic="2" etiquette="2" debate="1" tea="0" medical="0" />
-  <HeroProfile id="lord_tk5_891" birth="1544" die="1600" clan="clan_hara_1" culture="tosan"
+  <HeroProfile id="lord_tk5_891" birth="1544" die="1600" clan="clan_hara_2" culture="tosan"
                command="59" force="60" govern="36" wisdom="52" charm="39" soldier="1" mount="2" gun="1"
                navy="0" archer="2" combat="1" military="0" ninja="0" build="0" farm="0" mine="0" arthmetic="0" etiquette="0" debate="0" tea="0" medical="0" />
   <HeroProfile id="lord_tk5_892" birth="1566" die="1600" clan="clan_hiratsuka_1" culture="neutral_culture"
@@ -3493,7 +3493,7 @@
   <HeroProfile id="lord_tk5_895" birth="1545" die="1600" clan="clan_nomura_1" culture="kinai"
                command="46" force="54" govern="45" wisdom="27" charm="42" soldier="2" mount="1" gun="3"
                navy="0" archer="1" combat="1" military="0" ninja="0" build="1" farm="1" mine="0" arthmetic="0" etiquette="0" debate="0" tea="0" medical="1" />
-  <HeroProfile id="lord_tk5_896" birth="1546" die="1629" clan="clan_doi_1" culture="nankai"
+  <HeroProfile id="lord_tk5_896" birth="1546" die="1629" clan="clan_doi_3" culture="nankai"
                command="81" force="77" govern="86" wisdom="90" charm="83" soldier="2" mount="2" gun="3"
                navy="1" archer="2" combat="1" military="2" ninja="0" build="1" farm="3" mine="1" arthmetic="2" etiquette="3" debate="3" tea="2" medical="1" />
   <HeroProfile id="lord_tk5_897" birth="1534" die="1604" clan="clan_shimazu_1" culture="saikai"
@@ -3520,7 +3520,7 @@
   <HeroProfile id="lord_tk5_904" birth="1550" die="1611" clan="clan_amakasu_1" culture="hokuriku"
                command="80" force="72" govern="36" wisdom="35" charm="32" soldier="2" mount="1" gun="0"
                navy="0" archer="1" combat="2" military="0" ninja="0" build="0" farm="1" mine="1" arthmetic="0" etiquette="0" debate="1" tea="0" medical="0" />
-  <HeroProfile id="lord_tk5_905" birth="1556" die="1597" clan="clan_yasuda_1" culture="hokuriku"
+  <HeroProfile id="lord_tk5_905" birth="1556" die="1597" clan="clan_yasuda_2" culture="hokuriku"
                command="38" force="65" govern="31" wisdom="22" charm="72" soldier="1" mount="2" gun="0"
                navy="0" archer="0" combat="2" military="1" ninja="0" build="1" farm="0" mine="0" arthmetic="0" etiquette="0" debate="0" tea="0" medical="0" />
   <HeroProfile id="lord_tk5_906" birth="1500" die="1572" clan="clan_kawano_1" culture="sanyo"
@@ -3799,7 +3799,7 @@
   <HeroProfile id="lord_tk5_1200" birth="0" die="0" clan="clan_takeda_1" culture="tosan"
                command="0" force="0" govern="0" wisdom="0" charm="0" soldier="0" mount="0" gun="0"
                navy="0" archer="0" combat="0" military="0" ninja="0" build="0" farm="0" mine="0" arthmetic="0" etiquette="0" debate="0" tea="0" medical="0" />
-  <HeroProfile id="lord_tk5_1201" birth="0" die="0" clan="clan_kyōgoku_1" culture="kinai"
+  <HeroProfile id="lord_tk5_1201" birth="0" die="0" clan="clan_kyoogoku_1" culture="kinai"
                command="0" force="0" govern="0" wisdom="0" charm="0" soldier="0" mount="0" gun="0"
                navy="0" archer="0" combat="0" military="0" ninja="0" build="0" farm="0" mine="0" arthmetic="0" etiquette="0" debate="0" tea="0" medical="0" />
   <HeroProfile id="lord_tk5_1202" birth="0" die="0" clan="clan_tokugawa_1" culture="tokai"
