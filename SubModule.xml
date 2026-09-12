@@ -1,4 +1,4 @@
-<Module>
+﻿<Module>
 	<Name value="Taikou"/>
 	<Id value="Taikou"/>
 	<Version value="e1.5.2"/>
@@ -33,6 +33,10 @@
 				<GameType value="TaikouCampaign"/>
 				<GameType value="TaikouCampaign1560"/>
 				<GameType value="TaikouCampaign1582"/>
+				<GameType value="TaikouCampaign1554"/>
+				<GameType value="TaikouCampaign1568"/>
+				<GameType value="TaikouCampaign1575"/>
+				<GameType value="TaikouCampaign1598"/>
 			</IncludedGameTypes>
 		</XmlNode>
 		<XmlNode>
@@ -43,6 +47,10 @@
 				<GameType value="TaikouCampaign"/>
 				<GameType value="TaikouCampaign1560"/>
 				<GameType value="TaikouCampaign1582"/>
+				<GameType value="TaikouCampaign1554"/>
+				<GameType value="TaikouCampaign1568"/>
+				<GameType value="TaikouCampaign1575"/>
+				<GameType value="TaikouCampaign1598"/>
 			</IncludedGameTypes>
 		</XmlNode>
 		<!-- 🔴 雷 27（2026-09-08）：facgen_template_test_char_0..9 等捏脸模板必需——SandBoxCore 的 NPCCharacters 段只注册
@@ -56,6 +64,10 @@
 				<GameType value="TaikouCampaign"/>
 				<GameType value="TaikouCampaign1560"/>
 				<GameType value="TaikouCampaign1582"/>
+				<GameType value="TaikouCampaign1554"/>
+				<GameType value="TaikouCampaign1568"/>
+				<GameType value="TaikouCampaign1575"/>
+				<GameType value="TaikouCampaign1598"/>
 			</IncludedGameTypes>
 		</XmlNode>
 		<XmlNode>
@@ -66,6 +78,10 @@
 				<GameType value="TaikouCampaign"/>
 				<GameType value="TaikouCampaign1560"/>
 				<GameType value="TaikouCampaign1582"/>
+				<GameType value="TaikouCampaign1554"/>
+				<GameType value="TaikouCampaign1568"/>
+				<GameType value="TaikouCampaign1575"/>
+				<GameType value="TaikouCampaign1598"/>
 			</IncludedGameTypes>
 		</XmlNode>
 		<!-- 雷 35（2026-09-09）：gangster_1/2/3 = 官方 SandBoxCore 段含（只有 Campaign/StoryMode/CustomGame/EditorGame），
@@ -78,6 +94,10 @@
 				<GameType value="TaikouCampaign"/>
 				<GameType value="TaikouCampaign1560"/>
 				<GameType value="TaikouCampaign1582"/>
+				<GameType value="TaikouCampaign1554"/>
+				<GameType value="TaikouCampaign1568"/>
+				<GameType value="TaikouCampaign1575"/>
+				<GameType value="TaikouCampaign1598"/>
 			</IncludedGameTypes>
 		</XmlNode>
 		<XmlNode>
@@ -88,6 +108,10 @@
 				<GameType value="TaikouCampaign"/>
 				<GameType value="TaikouCampaign1560"/>
 				<GameType value="TaikouCampaign1582"/>
+				<GameType value="TaikouCampaign1554"/>
+				<GameType value="TaikouCampaign1568"/>
+				<GameType value="TaikouCampaign1575"/>
+				<GameType value="TaikouCampaign1598"/>
 			</IncludedGameTypes>
 		</XmlNode>
 		<XmlNode>
@@ -130,6 +154,10 @@
 				<GameType value="TaikouCampaign"/>
 				<GameType value="TaikouCampaign1560"/>
 				<GameType value="TaikouCampaign1582"/>
+				<GameType value="TaikouCampaign1554"/>
+				<GameType value="TaikouCampaign1568"/>
+				<GameType value="TaikouCampaign1575"/>
+				<GameType value="TaikouCampaign1598"/>
 			</IncludedGameTypes>
 		</XmlNode>
 		<XmlNode>
@@ -156,6 +184,10 @@
 			<GameType value="TaikouCampaign"/>
 			<GameType value="TaikouCampaign1560"/>
 			<GameType value="TaikouCampaign1582"/>
+			<GameType value="TaikouCampaign1554"/>
+			<GameType value="TaikouCampaign1568"/>
+			<GameType value="TaikouCampaign1575"/>
+			<GameType value="TaikouCampaign1598"/>
 		</IncludedGameTypes>
 	</XmlNode>
 	<XmlNode>
@@ -166,6 +198,10 @@
 			<GameType value="TaikouCampaign"/>
 			<GameType value="TaikouCampaign1560"/>
 			<GameType value="TaikouCampaign1582"/>
+			<GameType value="TaikouCampaign1554"/>
+			<GameType value="TaikouCampaign1568"/>
+			<GameType value="TaikouCampaign1575"/>
+			<GameType value="TaikouCampaign1598"/>
 		</IncludedGameTypes>
 	</XmlNode>
 	<XmlNode>
@@ -176,6 +212,10 @@
 			<GameType value="TaikouCampaign"/>
 			<GameType value="TaikouCampaign1560"/>
 			<GameType value="TaikouCampaign1582"/>
+			<GameType value="TaikouCampaign1554"/>
+			<GameType value="TaikouCampaign1568"/>
+			<GameType value="TaikouCampaign1575"/>
+			<GameType value="TaikouCampaign1598"/>
 		</IncludedGameTypes>
 	</XmlNode>
 	<XmlNode>
@@ -186,6 +226,10 @@
 			<GameType value="TaikouCampaign"/>
 			<GameType value="TaikouCampaign1560"/>
 			<GameType value="TaikouCampaign1582"/>
+			<GameType value="TaikouCampaign1554"/>
+			<GameType value="TaikouCampaign1568"/>
+			<GameType value="TaikouCampaign1575"/>
+			<GameType value="TaikouCampaign1598"/>
 		</IncludedGameTypes>
 	</XmlNode>
 	<XmlNode>
@@ -196,6 +240,10 @@
 			<GameType value="TaikouCampaign"/>
 			<GameType value="TaikouCampaign1560"/>
 			<GameType value="TaikouCampaign1582"/>
+			<GameType value="TaikouCampaign1554"/>
+			<GameType value="TaikouCampaign1568"/>
+			<GameType value="TaikouCampaign1575"/>
+			<GameType value="TaikouCampaign1598"/>
 		</IncludedGameTypes>
 	</XmlNode>
 	<XmlNode>
@@ -222,6 +270,10 @@
 			<GameType value="TaikouCampaign"/>
 			<GameType value="TaikouCampaign1560"/>
 			<GameType value="TaikouCampaign1582"/>
+			<GameType value="TaikouCampaign1554"/>
+			<GameType value="TaikouCampaign1568"/>
+			<GameType value="TaikouCampaign1575"/>
+			<GameType value="TaikouCampaign1598"/>
 		</IncludedGameTypes>
 	</XmlNode>
 	<XmlNode>
@@ -232,6 +284,10 @@
 			<GameType value="TaikouCampaign"/>
 			<GameType value="TaikouCampaign1560"/>
 			<GameType value="TaikouCampaign1582"/>
+			<GameType value="TaikouCampaign1554"/>
+			<GameType value="TaikouCampaign1568"/>
+			<GameType value="TaikouCampaign1575"/>
+			<GameType value="TaikouCampaign1598"/>
 		</IncludedGameTypes>
 	</XmlNode>
 	<XmlNode>
@@ -242,6 +298,10 @@
 			<GameType value="TaikouCampaign"/>
 			<GameType value="TaikouCampaign1560"/>
 			<GameType value="TaikouCampaign1582"/>
+			<GameType value="TaikouCampaign1554"/>
+			<GameType value="TaikouCampaign1568"/>
+			<GameType value="TaikouCampaign1575"/>
+			<GameType value="TaikouCampaign1598"/>
 		</IncludedGameTypes>
 	</XmlNode>
 	<XmlNode>
@@ -252,6 +312,10 @@
 			<GameType value="TaikouCampaign"/>
 			<GameType value="TaikouCampaign1560"/>
 			<GameType value="TaikouCampaign1582"/>
+			<GameType value="TaikouCampaign1554"/>
+			<GameType value="TaikouCampaign1568"/>
+			<GameType value="TaikouCampaign1575"/>
+			<GameType value="TaikouCampaign1598"/>
 		</IncludedGameTypes>
 	</XmlNode>
 	<!-- 🔴 2026-09-10 拆雷 49：原 `taikou_module_strings` 段 = 官方 module_strings 的**第二份拷贝** + 自家 19 条
@@ -266,6 +330,10 @@
 			<GameType value="TaikouCampaign"/>
 			<GameType value="TaikouCampaign1560"/>
 			<GameType value="TaikouCampaign1582"/>
+			<GameType value="TaikouCampaign1554"/>
+			<GameType value="TaikouCampaign1568"/>
+			<GameType value="TaikouCampaign1575"/>
+			<GameType value="TaikouCampaign1598"/>
 		</IncludedGameTypes>
 	</XmlNode>
 	<XmlNode>
@@ -283,6 +351,10 @@
 			<GameType value="TaikouCampaign"/>
 			<GameType value="TaikouCampaign1560"/>
 			<GameType value="TaikouCampaign1582"/>
+			<GameType value="TaikouCampaign1554"/>
+			<GameType value="TaikouCampaign1568"/>
+			<GameType value="TaikouCampaign1575"/>
+			<GameType value="TaikouCampaign1598"/>
 		</IncludedGameTypes>
 	</XmlNode>
 	<XmlNode>
@@ -293,6 +365,10 @@
 			<GameType value="TaikouCampaign"/>
 			<GameType value="TaikouCampaign1560"/>
 			<GameType value="TaikouCampaign1582"/>
+			<GameType value="TaikouCampaign1554"/>
+			<GameType value="TaikouCampaign1568"/>
+			<GameType value="TaikouCampaign1575"/>
+			<GameType value="TaikouCampaign1598"/>
 		</IncludedGameTypes>
 	</XmlNode>
 	<XmlNode>
@@ -303,6 +379,10 @@
 			<GameType value="TaikouCampaign"/>
 			<GameType value="TaikouCampaign1560"/>
 			<GameType value="TaikouCampaign1582"/>
+			<GameType value="TaikouCampaign1554"/>
+			<GameType value="TaikouCampaign1568"/>
+			<GameType value="TaikouCampaign1575"/>
+			<GameType value="TaikouCampaign1598"/>
 		</IncludedGameTypes>
 	</XmlNode>
 	<XmlNode>
@@ -313,6 +393,10 @@
 			<GameType value="TaikouCampaign"/>
 			<GameType value="TaikouCampaign1560"/>
 			<GameType value="TaikouCampaign1582"/>
+			<GameType value="TaikouCampaign1554"/>
+			<GameType value="TaikouCampaign1568"/>
+			<GameType value="TaikouCampaign1575"/>
+			<GameType value="TaikouCampaign1598"/>
 		</IncludedGameTypes>
 	</XmlNode>
 	<XmlNode>
@@ -323,6 +407,10 @@
 			<GameType value="TaikouCampaign"/>
 			<GameType value="TaikouCampaign1560"/>
 			<GameType value="TaikouCampaign1582"/>
+			<GameType value="TaikouCampaign1554"/>
+			<GameType value="TaikouCampaign1568"/>
+			<GameType value="TaikouCampaign1575"/>
+			<GameType value="TaikouCampaign1598"/>
 		</IncludedGameTypes>
 	</XmlNode>
 	<XmlNode>
@@ -333,6 +421,10 @@
 			<GameType value="TaikouCampaign"/>
 			<GameType value="TaikouCampaign1560"/>
 			<GameType value="TaikouCampaign1582"/>
+			<GameType value="TaikouCampaign1554"/>
+			<GameType value="TaikouCampaign1568"/>
+			<GameType value="TaikouCampaign1575"/>
+			<GameType value="TaikouCampaign1598"/>
 		</IncludedGameTypes>
 	</XmlNode>
 	<XmlNode>
@@ -343,6 +435,10 @@
 			<GameType value="TaikouCampaign"/>
 			<GameType value="TaikouCampaign1560"/>
 			<GameType value="TaikouCampaign1582"/>
+			<GameType value="TaikouCampaign1554"/>
+			<GameType value="TaikouCampaign1568"/>
+			<GameType value="TaikouCampaign1575"/>
+			<GameType value="TaikouCampaign1598"/>
 		</IncludedGameTypes>
 	</XmlNode>
 	<XmlNode>
@@ -353,6 +449,10 @@
 			<GameType value="TaikouCampaign"/>
 			<GameType value="TaikouCampaign1560"/>
 			<GameType value="TaikouCampaign1582"/>
+			<GameType value="TaikouCampaign1554"/>
+			<GameType value="TaikouCampaign1568"/>
+			<GameType value="TaikouCampaign1575"/>
+			<GameType value="TaikouCampaign1598"/>
 		</IncludedGameTypes>
 	</XmlNode>
 	<XmlNode>
@@ -363,8 +463,152 @@
 			<GameType value="TaikouCampaign"/>
 			<GameType value="TaikouCampaign1560"/>
 			<GameType value="TaikouCampaign1582"/>
+			<GameType value="TaikouCampaign1554"/>
+			<GameType value="TaikouCampaign1568"/>
+			<GameType value="TaikouCampaign1575"/>
+			<GameType value="TaikouCampaign1598"/>
 		</IncludedGameTypes>
 	</XmlNode>
+		<!-- 领主模板（1560 基数段）：与 spnpccharacters 分开存，因为模板要按代算年龄/装备 -->
+		<XmlNode>
+			<XmlName id="NPCCharacters" path="taikou_lords"/>
+			<IncludedGameTypes>
+				<GameType value="Campaign"/>
+				<GameType value="CampaignStoryMode"/>
+				<GameType value="TaikouCampaign"/>
+				<GameType value="TaikouCampaign1560"/>
+			</IncludedGameTypes>
+		</XmlNode>
+		<XmlNode>
+			<XmlName id="NPCCharacters" path="taikou_lords_1582"/>
+			<IncludedGameTypes>
+				<GameType value="TaikouCampaign1582"/>
+			</IncludedGameTypes>
+		</XmlNode>
+		<!-- 1554 时代：与 1560 套**互斥**（同名 XmlName 多段 = 引擎合并加载） -->
+		<XmlNode>
+			<XmlName id="Kingdoms" path="spkingdoms_1554"/>
+			<IncludedGameTypes>
+				<GameType value="TaikouCampaign1554"/>
+			</IncludedGameTypes>
+		</XmlNode>
+		<XmlNode>
+			<XmlName id="Factions" path="spclans_1554"/>
+			<IncludedGameTypes>
+				<GameType value="TaikouCampaign1554"/>
+			</IncludedGameTypes>
+		</XmlNode>
+		<XmlNode>
+			<XmlName id="Settlements" path="settlements_1554"/>
+			<IncludedGameTypes>
+				<GameType value="TaikouCampaign1554"/>
+			</IncludedGameTypes>
+		</XmlNode>
+		<XmlNode>
+			<XmlName id="Heroes" path="taikou_heroes_1554"/>
+			<IncludedGameTypes>
+				<GameType value="TaikouCampaign1554"/>
+			</IncludedGameTypes>
+		</XmlNode>
+		<XmlNode>
+			<XmlName id="NPCCharacters" path="taikou_lords_1554"/>
+			<IncludedGameTypes>
+				<GameType value="TaikouCampaign1554"/>
+			</IncludedGameTypes>
+		</XmlNode>
+		<!-- 1568 时代：与 1560 套**互斥**（同名 XmlName 多段 = 引擎合并加载） -->
+		<XmlNode>
+			<XmlName id="Kingdoms" path="spkingdoms_1568"/>
+			<IncludedGameTypes>
+				<GameType value="TaikouCampaign1568"/>
+			</IncludedGameTypes>
+		</XmlNode>
+		<XmlNode>
+			<XmlName id="Factions" path="spclans_1568"/>
+			<IncludedGameTypes>
+				<GameType value="TaikouCampaign1568"/>
+			</IncludedGameTypes>
+		</XmlNode>
+		<XmlNode>
+			<XmlName id="Settlements" path="settlements_1568"/>
+			<IncludedGameTypes>
+				<GameType value="TaikouCampaign1568"/>
+			</IncludedGameTypes>
+		</XmlNode>
+		<XmlNode>
+			<XmlName id="Heroes" path="taikou_heroes_1568"/>
+			<IncludedGameTypes>
+				<GameType value="TaikouCampaign1568"/>
+			</IncludedGameTypes>
+		</XmlNode>
+		<XmlNode>
+			<XmlName id="NPCCharacters" path="taikou_lords_1568"/>
+			<IncludedGameTypes>
+				<GameType value="TaikouCampaign1568"/>
+			</IncludedGameTypes>
+		</XmlNode>
+		<!-- 1575 时代：与 1560 套**互斥**（同名 XmlName 多段 = 引擎合并加载） -->
+		<XmlNode>
+			<XmlName id="Kingdoms" path="spkingdoms_1575"/>
+			<IncludedGameTypes>
+				<GameType value="TaikouCampaign1575"/>
+			</IncludedGameTypes>
+		</XmlNode>
+		<XmlNode>
+			<XmlName id="Factions" path="spclans_1575"/>
+			<IncludedGameTypes>
+				<GameType value="TaikouCampaign1575"/>
+			</IncludedGameTypes>
+		</XmlNode>
+		<XmlNode>
+			<XmlName id="Settlements" path="settlements_1575"/>
+			<IncludedGameTypes>
+				<GameType value="TaikouCampaign1575"/>
+			</IncludedGameTypes>
+		</XmlNode>
+		<XmlNode>
+			<XmlName id="Heroes" path="taikou_heroes_1575"/>
+			<IncludedGameTypes>
+				<GameType value="TaikouCampaign1575"/>
+			</IncludedGameTypes>
+		</XmlNode>
+		<XmlNode>
+			<XmlName id="NPCCharacters" path="taikou_lords_1575"/>
+			<IncludedGameTypes>
+				<GameType value="TaikouCampaign1575"/>
+			</IncludedGameTypes>
+		</XmlNode>
+		<!-- 1598 时代：与 1560 套**互斥**（同名 XmlName 多段 = 引擎合并加载） -->
+		<XmlNode>
+			<XmlName id="Kingdoms" path="spkingdoms_1598"/>
+			<IncludedGameTypes>
+				<GameType value="TaikouCampaign1598"/>
+			</IncludedGameTypes>
+		</XmlNode>
+		<XmlNode>
+			<XmlName id="Factions" path="spclans_1598"/>
+			<IncludedGameTypes>
+				<GameType value="TaikouCampaign1598"/>
+			</IncludedGameTypes>
+		</XmlNode>
+		<XmlNode>
+			<XmlName id="Settlements" path="settlements_1598"/>
+			<IncludedGameTypes>
+				<GameType value="TaikouCampaign1598"/>
+			</IncludedGameTypes>
+		</XmlNode>
+		<XmlNode>
+			<XmlName id="Heroes" path="taikou_heroes_1598"/>
+			<IncludedGameTypes>
+				<GameType value="TaikouCampaign1598"/>
+			</IncludedGameTypes>
+		</XmlNode>
+		<XmlNode>
+			<XmlName id="NPCCharacters" path="taikou_lords_1598"/>
+			<IncludedGameTypes>
+				<GameType value="TaikouCampaign1598"/>
+			</IncludedGameTypes>
+		</XmlNode>
 </Xmls>
 </Module>
 
