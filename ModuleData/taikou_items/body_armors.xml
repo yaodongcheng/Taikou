@@ -18,4 +18,34 @@
 		</ItemComponent>
 		<Flags UseTeamColor="true" Civilian="true" />
 	</Item>
+	<Item id="leather_lamellar_armor" name="{=cjhhuTZD}Cured Leather Lamellar Armor" mesh="leather_lamellar_armor" culture="Culture.ikoku" weight="14" appearance="1.2" Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="24" leg_armor="12" arm_armor="6" covers_body="true" modifier_group="leather" material_type="Leather" />
+		</ItemComponent>
+		<Flags UseTeamColor="true" />
+	</Item>
+	<Item id="eastern_lamellar_armor" name="{=tG1Q8r2u}Lancer Lamellar Armor" mesh="metal_lamellar_armor" culture="Culture.ikoku" weight="13" appearance="2" Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="39" leg_armor="10" arm_armor="7" covers_body="true" modifier_group="plate" material_type="Plate" />
+		</ItemComponent>
+		<Flags UseTeamColor="true" />
+	</Item>
+	<Item id="cloth_tunic" name="{=OJIRIm4j}Simple Cloth Tunic" mesh="clothing_a" culture="Culture.ikoku" subtype="body_armor" weight="0.4" appearance="1" Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="2" leg_armor="1" arm_armor="1" covers_body="true" modifier_group="cloth_unarmoured" material_type="Cloth" />
+		</ItemComponent>
+		<Flags UseTeamColor="true" Civilian="true" />
+	</Item>
+	<Item id="padded_leather_shirt" name="{=tiTTWhpW}Padded Leather Shirt" mesh="armor_roman_padded_leather_shirt" culture="Culture.ikoku" weight="1.8" appearance="1" Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="16" leg_armor="8" arm_armor="4" covers_body="true" modifier_group="leather" material_type="Leather" />
+		</ItemComponent>
+		<Flags UseTeamColor="true" Civilian="true" />
+	</Item>
+	<Item id="tattered_rags" name="{=F9GB8lMZ}Tattered Rags" subtype="body_armor" mesh="battania_cloth_armor_b" culture="Culture.ikoku" weight="0.3" difficulty="0" appearance="0.3" Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="3" leg_armor="1" arm_armor="0" has_gender_variations="true" covers_body="false" modifier_group="cloth_unarmoured" material_type="Cloth" />
+		</ItemComponent>
+		<Flags Civilian="true" DoesNotHideChest="true" />
+	</Item>
 </Items>

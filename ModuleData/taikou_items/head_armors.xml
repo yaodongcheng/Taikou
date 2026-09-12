@@ -1,5 +1,23 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Items>
+	<Item id="fur_hat" name="{=kEInAJ2P}Nomad Fur Cap" subtype="head_armor" mesh="khuzait_helmet_o" culture="Culture.ikoku" weight="0.35" difficulty="0" appearance="1" Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="7" has_gender_variations="false" hair_cover_type="type1" modifier_group="leather" material_type="Leather" />
+		</ItemComponent>
+		<Flags Civilian="true" />
+	</Item>
+	<Item id="kettle_hat_over_padded_cloth" name="{=wBfGpcCO}Kettle Hat over Padded Cloth" subtype="head_armor" mesh="vlandia_helmet_i_y" culture="Culture.ikoku" weight="2.4" difficulty="0" appearance="1.9" Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="34" has_gender_variations="false" hair_cover_type="all" beard_cover_type="type2" modifier_group="plate" material_type="Plate" />
+		</ItemComponent>
+		<Flags UseTeamColor="true" />
+	</Item>
+	<Item id="kettle_hat_over_mail_coif" name="{=tMLH04n4}Kettle Hat over Mail Coif" mesh="vlandia_helmet_i_a" culture="Culture.ikoku" weight="2.9" appearance="2.8" Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="42" has_gender_variations="false" hair_cover_type="all" beard_cover_type="all" modifier_group="chain" material_type="Chainmail" />
+		</ItemComponent>
+		<Flags UseTeamColor="true" />
+	</Item>
 	<Item id="nasal_helmet_with_mail" name="{=EWR2MNeM}Nasal Helmet with Mail" subtype="head_armor" mesh="nasal_helmet_reinforced" culture="Culture.ikoku" weight="2.5" difficulty="0" appearance="3" Type="HeadArmor">
 		<ItemComponent>
 			<Armor head_armor="39" has_gender_variations="false" hair_cover_type="all" modifier_group="plate" material_type="Plate" />

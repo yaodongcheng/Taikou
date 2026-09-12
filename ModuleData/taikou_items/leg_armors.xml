@@ -1,12 +1,24 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Items>
+	<Item id="wrapped_shoes" name="{=4YxbZlbi}Wrapped Shoes" mesh="wrapped_shoes" culture="Culture.ikoku" weight="0.8" appearance="1" Type="LegArmor">
+		<ItemComponent>
+			<Armor leg_armor="4" covers_legs="true" modifier_group="cloth_unarmoured" material_type="Cloth" />
+		</ItemComponent>
+		<Flags Civilian="true" />
+	</Item>
+	<Item id="wrapped_leather_boots" name="{=WahziEXA}Wrapped Leather Boots" mesh="bandit_leather_boots" culture="Culture.ikoku" weight="1.0" appearance="1" Type="LegArmor">
+		<ItemComponent>
+			<Armor leg_armor="7" covers_legs="true" modifier_group="leather" material_type="Leather" />
+		</ItemComponent>
+		<Flags Civilian="true" />
+	</Item>
 	<Item id="leather_cavalier_boots" name="{=oEvhhNNR}Leather Cavalier Boots" mesh="cav_boots" culture="Culture.ikoku" weight="0.9" appearance="1" Type="LegArmor">
 		<ItemComponent>
 			<Armor leg_armor="6" covers_legs="true" modifier_group="leather" material_type="Leather" />
 		</ItemComponent>
 		<Flags Civilian="true" />
 	</Item>
-	<Item id="leather_shoes" name="{=Kgnm0FkE}Leather Shoes" mesh="boot_e" culture="Culture.ikoku" weight="0.7" difficulty="0" appearance="0.3" Type="LegArmor">
+	<Item id="leather_shoes" name="{=Kgnm0FkE}Leather Shoes" mesh="boot_e" culture="Culture.neutral_culture" weight="0.7" difficulty="0" appearance="0.3" Type="LegArmor">
 		<ItemComponent>
 			<Armor leg_armor="3" covers_legs="true" modifier_group="leather" material_type="Leather" />
 		</ItemComponent>

@@ -6374,5 +6374,11 @@
     <string id="TAIKOU_story_type_ninja" text="Ninja Story" />
     <string id="TAIKOU_story_type_shounin" text="Merchant Story" />
     <string id="TAIKOU_story_type_suigun" text="Sea Lord Story" />
+    <string id="TAIKOU_troop_bandit_looter" text="Bandit" />
+    <string id="TAIKOU_troop_mounted_samurai" text="Mounted Samurai" />
+    <string id="TAIKOU_troop_samurai" text="Samurai" />
+    <string id="TAIKOU_troop_veteran_ashigaru" text="Veteran Ashigaru" />
+    <string id="TAIKOU_troop_yari_ashigaru" text="Ashigaru Spearman" />
+    <string id="TAIKOU_troop_yumi_ashigaru" text="Ashigaru Archer" />
   </strings>
 </base>

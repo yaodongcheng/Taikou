@@ -406,6 +406,12 @@
 		</ItemComponent>
 		<Flags Civilian="true" />
 	</Item>
+	<Item id="light_harness" name="{=O37kzdXO}Light Harness" mesh="horse_harness_b" weight="20" appearance="1" Type="HorseHarness">
+		<ItemComponent>
+			<Armor body_armor="10" mane_cover_type="none" maneuver_bonus="0" speed_bonus="0" charge_bonus="0" family_type="1" material_type="Leather" />
+		</ItemComponent>
+		<Flags Civilian="true" />
+	</Item>
 	<Item id="wool" name="{=WVqaRKUm}Wool{@Plural}loads of wool{\@}" mesh="merchandise_wool" item_category="wool" value="40" weight="10" Type="Goods">
 		<Flags Civilian="true" />
 	</Item>

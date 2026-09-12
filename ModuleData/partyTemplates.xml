@@ -1,7 +1,25 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<!-- TaikouCampaign 玩家主队模板（出生点三件套之二）：
-     InitializeMainParty()（CampaignSystem.dll:7253）硬查 PartyTemplateObject "main_hero_party_template"，
-     Native 无、SandBox 有不载入（IncludedGameTypes=Campaign）——必须自带（织丰同款结构）。 -->
+<?xml version="1.0" encoding="utf-8"?>
+<!-- TaikouCampaign 部队模板表（自建，非生成物；兵种 id 见 spnpccharacters.xml 的 TROOPS 段）。
+     ─────────────────────────────────────────────────────────────────────────────
+     为什么有这张表：引擎刷任何部队都按「文化上的模板属性」填 roster
+     （`Clan.DefaultPartyTemplate` = 家族自己的 ?? `Culture.DefaultPartyTemplate`）。
+     2026-09-12 之前 17 个文化的 8 个模板属性**全指向占位模板**（`main_hero_party_template`
+     = 1× `NPCCharacter.main_hero`，中文名「主角」）→ 全世界部队被填成「主角」副本：
+     地图显示 100+ 人、队伍界面只有领主 + 主角、没有一兵一卒（实机症状）。
+     修法 = 本表给出真模板 + 文化改指（生成器 `gen_taikou_culture_full.py`）。
+
+     每个模板对应文化上的哪个属性（引擎 1.2.12 CultureObject 反编译实证，8 个都无 null 兜底）：
+       default_party_template          → 领主部队（家族没写自己的模板时兜底用；缺 = 建世界 NRE，雷 110）
+       militia_party_template          → 城镇/村庄民兵队
+       villager_party_template         → 村庄商队（村民押货进城）
+       caravan_party_template          → 商队
+       elite_caravan_party_template    → 精锐商队（大商家）
+       rebels_party_template           → 叛军（灭国后的残党、起义队）
+       bandit_boss_party_template      → 匪首部队（山贼头目队）
+       vassal_reward_party_template    → 附庸奖励兵（受封时给的随从兵）
+
+     `main_hero_party_template`（引擎硬查，勿删）与 `militia_template`（旧占位，保留兼容）
+     留在文件里；新模板的 stack 数量 = **相对权重**（引擎按权重随机分配到部队规模上限）。 -->
 <partyTemplates>
 	<MBPartyTemplate id="main_hero_party_template">
 		<stacks>
@@ -11,6 +29,76 @@
 	<MBPartyTemplate id="militia_template">
 		<stacks>
 			<PartyTemplateStack min_value="4" max_value="6" troop="NPCCharacter.guard" />
+		</stacks>
+	</MBPartyTemplate>
+
+	<!-- 领主部队：足轻为主 + 少量武士 + 骑马武士（大名/城主带队的正规军） -->
+	<MBPartyTemplate id="taikou_lord_party_template">
+		<stacks>
+			<PartyTemplateStack min_value="20" max_value="20" troop="NPCCharacter.yari_ashigaru" />
+			<PartyTemplateStack min_value="10" max_value="10" troop="NPCCharacter.yumi_ashigaru" />
+			<PartyTemplateStack min_value="6" max_value="6" troop="NPCCharacter.veteran_ashigaru" />
+			<PartyTemplateStack min_value="3" max_value="3" troop="NPCCharacter.samurai" />
+			<PartyTemplateStack min_value="1" max_value="1" troop="NPCCharacter.mounted_samurai" />
+		</stacks>
+	</MBPartyTemplate>
+
+	<!-- 民兵队：农兵 + 少量足轻（城镇/村庄自守） -->
+	<MBPartyTemplate id="taikou_militia_party_template">
+		<stacks>
+			<PartyTemplateStack min_value="6" max_value="6" troop="NPCCharacter.peasant_farmer" />
+			<PartyTemplateStack min_value="6" max_value="6" troop="NPCCharacter.yari_ashigaru" />
+			<PartyTemplateStack min_value="3" max_value="3" troop="NPCCharacter.yumi_ashigaru" />
+		</stacks>
+	</MBPartyTemplate>
+
+	<!-- 村民队：纯农民（运货进城） -->
+	<MBPartyTemplate id="taikou_villager_party_template">
+		<stacks>
+			<PartyTemplateStack min_value="15" max_value="30" troop="NPCCharacter.peasant_farmer" />
+		</stacks>
+	</MBPartyTemplate>
+
+	<!-- 商队：护卫 + 随行足轻 -->
+	<MBPartyTemplate id="taikou_caravan_party_template">
+		<stacks>
+			<PartyTemplateStack min_value="6" max_value="6" troop="NPCCharacter.caravan_guard" />
+			<PartyTemplateStack min_value="5" max_value="5" troop="NPCCharacter.yari_ashigaru" />
+			<PartyTemplateStack min_value="3" max_value="3" troop="NPCCharacter.yumi_ashigaru" />
+		</stacks>
+	</MBPartyTemplate>
+
+	<!-- 精锐商队：护卫 + 精锐足轻 + 武士（大商家/豪商押货） -->
+	<MBPartyTemplate id="taikou_elite_caravan_party_template">
+		<stacks>
+			<PartyTemplateStack min_value="6" max_value="6" troop="NPCCharacter.caravan_guard" />
+			<PartyTemplateStack min_value="5" max_value="5" troop="NPCCharacter.veteran_ashigaru" />
+			<PartyTemplateStack min_value="3" max_value="3" troop="NPCCharacter.samurai" />
+		</stacks>
+	</MBPartyTemplate>
+
+	<!-- 叛军：山贼为主 + 裹挟的足轻 -->
+	<MBPartyTemplate id="taikou_rebels_party_template">
+		<stacks>
+			<PartyTemplateStack min_value="10" max_value="10" troop="NPCCharacter.bandit_looter" />
+			<PartyTemplateStack min_value="6" max_value="6" troop="NPCCharacter.yari_ashigaru" />
+			<PartyTemplateStack min_value="4" max_value="4" troop="NPCCharacter.yumi_ashigaru" />
+		</stacks>
+	</MBPartyTemplate>
+
+	<!-- 匪首部队：山贼团伙（`looters` 文化家族的领主部队也用它） -->
+	<MBPartyTemplate id="taikou_bandit_party_template">
+		<stacks>
+			<PartyTemplateStack min_value="14" max_value="14" troop="NPCCharacter.bandit_looter" />
+		</stacks>
+	</MBPartyTemplate>
+
+	<!-- 附庸奖励兵：受封时拨给的随从（精锐足轻 + 武士 + 骑马武士） -->
+	<MBPartyTemplate id="taikou_vassal_reward_party_template">
+		<stacks>
+			<PartyTemplateStack min_value="5" max_value="5" troop="NPCCharacter.veteran_ashigaru" />
+			<PartyTemplateStack min_value="3" max_value="3" troop="NPCCharacter.samurai" />
+			<PartyTemplateStack min_value="1" max_value="1" troop="NPCCharacter.mounted_samurai" />
 		</stacks>
 	</MBPartyTemplate>
 </partyTemplates>

@@ -93,4 +93,17 @@
 			<Equipment slot="Leg" id="Item.leather_shoes" />
 		</EquipmentSet>
 	</EquipmentRoster>
+	<EquipmentRoster id="taikou_civil_common" culture="Culture.ikoku">
+		<EquipmentSet equipmentType="Civilian" civilian="true">
+			<Equipment slot="Head" id="Item.fur_hat" />
+			<Equipment slot="Body" id="Item.cloth_tunic" />
+			<Equipment slot="Leg" id="Item.leather_shoes" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster id="taikou_civil_bandit" culture="Culture.ikoku">
+		<EquipmentSet equipmentType="Civilian" civilian="true">
+			<Equipment slot="Body" id="Item.tattered_rags" />
+			<Equipment slot="Leg" id="Item.wrapped_shoes" />
+		</EquipmentSet>
+	</EquipmentRoster>
 </EquipmentRosters>
