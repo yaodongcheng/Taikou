@@ -1117,4 +1117,169 @@
 		</Equipments>
 	</NPCCharacter>
 
+	<NPCCharacter id="caravan_guard_saikai" default_group="Infantry" level="26" is_female="false" culture="Culture.saikai" name="{=TAIKOU_npc_caravan_guard}Caravan Guard" occupation="CaravanGuard">
+		<face>
+			<face_key_template value="BodyProperty.villager_empire"/>
+		</face>
+		<upgrade_targets></upgrade_targets>
+		<Equipments>
+			<EquipmentRoster civilian="true"/>
+			<EquipmentRoster/>
+		</Equipments>
+	</NPCCharacter>
+
+	<NPCCharacter id="caravan_guard_nankai" default_group="Infantry" level="26" is_female="false" culture="Culture.nankai" name="{=TAIKOU_npc_caravan_guard}Caravan Guard" occupation="CaravanGuard">
+		<face>
+			<face_key_template value="BodyProperty.villager_empire"/>
+		</face>
+		<upgrade_targets></upgrade_targets>
+		<Equipments>
+			<EquipmentRoster civilian="true"/>
+			<EquipmentRoster/>
+		</Equipments>
+	</NPCCharacter>
+
+	<NPCCharacter id="caravan_guard_sanyo" default_group="Infantry" level="26" is_female="false" culture="Culture.sanyo" name="{=TAIKOU_npc_caravan_guard}Caravan Guard" occupation="CaravanGuard">
+		<face>
+			<face_key_template value="BodyProperty.villager_empire"/>
+		</face>
+		<upgrade_targets></upgrade_targets>
+		<Equipments>
+			<EquipmentRoster civilian="true"/>
+			<EquipmentRoster/>
+		</Equipments>
+	</NPCCharacter>
+
+	<NPCCharacter id="caravan_guard_kinai" default_group="Infantry" level="26" is_female="false" culture="Culture.kinai" name="{=TAIKOU_npc_caravan_guard}Caravan Guard" occupation="CaravanGuard">
+		<face>
+			<face_key_template value="BodyProperty.villager_empire"/>
+		</face>
+		<upgrade_targets></upgrade_targets>
+		<Equipments>
+			<EquipmentRoster civilian="true"/>
+			<EquipmentRoster/>
+		</Equipments>
+	</NPCCharacter>
+
+	<NPCCharacter id="caravan_guard_hokuriku" default_group="Infantry" level="26" is_female="false" culture="Culture.hokuriku" name="{=TAIKOU_npc_caravan_guard}Caravan Guard" occupation="CaravanGuard">
+		<face>
+			<face_key_template value="BodyProperty.villager_empire"/>
+		</face>
+		<upgrade_targets></upgrade_targets>
+		<Equipments>
+			<EquipmentRoster civilian="true"/>
+			<EquipmentRoster/>
+		</Equipments>
+	</NPCCharacter>
+
+	<NPCCharacter id="caravan_guard_tosan" default_group="Infantry" level="26" is_female="false" culture="Culture.tosan" name="{=TAIKOU_npc_caravan_guard}Caravan Guard" occupation="CaravanGuard">
+		<face>
+			<face_key_template value="BodyProperty.villager_empire"/>
+		</face>
+		<upgrade_targets></upgrade_targets>
+		<Equipments>
+			<EquipmentRoster civilian="true"/>
+			<EquipmentRoster/>
+		</Equipments>
+	</NPCCharacter>
+
+	<NPCCharacter id="caravan_guard_tokai" default_group="Infantry" level="26" is_female="false" culture="Culture.tokai" name="{=TAIKOU_npc_caravan_guard}Caravan Guard" occupation="CaravanGuard">
+		<face>
+			<face_key_template value="BodyProperty.villager_empire"/>
+		</face>
+		<upgrade_targets></upgrade_targets>
+		<Equipments>
+			<EquipmentRoster civilian="true"/>
+			<EquipmentRoster/>
+		</Equipments>
+	</NPCCharacter>
+
+	<NPCCharacter id="caravan_guard_kanto" default_group="Infantry" level="26" is_female="false" culture="Culture.kanto" name="{=TAIKOU_npc_caravan_guard}Caravan Guard" occupation="CaravanGuard">
+		<face>
+			<face_key_template value="BodyProperty.villager_empire"/>
+		</face>
+		<upgrade_targets></upgrade_targets>
+		<Equipments>
+			<EquipmentRoster civilian="true"/>
+			<EquipmentRoster/>
+		</Equipments>
+	</NPCCharacter>
+
+	<NPCCharacter id="caravan_guard_ou" default_group="Infantry" level="26" is_female="false" culture="Culture.ou" name="{=TAIKOU_npc_caravan_guard}Caravan Guard" occupation="CaravanGuard">
+		<face>
+			<face_key_template value="BodyProperty.villager_empire"/>
+		</face>
+		<upgrade_targets></upgrade_targets>
+		<Equipments>
+			<EquipmentRoster civilian="true"/>
+			<EquipmentRoster/>
+		</Equipments>
+	</NPCCharacter>
+
+	<NPCCharacter id="caravan_guard_ninja" default_group="Infantry" level="26" is_female="false" culture="Culture.ninja" name="{=TAIKOU_npc_caravan_guard}Caravan Guard" occupation="CaravanGuard">
+		<face>
+			<face_key_template value="BodyProperty.villager_empire"/>
+		</face>
+		<upgrade_targets></upgrade_targets>
+		<Equipments>
+			<EquipmentRoster civilian="true"/>
+			<EquipmentRoster/>
+		</Equipments>
+	</NPCCharacter>
+
+	<NPCCharacter id="caravan_guard_pirate" default_group="Infantry" level="26" is_female="false" culture="Culture.pirate" name="{=TAIKOU_npc_caravan_guard}Caravan Guard" occupation="CaravanGuard">
+		<face>
+			<face_key_template value="BodyProperty.villager_empire"/>
+		</face>
+		<upgrade_targets></upgrade_targets>
+		<Equipments>
+			<EquipmentRoster civilian="true"/>
+			<EquipmentRoster/>
+		</Equipments>
+	</NPCCharacter>
+
+	<NPCCharacter id="caravan_guard_trader" default_group="Infantry" level="26" is_female="false" culture="Culture.trader" name="{=TAIKOU_npc_caravan_guard}Caravan Guard" occupation="CaravanGuard">
+		<face>
+			<face_key_template value="BodyProperty.villager_empire"/>
+		</face>
+		<upgrade_targets></upgrade_targets>
+		<Equipments>
+			<EquipmentRoster civilian="true"/>
+			<EquipmentRoster/>
+		</Equipments>
+	</NPCCharacter>
+
+	<NPCCharacter id="caravan_guard_looters" default_group="Infantry" level="26" is_female="false" culture="Culture.looters" name="{=TAIKOU_npc_caravan_guard}Caravan Guard" occupation="CaravanGuard">
+		<face>
+			<face_key_template value="BodyProperty.villager_empire"/>
+		</face>
+		<upgrade_targets></upgrade_targets>
+		<Equipments>
+			<EquipmentRoster civilian="true"/>
+			<EquipmentRoster/>
+		</Equipments>
+	</NPCCharacter>
+
+	<NPCCharacter id="caravan_guard_ronin" default_group="Infantry" level="26" is_female="false" culture="Culture.ronin" name="{=TAIKOU_npc_caravan_guard}Caravan Guard" occupation="CaravanGuard">
+		<face>
+			<face_key_template value="BodyProperty.villager_empire"/>
+		</face>
+		<upgrade_targets></upgrade_targets>
+		<Equipments>
+			<EquipmentRoster civilian="true"/>
+			<EquipmentRoster/>
+		</Equipments>
+	</NPCCharacter>
+
+	<NPCCharacter id="caravan_guard_namban" default_group="Infantry" level="26" is_female="false" culture="Culture.namban" name="{=TAIKOU_npc_caravan_guard}Caravan Guard" occupation="CaravanGuard">
+		<face>
+			<face_key_template value="BodyProperty.villager_empire"/>
+		</face>
+		<upgrade_targets></upgrade_targets>
+		<Equipments>
+			<EquipmentRoster civilian="true"/>
+			<EquipmentRoster/>
+		</Equipments>
+	</NPCCharacter>
+
 </NPCCharacters>
