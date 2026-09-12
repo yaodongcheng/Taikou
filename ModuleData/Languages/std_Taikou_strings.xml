@@ -825,9 +825,24 @@
     <string id="TAIKOU_clan_yagyuu_1" text="Yagyuu" />
     <string id="TAIKOU_clan_yagyuu_1_text" text="The sword school of Yagyuu." />
     <string id="TAIKOU_culture_description_ikoku" text="The inhabitants of the Japanese archipelago live in an age of ceaseless war. Centuries of imperial rule have collapsed into a fractured era of feuding warlords, and the shogun's authority burns dim beside the field of banners. Rulers who hold the force of arms are made and unmade in a single season; yet beyond the smoke of battle, the merchant's ledger, the monk's chant and the poet's brush endure, and no conquest can long stand that cannot be honored in the turning of a blade." />
+    <string id="TAIKOU_culture_hokuriku" text="Hokuriku" />
     <string id="TAIKOU_culture_ikoku" text="Japanese" />
+    <string id="TAIKOU_culture_kanto" text="Kanto" />
+    <string id="TAIKOU_culture_kinai" text="Kinai" />
+    <string id="TAIKOU_culture_looters" text="Bandits" />
+    <string id="TAIKOU_culture_namban" text="Namban" />
+    <string id="TAIKOU_culture_nankai" text="Nankai" />
     <string id="TAIKOU_culture_neutral" text="Neutral" />
+    <string id="TAIKOU_culture_ninja" text="Ninja" />
+    <string id="TAIKOU_culture_ou" text="Ou" />
+    <string id="TAIKOU_culture_pirate" text="Pirate" />
     <string id="TAIKOU_culture_rich_name_ikoku" text="Japanese" />
+    <string id="TAIKOU_culture_ronin" text="Ronin" />
+    <string id="TAIKOU_culture_saikai" text="Saikai" />
+    <string id="TAIKOU_culture_sanyo" text="Sanyo" />
+    <string id="TAIKOU_culture_tokai" text="Tokai" />
+    <string id="TAIKOU_culture_tosan" text="Tosan" />
+    <string id="TAIKOU_culture_trader" text="Merchant" />
     <string id="TAIKOU_daimyo" text="Daimyo" />
     <string id="TAIKOU_dim_charm" text="Charisma" />
     <string id="TAIKOU_dim_command" text="Command" />
@@ -942,7 +957,7 @@
     <string id="TAIKOU_sett_castle_tk262" text="三崎之砦" />
     <string id="TAIKOU_sett_castle_tk263" text="清水之砦" />
     <string id="TAIKOU_sett_castle_tk264" text="舞鹤之砦" />
-    <string id="TAIKOU_sett_castle_tk265" text="鸟羽" />
+    <string id="TAIKOU_sett_castle_tk265" text="鸟羽之砦" />
     <string id="TAIKOU_sett_castle_tk266" text="洲本之砦" />
     <string id="TAIKOU_sett_castle_tk267" text="美保关之砦" />
     <string id="TAIKOU_sett_castle_tk268" text="盐饱之砦" />
@@ -1176,11 +1191,11 @@
     <string id="TAIKOU_sett_village_tk209_1582" text="长滨之町" />
     <string id="TAIKOU_sett_village_tk210" text="目加田之町" />
     <string id="TAIKOU_sett_village_tk210_1582" text="安土之町" />
-    <string id="TAIKOU_sett_village_tk211" text="奈良" />
+    <string id="TAIKOU_sett_village_tk211" text="奈良之町" />
     <string id="TAIKOU_sett_village_tk212" text="京之町" />
     <string id="TAIKOU_sett_village_tk213" text="龟山之町" />
     <string id="TAIKOU_sett_village_tk214" text="小滨之町" />
-    <string id="TAIKOU_sett_village_tk215" text="界" />
+    <string id="TAIKOU_sett_village_tk215" text="堺之町" />
     <string id="TAIKOU_sett_village_tk216" text="石山之町" />
     <string id="TAIKOU_sett_village_tk217" text="杂贺之町" />
     <string id="TAIKOU_sett_village_tk218" text="出石之町" />
