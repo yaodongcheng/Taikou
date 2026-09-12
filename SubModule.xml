@@ -3,6 +3,10 @@
 	<Id value="Taikou"/>
 	<Version value="e1.5.2"/>
 	<DefaultModule value="false"/>
+	<!-- 🔴 缺少此行 = 模块不算单机模块（2026-09-12 照归档包 ShokuhoTaikouExpansionPack 补齐）。
+	     ⚠️ 说明：**它并不是"立绘不显示"的原因**（加完之后问题依旧；真正的原因是下面那条本地目录操作）。
+	     保留它是因为归档包/织丰都有这一行，属于模块声明应有的完整性。 -->
+	<SinglePlayerModule value="true"/>
 	<ModuleCategory value="Singleplayer"/>
 	<Official value="false"/>
 	<DependedModules>
