@@ -1145,6 +1145,11 @@
     <string id="TAIKOU_faction_ruler_f" text="Daimyo" />
     <string id="TAIKOU_faction_ruler_name_with_title" text="Daimyo " />
     <string id="TAIKOU_faction_ruler_term_in_speech" text="the Daimyo " />
+    <string id="TAIKOU_forcetype_ninja" text="Ninja" />
+    <string id="TAIKOU_forcetype_others" text="Others" />
+    <string id="TAIKOU_forcetype_pirate" text="Pirate" />
+    <string id="TAIKOU_forcetype_trader" text="Trader" />
+    <string id="TAIKOU_forcetype_warrior" text="Warrior" />
     <string id="TAIKOU_hero_0_1568" text="Aoyama Tadanari" />
     <string id="TAIKOU_hero_0_1575" text="Aoyama Tadanari" />
     <string id="TAIKOU_hero_0_1582" text="Aoyama Tadanari" />

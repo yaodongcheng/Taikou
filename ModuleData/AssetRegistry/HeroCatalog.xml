@@ -4,284 +4,289 @@
      🔴 本表 id 集合 == taikou_heroes*.xml 的 id 集合（同源，不会漂移）。
      建世界**之前**的选人界面读这张表（不依赖 Campaign.Current）。 -->
 <HeroCatalog>
+  <RealmType id="warrior" name="{=TAIKOU_forcetype_warrior}Warrior" order="1" />
+  <RealmType id="trader" name="{=TAIKOU_forcetype_trader}Trader" order="2" />
+  <RealmType id="ninja" name="{=TAIKOU_forcetype_ninja}Ninja" order="3" />
+  <RealmType id="pirate" name="{=TAIKOU_forcetype_pirate}Pirate" order="4" />
+  <RealmType id="others" name="{=TAIKOU_forcetype_others}Others" order="5" />
   <Era id="1560">
-    <Realm id="kingdom_sagara" name="{=TAIKOU_kingdom_sagara}Sagara" order="1" />
-    <Realm id="kingdom_ichijo" name="{=TAIKOU_kingdom_ichijo}Ichijo" order="2" />
-    <Realm id="kingdom_saitoo" name="{=TAIKOU_kingdom_saitoo}Saitoo" order="3" />
-    <Realm id="kingdom_ashina" name="{=TAIKOU_kingdom_ashina}Ashina" order="4" />
-    <Realm id="kingdom_oda" name="{=TAIKOU_kingdom_oda}Oda" order="5" />
-    <Realm id="kingdom_hojo" name="{=TAIKOU_kingdom_hojo}Hojo" order="6" />
-    <Realm id="kingdom_imagawa" name="{=TAIKOU_kingdom_imagawa}Imagawa" order="7" />
-    <Realm id="kingdom_uesugi" name="{=TAIKOU_kingdom_uesugi}Uesugi" order="8" />
-    <Realm id="kingdom_miyoshi" name="{=TAIKOU_kingdom_miyoshi}Miyoshi" order="9" />
-    <Realm id="kingdom_org_pirate_antousuigun" name="{=TAIKOU_kingdom_org_pirate_antousuigun}Pirate" order="10" />
-    <Realm id="kingdom_azai" name="{=TAIKOU_kingdom_azai}Azai" order="11" />
-    <Realm id="kingdom_takeda" name="{=TAIKOU_kingdom_takeda}Takeda" order="12" />
-    <Realm id="kingdom_otomo" name="{=TAIKOU_kingdom_otomo}Otomo" order="13" />
-    <Realm id="kingdom_date" name="{=TAIKOU_kingdom_date}Date" order="14" />
-    <Realm id="kingdom_uragami" name="{=TAIKOU_kingdom_uragami}Uragami" order="15" />
-    <Realm id="kingdom_ashikaga" name="{=TAIKOU_kingdom_ashikaga}Ashikaga" order="16" />
-    <Realm id="kingdom_ryuzoji" name="{=TAIKOU_kingdom_ryuzoji}Ryuzoji" order="17" />
-    <Realm id="kingdom_org_ninja_kouka" name="{=TAIKOU_kingdom_org_ninja_kouka}Ninja" order="18" />
-    <Realm id="kingdom_chosokabe" name="{=TAIKOU_kingdom_chosokabe}Chosokabe" order="19" />
-    <Realm id="kingdom_org_pirate_gotousuigun" name="{=TAIKOU_kingdom_org_pirate_gotousuigun}Pirate" order="20" />
-    <Realm id="kingdom_asakura" name="{=TAIKOU_kingdom_asakura}Asakura" order="21" />
-    <Realm id="kingdom_mogami" name="{=TAIKOU_kingdom_mogami}Mogami" order="22" />
-    <Realm id="kingdom_amago" name="{=TAIKOU_kingdom_amago}Amago" order="23" />
-    <Realm id="kingdom_utsunomiya" name="{=TAIKOU_kingdom_utsunomiya}Utsunomiya" order="24" />
-    <Realm id="kingdom_shimazu" name="{=TAIKOU_kingdom_shimazu}Shimazu" order="25" />
-    <Realm id="kingdom_soo" name="{=TAIKOU_kingdom_soo}Soo" order="26" />
-    <Realm id="kingdom_osaki" name="{=TAIKOU_kingdom_osaki}Osaki" order="27" />
-    <Realm id="kingdom_otaa" name="{=TAIKOU_kingdom_otaa}Otaa" order="28" />
-    <Realm id="kingdom_org_pirate_surugasuigun" name="{=TAIKOU_kingdom_org_pirate_surugasuigun}Pirate" order="29" />
-    <Realm id="kingdom_org_pirate_bousousuigun" name="{=TAIKOU_kingdom_org_pirate_bousousuigun}Pirate" order="30" />
-    <Realm id="kingdom_satake" name="{=TAIKOU_kingdom_satake}Satake" order="31" />
-    <Realm id="kingdom_honganji" name="{=TAIKOU_kingdom_honganji}Honganji" order="32" />
-    <Realm id="kingdom_oda2" name="{=TAIKOU_kingdom_oda2}Oda2" order="33" />
-    <Realm id="kingdom_akamatsu" name="{=TAIKOU_kingdom_akamatsu}Akamatsu" order="34" />
-    <Realm id="kingdom_kiku" name="{=TAIKOU_kingdom_kiku}Kiku" order="35" />
-    <Realm id="kingdom_onodera" name="{=TAIKOU_kingdom_onodera}Onodera" order="36" />
-    <Realm id="kingdom_aso" name="{=TAIKOU_kingdom_aso}Aso" order="37" />
-    <Realm id="kingdom_ando" name="{=TAIKOU_kingdom_ando}Ando" order="38" />
-    <Realm id="kingdom_yamana" name="{=TAIKOU_kingdom_yamana}Yamana" order="39" />
-    <Realm id="kingdom_kasai" name="{=TAIKOU_kingdom_kasai}Kasai" order="40" />
-    <Realm id="kingdom_org_pirate_sagamisuigun" name="{=TAIKOU_kingdom_org_pirate_sagamisuigun}Pirate" order="41" />
-    <Realm id="kingdom_mori" name="{=TAIKOU_kingdom_mori}Mori" order="42" />
-    <Realm id="kingdom_org_ninja_nokizaru" name="{=TAIKOU_kingdom_org_ninja_nokizaru}Ninja" order="43" />
-    <Realm id="kingdom_rokkaku" name="{=TAIKOU_kingdom_rokkaku}Rokkaku" order="44" />
-    <Realm id="kingdom_kitabatake" name="{=TAIKOU_kingdom_kitabatake}Kitabatake" order="45" />
-    <Realm id="kingdom_org_pirate_awajisuigun" name="{=TAIKOU_kingdom_org_pirate_awajisuigun}Pirate" order="46" />
-    <Realm id="kingdom_nanbu" name="{=TAIKOU_kingdom_nanbu}Nanbu" order="47" />
-    <Realm id="kingdom_kimotsuki" name="{=TAIKOU_kingdom_kimotsuki}Kimotsuki" order="48" />
-    <Realm id="kingdom_org_pirate_kumanosuigun" name="{=TAIKOU_kingdom_org_pirate_kumanosuigun}Pirate" order="49" />
-    <Realm id="kingdom_org_pirate_murakamisuigun" name="{=TAIKOU_kingdom_org_pirate_murakamisuigun}Pirate" order="50" />
-    <Realm id="kingdom_gyo" name="{=TAIKOU_kingdom_gyo}Gyo" order="51" />
-    <Realm id="kingdom_org_ninja_suppa" name="{=TAIKOU_kingdom_org_ninja_suppa}Ninja" order="52" />
-    <Realm id="kingdom_kawano" name="{=TAIKOU_kingdom_kawano}Kawano" order="53" />
-    <Realm id="kingdom_jinbo" name="{=TAIKOU_kingdom_jinbo}Jinbo" order="54" />
-    <Realm id="kingdom_matsuura" name="{=TAIKOU_kingdom_matsuura}Matsuura" order="55" />
-    <Realm id="kingdom_org_ninja_gaibun" name="{=TAIKOU_kingdom_org_ninja_gaibun}Ninja" order="56" />
-    <Realm id="kingdom_satomi" name="{=TAIKOU_kingdom_satomi}Satomi" order="57" />
-    <Realm id="kingdom_shiba" name="{=TAIKOU_kingdom_shiba}Shiba" order="58" />
-    <Realm id="kingdom_tsutsui" name="{=TAIKOU_kingdom_tsutsui}Tsutsui" order="59" />
-    <Realm id="kingdom_org_ninja_negoro" name="{=TAIKOU_kingdom_org_ninja_negoro}Ninja" order="60" />
-    <Realm id="kingdom_miki" name="{=TAIKOU_kingdom_miki}Miki" order="61" />
-    <Realm id="kingdom_soma" name="{=TAIKOU_kingdom_soma}Soma" order="62" />
-    <Realm id="kingdom_hatakeyama" name="{=TAIKOU_kingdom_hatakeyama}Hatakeyama" order="63" />
-    <Realm id="kingdom_org_ninja_iga" name="{=TAIKOU_kingdom_org_ninja_iga}Ninja" order="64" />
-    <Realm id="kingdom_org_pirate_tangosuigun" name="{=TAIKOU_kingdom_org_pirate_tangosuigun}Pirate" order="65" />
-    <Realm id="kingdom_org_ninja_fuuma" name="{=TAIKOU_kingdom_org_ninja_fuuma}Ninja" order="66" />
-    <Realm id="kingdom_arima" name="{=TAIKOU_kingdom_arima}Arima" order="67" />
-    <Realm id="kingdom_org_pirate_tosasuigun" name="{=TAIKOU_kingdom_org_pirate_tosasuigun}Pirate" order="68" />
-    <Realm id="kingdom_mimura" name="{=TAIKOU_kingdom_mimura}Mimura" order="69" />
-    <Realm id="kingdom_org_pirate_shiwakusuigun" name="{=TAIKOU_kingdom_org_pirate_shiwakusuigun}Pirate" order="70" />
-    <Realm id="kingdom_org_ninja_kurohabaki" name="{=TAIKOU_kingdom_org_ninja_kurohabaki}Ninja" order="71" />
-    <Realm id="kingdom_ito" name="{=TAIKOU_kingdom_ito}Ito" order="72" />
-    <Realm id="kingdom_yuki" name="{=TAIKOU_kingdom_yuki}Yuki" order="73" />
-    <Realm id="kingdom_org_ninja_togakushi" name="{=TAIKOU_kingdom_org_ninja_togakushi}Ninja" order="74" />
-    <Realm id="kingdom_org_pirate_bungosuigun" name="{=TAIKOU_kingdom_org_pirate_bungosuigun}Pirate" order="75" />
-    <Realm id="kingdom_daihoji" name="{=TAIKOU_kingdom_daihoji}Daihoji" order="76" />
-    <Realm id="kingdom_issiki" name="{=TAIKOU_kingdom_issiki}Issiki" order="77" />
-    <Realm id="kingdom_org_ninja_yamasen" name="{=TAIKOU_kingdom_org_ninja_yamasen}Ninja" order="78" />
-    <Realm id="kingdom_org_ninja_hachiya" name="{=TAIKOU_kingdom_org_ninja_hachiya}Ninja" order="79" />
-    <Realm id="kingdom_org_ninja_haguro" name="{=TAIKOU_kingdom_org_ninja_haguro}Ninja" order="80" />
-    <Realm id="kingdom_org_pirate_bounotsusuigun" name="{=TAIKOU_kingdom_org_pirate_bounotsusuigun}Pirate" order="81" />
+    <Realm id="kingdom_sagara" name="{=TAIKOU_kingdom_sagara}Sagara" type="warrior" order="1" />
+    <Realm id="kingdom_ichijo" name="{=TAIKOU_kingdom_ichijo}Ichijo" type="warrior" order="2" />
+    <Realm id="kingdom_saitoo" name="{=TAIKOU_kingdom_saitoo}Saitoo" type="warrior" order="3" />
+    <Realm id="kingdom_ashina" name="{=TAIKOU_kingdom_ashina}Ashina" type="warrior" order="4" />
+    <Realm id="kingdom_oda" name="{=TAIKOU_kingdom_oda}Oda" type="warrior" order="5" />
+    <Realm id="kingdom_hojo" name="{=TAIKOU_kingdom_hojo}Hojo" type="warrior" order="6" />
+    <Realm id="kingdom_imagawa" name="{=TAIKOU_kingdom_imagawa}Imagawa" type="warrior" order="7" />
+    <Realm id="kingdom_uesugi" name="{=TAIKOU_kingdom_uesugi}Uesugi" type="warrior" order="8" />
+    <Realm id="kingdom_miyoshi" name="{=TAIKOU_kingdom_miyoshi}Miyoshi" type="warrior" order="9" />
+    <Realm id="kingdom_org_pirate_antousuigun" name="{=TAIKOU_kingdom_org_pirate_antousuigun}Pirate" type="pirate" order="10" />
+    <Realm id="kingdom_azai" name="{=TAIKOU_kingdom_azai}Azai" type="warrior" order="11" />
+    <Realm id="kingdom_takeda" name="{=TAIKOU_kingdom_takeda}Takeda" type="warrior" order="12" />
+    <Realm id="kingdom_otomo" name="{=TAIKOU_kingdom_otomo}Otomo" type="warrior" order="13" />
+    <Realm id="kingdom_date" name="{=TAIKOU_kingdom_date}Date" type="warrior" order="14" />
+    <Realm id="kingdom_uragami" name="{=TAIKOU_kingdom_uragami}Uragami" type="warrior" order="15" />
+    <Realm id="kingdom_ashikaga" name="{=TAIKOU_kingdom_ashikaga}Ashikaga" type="warrior" order="16" />
+    <Realm id="kingdom_ryuzoji" name="{=TAIKOU_kingdom_ryuzoji}Ryuzoji" type="warrior" order="17" />
+    <Realm id="kingdom_org_ninja_kouka" name="{=TAIKOU_kingdom_org_ninja_kouka}Ninja" type="ninja" order="18" />
+    <Realm id="kingdom_chosokabe" name="{=TAIKOU_kingdom_chosokabe}Chosokabe" type="warrior" order="19" />
+    <Realm id="kingdom_org_pirate_gotousuigun" name="{=TAIKOU_kingdom_org_pirate_gotousuigun}Pirate" type="pirate" order="20" />
+    <Realm id="kingdom_asakura" name="{=TAIKOU_kingdom_asakura}Asakura" type="warrior" order="21" />
+    <Realm id="kingdom_mogami" name="{=TAIKOU_kingdom_mogami}Mogami" type="warrior" order="22" />
+    <Realm id="kingdom_amago" name="{=TAIKOU_kingdom_amago}Amago" type="warrior" order="23" />
+    <Realm id="kingdom_utsunomiya" name="{=TAIKOU_kingdom_utsunomiya}Utsunomiya" type="warrior" order="24" />
+    <Realm id="kingdom_shimazu" name="{=TAIKOU_kingdom_shimazu}Shimazu" type="warrior" order="25" />
+    <Realm id="kingdom_soo" name="{=TAIKOU_kingdom_soo}Soo" type="warrior" order="26" />
+    <Realm id="kingdom_osaki" name="{=TAIKOU_kingdom_osaki}Osaki" type="warrior" order="27" />
+    <Realm id="kingdom_otaa" name="{=TAIKOU_kingdom_otaa}Otaa" type="warrior" order="28" />
+    <Realm id="kingdom_org_pirate_surugasuigun" name="{=TAIKOU_kingdom_org_pirate_surugasuigun}Pirate" type="pirate" order="29" />
+    <Realm id="kingdom_org_pirate_bousousuigun" name="{=TAIKOU_kingdom_org_pirate_bousousuigun}Pirate" type="pirate" order="30" />
+    <Realm id="kingdom_satake" name="{=TAIKOU_kingdom_satake}Satake" type="warrior" order="31" />
+    <Realm id="kingdom_honganji" name="{=TAIKOU_kingdom_honganji}Honganji" type="warrior" order="32" />
+    <Realm id="kingdom_oda2" name="{=TAIKOU_kingdom_oda2}Oda2" type="warrior" order="33" />
+    <Realm id="kingdom_akamatsu" name="{=TAIKOU_kingdom_akamatsu}Akamatsu" type="warrior" order="34" />
+    <Realm id="kingdom_kiku" name="{=TAIKOU_kingdom_kiku}Kiku" type="warrior" order="35" />
+    <Realm id="kingdom_onodera" name="{=TAIKOU_kingdom_onodera}Onodera" type="warrior" order="36" />
+    <Realm id="kingdom_aso" name="{=TAIKOU_kingdom_aso}Aso" type="warrior" order="37" />
+    <Realm id="kingdom_ando" name="{=TAIKOU_kingdom_ando}Ando" type="warrior" order="38" />
+    <Realm id="kingdom_yamana" name="{=TAIKOU_kingdom_yamana}Yamana" type="warrior" order="39" />
+    <Realm id="kingdom_kasai" name="{=TAIKOU_kingdom_kasai}Kasai" type="warrior" order="40" />
+    <Realm id="kingdom_org_pirate_sagamisuigun" name="{=TAIKOU_kingdom_org_pirate_sagamisuigun}Pirate" type="pirate" order="41" />
+    <Realm id="kingdom_mori" name="{=TAIKOU_kingdom_mori}Mori" type="warrior" order="42" />
+    <Realm id="kingdom_org_ninja_nokizaru" name="{=TAIKOU_kingdom_org_ninja_nokizaru}Ninja" type="ninja" order="43" />
+    <Realm id="kingdom_rokkaku" name="{=TAIKOU_kingdom_rokkaku}Rokkaku" type="warrior" order="44" />
+    <Realm id="kingdom_kitabatake" name="{=TAIKOU_kingdom_kitabatake}Kitabatake" type="warrior" order="45" />
+    <Realm id="kingdom_org_pirate_awajisuigun" name="{=TAIKOU_kingdom_org_pirate_awajisuigun}Pirate" type="pirate" order="46" />
+    <Realm id="kingdom_nanbu" name="{=TAIKOU_kingdom_nanbu}Nanbu" type="warrior" order="47" />
+    <Realm id="kingdom_kimotsuki" name="{=TAIKOU_kingdom_kimotsuki}Kimotsuki" type="warrior" order="48" />
+    <Realm id="kingdom_org_pirate_kumanosuigun" name="{=TAIKOU_kingdom_org_pirate_kumanosuigun}Pirate" type="pirate" order="49" />
+    <Realm id="kingdom_org_pirate_murakamisuigun" name="{=TAIKOU_kingdom_org_pirate_murakamisuigun}Pirate" type="pirate" order="50" />
+    <Realm id="kingdom_gyo" name="{=TAIKOU_kingdom_gyo}Gyo" type="warrior" order="51" />
+    <Realm id="kingdom_org_ninja_suppa" name="{=TAIKOU_kingdom_org_ninja_suppa}Ninja" type="ninja" order="52" />
+    <Realm id="kingdom_kawano" name="{=TAIKOU_kingdom_kawano}Kawano" type="warrior" order="53" />
+    <Realm id="kingdom_jinbo" name="{=TAIKOU_kingdom_jinbo}Jinbo" type="warrior" order="54" />
+    <Realm id="kingdom_matsuura" name="{=TAIKOU_kingdom_matsuura}Matsuura" type="warrior" order="55" />
+    <Realm id="kingdom_org_ninja_gaibun" name="{=TAIKOU_kingdom_org_ninja_gaibun}Ninja" type="ninja" order="56" />
+    <Realm id="kingdom_satomi" name="{=TAIKOU_kingdom_satomi}Satomi" type="warrior" order="57" />
+    <Realm id="kingdom_shiba" name="{=TAIKOU_kingdom_shiba}Shiba" type="warrior" order="58" />
+    <Realm id="kingdom_tsutsui" name="{=TAIKOU_kingdom_tsutsui}Tsutsui" type="warrior" order="59" />
+    <Realm id="kingdom_org_ninja_negoro" name="{=TAIKOU_kingdom_org_ninja_negoro}Ninja" type="ninja" order="60" />
+    <Realm id="kingdom_miki" name="{=TAIKOU_kingdom_miki}Miki" type="warrior" order="61" />
+    <Realm id="kingdom_soma" name="{=TAIKOU_kingdom_soma}Soma" type="warrior" order="62" />
+    <Realm id="kingdom_hatakeyama" name="{=TAIKOU_kingdom_hatakeyama}Hatakeyama" type="warrior" order="63" />
+    <Realm id="kingdom_org_ninja_iga" name="{=TAIKOU_kingdom_org_ninja_iga}Ninja" type="ninja" order="64" />
+    <Realm id="kingdom_org_pirate_tangosuigun" name="{=TAIKOU_kingdom_org_pirate_tangosuigun}Pirate" type="pirate" order="65" />
+    <Realm id="kingdom_org_ninja_fuuma" name="{=TAIKOU_kingdom_org_ninja_fuuma}Ninja" type="ninja" order="66" />
+    <Realm id="kingdom_arima" name="{=TAIKOU_kingdom_arima}Arima" type="warrior" order="67" />
+    <Realm id="kingdom_org_pirate_tosasuigun" name="{=TAIKOU_kingdom_org_pirate_tosasuigun}Pirate" type="pirate" order="68" />
+    <Realm id="kingdom_mimura" name="{=TAIKOU_kingdom_mimura}Mimura" type="warrior" order="69" />
+    <Realm id="kingdom_org_pirate_shiwakusuigun" name="{=TAIKOU_kingdom_org_pirate_shiwakusuigun}Pirate" type="pirate" order="70" />
+    <Realm id="kingdom_org_ninja_kurohabaki" name="{=TAIKOU_kingdom_org_ninja_kurohabaki}Ninja" type="ninja" order="71" />
+    <Realm id="kingdom_ito" name="{=TAIKOU_kingdom_ito}Ito" type="warrior" order="72" />
+    <Realm id="kingdom_yuki" name="{=TAIKOU_kingdom_yuki}Yuki" type="warrior" order="73" />
+    <Realm id="kingdom_org_ninja_togakushi" name="{=TAIKOU_kingdom_org_ninja_togakushi}Ninja" type="ninja" order="74" />
+    <Realm id="kingdom_org_pirate_bungosuigun" name="{=TAIKOU_kingdom_org_pirate_bungosuigun}Pirate" type="pirate" order="75" />
+    <Realm id="kingdom_daihoji" name="{=TAIKOU_kingdom_daihoji}Daihoji" type="warrior" order="76" />
+    <Realm id="kingdom_issiki" name="{=TAIKOU_kingdom_issiki}Issiki" type="warrior" order="77" />
+    <Realm id="kingdom_org_ninja_yamasen" name="{=TAIKOU_kingdom_org_ninja_yamasen}Ninja" type="ninja" order="78" />
+    <Realm id="kingdom_org_ninja_hachiya" name="{=TAIKOU_kingdom_org_ninja_hachiya}Ninja" type="ninja" order="79" />
+    <Realm id="kingdom_org_ninja_haguro" name="{=TAIKOU_kingdom_org_ninja_haguro}Ninja" type="ninja" order="80" />
+    <Realm id="kingdom_org_pirate_bounotsusuigun" name="{=TAIKOU_kingdom_org_pirate_bounotsusuigun}Pirate" type="pirate" order="81" />
     <Realm id="" name="{=TAIKOU_realm_masterless}Masterless" order="99" />
-    <House id="clan_akamatsu_1" realm="kingdom_akamatsu" name="{=TAIKOU_clan_akamatsu_1}Akamatsu" order="1" />
-    <House id="clan_akamatsu_2" realm="kingdom_akamatsu" name="{=TAIKOU_clan_akamatsu_2}Akamatsu" order="2" />
-    <House id="clan_akechi_1" realm="kingdom_asakura" name="{=TAIKOU_clan_akechi_1}Akechi" order="3" />
-    <House id="clan_aki_1" realm="kingdom_ichijo" name="{=TAIKOU_clan_aki_1}Aki" order="4" />
-    <House id="clan_amago_1" realm="kingdom_amago" name="{=TAIKOU_clan_amago_1}Amago" order="5" />
-    <House id="clan_anayama_1" realm="kingdom_takeda" name="{=TAIKOU_clan_anayama_1}Anayama" order="6" />
-    <House id="clan_ando_1" realm="kingdom_ando" name="{=TAIKOU_clan_ando_1}Ando" order="7" />
-    <House id="clan_andoo_1" realm="kingdom_saitoo" name="{=TAIKOU_clan_andoo_1}Andoo" order="8" />
-    <House id="clan_anekouji_1" realm="kingdom_miki" name="{=TAIKOU_clan_anekouji_1}Anekouji" order="9" />
-    <House id="clan_antou_1" realm="kingdom_org_pirate_antousuigun" name="{=TAIKOU_clan_antou_1}Antou" order="10" />
-    <House id="clan_araki_1" realm="kingdom_miyoshi" name="{=TAIKOU_clan_araki_1}Araki" order="11" />
-    <House id="clan_arima_1" realm="kingdom_arima" name="{=TAIKOU_clan_arima_1}Arima" order="12" />
-    <House id="clan_asakura_1" realm="kingdom_asakura" name="{=TAIKOU_clan_asakura_1}Asakura" order="13" />
-    <House id="clan_asano_1" realm="kingdom_oda" name="{=TAIKOU_clan_asano_1}Asano" order="14" />
-    <House id="clan_ashikaga_1" realm="kingdom_ashikaga" name="{=TAIKOU_clan_ashikaga_1}Ashikaga" order="15" />
-    <House id="clan_ashina_1" realm="kingdom_ashina" name="{=TAIKOU_clan_ashina_1}Ashina" order="16" />
-    <House id="clan_aso_1" realm="kingdom_aso" name="{=TAIKOU_clan_aso_1}Aso" order="17" />
-    <House id="clan_atagi_1" realm="kingdom_org_pirate_awajisuigun" name="{=TAIKOU_clan_atagi_1}Atagi" order="18" />
-    <House id="clan_azai_2" realm="kingdom_azai" name="{=TAIKOU_clan_azai_2}Azai" order="19" />
-    <House id="clan_baba_1" realm="kingdom_takeda" name="{=TAIKOU_clan_baba_1}Baba" order="20" />
-    <House id="clan_bessho_1" realm="kingdom_akamatsu" name="{=TAIKOU_clan_bessho_1}Bessho" order="21" />
-    <House id="clan_bounotsu_1" realm="kingdom_org_pirate_bounotsusuigun" name="{=TAIKOU_clan_bounotsu_1}Bounotsu" order="22" />
-    <House id="clan_chiba_1" realm="kingdom_hojo" name="{=TAIKOU_clan_chiba_1}Chiba" order="23" />
-    <House id="clan_chosokabe_2" realm="kingdom_chosokabe" name="{=TAIKOU_clan_chosokabe_2}Chosokabe" order="24" />
-    <House id="clan_daihoji_1" realm="kingdom_daihoji" name="{=TAIKOU_clan_daihoji_1}Daihoji" order="25" />
-    <House id="clan_date_1" realm="kingdom_date" name="{=TAIKOU_clan_date_1}Date" order="26" />
-    <House id="clan_date_2" realm="kingdom_date" name="{=TAIKOU_clan_date_2}Date" order="27" />
-    <House id="clan_date_3" realm="kingdom_date" name="{=TAIKOU_clan_date_3}Date" order="28" />
-    <House id="clan_deura_1" realm="kingdom_org_ninja_togakushi" name="{=TAIKOU_clan_deura_1}Deura" order="29" />
-    <House id="clan_fukudome_1" realm="kingdom_chosokabe" name="{=TAIKOU_clan_fukudome_1}Fukudome" order="30" />
-    <House id="clan_fuuma_1" realm="kingdom_org_ninja_fuuma" name="{=TAIKOU_clan_fuuma_1}Fuuma" order="31" />
-    <House id="clan_gamou_2" realm="kingdom_rokkaku" name="{=TAIKOU_clan_gamou_2}Gamou" order="32" />
-    <House id="clan_ganshojii_1" realm="kingdom_org_pirate_sagamisuigun" name="{=TAIKOU_clan_ganshojii_1}Ganshojii" order="33" />
-    <House id="clan_gyo_1" realm="kingdom_gyo" name="{=TAIKOU_clan_gyo_1}Gyo" order="34" />
-    <House id="clan_hachiya_1" realm="kingdom_org_ninja_hachiya" name="{=TAIKOU_clan_hachiya_1}Hachiya" order="35" />
-    <House id="clan_haguro_1" realm="kingdom_org_ninja_haguro" name="{=TAIKOU_clan_haguro_1}Haguro" order="36" />
-    <House id="clan_hanafusa_1" realm="kingdom_uragami" name="{=TAIKOU_clan_hanafusa_1}Hanafusa" order="37" />
-    <House id="clan_hatakeyama_1" realm="kingdom_hatakeyama" name="{=TAIKOU_clan_hatakeyama_1}Hatakeyama" order="38" />
-    <House id="clan_hojo_1" realm="kingdom_hojo" name="{=TAIKOU_clan_hojo_1}Hojo" order="39" />
-    <House id="clan_hojo_2" realm="kingdom_hojo" name="{=TAIKOU_clan_hojo_2}Hojo" order="40" />
-    <House id="clan_hojo_3" realm="kingdom_uesugi" name="{=TAIKOU_clan_hojo_3}Hojo" order="41" />
-    <House id="clan_hojo_5" realm="kingdom_hojo" name="{=TAIKOU_clan_hojo_5}Hojo" order="42" />
-    <House id="clan_hojo_6" realm="kingdom_hojo" name="{=TAIKOU_clan_hojo_6}Hojo" order="43" />
-    <House id="clan_honda_1" realm="kingdom_imagawa" name="{=TAIKOU_clan_honda_1}Honda" order="44" />
-    <House id="clan_honda_2" realm="kingdom_imagawa" name="{=TAIKOU_clan_honda_2}Honda" order="45" />
-    <House id="clan_honganji_1" realm="kingdom_honganji" name="{=TAIKOU_clan_honganji_1}Honganji" order="46" />
-    <House id="clan_hosokawa_1" realm="kingdom_ashikaga" name="{=TAIKOU_clan_hosokawa_1}Hosokawa" order="47" />
-    <House id="clan_ichijo_1" realm="kingdom_ichijo" name="{=TAIKOU_clan_ichijo_1}Ichijo" order="48" />
-    <House id="clan_iio_1" realm="kingdom_imagawa" name="{=TAIKOU_clan_iio_1}Iio" order="49" />
-    <House id="clan_ijuin_1" realm="kingdom_shimazu" name="{=TAIKOU_clan_ijuin_1}Ijuin" order="50" />
-    <House id="clan_ike_1" realm="kingdom_org_pirate_tosasuigun" name="{=TAIKOU_clan_ike_1}Ike" order="51" />
-    <House id="clan_ikeda_1" realm="kingdom_oda" name="{=TAIKOU_clan_ikeda_1}Ikeda" order="52" />
-    <House id="clan_imagawa_1" realm="kingdom_imagawa" name="{=TAIKOU_clan_imagawa_1}Imagawa" order="53" />
-    <House id="clan_inaba_1" realm="kingdom_saitoo" name="{=TAIKOU_clan_inaba_1}Inaba" order="54" />
-    <House id="clan_irobe_1" realm="kingdom_uesugi" name="{=TAIKOU_clan_irobe_1}Irobe" order="55" />
-    <House id="clan_issiki_1" realm="kingdom_issiki" name="{=TAIKOU_clan_issiki_1}Issiki" order="56" />
-    <House id="clan_ito_1" realm="kingdom_ito" name="{=TAIKOU_clan_ito_1}Ito" order="57" />
-    <House id="clan_jinbo_1" realm="kingdom_jinbo" name="{=TAIKOU_clan_jinbo_1}Jinbo" order="58" />
-    <House id="clan_kakizaki_1" realm="kingdom_ando" name="{=TAIKOU_clan_kakizaki_1}Kakizaki" order="59" />
-    <House id="clan_kamiizumi_1" realm="kingdom_gyo" name="{=TAIKOU_clan_kamiizumi_1}Kamiizumi" order="60" />
-    <House id="clan_kasai_1" realm="kingdom_kasai" name="{=TAIKOU_clan_kasai_1}Kasai" order="61" />
-    <House id="clan_kashin_1" realm="kingdom_org_pirate_surugasuigun" name="{=TAIKOU_clan_kashin_1}Kashin" order="62" />
-    <House id="clan_kawano_1" realm="kingdom_kawano" name="{=TAIKOU_clan_kawano_1}Kawano" order="63" />
-    <House id="clan_kii_1" realm="kingdom_otomo" name="{=TAIKOU_clan_kii_1}Kii" order="64" />
-    <House id="clan_kikkawa_1" realm="kingdom_mori" name="{=TAIKOU_clan_kikkawa_1}Kikkawa" order="65" />
-    <House id="clan_kiku_1" realm="kingdom_kiku" name="{=TAIKOU_clan_kiku_1}Kiku" order="66" />
-    <House id="clan_kimotsuki_1" realm="kingdom_kimotsuki" name="{=TAIKOU_clan_kimotsuki_1}Kimotsuki" order="67" />
-    <House id="clan_kinoshita_1" realm="kingdom_oda" name="{=TAIKOU_clan_kinoshita_1}Kinoshita" order="68" />
-    <House id="clan_kira_1" realm="kingdom_chosokabe" name="{=TAIKOU_clan_kira_1}Kira" order="69" />
-    <House id="clan_kiso_1" realm="kingdom_takeda" name="{=TAIKOU_clan_kiso_1}Kiso" order="70" />
-    <House id="clan_kitabatake_1" realm="kingdom_kitabatake" name="{=TAIKOU_clan_kitabatake_1}Kitabatake" order="71" />
-    <House id="clan_kitabatake_2" realm="kingdom_kitabatake" name="{=TAIKOU_clan_kitabatake_2}Kitabatake" order="72" />
-    <House id="clan_kobayakawa_1" realm="kingdom_mori" name="{=TAIKOU_clan_kobayakawa_1}Kobayakawa" order="73" />
-    <House id="clan_kodera_1" realm="kingdom_akamatsu" name="{=TAIKOU_clan_kodera_1}Kodera" order="74" />
-    <House id="clan_koobe_1" realm="kingdom_kitabatake" name="{=TAIKOU_clan_koobe_1}Koobe" order="75" />
-    <House id="clan_koteida_1" realm="kingdom_matsuura" name="{=TAIKOU_clan_koteida_1}Koteida" order="76" />
-    <House id="clan_kuki_2" realm="kingdom_org_pirate_kumanosuigun" name="{=TAIKOU_clan_kuki_2}Kuki" order="77" />
-    <House id="clan_kyoogoku_1" realm="kingdom_ashikaga" name="{=TAIKOU_clan_kyoogoku_1}Kyoogoku" order="78" />
-    <House id="clan_maeda_1" realm="kingdom_oda" name="{=TAIKOU_clan_maeda_1}Maeda" order="79" />
-    <House id="clan_masaki_1" realm="kingdom_satomi" name="{=TAIKOU_clan_masaki_1}Masaki" order="80" />
-    <House id="clan_matsukura_1" realm="kingdom_tsutsui" name="{=TAIKOU_clan_matsukura_1}Matsukura" order="81" />
-    <House id="clan_matsunaga_1" realm="kingdom_miyoshi" name="{=TAIKOU_clan_matsunaga_1}Matsunaga" order="82" />
-    <House id="clan_matsuura_1" realm="kingdom_matsuura" name="{=TAIKOU_clan_matsuura_1}Matsuura" order="83" />
-    <House id="clan_mimura_1" realm="kingdom_mimura" name="{=TAIKOU_clan_mimura_1}Mimura" order="84" />
-    <House id="clan_miyabe_1" realm="kingdom_azai" name="{=TAIKOU_clan_miyabe_1}Miyabe" order="85" />
-    <House id="clan_miyamoto_1" realm="kingdom_org_pirate_shiwakusuigun" name="{=TAIKOU_clan_miyamoto_1}Miyamoto" order="86" />
-    <House id="clan_miyoshi_1" realm="kingdom_miyoshi" name="{=TAIKOU_clan_miyoshi_1}Miyoshi" order="87" />
-    <House id="clan_miyoshi_2" realm="kingdom_miyoshi" name="{=TAIKOU_clan_miyoshi_2}Miyoshi" order="88" />
-    <House id="clan_miyoshi_3" realm="kingdom_miyoshi" name="{=TAIKOU_clan_miyoshi_3}Miyoshi" order="89" />
-    <House id="clan_mogami_1" realm="kingdom_mogami" name="{=TAIKOU_clan_mogami_1}Mogami" order="90" />
-    <House id="clan_mogami_2" realm="kingdom_mogami" name="{=TAIKOU_clan_mogami_2}Mogami" order="91" />
-    <House id="clan_momochi_1" realm="kingdom_org_ninja_iga" name="{=TAIKOU_clan_momochi_1}Momochi" order="92" />
-    <House id="clan_mori_1" realm="kingdom_mori" name="{=TAIKOU_clan_mori_1}Mori" order="93" />
-    <House id="clan_morii_1" realm="kingdom_oda" name="{=TAIKOU_clan_morii_1}Morii" order="94" />
-    <House id="clan_murakami_1" realm="kingdom_org_pirate_murakamisuigun" name="{=TAIKOU_clan_murakami_1}Murakami" order="95" />
-    <House id="clan_murakami_2" realm="kingdom_uesugi" name="{=TAIKOU_clan_murakami_2}Murakami" order="96" />
-    <House id="clan_murakami_3" realm="kingdom_org_pirate_murakamisuigun" name="{=TAIKOU_clan_murakami_3}Murakami" order="97" />
-    <House id="clan_nabeshima_1" realm="kingdom_ryuzoji" name="{=TAIKOU_clan_nabeshima_1}Nabeshima" order="98" />
-    <House id="clan_nanbu_1" realm="kingdom_nanbu" name="{=TAIKOU_clan_nanbu_1}Nanbu" order="99" />
-    <House id="clan_nanbu_2" realm="kingdom_nanbu" name="{=TAIKOU_clan_nanbu_2}Nanbu" order="100" />
-    <House id="clan_narita_2" realm="kingdom_uesugi" name="{=TAIKOU_clan_narita_2}Narita" order="101" />
-    <House id="clan_nasa_1" realm="kingdom_org_pirate_tangosuigun" name="{=TAIKOU_clan_nasa_1}Nasa" order="102" />
-    <House id="clan_niwa_1" realm="kingdom_oda" name="{=TAIKOU_clan_niwa_1}Niwa" order="103" />
-    <House id="clan_nokizaru_1" realm="kingdom_org_ninja_nokizaru" name="{=TAIKOU_clan_nokizaru_1}Nokizaru" order="104" />
-    <House id="clan_notohatakeyama_1" realm="kingdom_hatakeyama" name="{=TAIKOU_clan_notohatakeyama_1}Notohatakeyama" order="105" />
-    <House id="clan_oda_1" realm="kingdom_oda" name="{=TAIKOU_clan_oda_1}Oda" order="106" />
-    <House id="clan_oda_4" realm="kingdom_oda2" name="{=TAIKOU_clan_oda_4}Oda" order="107" />
-    <House id="clan_okabe_1" realm="kingdom_org_pirate_surugasuigun" name="{=TAIKOU_clan_okabe_1}Okabe" order="108" />
-    <House id="clan_okubo_1" realm="kingdom_imagawa" name="{=TAIKOU_clan_okubo_1}Okubo" order="109" />
-    <House id="clan_okumura_1" realm="kingdom_org_pirate_bousousuigun" name="{=TAIKOU_clan_okumura_1}Okumura" order="110" />
-    <House id="clan_omura_1" realm="kingdom_ryuzoji" name="{=TAIKOU_clan_omura_1}Omura" order="111" />
-    <House id="clan_oniniwa_1" realm="kingdom_date" name="{=TAIKOU_clan_oniniwa_1}Oniniwa" order="112" />
-    <House id="clan_osafune_1" realm="kingdom_uragami" name="{=TAIKOU_clan_osafune_1}Osafune" order="113" />
-    <House id="clan_osaki_1" realm="kingdom_osaki" name="{=TAIKOU_clan_osaki_1}Osaki" order="114" />
-    <House id="clan_otaa_1" realm="kingdom_otaa" name="{=TAIKOU_clan_otaa_1}Otaa" order="115" />
-    <House id="clan_otomo_1" realm="kingdom_otomo" name="{=TAIKOU_clan_otomo_1}Otomo" order="116" />
-    <House id="clan_rokkaku_1" realm="kingdom_rokkaku" name="{=TAIKOU_clan_rokkaku_1}Rokkaku" order="117" />
-    <House id="clan_ryuzoji_1" realm="kingdom_ryuzoji" name="{=TAIKOU_clan_ryuzoji_1}Ryuzoji" order="118" />
-    <House id="clan_sagara_2" realm="kingdom_sagara" name="{=TAIKOU_clan_sagara_2}Sagara" order="119" />
-    <House id="clan_saionji_1" realm="kingdom_kawano" name="{=TAIKOU_clan_saionji_1}Saionji" order="120" />
-    <House id="clan_saitoo_2" realm="kingdom_saitoo" name="{=TAIKOU_clan_saitoo_2}Saitoo" order="121" />
-    <House id="clan_sako_1" realm="kingdom_takeda" name="{=TAIKOU_clan_sako_1}Sako" order="122" />
-    <House id="clan_sanada_1" realm="kingdom_takeda" name="{=TAIKOU_clan_sanada_1}Sanada" order="123" />
-    <House id="clan_sanada_2" realm="kingdom_takeda" name="{=TAIKOU_clan_sanada_2}Sanada" order="124" />
-    <House id="clan_satake_1" realm="kingdom_satake" name="{=TAIKOU_clan_satake_1}Satake" order="125" />
-    <House id="clan_satake_2" realm="kingdom_satake" name="{=TAIKOU_clan_satake_2}Satake" order="126" />
-    <House id="clan_satomi_1" realm="kingdom_satomi" name="{=TAIKOU_clan_satomi_1}Satomi" order="127" />
-    <House id="clan_satomi_2" realm="kingdom_satomi" name="{=TAIKOU_clan_satomi_2}Satomi" order="128" />
-    <House id="clan_seiki_1" realm="kingdom_org_ninja_gaibun" name="{=TAIKOU_clan_seiki_1}Seiki" order="129" />
-    <House id="clan_seki_1" realm="kingdom_kitabatake" name="{=TAIKOU_clan_seki_1}Seki" order="130" />
-    <House id="clan_shiba_1" realm="kingdom_shiba" name="{=TAIKOU_clan_shiba_1}Shiba" order="131" />
-    <House id="clan_shibata_1" realm="kingdom_oda" name="{=TAIKOU_clan_shibata_1}Shibata" order="132" />
-    <House id="clan_shibata_2" realm="kingdom_uesugi" name="{=TAIKOU_clan_shibata_2}Shibata" order="133" />
-    <House id="clan_shiga_1" realm="kingdom_otomo" name="{=TAIKOU_clan_shiga_1}Shiga" order="134" />
-    <House id="clan_shimazu_1" realm="kingdom_shimazu" name="{=TAIKOU_clan_shimazu_1}Shimazu" order="135" />
-    <House id="clan_shimazu_2" realm="kingdom_shimazu" name="{=TAIKOU_clan_shimazu_2}Shimazu" order="136" />
-    <House id="clan_shimazu_3" realm="kingdom_shimazu" name="{=TAIKOU_clan_shimazu_3}Shimazu" order="137" />
-    <House id="clan_shimizu_1" realm="kingdom_mori" name="{=TAIKOU_clan_shimizu_1}Shimizu" order="138" />
-    <House id="clan_shishido_1" realm="kingdom_mori" name="{=TAIKOU_clan_shishido_1}Shishido" order="139" />
-    <House id="clan_sogo_1" realm="kingdom_miyoshi" name="{=TAIKOU_clan_sogo_1}Sogo" order="140" />
-    <House id="clan_soma_1" realm="kingdom_soma" name="{=TAIKOU_clan_soma_1}Soma" order="141" />
-    <House id="clan_soo_1" realm="kingdom_soo" name="{=TAIKOU_clan_soo_1}Soo" order="142" />
-    <House id="clan_sugiya_1" realm="kingdom_onodera" name="{=TAIKOU_clan_sugiya_1}Sugiya" order="143" />
-    <House id="clan_suppa_1" realm="kingdom_org_ninja_suppa" name="{=TAIKOU_clan_suppa_1}Suppa" order="144" />
-    <House id="clan_suzuki_1" realm="kingdom_honganji" name="{=TAIKOU_clan_suzuki_1}Suzuki" order="145" />
-    <House id="clan_tachibana_1" realm="kingdom_otomo" name="{=TAIKOU_clan_tachibana_1}Tachibana" order="146" />
-    <House id="clan_takahashi_1" realm="kingdom_otomo" name="{=TAIKOU_clan_takahashi_1}Takahashi" order="147" />
-    <House id="clan_takanashi_1" realm="kingdom_uesugi" name="{=TAIKOU_clan_takanashi_1}Takanashi" order="148" />
-    <House id="clan_takeda_1" realm="kingdom_takeda" name="{=TAIKOU_clan_takeda_1}Takeda" order="149" />
-    <House id="clan_takeda_2" realm="kingdom_takeda" name="{=TAIKOU_clan_takeda_2}Takeda" order="150" />
-    <House id="clan_takeda_3" realm="kingdom_takeda" name="{=TAIKOU_clan_takeda_3}Takeda" order="151" />
-    <House id="clan_takenaka_1" realm="kingdom_saitoo" name="{=TAIKOU_clan_takenaka_1}Takenaka" order="152" />
-    <House id="clan_tanegashima_1" realm="kingdom_shimazu" name="{=TAIKOU_clan_tanegashima_1}Tanegashima" order="153" />
-    <House id="clan_tarou_1" realm="kingdom_org_ninja_kouka" name="{=TAIKOU_clan_tarou_1}Tarou" order="154" />
-    <House id="clan_togawa_1" realm="kingdom_uragami" name="{=TAIKOU_clan_togawa_1}Togawa" order="155" />
-    <House id="clan_tokugawa_1" realm="kingdom_imagawa" name="{=TAIKOU_clan_tokugawa_1}Tokugawa" order="156" />
-    <House id="clan_tomita_1" realm="kingdom_asakura" name="{=TAIKOU_clan_tomita_1}Tomita" order="157" />
-    <House id="clan_tsuda_1" realm="kingdom_org_ninja_negoro" name="{=TAIKOU_clan_tsuda_1}Tsuda" order="158" />
-    <House id="clan_tsugaru_1" realm="kingdom_nanbu" name="{=TAIKOU_clan_tsugaru_1}Tsugaru" order="159" />
-    <House id="clan_tsutsui_1" realm="kingdom_tsutsui" name="{=TAIKOU_clan_tsutsui_1}Tsutsui" order="160" />
-    <House id="clan_uesugi_1" realm="kingdom_uesugi" name="{=TAIKOU_clan_uesugi_1}Uesugi" order="161" />
-    <House id="clan_ukita_1" realm="kingdom_uragami" name="{=TAIKOU_clan_ukita_1}Ukita" order="162" />
-    <House id="clan_ukita_2" realm="kingdom_uragami" name="{=TAIKOU_clan_ukita_2}Ukita" order="163" />
-    <House id="clan_uku_1" realm="kingdom_org_pirate_gotousuigun" name="{=TAIKOU_clan_uku_1}Uku" order="164" />
-    <House id="clan_uragami_1" realm="kingdom_uragami" name="{=TAIKOU_clan_uragami_1}Uragami" order="165" />
-    <House id="clan_usami_1" realm="kingdom_uesugi" name="{=TAIKOU_clan_usami_1}Usami" order="166" />
-    <House id="clan_utono_1" realm="kingdom_imagawa" name="{=TAIKOU_clan_utono_1}Utono" order="167" />
-    <House id="clan_utsunomiya_1" realm="kingdom_utsunomiya" name="{=TAIKOU_clan_utsunomiya_1}Utsunomiya" order="168" />
-    <House id="clan_wakabayashi_1" realm="kingdom_org_pirate_bungosuigun" name="{=TAIKOU_clan_wakabayashi_1}Wakabayashi" order="169" />
-    <House id="clan_yamamoto_1" realm="kingdom_takeda" name="{=TAIKOU_clan_yamamoto_1}Yamamoto" order="170" />
-    <House id="clan_yamana_1" realm="kingdom_yamana" name="{=TAIKOU_clan_yamana_1}Yamana" order="171" />
-    <House id="clan_yamanaka_1" realm="kingdom_amago" name="{=TAIKOU_clan_yamanaka_1}Yamanaka" order="172" />
-    <House id="clan_yamasen_1" realm="kingdom_org_ninja_yamasen" name="{=TAIKOU_clan_yamasen_1}Yamasen" order="173" />
-    <House id="clan_yanagihara_1" realm="kingdom_org_ninja_kurohabaki" name="{=TAIKOU_clan_yanagihara_1}Yanagihara" order="174" />
-    <House id="clan_yuki_2" realm="kingdom_yuki" name="{=TAIKOU_clan_yuki_2}Yuki" order="175" />
-    <House id="clan_chaya_1" realm="" name="{=TAIKOU_clan_chaya_1}Chaya" order="176" />
-    <House id="clan_hori_1" realm="" name="{=TAIKOU_clan_hori_1}Hori" order="177" />
-    <House id="clan_ikeda_2" realm="" name="{=TAIKOU_clan_ikeda_2}Ikeda" order="178" />
-    <House id="clan_imai_1" realm="" name="{=TAIKOU_clan_imai_1}Imai" order="179" />
-    <House id="clan_itoo_1" realm="" name="{=TAIKOU_clan_itoo_1}Itoo" order="180" />
-    <House id="clan_kamiya_1" realm="" name="{=TAIKOU_clan_kamiya_1}Kamiya" order="181" />
-    <House id="clan_konishi_1" realm="" name="{=TAIKOU_clan_konishi_1}Konishi" order="182" />
-    <House id="clan_kumaya_1" realm="" name="{=TAIKOU_clan_kumaya_1}Kumaya" order="183" />
-    <House id="clan_kurada_1" realm="" name="{=TAIKOU_clan_kurada_1}Kurada" order="184" />
-    <House id="clan_michikawa_1" realm="" name="{=TAIKOU_clan_michikawa_1}Michikawa" order="185" />
-    <House id="clan_ronin_1560" realm="" name="{=TAIKOU_clan_ronin_1560}Ronin" order="186" />
-    <House id="clan_sakata_1" realm="" name="{=TAIKOU_clan_sakata_1}Sakata" order="187" />
-    <House id="clan_shibuya_1" realm="" name="{=TAIKOU_clan_shibuya_1}Shibuya" order="188" />
-    <House id="clan_shimae_1" realm="" name="{=TAIKOU_clan_shimae_1}Shimae" order="189" />
-    <House id="clan_sumiya_1" realm="" name="{=TAIKOU_clan_sumiya_1}Sumiya" order="190" />
-    <House id="clan_tomono_1" realm="" name="{=TAIKOU_clan_tomono_1}Tomono" order="191" />
-    <House id="clan_tsuda_2" realm="" name="{=TAIKOU_clan_tsuda_2}Tsuda" order="192" />
-    <House id="clan_tsuda_3" realm="" name="{=TAIKOU_clan_tsuda_3}Tsuda" order="193" />
-    <House id="clan_uno_1" realm="" name="{=TAIKOU_clan_uno_1}Uno" order="194" />
-    <House id="clan_yanada_1" realm="" name="{=TAIKOU_clan_yanada_1}Yanada" order="195" />
+    <House id="clan_akamatsu_1" realm="kingdom_akamatsu" name="{=TAIKOU_clan_akamatsu_1}Akamatsu" type="warrior" order="1" />
+    <House id="clan_akamatsu_2" realm="kingdom_akamatsu" name="{=TAIKOU_clan_akamatsu_2}Akamatsu" type="warrior" order="2" />
+    <House id="clan_akechi_1" realm="kingdom_asakura" name="{=TAIKOU_clan_akechi_1}Akechi" type="warrior" order="3" />
+    <House id="clan_aki_1" realm="kingdom_ichijo" name="{=TAIKOU_clan_aki_1}Aki" type="warrior" order="4" />
+    <House id="clan_amago_1" realm="kingdom_amago" name="{=TAIKOU_clan_amago_1}Amago" type="warrior" order="5" />
+    <House id="clan_anayama_1" realm="kingdom_takeda" name="{=TAIKOU_clan_anayama_1}Anayama" type="warrior" order="6" />
+    <House id="clan_ando_1" realm="kingdom_ando" name="{=TAIKOU_clan_ando_1}Ando" type="warrior" order="7" />
+    <House id="clan_andoo_1" realm="kingdom_saitoo" name="{=TAIKOU_clan_andoo_1}Andoo" type="warrior" order="8" />
+    <House id="clan_anekouji_1" realm="kingdom_miki" name="{=TAIKOU_clan_anekouji_1}Anekouji" type="warrior" order="9" />
+    <House id="clan_antou_1" realm="kingdom_org_pirate_antousuigun" name="{=TAIKOU_clan_antou_1}Antou" type="pirate" order="10" />
+    <House id="clan_araki_1" realm="kingdom_miyoshi" name="{=TAIKOU_clan_araki_1}Araki" type="warrior" order="11" />
+    <House id="clan_arima_1" realm="kingdom_arima" name="{=TAIKOU_clan_arima_1}Arima" type="warrior" order="12" />
+    <House id="clan_asakura_1" realm="kingdom_asakura" name="{=TAIKOU_clan_asakura_1}Asakura" type="warrior" order="13" />
+    <House id="clan_asano_1" realm="kingdom_oda" name="{=TAIKOU_clan_asano_1}Asano" type="warrior" order="14" />
+    <House id="clan_ashikaga_1" realm="kingdom_ashikaga" name="{=TAIKOU_clan_ashikaga_1}Ashikaga" type="warrior" order="15" />
+    <House id="clan_ashina_1" realm="kingdom_ashina" name="{=TAIKOU_clan_ashina_1}Ashina" type="warrior" order="16" />
+    <House id="clan_aso_1" realm="kingdom_aso" name="{=TAIKOU_clan_aso_1}Aso" type="warrior" order="17" />
+    <House id="clan_atagi_1" realm="kingdom_org_pirate_awajisuigun" name="{=TAIKOU_clan_atagi_1}Atagi" type="pirate" order="18" />
+    <House id="clan_azai_2" realm="kingdom_azai" name="{=TAIKOU_clan_azai_2}Azai" type="warrior" order="19" />
+    <House id="clan_baba_1" realm="kingdom_takeda" name="{=TAIKOU_clan_baba_1}Baba" type="warrior" order="20" />
+    <House id="clan_bessho_1" realm="kingdom_akamatsu" name="{=TAIKOU_clan_bessho_1}Bessho" type="warrior" order="21" />
+    <House id="clan_bounotsu_1" realm="kingdom_org_pirate_bounotsusuigun" name="{=TAIKOU_clan_bounotsu_1}Bounotsu" type="pirate" order="22" />
+    <House id="clan_chiba_1" realm="kingdom_hojo" name="{=TAIKOU_clan_chiba_1}Chiba" type="warrior" order="23" />
+    <House id="clan_chosokabe_2" realm="kingdom_chosokabe" name="{=TAIKOU_clan_chosokabe_2}Chosokabe" type="warrior" order="24" />
+    <House id="clan_daihoji_1" realm="kingdom_daihoji" name="{=TAIKOU_clan_daihoji_1}Daihoji" type="warrior" order="25" />
+    <House id="clan_date_1" realm="kingdom_date" name="{=TAIKOU_clan_date_1}Date" type="warrior" order="26" />
+    <House id="clan_date_2" realm="kingdom_date" name="{=TAIKOU_clan_date_2}Date" type="warrior" order="27" />
+    <House id="clan_date_3" realm="kingdom_date" name="{=TAIKOU_clan_date_3}Date" type="warrior" order="28" />
+    <House id="clan_deura_1" realm="kingdom_org_ninja_togakushi" name="{=TAIKOU_clan_deura_1}Deura" type="ninja" order="29" />
+    <House id="clan_fukudome_1" realm="kingdom_chosokabe" name="{=TAIKOU_clan_fukudome_1}Fukudome" type="warrior" order="30" />
+    <House id="clan_fuuma_1" realm="kingdom_org_ninja_fuuma" name="{=TAIKOU_clan_fuuma_1}Fuuma" type="ninja" order="31" />
+    <House id="clan_gamou_2" realm="kingdom_rokkaku" name="{=TAIKOU_clan_gamou_2}Gamou" type="warrior" order="32" />
+    <House id="clan_ganshojii_1" realm="kingdom_org_pirate_sagamisuigun" name="{=TAIKOU_clan_ganshojii_1}Ganshojii" type="pirate" order="33" />
+    <House id="clan_gyo_1" realm="kingdom_gyo" name="{=TAIKOU_clan_gyo_1}Gyo" type="warrior" order="34" />
+    <House id="clan_hachiya_1" realm="kingdom_org_ninja_hachiya" name="{=TAIKOU_clan_hachiya_1}Hachiya" type="ninja" order="35" />
+    <House id="clan_haguro_1" realm="kingdom_org_ninja_haguro" name="{=TAIKOU_clan_haguro_1}Haguro" type="ninja" order="36" />
+    <House id="clan_hanafusa_1" realm="kingdom_uragami" name="{=TAIKOU_clan_hanafusa_1}Hanafusa" type="warrior" order="37" />
+    <House id="clan_hatakeyama_1" realm="kingdom_hatakeyama" name="{=TAIKOU_clan_hatakeyama_1}Hatakeyama" type="warrior" order="38" />
+    <House id="clan_hojo_1" realm="kingdom_hojo" name="{=TAIKOU_clan_hojo_1}Hojo" type="warrior" order="39" />
+    <House id="clan_hojo_2" realm="kingdom_hojo" name="{=TAIKOU_clan_hojo_2}Hojo" type="warrior" order="40" />
+    <House id="clan_hojo_3" realm="kingdom_uesugi" name="{=TAIKOU_clan_hojo_3}Hojo" type="warrior" order="41" />
+    <House id="clan_hojo_5" realm="kingdom_hojo" name="{=TAIKOU_clan_hojo_5}Hojo" type="warrior" order="42" />
+    <House id="clan_hojo_6" realm="kingdom_hojo" name="{=TAIKOU_clan_hojo_6}Hojo" type="warrior" order="43" />
+    <House id="clan_honda_1" realm="kingdom_imagawa" name="{=TAIKOU_clan_honda_1}Honda" type="warrior" order="44" />
+    <House id="clan_honda_2" realm="kingdom_imagawa" name="{=TAIKOU_clan_honda_2}Honda" type="warrior" order="45" />
+    <House id="clan_honganji_1" realm="kingdom_honganji" name="{=TAIKOU_clan_honganji_1}Honganji" type="warrior" order="46" />
+    <House id="clan_hosokawa_1" realm="kingdom_ashikaga" name="{=TAIKOU_clan_hosokawa_1}Hosokawa" type="warrior" order="47" />
+    <House id="clan_ichijo_1" realm="kingdom_ichijo" name="{=TAIKOU_clan_ichijo_1}Ichijo" type="warrior" order="48" />
+    <House id="clan_iio_1" realm="kingdom_imagawa" name="{=TAIKOU_clan_iio_1}Iio" type="warrior" order="49" />
+    <House id="clan_ijuin_1" realm="kingdom_shimazu" name="{=TAIKOU_clan_ijuin_1}Ijuin" type="warrior" order="50" />
+    <House id="clan_ike_1" realm="kingdom_org_pirate_tosasuigun" name="{=TAIKOU_clan_ike_1}Ike" type="pirate" order="51" />
+    <House id="clan_ikeda_1" realm="kingdom_oda" name="{=TAIKOU_clan_ikeda_1}Ikeda" type="warrior" order="52" />
+    <House id="clan_imagawa_1" realm="kingdom_imagawa" name="{=TAIKOU_clan_imagawa_1}Imagawa" type="warrior" order="53" />
+    <House id="clan_inaba_1" realm="kingdom_saitoo" name="{=TAIKOU_clan_inaba_1}Inaba" type="warrior" order="54" />
+    <House id="clan_irobe_1" realm="kingdom_uesugi" name="{=TAIKOU_clan_irobe_1}Irobe" type="warrior" order="55" />
+    <House id="clan_issiki_1" realm="kingdom_issiki" name="{=TAIKOU_clan_issiki_1}Issiki" type="warrior" order="56" />
+    <House id="clan_ito_1" realm="kingdom_ito" name="{=TAIKOU_clan_ito_1}Ito" type="warrior" order="57" />
+    <House id="clan_jinbo_1" realm="kingdom_jinbo" name="{=TAIKOU_clan_jinbo_1}Jinbo" type="warrior" order="58" />
+    <House id="clan_kakizaki_1" realm="kingdom_ando" name="{=TAIKOU_clan_kakizaki_1}Kakizaki" type="warrior" order="59" />
+    <House id="clan_kamiizumi_1" realm="kingdom_gyo" name="{=TAIKOU_clan_kamiizumi_1}Kamiizumi" type="warrior" order="60" />
+    <House id="clan_kasai_1" realm="kingdom_kasai" name="{=TAIKOU_clan_kasai_1}Kasai" type="warrior" order="61" />
+    <House id="clan_kashin_1" realm="kingdom_org_pirate_surugasuigun" name="{=TAIKOU_clan_kashin_1}Kashin" type="pirate" order="62" />
+    <House id="clan_kawano_1" realm="kingdom_kawano" name="{=TAIKOU_clan_kawano_1}Kawano" type="warrior" order="63" />
+    <House id="clan_kii_1" realm="kingdom_otomo" name="{=TAIKOU_clan_kii_1}Kii" type="warrior" order="64" />
+    <House id="clan_kikkawa_1" realm="kingdom_mori" name="{=TAIKOU_clan_kikkawa_1}Kikkawa" type="warrior" order="65" />
+    <House id="clan_kiku_1" realm="kingdom_kiku" name="{=TAIKOU_clan_kiku_1}Kiku" type="warrior" order="66" />
+    <House id="clan_kimotsuki_1" realm="kingdom_kimotsuki" name="{=TAIKOU_clan_kimotsuki_1}Kimotsuki" type="warrior" order="67" />
+    <House id="clan_kinoshita_1" realm="kingdom_oda" name="{=TAIKOU_clan_kinoshita_1}Kinoshita" type="warrior" order="68" />
+    <House id="clan_kira_1" realm="kingdom_chosokabe" name="{=TAIKOU_clan_kira_1}Kira" type="warrior" order="69" />
+    <House id="clan_kiso_1" realm="kingdom_takeda" name="{=TAIKOU_clan_kiso_1}Kiso" type="warrior" order="70" />
+    <House id="clan_kitabatake_1" realm="kingdom_kitabatake" name="{=TAIKOU_clan_kitabatake_1}Kitabatake" type="warrior" order="71" />
+    <House id="clan_kitabatake_2" realm="kingdom_kitabatake" name="{=TAIKOU_clan_kitabatake_2}Kitabatake" type="warrior" order="72" />
+    <House id="clan_kobayakawa_1" realm="kingdom_mori" name="{=TAIKOU_clan_kobayakawa_1}Kobayakawa" type="warrior" order="73" />
+    <House id="clan_kodera_1" realm="kingdom_akamatsu" name="{=TAIKOU_clan_kodera_1}Kodera" type="warrior" order="74" />
+    <House id="clan_koobe_1" realm="kingdom_kitabatake" name="{=TAIKOU_clan_koobe_1}Koobe" type="warrior" order="75" />
+    <House id="clan_koteida_1" realm="kingdom_matsuura" name="{=TAIKOU_clan_koteida_1}Koteida" type="warrior" order="76" />
+    <House id="clan_kuki_2" realm="kingdom_org_pirate_kumanosuigun" name="{=TAIKOU_clan_kuki_2}Kuki" type="pirate" order="77" />
+    <House id="clan_kyoogoku_1" realm="kingdom_ashikaga" name="{=TAIKOU_clan_kyoogoku_1}Kyoogoku" type="warrior" order="78" />
+    <House id="clan_maeda_1" realm="kingdom_oda" name="{=TAIKOU_clan_maeda_1}Maeda" type="warrior" order="79" />
+    <House id="clan_masaki_1" realm="kingdom_satomi" name="{=TAIKOU_clan_masaki_1}Masaki" type="warrior" order="80" />
+    <House id="clan_matsukura_1" realm="kingdom_tsutsui" name="{=TAIKOU_clan_matsukura_1}Matsukura" type="warrior" order="81" />
+    <House id="clan_matsunaga_1" realm="kingdom_miyoshi" name="{=TAIKOU_clan_matsunaga_1}Matsunaga" type="warrior" order="82" />
+    <House id="clan_matsuura_1" realm="kingdom_matsuura" name="{=TAIKOU_clan_matsuura_1}Matsuura" type="warrior" order="83" />
+    <House id="clan_mimura_1" realm="kingdom_mimura" name="{=TAIKOU_clan_mimura_1}Mimura" type="warrior" order="84" />
+    <House id="clan_miyabe_1" realm="kingdom_azai" name="{=TAIKOU_clan_miyabe_1}Miyabe" type="warrior" order="85" />
+    <House id="clan_miyamoto_1" realm="kingdom_org_pirate_shiwakusuigun" name="{=TAIKOU_clan_miyamoto_1}Miyamoto" type="pirate" order="86" />
+    <House id="clan_miyoshi_1" realm="kingdom_miyoshi" name="{=TAIKOU_clan_miyoshi_1}Miyoshi" type="warrior" order="87" />
+    <House id="clan_miyoshi_2" realm="kingdom_miyoshi" name="{=TAIKOU_clan_miyoshi_2}Miyoshi" type="warrior" order="88" />
+    <House id="clan_miyoshi_3" realm="kingdom_miyoshi" name="{=TAIKOU_clan_miyoshi_3}Miyoshi" type="warrior" order="89" />
+    <House id="clan_mogami_1" realm="kingdom_mogami" name="{=TAIKOU_clan_mogami_1}Mogami" type="warrior" order="90" />
+    <House id="clan_mogami_2" realm="kingdom_mogami" name="{=TAIKOU_clan_mogami_2}Mogami" type="warrior" order="91" />
+    <House id="clan_momochi_1" realm="kingdom_org_ninja_iga" name="{=TAIKOU_clan_momochi_1}Momochi" type="ninja" order="92" />
+    <House id="clan_mori_1" realm="kingdom_mori" name="{=TAIKOU_clan_mori_1}Mori" type="warrior" order="93" />
+    <House id="clan_morii_1" realm="kingdom_oda" name="{=TAIKOU_clan_morii_1}Morii" type="warrior" order="94" />
+    <House id="clan_murakami_1" realm="kingdom_org_pirate_murakamisuigun" name="{=TAIKOU_clan_murakami_1}Murakami" type="pirate" order="95" />
+    <House id="clan_murakami_2" realm="kingdom_uesugi" name="{=TAIKOU_clan_murakami_2}Murakami" type="warrior" order="96" />
+    <House id="clan_murakami_3" realm="kingdom_org_pirate_murakamisuigun" name="{=TAIKOU_clan_murakami_3}Murakami" type="pirate" order="97" />
+    <House id="clan_nabeshima_1" realm="kingdom_ryuzoji" name="{=TAIKOU_clan_nabeshima_1}Nabeshima" type="warrior" order="98" />
+    <House id="clan_nanbu_1" realm="kingdom_nanbu" name="{=TAIKOU_clan_nanbu_1}Nanbu" type="warrior" order="99" />
+    <House id="clan_nanbu_2" realm="kingdom_nanbu" name="{=TAIKOU_clan_nanbu_2}Nanbu" type="warrior" order="100" />
+    <House id="clan_narita_2" realm="kingdom_uesugi" name="{=TAIKOU_clan_narita_2}Narita" type="warrior" order="101" />
+    <House id="clan_nasa_1" realm="kingdom_org_pirate_tangosuigun" name="{=TAIKOU_clan_nasa_1}Nasa" type="pirate" order="102" />
+    <House id="clan_niwa_1" realm="kingdom_oda" name="{=TAIKOU_clan_niwa_1}Niwa" type="warrior" order="103" />
+    <House id="clan_nokizaru_1" realm="kingdom_org_ninja_nokizaru" name="{=TAIKOU_clan_nokizaru_1}Nokizaru" type="ninja" order="104" />
+    <House id="clan_notohatakeyama_1" realm="kingdom_hatakeyama" name="{=TAIKOU_clan_notohatakeyama_1}Notohatakeyama" type="warrior" order="105" />
+    <House id="clan_oda_1" realm="kingdom_oda" name="{=TAIKOU_clan_oda_1}Oda" type="warrior" order="106" />
+    <House id="clan_oda_4" realm="kingdom_oda2" name="{=TAIKOU_clan_oda_4}Oda" type="warrior" order="107" />
+    <House id="clan_okabe_1" realm="kingdom_org_pirate_surugasuigun" name="{=TAIKOU_clan_okabe_1}Okabe" type="pirate" order="108" />
+    <House id="clan_okubo_1" realm="kingdom_imagawa" name="{=TAIKOU_clan_okubo_1}Okubo" type="warrior" order="109" />
+    <House id="clan_okumura_1" realm="kingdom_org_pirate_bousousuigun" name="{=TAIKOU_clan_okumura_1}Okumura" type="pirate" order="110" />
+    <House id="clan_omura_1" realm="kingdom_ryuzoji" name="{=TAIKOU_clan_omura_1}Omura" type="warrior" order="111" />
+    <House id="clan_oniniwa_1" realm="kingdom_date" name="{=TAIKOU_clan_oniniwa_1}Oniniwa" type="warrior" order="112" />
+    <House id="clan_osafune_1" realm="kingdom_uragami" name="{=TAIKOU_clan_osafune_1}Osafune" type="warrior" order="113" />
+    <House id="clan_osaki_1" realm="kingdom_osaki" name="{=TAIKOU_clan_osaki_1}Osaki" type="warrior" order="114" />
+    <House id="clan_otaa_1" realm="kingdom_otaa" name="{=TAIKOU_clan_otaa_1}Otaa" type="warrior" order="115" />
+    <House id="clan_otomo_1" realm="kingdom_otomo" name="{=TAIKOU_clan_otomo_1}Otomo" type="warrior" order="116" />
+    <House id="clan_rokkaku_1" realm="kingdom_rokkaku" name="{=TAIKOU_clan_rokkaku_1}Rokkaku" type="warrior" order="117" />
+    <House id="clan_ryuzoji_1" realm="kingdom_ryuzoji" name="{=TAIKOU_clan_ryuzoji_1}Ryuzoji" type="warrior" order="118" />
+    <House id="clan_sagara_2" realm="kingdom_sagara" name="{=TAIKOU_clan_sagara_2}Sagara" type="warrior" order="119" />
+    <House id="clan_saionji_1" realm="kingdom_kawano" name="{=TAIKOU_clan_saionji_1}Saionji" type="warrior" order="120" />
+    <House id="clan_saitoo_2" realm="kingdom_saitoo" name="{=TAIKOU_clan_saitoo_2}Saitoo" type="warrior" order="121" />
+    <House id="clan_sako_1" realm="kingdom_takeda" name="{=TAIKOU_clan_sako_1}Sako" type="warrior" order="122" />
+    <House id="clan_sanada_1" realm="kingdom_takeda" name="{=TAIKOU_clan_sanada_1}Sanada" type="warrior" order="123" />
+    <House id="clan_sanada_2" realm="kingdom_takeda" name="{=TAIKOU_clan_sanada_2}Sanada" type="warrior" order="124" />
+    <House id="clan_satake_1" realm="kingdom_satake" name="{=TAIKOU_clan_satake_1}Satake" type="warrior" order="125" />
+    <House id="clan_satake_2" realm="kingdom_satake" name="{=TAIKOU_clan_satake_2}Satake" type="warrior" order="126" />
+    <House id="clan_satomi_1" realm="kingdom_satomi" name="{=TAIKOU_clan_satomi_1}Satomi" type="warrior" order="127" />
+    <House id="clan_satomi_2" realm="kingdom_satomi" name="{=TAIKOU_clan_satomi_2}Satomi" type="warrior" order="128" />
+    <House id="clan_seiki_1" realm="kingdom_org_ninja_gaibun" name="{=TAIKOU_clan_seiki_1}Seiki" type="ninja" order="129" />
+    <House id="clan_seki_1" realm="kingdom_kitabatake" name="{=TAIKOU_clan_seki_1}Seki" type="warrior" order="130" />
+    <House id="clan_shiba_1" realm="kingdom_shiba" name="{=TAIKOU_clan_shiba_1}Shiba" type="warrior" order="131" />
+    <House id="clan_shibata_1" realm="kingdom_oda" name="{=TAIKOU_clan_shibata_1}Shibata" type="warrior" order="132" />
+    <House id="clan_shibata_2" realm="kingdom_uesugi" name="{=TAIKOU_clan_shibata_2}Shibata" type="warrior" order="133" />
+    <House id="clan_shiga_1" realm="kingdom_otomo" name="{=TAIKOU_clan_shiga_1}Shiga" type="warrior" order="134" />
+    <House id="clan_shimazu_1" realm="kingdom_shimazu" name="{=TAIKOU_clan_shimazu_1}Shimazu" type="warrior" order="135" />
+    <House id="clan_shimazu_2" realm="kingdom_shimazu" name="{=TAIKOU_clan_shimazu_2}Shimazu" type="warrior" order="136" />
+    <House id="clan_shimazu_3" realm="kingdom_shimazu" name="{=TAIKOU_clan_shimazu_3}Shimazu" type="warrior" order="137" />
+    <House id="clan_shimizu_1" realm="kingdom_mori" name="{=TAIKOU_clan_shimizu_1}Shimizu" type="warrior" order="138" />
+    <House id="clan_shishido_1" realm="kingdom_mori" name="{=TAIKOU_clan_shishido_1}Shishido" type="warrior" order="139" />
+    <House id="clan_sogo_1" realm="kingdom_miyoshi" name="{=TAIKOU_clan_sogo_1}Sogo" type="warrior" order="140" />
+    <House id="clan_soma_1" realm="kingdom_soma" name="{=TAIKOU_clan_soma_1}Soma" type="warrior" order="141" />
+    <House id="clan_soo_1" realm="kingdom_soo" name="{=TAIKOU_clan_soo_1}Soo" type="warrior" order="142" />
+    <House id="clan_sugiya_1" realm="kingdom_onodera" name="{=TAIKOU_clan_sugiya_1}Sugiya" type="warrior" order="143" />
+    <House id="clan_suppa_1" realm="kingdom_org_ninja_suppa" name="{=TAIKOU_clan_suppa_1}Suppa" type="ninja" order="144" />
+    <House id="clan_suzuki_1" realm="kingdom_honganji" name="{=TAIKOU_clan_suzuki_1}Suzuki" type="warrior" order="145" />
+    <House id="clan_tachibana_1" realm="kingdom_otomo" name="{=TAIKOU_clan_tachibana_1}Tachibana" type="warrior" order="146" />
+    <House id="clan_takahashi_1" realm="kingdom_otomo" name="{=TAIKOU_clan_takahashi_1}Takahashi" type="warrior" order="147" />
+    <House id="clan_takanashi_1" realm="kingdom_uesugi" name="{=TAIKOU_clan_takanashi_1}Takanashi" type="warrior" order="148" />
+    <House id="clan_takeda_1" realm="kingdom_takeda" name="{=TAIKOU_clan_takeda_1}Takeda" type="warrior" order="149" />
+    <House id="clan_takeda_2" realm="kingdom_takeda" name="{=TAIKOU_clan_takeda_2}Takeda" type="warrior" order="150" />
+    <House id="clan_takeda_3" realm="kingdom_takeda" name="{=TAIKOU_clan_takeda_3}Takeda" type="warrior" order="151" />
+    <House id="clan_takenaka_1" realm="kingdom_saitoo" name="{=TAIKOU_clan_takenaka_1}Takenaka" type="warrior" order="152" />
+    <House id="clan_tanegashima_1" realm="kingdom_shimazu" name="{=TAIKOU_clan_tanegashima_1}Tanegashima" type="warrior" order="153" />
+    <House id="clan_tarou_1" realm="kingdom_org_ninja_kouka" name="{=TAIKOU_clan_tarou_1}Tarou" type="ninja" order="154" />
+    <House id="clan_togawa_1" realm="kingdom_uragami" name="{=TAIKOU_clan_togawa_1}Togawa" type="warrior" order="155" />
+    <House id="clan_tokugawa_1" realm="kingdom_imagawa" name="{=TAIKOU_clan_tokugawa_1}Tokugawa" type="warrior" order="156" />
+    <House id="clan_tomita_1" realm="kingdom_asakura" name="{=TAIKOU_clan_tomita_1}Tomita" type="warrior" order="157" />
+    <House id="clan_tsuda_1" realm="kingdom_org_ninja_negoro" name="{=TAIKOU_clan_tsuda_1}Tsuda" type="ninja" order="158" />
+    <House id="clan_tsugaru_1" realm="kingdom_nanbu" name="{=TAIKOU_clan_tsugaru_1}Tsugaru" type="warrior" order="159" />
+    <House id="clan_tsutsui_1" realm="kingdom_tsutsui" name="{=TAIKOU_clan_tsutsui_1}Tsutsui" type="warrior" order="160" />
+    <House id="clan_uesugi_1" realm="kingdom_uesugi" name="{=TAIKOU_clan_uesugi_1}Uesugi" type="warrior" order="161" />
+    <House id="clan_ukita_1" realm="kingdom_uragami" name="{=TAIKOU_clan_ukita_1}Ukita" type="warrior" order="162" />
+    <House id="clan_ukita_2" realm="kingdom_uragami" name="{=TAIKOU_clan_ukita_2}Ukita" type="warrior" order="163" />
+    <House id="clan_uku_1" realm="kingdom_org_pirate_gotousuigun" name="{=TAIKOU_clan_uku_1}Uku" type="pirate" order="164" />
+    <House id="clan_uragami_1" realm="kingdom_uragami" name="{=TAIKOU_clan_uragami_1}Uragami" type="warrior" order="165" />
+    <House id="clan_usami_1" realm="kingdom_uesugi" name="{=TAIKOU_clan_usami_1}Usami" type="warrior" order="166" />
+    <House id="clan_utono_1" realm="kingdom_imagawa" name="{=TAIKOU_clan_utono_1}Utono" type="warrior" order="167" />
+    <House id="clan_utsunomiya_1" realm="kingdom_utsunomiya" name="{=TAIKOU_clan_utsunomiya_1}Utsunomiya" type="warrior" order="168" />
+    <House id="clan_wakabayashi_1" realm="kingdom_org_pirate_bungosuigun" name="{=TAIKOU_clan_wakabayashi_1}Wakabayashi" type="pirate" order="169" />
+    <House id="clan_yamamoto_1" realm="kingdom_takeda" name="{=TAIKOU_clan_yamamoto_1}Yamamoto" type="warrior" order="170" />
+    <House id="clan_yamana_1" realm="kingdom_yamana" name="{=TAIKOU_clan_yamana_1}Yamana" type="warrior" order="171" />
+    <House id="clan_yamanaka_1" realm="kingdom_amago" name="{=TAIKOU_clan_yamanaka_1}Yamanaka" type="warrior" order="172" />
+    <House id="clan_yamasen_1" realm="kingdom_org_ninja_yamasen" name="{=TAIKOU_clan_yamasen_1}Yamasen" type="ninja" order="173" />
+    <House id="clan_yanagihara_1" realm="kingdom_org_ninja_kurohabaki" name="{=TAIKOU_clan_yanagihara_1}Yanagihara" type="ninja" order="174" />
+    <House id="clan_yuki_2" realm="kingdom_yuki" name="{=TAIKOU_clan_yuki_2}Yuki" type="warrior" order="175" />
+    <House id="clan_chaya_1" realm="" name="{=TAIKOU_clan_chaya_1}Chaya" type="trader" order="176" />
+    <House id="clan_hori_1" realm="" name="{=TAIKOU_clan_hori_1}Hori" type="trader" order="177" />
+    <House id="clan_ikeda_2" realm="" name="{=TAIKOU_clan_ikeda_2}Ikeda" type="trader" order="178" />
+    <House id="clan_imai_1" realm="" name="{=TAIKOU_clan_imai_1}Imai" type="trader" order="179" />
+    <House id="clan_itoo_1" realm="" name="{=TAIKOU_clan_itoo_1}Itoo" type="trader" order="180" />
+    <House id="clan_kamiya_1" realm="" name="{=TAIKOU_clan_kamiya_1}Kamiya" type="trader" order="181" />
+    <House id="clan_konishi_1" realm="" name="{=TAIKOU_clan_konishi_1}Konishi" type="trader" order="182" />
+    <House id="clan_kumaya_1" realm="" name="{=TAIKOU_clan_kumaya_1}Kumaya" type="trader" order="183" />
+    <House id="clan_kurada_1" realm="" name="{=TAIKOU_clan_kurada_1}Kurada" type="trader" order="184" />
+    <House id="clan_michikawa_1" realm="" name="{=TAIKOU_clan_michikawa_1}Michikawa" type="trader" order="185" />
+    <House id="clan_ronin_1560" realm="" name="{=TAIKOU_clan_ronin_1560}Ronin" type="others" order="186" />
+    <House id="clan_sakata_1" realm="" name="{=TAIKOU_clan_sakata_1}Sakata" type="trader" order="187" />
+    <House id="clan_shibuya_1" realm="" name="{=TAIKOU_clan_shibuya_1}Shibuya" type="trader" order="188" />
+    <House id="clan_shimae_1" realm="" name="{=TAIKOU_clan_shimae_1}Shimae" type="trader" order="189" />
+    <House id="clan_sumiya_1" realm="" name="{=TAIKOU_clan_sumiya_1}Sumiya" type="trader" order="190" />
+    <House id="clan_tomono_1" realm="" name="{=TAIKOU_clan_tomono_1}Tomono" type="trader" order="191" />
+    <House id="clan_tsuda_2" realm="" name="{=TAIKOU_clan_tsuda_2}Tsuda" type="trader" order="192" />
+    <House id="clan_tsuda_3" realm="" name="{=TAIKOU_clan_tsuda_3}Tsuda" type="trader" order="193" />
+    <House id="clan_uno_1" realm="" name="{=TAIKOU_clan_uno_1}Uno" type="trader" order="194" />
+    <House id="clan_yanada_1" realm="" name="{=TAIKOU_clan_yanada_1}Yanada" type="trader" order="195" />
     <Lord id="lord_tk5_8" house="clan_akamatsu_1" order="1" name="{=TAIKOU_hero_8_1560}Akamatsu Yoshisuke" identity="{=TAIKOU_identity_daimyo}Daimyo" seat="{=TAIKOU_sett_town_tk126}置盐城" bustup="lwnprof_bustup_8" mini="lwnprof_mini_8" />
     <Lord id="lord_tk5_7" house="clan_akamatsu_2" order="1" name="{=TAIKOU_hero_7_1560}Akamatsu Torashige" identity="{=TAIKOU_identity_karou}Senior Retainer" seat="{=TAIKOU_sett_town_tk126}置盐城" bustup="lwnprof_bustup_7" mini="lwnprof_mini_7" />
     <Lord id="lord_tk5_14" house="clan_akechi_1" order="1" name="{=TAIKOU_hero_14_1560}Akechi Mitsuhide" identity="{=TAIKOU_identity_samurai_daishou}Samurai Captain" seat="{=TAIKOU_sett_town_tk059}一乘谷城" bustup="lwnprof_bustup_14" mini="lwnprof_mini_14" />
@@ -1089,197 +1094,197 @@
     <Lord id="lord_tk5_877" house="clan_yuki_2" order="2" name="{=TAIKOU_hero_877_1560}Tsutsuii Tanimatsurigotogen" identity="{=TAIKOU_identity_ashigaru_kumigashira}Ashigaru Corporal" seat="{=TAIKOU_sett_town_tk040}结城城" bustup="lwnprof_bustup_1205" mini="lwnprof_mini_1205" />
   </Era>
   <Era id="1582">
-    <Realm id="kingdom_tokugawa" name="{=TAIKOU_kingdom_tokugawa}Tokugawa" order="1" />
-    <Realm id="kingdom_oda" name="{=TAIKOU_kingdom_oda}Oda" order="2" />
-    <Realm id="kingdom_ashina" name="{=TAIKOU_kingdom_ashina}Ashina" order="3" />
-    <Realm id="kingdom_hojo" name="{=TAIKOU_kingdom_hojo}Hojo" order="4" />
-    <Realm id="kingdom_uesugi" name="{=TAIKOU_kingdom_uesugi}Uesugi" order="5" />
-    <Realm id="kingdom_sagara" name="{=TAIKOU_kingdom_sagara}Sagara" order="6" />
-    <Realm id="kingdom_org_pirate_antousuigun" name="{=TAIKOU_kingdom_org_pirate_antousuigun}Pirate" order="7" />
-    <Realm id="kingdom_takeda" name="{=TAIKOU_kingdom_takeda}Takeda" order="8" />
-    <Realm id="kingdom_otomo" name="{=TAIKOU_kingdom_otomo}Otomo" order="9" />
-    <Realm id="kingdom_date" name="{=TAIKOU_kingdom_date}Date" order="10" />
-    <Realm id="kingdom_ukita" name="{=TAIKOU_kingdom_ukita}Ukita" order="11" />
-    <Realm id="kingdom_ryuzoji" name="{=TAIKOU_kingdom_ryuzoji}Ryuzoji" order="12" />
-    <Realm id="kingdom_org_ninja_kouka" name="{=TAIKOU_kingdom_org_ninja_kouka}Ninja" order="13" />
-    <Realm id="kingdom_chosokabe" name="{=TAIKOU_kingdom_chosokabe}Chosokabe" order="14" />
-    <Realm id="kingdom_org_pirate_gotousuigun" name="{=TAIKOU_kingdom_org_pirate_gotousuigun}Pirate" order="15" />
-    <Realm id="kingdom_mogami" name="{=TAIKOU_kingdom_mogami}Mogami" order="16" />
-    <Realm id="kingdom_mori" name="{=TAIKOU_kingdom_mori}Mori" order="17" />
-    <Realm id="kingdom_utsunomiya" name="{=TAIKOU_kingdom_utsunomiya}Utsunomiya" order="18" />
-    <Realm id="kingdom_shimazu" name="{=TAIKOU_kingdom_shimazu}Shimazu" order="19" />
-    <Realm id="kingdom_soo" name="{=TAIKOU_kingdom_soo}Soo" order="20" />
-    <Realm id="kingdom_osaki" name="{=TAIKOU_kingdom_osaki}Osaki" order="21" />
-    <Realm id="kingdom_satake" name="{=TAIKOU_kingdom_satake}Satake" order="22" />
-    <Realm id="kingdom_org_pirate_bousousuigun" name="{=TAIKOU_kingdom_org_pirate_bousousuigun}Pirate" order="23" />
-    <Realm id="kingdom_suzukii" name="{=TAIKOU_kingdom_suzukii}Suzukii" order="24" />
-    <Realm id="kingdom_onodera" name="{=TAIKOU_kingdom_onodera}Onodera" order="25" />
-    <Realm id="kingdom_org_pirate_surugasuigun" name="{=TAIKOU_kingdom_org_pirate_surugasuigun}Pirate" order="26" />
-    <Realm id="kingdom_aso" name="{=TAIKOU_kingdom_aso}Aso" order="27" />
-    <Realm id="kingdom_ando" name="{=TAIKOU_kingdom_ando}Ando" order="28" />
-    <Realm id="kingdom_kasai" name="{=TAIKOU_kingdom_kasai}Kasai" order="29" />
-    <Realm id="kingdom_org_pirate_sagamisuigun" name="{=TAIKOU_kingdom_org_pirate_sagamisuigun}Pirate" order="30" />
-    <Realm id="kingdom_org_pirate_kumanosuigun" name="{=TAIKOU_kingdom_org_pirate_kumanosuigun}Pirate" order="31" />
-    <Realm id="kingdom_kii" name="{=TAIKOU_kingdom_kii}Kii" order="32" />
-    <Realm id="kingdom_nanbu" name="{=TAIKOU_kingdom_nanbu}Nanbu" order="33" />
-    <Realm id="kingdom_org_pirate_murakamisuigun" name="{=TAIKOU_kingdom_org_pirate_murakamisuigun}Pirate" order="34" />
-    <Realm id="kingdom_org_ninja_suppa" name="{=TAIKOU_kingdom_org_ninja_suppa}Ninja" order="35" />
-    <Realm id="kingdom_kawano" name="{=TAIKOU_kingdom_kawano}Kawano" order="36" />
-    <Realm id="kingdom_matsuura" name="{=TAIKOU_kingdom_matsuura}Matsuura" order="37" />
-    <Realm id="kingdom_org_ninja_gaibun" name="{=TAIKOU_kingdom_org_ninja_gaibun}Ninja" order="38" />
-    <Realm id="kingdom_satomi" name="{=TAIKOU_kingdom_satomi}Satomi" order="39" />
-    <Realm id="kingdom_yuki" name="{=TAIKOU_kingdom_yuki}Yuki" order="40" />
-    <Realm id="kingdom_sogo" name="{=TAIKOU_kingdom_sogo}Sogo" order="41" />
-    <Realm id="kingdom_shiba" name="{=TAIKOU_kingdom_shiba}Shiba" order="42" />
-    <Realm id="kingdom_org_ninja_negoro" name="{=TAIKOU_kingdom_org_ninja_negoro}Ninja" order="43" />
-    <Realm id="kingdom_anekouji" name="{=TAIKOU_kingdom_anekouji}Anekouji" order="44" />
-    <Realm id="kingdom_soma" name="{=TAIKOU_kingdom_soma}Soma" order="45" />
-    <Realm id="kingdom_daihoji" name="{=TAIKOU_kingdom_daihoji}Daihoji" order="46" />
-    <Realm id="kingdom_org_ninja_iga" name="{=TAIKOU_kingdom_org_ninja_iga}Ninja" order="47" />
-    <Realm id="kingdom_org_ninja_fuuma" name="{=TAIKOU_kingdom_org_ninja_fuuma}Ninja" order="48" />
-    <Realm id="kingdom_org_pirate_tosasuigun" name="{=TAIKOU_kingdom_org_pirate_tosasuigun}Pirate" order="49" />
-    <Realm id="kingdom_org_pirate_shiwakusuigun" name="{=TAIKOU_kingdom_org_pirate_shiwakusuigun}Pirate" order="50" />
-    <Realm id="kingdom_org_ninja_kurohabaki" name="{=TAIKOU_kingdom_org_ninja_kurohabaki}Ninja" order="51" />
-    <Realm id="kingdom_org_ninja_togakushi" name="{=TAIKOU_kingdom_org_ninja_togakushi}Ninja" order="52" />
-    <Realm id="kingdom_org_pirate_bungosuigun" name="{=TAIKOU_kingdom_org_pirate_bungosuigun}Pirate" order="53" />
-    <Realm id="kingdom_org_ninja_yamasen" name="{=TAIKOU_kingdom_org_ninja_yamasen}Ninja" order="54" />
-    <Realm id="kingdom_org_ninja_haguro" name="{=TAIKOU_kingdom_org_ninja_haguro}Ninja" order="55" />
-    <Realm id="kingdom_org_ninja_nokizaru" name="{=TAIKOU_kingdom_org_ninja_nokizaru}Ninja" order="56" />
-    <Realm id="kingdom_org_pirate_bounotsusuigun" name="{=TAIKOU_kingdom_org_pirate_bounotsusuigun}Pirate" order="57" />
-    <Realm id="kingdom_org_pirate_tangosuigun" name="{=TAIKOU_kingdom_org_pirate_tangosuigun}Pirate" order="58" />
+    <Realm id="kingdom_tokugawa" name="{=TAIKOU_kingdom_tokugawa}Tokugawa" type="warrior" order="1" />
+    <Realm id="kingdom_oda" name="{=TAIKOU_kingdom_oda}Oda" type="warrior" order="2" />
+    <Realm id="kingdom_ashina" name="{=TAIKOU_kingdom_ashina}Ashina" type="warrior" order="3" />
+    <Realm id="kingdom_hojo" name="{=TAIKOU_kingdom_hojo}Hojo" type="warrior" order="4" />
+    <Realm id="kingdom_uesugi" name="{=TAIKOU_kingdom_uesugi}Uesugi" type="warrior" order="5" />
+    <Realm id="kingdom_sagara" name="{=TAIKOU_kingdom_sagara}Sagara" type="warrior" order="6" />
+    <Realm id="kingdom_org_pirate_antousuigun" name="{=TAIKOU_kingdom_org_pirate_antousuigun}Pirate" type="pirate" order="7" />
+    <Realm id="kingdom_takeda" name="{=TAIKOU_kingdom_takeda}Takeda" type="warrior" order="8" />
+    <Realm id="kingdom_otomo" name="{=TAIKOU_kingdom_otomo}Otomo" type="warrior" order="9" />
+    <Realm id="kingdom_date" name="{=TAIKOU_kingdom_date}Date" type="warrior" order="10" />
+    <Realm id="kingdom_ukita" name="{=TAIKOU_kingdom_ukita}Ukita" type="warrior" order="11" />
+    <Realm id="kingdom_ryuzoji" name="{=TAIKOU_kingdom_ryuzoji}Ryuzoji" type="warrior" order="12" />
+    <Realm id="kingdom_org_ninja_kouka" name="{=TAIKOU_kingdom_org_ninja_kouka}Ninja" type="ninja" order="13" />
+    <Realm id="kingdom_chosokabe" name="{=TAIKOU_kingdom_chosokabe}Chosokabe" type="warrior" order="14" />
+    <Realm id="kingdom_org_pirate_gotousuigun" name="{=TAIKOU_kingdom_org_pirate_gotousuigun}Pirate" type="pirate" order="15" />
+    <Realm id="kingdom_mogami" name="{=TAIKOU_kingdom_mogami}Mogami" type="warrior" order="16" />
+    <Realm id="kingdom_mori" name="{=TAIKOU_kingdom_mori}Mori" type="warrior" order="17" />
+    <Realm id="kingdom_utsunomiya" name="{=TAIKOU_kingdom_utsunomiya}Utsunomiya" type="warrior" order="18" />
+    <Realm id="kingdom_shimazu" name="{=TAIKOU_kingdom_shimazu}Shimazu" type="warrior" order="19" />
+    <Realm id="kingdom_soo" name="{=TAIKOU_kingdom_soo}Soo" type="warrior" order="20" />
+    <Realm id="kingdom_osaki" name="{=TAIKOU_kingdom_osaki}Osaki" type="warrior" order="21" />
+    <Realm id="kingdom_satake" name="{=TAIKOU_kingdom_satake}Satake" type="warrior" order="22" />
+    <Realm id="kingdom_org_pirate_bousousuigun" name="{=TAIKOU_kingdom_org_pirate_bousousuigun}Pirate" type="pirate" order="23" />
+    <Realm id="kingdom_suzukii" name="{=TAIKOU_kingdom_suzukii}Suzukii" type="warrior" order="24" />
+    <Realm id="kingdom_onodera" name="{=TAIKOU_kingdom_onodera}Onodera" type="warrior" order="25" />
+    <Realm id="kingdom_org_pirate_surugasuigun" name="{=TAIKOU_kingdom_org_pirate_surugasuigun}Pirate" type="pirate" order="26" />
+    <Realm id="kingdom_aso" name="{=TAIKOU_kingdom_aso}Aso" type="warrior" order="27" />
+    <Realm id="kingdom_ando" name="{=TAIKOU_kingdom_ando}Ando" type="warrior" order="28" />
+    <Realm id="kingdom_kasai" name="{=TAIKOU_kingdom_kasai}Kasai" type="warrior" order="29" />
+    <Realm id="kingdom_org_pirate_sagamisuigun" name="{=TAIKOU_kingdom_org_pirate_sagamisuigun}Pirate" type="pirate" order="30" />
+    <Realm id="kingdom_org_pirate_kumanosuigun" name="{=TAIKOU_kingdom_org_pirate_kumanosuigun}Pirate" type="pirate" order="31" />
+    <Realm id="kingdom_kii" name="{=TAIKOU_kingdom_kii}Kii" type="warrior" order="32" />
+    <Realm id="kingdom_nanbu" name="{=TAIKOU_kingdom_nanbu}Nanbu" type="warrior" order="33" />
+    <Realm id="kingdom_org_pirate_murakamisuigun" name="{=TAIKOU_kingdom_org_pirate_murakamisuigun}Pirate" type="pirate" order="34" />
+    <Realm id="kingdom_org_ninja_suppa" name="{=TAIKOU_kingdom_org_ninja_suppa}Ninja" type="ninja" order="35" />
+    <Realm id="kingdom_kawano" name="{=TAIKOU_kingdom_kawano}Kawano" type="warrior" order="36" />
+    <Realm id="kingdom_matsuura" name="{=TAIKOU_kingdom_matsuura}Matsuura" type="warrior" order="37" />
+    <Realm id="kingdom_org_ninja_gaibun" name="{=TAIKOU_kingdom_org_ninja_gaibun}Ninja" type="ninja" order="38" />
+    <Realm id="kingdom_satomi" name="{=TAIKOU_kingdom_satomi}Satomi" type="warrior" order="39" />
+    <Realm id="kingdom_yuki" name="{=TAIKOU_kingdom_yuki}Yuki" type="warrior" order="40" />
+    <Realm id="kingdom_sogo" name="{=TAIKOU_kingdom_sogo}Sogo" type="warrior" order="41" />
+    <Realm id="kingdom_shiba" name="{=TAIKOU_kingdom_shiba}Shiba" type="warrior" order="42" />
+    <Realm id="kingdom_org_ninja_negoro" name="{=TAIKOU_kingdom_org_ninja_negoro}Ninja" type="ninja" order="43" />
+    <Realm id="kingdom_anekouji" name="{=TAIKOU_kingdom_anekouji}Anekouji" type="warrior" order="44" />
+    <Realm id="kingdom_soma" name="{=TAIKOU_kingdom_soma}Soma" type="warrior" order="45" />
+    <Realm id="kingdom_daihoji" name="{=TAIKOU_kingdom_daihoji}Daihoji" type="warrior" order="46" />
+    <Realm id="kingdom_org_ninja_iga" name="{=TAIKOU_kingdom_org_ninja_iga}Ninja" type="ninja" order="47" />
+    <Realm id="kingdom_org_ninja_fuuma" name="{=TAIKOU_kingdom_org_ninja_fuuma}Ninja" type="ninja" order="48" />
+    <Realm id="kingdom_org_pirate_tosasuigun" name="{=TAIKOU_kingdom_org_pirate_tosasuigun}Pirate" type="pirate" order="49" />
+    <Realm id="kingdom_org_pirate_shiwakusuigun" name="{=TAIKOU_kingdom_org_pirate_shiwakusuigun}Pirate" type="pirate" order="50" />
+    <Realm id="kingdom_org_ninja_kurohabaki" name="{=TAIKOU_kingdom_org_ninja_kurohabaki}Ninja" type="ninja" order="51" />
+    <Realm id="kingdom_org_ninja_togakushi" name="{=TAIKOU_kingdom_org_ninja_togakushi}Ninja" type="ninja" order="52" />
+    <Realm id="kingdom_org_pirate_bungosuigun" name="{=TAIKOU_kingdom_org_pirate_bungosuigun}Pirate" type="pirate" order="53" />
+    <Realm id="kingdom_org_ninja_yamasen" name="{=TAIKOU_kingdom_org_ninja_yamasen}Ninja" type="ninja" order="54" />
+    <Realm id="kingdom_org_ninja_haguro" name="{=TAIKOU_kingdom_org_ninja_haguro}Ninja" type="ninja" order="55" />
+    <Realm id="kingdom_org_ninja_nokizaru" name="{=TAIKOU_kingdom_org_ninja_nokizaru}Ninja" type="ninja" order="56" />
+    <Realm id="kingdom_org_pirate_bounotsusuigun" name="{=TAIKOU_kingdom_org_pirate_bounotsusuigun}Pirate" type="pirate" order="57" />
+    <Realm id="kingdom_org_pirate_tangosuigun" name="{=TAIKOU_kingdom_org_pirate_tangosuigun}Pirate" type="pirate" order="58" />
     <Realm id="" name="{=TAIKOU_realm_masterless}Masterless" order="99" />
-    <House id="clan_akechi_1" realm="kingdom_oda" name="{=TAIKOU_clan_akechi_1}Akechi" order="1" />
-    <House id="clan_anayama_1" realm="kingdom_takeda" name="{=TAIKOU_clan_anayama_1}Anayama" order="2" />
-    <House id="clan_ando_1" realm="kingdom_ando" name="{=TAIKOU_clan_ando_1}Ando" order="3" />
-    <House id="clan_anekouji_1" realm="kingdom_anekouji" name="{=TAIKOU_clan_anekouji_1}Anekouji" order="4" />
-    <House id="clan_antou_1" realm="kingdom_org_pirate_antousuigun" name="{=TAIKOU_clan_antou_1}Antou" order="5" />
-    <House id="clan_asano_1" realm="kingdom_oda" name="{=TAIKOU_clan_asano_1}Asano" order="6" />
-    <House id="clan_ashina_2" realm="kingdom_ashina" name="{=TAIKOU_clan_ashina_2}Ashina" order="7" />
-    <House id="clan_aso_1" realm="kingdom_aso" name="{=TAIKOU_clan_aso_1}Aso" order="8" />
-    <House id="clan_bounotsu_1" realm="kingdom_org_pirate_bounotsusuigun" name="{=TAIKOU_clan_bounotsu_1}Bounotsu" order="9" />
-    <House id="clan_chosokabe_2" realm="kingdom_chosokabe" name="{=TAIKOU_clan_chosokabe_2}Chosokabe" order="10" />
-    <House id="clan_chujou_1" realm="kingdom_uesugi" name="{=TAIKOU_clan_chujou_1}Chujou" order="11" />
-    <House id="clan_daihoji_1" realm="kingdom_daihoji" name="{=TAIKOU_clan_daihoji_1}Daihoji" order="12" />
-    <House id="clan_date_2" realm="kingdom_date" name="{=TAIKOU_clan_date_2}Date" order="13" />
-    <House id="clan_date_3" realm="kingdom_date" name="{=TAIKOU_clan_date_3}Date" order="14" />
-    <House id="clan_deura_1" realm="kingdom_org_ninja_togakushi" name="{=TAIKOU_clan_deura_1}Deura" order="15" />
-    <House id="clan_fuuma_1" realm="kingdom_org_ninja_fuuma" name="{=TAIKOU_clan_fuuma_1}Fuuma" order="16" />
-    <House id="clan_gamou_1" realm="kingdom_oda" name="{=TAIKOU_clan_gamou_1}Gamou" order="17" />
-    <House id="clan_gamou_3" realm="kingdom_oda" name="{=TAIKOU_clan_gamou_3}Gamou" order="18" />
-    <House id="clan_ganshojii_1" realm="kingdom_org_pirate_sagamisuigun" name="{=TAIKOU_clan_ganshojii_1}Ganshojii" order="19" />
-    <House id="clan_haguro_2" realm="kingdom_org_ninja_haguro" name="{=TAIKOU_clan_haguro_2}Haguro" order="20" />
-    <House id="clan_hojo_2" realm="kingdom_hojo" name="{=TAIKOU_clan_hojo_2}Hojo" order="21" />
-    <House id="clan_hojo_4" realm="kingdom_hojo" name="{=TAIKOU_clan_hojo_4}Hojo" order="22" />
-    <House id="clan_hojo_6" realm="kingdom_hojo" name="{=TAIKOU_clan_hojo_6}Hojo" order="23" />
-    <House id="clan_honda_1" realm="kingdom_tokugawa" name="{=TAIKOU_clan_honda_1}Honda" order="24" />
-    <House id="clan_honda_2" realm="kingdom_tokugawa" name="{=TAIKOU_clan_honda_2}Honda" order="25" />
-    <House id="clan_horii_1" realm="kingdom_oda" name="{=TAIKOU_clan_horii_1}Horii" order="26" />
-    <House id="clan_horio_1" realm="kingdom_oda" name="{=TAIKOU_clan_horio_1}Horio" order="27" />
-    <House id="clan_hosokawa_1" realm="kingdom_oda" name="{=TAIKOU_clan_hosokawa_1}Hosokawa" order="28" />
-    <House id="clan_iii_1" realm="kingdom_tokugawa" name="{=TAIKOU_clan_iii_1}Iii" order="29" />
-    <House id="clan_ike_1" realm="kingdom_org_pirate_tosasuigun" name="{=TAIKOU_clan_ike_1}Ike" order="30" />
-    <House id="clan_ikeda_1" realm="kingdom_oda" name="{=TAIKOU_clan_ikeda_1}Ikeda" order="31" />
-    <House id="clan_inaba_1" realm="kingdom_oda" name="{=TAIKOU_clan_inaba_1}Inaba" order="32" />
-    <House id="clan_itami_1" realm="kingdom_org_pirate_surugasuigun" name="{=TAIKOU_clan_itami_1}Itami" order="33" />
-    <House id="clan_kakizaki_1" realm="kingdom_ando" name="{=TAIKOU_clan_kakizaki_1}Kakizaki" order="34" />
-    <House id="clan_kasai_1" realm="kingdom_kasai" name="{=TAIKOU_clan_kasai_1}Kasai" order="35" />
-    <House id="clan_kashin_1" realm="kingdom_org_pirate_surugasuigun" name="{=TAIKOU_clan_kashin_1}Kashin" order="36" />
-    <House id="clan_katakura_1" realm="kingdom_date" name="{=TAIKOU_clan_katakura_1}Katakura" order="37" />
-    <House id="clan_kawano_2" realm="kingdom_kawano" name="{=TAIKOU_clan_kawano_2}Kawano" order="38" />
-    <House id="clan_kii_1" realm="kingdom_kii" name="{=TAIKOU_clan_kii_1}Kii" order="39" />
-    <House id="clan_kikkawa_1" realm="kingdom_mori" name="{=TAIKOU_clan_kikkawa_1}Kikkawa" order="40" />
-    <House id="clan_kinoshita_1" realm="kingdom_oda" name="{=TAIKOU_clan_kinoshita_1}Kinoshita" order="41" />
-    <House id="clan_kobayakawa_1" realm="kingdom_mori" name="{=TAIKOU_clan_kobayakawa_1}Kobayakawa" order="42" />
-    <House id="clan_koteida_1" realm="kingdom_matsuura" name="{=TAIKOU_clan_koteida_1}Koteida" order="43" />
-    <House id="clan_kuki_2" realm="kingdom_org_pirate_kumanosuigun" name="{=TAIKOU_clan_kuki_2}Kuki" order="44" />
-    <House id="clan_maeda_1" realm="kingdom_oda" name="{=TAIKOU_clan_maeda_1}Maeda" order="45" />
-    <House id="clan_matsuura_1" realm="kingdom_matsuura" name="{=TAIKOU_clan_matsuura_1}Matsuura" order="46" />
-    <House id="clan_miyabe_1" realm="kingdom_oda" name="{=TAIKOU_clan_miyabe_1}Miyabe" order="47" />
-    <House id="clan_miyamoto_1" realm="kingdom_org_pirate_shiwakusuigun" name="{=TAIKOU_clan_miyamoto_1}Miyamoto" order="48" />
-    <House id="clan_mogami_2" realm="kingdom_mogami" name="{=TAIKOU_clan_mogami_2}Mogami" order="49" />
-    <House id="clan_momochi_1" realm="kingdom_org_ninja_iga" name="{=TAIKOU_clan_momochi_1}Momochi" order="50" />
-    <House id="clan_mori_2" realm="kingdom_mori" name="{=TAIKOU_clan_mori_2}Mori" order="51" />
-    <House id="clan_murakami_1" realm="kingdom_org_pirate_murakamisuigun" name="{=TAIKOU_clan_murakami_1}Murakami" order="52" />
-    <House id="clan_nabeshima_1" realm="kingdom_ryuzoji" name="{=TAIKOU_clan_nabeshima_1}Nabeshima" order="53" />
-    <House id="clan_nanbu_2" realm="kingdom_nanbu" name="{=TAIKOU_clan_nanbu_2}Nanbu" order="54" />
-    <House id="clan_naoe_1" realm="kingdom_uesugi" name="{=TAIKOU_clan_naoe_1}Naoe" order="55" />
-    <House id="clan_narita_1" realm="kingdom_hojo" name="{=TAIKOU_clan_narita_1}Narita" order="56" />
-    <House id="clan_nishina_1" realm="kingdom_takeda" name="{=TAIKOU_clan_nishina_1}Nishina" order="57" />
-    <House id="clan_niwa_1" realm="kingdom_oda" name="{=TAIKOU_clan_niwa_1}Niwa" order="58" />
-    <House id="clan_nokizaru_2" realm="kingdom_org_ninja_nokizaru" name="{=TAIKOU_clan_nokizaru_2}Nokizaru" order="59" />
-    <House id="clan_oda_1" realm="kingdom_oda" name="{=TAIKOU_clan_oda_1}Oda" order="60" />
-    <House id="clan_oda_2" realm="kingdom_oda" name="{=TAIKOU_clan_oda_2}Oda" order="61" />
-    <House id="clan_oda_3" realm="kingdom_oda" name="{=TAIKOU_clan_oda_3}Oda" order="62" />
-    <House id="clan_okubo_1" realm="kingdom_tokugawa" name="{=TAIKOU_clan_okubo_1}Okubo" order="63" />
-    <House id="clan_okumura_1" realm="kingdom_org_pirate_bousousuigun" name="{=TAIKOU_clan_okumura_1}Okumura" order="64" />
-    <House id="clan_omura_1" realm="kingdom_ryuzoji" name="{=TAIKOU_clan_omura_1}Omura" order="65" />
-    <House id="clan_oniniwa_1" realm="kingdom_date" name="{=TAIKOU_clan_oniniwa_1}Oniniwa" order="66" />
-    <House id="clan_onodera_1" realm="kingdom_onodera" name="{=TAIKOU_clan_onodera_1}Onodera" order="67" />
-    <House id="clan_osafune_1" realm="kingdom_ukita" name="{=TAIKOU_clan_osafune_1}Osafune" order="68" />
-    <House id="clan_osaki_1" realm="kingdom_osaki" name="{=TAIKOU_clan_osaki_1}Osaki" order="69" />
-    <House id="clan_otomo_1" realm="kingdom_otomo" name="{=TAIKOU_clan_otomo_1}Otomo" order="70" />
-    <House id="clan_ryuzoji_1" realm="kingdom_ryuzoji" name="{=TAIKOU_clan_ryuzoji_1}Ryuzoji" order="71" />
-    <House id="clan_saeki_2" realm="kingdom_otomo" name="{=TAIKOU_clan_saeki_2}Saeki" order="72" />
-    <House id="clan_sagara_2" realm="kingdom_sagara" name="{=TAIKOU_clan_sagara_2}Sagara" order="73" />
-    <House id="clan_saionji_1" realm="kingdom_otomo" name="{=TAIKOU_clan_saionji_1}Saionji" order="74" />
-    <House id="clan_sakai_1" realm="kingdom_tokugawa" name="{=TAIKOU_clan_sakai_1}Sakai" order="75" />
-    <House id="clan_sanada_2" realm="kingdom_takeda" name="{=TAIKOU_clan_sanada_2}Sanada" order="76" />
-    <House id="clan_sassa_1" realm="kingdom_oda" name="{=TAIKOU_clan_sassa_1}Sassa" order="77" />
-    <House id="clan_satake_2" realm="kingdom_satake" name="{=TAIKOU_clan_satake_2}Satake" order="78" />
-    <House id="clan_satomi_2" realm="kingdom_satomi" name="{=TAIKOU_clan_satomi_2}Satomi" order="79" />
-    <House id="clan_seiki_1" realm="kingdom_org_ninja_gaibun" name="{=TAIKOU_clan_seiki_1}Seiki" order="80" />
-    <House id="clan_shiba_1" realm="kingdom_shiba" name="{=TAIKOU_clan_shiba_1}Shiba" order="81" />
-    <House id="clan_shibata_1" realm="kingdom_oda" name="{=TAIKOU_clan_shibata_1}Shibata" order="82" />
-    <House id="clan_shiga_1" realm="kingdom_otomo" name="{=TAIKOU_clan_shiga_1}Shiga" order="83" />
-    <House id="clan_shimazu_1" realm="kingdom_shimazu" name="{=TAIKOU_clan_shimazu_1}Shimazu" order="84" />
-    <House id="clan_shimazu_2" realm="kingdom_shimazu" name="{=TAIKOU_clan_shimazu_2}Shimazu" order="85" />
-    <House id="clan_shimazu_3" realm="kingdom_shimazu" name="{=TAIKOU_clan_shimazu_3}Shimazu" order="86" />
-    <House id="clan_shimizu_1" realm="kingdom_mori" name="{=TAIKOU_clan_shimizu_1}Shimizu" order="87" />
-    <House id="clan_shishido_1" realm="kingdom_mori" name="{=TAIKOU_clan_shishido_1}Shishido" order="88" />
-    <House id="clan_sogo_2" realm="kingdom_sogo" name="{=TAIKOU_clan_sogo_2}Sogo" order="89" />
-    <House id="clan_soma_1" realm="kingdom_soma" name="{=TAIKOU_clan_soma_1}Soma" order="90" />
-    <House id="clan_soo_1" realm="kingdom_soo" name="{=TAIKOU_clan_soo_1}Soo" order="91" />
-    <House id="clan_suginoboo_1" realm="kingdom_org_ninja_negoro" name="{=TAIKOU_clan_suginoboo_1}Suginoboo" order="92" />
-    <House id="clan_suppa_1" realm="kingdom_org_ninja_suppa" name="{=TAIKOU_clan_suppa_1}Suppa" order="93" />
-    <House id="clan_suzuki_1" realm="kingdom_suzukii" name="{=TAIKOU_clan_suzuki_1}Suzuki" order="94" />
-    <House id="clan_tachibana_1" realm="kingdom_otomo" name="{=TAIKOU_clan_tachibana_1}Tachibana" order="95" />
-    <House id="clan_takeda_2" realm="kingdom_takeda" name="{=TAIKOU_clan_takeda_2}Takeda" order="96" />
-    <House id="clan_tango_1" realm="kingdom_org_pirate_tangosuigun" name="{=TAIKOU_clan_tango_1}Tango" order="97" />
-    <House id="clan_tarou_1" realm="kingdom_org_ninja_kouka" name="{=TAIKOU_clan_tarou_1}Tarou" order="98" />
-    <House id="clan_togawa_1" realm="kingdom_ukita" name="{=TAIKOU_clan_togawa_1}Togawa" order="99" />
-    <House id="clan_tokugawa_1" realm="kingdom_tokugawa" name="{=TAIKOU_clan_tokugawa_1}Tokugawa" order="100" />
-    <House id="clan_tsugaru_1" realm="kingdom_nanbu" name="{=TAIKOU_clan_tsugaru_1}Tsugaru" order="101" />
-    <House id="clan_tsutsui_1" realm="kingdom_oda" name="{=TAIKOU_clan_tsutsui_1}Tsutsui" order="102" />
-    <House id="clan_uesugi_2" realm="kingdom_uesugi" name="{=TAIKOU_clan_uesugi_2}Uesugi" order="103" />
-    <House id="clan_ukita_1" realm="kingdom_ukita" name="{=TAIKOU_clan_ukita_1}Ukita" order="104" />
-    <House id="clan_ukita_2" realm="kingdom_ukita" name="{=TAIKOU_clan_ukita_2}Ukita" order="105" />
-    <House id="clan_uku_2" realm="kingdom_org_pirate_gotousuigun" name="{=TAIKOU_clan_uku_2}Uku" order="106" />
-    <House id="clan_utono_1" realm="kingdom_tokugawa" name="{=TAIKOU_clan_utono_1}Utono" order="107" />
-    <House id="clan_utsunomiya_1" realm="kingdom_utsunomiya" name="{=TAIKOU_clan_utsunomiya_1}Utsunomiya" order="108" />
-    <House id="clan_wakabayashi_1" realm="kingdom_org_pirate_bungosuigun" name="{=TAIKOU_clan_wakabayashi_1}Wakabayashi" order="109" />
-    <House id="clan_yamasen_2" realm="kingdom_org_ninja_yamasen" name="{=TAIKOU_clan_yamasen_2}Yamasen" order="110" />
-    <House id="clan_yanagihara_1" realm="kingdom_org_ninja_kurohabaki" name="{=TAIKOU_clan_yanagihara_1}Yanagihara" order="111" />
-    <House id="clan_yuki_2" realm="kingdom_yuki" name="{=TAIKOU_clan_yuki_2}Yuki" order="112" />
-    <House id="clan_chaya_1" realm="" name="{=TAIKOU_clan_chaya_1}Chaya" order="113" />
-    <House id="clan_harimaya_1" realm="" name="{=TAIKOU_clan_harimaya_1}Harimaya" order="114" />
-    <House id="clan_ikeda_2" realm="" name="{=TAIKOU_clan_ikeda_2}Ikeda" order="115" />
-    <House id="clan_imai_1" realm="" name="{=TAIKOU_clan_imai_1}Imai" order="116" />
-    <House id="clan_itoo_1" realm="" name="{=TAIKOU_clan_itoo_1}Itoo" order="117" />
-    <House id="clan_kamiya_1" realm="" name="{=TAIKOU_clan_kamiya_1}Kamiya" order="118" />
-    <House id="clan_kirigakure_1" realm="" name="{=TAIKOU_clan_kirigakure_1}Kirigakure" order="119" />
-    <House id="clan_kumaya_1" realm="" name="{=TAIKOU_clan_kumaya_1}Kumaya" order="120" />
-    <House id="clan_michikawa_1" realm="" name="{=TAIKOU_clan_michikawa_1}Michikawa" order="121" />
-    <House id="clan_nishikawa_1" realm="" name="{=TAIKOU_clan_nishikawa_1}Nishikawa" order="122" />
-    <House id="clan_ronin_1582" realm="" name="{=TAIKOU_clan_ronin_1582}Ronin" order="123" />
-    <House id="clan_shibuya_1" realm="" name="{=TAIKOU_clan_shibuya_1}Shibuya" order="124" />
-    <House id="clan_shimae_1" realm="" name="{=TAIKOU_clan_shimae_1}Shimae" order="125" />
-    <House id="clan_sueyoshi_1" realm="" name="{=TAIKOU_clan_sueyoshi_1}Sueyoshi" order="126" />
-    <House id="clan_sumikura_1" realm="" name="{=TAIKOU_clan_sumikura_1}Sumikura" order="127" />
-    <House id="clan_sumiya_1" realm="" name="{=TAIKOU_clan_sumiya_1}Sumiya" order="128" />
-    <House id="clan_tsuda_3" realm="" name="{=TAIKOU_clan_tsuda_3}Tsuda" order="129" />
-    <House id="clan_uno_1" realm="" name="{=TAIKOU_clan_uno_1}Uno" order="130" />
-    <House id="clan_yanada_1" realm="" name="{=TAIKOU_clan_yanada_1}Yanada" order="131" />
-    <House id="clan_yodoya_1" realm="" name="{=TAIKOU_clan_yodoya_1}Yodoya" order="132" />
+    <House id="clan_akechi_1" realm="kingdom_oda" name="{=TAIKOU_clan_akechi_1}Akechi" type="warrior" order="1" />
+    <House id="clan_anayama_1" realm="kingdom_takeda" name="{=TAIKOU_clan_anayama_1}Anayama" type="warrior" order="2" />
+    <House id="clan_ando_1" realm="kingdom_ando" name="{=TAIKOU_clan_ando_1}Ando" type="warrior" order="3" />
+    <House id="clan_anekouji_1" realm="kingdom_anekouji" name="{=TAIKOU_clan_anekouji_1}Anekouji" type="warrior" order="4" />
+    <House id="clan_antou_1" realm="kingdom_org_pirate_antousuigun" name="{=TAIKOU_clan_antou_1}Antou" type="pirate" order="5" />
+    <House id="clan_asano_1" realm="kingdom_oda" name="{=TAIKOU_clan_asano_1}Asano" type="warrior" order="6" />
+    <House id="clan_ashina_2" realm="kingdom_ashina" name="{=TAIKOU_clan_ashina_2}Ashina" type="warrior" order="7" />
+    <House id="clan_aso_1" realm="kingdom_aso" name="{=TAIKOU_clan_aso_1}Aso" type="warrior" order="8" />
+    <House id="clan_bounotsu_1" realm="kingdom_org_pirate_bounotsusuigun" name="{=TAIKOU_clan_bounotsu_1}Bounotsu" type="pirate" order="9" />
+    <House id="clan_chosokabe_2" realm="kingdom_chosokabe" name="{=TAIKOU_clan_chosokabe_2}Chosokabe" type="warrior" order="10" />
+    <House id="clan_chujou_1" realm="kingdom_uesugi" name="{=TAIKOU_clan_chujou_1}Chujou" type="warrior" order="11" />
+    <House id="clan_daihoji_1" realm="kingdom_daihoji" name="{=TAIKOU_clan_daihoji_1}Daihoji" type="warrior" order="12" />
+    <House id="clan_date_2" realm="kingdom_date" name="{=TAIKOU_clan_date_2}Date" type="warrior" order="13" />
+    <House id="clan_date_3" realm="kingdom_date" name="{=TAIKOU_clan_date_3}Date" type="warrior" order="14" />
+    <House id="clan_deura_1" realm="kingdom_org_ninja_togakushi" name="{=TAIKOU_clan_deura_1}Deura" type="ninja" order="15" />
+    <House id="clan_fuuma_1" realm="kingdom_org_ninja_fuuma" name="{=TAIKOU_clan_fuuma_1}Fuuma" type="ninja" order="16" />
+    <House id="clan_gamou_1" realm="kingdom_oda" name="{=TAIKOU_clan_gamou_1}Gamou" type="warrior" order="17" />
+    <House id="clan_gamou_3" realm="kingdom_oda" name="{=TAIKOU_clan_gamou_3}Gamou" type="warrior" order="18" />
+    <House id="clan_ganshojii_1" realm="kingdom_org_pirate_sagamisuigun" name="{=TAIKOU_clan_ganshojii_1}Ganshojii" type="pirate" order="19" />
+    <House id="clan_haguro_2" realm="kingdom_org_ninja_haguro" name="{=TAIKOU_clan_haguro_2}Haguro" type="ninja" order="20" />
+    <House id="clan_hojo_2" realm="kingdom_hojo" name="{=TAIKOU_clan_hojo_2}Hojo" type="warrior" order="21" />
+    <House id="clan_hojo_4" realm="kingdom_hojo" name="{=TAIKOU_clan_hojo_4}Hojo" type="warrior" order="22" />
+    <House id="clan_hojo_6" realm="kingdom_hojo" name="{=TAIKOU_clan_hojo_6}Hojo" type="warrior" order="23" />
+    <House id="clan_honda_1" realm="kingdom_tokugawa" name="{=TAIKOU_clan_honda_1}Honda" type="warrior" order="24" />
+    <House id="clan_honda_2" realm="kingdom_tokugawa" name="{=TAIKOU_clan_honda_2}Honda" type="warrior" order="25" />
+    <House id="clan_horii_1" realm="kingdom_oda" name="{=TAIKOU_clan_horii_1}Horii" type="warrior" order="26" />
+    <House id="clan_horio_1" realm="kingdom_oda" name="{=TAIKOU_clan_horio_1}Horio" type="warrior" order="27" />
+    <House id="clan_hosokawa_1" realm="kingdom_oda" name="{=TAIKOU_clan_hosokawa_1}Hosokawa" type="warrior" order="28" />
+    <House id="clan_iii_1" realm="kingdom_tokugawa" name="{=TAIKOU_clan_iii_1}Iii" type="warrior" order="29" />
+    <House id="clan_ike_1" realm="kingdom_org_pirate_tosasuigun" name="{=TAIKOU_clan_ike_1}Ike" type="pirate" order="30" />
+    <House id="clan_ikeda_1" realm="kingdom_oda" name="{=TAIKOU_clan_ikeda_1}Ikeda" type="warrior" order="31" />
+    <House id="clan_inaba_1" realm="kingdom_oda" name="{=TAIKOU_clan_inaba_1}Inaba" type="warrior" order="32" />
+    <House id="clan_itami_1" realm="kingdom_org_pirate_surugasuigun" name="{=TAIKOU_clan_itami_1}Itami" type="pirate" order="33" />
+    <House id="clan_kakizaki_1" realm="kingdom_ando" name="{=TAIKOU_clan_kakizaki_1}Kakizaki" type="warrior" order="34" />
+    <House id="clan_kasai_1" realm="kingdom_kasai" name="{=TAIKOU_clan_kasai_1}Kasai" type="warrior" order="35" />
+    <House id="clan_kashin_1" realm="kingdom_org_pirate_surugasuigun" name="{=TAIKOU_clan_kashin_1}Kashin" type="pirate" order="36" />
+    <House id="clan_katakura_1" realm="kingdom_date" name="{=TAIKOU_clan_katakura_1}Katakura" type="warrior" order="37" />
+    <House id="clan_kawano_2" realm="kingdom_kawano" name="{=TAIKOU_clan_kawano_2}Kawano" type="warrior" order="38" />
+    <House id="clan_kii_1" realm="kingdom_kii" name="{=TAIKOU_clan_kii_1}Kii" type="warrior" order="39" />
+    <House id="clan_kikkawa_1" realm="kingdom_mori" name="{=TAIKOU_clan_kikkawa_1}Kikkawa" type="warrior" order="40" />
+    <House id="clan_kinoshita_1" realm="kingdom_oda" name="{=TAIKOU_clan_kinoshita_1}Kinoshita" type="warrior" order="41" />
+    <House id="clan_kobayakawa_1" realm="kingdom_mori" name="{=TAIKOU_clan_kobayakawa_1}Kobayakawa" type="warrior" order="42" />
+    <House id="clan_koteida_1" realm="kingdom_matsuura" name="{=TAIKOU_clan_koteida_1}Koteida" type="warrior" order="43" />
+    <House id="clan_kuki_2" realm="kingdom_org_pirate_kumanosuigun" name="{=TAIKOU_clan_kuki_2}Kuki" type="pirate" order="44" />
+    <House id="clan_maeda_1" realm="kingdom_oda" name="{=TAIKOU_clan_maeda_1}Maeda" type="warrior" order="45" />
+    <House id="clan_matsuura_1" realm="kingdom_matsuura" name="{=TAIKOU_clan_matsuura_1}Matsuura" type="warrior" order="46" />
+    <House id="clan_miyabe_1" realm="kingdom_oda" name="{=TAIKOU_clan_miyabe_1}Miyabe" type="warrior" order="47" />
+    <House id="clan_miyamoto_1" realm="kingdom_org_pirate_shiwakusuigun" name="{=TAIKOU_clan_miyamoto_1}Miyamoto" type="pirate" order="48" />
+    <House id="clan_mogami_2" realm="kingdom_mogami" name="{=TAIKOU_clan_mogami_2}Mogami" type="warrior" order="49" />
+    <House id="clan_momochi_1" realm="kingdom_org_ninja_iga" name="{=TAIKOU_clan_momochi_1}Momochi" type="ninja" order="50" />
+    <House id="clan_mori_2" realm="kingdom_mori" name="{=TAIKOU_clan_mori_2}Mori" type="warrior" order="51" />
+    <House id="clan_murakami_1" realm="kingdom_org_pirate_murakamisuigun" name="{=TAIKOU_clan_murakami_1}Murakami" type="pirate" order="52" />
+    <House id="clan_nabeshima_1" realm="kingdom_ryuzoji" name="{=TAIKOU_clan_nabeshima_1}Nabeshima" type="warrior" order="53" />
+    <House id="clan_nanbu_2" realm="kingdom_nanbu" name="{=TAIKOU_clan_nanbu_2}Nanbu" type="warrior" order="54" />
+    <House id="clan_naoe_1" realm="kingdom_uesugi" name="{=TAIKOU_clan_naoe_1}Naoe" type="warrior" order="55" />
+    <House id="clan_narita_1" realm="kingdom_hojo" name="{=TAIKOU_clan_narita_1}Narita" type="warrior" order="56" />
+    <House id="clan_nishina_1" realm="kingdom_takeda" name="{=TAIKOU_clan_nishina_1}Nishina" type="warrior" order="57" />
+    <House id="clan_niwa_1" realm="kingdom_oda" name="{=TAIKOU_clan_niwa_1}Niwa" type="warrior" order="58" />
+    <House id="clan_nokizaru_2" realm="kingdom_org_ninja_nokizaru" name="{=TAIKOU_clan_nokizaru_2}Nokizaru" type="ninja" order="59" />
+    <House id="clan_oda_1" realm="kingdom_oda" name="{=TAIKOU_clan_oda_1}Oda" type="warrior" order="60" />
+    <House id="clan_oda_2" realm="kingdom_oda" name="{=TAIKOU_clan_oda_2}Oda" type="warrior" order="61" />
+    <House id="clan_oda_3" realm="kingdom_oda" name="{=TAIKOU_clan_oda_3}Oda" type="warrior" order="62" />
+    <House id="clan_okubo_1" realm="kingdom_tokugawa" name="{=TAIKOU_clan_okubo_1}Okubo" type="warrior" order="63" />
+    <House id="clan_okumura_1" realm="kingdom_org_pirate_bousousuigun" name="{=TAIKOU_clan_okumura_1}Okumura" type="pirate" order="64" />
+    <House id="clan_omura_1" realm="kingdom_ryuzoji" name="{=TAIKOU_clan_omura_1}Omura" type="warrior" order="65" />
+    <House id="clan_oniniwa_1" realm="kingdom_date" name="{=TAIKOU_clan_oniniwa_1}Oniniwa" type="warrior" order="66" />
+    <House id="clan_onodera_1" realm="kingdom_onodera" name="{=TAIKOU_clan_onodera_1}Onodera" type="warrior" order="67" />
+    <House id="clan_osafune_1" realm="kingdom_ukita" name="{=TAIKOU_clan_osafune_1}Osafune" type="warrior" order="68" />
+    <House id="clan_osaki_1" realm="kingdom_osaki" name="{=TAIKOU_clan_osaki_1}Osaki" type="warrior" order="69" />
+    <House id="clan_otomo_1" realm="kingdom_otomo" name="{=TAIKOU_clan_otomo_1}Otomo" type="warrior" order="70" />
+    <House id="clan_ryuzoji_1" realm="kingdom_ryuzoji" name="{=TAIKOU_clan_ryuzoji_1}Ryuzoji" type="warrior" order="71" />
+    <House id="clan_saeki_2" realm="kingdom_otomo" name="{=TAIKOU_clan_saeki_2}Saeki" type="warrior" order="72" />
+    <House id="clan_sagara_2" realm="kingdom_sagara" name="{=TAIKOU_clan_sagara_2}Sagara" type="warrior" order="73" />
+    <House id="clan_saionji_1" realm="kingdom_otomo" name="{=TAIKOU_clan_saionji_1}Saionji" type="warrior" order="74" />
+    <House id="clan_sakai_1" realm="kingdom_tokugawa" name="{=TAIKOU_clan_sakai_1}Sakai" type="warrior" order="75" />
+    <House id="clan_sanada_2" realm="kingdom_takeda" name="{=TAIKOU_clan_sanada_2}Sanada" type="warrior" order="76" />
+    <House id="clan_sassa_1" realm="kingdom_oda" name="{=TAIKOU_clan_sassa_1}Sassa" type="warrior" order="77" />
+    <House id="clan_satake_2" realm="kingdom_satake" name="{=TAIKOU_clan_satake_2}Satake" type="warrior" order="78" />
+    <House id="clan_satomi_2" realm="kingdom_satomi" name="{=TAIKOU_clan_satomi_2}Satomi" type="warrior" order="79" />
+    <House id="clan_seiki_1" realm="kingdom_org_ninja_gaibun" name="{=TAIKOU_clan_seiki_1}Seiki" type="ninja" order="80" />
+    <House id="clan_shiba_1" realm="kingdom_shiba" name="{=TAIKOU_clan_shiba_1}Shiba" type="warrior" order="81" />
+    <House id="clan_shibata_1" realm="kingdom_oda" name="{=TAIKOU_clan_shibata_1}Shibata" type="warrior" order="82" />
+    <House id="clan_shiga_1" realm="kingdom_otomo" name="{=TAIKOU_clan_shiga_1}Shiga" type="warrior" order="83" />
+    <House id="clan_shimazu_1" realm="kingdom_shimazu" name="{=TAIKOU_clan_shimazu_1}Shimazu" type="warrior" order="84" />
+    <House id="clan_shimazu_2" realm="kingdom_shimazu" name="{=TAIKOU_clan_shimazu_2}Shimazu" type="warrior" order="85" />
+    <House id="clan_shimazu_3" realm="kingdom_shimazu" name="{=TAIKOU_clan_shimazu_3}Shimazu" type="warrior" order="86" />
+    <House id="clan_shimizu_1" realm="kingdom_mori" name="{=TAIKOU_clan_shimizu_1}Shimizu" type="warrior" order="87" />
+    <House id="clan_shishido_1" realm="kingdom_mori" name="{=TAIKOU_clan_shishido_1}Shishido" type="warrior" order="88" />
+    <House id="clan_sogo_2" realm="kingdom_sogo" name="{=TAIKOU_clan_sogo_2}Sogo" type="warrior" order="89" />
+    <House id="clan_soma_1" realm="kingdom_soma" name="{=TAIKOU_clan_soma_1}Soma" type="warrior" order="90" />
+    <House id="clan_soo_1" realm="kingdom_soo" name="{=TAIKOU_clan_soo_1}Soo" type="warrior" order="91" />
+    <House id="clan_suginoboo_1" realm="kingdom_org_ninja_negoro" name="{=TAIKOU_clan_suginoboo_1}Suginoboo" type="ninja" order="92" />
+    <House id="clan_suppa_1" realm="kingdom_org_ninja_suppa" name="{=TAIKOU_clan_suppa_1}Suppa" type="ninja" order="93" />
+    <House id="clan_suzuki_1" realm="kingdom_suzukii" name="{=TAIKOU_clan_suzuki_1}Suzuki" type="warrior" order="94" />
+    <House id="clan_tachibana_1" realm="kingdom_otomo" name="{=TAIKOU_clan_tachibana_1}Tachibana" type="warrior" order="95" />
+    <House id="clan_takeda_2" realm="kingdom_takeda" name="{=TAIKOU_clan_takeda_2}Takeda" type="warrior" order="96" />
+    <House id="clan_tango_1" realm="kingdom_org_pirate_tangosuigun" name="{=TAIKOU_clan_tango_1}Tango" type="pirate" order="97" />
+    <House id="clan_tarou_1" realm="kingdom_org_ninja_kouka" name="{=TAIKOU_clan_tarou_1}Tarou" type="ninja" order="98" />
+    <House id="clan_togawa_1" realm="kingdom_ukita" name="{=TAIKOU_clan_togawa_1}Togawa" type="warrior" order="99" />
+    <House id="clan_tokugawa_1" realm="kingdom_tokugawa" name="{=TAIKOU_clan_tokugawa_1}Tokugawa" type="warrior" order="100" />
+    <House id="clan_tsugaru_1" realm="kingdom_nanbu" name="{=TAIKOU_clan_tsugaru_1}Tsugaru" type="warrior" order="101" />
+    <House id="clan_tsutsui_1" realm="kingdom_oda" name="{=TAIKOU_clan_tsutsui_1}Tsutsui" type="warrior" order="102" />
+    <House id="clan_uesugi_2" realm="kingdom_uesugi" name="{=TAIKOU_clan_uesugi_2}Uesugi" type="warrior" order="103" />
+    <House id="clan_ukita_1" realm="kingdom_ukita" name="{=TAIKOU_clan_ukita_1}Ukita" type="warrior" order="104" />
+    <House id="clan_ukita_2" realm="kingdom_ukita" name="{=TAIKOU_clan_ukita_2}Ukita" type="warrior" order="105" />
+    <House id="clan_uku_2" realm="kingdom_org_pirate_gotousuigun" name="{=TAIKOU_clan_uku_2}Uku" type="pirate" order="106" />
+    <House id="clan_utono_1" realm="kingdom_tokugawa" name="{=TAIKOU_clan_utono_1}Utono" type="warrior" order="107" />
+    <House id="clan_utsunomiya_1" realm="kingdom_utsunomiya" name="{=TAIKOU_clan_utsunomiya_1}Utsunomiya" type="warrior" order="108" />
+    <House id="clan_wakabayashi_1" realm="kingdom_org_pirate_bungosuigun" name="{=TAIKOU_clan_wakabayashi_1}Wakabayashi" type="pirate" order="109" />
+    <House id="clan_yamasen_2" realm="kingdom_org_ninja_yamasen" name="{=TAIKOU_clan_yamasen_2}Yamasen" type="ninja" order="110" />
+    <House id="clan_yanagihara_1" realm="kingdom_org_ninja_kurohabaki" name="{=TAIKOU_clan_yanagihara_1}Yanagihara" type="ninja" order="111" />
+    <House id="clan_yuki_2" realm="kingdom_yuki" name="{=TAIKOU_clan_yuki_2}Yuki" type="warrior" order="112" />
+    <House id="clan_chaya_1" realm="" name="{=TAIKOU_clan_chaya_1}Chaya" type="trader" order="113" />
+    <House id="clan_harimaya_1" realm="" name="{=TAIKOU_clan_harimaya_1}Harimaya" type="trader" order="114" />
+    <House id="clan_ikeda_2" realm="" name="{=TAIKOU_clan_ikeda_2}Ikeda" type="trader" order="115" />
+    <House id="clan_imai_1" realm="" name="{=TAIKOU_clan_imai_1}Imai" type="trader" order="116" />
+    <House id="clan_itoo_1" realm="" name="{=TAIKOU_clan_itoo_1}Itoo" type="trader" order="117" />
+    <House id="clan_kamiya_1" realm="" name="{=TAIKOU_clan_kamiya_1}Kamiya" type="trader" order="118" />
+    <House id="clan_kirigakure_1" realm="" name="{=TAIKOU_clan_kirigakure_1}Kirigakure" type="trader" order="119" />
+    <House id="clan_kumaya_1" realm="" name="{=TAIKOU_clan_kumaya_1}Kumaya" type="trader" order="120" />
+    <House id="clan_michikawa_1" realm="" name="{=TAIKOU_clan_michikawa_1}Michikawa" type="trader" order="121" />
+    <House id="clan_nishikawa_1" realm="" name="{=TAIKOU_clan_nishikawa_1}Nishikawa" type="trader" order="122" />
+    <House id="clan_ronin_1582" realm="" name="{=TAIKOU_clan_ronin_1582}Ronin" type="others" order="123" />
+    <House id="clan_shibuya_1" realm="" name="{=TAIKOU_clan_shibuya_1}Shibuya" type="trader" order="124" />
+    <House id="clan_shimae_1" realm="" name="{=TAIKOU_clan_shimae_1}Shimae" type="trader" order="125" />
+    <House id="clan_sueyoshi_1" realm="" name="{=TAIKOU_clan_sueyoshi_1}Sueyoshi" type="trader" order="126" />
+    <House id="clan_sumikura_1" realm="" name="{=TAIKOU_clan_sumikura_1}Sumikura" type="trader" order="127" />
+    <House id="clan_sumiya_1" realm="" name="{=TAIKOU_clan_sumiya_1}Sumiya" type="trader" order="128" />
+    <House id="clan_tsuda_3" realm="" name="{=TAIKOU_clan_tsuda_3}Tsuda" type="trader" order="129" />
+    <House id="clan_uno_1" realm="" name="{=TAIKOU_clan_uno_1}Uno" type="trader" order="130" />
+    <House id="clan_yanada_1" realm="" name="{=TAIKOU_clan_yanada_1}Yanada" type="trader" order="131" />
+    <House id="clan_yodoya_1" realm="" name="{=TAIKOU_clan_yodoya_1}Yodoya" type="trader" order="132" />
     <Lord id="lord_tk5_14" house="clan_akechi_1" order="1" name="{=TAIKOU_hero_14_1582}Akechi Mitsuhide" identity="{=TAIKOU_identity_kunishu}Provincial Lord" seat="{=TAIKOU_sett_town_tk106}丹波龟山城" bustup="lwnprof_bustup_14" mini="lwnprof_mini_14" />
     <Lord id="lord_tk5_893" house="clan_akechi_1" order="2" name="{=TAIKOU_hero_893_1582}Tsumaki Hirotada" identity="{=TAIKOU_identity_ashigaru_daishou}Ashigaru Captain" seat="{=TAIKOU_sett_town_tk106}丹波龟山城" bustup="lwnprof_bustup_1221" mini="lwnprof_mini_1221" />
     <Lord id="lord_tk5_693" house="clan_akechi_1" order="3" name="{=TAIKOU_hero_693_1582}Mizuo Shoubei" identity="{=TAIKOU_identity_bushou}Commander" seat="{=TAIKOU_sett_town_tk106}丹波龟山城" bustup="lwnprof_bustup_693" mini="lwnprof_mini_693" />

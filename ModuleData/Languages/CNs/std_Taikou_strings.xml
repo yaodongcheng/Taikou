@@ -12,6 +12,13 @@
     <tag language="简体中文" />
   </tags>
   <strings>
+    <!-- ==== 势力类型筛档标签（选人界面最左列；键由 gen_taikou_hero_catalog.py 产出，
+         中文在这里人工维护。改档位 = 改生成器的 REALM_TYPES 后重跑，再回来补中文）==== -->
+    <string id="TAIKOU_forcetype_warrior" text="武将" />
+    <string id="TAIKOU_forcetype_trader" text="商人" />
+    <string id="TAIKOU_forcetype_ninja" text="忍者" />
+    <string id="TAIKOU_forcetype_pirate" text="海贼" />
+    <string id="TAIKOU_forcetype_others" text="其他" />
     <!-- ==== TAIKOU_bio_* 起（生成块·勿手改）====
          太阁5 列传数据（**不是翻译**，是游戏自带原文）——由
          Scripts/sync_taikou_bio_cns.py 从 csv/TaikouHero.csv 的
@@ -1594,7 +1601,6 @@
     <string id="xdlCLqcy" text="凛子" />
     <string id="zLwhd8EY" text="琉衣" />
     <string id="IVbOeER4" text="琉璃" />
-</strings>
 <!-- ==== 生成块：英雄/家族/王国名字（Scripts/gen_taikou_era_world.py 产出，禁止手改）==== -->
   <string id="TAIKOU_clan_akamatsu_1" text="赤松" />
   <string id="TAIKOU_clan_akamatsu_2" text="赤松" />
@@ -6581,4 +6587,5 @@
   <string id="TAIKOU_kingdom_yamanaka" text="山中家" />
   <string id="TAIKOU_kingdom_yamauchi" text="山内家" />
   <string id="TAIKOU_kingdom_yuki" text="结城家" />
+</strings>
 </base>
