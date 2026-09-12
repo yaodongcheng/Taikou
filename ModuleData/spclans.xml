@@ -980,7 +980,7 @@
 			<base_influence value="60.0"/>
 		</Influence>
 	</Faction>
-	<Faction id="clan_ronin_1560" is_noble="false" owner="Hero.lord_tk5_157" banner_key="11.154.154.1536.1536.764.764.1.0.0.108.150.155.454.454.764.764.0.0.0" is_minor_faction="true" culture="Culture.ronin" settlement_banner_mesh="encounter_flag_a" name="{=TAIKOU_clan_ronin_1560}Ronin" short_name="{=TAIKOU_clan_ronin_1560}Ronin" title="{=TAIKOU_clan_ronin_1560}Ronin" tier="1">
+	<Faction id="clan_ronin_1560" is_noble="false" owner="Hero.lord_tk5_1172" banner_key="11.154.154.1536.1536.764.764.1.0.0.108.150.155.454.454.764.764.0.0.0" is_minor_faction="true" culture="Culture.ronin" settlement_banner_mesh="encounter_flag_a" name="{=TAIKOU_clan_ronin_1560}Ronin" short_name="{=TAIKOU_clan_ronin_1560}Ronin" title="{=TAIKOU_clan_ronin_1560}Ronin" tier="1">
 		<Influence>
 			<base_influence value="10.0"/>
 		</Influence>

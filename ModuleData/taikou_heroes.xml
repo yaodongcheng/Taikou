@@ -22,6 +22,8 @@
 	<Hero id="lord_tk5_115" faction="Faction.clan_sagara_2" text="{=TAIKOU_hero_115_1560}Indo Yoriyasu"/>
 	<Hero id="lord_tk5_1160" faction="Faction.clan_antou_1" text="{=TAIKOU_hero_1160_1560}HaireDin"/>
 	<Hero id="lord_tk5_1161" faction="Faction.clan_shimae_1" text="{=TAIKOU_hero_1161_1560}佐伯杏太郎"/>
+	<Hero id="lord_tk5_1172" faction="Faction.clan_ronin_1560" text="{=TAIKOU_hero_1172_1560}Sato"/>
+	<Hero id="lord_tk5_1173" faction="Faction.clan_ronin_1560" text="{=TAIKOU_hero_1173_1560}Raphael"/>
 	<Hero id="lord_tk5_1178" faction="Faction.clan_kinoshita_1" text="{=TAIKOU_hero_1178_1560}Yodogimi"/>
 	<Hero id="lord_tk5_1179" faction="Faction.clan_kinoshita_1" text="{=TAIKOU_hero_1179_1560}Kinoshita Nene"/>
 	<Hero id="lord_tk5_118" faction="Faction.clan_uesugi_1" text="{=TAIKOU_hero_118_1560}Uesugi Yoshiaki"/>
@@ -55,6 +57,8 @@
 	<Hero id="lord_tk5_1234" faction="Faction.clan_sanada_2" text="{=TAIKOU_hero_1234_1560}山手"/>
 	<Hero id="lord_tk5_1236" faction="Faction.clan_imagawa_1" text="{=TAIKOU_hero_1236_1560}Imagawa Minami-hime"/>
 	<Hero id="lord_tk5_124" faction="Faction.clan_ukita_1" text="{=TAIKOU_hero_124_1560}Ukita Naoie"/>
+	<Hero id="lord_tk5_1242" faction="Faction.clan_ronin_1560" text="{=TAIKOU_hero_1242_1560}Maria"/>
+	<Hero id="lord_tk5_1243" faction="Faction.clan_ronin_1560" text="{=TAIKOU_hero_1243_1560}蒂雅"/>
 	<Hero id="lord_tk5_126" faction="Faction.clan_uku_1" text="{=TAIKOU_hero_126_1560}Uku Sumisada"/>
 	<Hero id="lord_tk5_128" faction="Faction.clan_usami_1" text="{=TAIKOU_hero_128_1560}Usami Sadamitsu"/>
 	<Hero id="lord_tk5_129" faction="Faction.clan_inaba_1" text="{=TAIKOU_hero_129_1560}Ujiie Suehisa"/>

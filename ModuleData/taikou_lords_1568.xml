@@ -300,13 +300,13 @@
 			</EquipmentRoster>
 		</Equipments>
 	</NPCCharacter>
-	<NPCCharacter id="lord_tk5_1160" default_group="Infantry" age="25" voice="curt" is_hero="true" is_female="false" culture="Culture.pirate" name="{=TAIKOU_hero_1160_1568}HaireDin" occupation="Lord" banner_symbol_mesh_name="test_symbol_a" banner_symbol_color="FF000000">
+	<NPCCharacter id="lord_tk5_1160" default_group="Infantry" age="48" voice="curt" is_hero="true" is_female="false" culture="Culture.pirate" name="{=TAIKOU_hero_1160_1568}HaireDin" occupation="Lord" banner_symbol_mesh_name="test_symbol_a" banner_symbol_color="FF000000">
 		<face>
 			<face_key_template value="BodyProperty.fighter_empire"/>
 		</face>
 		<Equipments>
 			<EquipmentRoster>
-				<equipment slot="Item0" id="Item.short_sword_t3" />
+				<equipment slot="Item0" id="Item.cleaver_sword_t3" />
 				<equipment slot="Body" id="Item.battania_civil_b" />
 				<equipment slot="Leg" id="Item.leather_shoes" />
 			</EquipmentRoster>
@@ -316,13 +316,13 @@
 			</EquipmentRoster>
 		</Equipments>
 	</NPCCharacter>
-	<NPCCharacter id="lord_tk5_1161" default_group="Infantry" age="25" voice="curt" is_hero="true" is_female="false" culture="Culture.pirate" name="{=TAIKOU_hero_1161_1568}佐伯杏太郎" occupation="Lord" banner_symbol_mesh_name="test_symbol_a" banner_symbol_color="FF000000">
+	<NPCCharacter id="lord_tk5_1161" default_group="Infantry" age="48" voice="curt" is_hero="true" is_female="false" culture="Culture.pirate" name="{=TAIKOU_hero_1161_1568}佐伯杏太郎" occupation="Lord" banner_symbol_mesh_name="test_symbol_a" banner_symbol_color="FF000000">
 		<face>
 			<face_key_template value="BodyProperty.fighter_empire"/>
 		</face>
 		<Equipments>
 			<EquipmentRoster>
-				<equipment slot="Item0" id="Item.short_sword_t3" />
+				<equipment slot="Item0" id="Item.cleaver_sword_t3" />
 				<equipment slot="Body" id="Item.battania_civil_b" />
 				<equipment slot="Leg" id="Item.leather_shoes" />
 			</EquipmentRoster>
@@ -347,6 +347,38 @@
 			</EquipmentRoster>
 			<EquipmentRoster civilian="true">
 				<equipment slot="Body" id="Item.battania_civil_b" />
+				<equipment slot="Leg" id="Item.leather_shoes" />
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_tk5_1172" default_group="Infantry" age="48" voice="calm" is_hero="true" is_female="true" culture="Culture.pirate" name="{=TAIKOU_hero_1172_1568}Sato" occupation="Lord" banner_symbol_mesh_name="test_symbol_a" banner_symbol_color="FF000000">
+		<face>
+			<face_key_template value="BodyProperty.fighter_empire"/>
+		</face>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.cleaver_sword_t3" />
+				<equipment slot="Body" id="Item.battania_civil_b" />
+				<equipment slot="Leg" id="Item.leather_shoes" />
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Body" id="Item.short_padded_robe" />
+				<equipment slot="Leg" id="Item.leather_shoes" />
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_tk5_1173" default_group="Infantry" age="48" voice="curt" is_hero="true" is_female="false" culture="Culture.pirate" name="{=TAIKOU_hero_1173_1568}Raphael" occupation="Lord" banner_symbol_mesh_name="test_symbol_a" banner_symbol_color="FF000000">
+		<face>
+			<face_key_template value="BodyProperty.fighter_empire"/>
+		</face>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.cleaver_sword_t3" />
+				<equipment slot="Body" id="Item.battania_civil_b" />
+				<equipment slot="Leg" id="Item.leather_shoes" />
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Body" id="Item.short_padded_robe" />
 				<equipment slot="Leg" id="Item.leather_shoes" />
 			</EquipmentRoster>
 		</Equipments>
@@ -888,6 +920,38 @@
 			</EquipmentRoster>
 			<EquipmentRoster civilian="true">
 				<equipment slot="Body" id="Item.battania_civil_b" />
+				<equipment slot="Leg" id="Item.leather_shoes" />
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_tk5_1242" default_group="Infantry" age="48" voice="calm" is_hero="true" is_female="true" culture="Culture.pirate" name="{=TAIKOU_hero_1242_1568}Maria" occupation="Lord" banner_symbol_mesh_name="test_symbol_a" banner_symbol_color="FF000000">
+		<face>
+			<face_key_template value="BodyProperty.fighter_empire"/>
+		</face>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.cleaver_sword_t3" />
+				<equipment slot="Body" id="Item.battania_civil_b" />
+				<equipment slot="Leg" id="Item.leather_shoes" />
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Body" id="Item.short_padded_robe" />
+				<equipment slot="Leg" id="Item.leather_shoes" />
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_tk5_1243" default_group="Infantry" age="48" voice="curt" is_hero="true" is_female="false" culture="Culture.pirate" name="{=TAIKOU_hero_1243_1568}蒂雅" occupation="Lord" banner_symbol_mesh_name="test_symbol_a" banner_symbol_color="FF000000">
+		<face>
+			<face_key_template value="BodyProperty.fighter_empire"/>
+		</face>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.cleaver_sword_t3" />
+				<equipment slot="Body" id="Item.battania_civil_b" />
+				<equipment slot="Leg" id="Item.leather_shoes" />
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Body" id="Item.short_padded_robe" />
 				<equipment slot="Leg" id="Item.leather_shoes" />
 			</EquipmentRoster>
 		</Equipments>

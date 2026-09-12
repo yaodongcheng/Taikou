@@ -1239,6 +1239,18 @@
     <string id="TAIKOU_hero_116_1575" text="Uesugi Kagekatsu" />
     <string id="TAIKOU_hero_116_1582" text="Uesugi Kagekatsu" />
     <string id="TAIKOU_hero_116_1598" text="Uesugi Kagekatsu" />
+    <string id="TAIKOU_hero_1172_1554" text="Sato" />
+    <string id="TAIKOU_hero_1172_1560" text="Sato" />
+    <string id="TAIKOU_hero_1172_1568" text="Sato" />
+    <string id="TAIKOU_hero_1172_1575" text="Sato" />
+    <string id="TAIKOU_hero_1172_1582" text="Sato" />
+    <string id="TAIKOU_hero_1172_1598" text="Sato" />
+    <string id="TAIKOU_hero_1173_1554" text="Raphael" />
+    <string id="TAIKOU_hero_1173_1560" text="Raphael" />
+    <string id="TAIKOU_hero_1173_1568" text="Raphael" />
+    <string id="TAIKOU_hero_1173_1575" text="Raphael" />
+    <string id="TAIKOU_hero_1173_1582" text="Raphael" />
+    <string id="TAIKOU_hero_1173_1598" text="Raphael" />
     <string id="TAIKOU_hero_1178_1560" text="Yodogimi" />
     <string id="TAIKOU_hero_1178_1568" text="Yodogimi" />
     <string id="TAIKOU_hero_1178_1575" text="Yodogimi" />
@@ -1403,6 +1415,18 @@
     <string id="TAIKOU_hero_123_1575" text="Ukita Tadaie" />
     <string id="TAIKOU_hero_123_1582" text="Ukita Tadaie" />
     <string id="TAIKOU_hero_123_1598" text="Ukita Tadaie" />
+    <string id="TAIKOU_hero_1242_1554" text="Maria" />
+    <string id="TAIKOU_hero_1242_1560" text="Maria" />
+    <string id="TAIKOU_hero_1242_1568" text="Maria" />
+    <string id="TAIKOU_hero_1242_1575" text="Maria" />
+    <string id="TAIKOU_hero_1242_1582" text="Maria" />
+    <string id="TAIKOU_hero_1242_1598" text="Maria" />
+    <string id="TAIKOU_hero_1243_1554" text="蒂雅" />
+    <string id="TAIKOU_hero_1243_1560" text="蒂雅" />
+    <string id="TAIKOU_hero_1243_1568" text="蒂雅" />
+    <string id="TAIKOU_hero_1243_1575" text="蒂雅" />
+    <string id="TAIKOU_hero_1243_1582" text="蒂雅" />
+    <string id="TAIKOU_hero_1243_1598" text="蒂雅" />
     <string id="TAIKOU_hero_124_1554" text="Ukita Naoie" />
     <string id="TAIKOU_hero_124_1560" text="Ukita Naoie" />
     <string id="TAIKOU_hero_124_1568" text="Ukita Naoie" />
@@ -5654,6 +5678,7 @@
     <string id="TAIKOU_identity_chajin" text="Tea Master" />
     <string id="TAIKOU_identity_chunin" text="Chunin" />
     <string id="TAIKOU_identity_daimyo" text="Daimyo" />
+    <string id="TAIKOU_identity_funadaishou" text="Fleet Captain" />
     <string id="TAIKOU_identity_genin" text="Genin" />
     <string id="TAIKOU_identity_ishi" text="Physician" />
     <string id="TAIKOU_identity_jounin" text="Jonin" />
@@ -5670,6 +5695,7 @@
     <string id="TAIKOU_identity_shihandai" text="Deputy Master" />
     <string id="TAIKOU_identity_shoukai" text="Shop Manager" />
     <string id="TAIKOU_identity_souryo" text="Monk" />
+    <string id="TAIKOU_identity_suifu" text="Sailor" />
     <string id="TAIKOU_identity_suifutou" text="Boatswain" />
     <string id="TAIKOU_identity_touke" text="Head of House" />
     <string id="TAIKOU_identity_toumoku" text="Boss" />

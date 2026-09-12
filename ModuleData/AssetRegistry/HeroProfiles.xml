@@ -3685,10 +3685,10 @@
   <HeroProfile id="lord_tk5_959" birth="1564" die="1620" clan="" culture="namban"
                command="54" force="79" govern="57" wisdom="52" charm="85" soldier="1" mount="2" gun="3"
                navy="4" archer="0" combat="0" military="1" ninja="0" build="2" farm="0" mine="3" arthmetic="4" etiquette="1" debate="3" tea="0" medical="2" />
-  <HeroProfile id="lord_tk5_1160" birth="0" die="0" clan="clan_antou_1" culture="pirate"
+  <HeroProfile id="lord_tk5_1160" birth="1520" die="0" clan="clan_antou_1" culture="pirate"
                command="0" force="0" govern="0" wisdom="0" charm="0" soldier="0" mount="0" gun="0"
                navy="0" archer="0" combat="0" military="0" ninja="0" build="0" farm="0" mine="0" arthmetic="0" etiquette="0" debate="0" tea="0" medical="0" />
-  <HeroProfile id="lord_tk5_1161" birth="0" die="0" clan="clan_shimae_1" culture="pirate"
+  <HeroProfile id="lord_tk5_1161" birth="1520" die="0" clan="clan_shimae_1" culture="pirate"
                command="0" force="0" govern="0" wisdom="0" charm="0" soldier="0" mount="0" gun="0"
                navy="0" archer="0" combat="0" military="0" ninja="0" build="0" farm="0" mine="0" arthmetic="0" etiquette="0" debate="0" tea="0" medical="0" />
   <HeroProfile id="lord_tk5_1162" birth="0" die="0" clan="" culture="ronin"
@@ -3721,10 +3721,10 @@
   <HeroProfile id="lord_tk5_1171" birth="0" die="0" clan="" culture="namban"
                command="0" force="0" govern="0" wisdom="0" charm="0" soldier="0" mount="0" gun="0"
                navy="0" archer="0" combat="0" military="0" ninja="0" build="0" farm="0" mine="0" arthmetic="0" etiquette="0" debate="0" tea="0" medical="0" />
-  <HeroProfile id="lord_tk5_1172" birth="0" die="0" clan="" culture="pirate"
+  <HeroProfile id="lord_tk5_1172" birth="1520" die="0" clan="" culture="pirate"
                command="0" force="0" govern="0" wisdom="0" charm="0" soldier="0" mount="0" gun="0"
                navy="0" archer="0" combat="0" military="0" ninja="0" build="0" farm="0" mine="0" arthmetic="0" etiquette="0" debate="0" tea="0" medical="0" />
-  <HeroProfile id="lord_tk5_1173" birth="0" die="0" clan="" culture="pirate"
+  <HeroProfile id="lord_tk5_1173" birth="1520" die="0" clan="" culture="pirate"
                command="0" force="0" govern="0" wisdom="0" charm="0" soldier="0" mount="0" gun="0"
                navy="0" archer="0" combat="0" military="0" ninja="0" build="0" farm="0" mine="0" arthmetic="0" etiquette="0" debate="0" tea="0" medical="0" />
   <HeroProfile id="lord_tk5_1174" birth="0" die="0" clan="" culture="ronin"
@@ -3907,10 +3907,10 @@
   <HeroProfile id="lord_tk5_1240" birth="0" die="0" clan="" culture="ronin"
                command="0" force="0" govern="0" wisdom="0" charm="0" soldier="0" mount="0" gun="0"
                navy="0" archer="0" combat="0" military="0" ninja="0" build="0" farm="0" mine="0" arthmetic="0" etiquette="0" debate="0" tea="0" medical="0" />
-  <HeroProfile id="lord_tk5_1242" birth="0" die="0" clan="" culture="pirate"
+  <HeroProfile id="lord_tk5_1242" birth="1520" die="0" clan="" culture="pirate"
                command="0" force="0" govern="0" wisdom="0" charm="0" soldier="0" mount="0" gun="0"
                navy="0" archer="0" combat="0" military="0" ninja="0" build="0" farm="0" mine="0" arthmetic="0" etiquette="0" debate="0" tea="0" medical="0" />
-  <HeroProfile id="lord_tk5_1243" birth="0" die="0" clan="" culture="pirate"
+  <HeroProfile id="lord_tk5_1243" birth="1520" die="0" clan="" culture="pirate"
                command="0" force="0" govern="0" wisdom="0" charm="0" soldier="0" mount="0" gun="0"
                navy="0" archer="0" combat="0" military="0" ninja="0" build="0" farm="0" mine="0" arthmetic="0" etiquette="0" debate="0" tea="0" medical="0" />
   <HeroProfile id="lord_tk5_1289" birth="0" die="0" clan="" culture="ronin"

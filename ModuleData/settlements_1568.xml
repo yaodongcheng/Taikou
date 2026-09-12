@@ -2742,7 +2742,7 @@
   </Settlement>
   <Settlement id="village_tk183" name="{=TAIKOU_sett_village_tk183}仙台之町" owner="Faction.clan_date_2" posX="1715.6" posY="654.1" culture="Culture.ikoku">
     <Components>
-      <Village id="village_comp_tk183" village_type="VillageType.fishing" hearth="200" gate_rotation="0.008" bound="Settlement.town_tk010" background_crop_position="0.0" background_mesh="gui_bg_village_empire" wait_mesh="wait_empire_village" castle_background_mesh="gui_bg_castle_empire" />
+      <Village id="village_comp_tk183" village_type="VillageType.fisherman" hearth="200" gate_rotation="0.008" bound="Settlement.town_tk010" background_crop_position="0.0" background_mesh="gui_bg_village_empire" wait_mesh="wait_empire_village" castle_background_mesh="gui_bg_castle_empire" />
     </Components>
     <Locations complex_template="LocationComplexTemplate.village_complex">
       <Location id="village_center" scene_name="empire_village_008" />
@@ -2768,7 +2768,7 @@
   </Settlement>
   <Settlement id="village_tk185" name="{=TAIKOU_sett_village_tk185}酒田之町" owner="Faction.clan_daihoji_1" posX="1627.6" posY="756.7" culture="Culture.ikoku">
     <Components>
-      <Village id="village_comp_tk185" village_type="VillageType.horse_ranch" hearth="200" gate_rotation="0.008" bound="Settlement.town_tk018" background_crop_position="0.0" background_mesh="gui_bg_village_empire" wait_mesh="wait_empire_village" castle_background_mesh="gui_bg_castle_empire" />
+      <Village id="village_comp_tk185" village_type="VillageType.europe_horse_ranch" hearth="200" gate_rotation="0.008" bound="Settlement.town_tk018" background_crop_position="0.0" background_mesh="gui_bg_village_empire" wait_mesh="wait_empire_village" castle_background_mesh="gui_bg_castle_empire" />
     </Components>
     <Locations complex_template="LocationComplexTemplate.village_complex">
       <Location id="village_center" scene_name="empire_village_002" />
@@ -2820,7 +2820,7 @@
   </Settlement>
   <Settlement id="village_tk189" name="{=TAIKOU_sett_village_tk189}厩桥之町" owner="Faction.clan_hojo_3" posX="1405.2" posY="486.8" culture="Culture.ikoku">
     <Components>
-      <Village id="village_comp_tk189" village_type="VillageType.fishing" hearth="200" gate_rotation="0.008" bound="Settlement.town_tk032" background_crop_position="0.0" background_mesh="gui_bg_village_empire" wait_mesh="wait_empire_village" castle_background_mesh="gui_bg_castle_empire" />
+      <Village id="village_comp_tk189" village_type="VillageType.fisherman" hearth="200" gate_rotation="0.008" bound="Settlement.town_tk032" background_crop_position="0.0" background_mesh="gui_bg_village_empire" wait_mesh="wait_empire_village" castle_background_mesh="gui_bg_castle_empire" />
     </Components>
     <Locations complex_template="LocationComplexTemplate.village_complex">
       <Location id="village_center" scene_name="empire_village_006" />
@@ -2846,7 +2846,7 @@
   </Settlement>
   <Settlement id="village_tk191" name="{=TAIKOU_sett_village_tk191}佐仓之町" owner="Faction.clan_hojo_1" posX="1470.6" posY="397.3" culture="Culture.ikoku">
     <Components>
-      <Village id="village_comp_tk191" village_type="VillageType.horse_ranch" hearth="200" gate_rotation="0.008" bound="Settlement.town_tk041" background_crop_position="0.0" background_mesh="gui_bg_village_empire" wait_mesh="wait_empire_village" castle_background_mesh="gui_bg_castle_empire" />
+      <Village id="village_comp_tk191" village_type="VillageType.europe_horse_ranch" hearth="200" gate_rotation="0.008" bound="Settlement.town_tk041" background_crop_position="0.0" background_mesh="gui_bg_village_empire" wait_mesh="wait_empire_village" castle_background_mesh="gui_bg_castle_empire" />
     </Components>
     <Locations complex_template="LocationComplexTemplate.village_complex">
       <Location id="village_center" scene_name="empire_village_008" />
@@ -2898,7 +2898,7 @@
   </Settlement>
   <Settlement id="village_tk195" name="{=TAIKOU_sett_village_tk195}富山之町" owner="Faction.clan_jinbo_1" posX="1225.0" posY="594.5" culture="Culture.ikoku">
     <Components>
-      <Village id="village_comp_tk195" village_type="VillageType.fishing" hearth="200" gate_rotation="0.008" bound="Settlement.town_tk053" background_crop_position="0.0" background_mesh="gui_bg_village_empire" wait_mesh="wait_empire_village" castle_background_mesh="gui_bg_castle_empire" />
+      <Village id="village_comp_tk195" village_type="VillageType.fisherman" hearth="200" gate_rotation="0.008" bound="Settlement.town_tk053" background_crop_position="0.0" background_mesh="gui_bg_village_empire" wait_mesh="wait_empire_village" castle_background_mesh="gui_bg_castle_empire" />
     </Components>
     <Locations complex_template="LocationComplexTemplate.village_complex">
       <Location id="village_center" scene_name="empire_village_004" />
@@ -2924,7 +2924,7 @@
   </Settlement>
   <Settlement id="village_tk197" name="{=TAIKOU_sett_village_tk197}金泽之町" owner="Faction.clan_honganji_1" posX="1158.4" posY="590.6" culture="Culture.ikoku">
     <Components>
-      <Village id="village_comp_tk197" village_type="VillageType.horse_ranch" hearth="200" gate_rotation="0.008" bound="Settlement.town_tk056" background_crop_position="0.0" background_mesh="gui_bg_village_empire" wait_mesh="wait_empire_village" castle_background_mesh="gui_bg_castle_empire" />
+      <Village id="village_comp_tk197" village_type="VillageType.europe_horse_ranch" hearth="200" gate_rotation="0.008" bound="Settlement.town_tk056" background_crop_position="0.0" background_mesh="gui_bg_village_empire" wait_mesh="wait_empire_village" castle_background_mesh="gui_bg_castle_empire" />
     </Components>
     <Locations complex_template="LocationComplexTemplate.village_complex">
       <Location id="village_center" scene_name="empire_village_006" />
@@ -2976,7 +2976,7 @@
   </Settlement>
   <Settlement id="village_tk201" name="{=TAIKOU_sett_village_tk201}甲府之町" owner="Faction.clan_takeda_1" posX="1315.3" posY="418.6" culture="Culture.ikoku">
     <Components>
-      <Village id="village_comp_tk201" village_type="VillageType.fishing" hearth="200" gate_rotation="0.008" bound="Settlement.town_tk069" background_crop_position="0.0" background_mesh="gui_bg_village_empire" wait_mesh="wait_empire_village" castle_background_mesh="gui_bg_castle_empire" />
+      <Village id="village_comp_tk201" village_type="VillageType.fisherman" hearth="200" gate_rotation="0.008" bound="Settlement.town_tk069" background_crop_position="0.0" background_mesh="gui_bg_village_empire" wait_mesh="wait_empire_village" castle_background_mesh="gui_bg_castle_empire" />
     </Components>
     <Locations complex_template="LocationComplexTemplate.village_complex">
       <Location id="village_center" scene_name="empire_village_002" />
@@ -3002,7 +3002,7 @@
   </Settlement>
   <Settlement id="village_tk203" name="{=TAIKOU_sett_village_tk203}滨松之町" owner="Faction.clan_tokugawa_1" posX="1215.7" posY="381.9" culture="Culture.ikoku">
     <Components>
-      <Village id="village_comp_tk203" village_type="VillageType.horse_ranch" hearth="200" gate_rotation="0.008" bound="Settlement.town_tk075" background_crop_position="0.0" background_mesh="gui_bg_village_empire" wait_mesh="wait_empire_village" castle_background_mesh="gui_bg_castle_empire" />
+      <Village id="village_comp_tk203" village_type="VillageType.europe_horse_ranch" hearth="200" gate_rotation="0.008" bound="Settlement.town_tk075" background_crop_position="0.0" background_mesh="gui_bg_village_empire" wait_mesh="wait_empire_village" castle_background_mesh="gui_bg_castle_empire" />
     </Components>
     <Locations complex_template="LocationComplexTemplate.village_complex">
       <Location id="village_center" scene_name="empire_village_004" />
@@ -3054,7 +3054,7 @@
   </Settlement>
   <Settlement id="village_tk207" name="{=TAIKOU_sett_village_tk207}松仓之町" owner="Faction.clan_anekouji_1" posX="1192.0" posY="521.2" culture="Culture.ikoku">
     <Components>
-      <Village id="village_comp_tk207" village_type="VillageType.fishing" hearth="200" gate_rotation="0.008" bound="Settlement.town_tk089" background_crop_position="0.0" background_mesh="gui_bg_village_empire" wait_mesh="wait_empire_village" castle_background_mesh="gui_bg_castle_empire" />
+      <Village id="village_comp_tk207" village_type="VillageType.fisherman" hearth="200" gate_rotation="0.008" bound="Settlement.town_tk089" background_crop_position="0.0" background_mesh="gui_bg_village_empire" wait_mesh="wait_empire_village" castle_background_mesh="gui_bg_castle_empire" />
     </Components>
     <Locations complex_template="LocationComplexTemplate.village_complex">
       <Location id="village_center" scene_name="empire_village_008" />
@@ -3080,7 +3080,7 @@
   </Settlement>
   <Settlement id="village_tk209" name="{=TAIKOU_sett_village_tk209}今滨之町" owner="Faction.clan_azai_2" posX="1046.2" posY="476.8" culture="Culture.ikoku">
     <Components>
-      <Village id="village_comp_tk209" village_type="VillageType.horse_ranch" hearth="200" gate_rotation="0.008" bound="Settlement.town_tk095" background_crop_position="0.0" background_mesh="gui_bg_village_empire" wait_mesh="wait_empire_village" castle_background_mesh="gui_bg_castle_empire" />
+      <Village id="village_comp_tk209" village_type="VillageType.europe_horse_ranch" hearth="200" gate_rotation="0.008" bound="Settlement.town_tk095" background_crop_position="0.0" background_mesh="gui_bg_village_empire" wait_mesh="wait_empire_village" castle_background_mesh="gui_bg_castle_empire" />
     </Components>
     <Locations complex_template="LocationComplexTemplate.village_complex">
       <Location id="village_center" scene_name="empire_village_002" />
@@ -3132,7 +3132,7 @@
   </Settlement>
   <Settlement id="village_tk213" name="{=TAIKOU_sett_village_tk213}龟山之町" owner="Faction.clan_kiku_1" posX="970.7" posY="463.5" culture="Culture.ikoku">
     <Components>
-      <Village id="village_comp_tk213" village_type="VillageType.fishing" hearth="200" gate_rotation="0.008" bound="Settlement.town_tk106" background_crop_position="0.0" background_mesh="gui_bg_village_empire" wait_mesh="wait_empire_village" castle_background_mesh="gui_bg_castle_empire" />
+      <Village id="village_comp_tk213" village_type="VillageType.fisherman" hearth="200" gate_rotation="0.008" bound="Settlement.town_tk106" background_crop_position="0.0" background_mesh="gui_bg_village_empire" wait_mesh="wait_empire_village" castle_background_mesh="gui_bg_castle_empire" />
     </Components>
     <Locations complex_template="LocationComplexTemplate.village_complex">
       <Location id="village_center" scene_name="empire_village_006" />
@@ -3158,7 +3158,7 @@
   </Settlement>
   <Settlement id="village_tk215" name="{=TAIKOU_sett_village_tk215}堺之町" owner="Faction.clan_miyoshi_5" posX="927.8" posY="370.9" culture="Culture.ikoku">
     <Components>
-      <Village id="village_comp_tk215" village_type="VillageType.horse_ranch" hearth="200" gate_rotation="0.008" bound="Settlement.town_tk110" background_crop_position="0.0" background_mesh="gui_bg_village_empire" wait_mesh="wait_empire_village" castle_background_mesh="gui_bg_castle_empire" />
+      <Village id="village_comp_tk215" village_type="VillageType.europe_horse_ranch" hearth="200" gate_rotation="0.008" bound="Settlement.town_tk110" background_crop_position="0.0" background_mesh="gui_bg_village_empire" wait_mesh="wait_empire_village" castle_background_mesh="gui_bg_castle_empire" />
     </Components>
     <Locations complex_template="LocationComplexTemplate.village_complex">
       <Location id="village_center" scene_name="empire_village_008" />
@@ -3210,7 +3210,7 @@
   </Settlement>
   <Settlement id="village_tk219" name="{=TAIKOU_sett_village_tk219}鸟取之町" owner="Faction.clan_yamana_1" posX="854.6" posY="547.5" culture="Culture.ikoku">
     <Components>
-      <Village id="village_comp_tk219" village_type="VillageType.fishing" hearth="200" gate_rotation="0.008" bound="Settlement.town_tk118" background_crop_position="0.0" background_mesh="gui_bg_village_empire" wait_mesh="wait_empire_village" castle_background_mesh="gui_bg_castle_empire" />
+      <Village id="village_comp_tk219" village_type="VillageType.fisherman" hearth="200" gate_rotation="0.008" bound="Settlement.town_tk118" background_crop_position="0.0" background_mesh="gui_bg_village_empire" wait_mesh="wait_empire_village" castle_background_mesh="gui_bg_castle_empire" />
     </Components>
     <Locations complex_template="LocationComplexTemplate.village_complex">
       <Location id="village_center" scene_name="empire_village_004" />
@@ -3236,7 +3236,7 @@
   </Settlement>
   <Settlement id="village_tk221" name="{=TAIKOU_sett_village_tk221}温泉津之町" owner="Faction.clan_kikkawa_1" posX="642.8" posY="559.3" culture="Culture.ikoku">
     <Components>
-      <Village id="village_comp_tk221" village_type="VillageType.horse_ranch" hearth="200" gate_rotation="0.008" bound="Settlement.town_tk125" background_crop_position="0.0" background_mesh="gui_bg_village_empire" wait_mesh="wait_empire_village" castle_background_mesh="gui_bg_castle_empire" />
+      <Village id="village_comp_tk221" village_type="VillageType.europe_horse_ranch" hearth="200" gate_rotation="0.008" bound="Settlement.town_tk125" background_crop_position="0.0" background_mesh="gui_bg_village_empire" wait_mesh="wait_empire_village" castle_background_mesh="gui_bg_castle_empire" />
     </Components>
     <Locations complex_template="LocationComplexTemplate.village_complex">
       <Location id="village_center" scene_name="empire_village_006" />
@@ -3288,7 +3288,7 @@
   </Settlement>
   <Settlement id="village_tk225" name="{=TAIKOU_sett_village_tk225}仓敷之町" owner="Faction.clan_shimizu_1" posX="760.8" posY="450.8" culture="Culture.ikoku">
     <Components>
-      <Village id="village_comp_tk225" village_type="VillageType.fishing" hearth="200" gate_rotation="0.008" bound="Settlement.town_tk135" background_crop_position="0.0" background_mesh="gui_bg_village_empire" wait_mesh="wait_empire_village" castle_background_mesh="gui_bg_castle_empire" />
+      <Village id="village_comp_tk225" village_type="VillageType.fisherman" hearth="200" gate_rotation="0.008" bound="Settlement.town_tk135" background_crop_position="0.0" background_mesh="gui_bg_village_empire" wait_mesh="wait_empire_village" castle_background_mesh="gui_bg_castle_empire" />
     </Components>
     <Locations complex_template="LocationComplexTemplate.village_complex">
       <Location id="village_center" scene_name="empire_village_002" />
@@ -3314,7 +3314,7 @@
   </Settlement>
   <Settlement id="village_tk227" name="{=TAIKOU_sett_village_tk227}严岛之町" owner="Faction.clan_mori_1" posX="600.9" posY="478.3" culture="Culture.ikoku">
     <Components>
-      <Village id="village_comp_tk227" village_type="VillageType.horse_ranch" hearth="200" gate_rotation="0.008" bound="Settlement.town_tk140" background_crop_position="0.0" background_mesh="gui_bg_village_empire" wait_mesh="wait_empire_village" castle_background_mesh="gui_bg_castle_empire" />
+      <Village id="village_comp_tk227" village_type="VillageType.europe_horse_ranch" hearth="200" gate_rotation="0.008" bound="Settlement.town_tk140" background_crop_position="0.0" background_mesh="gui_bg_village_empire" wait_mesh="wait_empire_village" castle_background_mesh="gui_bg_castle_empire" />
     </Components>
     <Locations complex_template="LocationComplexTemplate.village_complex">
       <Location id="village_center" scene_name="empire_village_004" />
@@ -3366,7 +3366,7 @@
   </Settlement>
   <Settlement id="village_tk231" name="{=TAIKOU_sett_village_tk231}鸣门之町" owner="Faction.clan_miyoshi_4" posX="819.3" posY="355.9" culture="Culture.ikoku">
     <Components>
-      <Village id="village_comp_tk231" village_type="VillageType.fishing" hearth="200" gate_rotation="0.008" bound="Settlement.town_tk149" background_crop_position="0.0" background_mesh="gui_bg_village_empire" wait_mesh="wait_empire_village" castle_background_mesh="gui_bg_castle_empire" />
+      <Village id="village_comp_tk231" village_type="VillageType.fisherman" hearth="200" gate_rotation="0.008" bound="Settlement.town_tk149" background_crop_position="0.0" background_mesh="gui_bg_village_empire" wait_mesh="wait_empire_village" castle_background_mesh="gui_bg_castle_empire" />
     </Components>
     <Locations complex_template="LocationComplexTemplate.village_complex">
       <Location id="village_center" scene_name="empire_village_008" />
@@ -3392,7 +3392,7 @@
   </Settlement>
   <Settlement id="village_tk233" name="{=TAIKOU_sett_village_tk233}博多之町" owner="Faction.clan_mori_1" posX="355.8" posY="446.6" culture="Culture.ikoku">
     <Components>
-      <Village id="village_comp_tk233" village_type="VillageType.horse_ranch" hearth="200" gate_rotation="0.008" bound="Settlement.town_tk157" background_crop_position="0.0" background_mesh="gui_bg_village_empire" wait_mesh="wait_empire_village" castle_background_mesh="gui_bg_castle_empire" />
+      <Village id="village_comp_tk233" village_type="VillageType.europe_horse_ranch" hearth="200" gate_rotation="0.008" bound="Settlement.town_tk157" background_crop_position="0.0" background_mesh="gui_bg_village_empire" wait_mesh="wait_empire_village" castle_background_mesh="gui_bg_castle_empire" />
     </Components>
     <Locations complex_template="LocationComplexTemplate.village_complex">
       <Location id="village_center" scene_name="empire_village_002" />
@@ -3444,7 +3444,7 @@
   </Settlement>
   <Settlement id="village_tk237" name="{=TAIKOU_sett_village_tk237}小仓之町" owner="Faction.clan_otomo_1" posX="400.4" posY="450.8" culture="Culture.ikoku">
     <Components>
-      <Village id="village_comp_tk237" village_type="VillageType.fishing" hearth="200" gate_rotation="0.008" bound="Settlement.town_tk169" background_crop_position="0.0" background_mesh="gui_bg_village_empire" wait_mesh="wait_empire_village" castle_background_mesh="gui_bg_castle_empire" />
+      <Village id="village_comp_tk237" village_type="VillageType.fisherman" hearth="200" gate_rotation="0.008" bound="Settlement.town_tk169" background_crop_position="0.0" background_mesh="gui_bg_village_empire" wait_mesh="wait_empire_village" castle_background_mesh="gui_bg_castle_empire" />
     </Components>
     <Locations complex_template="LocationComplexTemplate.village_complex">
       <Location id="village_center" scene_name="empire_village_006" />
@@ -3470,7 +3470,7 @@
   </Settlement>
   <Settlement id="village_tk239" name="{=TAIKOU_sett_village_tk239}油津之町" owner="Faction.clan_ito_1" posX="334.9" posY="186.4" culture="Culture.ikoku">
     <Components>
-      <Village id="village_comp_tk239" village_type="VillageType.horse_ranch" hearth="200" gate_rotation="0.008" bound="Settlement.town_tk174" background_crop_position="0.0" background_mesh="gui_bg_village_empire" wait_mesh="wait_empire_village" castle_background_mesh="gui_bg_castle_empire" />
+      <Village id="village_comp_tk239" village_type="VillageType.europe_horse_ranch" hearth="200" gate_rotation="0.008" bound="Settlement.town_tk174" background_crop_position="0.0" background_mesh="gui_bg_village_empire" wait_mesh="wait_empire_village" castle_background_mesh="gui_bg_castle_empire" />
     </Components>
     <Locations complex_template="LocationComplexTemplate.village_complex">
       <Location id="village_center" scene_name="empire_village_008" />
