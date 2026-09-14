@@ -1,8 +1,9 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Monsters>
-<!-- 🔴 生成物·禁止手改（铁律 22）——由 Scripts/gen_taikou_nobunaga_head.py 从 Native 同名节点整块复制生成。
+<!-- 生成物·禁止手改（铁律 22）——由 Scripts/gen_taikou_nobunaga_head.py 从 Native 同名节点整块复制生成。
      改内容 = 改脚本重跑。
-     用途：织田信长（lord_tk5_195）专用 race ——只有他在 taikou_lords*.xml 里带 race="lwn_nobunaga"，其他人仍走 race="human"。 -->
+     用途：织田信长（lord_tk5_195）专用 race，只有他在 taikou_lords*.xml 里带 race="lwn_nobunaga"，其他人仍走 race="human"。
+ -->
 		<Monster
 			id="lwn_nobunaga"
 			action_set="as_human_warrior"
