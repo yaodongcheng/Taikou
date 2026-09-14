@@ -1601,6 +1601,14 @@
     <string id="xdlCLqcy" text="凛子" />
     <string id="zLwhd8EY" text="琉衣" />
     <string id="IVbOeER4" text="琉璃" />
+  <!-- 兵种名（2026-09-12，C 档最小日本兵种集；键对应 spnpccharacters.xml 的 TROOPS 段） -->
+  <string id="TAIKOU_troop_bandit_looter" text="山贼" />
+  <string id="TAIKOU_troop_mounted_samurai" text="骑马武士" />
+  <string id="TAIKOU_troop_samurai" text="武士" />
+  <string id="TAIKOU_troop_veteran_ashigaru" text="精锐足轻" />
+  <string id="TAIKOU_troop_yari_ashigaru" text="枪足轻" />
+  <string id="TAIKOU_troop_yumi_ashigaru" text="弓足轻" />
+  <string id="TAIKOU_yukimura_do_a" text="真田幸村 当世具足" />
 <!-- ==== 生成块：英雄/家族/王国名字（Scripts/gen_taikou_era_world.py 产出，禁止手改）==== -->
   <string id="TAIKOU_clan_akamatsu_1" text="赤松" />
   <string id="TAIKOU_clan_akamatsu_2" text="赤松" />
@@ -6611,12 +6619,5 @@
   <string id="TAIKOU_kingdom_yamanaka" text="山中家" />
   <string id="TAIKOU_kingdom_yamauchi" text="山内家" />
   <string id="TAIKOU_kingdom_yuki" text="结城家" />
-  <!-- 兵种名（2026-09-12，C 档最小日本兵种集；键对应 spnpccharacters.xml 的 TROOPS 段） -->
-  <string id="TAIKOU_troop_bandit_looter" text="山贼" />
-  <string id="TAIKOU_troop_mounted_samurai" text="骑马武士" />
-  <string id="TAIKOU_troop_samurai" text="武士" />
-  <string id="TAIKOU_troop_veteran_ashigaru" text="精锐足轻" />
-  <string id="TAIKOU_troop_yari_ashigaru" text="枪足轻" />
-  <string id="TAIKOU_troop_yumi_ashigaru" text="弓足轻" />
 </strings>
 </base>

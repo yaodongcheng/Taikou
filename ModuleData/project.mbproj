@@ -5,4 +5,12 @@
 	     = KeyNotFoundException（CreateProcessedActionSetsXMLForNative，实崩）。SubModule.xml 的
 	     19 个 TaikouCampaign 段才是数据包正路。将来需启用某行：先独立实机验证（启用一个为一个）。 -->
 	<file id="soln_soundtrack" name="music/soundtrack.xml" type="soundtrack"/>
+	<!-- 🔴 2026-09-14 启用第二行：soln_skins → ModuleData/skins.xml（织田信长专用 race）。
+	     为什么必须开这一行：skins.xml 属于 project.mbproj 的 soln 体系，不在 SubModule 的 XmlNode 体系里
+	     （Native 自己就是 `<file id="soln_skins" name="ModuleData/skins.xml" type="skin"/>`）。
+	     为什么这次不会重演 09-08 那次崩：那次是 Taikou 的 action_sets.xml **逐字拷贝** Native → 同 soln id
+	     合并出重复定义 → KeyNotFoundException。本次 skins.xml 里**只多一个 <race id="lwn_nobunaga">**，
+	     与 Native 的 race="human" 不同 id → 合并是纯追加，不冲突。
+	     回退方法：删掉下面这一行即可（其余改动都是纯数据、可留可删）。 -->
+	<file id="soln_skins" name="ModuleData/skins.xml" type="skin"/>
 </base>

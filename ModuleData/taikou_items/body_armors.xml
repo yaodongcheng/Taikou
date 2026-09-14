@@ -48,4 +48,13 @@
 		</ItemComponent>
 		<Flags Civilian="true" DoesNotHideChest="true" />
 	</Item>
+	<!-- 真田幸村 当世具足（战国无双2 解包件重定向而来；网格见 tools/armor-pipeline/out/taikou_yukimura_do_a.fbx）
+	     Civilian="true" = 平民装栏也能穿。原版惯例是甲只进战斗装（Taikou 其它甲都不带），
+	     这里为方便实机查看加上了；不想要就删掉 Flags 里那一项。 -->
+	<Item id="taikou_yukimura_do_a" name="{=TAIKOU_yukimura_do_a}Sanada Yukimura's Do" subtype="body_armor" mesh="taikou_yukimura_do_a" culture="Culture.ikoku" weight="12" difficulty="0" appearance="2" Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="42" leg_armor="12" arm_armor="12" has_gender_variations="false" covers_body="true" modifier_group="plate" material_type="Plate" />
+		</ItemComponent>
+		<Flags UseTeamColor="true" Civilian="true" />
+	</Item>
 </Items>

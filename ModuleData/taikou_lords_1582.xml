@@ -1648,7 +1648,7 @@
 			</EquipmentRoster>
 		</Equipments>
 	</NPCCharacter>
-	<NPCCharacter id="lord_tk5_195" default_group="Infantry" age="48" voice="curt" is_hero="true" is_female="false" culture="Culture.kinai" name="{=TAIKOU_hero_195_1582}Oda Nobunaga" occupation="Lord" banner_symbol_mesh_name="test_symbol_a" banner_symbol_color="FF000000">
+	<NPCCharacter id="lord_tk5_195" default_group="Infantry" age="48" voice="curt" is_hero="true" is_female="false" culture="Culture.kinai" race="lwn_nobunaga" name="{=TAIKOU_hero_195_1582}Oda Nobunaga" occupation="Lord" banner_symbol_mesh_name="test_symbol_a" banner_symbol_color="FF000000">
 		<face>
 			<face_key_template value="BodyProperty.fighter_empire"/>
 		</face>

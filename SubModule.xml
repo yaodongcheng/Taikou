@@ -118,6 +118,23 @@
 				<GameType value="TaikouCampaign1598"/>
 			</IncludedGameTypes>
 		</XmlNode>
+		<!-- 🔴 织田信长专用头（2026-09-14）：Monsters 段必须注册（Native 就是这么注册自己的 monsters 的）；
+		     Skins 段**不注册**——skins.xml 由引擎按固定文件名加载（实证：TifaHead2 / xxFemaleHead 两个换头 mod 都没注册 Skins）。
+		     两个文件都是生成物，由 Scripts/gen_taikou_nobunaga_head.py 产出，禁手改（铁律 22）。 -->
+		<XmlNode>
+			<XmlName id="Monsters" path="monsters"/>
+			<IncludedGameTypes>
+				<GameType value="Campaign"/>
+				<GameType value="CampaignStoryMode"/>
+				<GameType value="TaikouCampaign"/>
+				<GameType value="TaikouCampaign1560"/>
+				<GameType value="TaikouCampaign1582"/>
+				<GameType value="TaikouCampaign1554"/>
+				<GameType value="TaikouCampaign1568"/>
+				<GameType value="TaikouCampaign1575"/>
+				<GameType value="TaikouCampaign1598"/>
+			</IncludedGameTypes>
+		</XmlNode>
 		<XmlNode>
 			<XmlName id="Kingdoms" path="spkingdoms"/>
 			<IncludedGameTypes>

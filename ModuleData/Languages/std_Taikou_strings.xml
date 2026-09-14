@@ -6380,5 +6380,6 @@
     <string id="TAIKOU_troop_veteran_ashigaru" text="Veteran Ashigaru" />
     <string id="TAIKOU_troop_yari_ashigaru" text="Ashigaru Spearman" />
     <string id="TAIKOU_troop_yumi_ashigaru" text="Ashigaru Archer" />
+    <string id="TAIKOU_yukimura_do_a" text="Sanada Yukimura's Do" />
   </strings>
 </base>
