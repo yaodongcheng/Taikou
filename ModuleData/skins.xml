@@ -3,7 +3,7 @@
 <!-- 生成物·禁止手改（铁律 22）——由 Scripts/gen_taikou_nobunaga_head.py 从 Native 同名节点整块复制生成。
      改内容 = 改脚本重跑。
      用途：织田信长（lord_tk5_195）专用 race，只有他在 taikou_lords*.xml 里带 race="lwn_nobunaga"，其他人仍走 race="human"。
-     gen-params: face_mesh=head_nobunaga_a face_tex=head_nobunaga_a min_scale=(none)
+     gen-params: face_mesh=head_nobunaga_a face_tex=head_nobunaga_a min_scale=(none) no_hair=1
  -->
 	<race
 		id="lwn_nobunaga">
@@ -1197,269 +1197,169 @@
 								name="Bald" />
 						</style_tags>
 					</hair_mesh>
-					<hair_mesh
-						name="hair_male_g_a"
-						cover_type1="hair_male_g_a_type1"
-						cover_type2="hair_male_g_a_type2"
-						cover_type4="hair_male_g_a_type4">
+					<hair_mesh>
 						<style_tags>
 							<style_tag
 								name="Ponytail" />
 						</style_tags>
 					</hair_mesh>
-					<hair_mesh
-						name="hair_male_g_b"
-						cover_type1="hair_male_g_b_type1"
-						cover_type2="hair_male_g_b_type2"
-						cover_type3="hair_male_g_b_type3"
-						cover_type4="hair_male_g_b">
+					<hair_mesh>
 						<style_tags>
 							<style_tag
 								name="LongAndBushy" />
 						</style_tags>
 					</hair_mesh>
-					<hair_mesh
-						name="hair_male_g_c"
-						cover_type1="hair_male_g_c_type1"
-						cover_type2="hair_male_g_c_type2"
-						cover_type4="hair_male_g_c_type4">
+					<hair_mesh>
 						<style_tags>
 							<style_tag
 								name="TiedAcrossBack" />
 						</style_tags>
 					</hair_mesh>
-					<hair_mesh
-						name="hair_male_g_d"
-						cover_type1="hair_male_g_d_type1"
-						cover_type4="hair_male_g_d">
+					<hair_mesh>
 						<style_tags>
 							<style_tag
 								name="SlickedLong" />
 						</style_tags>
 					</hair_mesh>
-					<hair_mesh
-						name="hair_male_g_e"
-						cover_type1="hair_male_g_e_type1"
-						cover_type4="hair_male_g_e">
+					<hair_mesh>
 						<style_tags>
 							<style_tag
 								name="PartedAndCombedBack" />
 						</style_tags>
 					</hair_mesh>
-					<hair_mesh
-						name="hair_male_g_f"
-						cover_type1="hair_male_g_f_type1"
-						cover_type4="hair_male_g_f">
+					<hair_mesh>
 						<style_tags>
 							<style_tag
 								name="Tousled" />
 						</style_tags>
 					</hair_mesh>
-					<hair_mesh
-						name="hair_male_g_g"
-						cover_type1="hair_male_g_g_a"
-						cover_type2="hair_male_g_g_b"
-						cover_type3="hair_male_g_g_c"
-						cover_type4="hair_male_g_g">
+					<hair_mesh>
 						<style_tags>
 							<style_tag
 								name="BraidedAndLong" />
 						</style_tags>
 					</hair_mesh>
-					<hair_mesh
-						name="hair_male_g_h"
-						cover_type1="hair_male_g_h_type1"
-						cover_type4="hair_male_g_h">
+					<hair_mesh>
 						<style_tags>
 							<style_tag
 								name="Short" />
 						</style_tags>
 					</hair_mesh>
-					<hair_mesh
-						name="hair_male_g_i"
-						cover_type1="hair_male_g_a_type1"
-						cover_type2="hair_male_g_a_type2"
-						cover_type4="hair_male_g_i">
+					<hair_mesh>
 						<style_tags>
 							<style_tag
 								name="HighPonytail" />
 						</style_tags>
 					</hair_mesh>
-					<hair_mesh
-						name="hair_male_g_j"
-						cover_type1="hair_male_g_j_a"
-						cover_type2="hair_male_g_j_b"
-						cover_type3="hair_male_g_j_c"
-						cover_type4="hair_male_g_j">
+					<hair_mesh>
 						<style_tags>
 							<style_tag
 								name="Mohawk" />
 						</style_tags>
 					</hair_mesh>
-					<hair_mesh
-						name="hair_male_g_k"
-						cover_type1="hair_male_g_k_a"
-						cover_type2="hair_male_g_k_b"
-						cover_type3="hair_male_g_k_b"
-						cover_type4="hair_male_g_k">
+					<hair_mesh>
 						<style_tags>
 							<style_tag
 								name="PageBoy" />
 						</style_tags>
 					</hair_mesh>
-					<hair_mesh
-						name="hair_male_g_l"
-						cover_type4="hair_male_g_l">
+					<hair_mesh>
 						<style_tags>
 							<style_tag
 								name="Bowl" />
 						</style_tags>
 					</hair_mesh>
-					<hair_mesh
-						name="hair_male_g_m"
-						cover_type4="hair_male_g_m">
+					<hair_mesh>
 						<style_tags>
 							<style_tag
 								name="ShortAndThin" />
 						</style_tags>
 					</hair_mesh>
-					<hair_mesh
-						name="hair_male_g_n"
-						cover_type4="hair_male_g_n">
+					<hair_mesh>
 						<style_tags>
 							<style_tag
 								name="SlickedShort" />
 						</style_tags>
 					</hair_mesh>
-					<hair_mesh
-						name="hair_male_g_o"
-						cover_type4="hair_male_g_o">
+					<hair_mesh>
 						<style_tags>
 							<style_tag
 								name="ShortWavy" />
 						</style_tags>
 					</hair_mesh>
-					<hair_mesh
-						name="hair_male_g_p"
-						cover_type1="hair_male_g_p_type1"
-						cover_type2="hair_male_g_p_type2"
-						cover_type3="hair_male_g_p_type2"
-						cover_type4="hair_male_g_p_type4">
+					<hair_mesh>
 						<style_tags>
 							<style_tag
 								name="Native Braids" />
 						</style_tags>
 					</hair_mesh>
-					<hair_mesh
-						name="hair_male_g_r"
-						cover_type1="hair_male_g_r"
-						cover_type2="hair_male_g_r"
-						cover_type3="hair_male_g_r"
-						cover_type4="hair_male_g_r_type4">
+					<hair_mesh>
 						<style_tags>
 							<style_tag
 								name="Mongol Hair" />
 						</style_tags>
 					</hair_mesh>
-					<hair_mesh
-						name="hair_male_g_v"
-						cover_type1="hair_male_g_v_a"
-						cover_type4="hair_male_g_v">
+					<hair_mesh>
 						<style_tags>
 							<style_tag
 								name="Bandit Hair 1" />
 						</style_tags>
 					</hair_mesh>
-					<hair_mesh
-						name="hair_male_g_u"
-						cover_type1="hair_male_g_u_a"
-						cover_type4="hair_male_g_u">
+					<hair_mesh>
 						<style_tags>
 							<style_tag
 								name="Bandit Hair 2" />
 						</style_tags>
 					</hair_mesh>
-					<hair_mesh
-						name="hair_male_g_s"
-						cover_type1="hair_male_g_s_a"
-						cover_type2="hair_male_g_s_b"
-						cover_type4="hair_male_g_s">
+					<hair_mesh>
 						<style_tags>
 							<style_tag
 								name="Bandit Hair 3" />
 						</style_tags>
 					</hair_mesh>
-					<hair_mesh
-						name="hair_male_g_y"
-						cover_type1="hair_male_g_y_a"
-						cover_type2="hair_male_g_y_b"
-						cover_type4="hair_male_g_y">
+					<hair_mesh>
 						<style_tags>
 							<style_tag
 								name="Afro Hair" />
 						</style_tags>
 					</hair_mesh>
-					<hair_mesh
-						name="hair_male_g_z"
-						cover_type1="hair_male_g_z_a"
-						cover_type2="hair_male_g_z_b"
-						cover_type4="hair_male_g_z">
+					<hair_mesh>
 						<style_tags>
 							<style_tag
 								name="Afro Hair 1" />
 						</style_tags>
 					</hair_mesh>
-					<hair_mesh
-						name="hair_male_h_a"
-						cover_type1="hair_male_h_a_a"
-						cover_type2="hair_male_h_a_b"
-						cover_type4="hair_male_h_a">
+					<hair_mesh>
 						<style_tags>
 							<style_tag
 								name="Afro Hair 2" />
 						</style_tags>
 					</hair_mesh>
-					<hair_mesh
-						name="hair_male_h_b"
-						cover_type1="hair_male_h_b_a"
-						cover_type4="hair_male_h_b">
+					<hair_mesh>
 						<style_tags>
 							<style_tag
 								name="Afro Hair 3" />
 						</style_tags>
 					</hair_mesh>
-					<hair_mesh
-						name="hair_male_h_c"
-						cover_type1="hair_male_h_c_a"
-						cover_type2="hair_male_h_c_b"
-						cover_type4="hair_male_h_c">
+					<hair_mesh>
 						<style_tags>
 							<style_tag
 								name="Afro Hair 4" />
 						</style_tags>
 					</hair_mesh>
-					<hair_mesh
-						name="hair_male_h_d"
-						cover_type1="hair_male_h_d_a"
-						cover_type2="hair_male_h_d_b"
-						cover_type4="hair_male_h_d">
+					<hair_mesh>
 						<style_tags>
 							<style_tag
 								name="Afro Hair 5" />
 						</style_tags>
 					</hair_mesh>
-					<hair_mesh
-						name="hair_male_h_e"
-						cover_type1="hair_male_h_e_a"
-						cover_type4="hair_male_h_e">
+					<hair_mesh>
 						<style_tags>
 							<style_tag
 								name="Viking Hair" />
 						</style_tags>
 					</hair_mesh>
-					<hair_mesh
-						name="hair_male_h_f"
-						cover_type4="hair_male_h_f">
+					<hair_mesh>
 						<style_tags>
 							<style_tag
 								name="Monk Hair" />
@@ -2236,22 +2136,22 @@
 					group_id="1">
 					<face_texture
 						name="head_nobunaga_a"
-						lod_material="head_male_a.lod"
+						lod_material="head_nobunaga_a"
 						color="0xFFFFFFFF"
 						tags="face_texture1,face_texture2"></face_texture>
 					<face_texture
 						name="head_nobunaga_a"
-						lod_material="head_male_a.lod"
+						lod_material="head_nobunaga_a"
 						color="0xFFFFFFFF"
 						tags="face_texture3,face_texture4"></face_texture>
 					<face_texture
 						name="head_nobunaga_a"
-						lod_material="head_male_a.lod"
+						lod_material="head_nobunaga_a"
 						color="0xFFFFFFFF"
 						tags="face_texture5,face_texture6,face_texture7"></face_texture>
 					<face_texture
 						name="head_nobunaga_a"
-						lod_material="head_male_a.lod"
+						lod_material="head_nobunaga_a"
 						color="0xFFFFFFFF"
 						tags="face_texture8,face_texture9,face_texture10"></face_texture>
 					<!-- <face_texture name="head_male_e" lod_material="head_male_e" color="0xFFFFFFFF" tags="face_texture1,face_texture2,face_texture3">
