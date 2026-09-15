@@ -287,6 +287,166 @@
 			</EquipmentRoster>
 		</Equipments>
 	</NPCCharacter>
+	<NPCCharacter id="lord_tk5_1162" default_group="Infantry" age="25" voice="curt" is_hero="true" is_female="false" culture="Culture.ronin" name="{=TAIKOU_hero_1162_1560}长谷川宗仁" occupation="Lord" banner_symbol_mesh_name="test_symbol_a" banner_symbol_color="FF000000">
+		<face>
+			<face_key_template value="BodyProperty.fighter_empire"/>
+		</face>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.battania_mace_1_t2" />
+				<equipment slot="Body" id="Item.battania_civil_b" />
+				<equipment slot="Leg" id="Item.leather_shoes" />
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Body" id="Item.short_padded_robe" />
+				<equipment slot="Leg" id="Item.leather_shoes" />
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_tk5_1163" default_group="Infantry" age="25" voice="curt" is_hero="true" is_female="false" culture="Culture.ronin" name="{=TAIKOU_hero_1163_1560}Hasegawa Tohaku" occupation="Lord" banner_symbol_mesh_name="test_symbol_a" banner_symbol_color="FF000000">
+		<face>
+			<face_key_template value="BodyProperty.fighter_empire"/>
+		</face>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.battania_mace_1_t2" />
+				<equipment slot="Body" id="Item.battania_civil_b" />
+				<equipment slot="Leg" id="Item.leather_shoes" />
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Body" id="Item.short_padded_robe" />
+				<equipment slot="Leg" id="Item.leather_shoes" />
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_tk5_1164" default_group="Infantry" age="25" voice="curt" is_hero="true" is_female="false" culture="Culture.ronin" name="{=TAIKOU_hero_1164_1560}Kano Eitoku" occupation="Lord" banner_symbol_mesh_name="test_symbol_a" banner_symbol_color="FF000000">
+		<face>
+			<face_key_template value="BodyProperty.fighter_empire"/>
+		</face>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.battania_mace_1_t2" />
+				<equipment slot="Body" id="Item.battania_civil_b" />
+				<equipment slot="Leg" id="Item.leather_shoes" />
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Body" id="Item.short_padded_robe" />
+				<equipment slot="Leg" id="Item.leather_shoes" />
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_tk5_1165" default_group="Infantry" age="25" voice="curt" is_hero="true" is_female="false" culture="Culture.ronin" name="{=TAIKOU_hero_1165_1560}Honami Kouetsu" occupation="Lord" banner_symbol_mesh_name="test_symbol_a" banner_symbol_color="FF000000">
+		<face>
+			<face_key_template value="BodyProperty.fighter_empire"/>
+		</face>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.battania_mace_1_t2" />
+				<equipment slot="Body" id="Item.battania_civil_b" />
+				<equipment slot="Leg" id="Item.leather_shoes" />
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Body" id="Item.short_padded_robe" />
+				<equipment slot="Leg" id="Item.leather_shoes" />
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_tk5_1166" default_group="Infantry" age="25" voice="curt" is_hero="true" is_female="false" culture="Culture.ronin" name="{=TAIKOU_hero_1166_1560}朝山日乘" occupation="Lord" banner_symbol_mesh_name="test_symbol_a" banner_symbol_color="FF000000">
+		<face>
+			<face_key_template value="BodyProperty.fighter_empire"/>
+		</face>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.battania_mace_1_t2" />
+				<equipment slot="Body" id="Item.battania_civil_b" />
+				<equipment slot="Leg" id="Item.leather_shoes" />
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Body" id="Item.short_padded_robe" />
+				<equipment slot="Leg" id="Item.leather_shoes" />
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_tk5_1167" default_group="Infantry" age="25" voice="curt" is_hero="true" is_female="false" culture="Culture.ronin" name="{=TAIKOU_hero_1167_1560}快川绍喜" occupation="Lord" banner_symbol_mesh_name="test_symbol_a" banner_symbol_color="FF000000">
+		<face>
+			<face_key_template value="BodyProperty.fighter_empire"/>
+		</face>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.battania_mace_1_t2" />
+				<equipment slot="Body" id="Item.battania_civil_b" />
+				<equipment slot="Leg" id="Item.leather_shoes" />
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Body" id="Item.short_padded_robe" />
+				<equipment slot="Leg" id="Item.leather_shoes" />
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_tk5_1168" default_group="Infantry" age="25" voice="curt" is_hero="true" is_female="false" culture="Culture.ronin" name="{=TAIKOU_hero_1168_1560}多闻院英俊" occupation="Lord" banner_symbol_mesh_name="test_symbol_a" banner_symbol_color="FF000000">
+		<face>
+			<face_key_template value="BodyProperty.fighter_empire"/>
+		</face>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.battania_mace_1_t2" />
+				<equipment slot="Body" id="Item.battania_civil_b" />
+				<equipment slot="Leg" id="Item.leather_shoes" />
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Body" id="Item.short_padded_robe" />
+				<equipment slot="Leg" id="Item.leather_shoes" />
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_tk5_1169" default_group="Infantry" age="25" voice="curt" is_hero="true" is_female="false" culture="Culture.ronin" name="{=TAIKOU_hero_1169_1560}Takuan Souhou" occupation="Lord" banner_symbol_mesh_name="test_symbol_a" banner_symbol_color="FF000000">
+		<face>
+			<face_key_template value="BodyProperty.fighter_empire"/>
+		</face>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.battania_mace_1_t2" />
+				<equipment slot="Body" id="Item.battania_civil_b" />
+				<equipment slot="Leg" id="Item.leather_shoes" />
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Body" id="Item.short_padded_robe" />
+				<equipment slot="Leg" id="Item.leather_shoes" />
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_tk5_1170" default_group="Infantry" age="25" voice="curt" is_hero="true" is_female="false" culture="Culture.namban" name="{=TAIKOU_hero_1170_1560}Furoois" occupation="Lord" banner_symbol_mesh_name="test_symbol_a" banner_symbol_color="FF000000">
+		<face>
+			<face_key_template value="BodyProperty.fighter_empire"/>
+		</face>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.battania_mace_1_t2" />
+				<equipment slot="Body" id="Item.battania_civil_b" />
+				<equipment slot="Leg" id="Item.leather_shoes" />
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Body" id="Item.short_padded_robe" />
+				<equipment slot="Leg" id="Item.leather_shoes" />
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_tk5_1171" default_group="Infantry" age="25" voice="curt" is_hero="true" is_female="false" culture="Culture.namban" name="{=TAIKOU_hero_1171_1560}Arumeda" occupation="Lord" banner_symbol_mesh_name="test_symbol_a" banner_symbol_color="FF000000">
+		<face>
+			<face_key_template value="BodyProperty.fighter_empire"/>
+		</face>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.battania_mace_1_t2" />
+				<equipment slot="Body" id="Item.battania_civil_b" />
+				<equipment slot="Leg" id="Item.leather_shoes" />
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Body" id="Item.short_padded_robe" />
+				<equipment slot="Leg" id="Item.leather_shoes" />
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
 	<NPCCharacter id="lord_tk5_1172" default_group="Infantry" age="40" voice="calm" is_hero="true" is_female="true" culture="Culture.pirate" name="{=TAIKOU_hero_1172_1560}Sato" occupation="Lord" banner_symbol_mesh_name="test_symbol_a" banner_symbol_color="FF000000">
 		<face>
 			<face_key_template value="BodyProperty.fighter_empire"/>
@@ -319,13 +479,29 @@
 			</EquipmentRoster>
 		</Equipments>
 	</NPCCharacter>
+	<NPCCharacter id="lord_tk5_1174" default_group="Infantry" age="25" voice="curt" is_hero="true" is_female="false" culture="Culture.ronin" name="{=TAIKOU_hero_1174_1560}Kikutei Harusue" occupation="Lord" banner_symbol_mesh_name="test_symbol_a" banner_symbol_color="FF000000">
+		<face>
+			<face_key_template value="BodyProperty.fighter_empire"/>
+		</face>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.battania_mace_1_t2" />
+				<equipment slot="Body" id="Item.battania_civil_b" />
+				<equipment slot="Leg" id="Item.leather_shoes" />
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Body" id="Item.short_padded_robe" />
+				<equipment slot="Leg" id="Item.leather_shoes" />
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
 	<NPCCharacter id="lord_tk5_1178" default_group="Infantry" age="25" voice="calm" is_hero="true" is_female="true" culture="Culture.neutral_culture" name="{=TAIKOU_hero_1178_1560}Yodogimi" occupation="Lord" banner_symbol_mesh_name="test_symbol_a" banner_symbol_color="FF000000">
 		<face>
 			<face_key_template value="BodyProperty.fighter_empire"/>
 		</face>
 		<Equipments>
 			<EquipmentRoster>
-				<equipment slot="Item0" id="Item.short_sword_t3" />
+				<equipment slot="Item0" id="Item.battania_mace_1_t2" />
 				<equipment slot="Body" id="Item.battania_civil_b" />
 				<equipment slot="Leg" id="Item.leather_shoes" />
 			</EquipmentRoster>
@@ -346,7 +522,8 @@
 				<equipment slot="Leg" id="Item.leather_shoes" />
 			</EquipmentRoster>
 			<EquipmentRoster civilian="true">
-				<equipment slot="Body" id="Item.short_padded_robe" />
+				<equipment slot="Item0" id="Item.taikou_nene_weapon_a" />
+				<equipment slot="Body" id="Item.taikou_nene_do_a" />
 				<equipment slot="Leg" id="Item.leather_shoes" />
 			</EquipmentRoster>
 		</Equipments>
@@ -376,7 +553,7 @@
 		</face>
 		<Equipments>
 			<EquipmentRoster>
-				<equipment slot="Item0" id="Item.short_sword_t3" />
+				<equipment slot="Item0" id="Item.battania_mace_1_t2" />
 				<equipment slot="Body" id="Item.battania_civil_b" />
 				<equipment slot="Leg" id="Item.leather_shoes" />
 			</EquipmentRoster>
@@ -397,7 +574,8 @@
 				<equipment slot="Leg" id="Item.leather_shoes" />
 			</EquipmentRoster>
 			<EquipmentRoster civilian="true">
-				<equipment slot="Body" id="Item.short_padded_robe" />
+				<equipment slot="Item0" id="Item.taikou_oichi_weapon_a" />
+				<equipment slot="Body" id="Item.taikou_oichi_do_a" />
 				<equipment slot="Leg" id="Item.leather_shoes" />
 			</EquipmentRoster>
 		</Equipments>
@@ -466,6 +644,38 @@
 			</EquipmentRoster>
 		</Equipments>
 	</NPCCharacter>
+	<NPCCharacter id="lord_tk5_1186" default_group="Infantry" age="25" voice="curt" is_hero="true" is_female="false" culture="Culture.ronin" name="{=TAIKOU_hero_1186_1560}阿福" occupation="Lord" banner_symbol_mesh_name="test_symbol_a" banner_symbol_color="FF000000">
+		<face>
+			<face_key_template value="BodyProperty.fighter_empire"/>
+		</face>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.short_sword_t3" />
+				<equipment slot="Body" id="Item.battania_civil_b" />
+				<equipment slot="Leg" id="Item.leather_shoes" />
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Body" id="Item.short_padded_robe" />
+				<equipment slot="Leg" id="Item.leather_shoes" />
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_tk5_1187" default_group="Infantry" age="25" voice="calm" is_hero="true" is_female="true" culture="Culture.ronin" name="{=TAIKOU_hero_1187_1560}冬姬" occupation="Lord" banner_symbol_mesh_name="test_symbol_a" banner_symbol_color="FF000000">
+		<face>
+			<face_key_template value="BodyProperty.fighter_empire"/>
+		</face>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.short_sword_t3" />
+				<equipment slot="Body" id="Item.battania_civil_b" />
+				<equipment slot="Leg" id="Item.leather_shoes" />
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Body" id="Item.short_padded_robe" />
+				<equipment slot="Leg" id="Item.leather_shoes" />
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
 	<NPCCharacter id="lord_tk5_1188" default_group="Infantry" age="25" voice="calm" is_hero="true" is_female="true" culture="Culture.kanto" name="{=TAIKOU_hero_1188_1560}Hojo Ume" occupation="Lord" banner_symbol_mesh_name="test_symbol_a" banner_symbol_color="FF000000">
 		<face>
 			<face_key_template value="BodyProperty.fighter_empire"/>
@@ -493,7 +703,8 @@
 				<equipment slot="Leg" id="Item.leather_shoes" />
 			</EquipmentRoster>
 			<EquipmentRoster civilian="true">
-				<equipment slot="Body" id="Item.short_padded_robe" />
+				<equipment slot="Item0" id="Item.taikou_ginchiyo_weapon_a" />
+				<equipment slot="Body" id="Item.taikou_ginchiyo_do_a" />
 				<equipment slot="Leg" id="Item.leather_shoes" />
 			</EquipmentRoster>
 		</Equipments>
@@ -508,11 +719,13 @@
 				<equipment slot="Item1" id="Item.leather_round_shield" />
 				<equipment slot="Body" id="Item.taikou_kenshin_do_a" />
 				<equipment slot="Gloves" id="Item.reinforced_mail_mitten" />
-				<equipment slot="Head" id="Item.nasal_helmet_with_mail" />
+				<equipment slot="Head" id="Item.taikou_kenshin_helmet_a" />
 				<equipment slot="Leg" id="Item.leather_cavalier_boots" />
 			</EquipmentRoster>
 			<EquipmentRoster civilian="true">
-				<equipment slot="Body" id="Item.battania_civil_b" />
+				<equipment slot="Item0" id="Item.taikou_kenshin_weapon_a" />
+				<equipment slot="Body" id="Item.taikou_kenshin_do_a" />
+				<equipment slot="Head" id="Item.taikou_kenshin_helmet_a" />
 				<equipment slot="Leg" id="Item.leather_shoes" />
 			</EquipmentRoster>
 		</Equipments>
@@ -592,7 +805,8 @@
 				<equipment slot="Leg" id="Item.leather_shoes" />
 			</EquipmentRoster>
 			<EquipmentRoster civilian="true">
-				<equipment slot="Body" id="Item.short_padded_robe" />
+				<equipment slot="Item0" id="Item.taikou_nouhime_weapon_a" />
+				<equipment slot="Body" id="Item.taikou_nouhime_do_a" />
 				<equipment slot="Leg" id="Item.leather_shoes" />
 			</EquipmentRoster>
 		</Equipments>
@@ -655,6 +869,25 @@
 				<equipment slot="Item1" id="Item.piercing_arrows" />
 				<equipment slot="Item2" id="Item.piercing_arrows" />
 				<equipment slot="Body" id="Item.taikou_inahime_do_a" />
+				<equipment slot="Leg" id="Item.leather_shoes" />
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item0" id="Item.taikou_inahime_weapon_a" />
+				<equipment slot="Item1" id="Item.piercing_arrows" />
+				<equipment slot="Item2" id="Item.piercing_arrows" />
+				<equipment slot="Body" id="Item.taikou_inahime_do_a" />
+				<equipment slot="Leg" id="Item.leather_shoes" />
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_tk5_1199" default_group="Infantry" age="25" voice="curt" is_hero="true" is_female="false" culture="Culture.ronin" name="{=TAIKOU_hero_1199_1560}安岐" occupation="Lord" banner_symbol_mesh_name="test_symbol_a" banner_symbol_color="FF000000">
+		<face>
+			<face_key_template value="BodyProperty.fighter_empire"/>
+		</face>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.short_sword_t3" />
+				<equipment slot="Body" id="Item.battania_civil_b" />
 				<equipment slot="Leg" id="Item.leather_shoes" />
 			</EquipmentRoster>
 			<EquipmentRoster civilian="true">
@@ -745,6 +978,103 @@
 			</EquipmentRoster>
 		</Equipments>
 	</NPCCharacter>
+	<NPCCharacter id="lord_tk5_1204" default_group="Infantry" age="25" voice="calm" is_hero="true" is_female="true" culture="Culture.ronin" name="{=TAIKOU_hero_1204_1560}永姬" occupation="Lord" banner_symbol_mesh_name="test_symbol_a" banner_symbol_color="FF000000">
+		<face>
+			<face_key_template value="BodyProperty.fighter_empire"/>
+		</face>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.short_sword_t3" />
+				<equipment slot="Body" id="Item.battania_civil_b" />
+				<equipment slot="Leg" id="Item.leather_shoes" />
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Body" id="Item.short_padded_robe" />
+				<equipment slot="Leg" id="Item.leather_shoes" />
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_tk5_1205" default_group="Infantry" age="25" voice="curt" is_hero="true" is_female="false" culture="Culture.ronin" name="{=TAIKOU_hero_1205_1560}熙子" occupation="Lord" banner_symbol_mesh_name="test_symbol_a" banner_symbol_color="FF000000">
+		<face>
+			<face_key_template value="BodyProperty.fighter_empire"/>
+		</face>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.short_sword_t3" />
+				<equipment slot="Body" id="Item.battania_civil_b" />
+				<equipment slot="Leg" id="Item.leather_shoes" />
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Body" id="Item.short_padded_robe" />
+				<equipment slot="Leg" id="Item.leather_shoes" />
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_tk5_1206" default_group="Infantry" age="25" voice="curt" is_hero="true" is_female="false" culture="Culture.ronin" name="{=TAIKOU_hero_1206_1560}幸圆" occupation="Lord" banner_symbol_mesh_name="test_symbol_a" banner_symbol_color="FF000000">
+		<face>
+			<face_key_template value="BodyProperty.fighter_empire"/>
+		</face>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.short_sword_t3" />
+				<equipment slot="Body" id="Item.battania_civil_b" />
+				<equipment slot="Leg" id="Item.leather_shoes" />
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Body" id="Item.short_padded_robe" />
+				<equipment slot="Leg" id="Item.leather_shoes" />
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_tk5_1207" default_group="Infantry" age="25" voice="calm" is_hero="true" is_female="true" culture="Culture.ronin" name="{=TAIKOU_hero_1207_1560}Chun Tou" occupation="Lord" banner_symbol_mesh_name="test_symbol_a" banner_symbol_color="FF000000">
+		<face>
+			<face_key_template value="BodyProperty.fighter_empire"/>
+		</face>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.battania_mace_1_t2" />
+				<equipment slot="Body" id="Item.battania_civil_b" />
+				<equipment slot="Leg" id="Item.leather_shoes" />
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Body" id="Item.short_padded_robe" />
+				<equipment slot="Leg" id="Item.leather_shoes" />
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_tk5_1208" default_group="Infantry" age="25" voice="calm" is_hero="true" is_female="true" culture="Culture.ronin" race="lwn_okuni" name="{=TAIKOU_hero_1208_1560}Izumo no Okuni" occupation="Lord" banner_symbol_mesh_name="test_symbol_a" banner_symbol_color="FF000000">
+		<face>
+			<face_key_template value="BodyProperty.fighter_empire"/>
+		</face>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.taikou_okuni_weapon_a" />
+				<equipment slot="Body" id="Item.taikou_okuni_do_a" />
+				<equipment slot="Leg" id="Item.leather_shoes" />
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item0" id="Item.taikou_okuni_weapon_a" />
+				<equipment slot="Body" id="Item.taikou_okuni_do_a" />
+				<equipment slot="Leg" id="Item.leather_shoes" />
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_tk5_1209" default_group="Infantry" age="25" voice="calm" is_hero="true" is_female="true" culture="Culture.ronin" name="{=TAIKOU_hero_1209_1560}Shizu" occupation="Lord" banner_symbol_mesh_name="test_symbol_a" banner_symbol_color="FF000000">
+		<face>
+			<face_key_template value="BodyProperty.fighter_empire"/>
+		</face>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.battania_mace_1_t2" />
+				<equipment slot="Body" id="Item.battania_civil_b" />
+				<equipment slot="Leg" id="Item.leather_shoes" />
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Body" id="Item.short_padded_robe" />
+				<equipment slot="Leg" id="Item.leather_shoes" />
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
 	<NPCCharacter id="lord_tk5_121" default_group="Infantry" age="49" voice="curt" is_hero="true" is_female="false" culture="Culture.tosan" name="{=TAIKOU_hero_121_1560}Sakata Genemon" occupation="Lord" banner_symbol_mesh_name="test_symbol_a" banner_symbol_color="FF000000">
 		<face>
 			<face_key_template value="BodyProperty.fighter_empire"/>
@@ -752,6 +1082,166 @@
 		<Equipments>
 			<EquipmentRoster>
 				<equipment slot="Item0" id="Item.ridged_sabre_sword_t4" />
+				<equipment slot="Body" id="Item.battania_civil_b" />
+				<equipment slot="Leg" id="Item.leather_shoes" />
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Body" id="Item.short_padded_robe" />
+				<equipment slot="Leg" id="Item.leather_shoes" />
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_tk5_1210" default_group="Infantry" age="25" voice="calm" is_hero="true" is_female="true" culture="Culture.ronin" name="{=TAIKOU_hero_1210_1560}Kinoshita Tae" occupation="Lord" banner_symbol_mesh_name="test_symbol_a" banner_symbol_color="FF000000">
+		<face>
+			<face_key_template value="BodyProperty.fighter_empire"/>
+		</face>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.battania_mace_1_t2" />
+				<equipment slot="Body" id="Item.battania_civil_b" />
+				<equipment slot="Leg" id="Item.leather_shoes" />
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Body" id="Item.short_padded_robe" />
+				<equipment slot="Leg" id="Item.leather_shoes" />
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_tk5_1211" default_group="Infantry" age="25" voice="calm" is_hero="true" is_female="true" culture="Culture.ronin" name="{=TAIKOU_hero_1211_1560}Chosokabe Suzu" occupation="Lord" banner_symbol_mesh_name="test_symbol_a" banner_symbol_color="FF000000">
+		<face>
+			<face_key_template value="BodyProperty.fighter_empire"/>
+		</face>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.battania_mace_1_t2" />
+				<equipment slot="Body" id="Item.battania_civil_b" />
+				<equipment slot="Leg" id="Item.leather_shoes" />
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Body" id="Item.short_padded_robe" />
+				<equipment slot="Leg" id="Item.leather_shoes" />
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_tk5_1212" default_group="Infantry" age="25" voice="calm" is_hero="true" is_female="true" culture="Culture.ronin" name="{=TAIKOU_hero_1212_1560}Atsu" occupation="Lord" banner_symbol_mesh_name="test_symbol_a" banner_symbol_color="FF000000">
+		<face>
+			<face_key_template value="BodyProperty.fighter_empire"/>
+		</face>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.battania_mace_1_t2" />
+				<equipment slot="Body" id="Item.battania_civil_b" />
+				<equipment slot="Leg" id="Item.leather_shoes" />
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Body" id="Item.short_padded_robe" />
+				<equipment slot="Leg" id="Item.leather_shoes" />
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_tk5_1213" default_group="Infantry" age="25" voice="calm" is_hero="true" is_female="true" culture="Culture.ronin" name="{=TAIKOU_hero_1213_1560}Nikaho Haru" occupation="Lord" banner_symbol_mesh_name="test_symbol_a" banner_symbol_color="FF000000">
+		<face>
+			<face_key_template value="BodyProperty.fighter_empire"/>
+		</face>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.battania_mace_1_t2" />
+				<equipment slot="Body" id="Item.battania_civil_b" />
+				<equipment slot="Leg" id="Item.leather_shoes" />
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Body" id="Item.short_padded_robe" />
+				<equipment slot="Leg" id="Item.leather_shoes" />
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_tk5_1214" default_group="Infantry" age="25" voice="calm" is_hero="true" is_female="true" culture="Culture.ronin" name="{=TAIKOU_hero_1214_1560}Jinbo Sayo" occupation="Lord" banner_symbol_mesh_name="test_symbol_a" banner_symbol_color="FF000000">
+		<face>
+			<face_key_template value="BodyProperty.fighter_empire"/>
+		</face>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.battania_mace_1_t2" />
+				<equipment slot="Body" id="Item.battania_civil_b" />
+				<equipment slot="Leg" id="Item.leather_shoes" />
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Body" id="Item.short_padded_robe" />
+				<equipment slot="Leg" id="Item.leather_shoes" />
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_tk5_1215" default_group="Infantry" age="25" voice="calm" is_hero="true" is_female="true" culture="Culture.ronin" name="{=TAIKOU_hero_1215_1560}Aya" occupation="Lord" banner_symbol_mesh_name="test_symbol_a" banner_symbol_color="FF000000">
+		<face>
+			<face_key_template value="BodyProperty.fighter_empire"/>
+		</face>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.battania_mace_1_t2" />
+				<equipment slot="Body" id="Item.battania_civil_b" />
+				<equipment slot="Leg" id="Item.leather_shoes" />
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Body" id="Item.short_padded_robe" />
+				<equipment slot="Leg" id="Item.leather_shoes" />
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_tk5_1216" default_group="Infantry" age="25" voice="calm" is_hero="true" is_female="true" culture="Culture.ronin" name="{=TAIKOU_hero_1216_1560}Anatsu" occupation="Lord" banner_symbol_mesh_name="test_symbol_a" banner_symbol_color="FF000000">
+		<face>
+			<face_key_template value="BodyProperty.fighter_empire"/>
+		</face>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.battania_mace_1_t2" />
+				<equipment slot="Body" id="Item.battania_civil_b" />
+				<equipment slot="Leg" id="Item.leather_shoes" />
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Body" id="Item.short_padded_robe" />
+				<equipment slot="Leg" id="Item.leather_shoes" />
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_tk5_1217" default_group="Infantry" age="25" voice="calm" is_hero="true" is_female="true" culture="Culture.ronin" name="{=TAIKOU_hero_1217_1560}Ashi" occupation="Lord" banner_symbol_mesh_name="test_symbol_a" banner_symbol_color="FF000000">
+		<face>
+			<face_key_template value="BodyProperty.fighter_empire"/>
+		</face>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.battania_mace_1_t2" />
+				<equipment slot="Body" id="Item.battania_civil_b" />
+				<equipment slot="Leg" id="Item.leather_shoes" />
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Body" id="Item.short_padded_robe" />
+				<equipment slot="Leg" id="Item.leather_shoes" />
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_tk5_1218" default_group="Infantry" age="25" voice="curt" is_hero="true" is_female="false" culture="Culture.ronin" name="{=TAIKOU_hero_1218_1560}由纪" occupation="Lord" banner_symbol_mesh_name="test_symbol_a" banner_symbol_color="FF000000">
+		<face>
+			<face_key_template value="BodyProperty.fighter_empire"/>
+		</face>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.battania_mace_1_t2" />
+				<equipment slot="Body" id="Item.battania_civil_b" />
+				<equipment slot="Leg" id="Item.leather_shoes" />
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Body" id="Item.short_padded_robe" />
+				<equipment slot="Leg" id="Item.leather_shoes" />
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_tk5_1219" default_group="Infantry" age="25" voice="curt" is_hero="true" is_female="false" culture="Culture.ronin" name="{=TAIKOU_hero_1219_1560}小琴" occupation="Lord" banner_symbol_mesh_name="test_symbol_a" banner_symbol_color="FF000000">
+		<face>
+			<face_key_template value="BodyProperty.fighter_empire"/>
+		</face>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.battania_mace_1_t2" />
 				<equipment slot="Body" id="Item.battania_civil_b" />
 				<equipment slot="Leg" id="Item.leather_shoes" />
 			</EquipmentRoster>
@@ -769,6 +1259,118 @@
 			<EquipmentRoster>
 				<equipment slot="Item0" id="Item.pugio" />
 				<equipment slot="Body" id="Item.short_padded_robe" />
+				<equipment slot="Leg" id="Item.leather_shoes" />
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Body" id="Item.short_padded_robe" />
+				<equipment slot="Leg" id="Item.leather_shoes" />
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_tk5_1220" default_group="Infantry" age="25" voice="calm" is_hero="true" is_female="true" culture="Culture.ronin" name="{=TAIKOU_hero_1220_1560}Miyo" occupation="Lord" banner_symbol_mesh_name="test_symbol_a" banner_symbol_color="FF000000">
+		<face>
+			<face_key_template value="BodyProperty.fighter_empire"/>
+		</face>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.battania_mace_1_t2" />
+				<equipment slot="Body" id="Item.battania_civil_b" />
+				<equipment slot="Leg" id="Item.leather_shoes" />
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Body" id="Item.short_padded_robe" />
+				<equipment slot="Leg" id="Item.leather_shoes" />
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_tk5_1221" default_group="Infantry" age="25" voice="curt" is_hero="true" is_female="false" culture="Culture.ronin" name="{=TAIKOU_hero_1221_1560}阿仲" occupation="Lord" banner_symbol_mesh_name="test_symbol_a" banner_symbol_color="FF000000">
+		<face>
+			<face_key_template value="BodyProperty.fighter_empire"/>
+		</face>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.battania_mace_1_t2" />
+				<equipment slot="Body" id="Item.battania_civil_b" />
+				<equipment slot="Leg" id="Item.leather_shoes" />
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Body" id="Item.short_padded_robe" />
+				<equipment slot="Leg" id="Item.leather_shoes" />
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_tk5_1225" default_group="Infantry" age="25" voice="curt" is_hero="true" is_female="false" culture="Culture.ronin" name="{=TAIKOU_hero_1225_1560}南光坊天海" occupation="Lord" banner_symbol_mesh_name="test_symbol_a" banner_symbol_color="FF000000">
+		<face>
+			<face_key_template value="BodyProperty.fighter_empire"/>
+		</face>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.battania_mace_1_t2" />
+				<equipment slot="Body" id="Item.battania_civil_b" />
+				<equipment slot="Leg" id="Item.leather_shoes" />
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Body" id="Item.short_padded_robe" />
+				<equipment slot="Leg" id="Item.leather_shoes" />
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_tk5_1226" default_group="Infantry" age="25" voice="curt" is_hero="true" is_female="false" culture="Culture.ronin" name="{=TAIKOU_hero_1226_1560}Tenshitsu Kouiku" occupation="Lord" banner_symbol_mesh_name="test_symbol_a" banner_symbol_color="FF000000">
+		<face>
+			<face_key_template value="BodyProperty.fighter_empire"/>
+		</face>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.battania_mace_1_t2" />
+				<equipment slot="Body" id="Item.battania_civil_b" />
+				<equipment slot="Leg" id="Item.leather_shoes" />
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Body" id="Item.short_padded_robe" />
+				<equipment slot="Leg" id="Item.leather_shoes" />
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_tk5_1227" default_group="Infantry" age="25" voice="curt" is_hero="true" is_female="false" culture="Culture.ronin" name="{=TAIKOU_hero_1227_1560}Kozai Souotsu" occupation="Lord" banner_symbol_mesh_name="test_symbol_a" banner_symbol_color="FF000000">
+		<face>
+			<face_key_template value="BodyProperty.fighter_empire"/>
+		</face>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.battania_mace_1_t2" />
+				<equipment slot="Body" id="Item.battania_civil_b" />
+				<equipment slot="Leg" id="Item.leather_shoes" />
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Body" id="Item.short_padded_robe" />
+				<equipment slot="Leg" id="Item.leather_shoes" />
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_tk5_1228" default_group="Infantry" age="25" voice="curt" is_hero="true" is_female="false" culture="Culture.ronin" name="{=TAIKOU_hero_1228_1560}海北友松" occupation="Lord" banner_symbol_mesh_name="test_symbol_a" banner_symbol_color="FF000000">
+		<face>
+			<face_key_template value="BodyProperty.fighter_empire"/>
+		</face>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.battania_mace_1_t2" />
+				<equipment slot="Body" id="Item.battania_civil_b" />
+				<equipment slot="Leg" id="Item.leather_shoes" />
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Body" id="Item.short_padded_robe" />
+				<equipment slot="Leg" id="Item.leather_shoes" />
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_tk5_1229" default_group="Infantry" age="25" voice="calm" is_hero="true" is_female="true" culture="Culture.ronin" name="{=TAIKOU_hero_1229_1560}Rei" occupation="Lord" banner_symbol_mesh_name="test_symbol_a" banner_symbol_color="FF000000">
+		<face>
+			<face_key_template value="BodyProperty.fighter_empire"/>
+		</face>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.short_sword_t3" />
+				<equipment slot="Body" id="Item.battania_civil_b" />
 				<equipment slot="Leg" id="Item.leather_shoes" />
 			</EquipmentRoster>
 			<EquipmentRoster civilian="true">
@@ -795,7 +1397,55 @@
 			</EquipmentRoster>
 		</Equipments>
 	</NPCCharacter>
+	<NPCCharacter id="lord_tk5_1230" default_group="Infantry" age="25" voice="curt" is_hero="true" is_female="false" culture="Culture.ronin" name="{=TAIKOU_hero_1230_1560}千岁" occupation="Lord" banner_symbol_mesh_name="test_symbol_a" banner_symbol_color="FF000000">
+		<face>
+			<face_key_template value="BodyProperty.fighter_empire"/>
+		</face>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.short_sword_t3" />
+				<equipment slot="Body" id="Item.battania_civil_b" />
+				<equipment slot="Leg" id="Item.leather_shoes" />
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Body" id="Item.short_padded_robe" />
+				<equipment slot="Leg" id="Item.leather_shoes" />
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_tk5_1231" default_group="Infantry" age="25" voice="curt" is_hero="true" is_female="false" culture="Culture.ronin" name="{=TAIKOU_hero_1231_1560}蝴蝶" occupation="Lord" banner_symbol_mesh_name="test_symbol_a" banner_symbol_color="FF000000">
+		<face>
+			<face_key_template value="BodyProperty.fighter_empire"/>
+		</face>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.short_sword_t3" />
+				<equipment slot="Body" id="Item.battania_civil_b" />
+				<equipment slot="Leg" id="Item.leather_shoes" />
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Body" id="Item.short_padded_robe" />
+				<equipment slot="Leg" id="Item.leather_shoes" />
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
 	<NPCCharacter id="lord_tk5_1232" default_group="Infantry" age="25" voice="calm" is_hero="true" is_female="true" culture="Culture.neutral_culture" name="{=TAIKOU_hero_1232_1560}Shiro" occupation="Lord" banner_symbol_mesh_name="test_symbol_a" banner_symbol_color="FF000000">
+		<face>
+			<face_key_template value="BodyProperty.fighter_empire"/>
+		</face>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.short_sword_t3" />
+				<equipment slot="Body" id="Item.battania_civil_b" />
+				<equipment slot="Leg" id="Item.leather_shoes" />
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Body" id="Item.short_padded_robe" />
+				<equipment slot="Leg" id="Item.leather_shoes" />
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_tk5_1233" default_group="Infantry" age="25" voice="curt" is_hero="true" is_female="false" culture="Culture.ronin" name="{=TAIKOU_hero_1233_1560}新庄" occupation="Lord" banner_symbol_mesh_name="test_symbol_a" banner_symbol_color="FF000000">
 		<face>
 			<face_key_template value="BodyProperty.fighter_empire"/>
 		</face>
@@ -827,6 +1477,22 @@
 			</EquipmentRoster>
 		</Equipments>
 	</NPCCharacter>
+	<NPCCharacter id="lord_tk5_1235" default_group="Infantry" age="25" voice="calm" is_hero="true" is_female="true" culture="Culture.ronin" name="{=TAIKOU_hero_1235_1560}照姬" occupation="Lord" banner_symbol_mesh_name="test_symbol_a" banner_symbol_color="FF000000">
+		<face>
+			<face_key_template value="BodyProperty.fighter_empire"/>
+		</face>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.short_sword_t3" />
+				<equipment slot="Body" id="Item.battania_civil_b" />
+				<equipment slot="Leg" id="Item.leather_shoes" />
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Body" id="Item.short_padded_robe" />
+				<equipment slot="Leg" id="Item.leather_shoes" />
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
 	<NPCCharacter id="lord_tk5_1236" default_group="Infantry" age="25" voice="calm" is_hero="true" is_female="true" culture="Culture.tosan" name="{=TAIKOU_hero_1236_1560}Imagawa Minami-hime" occupation="Lord" banner_symbol_mesh_name="test_symbol_a" banner_symbol_color="FF000000">
 		<face>
 			<face_key_template value="BodyProperty.fighter_empire"/>
@@ -834,6 +1500,38 @@
 		<Equipments>
 			<EquipmentRoster>
 				<equipment slot="Item0" id="Item.short_sword_t3" />
+				<equipment slot="Body" id="Item.battania_civil_b" />
+				<equipment slot="Leg" id="Item.leather_shoes" />
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Body" id="Item.short_padded_robe" />
+				<equipment slot="Leg" id="Item.leather_shoes" />
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_tk5_1237" default_group="Infantry" age="25" voice="curt" is_hero="true" is_female="false" culture="Culture.ronin" name="{=TAIKOU_hero_1237_1560}九郎判官义经" occupation="Lord" banner_symbol_mesh_name="test_symbol_a" banner_symbol_color="FF000000">
+		<face>
+			<face_key_template value="BodyProperty.fighter_empire"/>
+		</face>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.battania_mace_1_t2" />
+				<equipment slot="Body" id="Item.battania_civil_b" />
+				<equipment slot="Leg" id="Item.leather_shoes" />
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Body" id="Item.short_padded_robe" />
+				<equipment slot="Leg" id="Item.leather_shoes" />
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_tk5_1238" default_group="Infantry" age="25" voice="curt" is_hero="true" is_female="false" culture="Culture.ronin" name="{=TAIKOU_hero_1238_1560}相马小次郎将门" occupation="Lord" banner_symbol_mesh_name="test_symbol_a" banner_symbol_color="FF000000">
+		<face>
+			<face_key_template value="BodyProperty.fighter_empire"/>
+		</face>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.battania_mace_1_t2" />
 				<equipment slot="Body" id="Item.battania_civil_b" />
 				<equipment slot="Leg" id="Item.leather_shoes" />
 			</EquipmentRoster>
@@ -858,6 +1556,22 @@
 			</EquipmentRoster>
 			<EquipmentRoster civilian="true">
 				<equipment slot="Body" id="Item.battania_civil_b" />
+				<equipment slot="Leg" id="Item.leather_shoes" />
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_tk5_1240" default_group="Infantry" age="25" voice="curt" is_hero="true" is_female="false" culture="Culture.ronin" name="{=TAIKOU_hero_1240_1560}吾作" occupation="Lord" banner_symbol_mesh_name="test_symbol_a" banner_symbol_color="FF000000">
+		<face>
+			<face_key_template value="BodyProperty.fighter_empire"/>
+		</face>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.battania_mace_1_t2" />
+				<equipment slot="Body" id="Item.battania_civil_b" />
+				<equipment slot="Leg" id="Item.leather_shoes" />
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Body" id="Item.short_padded_robe" />
 				<equipment slot="Leg" id="Item.leather_shoes" />
 			</EquipmentRoster>
 		</Equipments>
@@ -925,6 +1639,22 @@
 			</EquipmentRoster>
 			<EquipmentRoster civilian="true">
 				<equipment slot="Body" id="Item.battania_civil_b" />
+				<equipment slot="Leg" id="Item.leather_shoes" />
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_tk5_1289" default_group="Infantry" age="25" voice="curt" is_hero="true" is_female="false" culture="Culture.ronin" name="{=TAIKOU_hero_1289_1560}老奶奶" occupation="Lord" banner_symbol_mesh_name="test_symbol_a" banner_symbol_color="FF000000">
+		<face>
+			<face_key_template value="BodyProperty.fighter_empire"/>
+		</face>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.short_sword_t3" />
+				<equipment slot="Body" id="Item.battania_civil_b" />
+				<equipment slot="Leg" id="Item.leather_shoes" />
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Body" id="Item.short_padded_robe" />
 				<equipment slot="Leg" id="Item.leather_shoes" />
 			</EquipmentRoster>
 		</Equipments>
@@ -1122,7 +1852,8 @@
 				<equipment slot="Leg" id="Item.leather_cavalier_boots" />
 			</EquipmentRoster>
 			<EquipmentRoster civilian="true">
-				<equipment slot="Body" id="Item.battania_civil_b" />
+				<equipment slot="Item0" id="Item.taikou_mitsuhide_weapon_a" />
+				<equipment slot="Body" id="Item.taikou_mitsuhide_do_a" />
 				<equipment slot="Leg" id="Item.leather_shoes" />
 			</EquipmentRoster>
 		</Equipments>
@@ -1402,7 +2133,9 @@
 				<equipment slot="Leg" id="Item.leather_cavalier_boots" />
 			</EquipmentRoster>
 			<EquipmentRoster civilian="true">
-				<equipment slot="Body" id="Item.battania_civil_b" />
+				<equipment slot="Item0" id="Item.taikou_nagamasa_weapon_a" />
+				<equipment slot="Body" id="Item.taikou_nagamasa_do_a" />
+				<equipment slot="Head" id="Item.taikou_nagamasa_helmet_a" />
 				<equipment slot="Leg" id="Item.leather_shoes" />
 			</EquipmentRoster>
 		</Equipments>
@@ -1844,7 +2577,8 @@
 				<equipment slot="Leg" id="Item.leather_cavalier_boots" />
 			</EquipmentRoster>
 			<EquipmentRoster civilian="true">
-				<equipment slot="Body" id="Item.battania_civil_b" />
+				<equipment slot="Item0" id="Item.taikou_nobunaga_weapon_a" />
+				<equipment slot="Body" id="Item.taikou_nobunaga_do_a" />
 				<equipment slot="Leg" id="Item.leather_shoes" />
 			</EquipmentRoster>
 		</Equipments>
@@ -3574,7 +4308,10 @@
 				<equipment slot="Leg" id="Item.leather_cavalier_boots" />
 			</EquipmentRoster>
 			<EquipmentRoster civilian="true">
-				<equipment slot="Body" id="Item.battania_civil_b" />
+				<equipment slot="Item0" id="Item.taikou_magoichi_weapon_a" />
+				<equipment slot="Item1" id="Item.bolt_e" />
+				<equipment slot="Item2" id="Item.bolt_e" />
+				<equipment slot="Body" id="Item.taikou_magoichi_do_a" />
 				<equipment slot="Leg" id="Item.leather_shoes" />
 			</EquipmentRoster>
 		</Equipments>
@@ -4266,7 +5003,8 @@
 				<equipment slot="Leg" id="Item.leather_cavalier_boots" />
 			</EquipmentRoster>
 			<EquipmentRoster civilian="true">
-				<equipment slot="Body" id="Item.battania_civil_b" />
+				<equipment slot="Item0" id="Item.taikou_katsuie_weapon_a" />
+				<equipment slot="Body" id="Item.taikou_katsuie_do_a" />
 				<equipment slot="Leg" id="Item.leather_shoes" />
 			</EquipmentRoster>
 		</Equipments>
@@ -4381,7 +5119,8 @@
 				<equipment slot="Leg" id="Item.leather_shoes" />
 			</EquipmentRoster>
 			<EquipmentRoster civilian="true">
-				<equipment slot="Body" id="Item.short_padded_robe" />
+				<equipment slot="Item0" id="Item.taikou_sakon_weapon_a" />
+				<equipment slot="Body" id="Item.taikou_sakon_do_a" />
 				<equipment slot="Leg" id="Item.leather_shoes" />
 			</EquipmentRoster>
 		</Equipments>
@@ -4529,7 +5268,8 @@
 				<equipment slot="Leg" id="Item.leather_cavalier_boots" />
 			</EquipmentRoster>
 			<EquipmentRoster civilian="true">
-				<equipment slot="Body" id="Item.battania_civil_b" />
+				<equipment slot="Item0" id="Item.taikou_yoshihiro_weapon_a" />
+				<equipment slot="Body" id="Item.taikou_yoshihiro_do_a" />
 				<equipment slot="Leg" id="Item.leather_shoes" />
 			</EquipmentRoster>
 		</Equipments>
@@ -5219,7 +5959,9 @@
 				<equipment slot="Leg" id="Item.leather_cavalier_boots" />
 			</EquipmentRoster>
 			<EquipmentRoster civilian="true">
-				<equipment slot="Body" id="Item.battania_civil_b" />
+				<equipment slot="Item0" id="Item.taikou_shingen_weapon_a" />
+				<equipment slot="Body" id="Item.taikou_shingen_do_a" />
+				<equipment slot="Head" id="Item.taikou_shingen_helmet_a" />
 				<equipment slot="Leg" id="Item.leather_shoes" />
 			</EquipmentRoster>
 		</Equipments>
@@ -5943,7 +6685,9 @@
 				<equipment slot="Leg" id="Item.leather_cavalier_boots" />
 			</EquipmentRoster>
 			<EquipmentRoster civilian="true">
-				<equipment slot="Body" id="Item.battania_civil_b" />
+				<equipment slot="Item0" id="Item.taikou_ieyasu_weapon_a" />
+				<equipment slot="Body" id="Item.taikou_ieyasu_do_a" />
+				<equipment slot="Head" id="Item.taikou_ieyasu_helmet_a" />
 				<equipment slot="Leg" id="Item.leather_shoes" />
 			</EquipmentRoster>
 		</Equipments>
@@ -6044,7 +6788,9 @@
 				<equipment slot="Leg" id="Item.leather_shoes" />
 			</EquipmentRoster>
 			<EquipmentRoster civilian="true">
-				<equipment slot="Body" id="Item.short_padded_robe" />
+				<equipment slot="Item0" id="Item.taikou_hideyoshi_weapon_a" />
+				<equipment slot="Body" id="Item.taikou_hideyoshi_do_a" />
+				<equipment slot="Head" id="Item.taikou_hideyoshi_helmet_a" />
 				<equipment slot="Leg" id="Item.leather_shoes" />
 			</EquipmentRoster>
 		</Equipments>
@@ -7006,7 +7752,9 @@
 				<equipment slot="Leg" id="Item.leather_shoes" />
 			</EquipmentRoster>
 			<EquipmentRoster civilian="true">
-				<equipment slot="Body" id="Item.short_padded_robe" />
+				<equipment slot="Item0" id="Item.taikou_hanzo_weapon_a" />
+				<equipment slot="Body" id="Item.taikou_hanzo_do_a" />
+				<equipment slot="Head" id="Item.taikou_hanzo_helmet_a" />
 				<equipment slot="Leg" id="Item.leather_shoes" />
 			</EquipmentRoster>
 		</Equipments>
@@ -7384,7 +8132,8 @@
 				<equipment slot="Leg" id="Item.leather_shoes" />
 			</EquipmentRoster>
 			<EquipmentRoster civilian="true">
-				<equipment slot="Body" id="Item.short_padded_robe" />
+				<equipment slot="Item0" id="Item.taikou_kotaro_weapon_a" />
+				<equipment slot="Body" id="Item.taikou_kotaro_do_a" />
 				<equipment slot="Leg" id="Item.leather_shoes" />
 			</EquipmentRoster>
 		</Equipments>
@@ -7881,7 +8630,9 @@
 				<equipment slot="Leg" id="Item.leather_shoes" />
 			</EquipmentRoster>
 			<EquipmentRoster civilian="true">
-				<equipment slot="Body" id="Item.short_padded_robe" />
+				<equipment slot="Item0" id="Item.taikou_tadakatsu_weapon_a" />
+				<equipment slot="Body" id="Item.taikou_tadakatsu_do_a" />
+				<equipment slot="Head" id="Item.taikou_tadakatsu_helmet_a" />
 				<equipment slot="Leg" id="Item.leather_shoes" />
 			</EquipmentRoster>
 		</Equipments>

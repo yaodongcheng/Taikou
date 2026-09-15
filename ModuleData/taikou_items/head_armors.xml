@@ -64,11 +64,9 @@
 		</ItemComponent>
 		<Flags UseTeamColor="true" Civilian="true" />
 	</Item>
-	<!-- ⚠️⚠️ **占位·无真实模型** ——「白头巾」（上杉谦信 的兜）
-	     战无2 原模型里这块与头部/头发连体，没有独立网格可导（2026-09-15 用户裁定：
-	     先命名占坑、之后再补）。mesh 暂指原版「nasal_helmet_reinforced」顶着，且**未挂到任何人身上**。
-	     🔴 将来补模型：build_helmets.py 出件 → 把 mesh 改成 taikou_kenshin_helmet_a → 填 TaikouHero「头盔」列。 -->
-	<Item id="taikou_kenshin_helmet_a" name="{=TAIKOU_kenshin_helmet_a}Uesugi Kenshin's Helmet" subtype="head_armor" mesh="nasal_helmet_reinforced" culture="Culture.ikoku" weight="2.5" difficulty="0" appearance="3" Type="HeadArmor">
+	<!-- 上杉谦信 的的兜（战无2 解包件重定向；网格 tools/armor-pipeline/out/taikou_kenshin_helmet_a.fbx）
+	     普通物品：挂进 EquipmentRoster 只决定初始装备，可被扒/被偷/作战利品。 -->
+	<Item id="taikou_kenshin_helmet_a" name="{=TAIKOU_kenshin_helmet_a}Uesugi Kenshin's Helmet" subtype="head_armor" mesh="taikou_kenshin_helmet_a" culture="Culture.ikoku" weight="2.5" difficulty="0" appearance="3" Type="HeadArmor">
 		<ItemComponent>
 			<Armor head_armor="39" has_gender_variations="false" hair_cover_type="all" modifier_group="plate" material_type="Plate" />
 		</ItemComponent>

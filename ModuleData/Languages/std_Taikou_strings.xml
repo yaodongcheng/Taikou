@@ -1242,9 +1242,69 @@
     <string id="TAIKOU_hero_1161_1575" text="佐伯杏太郎" />
     <string id="TAIKOU_hero_1161_1582" text="佐伯杏太郎" />
     <string id="TAIKOU_hero_1161_1598" text="佐伯杏太郎" />
+    <string id="TAIKOU_hero_1162_1554" text="长谷川宗仁" />
+    <string id="TAIKOU_hero_1162_1560" text="长谷川宗仁" />
+    <string id="TAIKOU_hero_1162_1568" text="长谷川宗仁" />
+    <string id="TAIKOU_hero_1162_1575" text="长谷川宗仁" />
+    <string id="TAIKOU_hero_1162_1582" text="长谷川宗仁" />
+    <string id="TAIKOU_hero_1162_1598" text="长谷川宗仁" />
+    <string id="TAIKOU_hero_1163_1554" text="Hasegawa Tohaku" />
+    <string id="TAIKOU_hero_1163_1560" text="Hasegawa Tohaku" />
+    <string id="TAIKOU_hero_1163_1568" text="Hasegawa Tohaku" />
+    <string id="TAIKOU_hero_1163_1575" text="Hasegawa Tohaku" />
+    <string id="TAIKOU_hero_1163_1582" text="Hasegawa Tohaku" />
+    <string id="TAIKOU_hero_1163_1598" text="Hasegawa Tohaku" />
+    <string id="TAIKOU_hero_1164_1554" text="Kano Eitoku" />
+    <string id="TAIKOU_hero_1164_1560" text="Kano Eitoku" />
+    <string id="TAIKOU_hero_1164_1568" text="Kano Eitoku" />
+    <string id="TAIKOU_hero_1164_1575" text="Kano Eitoku" />
+    <string id="TAIKOU_hero_1164_1582" text="Kano Eitoku" />
+    <string id="TAIKOU_hero_1164_1598" text="Kano Eitoku" />
+    <string id="TAIKOU_hero_1165_1554" text="Honami Kouetsu" />
+    <string id="TAIKOU_hero_1165_1560" text="Honami Kouetsu" />
+    <string id="TAIKOU_hero_1165_1568" text="Honami Kouetsu" />
+    <string id="TAIKOU_hero_1165_1575" text="Honami Kouetsu" />
+    <string id="TAIKOU_hero_1165_1582" text="Honami Kouetsu" />
+    <string id="TAIKOU_hero_1165_1598" text="Honami Kouetsu" />
+    <string id="TAIKOU_hero_1166_1554" text="朝山日乘" />
+    <string id="TAIKOU_hero_1166_1560" text="朝山日乘" />
+    <string id="TAIKOU_hero_1166_1568" text="朝山日乘" />
+    <string id="TAIKOU_hero_1166_1575" text="朝山日乘" />
+    <string id="TAIKOU_hero_1166_1582" text="朝山日乘" />
+    <string id="TAIKOU_hero_1166_1598" text="朝山日乘" />
+    <string id="TAIKOU_hero_1167_1554" text="快川绍喜" />
+    <string id="TAIKOU_hero_1167_1560" text="快川绍喜" />
+    <string id="TAIKOU_hero_1167_1568" text="快川绍喜" />
+    <string id="TAIKOU_hero_1167_1575" text="快川绍喜" />
+    <string id="TAIKOU_hero_1167_1582" text="快川绍喜" />
+    <string id="TAIKOU_hero_1167_1598" text="快川绍喜" />
+    <string id="TAIKOU_hero_1168_1554" text="多闻院英俊" />
+    <string id="TAIKOU_hero_1168_1560" text="多闻院英俊" />
+    <string id="TAIKOU_hero_1168_1568" text="多闻院英俊" />
+    <string id="TAIKOU_hero_1168_1575" text="多闻院英俊" />
+    <string id="TAIKOU_hero_1168_1582" text="多闻院英俊" />
+    <string id="TAIKOU_hero_1168_1598" text="多闻院英俊" />
+    <string id="TAIKOU_hero_1169_1554" text="Takuan Souhou" />
+    <string id="TAIKOU_hero_1169_1560" text="Takuan Souhou" />
+    <string id="TAIKOU_hero_1169_1568" text="Takuan Souhou" />
+    <string id="TAIKOU_hero_1169_1575" text="Takuan Souhou" />
+    <string id="TAIKOU_hero_1169_1582" text="Takuan Souhou" />
+    <string id="TAIKOU_hero_1169_1598" text="Takuan Souhou" />
     <string id="TAIKOU_hero_116_1575" text="Uesugi Kagekatsu" />
     <string id="TAIKOU_hero_116_1582" text="Uesugi Kagekatsu" />
     <string id="TAIKOU_hero_116_1598" text="Uesugi Kagekatsu" />
+    <string id="TAIKOU_hero_1170_1554" text="Furoois" />
+    <string id="TAIKOU_hero_1170_1560" text="Furoois" />
+    <string id="TAIKOU_hero_1170_1568" text="Furoois" />
+    <string id="TAIKOU_hero_1170_1575" text="Furoois" />
+    <string id="TAIKOU_hero_1170_1582" text="Furoois" />
+    <string id="TAIKOU_hero_1170_1598" text="Furoois" />
+    <string id="TAIKOU_hero_1171_1554" text="Arumeda" />
+    <string id="TAIKOU_hero_1171_1560" text="Arumeda" />
+    <string id="TAIKOU_hero_1171_1568" text="Arumeda" />
+    <string id="TAIKOU_hero_1171_1575" text="Arumeda" />
+    <string id="TAIKOU_hero_1171_1582" text="Arumeda" />
+    <string id="TAIKOU_hero_1171_1598" text="Arumeda" />
     <string id="TAIKOU_hero_1172_1554" text="Sato" />
     <string id="TAIKOU_hero_1172_1560" text="Sato" />
     <string id="TAIKOU_hero_1172_1568" text="Sato" />
@@ -1257,17 +1317,27 @@
     <string id="TAIKOU_hero_1173_1575" text="Raphael" />
     <string id="TAIKOU_hero_1173_1582" text="Raphael" />
     <string id="TAIKOU_hero_1173_1598" text="Raphael" />
+    <string id="TAIKOU_hero_1174_1554" text="Kikutei Harusue" />
+    <string id="TAIKOU_hero_1174_1560" text="Kikutei Harusue" />
+    <string id="TAIKOU_hero_1174_1568" text="Kikutei Harusue" />
+    <string id="TAIKOU_hero_1174_1575" text="Kikutei Harusue" />
+    <string id="TAIKOU_hero_1174_1582" text="Kikutei Harusue" />
+    <string id="TAIKOU_hero_1174_1598" text="Kikutei Harusue" />
+    <string id="TAIKOU_hero_1178_1554" text="Yodogimi" />
     <string id="TAIKOU_hero_1178_1560" text="Yodogimi" />
     <string id="TAIKOU_hero_1178_1568" text="Yodogimi" />
     <string id="TAIKOU_hero_1178_1575" text="Yodogimi" />
     <string id="TAIKOU_hero_1178_1582" text="Yodogimi" />
     <string id="TAIKOU_hero_1178_1598" text="Yodogimi" />
+    <string id="TAIKOU_hero_1179_1554" text="Kinoshita Nene" />
     <string id="TAIKOU_hero_1179_1560" text="Kinoshita Nene" />
     <string id="TAIKOU_hero_1179_1568" text="Kinoshita Nene" />
     <string id="TAIKOU_hero_1179_1575" text="Kinoshita Nene" />
     <string id="TAIKOU_hero_1179_1582" text="Kinoshita Nene" />
+    <string id="TAIKOU_hero_1179_1598" text="Kinoshita Nene" />
     <string id="TAIKOU_hero_117_1568" text="Uesugi Mitsuyasu" />
     <string id="TAIKOU_hero_117_1575" text="Uesugi Mitsuyasu" />
+    <string id="TAIKOU_hero_1180_1554" text="Anaka" />
     <string id="TAIKOU_hero_1180_1560" text="Anaka" />
     <string id="TAIKOU_hero_1180_1568" text="Anaka" />
     <string id="TAIKOU_hero_1180_1575" text="Anaka" />
@@ -1276,6 +1346,9 @@
     <string id="TAIKOU_hero_1181_1554" text="Azai Ichi" />
     <string id="TAIKOU_hero_1181_1560" text="Azai Ichi" />
     <string id="TAIKOU_hero_1181_1568" text="Azai Ichi" />
+    <string id="TAIKOU_hero_1181_1575" text="Azai Ichi" />
+    <string id="TAIKOU_hero_1181_1582" text="Azai Ichi" />
+    <string id="TAIKOU_hero_1181_1598" text="Azai Ichi" />
     <string id="TAIKOU_hero_1182_1554" text="Maeda Matsu" />
     <string id="TAIKOU_hero_1182_1560" text="Maeda Matsu" />
     <string id="TAIKOU_hero_1182_1568" text="Maeda Matsu" />
@@ -1291,17 +1364,33 @@
     <string id="TAIKOU_hero_1184_1554" text="Imagawa Fujin" />
     <string id="TAIKOU_hero_1184_1560" text="Imagawa Fujin" />
     <string id="TAIKOU_hero_1184_1568" text="Imagawa Fujin" />
+    <string id="TAIKOU_hero_1184_1575" text="Imagawa Fujin" />
+    <string id="TAIKOU_hero_1184_1582" text="Imagawa Fujin" />
     <string id="TAIKOU_hero_1184_1598" text="Imagawa Fujin" />
     <string id="TAIKOU_hero_1185_1554" text="Takeda Sagami" />
     <string id="TAIKOU_hero_1185_1560" text="Takeda Sagami" />
     <string id="TAIKOU_hero_1185_1568" text="Takeda Sagami" />
     <string id="TAIKOU_hero_1185_1575" text="Takeda Sagami" />
     <string id="TAIKOU_hero_1185_1582" text="Takeda Sagami" />
+    <string id="TAIKOU_hero_1185_1598" text="Takeda Sagami" />
+    <string id="TAIKOU_hero_1186_1554" text="阿福" />
+    <string id="TAIKOU_hero_1186_1560" text="阿福" />
+    <string id="TAIKOU_hero_1186_1568" text="阿福" />
+    <string id="TAIKOU_hero_1186_1575" text="阿福" />
+    <string id="TAIKOU_hero_1186_1582" text="阿福" />
+    <string id="TAIKOU_hero_1186_1598" text="阿福" />
+    <string id="TAIKOU_hero_1187_1554" text="冬姬" />
+    <string id="TAIKOU_hero_1187_1560" text="冬姬" />
+    <string id="TAIKOU_hero_1187_1568" text="冬姬" />
+    <string id="TAIKOU_hero_1187_1575" text="冬姬" />
+    <string id="TAIKOU_hero_1187_1582" text="冬姬" />
+    <string id="TAIKOU_hero_1187_1598" text="冬姬" />
     <string id="TAIKOU_hero_1188_1554" text="Hojo Ume" />
     <string id="TAIKOU_hero_1188_1560" text="Hojo Ume" />
     <string id="TAIKOU_hero_1188_1568" text="Hojo Ume" />
     <string id="TAIKOU_hero_1188_1575" text="Hojo Ume" />
     <string id="TAIKOU_hero_1188_1582" text="Hojo Ume" />
+    <string id="TAIKOU_hero_1188_1598" text="Hojo Ume" />
     <string id="TAIKOU_hero_1189_1554" text="Bekki Ginchiyo" />
     <string id="TAIKOU_hero_1189_1560" text="Bekki Ginchiyo" />
     <string id="TAIKOU_hero_1189_1568" text="Bekki Ginchiyo" />
@@ -1341,6 +1430,7 @@
     <string id="TAIKOU_hero_1194_1568" text="Oda Kicho" />
     <string id="TAIKOU_hero_1194_1575" text="Oda Kicho" />
     <string id="TAIKOU_hero_1194_1582" text="Oda Kicho" />
+    <string id="TAIKOU_hero_1194_1598" text="Oda Kicho" />
     <string id="TAIKOU_hero_1195_1554" text="Tokugawa Sena Fuji" />
     <string id="TAIKOU_hero_1195_1560" text="Tokugawa Sena Fuji" />
     <string id="TAIKOU_hero_1195_1568" text="Tokugawa Sena Fuji" />
@@ -1351,6 +1441,8 @@
     <string id="TAIKOU_hero_1196_1560" text="Tokugawa Toku Hime" />
     <string id="TAIKOU_hero_1196_1568" text="Tokugawa Toku Hime" />
     <string id="TAIKOU_hero_1196_1575" text="Tokugawa Toku Hime" />
+    <string id="TAIKOU_hero_1196_1582" text="Tokugawa Toku Hime" />
+    <string id="TAIKOU_hero_1196_1598" text="Tokugawa Toku Hime" />
     <string id="TAIKOU_hero_1197_1554" text="Yamauchi Chiyo" />
     <string id="TAIKOU_hero_1197_1560" text="Yamauchi Chiyo" />
     <string id="TAIKOU_hero_1197_1568" text="Yamauchi Chiyo" />
@@ -1363,6 +1455,12 @@
     <string id="TAIKOU_hero_1198_1575" text="Sanada Komatsu" />
     <string id="TAIKOU_hero_1198_1582" text="Sanada Komatsu" />
     <string id="TAIKOU_hero_1198_1598" text="Sanada Komatsu" />
+    <string id="TAIKOU_hero_1199_1554" text="安岐" />
+    <string id="TAIKOU_hero_1199_1560" text="安岐" />
+    <string id="TAIKOU_hero_1199_1568" text="安岐" />
+    <string id="TAIKOU_hero_1199_1575" text="安岐" />
+    <string id="TAIKOU_hero_1199_1582" text="安岐" />
+    <string id="TAIKOU_hero_1199_1598" text="安岐" />
     <string id="TAIKOU_hero_119_1554" text="Uesugi Kenshin" />
     <string id="TAIKOU_hero_119_1560" text="Uesugi Kenshin" />
     <string id="TAIKOU_hero_119_1568" text="Uesugi Kenshin" />
@@ -1371,6 +1469,9 @@
     <string id="TAIKOU_hero_1200_1554" text="三条" />
     <string id="TAIKOU_hero_1200_1560" text="三条" />
     <string id="TAIKOU_hero_1200_1568" text="三条" />
+    <string id="TAIKOU_hero_1200_1575" text="三条" />
+    <string id="TAIKOU_hero_1200_1582" text="三条" />
+    <string id="TAIKOU_hero_1200_1598" text="三条" />
     <string id="TAIKOU_hero_1201_1554" text="初姬" />
     <string id="TAIKOU_hero_1201_1560" text="初姬" />
     <string id="TAIKOU_hero_1201_1568" text="初姬" />
@@ -1389,38 +1490,219 @@
     <string id="TAIKOU_hero_1203_1575" text="彦鹤" />
     <string id="TAIKOU_hero_1203_1582" text="彦鹤" />
     <string id="TAIKOU_hero_1203_1598" text="彦鹤" />
+    <string id="TAIKOU_hero_1204_1554" text="永姬" />
+    <string id="TAIKOU_hero_1204_1560" text="永姬" />
+    <string id="TAIKOU_hero_1204_1568" text="永姬" />
+    <string id="TAIKOU_hero_1204_1575" text="永姬" />
+    <string id="TAIKOU_hero_1204_1582" text="永姬" />
+    <string id="TAIKOU_hero_1204_1598" text="永姬" />
+    <string id="TAIKOU_hero_1205_1554" text="熙子" />
+    <string id="TAIKOU_hero_1205_1560" text="熙子" />
+    <string id="TAIKOU_hero_1205_1568" text="熙子" />
+    <string id="TAIKOU_hero_1205_1575" text="熙子" />
+    <string id="TAIKOU_hero_1205_1582" text="熙子" />
+    <string id="TAIKOU_hero_1205_1598" text="熙子" />
+    <string id="TAIKOU_hero_1206_1554" text="幸圆" />
+    <string id="TAIKOU_hero_1206_1560" text="幸圆" />
+    <string id="TAIKOU_hero_1206_1568" text="幸圆" />
+    <string id="TAIKOU_hero_1206_1575" text="幸圆" />
+    <string id="TAIKOU_hero_1206_1582" text="幸圆" />
+    <string id="TAIKOU_hero_1206_1598" text="幸圆" />
+    <string id="TAIKOU_hero_1207_1554" text="Chun Tou" />
+    <string id="TAIKOU_hero_1207_1560" text="Chun Tou" />
+    <string id="TAIKOU_hero_1207_1568" text="Chun Tou" />
+    <string id="TAIKOU_hero_1207_1575" text="Chun Tou" />
+    <string id="TAIKOU_hero_1207_1582" text="Chun Tou" />
+    <string id="TAIKOU_hero_1207_1598" text="Chun Tou" />
+    <string id="TAIKOU_hero_1208_1554" text="Izumo no Okuni" />
+    <string id="TAIKOU_hero_1208_1560" text="Izumo no Okuni" />
+    <string id="TAIKOU_hero_1208_1568" text="Izumo no Okuni" />
+    <string id="TAIKOU_hero_1208_1575" text="Izumo no Okuni" />
+    <string id="TAIKOU_hero_1208_1582" text="Izumo no Okuni" />
+    <string id="TAIKOU_hero_1208_1598" text="Izumo no Okuni" />
+    <string id="TAIKOU_hero_1209_1554" text="Shizu" />
+    <string id="TAIKOU_hero_1209_1560" text="Shizu" />
+    <string id="TAIKOU_hero_1209_1568" text="Shizu" />
+    <string id="TAIKOU_hero_1209_1575" text="Shizu" />
+    <string id="TAIKOU_hero_1209_1582" text="Shizu" />
+    <string id="TAIKOU_hero_1209_1598" text="Shizu" />
     <string id="TAIKOU_hero_120_1568" text="Kamiya Sotan" />
     <string id="TAIKOU_hero_120_1575" text="Kamiya Sotan" />
     <string id="TAIKOU_hero_120_1582" text="Kamiya Sotan" />
     <string id="TAIKOU_hero_120_1598" text="Kamiya Sotan" />
+    <string id="TAIKOU_hero_1210_1554" text="Kinoshita Tae" />
+    <string id="TAIKOU_hero_1210_1560" text="Kinoshita Tae" />
+    <string id="TAIKOU_hero_1210_1568" text="Kinoshita Tae" />
+    <string id="TAIKOU_hero_1210_1575" text="Kinoshita Tae" />
+    <string id="TAIKOU_hero_1210_1582" text="Kinoshita Tae" />
+    <string id="TAIKOU_hero_1210_1598" text="Kinoshita Tae" />
+    <string id="TAIKOU_hero_1211_1554" text="Chosokabe Suzu" />
+    <string id="TAIKOU_hero_1211_1560" text="Chosokabe Suzu" />
+    <string id="TAIKOU_hero_1211_1568" text="Chosokabe Suzu" />
+    <string id="TAIKOU_hero_1211_1575" text="Chosokabe Suzu" />
+    <string id="TAIKOU_hero_1211_1582" text="Chosokabe Suzu" />
+    <string id="TAIKOU_hero_1211_1598" text="Chosokabe Suzu" />
+    <string id="TAIKOU_hero_1212_1554" text="Atsu" />
+    <string id="TAIKOU_hero_1212_1560" text="Atsu" />
+    <string id="TAIKOU_hero_1212_1568" text="Atsu" />
+    <string id="TAIKOU_hero_1212_1575" text="Atsu" />
+    <string id="TAIKOU_hero_1212_1582" text="Atsu" />
+    <string id="TAIKOU_hero_1212_1598" text="Atsu" />
+    <string id="TAIKOU_hero_1213_1554" text="Nikaho Haru" />
+    <string id="TAIKOU_hero_1213_1560" text="Nikaho Haru" />
+    <string id="TAIKOU_hero_1213_1568" text="Nikaho Haru" />
+    <string id="TAIKOU_hero_1213_1575" text="Nikaho Haru" />
+    <string id="TAIKOU_hero_1213_1582" text="Nikaho Haru" />
+    <string id="TAIKOU_hero_1213_1598" text="Nikaho Haru" />
+    <string id="TAIKOU_hero_1214_1554" text="Jinbo Sayo" />
+    <string id="TAIKOU_hero_1214_1560" text="Jinbo Sayo" />
+    <string id="TAIKOU_hero_1214_1568" text="Jinbo Sayo" />
+    <string id="TAIKOU_hero_1214_1575" text="Jinbo Sayo" />
+    <string id="TAIKOU_hero_1214_1582" text="Jinbo Sayo" />
+    <string id="TAIKOU_hero_1214_1598" text="Jinbo Sayo" />
+    <string id="TAIKOU_hero_1215_1554" text="Aya" />
+    <string id="TAIKOU_hero_1215_1560" text="Aya" />
+    <string id="TAIKOU_hero_1215_1568" text="Aya" />
+    <string id="TAIKOU_hero_1215_1575" text="Aya" />
+    <string id="TAIKOU_hero_1215_1582" text="Aya" />
+    <string id="TAIKOU_hero_1215_1598" text="Aya" />
+    <string id="TAIKOU_hero_1216_1554" text="Anatsu" />
+    <string id="TAIKOU_hero_1216_1560" text="Anatsu" />
+    <string id="TAIKOU_hero_1216_1568" text="Anatsu" />
+    <string id="TAIKOU_hero_1216_1575" text="Anatsu" />
+    <string id="TAIKOU_hero_1216_1582" text="Anatsu" />
+    <string id="TAIKOU_hero_1216_1598" text="Anatsu" />
+    <string id="TAIKOU_hero_1217_1554" text="Ashi" />
+    <string id="TAIKOU_hero_1217_1560" text="Ashi" />
+    <string id="TAIKOU_hero_1217_1568" text="Ashi" />
+    <string id="TAIKOU_hero_1217_1575" text="Ashi" />
+    <string id="TAIKOU_hero_1217_1582" text="Ashi" />
+    <string id="TAIKOU_hero_1217_1598" text="Ashi" />
+    <string id="TAIKOU_hero_1218_1554" text="由纪" />
+    <string id="TAIKOU_hero_1218_1560" text="由纪" />
+    <string id="TAIKOU_hero_1218_1568" text="由纪" />
+    <string id="TAIKOU_hero_1218_1575" text="由纪" />
+    <string id="TAIKOU_hero_1218_1582" text="由纪" />
+    <string id="TAIKOU_hero_1218_1598" text="由纪" />
+    <string id="TAIKOU_hero_1219_1554" text="小琴" />
+    <string id="TAIKOU_hero_1219_1560" text="小琴" />
+    <string id="TAIKOU_hero_1219_1568" text="小琴" />
+    <string id="TAIKOU_hero_1219_1575" text="小琴" />
+    <string id="TAIKOU_hero_1219_1582" text="小琴" />
+    <string id="TAIKOU_hero_1219_1598" text="小琴" />
     <string id="TAIKOU_hero_121_1554" text="Sakata Genemon" />
     <string id="TAIKOU_hero_121_1560" text="Sakata Genemon" />
     <string id="TAIKOU_hero_121_1568" text="Sakata Genemon" />
     <string id="TAIKOU_hero_121_1575" text="Sakata Genemon" />
+    <string id="TAIKOU_hero_1220_1554" text="Miyo" />
+    <string id="TAIKOU_hero_1220_1560" text="Miyo" />
+    <string id="TAIKOU_hero_1220_1568" text="Miyo" />
+    <string id="TAIKOU_hero_1220_1575" text="Miyo" />
+    <string id="TAIKOU_hero_1220_1582" text="Miyo" />
+    <string id="TAIKOU_hero_1220_1598" text="Miyo" />
+    <string id="TAIKOU_hero_1221_1554" text="阿仲" />
+    <string id="TAIKOU_hero_1221_1560" text="阿仲" />
+    <string id="TAIKOU_hero_1221_1568" text="阿仲" />
+    <string id="TAIKOU_hero_1221_1575" text="阿仲" />
+    <string id="TAIKOU_hero_1221_1582" text="阿仲" />
+    <string id="TAIKOU_hero_1221_1598" text="阿仲" />
+    <string id="TAIKOU_hero_1225_1554" text="南光坊天海" />
+    <string id="TAIKOU_hero_1225_1560" text="南光坊天海" />
+    <string id="TAIKOU_hero_1225_1568" text="南光坊天海" />
+    <string id="TAIKOU_hero_1225_1575" text="南光坊天海" />
+    <string id="TAIKOU_hero_1225_1582" text="南光坊天海" />
+    <string id="TAIKOU_hero_1225_1598" text="南光坊天海" />
+    <string id="TAIKOU_hero_1226_1554" text="Tenshitsu Kouiku" />
+    <string id="TAIKOU_hero_1226_1560" text="Tenshitsu Kouiku" />
+    <string id="TAIKOU_hero_1227_1554" text="Kozai Souotsu" />
+    <string id="TAIKOU_hero_1227_1560" text="Kozai Souotsu" />
+    <string id="TAIKOU_hero_1227_1568" text="Kozai Souotsu" />
+    <string id="TAIKOU_hero_1227_1575" text="Kozai Souotsu" />
+    <string id="TAIKOU_hero_1227_1582" text="Kozai Souotsu" />
+    <string id="TAIKOU_hero_1227_1598" text="Kozai Souotsu" />
+    <string id="TAIKOU_hero_1228_1554" text="海北友松" />
+    <string id="TAIKOU_hero_1228_1560" text="海北友松" />
+    <string id="TAIKOU_hero_1228_1568" text="海北友松" />
+    <string id="TAIKOU_hero_1228_1575" text="海北友松" />
+    <string id="TAIKOU_hero_1228_1582" text="海北友松" />
+    <string id="TAIKOU_hero_1228_1598" text="海北友松" />
+    <string id="TAIKOU_hero_1229_1554" text="Rei" />
+    <string id="TAIKOU_hero_1229_1560" text="Rei" />
+    <string id="TAIKOU_hero_1229_1568" text="Rei" />
+    <string id="TAIKOU_hero_1229_1575" text="Rei" />
+    <string id="TAIKOU_hero_1229_1582" text="Rei" />
+    <string id="TAIKOU_hero_1229_1598" text="Rei" />
     <string id="TAIKOU_hero_122_1554" text="Ukai Magoroku" />
     <string id="TAIKOU_hero_122_1560" text="Ukai Magoroku" />
     <string id="TAIKOU_hero_122_1568" text="Ukai Magoroku" />
     <string id="TAIKOU_hero_122_1575" text="Ukai Magoroku" />
     <string id="TAIKOU_hero_122_1582" text="Ukai Magoroku" />
+    <string id="TAIKOU_hero_1230_1554" text="千岁" />
+    <string id="TAIKOU_hero_1230_1560" text="千岁" />
+    <string id="TAIKOU_hero_1230_1568" text="千岁" />
+    <string id="TAIKOU_hero_1230_1575" text="千岁" />
+    <string id="TAIKOU_hero_1230_1582" text="千岁" />
+    <string id="TAIKOU_hero_1230_1598" text="千岁" />
+    <string id="TAIKOU_hero_1231_1554" text="蝴蝶" />
+    <string id="TAIKOU_hero_1231_1560" text="蝴蝶" />
+    <string id="TAIKOU_hero_1231_1568" text="蝴蝶" />
+    <string id="TAIKOU_hero_1231_1575" text="蝴蝶" />
+    <string id="TAIKOU_hero_1231_1582" text="蝴蝶" />
+    <string id="TAIKOU_hero_1231_1598" text="蝴蝶" />
     <string id="TAIKOU_hero_1232_1554" text="Shiro" />
     <string id="TAIKOU_hero_1232_1560" text="Shiro" />
     <string id="TAIKOU_hero_1232_1568" text="Shiro" />
     <string id="TAIKOU_hero_1232_1575" text="Shiro" />
     <string id="TAIKOU_hero_1232_1582" text="Shiro" />
+    <string id="TAIKOU_hero_1232_1598" text="Shiro" />
+    <string id="TAIKOU_hero_1233_1554" text="新庄" />
+    <string id="TAIKOU_hero_1233_1560" text="新庄" />
+    <string id="TAIKOU_hero_1233_1568" text="新庄" />
+    <string id="TAIKOU_hero_1233_1575" text="新庄" />
+    <string id="TAIKOU_hero_1233_1582" text="新庄" />
+    <string id="TAIKOU_hero_1233_1598" text="新庄" />
     <string id="TAIKOU_hero_1234_1554" text="山手" />
     <string id="TAIKOU_hero_1234_1560" text="山手" />
     <string id="TAIKOU_hero_1234_1568" text="山手" />
     <string id="TAIKOU_hero_1234_1575" text="山手" />
     <string id="TAIKOU_hero_1234_1582" text="山手" />
     <string id="TAIKOU_hero_1234_1598" text="山手" />
+    <string id="TAIKOU_hero_1235_1554" text="照姬" />
+    <string id="TAIKOU_hero_1235_1560" text="照姬" />
+    <string id="TAIKOU_hero_1235_1568" text="照姬" />
+    <string id="TAIKOU_hero_1235_1575" text="照姬" />
+    <string id="TAIKOU_hero_1235_1582" text="照姬" />
+    <string id="TAIKOU_hero_1235_1598" text="照姬" />
     <string id="TAIKOU_hero_1236_1554" text="Imagawa Minami-hime" />
     <string id="TAIKOU_hero_1236_1560" text="Imagawa Minami-hime" />
+    <string id="TAIKOU_hero_1236_1568" text="Imagawa Minami-hime" />
+    <string id="TAIKOU_hero_1236_1575" text="Imagawa Minami-hime" />
+    <string id="TAIKOU_hero_1236_1582" text="Imagawa Minami-hime" />
+    <string id="TAIKOU_hero_1236_1598" text="Imagawa Minami-hime" />
+    <string id="TAIKOU_hero_1237_1554" text="九郎判官义经" />
+    <string id="TAIKOU_hero_1237_1560" text="九郎判官义经" />
+    <string id="TAIKOU_hero_1237_1568" text="九郎判官义经" />
+    <string id="TAIKOU_hero_1237_1575" text="九郎判官义经" />
+    <string id="TAIKOU_hero_1237_1582" text="九郎判官义经" />
+    <string id="TAIKOU_hero_1237_1598" text="九郎判官义经" />
+    <string id="TAIKOU_hero_1238_1554" text="相马小次郎将门" />
+    <string id="TAIKOU_hero_1238_1560" text="相马小次郎将门" />
+    <string id="TAIKOU_hero_1238_1568" text="相马小次郎将门" />
+    <string id="TAIKOU_hero_1238_1575" text="相马小次郎将门" />
+    <string id="TAIKOU_hero_1238_1582" text="相马小次郎将门" />
+    <string id="TAIKOU_hero_1238_1598" text="相马小次郎将门" />
     <string id="TAIKOU_hero_123_1554" text="Ukita Tadaie" />
     <string id="TAIKOU_hero_123_1560" text="Ukita Tadaie" />
     <string id="TAIKOU_hero_123_1568" text="Ukita Tadaie" />
     <string id="TAIKOU_hero_123_1575" text="Ukita Tadaie" />
     <string id="TAIKOU_hero_123_1582" text="Ukita Tadaie" />
     <string id="TAIKOU_hero_123_1598" text="Ukita Tadaie" />
+    <string id="TAIKOU_hero_1240_1554" text="吾作" />
+    <string id="TAIKOU_hero_1240_1560" text="吾作" />
+    <string id="TAIKOU_hero_1240_1568" text="吾作" />
+    <string id="TAIKOU_hero_1240_1575" text="吾作" />
+    <string id="TAIKOU_hero_1240_1582" text="吾作" />
+    <string id="TAIKOU_hero_1240_1598" text="吾作" />
     <string id="TAIKOU_hero_1242_1554" text="Maria" />
     <string id="TAIKOU_hero_1242_1560" text="Maria" />
     <string id="TAIKOU_hero_1242_1568" text="Maria" />
@@ -1444,6 +1726,12 @@
     <string id="TAIKOU_hero_126_1568" text="Uku Sumisada" />
     <string id="TAIKOU_hero_126_1575" text="Uku Sumisada" />
     <string id="TAIKOU_hero_127_1582" text="Uku Sungen" />
+    <string id="TAIKOU_hero_1289_1554" text="老奶奶" />
+    <string id="TAIKOU_hero_1289_1560" text="老奶奶" />
+    <string id="TAIKOU_hero_1289_1568" text="老奶奶" />
+    <string id="TAIKOU_hero_1289_1575" text="老奶奶" />
+    <string id="TAIKOU_hero_1289_1582" text="老奶奶" />
+    <string id="TAIKOU_hero_1289_1598" text="老奶奶" />
     <string id="TAIKOU_hero_128_1554" text="Usami Sadamitsu" />
     <string id="TAIKOU_hero_128_1560" text="Usami Sadamitsu" />
     <string id="TAIKOU_hero_129_1554" text="Ujiie Suehisa" />
