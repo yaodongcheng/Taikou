@@ -24,7 +24,107 @@
 		</ItemComponent>
 		<Flags />
 	</Item>
-	<!-- 武田信玄 的兜（战无2 解包件重定向；网格 tools/armor-pipeline/out/taikou_shingen_helmet_a.fbx）
+	<!-- ⚠️⚠️ **占位·无真实模型** ——「六文钱前立兜」（真田幸村 的兜）
+	     战无2 原模型里这块与头部/头发连体，没有独立网格可导（2026-09-15 用户裁定：
+	     先命名占坑、之后再补）。mesh 暂指原版「nasal_helmet_reinforced」顶着，且**未挂到任何人身上**。
+	     🔴 将来补模型：build_helmets.py 出件 → 把 mesh 改成 taikou_yukimura_helmet_a → 填 TaikouHero「头盔」列。 -->
+	<Item id="taikou_yukimura_helmet_a" name="{=TAIKOU_yukimura_helmet_a}Sanada Nobushige's Helmet" subtype="head_armor" mesh="nasal_helmet_reinforced" culture="Culture.ikoku" weight="2.5" difficulty="0" appearance="3" Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="39" has_gender_variations="false" hair_cover_type="all" modifier_group="plate" material_type="Plate" />
+		</ItemComponent>
+		<Flags UseTeamColor="true" Civilian="true" />
+	</Item>
+	<!-- ⚠️⚠️ **占位·无真实模型** ——「梅钵前立兜」（前田庆次 的兜）
+	     战无2 原模型里这块与头部/头发连体，没有独立网格可导（2026-09-15 用户裁定：
+	     先命名占坑、之后再补）。mesh 暂指原版「nasal_helmet_reinforced」顶着，且**未挂到任何人身上**。
+	     🔴 将来补模型：build_helmets.py 出件 → 把 mesh 改成 taikou_keiji_helmet_a → 填 TaikouHero「头盔」列。 -->
+	<Item id="taikou_keiji_helmet_a" name="{=TAIKOU_keiji_helmet_a}Maeda Keiji's Helmet" subtype="head_armor" mesh="nasal_helmet_reinforced" culture="Culture.ikoku" weight="2.5" difficulty="0" appearance="3" Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="39" has_gender_variations="false" hair_cover_type="all" modifier_group="plate" material_type="Plate" />
+		</ItemComponent>
+		<Flags UseTeamColor="true" Civilian="true" />
+	</Item>
+	<!-- ⚠️⚠️ **占位·无真实模型** ——「唐冠形兜」（织田信长 的兜）
+	     战无2 原模型里这块与头部/头发连体，没有独立网格可导（2026-09-15 用户裁定：
+	     先命名占坑、之后再补）。mesh 暂指原版「nasal_helmet_reinforced」顶着，且**未挂到任何人身上**。
+	     🔴 将来补模型：build_helmets.py 出件 → 把 mesh 改成 taikou_nobunaga_helmet_a → 填 TaikouHero「头盔」列。 -->
+	<Item id="taikou_nobunaga_helmet_a" name="{=TAIKOU_nobunaga_helmet_a}Oda Nobunaga's Helmet" subtype="head_armor" mesh="nasal_helmet_reinforced" culture="Culture.ikoku" weight="2.5" difficulty="0" appearance="3" Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="39" has_gender_variations="false" hair_cover_type="all" modifier_group="plate" material_type="Plate" />
+		</ItemComponent>
+		<Flags UseTeamColor="true" Civilian="true" />
+	</Item>
+	<!-- ⚠️⚠️ **占位·无真实模型** ——「桔梗前立兜」（明智光秀 的兜）
+	     战无2 原模型里这块与头部/头发连体，没有独立网格可导（2026-09-15 用户裁定：
+	     先命名占坑、之后再补）。mesh 暂指原版「nasal_helmet_reinforced」顶着，且**未挂到任何人身上**。
+	     🔴 将来补模型：build_helmets.py 出件 → 把 mesh 改成 taikou_mitsuhide_helmet_a → 填 TaikouHero「头盔」列。 -->
+	<Item id="taikou_mitsuhide_helmet_a" name="{=TAIKOU_mitsuhide_helmet_a}Akechi Mitsuhide's Helmet" subtype="head_armor" mesh="nasal_helmet_reinforced" culture="Culture.ikoku" weight="2.5" difficulty="0" appearance="3" Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="39" has_gender_variations="false" hair_cover_type="all" modifier_group="plate" material_type="Plate" />
+		</ItemComponent>
+		<Flags UseTeamColor="true" Civilian="true" />
+	</Item>
+	<!-- ⚠️⚠️ **占位·无真实模型** ——「白头巾」（上杉谦信 的兜）
+	     战无2 原模型里这块与头部/头发连体，没有独立网格可导（2026-09-15 用户裁定：
+	     先命名占坑、之后再补）。mesh 暂指原版「nasal_helmet_reinforced」顶着，且**未挂到任何人身上**。
+	     🔴 将来补模型：build_helmets.py 出件 → 把 mesh 改成 taikou_kenshin_helmet_a → 填 TaikouHero「头盔」列。 -->
+	<Item id="taikou_kenshin_helmet_a" name="{=TAIKOU_kenshin_helmet_a}Uesugi Kenshin's Helmet" subtype="head_armor" mesh="nasal_helmet_reinforced" culture="Culture.ikoku" weight="2.5" difficulty="0" appearance="3" Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="39" has_gender_variations="false" hair_cover_type="all" modifier_group="plate" material_type="Plate" />
+		</ItemComponent>
+		<Flags UseTeamColor="true" Civilian="true" />
+	</Item>
+	<!-- ⚠️⚠️ **占位·无真实模型** ——「木瓜前立兜」（阿市 的兜）
+	     战无2 原模型里这块与头部/头发连体，没有独立网格可导（2026-09-15 用户裁定：
+	     先命名占坑、之后再补）。mesh 暂指原版「nasal_helmet_reinforced」顶着，且**未挂到任何人身上**。
+	     🔴 将来补模型：build_helmets.py 出件 → 把 mesh 改成 taikou_oichi_helmet_a → 填 TaikouHero「头盔」列。 -->
+	<Item id="taikou_oichi_helmet_a" name="{=TAIKOU_oichi_helmet_a}Azai Ichi's Helmet" subtype="head_armor" mesh="nasal_helmet_reinforced" culture="Culture.ikoku" weight="2.5" difficulty="0" appearance="3" Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="39" has_gender_variations="false" hair_cover_type="all" modifier_group="plate" material_type="Plate" />
+		</ItemComponent>
+		<Flags UseTeamColor="true" Civilian="true" />
+	</Item>
+	<!-- ⚠️⚠️ **占位·无真实模型** ——「巫女头巾」（出云阿国 的兜）
+	     战无2 原模型里这块与头部/头发连体，没有独立网格可导（2026-09-15 用户裁定：
+	     先命名占坑、之后再补）。mesh 暂指原版「nasal_helmet_reinforced」顶着，且**未挂到任何人身上**。
+	     🔴 将来补模型：build_helmets.py 出件 → 把 mesh 改成 taikou_okuni_helmet_a → 填 TaikouHero「头盔」列。 -->
+	<Item id="taikou_okuni_helmet_a" name="{=TAIKOU_okuni_helmet_a}Izumo no Okuni's Helmet" subtype="head_armor" mesh="nasal_helmet_reinforced" culture="Culture.ikoku" weight="2.5" difficulty="0" appearance="3" Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="39" has_gender_variations="false" hair_cover_type="all" modifier_group="plate" material_type="Plate" />
+		</ItemComponent>
+		<Flags UseTeamColor="true" Civilian="true" />
+	</Item>
+	<!-- ⚠️⚠️ **占位·无真实模型** ——「八咫乌前立兜」（杂贺孙一 的兜）
+	     战无2 原模型里这块与头部/头发连体，没有独立网格可导（2026-09-15 用户裁定：
+	     先命名占坑、之后再补）。mesh 暂指原版「nasal_helmet_reinforced」顶着，且**未挂到任何人身上**。
+	     🔴 将来补模型：build_helmets.py 出件 → 把 mesh 改成 taikou_magoichi_helmet_a → 填 TaikouHero「头盔」列。 -->
+	<Item id="taikou_magoichi_helmet_a" name="{=TAIKOU_magoichi_helmet_a}Saika Magoichi's Helmet" subtype="head_armor" mesh="nasal_helmet_reinforced" culture="Culture.ikoku" weight="2.5" difficulty="0" appearance="3" Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="39" has_gender_variations="false" hair_cover_type="all" modifier_group="plate" material_type="Plate" />
+		</ItemComponent>
+		<Flags UseTeamColor="true" Civilian="true" />
+	</Item>
+	<!-- ⚠️⚠️ **占位·无真实模型** ——「阵笠」（佐佐木小次郎 的兜）
+	     战无2 原模型里这块与头部/头发连体，没有独立网格可导（2026-09-15 用户裁定：
+	     先命名占坑、之后再补）。mesh 暂指原版「nasal_helmet_reinforced」顶着，且**未挂到任何人身上**。
+	     🔴 将来补模型：build_helmets.py 出件 → 把 mesh 改成 taikou_kojiro_helmet_a → 填 TaikouHero「头盔」列。 -->
+	<Item id="taikou_kojiro_helmet_a" name="{=TAIKOU_kojiro_helmet_a}Sasaki Kojiroo's Helmet" subtype="head_armor" mesh="nasal_helmet_reinforced" culture="Culture.ikoku" weight="2.5" difficulty="0" appearance="3" Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="39" has_gender_variations="false" hair_cover_type="all" modifier_group="plate" material_type="Plate" />
+		</ItemComponent>
+		<Flags UseTeamColor="true" Civilian="true" />
+	</Item>
+	<!-- ⚠️⚠️ **占位·无真实模型** ——「雁金前立兜」（柴田胜家 的兜）
+	     战无2 原模型里这块与头部/头发连体，没有独立网格可导（2026-09-15 用户裁定：
+	     先命名占坑、之后再补）。mesh 暂指原版「nasal_helmet_reinforced」顶着，且**未挂到任何人身上**。
+	     🔴 将来补模型：build_helmets.py 出件 → 把 mesh 改成 taikou_katsuie_helmet_a → 填 TaikouHero「头盔」列。 -->
+	<Item id="taikou_katsuie_helmet_a" name="{=TAIKOU_katsuie_helmet_a}Shibata Katsuie's Helmet" subtype="head_armor" mesh="nasal_helmet_reinforced" culture="Culture.ikoku" weight="2.5" difficulty="0" appearance="3" Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="39" has_gender_variations="false" hair_cover_type="all" modifier_group="plate" material_type="Plate" />
+		</ItemComponent>
+		<Flags UseTeamColor="true" Civilian="true" />
+	</Item>
+	<!-- 武田信玄 的的兜（战无2 解包件重定向；网格 tools/armor-pipeline/out/taikou_shingen_helmet_a.fbx）
 	     普通物品：挂进 EquipmentRoster 只决定初始装备，可被扒/被偷/作战利品。 -->
 	<Item id="taikou_shingen_helmet_a" name="{=TAIKOU_shingen_helmet_a}Takeda Shingen's Helmet" subtype="head_armor" mesh="taikou_shingen_helmet_a" culture="Culture.ikoku" weight="2.5" difficulty="0" appearance="3" Type="HeadArmor">
 		<ItemComponent>
@@ -32,7 +132,7 @@
 		</ItemComponent>
 		<Flags UseTeamColor="true" Civilian="true" />
 	</Item>
-	<!-- 伊达政宗 的兜（战无2 解包件重定向；网格 tools/armor-pipeline/out/taikou_masamune_helmet_a.fbx）
+	<!-- 伊达政宗 的的兜（战无2 解包件重定向；网格 tools/armor-pipeline/out/taikou_masamune_helmet_a.fbx）
 	     普通物品：挂进 EquipmentRoster 只决定初始装备，可被扒/被偷/作战利品。 -->
 	<Item id="taikou_masamune_helmet_a" name="{=TAIKOU_masamune_helmet_a}Date Masamune's Helmet" subtype="head_armor" mesh="taikou_masamune_helmet_a" culture="Culture.ikoku" weight="2.5" difficulty="0" appearance="3" Type="HeadArmor">
 		<ItemComponent>
@@ -40,7 +140,17 @@
 		</ItemComponent>
 		<Flags UseTeamColor="true" Civilian="true" />
 	</Item>
-	<!-- 服部半藏 的兜（战无2 解包件重定向；网格 tools/armor-pipeline/out/taikou_hanzo_helmet_a.fbx）
+	<!-- ⚠️⚠️ **占位·无真实模型** ——「抚子前立兜」（归蝶 的兜）
+	     战无2 原模型里这块与头部/头发连体，没有独立网格可导（2026-09-15 用户裁定：
+	     先命名占坑、之后再补）。mesh 暂指原版「nasal_helmet_reinforced」顶着，且**未挂到任何人身上**。
+	     🔴 将来补模型：build_helmets.py 出件 → 把 mesh 改成 taikou_nouhime_helmet_a → 填 TaikouHero「头盔」列。 -->
+	<Item id="taikou_nouhime_helmet_a" name="{=TAIKOU_nouhime_helmet_a}Oda Kicho's Helmet" subtype="head_armor" mesh="nasal_helmet_reinforced" culture="Culture.ikoku" weight="2.5" difficulty="0" appearance="3" Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="39" has_gender_variations="false" hair_cover_type="all" modifier_group="plate" material_type="Plate" />
+		</ItemComponent>
+		<Flags UseTeamColor="true" Civilian="true" />
+	</Item>
+	<!-- 服部半藏 的的兜（战无2 解包件重定向；网格 tools/armor-pipeline/out/taikou_hanzo_helmet_a.fbx）
 	     普通物品：挂进 EquipmentRoster 只决定初始装备，可被扒/被偷/作战利品。 -->
 	<Item id="taikou_hanzo_helmet_a" name="{=TAIKOU_hanzo_helmet_a}Hattori Hanzo's Helmet" subtype="head_armor" mesh="taikou_hanzo_helmet_a" culture="Culture.ikoku" weight="2.5" difficulty="0" appearance="3" Type="HeadArmor">
 		<ItemComponent>
@@ -48,7 +158,17 @@
 		</ItemComponent>
 		<Flags UseTeamColor="true" Civilian="true" />
 	</Item>
-	<!-- 丰臣秀吉 的兜（战无2 解包件重定向；网格 tools/armor-pipeline/out/taikou_hideyoshi_helmet_a.fbx）
+	<!-- ⚠️⚠️ **占位·无真实模型** ——「鹤丸前立兜」（森兰丸 的兜）
+	     战无2 原模型里这块与头部/头发连体，没有独立网格可导（2026-09-15 用户裁定：
+	     先命名占坑、之后再补）。mesh 暂指原版「nasal_helmet_reinforced」顶着，且**未挂到任何人身上**。
+	     🔴 将来补模型：build_helmets.py 出件 → 把 mesh 改成 taikou_rammaru_helmet_a → 填 TaikouHero「头盔」列。 -->
+	<Item id="taikou_rammaru_helmet_a" name="{=TAIKOU_rammaru_helmet_a}Morii Ranmaru's Helmet" subtype="head_armor" mesh="nasal_helmet_reinforced" culture="Culture.ikoku" weight="2.5" difficulty="0" appearance="3" Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="39" has_gender_variations="false" hair_cover_type="all" modifier_group="plate" material_type="Plate" />
+		</ItemComponent>
+		<Flags UseTeamColor="true" Civilian="true" />
+	</Item>
+	<!-- 丰臣秀吉 的的兜（战无2 解包件重定向；网格 tools/armor-pipeline/out/taikou_hideyoshi_helmet_a.fbx）
 	     普通物品：挂进 EquipmentRoster 只决定初始装备，可被扒/被偷/作战利品。 -->
 	<Item id="taikou_hideyoshi_helmet_a" name="{=TAIKOU_hideyoshi_helmet_a}Kinoshita Hideyoshi's Helmet" subtype="head_armor" mesh="taikou_hideyoshi_helmet_a" culture="Culture.ikoku" weight="2.5" difficulty="0" appearance="3" Type="HeadArmor">
 		<ItemComponent>
@@ -56,7 +176,7 @@
 		</ItemComponent>
 		<Flags UseTeamColor="true" Civilian="true" />
 	</Item>
-	<!-- 本多忠胜 的兜（战无2 解包件重定向；网格 tools/armor-pipeline/out/taikou_tadakatsu_helmet_a.fbx）
+	<!-- 本多忠胜 的的兜（战无2 解包件重定向；网格 tools/armor-pipeline/out/taikou_tadakatsu_helmet_a.fbx）
 	     普通物品：挂进 EquipmentRoster 只决定初始装备，可被扒/被偷/作战利品。 -->
 	<Item id="taikou_tadakatsu_helmet_a" name="{=TAIKOU_tadakatsu_helmet_a}Honda Tadakatsu's Helmet" subtype="head_armor" mesh="taikou_tadakatsu_helmet_a" culture="Culture.ikoku" weight="2.5" difficulty="0" appearance="3" Type="HeadArmor">
 		<ItemComponent>
@@ -64,7 +184,17 @@
 		</ItemComponent>
 		<Flags UseTeamColor="true" Civilian="true" />
 	</Item>
-	<!-- 德川家康 的兜（战无2 解包件重定向；网格 tools/armor-pipeline/out/taikou_ieyasu_helmet_a.fbx）
+	<!-- ⚠️⚠️ **占位·无真实模型** ——「红威鹿角胁立兜」（稻姬 的兜）
+	     战无2 原模型里这块与头部/头发连体，没有独立网格可导（2026-09-15 用户裁定：
+	     先命名占坑、之后再补）。mesh 暂指原版「nasal_helmet_reinforced」顶着，且**未挂到任何人身上**。
+	     🔴 将来补模型：build_helmets.py 出件 → 把 mesh 改成 taikou_inahime_helmet_a → 填 TaikouHero「头盔」列。 -->
+	<Item id="taikou_inahime_helmet_a" name="{=TAIKOU_inahime_helmet_a}Sanada Komatsu's Helmet" subtype="head_armor" mesh="nasal_helmet_reinforced" culture="Culture.ikoku" weight="2.5" difficulty="0" appearance="3" Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="39" has_gender_variations="false" hair_cover_type="all" modifier_group="plate" material_type="Plate" />
+		</ItemComponent>
+		<Flags UseTeamColor="true" Civilian="true" />
+	</Item>
+	<!-- 德川家康 的的兜（战无2 解包件重定向；网格 tools/armor-pipeline/out/taikou_ieyasu_helmet_a.fbx）
 	     普通物品：挂进 EquipmentRoster 只决定初始装备，可被扒/被偷/作战利品。 -->
 	<Item id="taikou_ieyasu_helmet_a" name="{=TAIKOU_ieyasu_helmet_a}Tokugawa Ieyasu's Helmet" subtype="head_armor" mesh="taikou_ieyasu_helmet_a" culture="Culture.ikoku" weight="2.5" difficulty="0" appearance="3" Type="HeadArmor">
 		<ItemComponent>
@@ -72,7 +202,17 @@
 		</ItemComponent>
 		<Flags UseTeamColor="true" Civilian="true" />
 	</Item>
-	<!-- 浅井长政 的兜（战无2 解包件重定向；网格 tools/armor-pipeline/out/taikou_nagamasa_helmet_a.fbx）
+	<!-- ⚠️⚠️ **占位·无真实模型** ——「大一大万大吉前立兜」（石田三成 的兜）
+	     战无2 原模型里这块与头部/头发连体，没有独立网格可导（2026-09-15 用户裁定：
+	     先命名占坑、之后再补）。mesh 暂指原版「nasal_helmet_reinforced」顶着，且**未挂到任何人身上**。
+	     🔴 将来补模型：build_helmets.py 出件 → 把 mesh 改成 taikou_mitsunari_helmet_a → 填 TaikouHero「头盔」列。 -->
+	<Item id="taikou_mitsunari_helmet_a" name="{=TAIKOU_mitsunari_helmet_a}Ishida Mitsunari's Helmet" subtype="head_armor" mesh="nasal_helmet_reinforced" culture="Culture.ikoku" weight="2.5" difficulty="0" appearance="3" Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="39" has_gender_variations="false" hair_cover_type="all" modifier_group="plate" material_type="Plate" />
+		</ItemComponent>
+		<Flags UseTeamColor="true" Civilian="true" />
+	</Item>
+	<!-- 浅井长政 的的兜（战无2 解包件重定向；网格 tools/armor-pipeline/out/taikou_nagamasa_helmet_a.fbx）
 	     普通物品：挂进 EquipmentRoster 只决定初始装备，可被扒/被偷/作战利品。 -->
 	<Item id="taikou_nagamasa_helmet_a" name="{=TAIKOU_nagamasa_helmet_a}Azai Nagamasa's Helmet" subtype="head_armor" mesh="taikou_nagamasa_helmet_a" culture="Culture.ikoku" weight="2.5" difficulty="0" appearance="3" Type="HeadArmor">
 		<ItemComponent>
@@ -80,9 +220,69 @@
 		</ItemComponent>
 		<Flags UseTeamColor="true" Civilian="true" />
 	</Item>
-	<!-- 直江兼续 的兜（战无2 解包件重定向；网格 tools/armor-pipeline/out/taikou_kanetsugu_helmet_a.fbx）
+	<!-- ⚠️⚠️ **占位·无真实模型** ——「黑漆筋兜」（岛左近 的兜）
+	     战无2 原模型里这块与头部/头发连体，没有独立网格可导（2026-09-15 用户裁定：
+	     先命名占坑、之后再补）。mesh 暂指原版「nasal_helmet_reinforced」顶着，且**未挂到任何人身上**。
+	     🔴 将来补模型：build_helmets.py 出件 → 把 mesh 改成 taikou_sakon_helmet_a → 填 TaikouHero「头盔」列。 -->
+	<Item id="taikou_sakon_helmet_a" name="{=TAIKOU_sakon_helmet_a}Shima Sakon's Helmet" subtype="head_armor" mesh="nasal_helmet_reinforced" culture="Culture.ikoku" weight="2.5" difficulty="0" appearance="3" Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="39" has_gender_variations="false" hair_cover_type="all" modifier_group="plate" material_type="Plate" />
+		</ItemComponent>
+		<Flags UseTeamColor="true" Civilian="true" />
+	</Item>
+	<!-- ⚠️⚠️ **占位·无真实模型** ——「丸十前立兜」（岛津义弘 的兜）
+	     战无2 原模型里这块与头部/头发连体，没有独立网格可导（2026-09-15 用户裁定：
+	     先命名占坑、之后再补）。mesh 暂指原版「nasal_helmet_reinforced」顶着，且**未挂到任何人身上**。
+	     🔴 将来补模型：build_helmets.py 出件 → 把 mesh 改成 taikou_yoshihiro_helmet_a → 填 TaikouHero「头盔」列。 -->
+	<Item id="taikou_yoshihiro_helmet_a" name="{=TAIKOU_yoshihiro_helmet_a}Shimazu Yoshihiro's Helmet" subtype="head_armor" mesh="nasal_helmet_reinforced" culture="Culture.ikoku" weight="2.5" difficulty="0" appearance="3" Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="39" has_gender_variations="false" hair_cover_type="all" modifier_group="plate" material_type="Plate" />
+		</ItemComponent>
+		<Flags UseTeamColor="true" Civilian="true" />
+	</Item>
+	<!-- ⚠️⚠️ **占位·无真实模型** ——「祇园守前立兜」（訚千代 的兜）
+	     战无2 原模型里这块与头部/头发连体，没有独立网格可导（2026-09-15 用户裁定：
+	     先命名占坑、之后再补）。mesh 暂指原版「nasal_helmet_reinforced」顶着，且**未挂到任何人身上**。
+	     🔴 将来补模型：build_helmets.py 出件 → 把 mesh 改成 taikou_ginchiyo_helmet_a → 填 TaikouHero「头盔」列。 -->
+	<Item id="taikou_ginchiyo_helmet_a" name="{=TAIKOU_ginchiyo_helmet_a}Bekki Ginchiyo's Helmet" subtype="head_armor" mesh="nasal_helmet_reinforced" culture="Culture.ikoku" weight="2.5" difficulty="0" appearance="3" Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="39" has_gender_variations="false" hair_cover_type="all" modifier_group="plate" material_type="Plate" />
+		</ItemComponent>
+		<Flags UseTeamColor="true" Civilian="true" />
+	</Item>
+	<!-- 直江兼续 的的兜（战无2 解包件重定向；网格 tools/armor-pipeline/out/taikou_kanetsugu_helmet_a.fbx）
 	     普通物品：挂进 EquipmentRoster 只决定初始装备，可被扒/被偷/作战利品。 -->
 	<Item id="taikou_kanetsugu_helmet_a" name="{=TAIKOU_kanetsugu_helmet_a}Naoe Kanetsugu's Helmet" subtype="head_armor" mesh="taikou_kanetsugu_helmet_a" culture="Culture.ikoku" weight="2.5" difficulty="0" appearance="3" Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="39" has_gender_variations="false" hair_cover_type="all" modifier_group="plate" material_type="Plate" />
+		</ItemComponent>
+		<Flags UseTeamColor="true" Civilian="true" />
+	</Item>
+	<!-- ⚠️⚠️ **占位·无真实模型** ——「桐纹前立兜」（宁宁 的兜）
+	     战无2 原模型里这块与头部/头发连体，没有独立网格可导（2026-09-15 用户裁定：
+	     先命名占坑、之后再补）。mesh 暂指原版「nasal_helmet_reinforced」顶着，且**未挂到任何人身上**。
+	     🔴 将来补模型：build_helmets.py 出件 → 把 mesh 改成 taikou_nene_helmet_a → 填 TaikouHero「头盔」列。 -->
+	<Item id="taikou_nene_helmet_a" name="{=TAIKOU_nene_helmet_a}Kinoshita Nene's Helmet" subtype="head_armor" mesh="nasal_helmet_reinforced" culture="Culture.ikoku" weight="2.5" difficulty="0" appearance="3" Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="39" has_gender_variations="false" hair_cover_type="all" modifier_group="plate" material_type="Plate" />
+		</ItemComponent>
+		<Flags UseTeamColor="true" Civilian="true" />
+	</Item>
+	<!-- ⚠️⚠️ **占位·无真实模型** ——「风魔黑头巾」（风魔小太郎 的兜）
+	     战无2 原模型里这块与头部/头发连体，没有独立网格可导（2026-09-15 用户裁定：
+	     先命名占坑、之后再补）。mesh 暂指原版「nasal_helmet_reinforced」顶着，且**未挂到任何人身上**。
+	     🔴 将来补模型：build_helmets.py 出件 → 把 mesh 改成 taikou_kotaro_helmet_a → 填 TaikouHero「头盔」列。 -->
+	<Item id="taikou_kotaro_helmet_a" name="{=TAIKOU_kotaro_helmet_a}Fuuma Kotaroo's Helmet" subtype="head_armor" mesh="nasal_helmet_reinforced" culture="Culture.ikoku" weight="2.5" difficulty="0" appearance="3" Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="39" has_gender_variations="false" hair_cover_type="all" modifier_group="plate" material_type="Plate" />
+		</ItemComponent>
+		<Flags UseTeamColor="true" Civilian="true" />
+	</Item>
+	<!-- ⚠️⚠️ **占位·无真实模型** ——「阵笠」（宫本武藏 的兜）
+	     战无2 原模型里这块与头部/头发连体，没有独立网格可导（2026-09-15 用户裁定：
+	     先命名占坑、之后再补）。mesh 暂指原版「nasal_helmet_reinforced」顶着，且**未挂到任何人身上**。
+	     🔴 将来补模型：build_helmets.py 出件 → 把 mesh 改成 taikou_musashi_helmet_a → 填 TaikouHero「头盔」列。 -->
+	<Item id="taikou_musashi_helmet_a" name="{=TAIKOU_musashi_helmet_a}Miyamotoo Musashi's Helmet" subtype="head_armor" mesh="nasal_helmet_reinforced" culture="Culture.ikoku" weight="2.5" difficulty="0" appearance="3" Type="HeadArmor">
 		<ItemComponent>
 			<Armor head_armor="39" has_gender_variations="false" hair_cover_type="all" modifier_group="plate" material_type="Plate" />
 		</ItemComponent>

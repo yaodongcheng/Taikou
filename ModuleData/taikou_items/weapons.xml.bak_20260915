@@ -1,0 +1,138 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Items>
+	<Item id="torch" name="{=ErOLa263}Torch" is_merchandise="false" body_name="bo_mace_a" recalculate_body="true" mesh="torch_g" prefab="torch_a_wm_only_flame" culture="Culture.ikoku" value="4" weight="0.2" Type="OneHandedWeapon" item_holsters="abdomen_left">
+		<ItemComponent>
+			<Weapon weapon_class="OneHandedAxe" weapon_balance="100" thrust_speed="78" speed_rating="97" missile_speed="0" weapon_length="65" swing_damage="6" swing_damage_type="Blunt" item_usage="torch" physics_material="metal_weapon">
+				<WeaponFlags MeleeWeapon="true" />
+			</Weapon>
+		</ItemComponent>
+		<Flags DropOnWeaponChange="true" ForceAttachOffHandPrimaryItemBone="true" HeldInOffHand="true" HasToBeHeldUp="true" />
+	</Item>
+	<CraftedItem id="peasant_pickaxe_1_t1" name="{=zUFRE9y4}Pickaxe" crafting_template="OneHandedAxe" modifier_group="cheap_weapon">
+		<Pieces>
+			<Piece id="axe_craft_37_head" Type="Blade" scale_factor="100" />
+			<Piece id="axe_craft_20_handle" Type="Handle" scale_factor="100" />
+		</Pieces>
+	</CraftedItem>
+	<CraftedItem id="wooden_sword_t1" name="{=1HWRwbwT}Wooden Sword" is_merchandise="false" crafting_template="OneHandedSword" has_modifier="false">
+		<Pieces>
+			<Piece id="wood_blade_1" Type="Blade" scale_factor="110" />
+			<Piece id="wood_guard_1" Type="Guard" />
+			<Piece id="wood_grip_1" Type="Handle" scale_factor="110" />
+			<Piece id="wood_pommel_1" Type="Pommel" />
+		</Pieces>
+	</CraftedItem>
+	<Item id="horse_whip" name="{=HclLXEaT}Horse Whip" is_merchandise="false" body_name="bo_mace_a" recalculate_body="true" mesh="horse_whip" weight="0.2" value="1" Type="OneHandedWeapon" item_holsters="sword_left_hip">
+		<ItemComponent>
+			<Weapon weapon_class="OneHandedSword" weapon_balance="100" thrust_speed="79" speed_rating="99" physics_material="wood_weapon" missile_speed="0" weapon_length="95" thrust_damage="6" thrust_damage_type="Blunt" swing_damage="5" swing_damage_type="Blunt" item_usage="onehanded_block_shield_swing">
+				<WeaponFlags MeleeWeapon="true" />
+			</Weapon>
+		</ItemComponent>
+		<Flags />
+	</Item>
+	<CraftedItem id="western_spear_1_t2" name="{=hyq1zBg5}Simple Commoner Spear" crafting_template="TwoHandedPolearm" culture="Culture.ikoku" modifier_group="polearm">
+		<Pieces>
+			<Piece id="spear_blade_1" Type="Blade" scale_factor="90" />
+			<Piece id="spear_handle_5" Type="Handle" scale_factor="90" />
+		</Pieces>
+	</CraftedItem>
+	<CraftedItem id="western_spear_3_t3" name="{=WQksMqMR}Tall Tipped Long Spear" crafting_template="TwoHandedPolearm" culture="Culture.ikoku" modifier_group="polearm">
+		<Pieces>
+			<Piece id="spear_blade_8" Type="Blade" scale_factor="90" />
+			<Piece id="spear_banner_12" Type="Guard" scale_factor="90" />
+			<Piece id="spear_handle_25" Type="Handle" scale_factor="90" />
+		</Pieces>
+	</CraftedItem>
+	<CraftedItem id="vlandia_lance_2_t4" name="{=o5kKAbRu}Knight Lance" crafting_template="TwoHandedPolearm" culture="Culture.ikoku" modifier_group="polearm">
+		<Pieces>
+			<Piece id="spear_blade_11" Type="Blade" scale_factor="110" />
+			<Piece id="spear_handle_20" Type="Handle" scale_factor="110" />
+		</Pieces>
+	</CraftedItem>
+	<CraftedItem id="falchion_sword_t2" name="{=IM2SamZ8}Falchion" crafting_template="OneHandedSword" modifier_group="sword">
+		<Pieces>
+			<Piece id="vlandian_blade_9" Type="Blade" scale_factor="100" />
+			<Piece id="khuzait_guard_2" Type="Guard" scale_factor="90" />
+			<Piece id="cleaver_grip_5" Type="Handle" scale_factor="100" />
+			<Piece id="vlandian_pommel_10" Type="Pommel" scale_factor="100" />
+		</Pieces>
+	</CraftedItem>
+	<CraftedItem id="short_sword_t3" name="{=cRCkC36E}Short Sword" crafting_template="OneHandedSword" modifier_group="sword">
+		<Pieces>
+			<Piece id="sturgian_blade_9" Type="Blade" scale_factor="100" />
+			<Piece id="vlandian_guard_2" Type="Guard" scale_factor="100" />
+			<Piece id="vlandian_grip_23" Type="Handle" scale_factor="100" />
+			<Piece id="vlandian_pommel_8" Type="Pommel" scale_factor="100" />
+		</Pieces>
+	</CraftedItem>
+	<CraftedItem id="cleaver_sword_t3" name="{=mfeM775z}Cleaver" crafting_template="OneHandedSword" modifier_group="sword">
+		<Pieces>
+			<Piece id="cleaver_blade_1" Type="Blade" scale_factor="100" />
+			<Piece id="cleaver_guard_1" Type="Guard" scale_factor="100" />
+			<Piece id="sturgian_grip_14" Type="Handle" scale_factor="100" />
+			<Piece id="sturgian_pommel_1" Type="Pommel" scale_factor="100" />
+		</Pieces>
+	</CraftedItem>
+	<CraftedItem id="ridged_sabre_sword_t4" name="{=8fK5E68M}Ridged Saber " crafting_template="OneHandedSword" culture="Culture.ikoku" modifier_group="sword">
+		<Pieces>
+			<Piece id="khuzait_blade_8" Type="Blade" scale_factor="90" />
+			<Piece id="empire_guard_1" Type="Guard" scale_factor="100" />
+			<Piece id="khuzait_noble_grip_3" Type="Handle" scale_factor="100" />
+			<Piece id="khuzait_noble_pommel_4" Type="Pommel" scale_factor="100" />
+		</Pieces>
+	</CraftedItem>
+	<CraftedItem id="pugio" name="{=bVzkrtUc}Pugio" crafting_template="Dagger" culture="Culture.ikoku" modifier_group="sword">
+		<Pieces>
+			<Piece id="dagger_blade_11" Type="Blade" scale_factor="90" />
+			<Piece id="sturgian_dagger_guard_1" Type="Guard" scale_factor="90" />
+			<Piece id="aserai_grip_8" Type="Handle" />
+			<Piece id="empire_pommel_1" Type="Pommel" scale_factor="109" />
+		</Pieces>
+	</CraftedItem>
+	<CraftedItem id="battania_mace_1_t2" name="{=knobbedclubweapon}Knobbed Club" crafting_template="Mace" culture="Culture.ikoku" modifier_group="mace">
+		<Pieces>
+			<Piece id="mace_head_6" Type="Blade" scale_factor="100" />
+			<Piece id="mace_handle_3" Type="Handle" scale_factor="100" />
+		</Pieces>
+	</CraftedItem>
+	<Item id="hunting_bow" name="{=wltdyF2j}Hunting Bow" body_name="bo_composite_shotbow_h" mesh="shortbow_h" culture="Culture.ikoku" weight="0.3" difficulty="0" appearance="1" Type="Bow" item_holsters="bow_hip:bow_hip_2:bow_back:bow_back_2">
+		<ItemComponent>
+			<Weapon weapon_class="Bow" ammo_class="Arrow" ammo_limit="1" thrust_speed="75" speed_rating="87" missile_speed="64" weapon_length="110" accuracy="85" thrust_damage="45" thrust_damage_type="Pierce" item_usage="bow" physics_material="wood_weapon" center_of_mass="0.1,0,-0.15" modifier_group="bow">
+				<WeaponFlags RangedWeapon="true" HasString="true" StringHeldByHand="true" NotUsableWithOneHand="true" TwoHandIdleOnMount="true" AutoReload="true" UnloadWhenSheathed="true" />
+			</Weapon>
+		</ItemComponent>
+		<Flags ForceAttachOffHandPrimaryItemBone="true" />
+	</Item>
+	<Item id="nordic_shortbow" name="{=tEimkEsU}Nordic Shortbow" body_name="bo_composite_shotbow_c" mesh="shortbow_e" culture="Culture.ikoku" weight="0.3" difficulty="30" appearance="0.6" Type="Bow" item_holsters="bow_hip:bow_hip_2:bow_back:bow_back_2">
+		<ItemComponent>
+			<Weapon weapon_class="Bow" ammo_class="Arrow" ammo_limit="1" thrust_speed="82" speed_rating="89" missile_speed="71" weapon_length="108" accuracy="95" thrust_damage="52" thrust_damage_type="Pierce" item_usage="bow" physics_material="wood_weapon" center_of_mass="0.1,0,-0.15" modifier_group="bow">
+				<WeaponFlags RangedWeapon="true" HasString="true" StringHeldByHand="true" NotUsableWithOneHand="true" TwoHandIdleOnMount="true" AutoReload="true" UnloadWhenSheathed="true" />
+			</Weapon>
+		</ItemComponent>
+		<Flags ForceAttachOffHandPrimaryItemBone="true" />
+	</Item>
+	<CraftedItem id="leafblade_throwing_knife" name="{=te48yHa8}Leafblade Throwing Knife" culture="Culture.ikoku" crafting_template="ThrowingKnife" modifier_group="knife_throwing">
+		<Pieces>
+			<Piece id="dagger_blade_11" Type="Blade" scale_factor="90" />
+			<Piece id="sturgian_dagger_guard_5" Type="Guard" scale_factor="110" />
+			<Piece id="khuzait_grip_2" Type="Handle" />
+			<Piece id="vlandian_pommel_1" Type="Pommel" />
+		</Pieces>
+	</CraftedItem>
+	<Item id="steppe_arrows" name="{=XbwDj80t}Steppe Arrows" body_name="bo_capsule_arrow" holster_body_name="bo_axe_short" mesh="arrow_bl_e" culture="Culture.ikoku" weight="0.036" appearance="1" flying_mesh="arrow_bl_flying" holster_mesh="arrow_bl_e_quiver" holster_mesh_with_weapon="arrow_bl_e_quiver" Type="Arrows" item_holsters="quiver_back_lower:quiver_back_lower_2" holster_position_shift="0.0,0.0,-0.0">
+		<ItemComponent>
+			<Weapon weapon_class="Arrow" stack_amount="24" thrust_speed="0" speed_rating="0" physics_material="missile" missile_speed="10" weapon_length="97" thrust_damage="2" thrust_damage_type="Pierce" item_usage="arrow_right" passby_sound_code="event:/mission/combat/missile/passby" rotation="0, -80, 25" sticking_position="0,-0.97,0" sticking_rotation="90,0,0" center_of_mass="-0.00,0.05,-0.00" modifier_group="arrow">
+				<WeaponFlags Consumable="true" AmmoSticksWhenShot="true" AmmoBreaksOnBounceBack="true" />
+			</Weapon>
+		</ItemComponent>
+		<Flags />
+	</Item>
+	<Item id="blunt_arrows" name="{=DC0qJkVs}Blunt Arrows" is_merchandise="false" body_name="bo_capsule_arrow" holster_body_name="bo_axe_short" mesh="arrow_bl_i" holster_mesh="arrow_bl_i_quiver" holster_mesh_with_weapon="arrow_bl_i_quiver" culture="Culture.ikoku" weight="0.05" flying_mesh="arrow_bl_flying" appearance="1" Type="Arrows" item_holsters="quiver_back_middle:quiver_back_top:quiver_bolts:quiver_bolts_2" holster_position_shift="0.0,0.0,0.15">
+		<ItemComponent>
+			<Weapon weapon_class="Arrow" stack_amount="30" physics_material="missile" thrust_speed="0" speed_rating="0" missile_speed="10" weapon_length="95" thrust_damage="2" thrust_damage_type="Blunt" item_usage="arrow_right" passby_sound_code="event:/mission/combat/missile/passby" rotation="0, -80, 25" sticking_position="0,-0.95,0" sticking_rotation="90,0,0" center_of_mass="0,0,-0.13">
+				<WeaponFlags Consumable="true" AmmoSticksWhenShot="true" AmmoBreaksOnBounceBack="true" />
+			</Weapon>
+		</ItemComponent>
+		<Flags />
+	</Item>
+</Items>

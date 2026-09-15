@@ -3194,92 +3194,42 @@
   <string id="TAIKOU_troop_yari_ashigaru" text="枪足轻" />
   <string id="TAIKOU_troop_yumi_ashigaru" text="弓足轻" />
 <!-- ==== 战无2 装备名（tools/sw2-pipeline/gen_armor_items.py 产出，禁止手改）==== -->
-  <string id="TAIKOU_musashi_do_a" text="野袴道服" />
-  <string id="TAIKOU_kotaro_do_a" text="风魔忍装束" />
-  <string id="TAIKOU_nene_do_a" text="桐纹打挂" />
-  <string id="TAIKOU_kanetsugu_do_a" text="黑威当世具足" />
-  <string id="TAIKOU_ginchiyo_do_a" text="白威女具足" />
-  <string id="TAIKOU_yoshihiro_do_a" text="黑漆岛津具足" />
-  <string id="TAIKOU_sakon_do_a" text="黑漆大袖具足" />
-  <string id="TAIKOU_nagamasa_do_a" text="龟甲纹具足" />
-  <string id="TAIKOU_mitsunari_do_a" text="白威九曜纹具足" />
-  <string id="TAIKOU_ieyasu_do_a" text="金陀美具足" />
-  <string id="TAIKOU_inahime_do_a" text="红威女具足" />
-  <string id="TAIKOU_tadakatsu_do_a" text="黑威具足" />
-  <string id="TAIKOU_hideyoshi_do_a" text="金小札桐纹具足" />
-  <string id="TAIKOU_rammaru_do_a" text="白纶子小袖" />
-  <string id="TAIKOU_hanzo_do_a" text="伊贺忍装束" />
-  <string id="TAIKOU_nouhime_do_a" text="抚子纹打挂" />
-  <string id="TAIKOU_masamune_do_a" text="黑漆五枚胴具足" />
-  <string id="TAIKOU_shingen_do_a" text="白威胴丸" />
-  <string id="TAIKOU_katsuie_do_a" text="赤威具足" />
-  <string id="TAIKOU_kojiro_do_a" text="剑客装束" />
-  <string id="TAIKOU_magoichi_do_a" text="八咫乌火绳具足" />
-  <string id="TAIKOU_okuni_do_a" text="巫女装束" />
-  <string id="TAIKOU_oichi_do_a" text="绯地打挂" />
-  <string id="TAIKOU_kenshin_do_a" text="绀威胴丸" />
-  <string id="TAIKOU_mitsuhide_do_a" text="水色桔梗威具足" />
-  <string id="TAIKOU_nobunaga_do_a" text="南蛮胴具足" />
-  <string id="TAIKOU_keiji_do_a" text="朱威大袖具足" />
-  <string id="TAIKOU_yukimura_do_a" text="绯威赤备具足" />
-<!-- ==== 战无2 武器名（tools/sw2-pipeline/gen_weapon_items.py 产出，禁止手改）==== -->
-  <string id="TAIKOU_musashi_weapon_a" text="双剑" />
-  <string id="TAIKOU_kotaro_weapon_a" text="铁笼手" />
-  <string id="TAIKOU_nene_weapon_a" text="飞刀" />
-  <string id="TAIKOU_kanetsugu_weapon_a" text="宝剑" />
-  <string id="TAIKOU_ginchiyo_weapon_a" text="稻妻刀" />
-  <string id="TAIKOU_yoshihiro_weapon_a" text="丸太槌" />
-  <string id="TAIKOU_sakon_weapon_a" text="战场刀" />
-  <string id="TAIKOU_nagamasa_weapon_a" text="锥矛" />
-  <string id="TAIKOU_mitsunari_weapon_a" text="义扇" />
-  <string id="TAIKOU_ieyasu_weapon_a" text="筒枪" />
-  <string id="TAIKOU_inahime_weapon_a" text="长弓" />
-  <string id="TAIKOU_tadakatsu_weapon_a" text="豪枪" />
-  <string id="TAIKOU_hideyoshi_weapon_a" text="三筋杖" />
-  <string id="TAIKOU_rammaru_weapon_a" text="野太刀" />
-  <string id="TAIKOU_hanzo_weapon_a" text="锁镰" />
-  <string id="TAIKOU_nouhime_weapon_a" text="蜘蛛" />
-  <string id="TAIKOU_masamune_weapon_a" text="阵太刀" />
-  <string id="TAIKOU_shingen_weapon_a" text="将配" />
-  <string id="TAIKOU_katsuie_weapon_a" text="二丁斧" />
-  <string id="TAIKOU_kojiro_weapon_a" text="子暗丸" />
-  <string id="TAIKOU_magoichi_weapon_a" text="种子岛" />
-  <string id="TAIKOU_okuni_weapon_a" text="番伞" />
-  <string id="TAIKOU_oichi_weapon_a" text="剑玉·梅" />
-  <string id="TAIKOU_kenshin_weapon_a" text="七握刀" />
-  <string id="TAIKOU_mitsuhide_weapon_a" text="业物" />
-  <string id="TAIKOU_nobunaga_weapon_a" text="鬼切" />
-  <string id="TAIKOU_keiji_weapon_a" text="二又矛" />
-  <string id="TAIKOU_yukimura_weapon_a" text="十文字枪" />
-<!-- ==== 战无2 头盔名（tools/sw2-pipeline/gen_armor_items.py 产出，禁止手改）==== -->
-  <string id="TAIKOU_musashi_helmet_a" text="阵笠" />
-  <string id="TAIKOU_kotaro_helmet_a" text="风魔黑头巾" />
-  <string id="TAIKOU_nene_helmet_a" text="桐纹前立兜" />
-  <string id="TAIKOU_kanetsugu_helmet_a" text="爱染明王前立兜" />
-  <string id="TAIKOU_ginchiyo_helmet_a" text="祇园守前立兜" />
-  <string id="TAIKOU_yoshihiro_helmet_a" text="丸十前立兜" />
-  <string id="TAIKOU_sakon_helmet_a" text="黑漆筋兜" />
-  <string id="TAIKOU_nagamasa_helmet_a" text="三盛龟甲前立兜" />
-  <string id="TAIKOU_mitsunari_helmet_a" text="大一大万大吉前立兜" />
-  <string id="TAIKOU_ieyasu_helmet_a" text="金陀美具足附属兜" />
-  <string id="TAIKOU_inahime_helmet_a" text="红威鹿角胁立兜" />
-  <string id="TAIKOU_tadakatsu_helmet_a" text="鹿角胁立兜" />
-  <string id="TAIKOU_hideyoshi_helmet_a" text="马蔺后立兜" />
-  <string id="TAIKOU_rammaru_helmet_a" text="鹤丸前立兜" />
-  <string id="TAIKOU_hanzo_helmet_a" text="伊贺黑头巾" />
-  <string id="TAIKOU_nouhime_helmet_a" text="抚子前立兜" />
-  <string id="TAIKOU_masamune_helmet_a" text="俱利伽罗龙前立兜" />
-  <string id="TAIKOU_shingen_helmet_a" text="诹访法性兜" />
-  <string id="TAIKOU_katsuie_helmet_a" text="雁金前立兜" />
-  <string id="TAIKOU_kojiro_helmet_a" text="阵笠" />
-  <string id="TAIKOU_magoichi_helmet_a" text="八咫乌前立兜" />
-  <string id="TAIKOU_okuni_helmet_a" text="巫女头巾" />
-  <string id="TAIKOU_oichi_helmet_a" text="木瓜前立兜" />
-  <string id="TAIKOU_kenshin_helmet_a" text="白头巾" />
-  <string id="TAIKOU_mitsuhide_helmet_a" text="桔梗前立兜" />
-  <string id="TAIKOU_nobunaga_helmet_a" text="唐冠形兜" />
-  <string id="TAIKOU_keiji_helmet_a" text="梅钵前立兜" />
-  <string id="TAIKOU_yukimura_helmet_a" text="六文钱前立兜" />
+  <string id="TAIKOU_yukimura_do_a" text="真田幸村 当世具足" />
+  <string id="TAIKOU_keiji_do_a" text="前田庆次 当世具足" />
+  <string id="TAIKOU_nobunaga_do_a" text="织田信长 当世具足" />
+  <string id="TAIKOU_mitsuhide_do_a" text="明智光秀 当世具足" />
+  <string id="TAIKOU_kenshin_do_a" text="上杉谦信 当世具足" />
+  <string id="TAIKOU_oichi_do_a" text="阿市 当世具足" />
+  <string id="TAIKOU_okuni_do_a" text="出云阿国 当世具足" />
+  <string id="TAIKOU_magoichi_do_a" text="杂贺孙一 当世具足" />
+  <string id="TAIKOU_kojiro_do_a" text="佐佐木小次郎 当世具足" />
+  <string id="TAIKOU_katsuie_do_a" text="柴田胜家 当世具足" />
+  <string id="TAIKOU_shingen_do_a" text="武田信玄 当世具足" />
+  <string id="TAIKOU_masamune_do_a" text="伊达政宗 当世具足" />
+  <string id="TAIKOU_nouhime_do_a" text="归蝶 当世具足" />
+  <string id="TAIKOU_hanzo_do_a" text="服部半藏 当世具足" />
+  <string id="TAIKOU_rammaru_do_a" text="森兰丸 当世具足" />
+  <string id="TAIKOU_hideyoshi_do_a" text="丰臣秀吉 当世具足" />
+  <string id="TAIKOU_tadakatsu_do_a" text="本多忠胜 当世具足" />
+  <string id="TAIKOU_inahime_do_a" text="稻姬 当世具足" />
+  <string id="TAIKOU_ieyasu_do_a" text="德川家康 当世具足" />
+  <string id="TAIKOU_mitsunari_do_a" text="石田三成 当世具足" />
+  <string id="TAIKOU_nagamasa_do_a" text="浅井长政 当世具足" />
+  <string id="TAIKOU_sakon_do_a" text="岛左近 当世具足" />
+  <string id="TAIKOU_yoshihiro_do_a" text="岛津义弘 当世具足" />
+  <string id="TAIKOU_ginchiyo_do_a" text="訚千代 当世具足" />
+  <string id="TAIKOU_kanetsugu_do_a" text="直江兼续 当世具足" />
+  <string id="TAIKOU_nene_do_a" text="宁宁 当世具足" />
+  <string id="TAIKOU_kotaro_do_a" text="风魔小太郎 当世具足" />
+  <string id="TAIKOU_musashi_do_a" text="宫本武藏 当世具足" />
+  <string id="TAIKOU_shingen_helmet_a" text="武田信玄 兜" />
+  <string id="TAIKOU_masamune_helmet_a" text="伊达政宗 兜" />
+  <string id="TAIKOU_hanzo_helmet_a" text="服部半藏 兜" />
+  <string id="TAIKOU_hideyoshi_helmet_a" text="丰臣秀吉 兜" />
+  <string id="TAIKOU_tadakatsu_helmet_a" text="本多忠胜 兜" />
+  <string id="TAIKOU_ieyasu_helmet_a" text="德川家康 兜" />
+  <string id="TAIKOU_nagamasa_helmet_a" text="浅井长政 兜" />
+  <string id="TAIKOU_kanetsugu_helmet_a" text="直江兼续 兜" />
 <!-- ==== 生成块：英雄/家族/王国名字（Scripts/gen_taikou_era_world.py 产出，禁止手改）==== -->
   <string id="TAIKOU_clan_akamatsu_1" text="赤松" />
   <string id="TAIKOU_clan_akamatsu_2" text="赤松" />

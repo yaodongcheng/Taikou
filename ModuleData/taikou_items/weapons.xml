@@ -135,4 +135,369 @@
 		</ItemComponent>
 		<Flags />
 	</Item>
+	<!-- bolt_e：原版弹药定义拷入（远程武器要自给；本块由 gen_weapon_items.py 产出） -->
+<Item
+		id="bolt_e"
+		name="{=I67Avuos}Light Quarrels"
+		body_name="bo_capsule_arrow"
+		holster_body_name="bo_axe_short"
+		mesh="bolt_bl_e"
+		holster_mesh="bolt_bl_e_quiver"
+		holster_mesh_with_weapon="bolt_bl_e_quiver"
+		flying_mesh="bolt_bl_flying"
+		culture="Culture.ikoku"
+		weight="0.04"
+		appearance="1"
+		Type="Bolts"
+		item_holsters="quiver_bolts:quiver_bolts_2:quiver_back_middle:quiver_back_top">
+		<ItemComponent>
+			<Weapon
+				weapon_class="Bolt"
+				stack_amount="18"
+				thrust_speed="0"
+				thrust_damage="1"
+				thrust_damage_type="Pierce"
+				speed_rating="0"
+				missile_speed="10"
+				weapon_length="37"
+				item_usage=""
+				passby_sound_code="event:/mission/combat/missile/passby"
+				rotation="180, 0, 0"
+				physics_material="missile"
+				sticking_position="0,-0.37,0"
+				sticking_rotation="90,0,0"
+				center_of_mass="0,0,-0.1"
+				modifier_group="bolt">
+				<WeaponFlags
+					AttachAmmoToVisual="true"
+					Consumable="true"
+					AmmoSticksWhenShot="true"
+					AmmoBreaksOnBounceBack="true" />
+			</Weapon>
+		</ItemComponent>
+		<Flags
+			ForceAttachOffHandPrimaryItemBone="true" />
+	</Item>
+	<!-- piercing_arrows：原版弹药定义拷入（远程武器要自给；本块由 gen_weapon_items.py 产出） -->
+<Item
+		id="piercing_arrows"
+		culture="Culture.ikoku"
+		name="{=rdKSIamN}Piercing Arrows"
+		body_name="bo_capsule_arrow"
+		holster_body_name="bo_axe_short"
+		mesh="arrow_bl_a"
+		holster_mesh="arrow_bl_a_quiver"
+		holster_mesh_with_weapon="arrow_bl_a_quiver"
+		weight="0.041"
+		flying_mesh="arrow_bl_flying"
+		appearance="1"
+		Type="Arrows"
+		item_holsters="quiver_back_middle:quiver_bolts_2:quiver_bolts"
+		holster_position_shift="0.0,0.0,0.15">
+		<ItemComponent>
+			<Weapon
+				weapon_class="Arrow"
+				stack_amount="23"
+				physics_material="missile"
+				thrust_speed="0"
+				speed_rating="0"
+				missile_speed="10"
+				weapon_length="97"
+				thrust_damage="4"
+				thrust_damage_type="Pierce"
+				item_usage="arrow_right"
+				passby_sound_code="event:/mission/combat/missile/passby"
+				rotation="0, -80, 25"
+				sticking_position="0,-0.97,0"
+				sticking_rotation="90,0,0"
+				center_of_mass="0,0,-0.13"
+				modifier_group="arrow">
+				<WeaponFlags
+					Consumable="true"
+					AmmoSticksWhenShot="true"
+					AmmoBreaksOnBounceBack="true" />
+			</Weapon>
+		</ItemComponent>
+		<Flags />
+	</Item>
+	<!-- 真田幸村 的枪（战无2 解包件重定向；网格 tools/armor-pipeline/out/taikou_yukimura_weapon_a.fbx）
+	     普通物品：挂进 EquipmentRoster 只决定初始装备，可被扒/被偷/作战利品。 -->
+	<Item id="taikou_yukimura_weapon_a" name="{=TAIKOU_yukimura_weapon_a}Sanada Nobushige's Spear" body_name="bo_spear_b" mesh="taikou_yukimura_weapon_a" culture="Culture.ikoku" weight="3.0" value="30000" difficulty="0" appearance="1.0" Type="TwoHandedWeapon" item_holsters="polearm_back">
+		<ItemComponent>
+			<Weapon weapon_class="TwoHandedPolearm" thrust_speed="90" speed_rating="85" weapon_length="220" swing_damage="70" swing_damage_type="Cut" thrust_damage="130" thrust_damage_type="Pierce" item_usage="polearm_block_thrust" physics_material="wood_weapon" center_of_mass="0,0,0.4">
+				<WeaponFlags MeleeWeapon="true" />
+			</Weapon>
+		</ItemComponent>
+		<Flags />
+	</Item>
+	<!-- 前田庆次 的枪（战无2 解包件重定向；网格 tools/armor-pipeline/out/taikou_keiji_weapon_a.fbx）
+	     普通物品：挂进 EquipmentRoster 只决定初始装备，可被扒/被偷/作战利品。 -->
+	<Item id="taikou_keiji_weapon_a" name="{=TAIKOU_keiji_weapon_a}Maeda Keiji's Spear" body_name="bo_spear_b" mesh="taikou_keiji_weapon_a" culture="Culture.ikoku" weight="3.0" value="30000" difficulty="0" appearance="1.0" Type="TwoHandedWeapon" item_holsters="polearm_back">
+		<ItemComponent>
+			<Weapon weapon_class="TwoHandedPolearm" thrust_speed="90" speed_rating="85" weapon_length="200" swing_damage="70" swing_damage_type="Cut" thrust_damage="130" thrust_damage_type="Pierce" item_usage="polearm_block_thrust" physics_material="wood_weapon" center_of_mass="0,0,0.4">
+				<WeaponFlags MeleeWeapon="true" />
+			</Weapon>
+		</ItemComponent>
+		<Flags />
+	</Item>
+	<!-- 织田信长 的太刀（战无2 解包件重定向；网格 tools/armor-pipeline/out/taikou_nobunaga_weapon_a.fbx）
+	     普通物品：挂进 EquipmentRoster 只决定初始装备，可被扒/被偷/作战利品。 -->
+	<Item id="taikou_nobunaga_weapon_a" name="{=TAIKOU_nobunaga_weapon_a}Oda Nobunaga's Katana" body_name="bo_sword_one_handed" mesh="taikou_nobunaga_weapon_a" culture="Culture.ikoku" weight="2.0" value="35000" difficulty="0" appearance="1.0" Type="TwoHandedWeapon" item_holsters="sword_left_hip">
+		<ItemComponent>
+			<Weapon weapon_class="TwoHandedSword" thrust_speed="97" speed_rating="92" weapon_length="107" swing_damage="140" swing_damage_type="Cut" thrust_damage="100" thrust_damage_type="Pierce" item_usage="twohanded_block_swing_thrust" physics_material="metal_weapon" center_of_mass="0,0,0.4">
+				<WeaponFlags MeleeWeapon="true" TwoHandIdleOnMount="true" />
+			</Weapon>
+		</ItemComponent>
+		<Flags />
+	</Item>
+	<!-- 明智光秀 的太刀（战无2 解包件重定向；网格 tools/armor-pipeline/out/taikou_mitsuhide_weapon_a.fbx）
+	     普通物品：挂进 EquipmentRoster 只决定初始装备，可被扒/被偷/作战利品。 -->
+	<Item id="taikou_mitsuhide_weapon_a" name="{=TAIKOU_mitsuhide_weapon_a}Akechi Mitsuhide's Katana" body_name="bo_sword_one_handed" mesh="taikou_mitsuhide_weapon_a" culture="Culture.ikoku" weight="2.0" value="35000" difficulty="0" appearance="1.0" Type="TwoHandedWeapon" item_holsters="sword_left_hip">
+		<ItemComponent>
+			<Weapon weapon_class="TwoHandedSword" thrust_speed="97" speed_rating="92" weapon_length="109" swing_damage="140" swing_damage_type="Cut" thrust_damage="100" thrust_damage_type="Pierce" item_usage="twohanded_block_swing_thrust" physics_material="metal_weapon" center_of_mass="0,0,0.4">
+				<WeaponFlags MeleeWeapon="true" TwoHandIdleOnMount="true" />
+			</Weapon>
+		</ItemComponent>
+		<Flags />
+	</Item>
+	<!-- 上杉谦信 的枪（战无2 解包件重定向；网格 tools/armor-pipeline/out/taikou_kenshin_weapon_a.fbx）
+	     普通物品：挂进 EquipmentRoster 只决定初始装备，可被扒/被偷/作战利品。 -->
+	<Item id="taikou_kenshin_weapon_a" name="{=TAIKOU_kenshin_weapon_a}Uesugi Kenshin's Spear" body_name="bo_spear_b" mesh="taikou_kenshin_weapon_a" culture="Culture.ikoku" weight="3.0" value="30000" difficulty="0" appearance="1.0" Type="TwoHandedWeapon" item_holsters="polearm_back">
+		<ItemComponent>
+			<Weapon weapon_class="TwoHandedPolearm" thrust_speed="90" speed_rating="85" weapon_length="126" swing_damage="70" swing_damage_type="Cut" thrust_damage="130" thrust_damage_type="Pierce" item_usage="polearm_block_thrust" physics_material="wood_weapon" center_of_mass="0,0,0.4">
+				<WeaponFlags MeleeWeapon="true" />
+			</Weapon>
+		</ItemComponent>
+		<Flags />
+	</Item>
+	<!-- 阿市 的刀（战无2 解包件重定向；网格 tools/armor-pipeline/out/taikou_oichi_weapon_a.fbx）
+	     普通物品：挂进 EquipmentRoster 只决定初始装备，可被扒/被偷/作战利品。 -->
+	<Item id="taikou_oichi_weapon_a" name="{=TAIKOU_oichi_weapon_a}Azai Ichi's Blade" body_name="bo_mace_a" mesh="taikou_oichi_weapon_a" culture="Culture.ikoku" weight="1.2" value="25000" difficulty="0" appearance="1.0" Type="OneHandedWeapon" item_holsters="sword_left_hip">
+		<ItemComponent>
+			<Weapon weapon_class="OneHandedSword" thrust_speed="105" speed_rating="100" weapon_length="40" swing_damage="110" swing_damage_type="Cut" thrust_damage="85" thrust_damage_type="Pierce" item_usage="onehanded_block_swing_thrust" physics_material="metal_weapon">
+				<WeaponFlags MeleeWeapon="true" />
+			</Weapon>
+		</ItemComponent>
+		<Flags />
+	</Item>
+	<!-- 出云阿国 的枪（战无2 解包件重定向；网格 tools/armor-pipeline/out/taikou_okuni_weapon_a.fbx）
+	     普通物品：挂进 EquipmentRoster 只决定初始装备，可被扒/被偷/作战利品。 -->
+	<Item id="taikou_okuni_weapon_a" name="{=TAIKOU_okuni_weapon_a}Izumo no Okuni's Spear" body_name="bo_spear_b" mesh="taikou_okuni_weapon_a" culture="Culture.ikoku" weight="3.0" value="30000" difficulty="0" appearance="1.0" Type="TwoHandedWeapon" item_holsters="polearm_back">
+		<ItemComponent>
+			<Weapon weapon_class="TwoHandedPolearm" thrust_speed="90" speed_rating="85" weapon_length="75" swing_damage="70" swing_damage_type="Cut" thrust_damage="130" thrust_damage_type="Pierce" item_usage="polearm_block_thrust" physics_material="wood_weapon" center_of_mass="0,0,0.4">
+				<WeaponFlags MeleeWeapon="true" />
+			</Weapon>
+		</ItemComponent>
+		<Flags />
+	</Item>
+	<!-- 杂贺孙一 的铁炮（战无2 解包件重定向；网格 tools/armor-pipeline/out/taikou_magoichi_weapon_a.fbx）
+	     普通物品：挂进 EquipmentRoster 只决定初始装备，可被扒/被偷/作战利品。 -->
+	<Item id="taikou_magoichi_weapon_a" name="{=TAIKOU_magoichi_weapon_a}Saika Magoichi's Matchlock" body_name="bo_composite_crossbows" mesh="taikou_magoichi_weapon_a" culture="Culture.ikoku" weight="4.5" value="50000" difficulty="0" appearance="1.0" Type="Crossbow" item_holsters="crossbow_back">
+		<ItemComponent>
+			<Weapon weapon_class="Crossbow" ammo_class="Bolt" ammo_limit="1" missile_speed="600" accuracy="40" thrust_speed="93" speed_rating="88" weapon_length="159" thrust_damage="200" thrust_damage_type="Pierce" item_usage="crossbow" physics_material="wood_weapon" center_of_mass="0,0,0.4">
+				<WeaponFlags RangedWeapon="true" HasString="true" UseHandAsThrowBase="true" NotUsableWithOneHand="true" TwoHandIdleOnMount="true" BonusAgainstShield="true" />
+			</Weapon>
+		</ItemComponent>
+		<Flags />
+	</Item>
+	<!-- 佐佐木小次郎 的太刀（战无2 解包件重定向；网格 tools/armor-pipeline/out/taikou_kojiro_weapon_a.fbx）
+	     普通物品：挂进 EquipmentRoster 只决定初始装备，可被扒/被偷/作战利品。 -->
+	<Item id="taikou_kojiro_weapon_a" name="{=TAIKOU_kojiro_weapon_a}Sasaki Kojiroo's Katana" body_name="bo_sword_one_handed" mesh="taikou_kojiro_weapon_a" culture="Culture.ikoku" weight="2.0" value="35000" difficulty="0" appearance="1.0" Type="TwoHandedWeapon" item_holsters="sword_left_hip">
+		<ItemComponent>
+			<Weapon weapon_class="TwoHandedSword" thrust_speed="97" speed_rating="92" weapon_length="171" swing_damage="140" swing_damage_type="Cut" thrust_damage="100" thrust_damage_type="Pierce" item_usage="twohanded_block_swing_thrust" physics_material="metal_weapon" center_of_mass="0,0,0.4">
+				<WeaponFlags MeleeWeapon="true" TwoHandIdleOnMount="true" />
+			</Weapon>
+		</ItemComponent>
+		<Flags />
+	</Item>
+	<!-- 柴田胜家 的枪（战无2 解包件重定向；网格 tools/armor-pipeline/out/taikou_katsuie_weapon_a.fbx）
+	     普通物品：挂进 EquipmentRoster 只决定初始装备，可被扒/被偷/作战利品。 -->
+	<Item id="taikou_katsuie_weapon_a" name="{=TAIKOU_katsuie_weapon_a}Shibata Katsuie's Spear" body_name="bo_axe_longer_a" mesh="taikou_katsuie_weapon_a" culture="Culture.ikoku" weight="3.0" value="30000" difficulty="0" appearance="1.0" Type="TwoHandedWeapon" item_holsters="polearm_back">
+		<ItemComponent>
+			<Weapon weapon_class="TwoHandedPolearm" thrust_speed="90" speed_rating="85" weapon_length="216" swing_damage="70" swing_damage_type="Cut" thrust_damage="130" thrust_damage_type="Pierce" item_usage="polearm_block_thrust" physics_material="wood_weapon" center_of_mass="0,0,0.4">
+				<WeaponFlags MeleeWeapon="true" />
+			</Weapon>
+		</ItemComponent>
+		<Flags />
+	</Item>
+	<!-- 武田信玄 的刀（战无2 解包件重定向；网格 tools/armor-pipeline/out/taikou_shingen_weapon_a.fbx）
+	     普通物品：挂进 EquipmentRoster 只决定初始装备，可被扒/被偷/作战利品。 -->
+	<Item id="taikou_shingen_weapon_a" name="{=TAIKOU_shingen_weapon_a}Takeda Shingen's Blade" body_name="bo_mace_a" mesh="taikou_shingen_weapon_a" culture="Culture.ikoku" weight="1.2" value="25000" difficulty="0" appearance="1.0" Type="OneHandedWeapon" item_holsters="sword_left_hip">
+		<ItemComponent>
+			<Weapon weapon_class="OneHandedSword" thrust_speed="105" speed_rating="100" weapon_length="43" swing_damage="110" swing_damage_type="Cut" thrust_damage="85" thrust_damage_type="Pierce" item_usage="onehanded_block_swing_thrust" physics_material="metal_weapon">
+				<WeaponFlags MeleeWeapon="true" />
+			</Weapon>
+		</ItemComponent>
+		<Flags />
+	</Item>
+	<!-- 伊达政宗 的太刀（战无2 解包件重定向；网格 tools/armor-pipeline/out/taikou_masamune_weapon_a.fbx）
+	     普通物品：挂进 EquipmentRoster 只决定初始装备，可被扒/被偷/作战利品。 -->
+	<Item id="taikou_masamune_weapon_a" name="{=TAIKOU_masamune_weapon_a}Date Masamune's Katana" body_name="bo_sword_one_handed" mesh="taikou_masamune_weapon_a" culture="Culture.ikoku" weight="2.0" value="35000" difficulty="0" appearance="1.0" Type="TwoHandedWeapon" item_holsters="sword_left_hip">
+		<ItemComponent>
+			<Weapon weapon_class="TwoHandedSword" thrust_speed="97" speed_rating="92" weapon_length="113" swing_damage="140" swing_damage_type="Cut" thrust_damage="100" thrust_damage_type="Pierce" item_usage="twohanded_block_swing_thrust" physics_material="metal_weapon" center_of_mass="0,0,0.4">
+				<WeaponFlags MeleeWeapon="true" TwoHandIdleOnMount="true" />
+			</Weapon>
+		</ItemComponent>
+		<Flags />
+	</Item>
+	<!-- 归蝶 的太刀（战无2 解包件重定向；网格 tools/armor-pipeline/out/taikou_nouhime_weapon_a.fbx）
+	     普通物品：挂进 EquipmentRoster 只决定初始装备，可被扒/被偷/作战利品。 -->
+	<Item id="taikou_nouhime_weapon_a" name="{=TAIKOU_nouhime_weapon_a}Oda Kicho's Katana" body_name="bo_sword_one_handed" mesh="taikou_nouhime_weapon_a" culture="Culture.ikoku" weight="2.0" value="35000" difficulty="0" appearance="1.0" Type="TwoHandedWeapon" item_holsters="sword_left_hip">
+		<ItemComponent>
+			<Weapon weapon_class="TwoHandedSword" thrust_speed="97" speed_rating="92" weapon_length="116" swing_damage="140" swing_damage_type="Cut" thrust_damage="100" thrust_damage_type="Pierce" item_usage="twohanded_block_swing_thrust" physics_material="metal_weapon" center_of_mass="0,0,0.4">
+				<WeaponFlags MeleeWeapon="true" TwoHandIdleOnMount="true" />
+			</Weapon>
+		</ItemComponent>
+		<Flags />
+	</Item>
+	<!-- 服部半藏 的刀（战无2 解包件重定向；网格 tools/armor-pipeline/out/taikou_hanzo_weapon_a.fbx）
+	     普通物品：挂进 EquipmentRoster 只决定初始装备，可被扒/被偷/作战利品。 -->
+	<Item id="taikou_hanzo_weapon_a" name="{=TAIKOU_hanzo_weapon_a}Hattori Hanzo's Blade" body_name="bo_knife_a" mesh="taikou_hanzo_weapon_a" culture="Culture.ikoku" weight="1.2" value="25000" difficulty="0" appearance="1.0" Type="OneHandedWeapon" item_holsters="sword_left_hip">
+		<ItemComponent>
+			<Weapon weapon_class="OneHandedSword" thrust_speed="105" speed_rating="100" weapon_length="40" swing_damage="110" swing_damage_type="Cut" thrust_damage="85" thrust_damage_type="Pierce" item_usage="onehanded_block_swing_thrust" physics_material="metal_weapon">
+				<WeaponFlags MeleeWeapon="true" />
+			</Weapon>
+		</ItemComponent>
+		<Flags />
+	</Item>
+	<!-- 森兰丸 的太刀（战无2 解包件重定向；网格 tools/armor-pipeline/out/taikou_rammaru_weapon_a.fbx）
+	     普通物品：挂进 EquipmentRoster 只决定初始装备，可被扒/被偷/作战利品。 -->
+	<Item id="taikou_rammaru_weapon_a" name="{=TAIKOU_rammaru_weapon_a}Morii Ranmaru's Katana" body_name="bo_sword_one_handed" mesh="taikou_rammaru_weapon_a" culture="Culture.ikoku" weight="2.0" value="35000" difficulty="0" appearance="1.0" Type="TwoHandedWeapon" item_holsters="sword_left_hip">
+		<ItemComponent>
+			<Weapon weapon_class="TwoHandedSword" thrust_speed="97" speed_rating="92" weapon_length="143" swing_damage="140" swing_damage_type="Cut" thrust_damage="100" thrust_damage_type="Pierce" item_usage="twohanded_block_swing_thrust" physics_material="metal_weapon" center_of_mass="0,0,0.4">
+				<WeaponFlags MeleeWeapon="true" TwoHandIdleOnMount="true" />
+			</Weapon>
+		</ItemComponent>
+		<Flags />
+	</Item>
+	<!-- 丰臣秀吉 的枪（战无2 解包件重定向；网格 tools/armor-pipeline/out/taikou_hideyoshi_weapon_a.fbx）
+	     普通物品：挂进 EquipmentRoster 只决定初始装备，可被扒/被偷/作战利品。 -->
+	<Item id="taikou_hideyoshi_weapon_a" name="{=TAIKOU_hideyoshi_weapon_a}Kinoshita Hideyoshi's Spear" body_name="bo_spear_b" mesh="taikou_hideyoshi_weapon_a" culture="Culture.ikoku" weight="3.0" value="30000" difficulty="0" appearance="1.0" Type="TwoHandedWeapon" item_holsters="polearm_back">
+		<ItemComponent>
+			<Weapon weapon_class="TwoHandedPolearm" thrust_speed="90" speed_rating="85" weapon_length="238" swing_damage="70" swing_damage_type="Cut" thrust_damage="130" thrust_damage_type="Pierce" item_usage="polearm_block_thrust" physics_material="wood_weapon" center_of_mass="0,0,0.4">
+				<WeaponFlags MeleeWeapon="true" />
+			</Weapon>
+		</ItemComponent>
+		<Flags />
+	</Item>
+	<!-- 本多忠胜 的枪（战无2 解包件重定向；网格 tools/armor-pipeline/out/taikou_tadakatsu_weapon_a.fbx）
+	     普通物品：挂进 EquipmentRoster 只决定初始装备，可被扒/被偷/作战利品。 -->
+	<Item id="taikou_tadakatsu_weapon_a" name="{=TAIKOU_tadakatsu_weapon_a}Honda Tadakatsu's Spear" body_name="bo_spear_b" mesh="taikou_tadakatsu_weapon_a" culture="Culture.ikoku" weight="3.0" value="30000" difficulty="0" appearance="1.0" Type="TwoHandedWeapon" item_holsters="polearm_back">
+		<ItemComponent>
+			<Weapon weapon_class="TwoHandedPolearm" thrust_speed="90" speed_rating="85" weapon_length="264" swing_damage="70" swing_damage_type="Cut" thrust_damage="130" thrust_damage_type="Pierce" item_usage="polearm_block_thrust" physics_material="wood_weapon" center_of_mass="0,0,0.4">
+				<WeaponFlags MeleeWeapon="true" />
+			</Weapon>
+		</ItemComponent>
+		<Flags />
+	</Item>
+	<!-- 稻姬 的弓（战无2 解包件重定向；网格 tools/armor-pipeline/out/taikou_inahime_weapon_a.fbx）
+	     普通物品：挂进 EquipmentRoster 只决定初始装备，可被扒/被偷/作战利品。 -->
+	<Item id="taikou_inahime_weapon_a" name="{=TAIKOU_inahime_weapon_a}Sanada Komatsu's Bow" body_name="bo_longbow_a" mesh="taikou_inahime_weapon_a" culture="Culture.ikoku" weight="0.8" value="30000" difficulty="0" appearance="1.0" Type="Bow" item_holsters="bow_back">
+		<ItemComponent>
+			<Weapon weapon_class="Bow" ammo_class="Arrow" ammo_limit="1" missile_speed="78" accuracy="94" thrust_speed="97" speed_rating="92" weapon_length="219" thrust_damage="110" thrust_damage_type="Pierce" item_usage="bow" physics_material="wood_weapon" center_of_mass="0.15,0,0">
+				<WeaponFlags RangedWeapon="true" HasString="true" StringHeldByHand="true" NotUsableWithOneHand="true" TwoHandIdleOnMount="true" AutoReload="true" UnloadWhenSheathed="true" />
+			</Weapon>
+		</ItemComponent>
+		<Flags ForceAttachOffHandPrimaryItemBone="true" />
+	</Item>
+	<!-- 德川家康 的枪（战无2 解包件重定向；网格 tools/armor-pipeline/out/taikou_ieyasu_weapon_a.fbx）
+	     普通物品：挂进 EquipmentRoster 只决定初始装备，可被扒/被偷/作战利品。 -->
+	<Item id="taikou_ieyasu_weapon_a" name="{=TAIKOU_ieyasu_weapon_a}Tokugawa Ieyasu's Spear" body_name="bo_spear_b" mesh="taikou_ieyasu_weapon_a" culture="Culture.ikoku" weight="3.0" value="30000" difficulty="0" appearance="1.0" Type="TwoHandedWeapon" item_holsters="polearm_back">
+		<ItemComponent>
+			<Weapon weapon_class="TwoHandedPolearm" thrust_speed="90" speed_rating="85" weapon_length="223" swing_damage="70" swing_damage_type="Cut" thrust_damage="130" thrust_damage_type="Pierce" item_usage="polearm_block_thrust" physics_material="wood_weapon" center_of_mass="0,0,0.4">
+				<WeaponFlags MeleeWeapon="true" />
+			</Weapon>
+		</ItemComponent>
+		<Flags />
+	</Item>
+	<!-- 石田三成 的刀（战无2 解包件重定向；网格 tools/armor-pipeline/out/taikou_mitsunari_weapon_a.fbx）
+	     普通物品：挂进 EquipmentRoster 只决定初始装备，可被扒/被偷/作战利品。 -->
+	<Item id="taikou_mitsunari_weapon_a" name="{=TAIKOU_mitsunari_weapon_a}Ishida Mitsunari's Blade" body_name="bo_mace_a" mesh="taikou_mitsunari_weapon_a" culture="Culture.ikoku" weight="1.2" value="25000" difficulty="0" appearance="1.0" Type="OneHandedWeapon" item_holsters="sword_left_hip">
+		<ItemComponent>
+			<Weapon weapon_class="OneHandedSword" thrust_speed="105" speed_rating="100" weapon_length="72" swing_damage="110" swing_damage_type="Cut" thrust_damage="85" thrust_damage_type="Pierce" item_usage="onehanded_block_swing_thrust" physics_material="metal_weapon">
+				<WeaponFlags MeleeWeapon="true" />
+			</Weapon>
+		</ItemComponent>
+		<Flags />
+	</Item>
+	<!-- 浅井长政 的枪（战无2 解包件重定向；网格 tools/armor-pipeline/out/taikou_nagamasa_weapon_a.fbx）
+	     普通物品：挂进 EquipmentRoster 只决定初始装备，可被扒/被偷/作战利品。 -->
+	<Item id="taikou_nagamasa_weapon_a" name="{=TAIKOU_nagamasa_weapon_a}Azai Nagamasa's Spear" body_name="bo_spear_b" mesh="taikou_nagamasa_weapon_a" culture="Culture.ikoku" weight="3.0" value="30000" difficulty="0" appearance="1.0" Type="TwoHandedWeapon" item_holsters="polearm_back">
+		<ItemComponent>
+			<Weapon weapon_class="TwoHandedPolearm" thrust_speed="90" speed_rating="85" weapon_length="181" swing_damage="70" swing_damage_type="Cut" thrust_damage="130" thrust_damage_type="Pierce" item_usage="polearm_block_thrust" physics_material="wood_weapon" center_of_mass="0,0,0.4">
+				<WeaponFlags MeleeWeapon="true" />
+			</Weapon>
+		</ItemComponent>
+		<Flags />
+	</Item>
+	<!-- 岛左近 的太刀（战无2 解包件重定向；网格 tools/armor-pipeline/out/taikou_sakon_weapon_a.fbx）
+	     普通物品：挂进 EquipmentRoster 只决定初始装备，可被扒/被偷/作战利品。 -->
+	<Item id="taikou_sakon_weapon_a" name="{=TAIKOU_sakon_weapon_a}Shima Sakon's Katana" body_name="bo_sword_one_handed" mesh="taikou_sakon_weapon_a" culture="Culture.ikoku" weight="2.0" value="35000" difficulty="0" appearance="1.0" Type="TwoHandedWeapon" item_holsters="sword_left_hip">
+		<ItemComponent>
+			<Weapon weapon_class="TwoHandedSword" thrust_speed="97" speed_rating="92" weapon_length="133" swing_damage="140" swing_damage_type="Cut" thrust_damage="100" thrust_damage_type="Pierce" item_usage="twohanded_block_swing_thrust" physics_material="metal_weapon" center_of_mass="0,0,0.4">
+				<WeaponFlags MeleeWeapon="true" TwoHandIdleOnMount="true" />
+			</Weapon>
+		</ItemComponent>
+		<Flags />
+	</Item>
+	<!-- 岛津义弘 的枪（战无2 解包件重定向；网格 tools/armor-pipeline/out/taikou_yoshihiro_weapon_a.fbx）
+	     普通物品：挂进 EquipmentRoster 只决定初始装备，可被扒/被偷/作战利品。 -->
+	<Item id="taikou_yoshihiro_weapon_a" name="{=TAIKOU_yoshihiro_weapon_a}Shimazu Yoshihiro's Spear" body_name="bo_mace_a" mesh="taikou_yoshihiro_weapon_a" culture="Culture.ikoku" weight="3.0" value="30000" difficulty="0" appearance="1.0" Type="TwoHandedWeapon" item_holsters="polearm_back">
+		<ItemComponent>
+			<Weapon weapon_class="TwoHandedPolearm" thrust_speed="90" speed_rating="85" weapon_length="196" swing_damage="70" swing_damage_type="Cut" thrust_damage="130" thrust_damage_type="Pierce" item_usage="polearm_block_thrust" physics_material="wood_weapon" center_of_mass="0,0,0.4">
+				<WeaponFlags MeleeWeapon="true" />
+			</Weapon>
+		</ItemComponent>
+		<Flags />
+	</Item>
+	<!-- 訚千代 的枪（战无2 解包件重定向；网格 tools/armor-pipeline/out/taikou_ginchiyo_weapon_a.fbx）
+	     普通物品：挂进 EquipmentRoster 只决定初始装备，可被扒/被偷/作战利品。 -->
+	<Item id="taikou_ginchiyo_weapon_a" name="{=TAIKOU_ginchiyo_weapon_a}Bekki Ginchiyo's Spear" body_name="bo_spear_b" mesh="taikou_ginchiyo_weapon_a" culture="Culture.ikoku" weight="3.0" value="30000" difficulty="0" appearance="1.0" Type="TwoHandedWeapon" item_holsters="polearm_back">
+		<ItemComponent>
+			<Weapon weapon_class="TwoHandedPolearm" thrust_speed="90" speed_rating="85" weapon_length="118" swing_damage="70" swing_damage_type="Cut" thrust_damage="130" thrust_damage_type="Pierce" item_usage="polearm_block_thrust" physics_material="wood_weapon" center_of_mass="0,0,0.4">
+				<WeaponFlags MeleeWeapon="true" />
+			</Weapon>
+		</ItemComponent>
+		<Flags />
+	</Item>
+	<!-- 直江兼续 的枪（战无2 解包件重定向；网格 tools/armor-pipeline/out/taikou_kanetsugu_weapon_a.fbx）
+	     普通物品：挂进 EquipmentRoster 只决定初始装备，可被扒/被偷/作战利品。 -->
+	<Item id="taikou_kanetsugu_weapon_a" name="{=TAIKOU_kanetsugu_weapon_a}Naoe Kanetsugu's Spear" body_name="bo_spear_b" mesh="taikou_kanetsugu_weapon_a" culture="Culture.ikoku" weight="3.0" value="30000" difficulty="0" appearance="1.0" Type="TwoHandedWeapon" item_holsters="polearm_back">
+		<ItemComponent>
+			<Weapon weapon_class="TwoHandedPolearm" thrust_speed="90" speed_rating="85" weapon_length="108" swing_damage="70" swing_damage_type="Cut" thrust_damage="130" thrust_damage_type="Pierce" item_usage="polearm_block_thrust" physics_material="wood_weapon" center_of_mass="0,0,0.4">
+				<WeaponFlags MeleeWeapon="true" />
+			</Weapon>
+		</ItemComponent>
+		<Flags />
+	</Item>
+	<!-- 宁宁 的刀（战无2 解包件重定向；网格 tools/armor-pipeline/out/taikou_nene_weapon_a.fbx）
+	     普通物品：挂进 EquipmentRoster 只决定初始装备，可被扒/被偷/作战利品。 -->
+	<Item id="taikou_nene_weapon_a" name="{=TAIKOU_nene_weapon_a}Kinoshita Nene's Blade" body_name="bo_knife_a" mesh="taikou_nene_weapon_a" culture="Culture.ikoku" weight="1.2" value="25000" difficulty="0" appearance="1.0" Type="OneHandedWeapon" item_holsters="sword_left_hip">
+		<ItemComponent>
+			<Weapon weapon_class="OneHandedSword" thrust_speed="105" speed_rating="100" weapon_length="76" swing_damage="110" swing_damage_type="Cut" thrust_damage="85" thrust_damage_type="Pierce" item_usage="onehanded_block_swing_thrust" physics_material="metal_weapon">
+				<WeaponFlags MeleeWeapon="true" />
+			</Weapon>
+		</ItemComponent>
+		<Flags />
+	</Item>
+	<!-- 风魔小太郎 的刀（战无2 解包件重定向；网格 tools/armor-pipeline/out/taikou_kotaro_weapon_a.fbx）
+	     普通物品：挂进 EquipmentRoster 只决定初始装备，可被扒/被偷/作战利品。 -->
+	<Item id="taikou_kotaro_weapon_a" name="{=TAIKOU_kotaro_weapon_a}Fuuma Kotaroo's Blade" body_name="bo_mace_a" mesh="taikou_kotaro_weapon_a" culture="Culture.ikoku" weight="1.2" value="25000" difficulty="0" appearance="1.0" Type="OneHandedWeapon" item_holsters="sword_left_hip">
+		<ItemComponent>
+			<Weapon weapon_class="OneHandedSword" thrust_speed="105" speed_rating="100" weapon_length="40" swing_damage="110" swing_damage_type="Cut" thrust_damage="85" thrust_damage_type="Pierce" item_usage="onehanded_block_swing_thrust" physics_material="metal_weapon">
+				<WeaponFlags MeleeWeapon="true" />
+			</Weapon>
+		</ItemComponent>
+		<Flags />
+	</Item>
+	<!-- 宫本武藏 的太刀（战无2 解包件重定向；网格 tools/armor-pipeline/out/taikou_musashi_weapon_a.fbx）
+	     普通物品：挂进 EquipmentRoster 只决定初始装备，可被扒/被偷/作战利品。 -->
+	<Item id="taikou_musashi_weapon_a" name="{=TAIKOU_musashi_weapon_a}Miyamotoo Musashi's Katana" body_name="bo_sword_one_handed" mesh="taikou_musashi_weapon_a" culture="Culture.ikoku" weight="2.0" value="35000" difficulty="0" appearance="1.0" Type="TwoHandedWeapon" item_holsters="sword_left_hip">
+		<ItemComponent>
+			<Weapon weapon_class="TwoHandedSword" thrust_speed="97" speed_rating="92" weapon_length="114" swing_damage="140" swing_damage_type="Cut" thrust_damage="100" thrust_damage_type="Pierce" item_usage="twohanded_block_swing_thrust" physics_material="metal_weapon" center_of_mass="0,0,0.4">
+				<WeaponFlags MeleeWeapon="true" TwoHandIdleOnMount="true" />
+			</Weapon>
+		</ItemComponent>
+		<Flags />
+	</Item>
 </Items>

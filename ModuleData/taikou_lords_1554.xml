@@ -328,7 +328,7 @@
 		</face>
 		<Equipments>
 			<EquipmentRoster>
-				<equipment slot="Item0" id="Item.short_sword_t3" />
+				<equipment slot="Item0" id="Item.taikou_oichi_weapon_a" />
 				<equipment slot="Body" id="Item.taikou_oichi_do_a" />
 				<equipment slot="Leg" id="Item.leather_shoes" />
 			</EquipmentRoster>
@@ -424,7 +424,7 @@
 		</face>
 		<Equipments>
 			<EquipmentRoster>
-				<equipment slot="Item0" id="Item.short_sword_t3" />
+				<equipment slot="Item0" id="Item.taikou_ginchiyo_weapon_a" />
 				<equipment slot="Body" id="Item.taikou_ginchiyo_do_a" />
 				<equipment slot="Leg" id="Item.leather_shoes" />
 			</EquipmentRoster>
@@ -440,7 +440,7 @@
 		</face>
 		<Equipments>
 			<EquipmentRoster>
-				<equipment slot="Item0" id="Item.ridged_sabre_sword_t4" />
+				<equipment slot="Item0" id="Item.taikou_kenshin_weapon_a" />
 				<equipment slot="Item1" id="Item.leather_round_shield" />
 				<equipment slot="Body" id="Item.taikou_kenshin_do_a" />
 				<equipment slot="Gloves" id="Item.reinforced_mail_mitten" />
@@ -523,7 +523,7 @@
 		</face>
 		<Equipments>
 			<EquipmentRoster>
-				<equipment slot="Item0" id="Item.short_sword_t3" />
+				<equipment slot="Item0" id="Item.taikou_nouhime_weapon_a" />
 				<equipment slot="Body" id="Item.taikou_nouhime_do_a" />
 				<equipment slot="Leg" id="Item.leather_shoes" />
 			</EquipmentRoster>
@@ -587,7 +587,9 @@
 		</face>
 		<Equipments>
 			<EquipmentRoster>
-				<equipment slot="Item0" id="Item.short_sword_t3" />
+				<equipment slot="Item0" id="Item.taikou_inahime_weapon_a" />
+				<equipment slot="Item1" id="Item.piercing_arrows" />
+				<equipment slot="Item2" id="Item.piercing_arrows" />
 				<equipment slot="Body" id="Item.taikou_inahime_do_a" />
 				<equipment slot="Leg" id="Item.leather_shoes" />
 			</EquipmentRoster>
@@ -1015,7 +1017,7 @@
 		</face>
 		<Equipments>
 			<EquipmentRoster>
-				<equipment slot="Item0" id="Item.short_sword_t3" />
+				<equipment slot="Item0" id="Item.taikou_mitsuhide_weapon_a" />
 				<equipment slot="Body" id="Item.taikou_mitsuhide_do_a" />
 				<equipment slot="Gloves" id="Item.reinforced_mail_mitten" />
 				<equipment slot="Head" id="Item.nasal_helmet_with_mail" />
@@ -1522,7 +1524,7 @@
 		</face>
 		<Equipments>
 			<EquipmentRoster>
-				<equipment slot="Item0" id="Item.ridged_sabre_sword_t4" />
+				<equipment slot="Item0" id="Item.taikou_nobunaga_weapon_a" />
 				<equipment slot="Item1" id="Item.leather_round_shield" />
 				<equipment slot="Body" id="Item.taikou_nobunaga_do_a" />
 				<equipment slot="Gloves" id="Item.reinforced_mail_mitten" />
@@ -3418,7 +3420,7 @@
 		</face>
 		<Equipments>
 			<EquipmentRoster>
-				<equipment slot="Item0" id="Item.short_sword_t3" />
+				<equipment slot="Item0" id="Item.taikou_katsuie_weapon_a" />
 				<equipment slot="Item1" id="Item.leather_round_shield" />
 				<equipment slot="Body" id="Item.taikou_katsuie_do_a" />
 				<equipment slot="Gloves" id="Item.reinforced_mail_mitten" />
@@ -3615,7 +3617,7 @@
 		</face>
 		<Equipments>
 			<EquipmentRoster>
-				<equipment slot="Item0" id="Item.short_sword_t3" />
+				<equipment slot="Item0" id="Item.taikou_yoshihiro_weapon_a" />
 				<equipment slot="Item1" id="Item.leather_round_shield" />
 				<equipment slot="Body" id="Item.taikou_yoshihiro_do_a" />
 				<equipment slot="Gloves" id="Item.reinforced_mail_mitten" />
@@ -4176,11 +4178,11 @@
 		</face>
 		<Equipments>
 			<EquipmentRoster>
-				<equipment slot="Item0" id="Item.ridged_sabre_sword_t4" />
+				<equipment slot="Item0" id="Item.taikou_shingen_weapon_a" />
 				<equipment slot="Item1" id="Item.leather_round_shield" />
 				<equipment slot="Body" id="Item.taikou_shingen_do_a" />
 				<equipment slot="Gloves" id="Item.reinforced_mail_mitten" />
-				<equipment slot="Head" id="Item.nasal_helmet_with_mail" />
+				<equipment slot="Head" id="Item.taikou_shingen_helmet_a" />
 				<equipment slot="Leg" id="Item.leather_cavalier_boots" />
 			</EquipmentRoster>
 			<EquipmentRoster civilian="true">
@@ -4761,11 +4763,11 @@
 		</face>
 		<Equipments>
 			<EquipmentRoster>
-				<equipment slot="Item0" id="Item.short_sword_t3" />
+				<equipment slot="Item0" id="Item.taikou_ieyasu_weapon_a" />
 				<equipment slot="Item1" id="Item.leather_round_shield" />
 				<equipment slot="Body" id="Item.taikou_ieyasu_do_a" />
 				<equipment slot="Gloves" id="Item.reinforced_mail_mitten" />
-				<equipment slot="Head" id="Item.nasal_helmet_with_mail" />
+				<equipment slot="Head" id="Item.taikou_ieyasu_helmet_a" />
 				<equipment slot="Leg" id="Item.leather_cavalier_boots" />
 			</EquipmentRoster>
 			<EquipmentRoster civilian="true">
@@ -4864,8 +4866,9 @@
 		</face>
 		<Equipments>
 			<EquipmentRoster>
-				<equipment slot="Item0" id="Item.battania_mace_1_t2" />
+				<equipment slot="Item0" id="Item.taikou_hideyoshi_weapon_a" />
 				<equipment slot="Body" id="Item.taikou_hideyoshi_do_a" />
+				<equipment slot="Head" id="Item.taikou_hideyoshi_helmet_a" />
 				<equipment slot="Leg" id="Item.leather_shoes" />
 			</EquipmentRoster>
 			<EquipmentRoster civilian="true">
@@ -5894,7 +5897,7 @@
 		</face>
 		<Equipments>
 			<EquipmentRoster>
-				<equipment slot="Item0" id="Item.pugio" />
+				<equipment slot="Item0" id="Item.taikou_kotaro_weapon_a" />
 				<equipment slot="Body" id="Item.taikou_kotaro_do_a" />
 				<equipment slot="Leg" id="Item.leather_shoes" />
 			</EquipmentRoster>
