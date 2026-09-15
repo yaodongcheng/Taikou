@@ -48,10 +48,225 @@
 		</ItemComponent>
 		<Flags Civilian="true" DoesNotHideChest="true" />
 	</Item>
-	<!-- 真田幸村 当世具足（战国无双2 解包件重定向而来；网格见 tools/armor-pipeline/out/taikou_yukimura_do_a.fbx）
-	     Civilian="true" = 平民装栏也能穿。原版惯例是甲只进战斗装（Taikou 其它甲都不带），
-	     这里为方便实机查看加上了；不想要就删掉 Flags 里那一项。 -->
-	<Item id="taikou_yukimura_do_a" name="{=TAIKOU_yukimura_do_a}Sanada Yukimura's Do" subtype="body_armor" mesh="taikou_yukimura_do_a" culture="Culture.ikoku" weight="12" difficulty="0" appearance="2" Type="BodyArmor">
+	<!-- 真田幸村 的甲（战无2 解包件重定向；网格 tools/armor-pipeline/out/taikou_yukimura_do_a.fbx）
+	     普通物品：挂进 EquipmentRoster 只决定初始装备，可被扒/被偷/作战利品。 -->
+	<Item id="taikou_yukimura_do_a" name="{=TAIKOU_yukimura_do_a}Sanada Nobushige's Do" subtype="body_armor" mesh="taikou_yukimura_do_a" culture="Culture.ikoku" weight="12" difficulty="0" appearance="2" Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="42" leg_armor="12" arm_armor="12" has_gender_variations="false" covers_body="true" modifier_group="plate" material_type="Plate" />
+		</ItemComponent>
+		<Flags UseTeamColor="true" Civilian="true" />
+	</Item>
+	<!-- 前田庆次 的甲（战无2 解包件重定向；网格 tools/armor-pipeline/out/taikou_keiji_do_a.fbx）
+	     普通物品：挂进 EquipmentRoster 只决定初始装备，可被扒/被偷/作战利品。 -->
+	<Item id="taikou_keiji_do_a" name="{=TAIKOU_keiji_do_a}Maeda Keiji's Do" subtype="body_armor" mesh="taikou_keiji_do_a" culture="Culture.ikoku" weight="12" difficulty="0" appearance="2" Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="42" leg_armor="12" arm_armor="12" has_gender_variations="false" covers_body="true" modifier_group="plate" material_type="Plate" />
+		</ItemComponent>
+		<Flags UseTeamColor="true" Civilian="true" />
+	</Item>
+	<!-- 织田信长 的甲（战无2 解包件重定向；网格 tools/armor-pipeline/out/taikou_nobunaga_do_a.fbx）
+	     普通物品：挂进 EquipmentRoster 只决定初始装备，可被扒/被偷/作战利品。 -->
+	<Item id="taikou_nobunaga_do_a" name="{=TAIKOU_nobunaga_do_a}Oda Nobunaga's Do" subtype="body_armor" mesh="taikou_nobunaga_do_a" culture="Culture.ikoku" weight="12" difficulty="0" appearance="2" Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="42" leg_armor="12" arm_armor="12" has_gender_variations="false" covers_body="true" modifier_group="plate" material_type="Plate" />
+		</ItemComponent>
+		<Flags UseTeamColor="true" Civilian="true" />
+	</Item>
+	<!-- 明智光秀 的甲（战无2 解包件重定向；网格 tools/armor-pipeline/out/taikou_mitsuhide_do_a.fbx）
+	     普通物品：挂进 EquipmentRoster 只决定初始装备，可被扒/被偷/作战利品。 -->
+	<Item id="taikou_mitsuhide_do_a" name="{=TAIKOU_mitsuhide_do_a}Akechi Mitsuhide's Do" subtype="body_armor" mesh="taikou_mitsuhide_do_a" culture="Culture.ikoku" weight="12" difficulty="0" appearance="2" Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="42" leg_armor="12" arm_armor="12" has_gender_variations="false" covers_body="true" modifier_group="plate" material_type="Plate" />
+		</ItemComponent>
+		<Flags UseTeamColor="true" Civilian="true" />
+	</Item>
+	<!-- 上杉谦信 的甲（战无2 解包件重定向；网格 tools/armor-pipeline/out/taikou_kenshin_do_a.fbx）
+	     普通物品：挂进 EquipmentRoster 只决定初始装备，可被扒/被偷/作战利品。 -->
+	<Item id="taikou_kenshin_do_a" name="{=TAIKOU_kenshin_do_a}Uesugi Kenshin's Do" subtype="body_armor" mesh="taikou_kenshin_do_a" culture="Culture.ikoku" weight="12" difficulty="0" appearance="2" Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="42" leg_armor="12" arm_armor="12" has_gender_variations="false" covers_body="true" modifier_group="plate" material_type="Plate" />
+		</ItemComponent>
+		<Flags UseTeamColor="true" Civilian="true" />
+	</Item>
+	<!-- 阿市 的甲（战无2 解包件重定向；网格 tools/armor-pipeline/out/taikou_oichi_do_a.fbx）
+	     普通物品：挂进 EquipmentRoster 只决定初始装备，可被扒/被偷/作战利品。 -->
+	<Item id="taikou_oichi_do_a" name="{=TAIKOU_oichi_do_a}Azai Ichi's Do" subtype="body_armor" mesh="taikou_oichi_do_a" culture="Culture.ikoku" weight="12" difficulty="0" appearance="2" Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="42" leg_armor="12" arm_armor="12" has_gender_variations="false" covers_body="true" modifier_group="plate" material_type="Plate" />
+		</ItemComponent>
+		<Flags UseTeamColor="true" Civilian="true" />
+	</Item>
+	<!-- 出云阿国 的甲（战无2 解包件重定向；网格 tools/armor-pipeline/out/taikou_okuni_do_a.fbx）
+	     普通物品：挂进 EquipmentRoster 只决定初始装备，可被扒/被偷/作战利品。 -->
+	<Item id="taikou_okuni_do_a" name="{=TAIKOU_okuni_do_a}Izumo no Okuni's Do" subtype="body_armor" mesh="taikou_okuni_do_a" culture="Culture.ikoku" weight="12" difficulty="0" appearance="2" Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="42" leg_armor="12" arm_armor="12" has_gender_variations="false" covers_body="true" modifier_group="plate" material_type="Plate" />
+		</ItemComponent>
+		<Flags UseTeamColor="true" Civilian="true" />
+	</Item>
+	<!-- 杂贺孙一 的甲（战无2 解包件重定向；网格 tools/armor-pipeline/out/taikou_magoichi_do_a.fbx）
+	     普通物品：挂进 EquipmentRoster 只决定初始装备，可被扒/被偷/作战利品。 -->
+	<Item id="taikou_magoichi_do_a" name="{=TAIKOU_magoichi_do_a}Saika Magoichi's Do" subtype="body_armor" mesh="taikou_magoichi_do_a" culture="Culture.ikoku" weight="12" difficulty="0" appearance="2" Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="42" leg_armor="12" arm_armor="12" has_gender_variations="false" covers_body="true" modifier_group="plate" material_type="Plate" />
+		</ItemComponent>
+		<Flags UseTeamColor="true" Civilian="true" />
+	</Item>
+	<!-- 佐佐木小次郎 的甲（战无2 解包件重定向；网格 tools/armor-pipeline/out/taikou_kojiro_do_a.fbx）
+	     普通物品：挂进 EquipmentRoster 只决定初始装备，可被扒/被偷/作战利品。 -->
+	<Item id="taikou_kojiro_do_a" name="{=TAIKOU_kojiro_do_a}Sasaki Kojiroo's Do" subtype="body_armor" mesh="taikou_kojiro_do_a" culture="Culture.ikoku" weight="12" difficulty="0" appearance="2" Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="42" leg_armor="12" arm_armor="12" has_gender_variations="false" covers_body="true" modifier_group="plate" material_type="Plate" />
+		</ItemComponent>
+		<Flags UseTeamColor="true" Civilian="true" />
+	</Item>
+	<!-- 柴田胜家 的甲（战无2 解包件重定向；网格 tools/armor-pipeline/out/taikou_katsuie_do_a.fbx）
+	     普通物品：挂进 EquipmentRoster 只决定初始装备，可被扒/被偷/作战利品。 -->
+	<Item id="taikou_katsuie_do_a" name="{=TAIKOU_katsuie_do_a}Shibata Katsuie's Do" subtype="body_armor" mesh="taikou_katsuie_do_a" culture="Culture.ikoku" weight="12" difficulty="0" appearance="2" Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="42" leg_armor="12" arm_armor="12" has_gender_variations="false" covers_body="true" modifier_group="plate" material_type="Plate" />
+		</ItemComponent>
+		<Flags UseTeamColor="true" Civilian="true" />
+	</Item>
+	<!-- 武田信玄 的甲（战无2 解包件重定向；网格 tools/armor-pipeline/out/taikou_shingen_do_a.fbx）
+	     普通物品：挂进 EquipmentRoster 只决定初始装备，可被扒/被偷/作战利品。 -->
+	<Item id="taikou_shingen_do_a" name="{=TAIKOU_shingen_do_a}Takeda Shingen's Do" subtype="body_armor" mesh="taikou_shingen_do_a" culture="Culture.ikoku" weight="12" difficulty="0" appearance="2" Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="42" leg_armor="12" arm_armor="12" has_gender_variations="false" covers_body="true" modifier_group="plate" material_type="Plate" />
+		</ItemComponent>
+		<Flags UseTeamColor="true" Civilian="true" />
+	</Item>
+	<!-- 伊达政宗 的甲（战无2 解包件重定向；网格 tools/armor-pipeline/out/taikou_masamune_do_a.fbx）
+	     普通物品：挂进 EquipmentRoster 只决定初始装备，可被扒/被偷/作战利品。 -->
+	<Item id="taikou_masamune_do_a" name="{=TAIKOU_masamune_do_a}Date Masamune's Do" subtype="body_armor" mesh="taikou_masamune_do_a" culture="Culture.ikoku" weight="12" difficulty="0" appearance="2" Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="42" leg_armor="12" arm_armor="12" has_gender_variations="false" covers_body="true" modifier_group="plate" material_type="Plate" />
+		</ItemComponent>
+		<Flags UseTeamColor="true" Civilian="true" />
+	</Item>
+	<!-- 归蝶 的甲（战无2 解包件重定向；网格 tools/armor-pipeline/out/taikou_nouhime_do_a.fbx）
+	     普通物品：挂进 EquipmentRoster 只决定初始装备，可被扒/被偷/作战利品。 -->
+	<Item id="taikou_nouhime_do_a" name="{=TAIKOU_nouhime_do_a}Oda Kicho's Do" subtype="body_armor" mesh="taikou_nouhime_do_a" culture="Culture.ikoku" weight="12" difficulty="0" appearance="2" Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="42" leg_armor="12" arm_armor="12" has_gender_variations="false" covers_body="true" modifier_group="plate" material_type="Plate" />
+		</ItemComponent>
+		<Flags UseTeamColor="true" Civilian="true" />
+	</Item>
+	<!-- 服部半藏 的甲（战无2 解包件重定向；网格 tools/armor-pipeline/out/taikou_hanzo_do_a.fbx）
+	     普通物品：挂进 EquipmentRoster 只决定初始装备，可被扒/被偷/作战利品。 -->
+	<Item id="taikou_hanzo_do_a" name="{=TAIKOU_hanzo_do_a}Hattori Hanzo's Do" subtype="body_armor" mesh="taikou_hanzo_do_a" culture="Culture.ikoku" weight="12" difficulty="0" appearance="2" Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="42" leg_armor="12" arm_armor="12" has_gender_variations="false" covers_body="true" modifier_group="plate" material_type="Plate" />
+		</ItemComponent>
+		<Flags UseTeamColor="true" Civilian="true" />
+	</Item>
+	<!-- 森兰丸 的甲（战无2 解包件重定向；网格 tools/armor-pipeline/out/taikou_rammaru_do_a.fbx）
+	     普通物品：挂进 EquipmentRoster 只决定初始装备，可被扒/被偷/作战利品。 -->
+	<Item id="taikou_rammaru_do_a" name="{=TAIKOU_rammaru_do_a}Morii Ranmaru's Do" subtype="body_armor" mesh="taikou_rammaru_do_a" culture="Culture.ikoku" weight="12" difficulty="0" appearance="2" Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="42" leg_armor="12" arm_armor="12" has_gender_variations="false" covers_body="true" modifier_group="plate" material_type="Plate" />
+		</ItemComponent>
+		<Flags UseTeamColor="true" Civilian="true" />
+	</Item>
+	<!-- 丰臣秀吉 的甲（战无2 解包件重定向；网格 tools/armor-pipeline/out/taikou_hideyoshi_do_a.fbx）
+	     普通物品：挂进 EquipmentRoster 只决定初始装备，可被扒/被偷/作战利品。 -->
+	<Item id="taikou_hideyoshi_do_a" name="{=TAIKOU_hideyoshi_do_a}Kinoshita Hideyoshi's Do" subtype="body_armor" mesh="taikou_hideyoshi_do_a" culture="Culture.ikoku" weight="12" difficulty="0" appearance="2" Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="42" leg_armor="12" arm_armor="12" has_gender_variations="false" covers_body="true" modifier_group="plate" material_type="Plate" />
+		</ItemComponent>
+		<Flags UseTeamColor="true" Civilian="true" />
+	</Item>
+	<!-- 本多忠胜 的甲（战无2 解包件重定向；网格 tools/armor-pipeline/out/taikou_tadakatsu_do_a.fbx）
+	     普通物品：挂进 EquipmentRoster 只决定初始装备，可被扒/被偷/作战利品。 -->
+	<Item id="taikou_tadakatsu_do_a" name="{=TAIKOU_tadakatsu_do_a}Honda Tadakatsu's Do" subtype="body_armor" mesh="taikou_tadakatsu_do_a" culture="Culture.ikoku" weight="12" difficulty="0" appearance="2" Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="42" leg_armor="12" arm_armor="12" has_gender_variations="false" covers_body="true" modifier_group="plate" material_type="Plate" />
+		</ItemComponent>
+		<Flags UseTeamColor="true" Civilian="true" />
+	</Item>
+	<!-- 稻姬 的甲（战无2 解包件重定向；网格 tools/armor-pipeline/out/taikou_inahime_do_a.fbx）
+	     普通物品：挂进 EquipmentRoster 只决定初始装备，可被扒/被偷/作战利品。 -->
+	<Item id="taikou_inahime_do_a" name="{=TAIKOU_inahime_do_a}Sanada Komatsu's Do" subtype="body_armor" mesh="taikou_inahime_do_a" culture="Culture.ikoku" weight="12" difficulty="0" appearance="2" Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="42" leg_armor="12" arm_armor="12" has_gender_variations="false" covers_body="true" modifier_group="plate" material_type="Plate" />
+		</ItemComponent>
+		<Flags UseTeamColor="true" Civilian="true" />
+	</Item>
+	<!-- 德川家康 的甲（战无2 解包件重定向；网格 tools/armor-pipeline/out/taikou_ieyasu_do_a.fbx）
+	     普通物品：挂进 EquipmentRoster 只决定初始装备，可被扒/被偷/作战利品。 -->
+	<Item id="taikou_ieyasu_do_a" name="{=TAIKOU_ieyasu_do_a}Tokugawa Ieyasu's Do" subtype="body_armor" mesh="taikou_ieyasu_do_a" culture="Culture.ikoku" weight="12" difficulty="0" appearance="2" Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="42" leg_armor="12" arm_armor="12" has_gender_variations="false" covers_body="true" modifier_group="plate" material_type="Plate" />
+		</ItemComponent>
+		<Flags UseTeamColor="true" Civilian="true" />
+	</Item>
+	<!-- 石田三成 的甲（战无2 解包件重定向；网格 tools/armor-pipeline/out/taikou_mitsunari_do_a.fbx）
+	     普通物品：挂进 EquipmentRoster 只决定初始装备，可被扒/被偷/作战利品。 -->
+	<Item id="taikou_mitsunari_do_a" name="{=TAIKOU_mitsunari_do_a}Ishida Mitsunari's Do" subtype="body_armor" mesh="taikou_mitsunari_do_a" culture="Culture.ikoku" weight="12" difficulty="0" appearance="2" Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="42" leg_armor="12" arm_armor="12" has_gender_variations="false" covers_body="true" modifier_group="plate" material_type="Plate" />
+		</ItemComponent>
+		<Flags UseTeamColor="true" Civilian="true" />
+	</Item>
+	<!-- 浅井长政 的甲（战无2 解包件重定向；网格 tools/armor-pipeline/out/taikou_nagamasa_do_a.fbx）
+	     普通物品：挂进 EquipmentRoster 只决定初始装备，可被扒/被偷/作战利品。 -->
+	<Item id="taikou_nagamasa_do_a" name="{=TAIKOU_nagamasa_do_a}Azai Nagamasa's Do" subtype="body_armor" mesh="taikou_nagamasa_do_a" culture="Culture.ikoku" weight="12" difficulty="0" appearance="2" Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="42" leg_armor="12" arm_armor="12" has_gender_variations="false" covers_body="true" modifier_group="plate" material_type="Plate" />
+		</ItemComponent>
+		<Flags UseTeamColor="true" Civilian="true" />
+	</Item>
+	<!-- 岛左近 的甲（战无2 解包件重定向；网格 tools/armor-pipeline/out/taikou_sakon_do_a.fbx）
+	     普通物品：挂进 EquipmentRoster 只决定初始装备，可被扒/被偷/作战利品。 -->
+	<Item id="taikou_sakon_do_a" name="{=TAIKOU_sakon_do_a}Shima Sakon's Do" subtype="body_armor" mesh="taikou_sakon_do_a" culture="Culture.ikoku" weight="12" difficulty="0" appearance="2" Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="42" leg_armor="12" arm_armor="12" has_gender_variations="false" covers_body="true" modifier_group="plate" material_type="Plate" />
+		</ItemComponent>
+		<Flags UseTeamColor="true" Civilian="true" />
+	</Item>
+	<!-- 岛津义弘 的甲（战无2 解包件重定向；网格 tools/armor-pipeline/out/taikou_yoshihiro_do_a.fbx）
+	     普通物品：挂进 EquipmentRoster 只决定初始装备，可被扒/被偷/作战利品。 -->
+	<Item id="taikou_yoshihiro_do_a" name="{=TAIKOU_yoshihiro_do_a}Shimazu Yoshihiro's Do" subtype="body_armor" mesh="taikou_yoshihiro_do_a" culture="Culture.ikoku" weight="12" difficulty="0" appearance="2" Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="42" leg_armor="12" arm_armor="12" has_gender_variations="false" covers_body="true" modifier_group="plate" material_type="Plate" />
+		</ItemComponent>
+		<Flags UseTeamColor="true" Civilian="true" />
+	</Item>
+	<!-- 訚千代 的甲（战无2 解包件重定向；网格 tools/armor-pipeline/out/taikou_ginchiyo_do_a.fbx）
+	     普通物品：挂进 EquipmentRoster 只决定初始装备，可被扒/被偷/作战利品。 -->
+	<Item id="taikou_ginchiyo_do_a" name="{=TAIKOU_ginchiyo_do_a}Bekki Ginchiyo's Do" subtype="body_armor" mesh="taikou_ginchiyo_do_a" culture="Culture.ikoku" weight="12" difficulty="0" appearance="2" Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="42" leg_armor="12" arm_armor="12" has_gender_variations="false" covers_body="true" modifier_group="plate" material_type="Plate" />
+		</ItemComponent>
+		<Flags UseTeamColor="true" Civilian="true" />
+	</Item>
+	<!-- 直江兼续 的甲（战无2 解包件重定向；网格 tools/armor-pipeline/out/taikou_kanetsugu_do_a.fbx）
+	     普通物品：挂进 EquipmentRoster 只决定初始装备，可被扒/被偷/作战利品。 -->
+	<Item id="taikou_kanetsugu_do_a" name="{=TAIKOU_kanetsugu_do_a}Naoe Kanetsugu's Do" subtype="body_armor" mesh="taikou_kanetsugu_do_a" culture="Culture.ikoku" weight="12" difficulty="0" appearance="2" Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="42" leg_armor="12" arm_armor="12" has_gender_variations="false" covers_body="true" modifier_group="plate" material_type="Plate" />
+		</ItemComponent>
+		<Flags UseTeamColor="true" Civilian="true" />
+	</Item>
+	<!-- 宁宁 的甲（战无2 解包件重定向；网格 tools/armor-pipeline/out/taikou_nene_do_a.fbx）
+	     普通物品：挂进 EquipmentRoster 只决定初始装备，可被扒/被偷/作战利品。 -->
+	<Item id="taikou_nene_do_a" name="{=TAIKOU_nene_do_a}Kinoshita Nene's Do" subtype="body_armor" mesh="taikou_nene_do_a" culture="Culture.ikoku" weight="12" difficulty="0" appearance="2" Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="42" leg_armor="12" arm_armor="12" has_gender_variations="false" covers_body="true" modifier_group="plate" material_type="Plate" />
+		</ItemComponent>
+		<Flags UseTeamColor="true" Civilian="true" />
+	</Item>
+	<!-- 风魔小太郎 的甲（战无2 解包件重定向；网格 tools/armor-pipeline/out/taikou_kotaro_do_a.fbx）
+	     普通物品：挂进 EquipmentRoster 只决定初始装备，可被扒/被偷/作战利品。 -->
+	<Item id="taikou_kotaro_do_a" name="{=TAIKOU_kotaro_do_a}Fuuma Kotaroo's Do" subtype="body_armor" mesh="taikou_kotaro_do_a" culture="Culture.ikoku" weight="12" difficulty="0" appearance="2" Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="42" leg_armor="12" arm_armor="12" has_gender_variations="false" covers_body="true" modifier_group="plate" material_type="Plate" />
+		</ItemComponent>
+		<Flags UseTeamColor="true" Civilian="true" />
+	</Item>
+	<!-- 宫本武藏 的甲（战无2 解包件重定向；网格 tools/armor-pipeline/out/taikou_musashi_do_a.fbx）
+	     普通物品：挂进 EquipmentRoster 只决定初始装备，可被扒/被偷/作战利品。 -->
+	<Item id="taikou_musashi_do_a" name="{=TAIKOU_musashi_do_a}Miyamotoo Musashi's Do" subtype="body_armor" mesh="taikou_musashi_do_a" culture="Culture.ikoku" weight="12" difficulty="0" appearance="2" Type="BodyArmor">
 		<ItemComponent>
 			<Armor body_armor="42" leg_armor="12" arm_armor="12" has_gender_variations="false" covers_body="true" modifier_group="plate" material_type="Plate" />
 		</ItemComponent>

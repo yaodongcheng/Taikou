@@ -24,4 +24,68 @@
 		</ItemComponent>
 		<Flags />
 	</Item>
+	<!-- 武田信玄 的兜（战无2 解包件重定向；网格 tools/armor-pipeline/out/taikou_shingen_helmet_a.fbx）
+	     普通物品：挂进 EquipmentRoster 只决定初始装备，可被扒/被偷/作战利品。 -->
+	<Item id="taikou_shingen_helmet_a" name="{=TAIKOU_shingen_helmet_a}Takeda Shingen's Helmet" subtype="head_armor" mesh="taikou_shingen_helmet_a" culture="Culture.ikoku" weight="2.5" difficulty="0" appearance="3" Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="39" has_gender_variations="false" hair_cover_type="all" modifier_group="plate" material_type="Plate" />
+		</ItemComponent>
+		<Flags UseTeamColor="true" Civilian="true" />
+	</Item>
+	<!-- 伊达政宗 的兜（战无2 解包件重定向；网格 tools/armor-pipeline/out/taikou_masamune_helmet_a.fbx）
+	     普通物品：挂进 EquipmentRoster 只决定初始装备，可被扒/被偷/作战利品。 -->
+	<Item id="taikou_masamune_helmet_a" name="{=TAIKOU_masamune_helmet_a}Date Masamune's Helmet" subtype="head_armor" mesh="taikou_masamune_helmet_a" culture="Culture.ikoku" weight="2.5" difficulty="0" appearance="3" Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="39" has_gender_variations="false" hair_cover_type="all" modifier_group="plate" material_type="Plate" />
+		</ItemComponent>
+		<Flags UseTeamColor="true" Civilian="true" />
+	</Item>
+	<!-- 服部半藏 的兜（战无2 解包件重定向；网格 tools/armor-pipeline/out/taikou_hanzo_helmet_a.fbx）
+	     普通物品：挂进 EquipmentRoster 只决定初始装备，可被扒/被偷/作战利品。 -->
+	<Item id="taikou_hanzo_helmet_a" name="{=TAIKOU_hanzo_helmet_a}Hattori Hanzo's Helmet" subtype="head_armor" mesh="taikou_hanzo_helmet_a" culture="Culture.ikoku" weight="2.5" difficulty="0" appearance="3" Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="39" has_gender_variations="false" hair_cover_type="all" modifier_group="plate" material_type="Plate" />
+		</ItemComponent>
+		<Flags UseTeamColor="true" Civilian="true" />
+	</Item>
+	<!-- 丰臣秀吉 的兜（战无2 解包件重定向；网格 tools/armor-pipeline/out/taikou_hideyoshi_helmet_a.fbx）
+	     普通物品：挂进 EquipmentRoster 只决定初始装备，可被扒/被偷/作战利品。 -->
+	<Item id="taikou_hideyoshi_helmet_a" name="{=TAIKOU_hideyoshi_helmet_a}Kinoshita Hideyoshi's Helmet" subtype="head_armor" mesh="taikou_hideyoshi_helmet_a" culture="Culture.ikoku" weight="2.5" difficulty="0" appearance="3" Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="39" has_gender_variations="false" hair_cover_type="all" modifier_group="plate" material_type="Plate" />
+		</ItemComponent>
+		<Flags UseTeamColor="true" Civilian="true" />
+	</Item>
+	<!-- 本多忠胜 的兜（战无2 解包件重定向；网格 tools/armor-pipeline/out/taikou_tadakatsu_helmet_a.fbx）
+	     普通物品：挂进 EquipmentRoster 只决定初始装备，可被扒/被偷/作战利品。 -->
+	<Item id="taikou_tadakatsu_helmet_a" name="{=TAIKOU_tadakatsu_helmet_a}Honda Tadakatsu's Helmet" subtype="head_armor" mesh="taikou_tadakatsu_helmet_a" culture="Culture.ikoku" weight="2.5" difficulty="0" appearance="3" Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="39" has_gender_variations="false" hair_cover_type="all" modifier_group="plate" material_type="Plate" />
+		</ItemComponent>
+		<Flags UseTeamColor="true" Civilian="true" />
+	</Item>
+	<!-- 德川家康 的兜（战无2 解包件重定向；网格 tools/armor-pipeline/out/taikou_ieyasu_helmet_a.fbx）
+	     普通物品：挂进 EquipmentRoster 只决定初始装备，可被扒/被偷/作战利品。 -->
+	<Item id="taikou_ieyasu_helmet_a" name="{=TAIKOU_ieyasu_helmet_a}Tokugawa Ieyasu's Helmet" subtype="head_armor" mesh="taikou_ieyasu_helmet_a" culture="Culture.ikoku" weight="2.5" difficulty="0" appearance="3" Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="39" has_gender_variations="false" hair_cover_type="all" modifier_group="plate" material_type="Plate" />
+		</ItemComponent>
+		<Flags UseTeamColor="true" Civilian="true" />
+	</Item>
+	<!-- 浅井长政 的兜（战无2 解包件重定向；网格 tools/armor-pipeline/out/taikou_nagamasa_helmet_a.fbx）
+	     普通物品：挂进 EquipmentRoster 只决定初始装备，可被扒/被偷/作战利品。 -->
+	<Item id="taikou_nagamasa_helmet_a" name="{=TAIKOU_nagamasa_helmet_a}Azai Nagamasa's Helmet" subtype="head_armor" mesh="taikou_nagamasa_helmet_a" culture="Culture.ikoku" weight="2.5" difficulty="0" appearance="3" Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="39" has_gender_variations="false" hair_cover_type="all" modifier_group="plate" material_type="Plate" />
+		</ItemComponent>
+		<Flags UseTeamColor="true" Civilian="true" />
+	</Item>
+	<!-- 直江兼续 的兜（战无2 解包件重定向；网格 tools/armor-pipeline/out/taikou_kanetsugu_helmet_a.fbx）
+	     普通物品：挂进 EquipmentRoster 只决定初始装备，可被扒/被偷/作战利品。 -->
+	<Item id="taikou_kanetsugu_helmet_a" name="{=TAIKOU_kanetsugu_helmet_a}Naoe Kanetsugu's Helmet" subtype="head_armor" mesh="taikou_kanetsugu_helmet_a" culture="Culture.ikoku" weight="2.5" difficulty="0" appearance="3" Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="39" has_gender_variations="false" hair_cover_type="all" modifier_group="plate" material_type="Plate" />
+		</ItemComponent>
+		<Flags UseTeamColor="true" Civilian="true" />
+	</Item>
 </Items>

@@ -1150,6 +1150,9 @@
     <string id="TAIKOU_forcetype_pirate" text="Pirate" />
     <string id="TAIKOU_forcetype_trader" text="Trader" />
     <string id="TAIKOU_forcetype_warrior" text="Warrior" />
+    <string id="TAIKOU_ginchiyo_do_a" text="Bekki Ginchiyo's Do" />
+    <string id="TAIKOU_hanzo_do_a" text="Hattori Hanzo's Do" />
+    <string id="TAIKOU_hanzo_helmet_a" text="Hattori Hanzo's Helmet" />
     <string id="TAIKOU_hero_0_1568" text="Aoyama Tadanari" />
     <string id="TAIKOU_hero_0_1575" text="Aoyama Tadanari" />
     <string id="TAIKOU_hero_0_1582" text="Aoyama Tadanari" />
@@ -5672,6 +5675,8 @@
     <string id="TAIKOU_hero_trader_zenuemon_1560" text="Zenuemon" />
     <string id="TAIKOU_hero_trader_zenuemon_1575" text="Zenuemon" />
     <string id="TAIKOU_hero_trader_zenuemon_1582" text="Zenuemon" />
+    <string id="TAIKOU_hideyoshi_do_a" text="Kinoshita Hideyoshi's Do" />
+    <string id="TAIKOU_hideyoshi_helmet_a" text="Kinoshita Hideyoshi's Helmet" />
     <string id="TAIKOU_identity_ashigaru_daishou" text="Ashigaru Captain" />
     <string id="TAIKOU_identity_ashigaru_kumigashira" text="Ashigaru Corporal" />
     <string id="TAIKOU_identity_bushou" text="Commander" />
@@ -5700,6 +5705,14 @@
     <string id="TAIKOU_identity_touke" text="Head of House" />
     <string id="TAIKOU_identity_toumoku" text="Boss" />
     <string id="TAIKOU_identity_touryou" text="Chief" />
+    <string id="TAIKOU_ieyasu_do_a" text="Tokugawa Ieyasu's Do" />
+    <string id="TAIKOU_ieyasu_helmet_a" text="Tokugawa Ieyasu's Helmet" />
+    <string id="TAIKOU_inahime_do_a" text="Sanada Komatsu's Do" />
+    <string id="TAIKOU_kanetsugu_do_a" text="Naoe Kanetsugu's Do" />
+    <string id="TAIKOU_kanetsugu_helmet_a" text="Naoe Kanetsugu's Helmet" />
+    <string id="TAIKOU_katsuie_do_a" text="Shibata Katsuie's Do" />
+    <string id="TAIKOU_keiji_do_a" text="Maeda Keiji's Do" />
+    <string id="TAIKOU_kenshin_do_a" text="Uesugi Kenshin's Do" />
     <string id="TAIKOU_kingdom_akamatsu" text="Akamatsu" />
     <string id="TAIKOU_kingdom_akamatsu_text" text="Akamatsu" />
     <string id="TAIKOU_kingdom_akita" text="Akita" />
@@ -5960,10 +5973,23 @@
     <string id="TAIKOU_kingdom_yamauchi_text" text="Yamauchi" />
     <string id="TAIKOU_kingdom_yuki" text="Yuki" />
     <string id="TAIKOU_kingdom_yuki_text" text="Yuki" />
+    <string id="TAIKOU_kojiro_do_a" text="Sasaki Kojiroo's Do" />
+    <string id="TAIKOU_kotaro_do_a" text="Fuuma Kotaroo's Do" />
     <string id="TAIKOU_liege_title" text="rightful daimyo of Japan" />
     <string id="TAIKOU_liege_title_female" text="rightful daimyo of Japan" />
+    <string id="TAIKOU_magoichi_do_a" text="Saika Magoichi's Do" />
     <string id="TAIKOU_main_hero" text="Eren" />
+    <string id="TAIKOU_masamune_do_a" text="Date Masamune's Do" />
+    <string id="TAIKOU_masamune_helmet_a" text="Date Masamune's Helmet" />
+    <string id="TAIKOU_mitsuhide_do_a" text="Akechi Mitsuhide's Do" />
+    <string id="TAIKOU_mitsunari_do_a" text="Ishida Mitsunari's Do" />
+    <string id="TAIKOU_musashi_do_a" text="Miyamotoo Musashi's Do" />
+    <string id="TAIKOU_nagamasa_do_a" text="Azai Nagamasa's Do" />
+    <string id="TAIKOU_nagamasa_helmet_a" text="Azai Nagamasa's Helmet" />
+    <string id="TAIKOU_nene_do_a" text="Kinoshita Nene's Do" />
     <string id="TAIKOU_neutral_term_for_culture" text="Japanese" />
+    <string id="TAIKOU_nobunaga_do_a" text="Oda Nobunaga's Do" />
+    <string id="TAIKOU_nouhime_do_a" text="Oda Kicho's Do" />
     <string id="TAIKOU_npc_armed_trader" text="Armed Trader" />
     <string id="TAIKOU_npc_armorer" text="Armorer" />
     <string id="TAIKOU_npc_artisan" text="Artisan" />
@@ -6010,10 +6036,14 @@
     <string id="TAIKOU_npc_villager_male_child" text="Villager Boy" />
     <string id="TAIKOU_npc_villager_male_teenager" text="Villager Young Man" />
     <string id="TAIKOU_npc_weaponsmith" text="Weaponsmith" />
+    <string id="TAIKOU_oichi_do_a" text="Azai Ichi's Do" />
+    <string id="TAIKOU_okuni_do_a" text="Izumo no Okuni's Do" />
     <string id="TAIKOU_player_faction" text="Player" />
     <string id="TAIKOU_player_father_name" text="Denbei" />
     <string id="TAIKOU_player_mother_name" text="Kinu" />
+    <string id="TAIKOU_rammaru_do_a" text="Morii Ranmaru's Do" />
     <string id="TAIKOU_realm_masterless" text="Masterless" />
+    <string id="TAIKOU_sakon_do_a" text="Shima Sakon's Do" />
     <string id="TAIKOU_sett_area_backstreet" text="Backstreet" />
     <string id="TAIKOU_sett_area_bog" text="Bog" />
     <string id="TAIKOU_sett_area_clearing" text="Clearing" />
@@ -6347,6 +6377,8 @@
     <string id="TAIKOU_sett_village_tk239" text="油津之町" />
     <string id="TAIKOU_sett_village_tk240" text="鹿屋之町" />
     <string id="TAIKOU_sett_village_tk241" text="鹿儿岛之町" />
+    <string id="TAIKOU_shingen_do_a" text="Takeda Shingen's Do" />
+    <string id="TAIKOU_shingen_helmet_a" text="Takeda Shingen's Helmet" />
     <string id="TAIKOU_short_term_for_faction" text="Japan" />
     <string id="TAIKOU_skill_archer" text="Archery" />
     <string id="TAIKOU_skill_arthmetic" text="Arithmetic" />
@@ -6374,12 +6406,15 @@
     <string id="TAIKOU_story_type_ninja" text="Ninja Story" />
     <string id="TAIKOU_story_type_shounin" text="Merchant Story" />
     <string id="TAIKOU_story_type_suigun" text="Sea Lord Story" />
+    <string id="TAIKOU_tadakatsu_do_a" text="Honda Tadakatsu's Do" />
+    <string id="TAIKOU_tadakatsu_helmet_a" text="Honda Tadakatsu's Helmet" />
     <string id="TAIKOU_troop_bandit_looter" text="Bandit" />
     <string id="TAIKOU_troop_mounted_samurai" text="Mounted Samurai" />
     <string id="TAIKOU_troop_samurai" text="Samurai" />
     <string id="TAIKOU_troop_veteran_ashigaru" text="Veteran Ashigaru" />
     <string id="TAIKOU_troop_yari_ashigaru" text="Ashigaru Spearman" />
     <string id="TAIKOU_troop_yumi_ashigaru" text="Ashigaru Archer" />
-    <string id="TAIKOU_yukimura_do_a" text="Sanada Yukimura's Do" />
+    <string id="TAIKOU_yoshihiro_do_a" text="Shimazu Yoshihiro's Do" />
+    <string id="TAIKOU_yukimura_do_a" text="Sanada Nobushige's Do" />
   </strings>
 </base>
