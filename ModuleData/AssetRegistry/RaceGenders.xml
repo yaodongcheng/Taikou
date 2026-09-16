@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- 生成物·禁止手改（铁律 22）——由 Scripts/gen_taikou_sw2_heads.py 从挑件表（tools/sw2-pipeline/parts_table.py）生成。
+     改内容 = 改挑件表后重跑本脚本。
+     用途：LWN 捏脸/建号的「种族」下拉**按性别过滤**——每个换头角色一个 race，
+           而一个 race 只做单一性别的 skin（性别不符 = 引擎取不到皮肤 = native AV）。
+     消费方：LWN CampaignMode/RaceGenderRegistry.cs（读盘，不走 MBObjectManager）。
+     键 = race StringId（与 skins.xml 的 <race id> 同键）；gender = male / female。
+     🔴 这张表**不能**改成运行时从角色反推：六代领主按时代互斥加载，
+        某一代没有的 race 查不到使用者 = 过滤失效（2026-09-16 实机崩过一次）。
+ -->
+<RaceGenders>
+	<Race id="lwn_yukimura" gender="male" />
+	<Race id="lwn_keiji" gender="male" />
+	<Race id="lwn_nobunaga" gender="male" />
+	<Race id="lwn_mitsuhide" gender="male" />
+	<Race id="lwn_kenshin" gender="male" />
+	<Race id="lwn_oichi" gender="female" />
+	<Race id="lwn_okuni" gender="female" />
+	<Race id="lwn_magoichi" gender="male" />
+	<Race id="lwn_shingen" gender="male" />
+	<Race id="lwn_masamune" gender="male" />
+	<Race id="lwn_nouhime" gender="female" />
+	<Race id="lwn_hanzo" gender="male" />
+	<Race id="lwn_rammaru" gender="male" />
+	<Race id="lwn_hideyoshi" gender="male" />
+	<Race id="lwn_tadakatsu" gender="male" />
+	<Race id="lwn_inahime" gender="female" />
+	<Race id="lwn_ieyasu" gender="male" />
+	<Race id="lwn_mitsunari" gender="male" />
+	<Race id="lwn_nagamasa" gender="male" />
+	<Race id="lwn_sakon" gender="male" />
+	<Race id="lwn_yoshihiro" gender="male" />
+	<Race id="lwn_ginchiyo" gender="female" />
+	<Race id="lwn_kanetsugu" gender="male" />
+	<Race id="lwn_nene" gender="female" />
+	<Race id="lwn_kotaro" gender="male" />
+	<Race id="lwn_musashi" gender="male" />
+	<Race id="lwn_kojiro" gender="male" />
+	<Race id="lwn_katsuie" gender="male" />
+</RaceGenders>

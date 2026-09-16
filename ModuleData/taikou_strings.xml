@@ -74,10 +74,10 @@
 		text="{=TAIKOU_player_mother_name}Kinu" />
 	<string
 		id="str_culture_rich_name.ninja"
-		text="{=TAIKOU_culture_rich_name_ikoku}Japanese" />
+		text="{=TAIKOU_culture_rich_name_ninja}Ninja" />
 	<string
 		id="str_culture_description.ninja"
-		text="{=TAIKOU_culture_description_ikoku}The inhabitants of the Japanese archipelago live in an age of ceaseless war. Centuries of imperial rule have collapsed into a fractured era of feuding warlords, and the shogun's authority burns dim beside the field of banners. Rulers who hold the force of arms are made and unmade in a single season; yet beyond the smoke of battle, the merchant's ledger, the monk's chant and the poet's brush endure, and no conquest can long stand that cannot be honored in the turning of a blade." />
+		text="{=TAIKOU_culture_description_ninja}Shadow-fighters of the mountain valleys. In Iga and Koga, families of lesser samurai have passed down the arts of stealth and espionage for generations, hiring themselves out to warlords for scouting, arson and secret messages -- nameless and unseen." />
 	<!-- 「按文化取 variation」全族（引擎侧证据：GetAdjectiveForFactionCulture / GetFormalNameForFactionCulture /
 	     ConversationManager.GetLiegeTitle / FinalizeParents 等全部传 *.Culture.StringId；缺 = 玩家可见 ERROR 文本）。
 	     neutral_culture 不补——官方自家 gangster_1/2/3 用的也是 neutral_culture，官方同样没给该文化变体 = 与官方同级。 -->
@@ -135,10 +135,10 @@
 		text="{=TAIKOU_player_mother_name}Kinu" />
 	<string
 		id="str_culture_rich_name.pirate"
-		text="{=TAIKOU_culture_rich_name_ikoku}Japanese" />
+		text="{=TAIKOU_culture_rich_name_pirate}Pirate" />
 	<string
 		id="str_culture_description.pirate"
-		text="{=TAIKOU_culture_description_ikoku}The inhabitants of the Japanese archipelago live in an age of ceaseless war. Centuries of imperial rule have collapsed into a fractured era of feuding warlords, and the shogun's authority burns dim beside the field of banners. Rulers who hold the force of arms are made and unmade in a single season; yet beyond the smoke of battle, the merchant's ledger, the monk's chant and the poet's brush endure, and no conquest can long stand that cannot be honored in the turning of a blade." />
+		text="{=TAIKOU_culture_description_pirate}Sea-lords of the Inland Sea. The Murakami and Kurushima houses live by the water, commanding sea routes and levying tolls, and take service with daimyo as naval commanders. Ships and guns are what let them deal with landed lords as equals." />
 	<!-- 「按文化取 variation」全族（引擎侧证据：GetAdjectiveForFactionCulture / GetFormalNameForFactionCulture /
 	     ConversationManager.GetLiegeTitle / FinalizeParents 等全部传 *.Culture.StringId；缺 = 玩家可见 ERROR 文本）。
 	     neutral_culture 不补——官方自家 gangster_1/2/3 用的也是 neutral_culture，官方同样没给该文化变体 = 与官方同级。 -->
@@ -196,10 +196,10 @@
 		text="{=TAIKOU_player_mother_name}Kinu" />
 	<string
 		id="str_culture_rich_name.trader"
-		text="{=TAIKOU_culture_rich_name_ikoku}Japanese" />
+		text="{=TAIKOU_culture_rich_name_trader}Merchant" />
 	<string
 		id="str_culture_description.trader"
-		text="{=TAIKOU_culture_description_ikoku}The inhabitants of the Japanese archipelago live in an age of ceaseless war. Centuries of imperial rule have collapsed into a fractured era of feuding warlords, and the shogun's authority burns dim beside the field of banners. Rulers who hold the force of arms are made and unmade in a single season; yet beyond the smoke of battle, the merchant's ledger, the monk's chant and the poet's brush endure, and no conquest can long stand that cannot be honored in the turning of a blade." />
+		text="{=TAIKOU_culture_description_trader}Merchants of Sakai and Hakata who deal in guns, silk and sea freight. Their ledgers and trade routes are their castles; coin and information are their swords." />
 	<!-- 「按文化取 variation」全族（引擎侧证据：GetAdjectiveForFactionCulture / GetFormalNameForFactionCulture /
 	     ConversationManager.GetLiegeTitle / FinalizeParents 等全部传 *.Culture.StringId；缺 = 玩家可见 ERROR 文本）。
 	     neutral_culture 不补——官方自家 gangster_1/2/3 用的也是 neutral_culture，官方同样没给该文化变体 = 与官方同级。 -->
@@ -257,10 +257,10 @@
 		text="{=TAIKOU_player_mother_name}Kinu" />
 	<string
 		id="str_culture_rich_name.ronin"
-		text="{=TAIKOU_culture_rich_name_ikoku}Japanese" />
+		text="{=TAIKOU_culture_rich_name_ronin}Ronin" />
 	<string
 		id="str_culture_description.ronin"
-		text="{=TAIKOU_culture_description_ikoku}The inhabitants of the Japanese archipelago live in an age of ceaseless war. Centuries of imperial rule have collapsed into a fractured era of feuding warlords, and the shogun's authority burns dim beside the field of banners. Rulers who hold the force of arms are made and unmade in a single season; yet beyond the smoke of battle, the merchant's ledger, the monk's chant and the poet's brush endure, and no conquest can long stand that cannot be honored in the turning of a blade." />
+		text="{=TAIKOU_culture_description_ronin}Masterless warriors. When a house falls or a domain is confiscated, its samurai take to the roads with their swords -- seeking a new lord, turning bandit, or selling their blades as mercenaries. Their skill at arms is all they own." />
 	<!-- 「按文化取 variation」全族（引擎侧证据：GetAdjectiveForFactionCulture / GetFormalNameForFactionCulture /
 	     ConversationManager.GetLiegeTitle / FinalizeParents 等全部传 *.Culture.StringId；缺 = 玩家可见 ERROR 文本）。
 	     neutral_culture 不补——官方自家 gangster_1/2/3 用的也是 neutral_culture，官方同样没给该文化变体 = 与官方同级。 -->
@@ -318,10 +318,10 @@
 		text="{=TAIKOU_player_mother_name}Kinu" />
 	<string
 		id="str_culture_rich_name.saikai"
-		text="{=TAIKOU_culture_rich_name_ikoku}Japanese" />
+		text="{=TAIKOU_culture_rich_name_saikai}Kyushu" />
 	<string
 		id="str_culture_description.saikai"
-		text="{=TAIKOU_culture_description_ikoku}The inhabitants of the Japanese archipelago live in an age of ceaseless war. Centuries of imperial rule have collapsed into a fractured era of feuding warlords, and the shogun's authority burns dim beside the field of banners. Rulers who hold the force of arms are made and unmade in a single season; yet beyond the smoke of battle, the merchant's ledger, the monk's chant and the poet's brush endure, and no conquest can long stand that cannot be honored in the turning of a blade." />
+		text="{=TAIKOU_culture_description_saikai}The western gate of Japan. The provinces of Kyushu face the mainland across the sea, and merchant ships and Portuguese caravans call at its ports, bringing guns and Christianity ashore. The Shimazu, Otomo and Ryuzoji houses fight endlessly for mastery of the island, while sea-lords and wako nest along its coasts." />
 	<!-- 「按文化取 variation」全族（引擎侧证据：GetAdjectiveForFactionCulture / GetFormalNameForFactionCulture /
 	     ConversationManager.GetLiegeTitle / FinalizeParents 等全部传 *.Culture.StringId；缺 = 玩家可见 ERROR 文本）。
 	     neutral_culture 不补——官方自家 gangster_1/2/3 用的也是 neutral_culture，官方同样没给该文化变体 = 与官方同级。 -->
@@ -379,10 +379,10 @@
 		text="{=TAIKOU_player_mother_name}Kinu" />
 	<string
 		id="str_culture_rich_name.nankai"
-		text="{=TAIKOU_culture_rich_name_ikoku}Japanese" />
+		text="{=TAIKOU_culture_rich_name_nankai}Shikoku" />
 	<string
 		id="str_culture_description.nankai"
-		text="{=TAIKOU_culture_description_ikoku}The inhabitants of the Japanese archipelago live in an age of ceaseless war. Centuries of imperial rule have collapsed into a fractured era of feuding warlords, and the shogun's authority burns dim beside the field of banners. Rulers who hold the force of arms are made and unmade in a single season; yet beyond the smoke of battle, the merchant's ledger, the monk's chant and the poet's brush endure, and no conquest can long stand that cannot be honored in the turning of a blade." />
+		text="{=TAIKOU_culture_description_nankai}The four provinces of Shikoku, looking across the water to Kinki and Kyushu. In Tosa the Chosokabe have swept across the island with their levy of every farmer-soldier, while Sanuki, Iyo and Awa hold their own grudges. Mountains and sea lanes make this the flank of every contest for the capital." />
 	<!-- 「按文化取 variation」全族（引擎侧证据：GetAdjectiveForFactionCulture / GetFormalNameForFactionCulture /
 	     ConversationManager.GetLiegeTitle / FinalizeParents 等全部传 *.Culture.StringId；缺 = 玩家可见 ERROR 文本）。
 	     neutral_culture 不补——官方自家 gangster_1/2/3 用的也是 neutral_culture，官方同样没给该文化变体 = 与官方同级。 -->
@@ -440,10 +440,10 @@
 		text="{=TAIKOU_player_mother_name}Kinu" />
 	<string
 		id="str_culture_rich_name.sanyo"
-		text="{=TAIKOU_culture_rich_name_ikoku}Japanese" />
+		text="{=TAIKOU_culture_rich_name_sanyo}Chubu" />
 	<string
 		id="str_culture_description.sanyo"
-		text="{=TAIKOU_culture_description_ikoku}The inhabitants of the Japanese archipelago live in an age of ceaseless war. Centuries of imperial rule have collapsed into a fractured era of feuding warlords, and the shogun's authority burns dim beside the field of banners. Rulers who hold the force of arms are made and unmade in a single season; yet beyond the smoke of battle, the merchant's ledger, the monk's chant and the poet's brush endure, and no conquest can long stand that cannot be honored in the turning of a blade." />
+		text="{=TAIKOU_culture_description_sanyo}The provinces along the Inland Sea. From their base in Aki the Mori have gathered Suo, Nagato and Bingo into their grasp and contend with the Ukita in Bizen, while the Amago legacy lingers in the mountains of Izumo. Sea-borne trade flourishes here; this is the corridor that joins Kinki to Kyushu." />
 	<!-- 「按文化取 variation」全族（引擎侧证据：GetAdjectiveForFactionCulture / GetFormalNameForFactionCulture /
 	     ConversationManager.GetLiegeTitle / FinalizeParents 等全部传 *.Culture.StringId；缺 = 玩家可见 ERROR 文本）。
 	     neutral_culture 不补——官方自家 gangster_1/2/3 用的也是 neutral_culture，官方同样没给该文化变体 = 与官方同级。 -->
@@ -501,10 +501,10 @@
 		text="{=TAIKOU_player_mother_name}Kinu" />
 	<string
 		id="str_culture_rich_name.kinai"
-		text="{=TAIKOU_culture_rich_name_ikoku}Japanese" />
+		text="{=TAIKOU_culture_rich_name_kinai}Kinki" />
 	<string
 		id="str_culture_description.kinai"
-		text="{=TAIKOU_culture_description_ikoku}The inhabitants of the Japanese archipelago live in an age of ceaseless war. Centuries of imperial rule have collapsed into a fractured era of feuding warlords, and the shogun's authority burns dim beside the field of banners. Rulers who hold the force of arms are made and unmade in a single season; yet beyond the smoke of battle, the merchant's ledger, the monk's chant and the poet's brush endure, and no conquest can long stand that cannot be honored in the turning of a blade." />
+		text="{=TAIKOU_culture_description_kinai}The heart of court and shogunate. Yamashiro, Yamato, Kawachi and Settsu ring the capital, where nobles, temples and the authority of the bakufu intertwine. The Miyoshi once ruled the streets of Kyoto -- and no one who would command the realm can do so without first taking this land." />
 	<!-- 「按文化取 variation」全族（引擎侧证据：GetAdjectiveForFactionCulture / GetFormalNameForFactionCulture /
 	     ConversationManager.GetLiegeTitle / FinalizeParents 等全部传 *.Culture.StringId；缺 = 玩家可见 ERROR 文本）。
 	     neutral_culture 不补——官方自家 gangster_1/2/3 用的也是 neutral_culture，官方同样没给该文化变体 = 与官方同级。 -->
@@ -562,10 +562,10 @@
 		text="{=TAIKOU_player_mother_name}Kinu" />
 	<string
 		id="str_culture_rich_name.hokuriku"
-		text="{=TAIKOU_culture_rich_name_ikoku}Japanese" />
+		text="{=TAIKOU_culture_rich_name_hokuriku}Hokuriku" />
 	<string
 		id="str_culture_description.hokuriku"
-		text="{=TAIKOU_culture_description_ikoku}The inhabitants of the Japanese archipelago live in an age of ceaseless war. Centuries of imperial rule have collapsed into a fractured era of feuding warlords, and the shogun's authority burns dim beside the field of banners. Rulers who hold the force of arms are made and unmade in a single season; yet beyond the smoke of battle, the merchant's ledger, the monk's chant and the poet's brush endure, and no conquest can long stand that cannot be honored in the turning of a blade." />
+		text="{=TAIKOU_culture_description_hokuriku}The Hokurikudo along the Sea of Japan. The Asakura of Echizen, the warrior-monks of Kaga and Uesugi Kenshin of Echigo stand three ways against one another. Snow lies deep and the roads are long, yet this is the northern road to Kyoto -- the one Kenshin took south again and again." />
 	<!-- 「按文化取 variation」全族（引擎侧证据：GetAdjectiveForFactionCulture / GetFormalNameForFactionCulture /
 	     ConversationManager.GetLiegeTitle / FinalizeParents 等全部传 *.Culture.StringId；缺 = 玩家可见 ERROR 文本）。
 	     neutral_culture 不补——官方自家 gangster_1/2/3 用的也是 neutral_culture，官方同样没给该文化变体 = 与官方同级。 -->
@@ -623,10 +623,10 @@
 		text="{=TAIKOU_player_mother_name}Kinu" />
 	<string
 		id="str_culture_rich_name.tosan"
-		text="{=TAIKOU_culture_rich_name_ikoku}Japanese" />
+		text="{=TAIKOU_culture_rich_name_tosan}Koshin" />
 	<string
 		id="str_culture_description.tosan"
-		text="{=TAIKOU_culture_description_ikoku}The inhabitants of the Japanese archipelago live in an age of ceaseless war. Centuries of imperial rule have collapsed into a fractured era of feuding warlords, and the shogun's authority burns dim beside the field of banners. Rulers who hold the force of arms are made and unmade in a single season; yet beyond the smoke of battle, the merchant's ledger, the monk's chant and the poet's brush endure, and no conquest can long stand that cannot be honored in the turning of a blade." />
+		text="{=TAIKOU_culture_description_tosan}The mountain provinces of Kai and Shinano. The Takeda of Kai and the lords of Shinano weave war across ridges and narrow passes that serve as natural fortresses, with Uesugi pressure forever at the northern edge. Nobunaga's road to the realm ran through these valleys." />
 	<!-- 「按文化取 variation」全族（引擎侧证据：GetAdjectiveForFactionCulture / GetFormalNameForFactionCulture /
 	     ConversationManager.GetLiegeTitle / FinalizeParents 等全部传 *.Culture.StringId；缺 = 玩家可见 ERROR 文本）。
 	     neutral_culture 不补——官方自家 gangster_1/2/3 用的也是 neutral_culture，官方同样没给该文化变体 = 与官方同级。 -->
@@ -684,10 +684,10 @@
 		text="{=TAIKOU_player_mother_name}Kinu" />
 	<string
 		id="str_culture_rich_name.tokai"
-		text="{=TAIKOU_culture_rich_name_ikoku}Japanese" />
+		text="{=TAIKOU_culture_rich_name_tokai}Tokai" />
 	<string
 		id="str_culture_description.tokai"
-		text="{=TAIKOU_culture_description_ikoku}The inhabitants of the Japanese archipelago live in an age of ceaseless war. Centuries of imperial rule have collapsed into a fractured era of feuding warlords, and the shogun's authority burns dim beside the field of banners. Rulers who hold the force of arms are made and unmade in a single season; yet beyond the smoke of battle, the merchant's ledger, the monk's chant and the poet's brush endure, and no conquest can long stand that cannot be honored in the turning of a blade." />
+		text="{=TAIKOU_culture_description_tokai}The Tokaido facing the Pacific. Oda of Owari, Tokugawa of Mikawa and Imagawa of Suruga meet along this coast, and a single hour at Okehazama rewrote the map. Road and sea lane run together here, and here the man who would rule Japan first rose." />
 	<!-- 「按文化取 variation」全族（引擎侧证据：GetAdjectiveForFactionCulture / GetFormalNameForFactionCulture /
 	     ConversationManager.GetLiegeTitle / FinalizeParents 等全部传 *.Culture.StringId；缺 = 玩家可见 ERROR 文本）。
 	     neutral_culture 不补——官方自家 gangster_1/2/3 用的也是 neutral_culture，官方同样没给该文化变体 = 与官方同级。 -->
@@ -745,10 +745,10 @@
 		text="{=TAIKOU_player_mother_name}Kinu" />
 	<string
 		id="str_culture_rich_name.kanto"
-		text="{=TAIKOU_culture_rich_name_ikoku}Japanese" />
+		text="{=TAIKOU_culture_rich_name_kanto}Kanto" />
 	<string
 		id="str_culture_description.kanto"
-		text="{=TAIKOU_culture_description_ikoku}The inhabitants of the Japanese archipelago live in an age of ceaseless war. Centuries of imperial rule have collapsed into a fractured era of feuding warlords, and the shogun's authority burns dim beside the field of banners. Rulers who hold the force of arms are made and unmade in a single season; yet beyond the smoke of battle, the merchant's ledger, the monk's chant and the poet's brush endure, and no conquest can long stand that cannot be honored in the turning of a blade." />
+		text="{=TAIKOU_culture_description_kanto}The warrior land of the eight Bando provinces. Five generations of the Hojo at Odawara have drawn Sagami, Musashi and Shimosa into their domain, while the old order of the Kanto Kanrei and the Koga Kubo fades. Broad plains and countless samurai make this the wellspring of armies." />
 	<!-- 「按文化取 variation」全族（引擎侧证据：GetAdjectiveForFactionCulture / GetFormalNameForFactionCulture /
 	     ConversationManager.GetLiegeTitle / FinalizeParents 等全部传 *.Culture.StringId；缺 = 玩家可见 ERROR 文本）。
 	     neutral_culture 不补——官方自家 gangster_1/2/3 用的也是 neutral_culture，官方同样没给该文化变体 = 与官方同级。 -->
@@ -806,10 +806,10 @@
 		text="{=TAIKOU_player_mother_name}Kinu" />
 	<string
 		id="str_culture_rich_name.ou"
-		text="{=TAIKOU_culture_rich_name_ikoku}Japanese" />
+		text="{=TAIKOU_culture_rich_name_ou}Tohoku" />
 	<string
 		id="str_culture_description.ou"
-		text="{=TAIKOU_culture_description_ikoku}The inhabitants of the Japanese archipelago live in an age of ceaseless war. Centuries of imperial rule have collapsed into a fractured era of feuding warlords, and the shogun's authority burns dim beside the field of banners. Rulers who hold the force of arms are made and unmade in a single season; yet beyond the smoke of battle, the merchant's ledger, the monk's chant and the poet's brush endure, and no conquest can long stand that cannot be honored in the turning of a blade." />
+		text="{=TAIKOU_culture_description_ou}The far northern provinces of Mutsu and Dewa. Date Masamune, the One-Eyed Dragon, came young to the seat of Mutsu and casts his eye toward Kanto, while the Mogami of Dewa and the Nanbu and Ashina of Mutsu hold their own. Far from the fires of Kinki, the old houses here remain most intact." />
 	<!-- 「按文化取 variation」全族（引擎侧证据：GetAdjectiveForFactionCulture / GetFormalNameForFactionCulture /
 	     ConversationManager.GetLiegeTitle / FinalizeParents 等全部传 *.Culture.StringId；缺 = 玩家可见 ERROR 文本）。
 	     neutral_culture 不补——官方自家 gangster_1/2/3 用的也是 neutral_culture，官方同样没给该文化变体 = 与官方同级。 -->
@@ -867,10 +867,10 @@
 		text="{=TAIKOU_player_mother_name}Kinu" />
 	<string
 		id="str_culture_rich_name.looters"
-		text="{=TAIKOU_culture_rich_name_ikoku}Japanese" />
+		text="{=TAIKOU_culture_rich_name_looters}Bandits" />
 	<string
 		id="str_culture_description.looters"
-		text="{=TAIKOU_culture_description_ikoku}The inhabitants of the Japanese archipelago live in an age of ceaseless war. Centuries of imperial rule have collapsed into a fractured era of feuding warlords, and the shogun's authority burns dim beside the field of banners. Rulers who hold the force of arms are made and unmade in a single season; yet beyond the smoke of battle, the merchant's ledger, the monk's chant and the poet's brush endure, and no conquest can long stand that cannot be honored in the turning of a blade." />
+		text="{=TAIKOU_culture_description_looters}Bandits of the hills and roads. In an age of war, landless peasants and deserting foot soldiers gather in the wilds to rob travelers and villages. Where no lord's army comes, theirs is the law." />
 	<!-- 「按文化取 variation」全族（引擎侧证据：GetAdjectiveForFactionCulture / GetFormalNameForFactionCulture /
 	     ConversationManager.GetLiegeTitle / FinalizeParents 等全部传 *.Culture.StringId；缺 = 玩家可见 ERROR 文本）。
 	     neutral_culture 不补——官方自家 gangster_1/2/3 用的也是 neutral_culture，官方同样没给该文化变体 = 与官方同级。 -->
@@ -928,10 +928,10 @@
 		text="{=TAIKOU_player_mother_name}Kinu" />
 	<string
 		id="str_culture_rich_name.namban"
-		text="{=TAIKOU_culture_rich_name_ikoku}Japanese" />
+		text="{=TAIKOU_culture_rich_name_namban}Namban" />
 	<string
 		id="str_culture_description.namban"
-		text="{=TAIKOU_culture_description_ikoku}The inhabitants of the Japanese archipelago live in an age of ceaseless war. Centuries of imperial rule have collapsed into a fractured era of feuding warlords, and the shogun's authority burns dim beside the field of banners. Rulers who hold the force of arms are made and unmade in a single season; yet beyond the smoke of battle, the merchant's ledger, the monk's chant and the poet's brush endure, and no conquest can long stand that cannot be honored in the turning of a blade." />
+		text="{=TAIKOU_culture_description_namban}Southern barbarians from beyond the sea. Portuguese and Spanish ships and missionaries arrive from the south, bringing guns, gunpowder and the Christian faith. They move among the daimyo, trading commerce and belief for a foothold." />
 	<!-- 「按文化取 variation」全族（引擎侧证据：GetAdjectiveForFactionCulture / GetFormalNameForFactionCulture /
 	     ConversationManager.GetLiegeTitle / FinalizeParents 等全部传 *.Culture.StringId；缺 = 玩家可见 ERROR 文本）。
 	     neutral_culture 不补——官方自家 gangster_1/2/3 用的也是 neutral_culture，官方同样没给该文化变体 = 与官方同级。 -->

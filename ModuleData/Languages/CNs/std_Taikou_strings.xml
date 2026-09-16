@@ -1659,22 +1659,82 @@
 
     <string id="TAIKOU_culture_ronin" text="浪人" />
 
-    <string id="TAIKOU_culture_saikai" text="西海" />
-    <string id="TAIKOU_culture_nankai" text="南海" />
-    <string id="TAIKOU_culture_sanyo" text="山阳" />
-    <string id="TAIKOU_culture_kinai" text="畿内" />
+    <string id="TAIKOU_culture_saikai" text="九州" />
+    <string id="TAIKOU_culture_nankai" text="四国" />
+    <string id="TAIKOU_culture_sanyo" text="中部" />
+    <string id="TAIKOU_culture_kinai" text="近畿" />
     <string id="TAIKOU_culture_hokuriku" text="北陆" />
-    <string id="TAIKOU_culture_tosan" text="东山" />
+    <string id="TAIKOU_culture_tosan" text="甲信" />
     <string id="TAIKOU_culture_tokai" text="东海" />
     <string id="TAIKOU_culture_kanto" text="关东" />
-    <string id="TAIKOU_culture_ou" text="奥羽" />
+    <string id="TAIKOU_culture_ou" text="东北" />
     <string id="TAIKOU_culture_looters" text="强盗" />
     <string id="TAIKOU_culture_namban" text="南蛮" />
     <string id="TAIKOU_culture_neutral" text="中立" />
 
     <string id="TAIKOU_culture_rich_name_ikoku" text="日本人" />
 
+    <string id="TAIKOU_culture_rich_name_saikai" text="九州人" />
+
+    <string id="TAIKOU_culture_rich_name_nankai" text="四国人" />
+
+    <string id="TAIKOU_culture_rich_name_sanyo" text="中部人" />
+
+    <string id="TAIKOU_culture_rich_name_kinai" text="近畿人" />
+
+    <string id="TAIKOU_culture_rich_name_hokuriku" text="北陆人" />
+
+    <string id="TAIKOU_culture_rich_name_tosan" text="甲信人" />
+
+    <string id="TAIKOU_culture_rich_name_tokai" text="东海人" />
+
+    <string id="TAIKOU_culture_rich_name_kanto" text="关东人" />
+
+    <string id="TAIKOU_culture_rich_name_ou" text="东北人" />
+
+    <string id="TAIKOU_culture_rich_name_ninja" text="忍者" />
+
+    <string id="TAIKOU_culture_rich_name_pirate" text="海贼" />
+
+    <string id="TAIKOU_culture_rich_name_trader" text="商人" />
+
+    <string id="TAIKOU_culture_rich_name_ronin" text="浪人" />
+
+    <string id="TAIKOU_culture_rich_name_looters" text="强盗" />
+
+    <string id="TAIKOU_culture_rich_name_namban" text="南蛮人" />
+
     <string id="TAIKOU_culture_description_ikoku" text="日本列岛正值乱世：幕府权威衰微，各地武将群雄割据。以刀剑争名、以谋略夺权者成败在一念之间，王朝兴衰如风卷残旗；然而硝烟之外，商人的账本、僧侣的诵经与诗人的笔耕从未停歇——真正能长久立足的霸权，终须把荣耀熔进刀锋的转向之中。" />
+
+    <string id="TAIKOU_culture_description_saikai" text="日本西端的门户。九州诸国隔海与大陆相望，商船与南蛮船在此往来，铁炮与切支丹随之登陆。岛津、大友、龙造寺三家为称霸九州缠斗不休，海商与倭寇亦以此为巢。" />
+
+    <string id="TAIKOU_culture_description_nankai" text="四国诸国，隔海与近畿、九州相望。土佐的长宗我部氏以「一领具足」之势席卷全岛，讃岐、伊予、阿波诸家各怀异心。山地与海路交织，是角逐畿内的侧翼。" />
+
+    <string id="TAIKOU_culture_description_sanyo" text="濑户内海与山阴诸国。毛利氏以安艺为根本，将周防、长门、备后纳入掌中，与宇喜多氏在备前争锋，出云的尼子遗脉仍盘踞山间。海路商运繁盛，是连接近畿与九州的走廊。" />
+
+    <string id="TAIKOU_culture_description_kinai" text="王朝与幕府的心脏。山城、大和、河内、摄津诸国环绕京都，公家、寺社与幕府权威在此交错。三好氏曾执掌都下，而欲号令天下者，必先入此地。" />
+
+    <string id="TAIKOU_culture_description_hokuriku" text="日本海侧的北陆道。越前的朝仓、加贺的本愿寺门徒、越后的上杉谦信在此鼎足而立。雪深路远，却是通往京都的北路——上杉谦信数次由此南下。" />
+
+    <string id="TAIKOU_culture_description_tosan" text="甲斐与信浓的山国。甲斐的武田与信浓诸豪在山脊与隘口间纵横，险要地势即天然城郭；北面则始终压着上杉的兵锋。织田信长通往天下的路，正是穿过这些山谷。" />
+
+    <string id="TAIKOU_culture_description_tokai" text="面向太平洋的东海道。尾张的织田、三河的德川、骏河的今川三家相接，桶狭间一役改写格局。陆路与海路在此并行，这里也是天下人崛起的起点。" />
+
+    <string id="TAIKOU_culture_description_kanto" text="坂东八国的武家之地。小田原的北条氏五代经营，将相模、武藏、下总纳入版图；关东管领与古河公方的旧秩序日渐凋零。原野广阔、武士众多，是足以撼动天下的兵源之地。" />
+
+    <string id="TAIKOU_culture_description_ou" text="本州极北的陆奥与出羽。陆奥的伊达政宗年少继位，以「独眼龙」之名图谋关东；出羽的最上、陆奥的南部与芦名各据一方。远离近畿烽火，却保有最完整的旧族势力。" />
+
+    <string id="TAIKOU_culture_description_ninja" text="潜伏于暗处的忍众。伊贺、甲贺的山谷里，以忍术与情报为业的乡士集团世代相传；他们受诸国大名雇佣，探敌情、纵火、传密信，无名亦无形。" />
+
+    <string id="TAIKOU_culture_description_pirate" text="濑户内海与九州沿海的海贼众。村上、来岛等水军以海为家，掌海路、收水脚，亦受大名封赏而成水军。船与炮，是他们与陆上武家平起平坐的本钱。" />
+
+    <string id="TAIKOU_culture_description_trader" text="以交易为业的商贾。堺与博多的豪商经营铁炮、生丝与海运，以财力左右战局；账本与商路是他们的城池，银钱与情报是他们的刀。" />
+
+    <string id="TAIKOU_culture_description_ronin" text="失去主家与俸禄的武士。主家灭亡或遭改易后，他们携刀流浪诸国，或投新主、或为野盗、或充雇佣。剑术是他们唯一的本钱。" />
+
+    <string id="TAIKOU_culture_description_looters" text="占山为王的野盗与落武者。乱世之中，失地的农民与逃亡的足轻聚于山野，劫掠行商与村落。官军不至，他们便是当地的法。" />
+
+    <string id="TAIKOU_culture_description_namban" text="渡海而来的南蛮人。葡萄牙与西班牙的商船与宣教师自南洋而来，带来铁炮、火药与切支丹。他们周旋于大名之间，以贸易与信仰换取立足之地。" />
 
     <string id="TAIKOU_faction_ruler" text="大名" />
 
