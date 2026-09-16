@@ -291,10 +291,17 @@
 		<Flags />
 	</Item>
 	<!-- 杂贺孙一 的铁炮（战无2 解包件重定向；网格 tools/armor-pipeline/out/taikou_magoichi_weapon_a.fbx）
-	     普通物品：挂进 EquipmentRoster 只决定初始装备，可被扒/被偷/作战利品。 -->
+	     普通物品：挂进 EquipmentRoster 只决定初始装备，可被扒/被偷/作战利品。
+	     🔴 2026-09-15 火器化：ammo_class Bolt→Cartridge（弹药同步换 Item.taikou_teppo_ammo）。
+	     改 Cartridge 是为了和原版弩兵区分（原版弩也是 Crossbow+Bolt，火器特效逻辑按
+	     ammo_class 认火器，用 Bolt 会把原版弩兵一起误判）。
+	     🔴 2026-09-16 修正：item_usage **必须用原版 `crossbow`**，不能用自定义名——
+	     `item_usage_sets.xml` 只由 **Native 模块**加载（引擎硬编码，字符串只在 TaleWorlds.Native.dll 里，
+	     托管层没有对应 XmlName，内容包注册不了）。内容包写自定义 usage 名 = 该 usage 永远不存在，
+	     掏出武器时 native 取到无效索引 → AccessViolationException（2026-09-16 实机踩实）。 -->
 	<Item id="taikou_magoichi_weapon_a" name="{=TAIKOU_magoichi_weapon_a}Saika Magoichi's Matchlock" body_name="bo_composite_crossbows" mesh="taikou_magoichi_weapon_a" culture="Culture.ikoku" weight="4.5" value="50000" difficulty="0" appearance="1.0" Type="Crossbow" item_holsters="crossbow_back">
 		<ItemComponent>
-			<Weapon weapon_class="Crossbow" ammo_class="Bolt" ammo_limit="1" missile_speed="600" accuracy="40" thrust_speed="93" speed_rating="88" weapon_length="159" thrust_damage="200" thrust_damage_type="Pierce" item_usage="crossbow" physics_material="wood_weapon" center_of_mass="0,0,0.4">
+			<Weapon weapon_class="Crossbow" ammo_class="Cartridge" ammo_limit="1" missile_speed="600" accuracy="40" thrust_speed="93" speed_rating="88" weapon_length="159" thrust_damage="200" thrust_damage_type="Pierce" item_usage="crossbow" physics_material="wood_weapon" center_of_mass="0,0,0.4">
 				<WeaponFlags RangedWeapon="true" HasString="true" UseHandAsThrowBase="true" NotUsableWithOneHand="true" TwoHandIdleOnMount="true" BonusAgainstShield="true" />
 			</Weapon>
 		</ItemComponent>

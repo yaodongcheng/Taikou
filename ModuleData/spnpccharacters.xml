@@ -1332,6 +1332,34 @@
 		</Equipments>
 	</NPCCharacter>
 
+	<!-- 铁炮足轻（火绳枪队）。武器 = taikou_teppo（网格复用杂贺孙一那把），弹药 = taikou_teppo_ammo。
+	     🔴 弹药槽必须配（Item1）—— 远程武器不带弹药 = 拿着射不出去。
+	     技能走 Crossbow（引擎里火器挂在弩技能下）。升级目标暂空（同弓足轻）。 -->
+	<NPCCharacter id="teppo_ashigaru" default_group="Ranged" formation_position_preference="Front" level="6" is_hero="false" is_female="false" culture="Culture.ikoku" name="{=TAIKOU_troop_teppo_ashigaru}Ashigaru Gunner" occupation="Soldier" is_basic_troop="true" skill_template="SkillSet.ranged_skirmisher_level6_template_skills">
+		<face>
+			<face_key_template value="BodyProperty.fighter_empire"/>
+		</face>
+		<upgrade_targets>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.taikou_teppo" />
+				<equipment slot="Item1" id="Item.taikou_teppo_ammo" />
+				<equipment slot="Head" id="Item.kettle_hat_over_padded_cloth" />
+				<equipment slot="Body" id="Item.short_padded_robe" />
+				<equipment slot="Leg" id="Item.leather_shoes" />
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.taikou_teppo" />
+				<equipment slot="Item1" id="Item.taikou_teppo_ammo" />
+				<equipment slot="Head" id="Item.fur_hat" />
+				<equipment slot="Body" id="Item.short_padded_robe" />
+				<equipment slot="Leg" id="Item.leather_shoes" />
+			</EquipmentRoster>
+			<EquipmentSet id="taikou_civil_common" equipmentType="Civilian" civilian="true" />
+		</Equipments>
+	</NPCCharacter>
+
 	<NPCCharacter id="veteran_ashigaru" default_group="Infantry" formation_position_preference="Front" level="11" is_hero="false" is_female="false" culture="Culture.ikoku" name="{=TAIKOU_troop_veteran_ashigaru}Veteran Ashigaru" occupation="Soldier" is_basic_troop="true" skill_template="SkillSet.infantry_heavyinfantry_level11_template_skills">
 		<face>
 			<face_key_template value="BodyProperty.fighter_empire"/>

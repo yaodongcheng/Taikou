@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 火器开火表现契约 —— Taikou 填值，LWN 侧 FirearmFxRegistry / FirearmFxLogic 读取
+     （C# 直接读盘，不走 MBObjectManager：同目录的 HeroCatalog.xml / HeroProfiles.xml 亦然）。
+
+     🔴 ammoClass = 引擎 WeaponClass 枚举的**名字**（不是自造字符串、不是物品 id）
+        —— 火器的身份由「射什么弹」决定，加新火器（火箭/霰弹/大筒）= 加一行 Profile，LWN 一行不改。
+     🔴 铁炮用 Cartridge，**不是 Bolt**：原版弩兵的武器是 Crossbow + Bolt，
+        火器若也用 Bolt，弩兵开火会被一并认成火器（播成枪声）。
+        （织丰没这个问题——它全库没有普通弩；Taikou 是内容包，原版弩兵还在。）
+     near / mid / far = ModuleData/module_sounds.xml 里的 module_sound 名（内容包自己定义）。
+     nearDist / farDist 单位是米：听者距离 < nearDist 用 near、> farDist 用 far、
+        中间用 mid（听者 = 玩家，玩家不在场时退化为相机位置）。
+
+     particle 目前留空 —— 枪口烟待办（二期）：
+       原版粒子全是环境型（持续烟柱，如 psys_burnt_wood_smoke），没有枪口爆发型的小烟；
+       织丰的 smoke_musket 是它自制的、在 pack1.tpac 里，要借需走 tpaccli + 编辑器重导。
+       留空 = FirearmFxLogic 跳过放烟，只播枪声（不报错）。填上名字即自动生效，代码不用动。 -->
+<FirearmFx>
+	<Profile ammoClass="Cartridge"
+	         near="tk_teppo_fire_near"
+	         mid="tk_teppo_fire_mid"
+	         far="tk_teppo_fire_far"
+	         particle=""
+	         nearDist="22"
+	         farDist="75" />
+</FirearmFx>

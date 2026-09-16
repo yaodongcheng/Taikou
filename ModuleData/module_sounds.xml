@@ -164,5 +164,76 @@
 		is_2d="true" 
 		sound_category="campaign_bed"
 		path="40JINGLE.ogg" />
+
+	<!-- ================= 火器音效（2026-09-15 火器工程） =================
+	     音频文件借自织丰（原路径 Shokuho/ModuleSounds/sho_*.wav），已拷进本模块 —— 运行时零依赖织丰。
+	     文件名保留 sho_ 前缀 = 标明来源（以后要替换成自制音效时按前缀就能找全）；
+	     逻辑名用 tk_ 前缀，与织丰的命名空间隔开。
+	     🔴 LWN 侧不硬编码任何音效名：档位（near/mid/far/粒子）全部走
+	        ModuleData/AssetRegistry/FirearmFx.xml 契约读取（铁律 3：基座不认世界观词汇）。
+	     分档用法：射手到玩家的距离 < nearDist 用 near、> farDist 用 far、中间用 mid。 -->
+
+	<module_sound name="tk_teppo_fire_near"
+	  sound_category="mission_combat">
+		<variation path="sho_closev2Musket_1.wav" weight="0.25" />
+		<variation path="sho_closev2Musket_2.wav" weight="0.25" />
+		<variation path="sho_closev2Musket_3.wav" weight="0.25" />
+		<variation path="sho_closev2Musket_4.wav" weight="0.25" />
+	</module_sound>
+
+	<module_sound name="tk_teppo_fire_mid"
+	  sound_category="mission_combat">
+		<variation path="sho_distMusket_1.wav" weight="0.25" />
+		<variation path="sho_distMusket_2.wav" weight="0.25" />
+		<variation path="sho_distMusket_3.wav" weight="0.25" />
+		<variation path="sho_distMusket_4.wav" weight="0.25" />
+	</module_sound>
+
+	<module_sound name="tk_teppo_fire_far"
+	  sound_category="mission_siege_loud">
+		<variation path="sho_FarMuskTailless_1.wav" weight="0.20" />
+		<variation path="sho_FarMuskTailless_2.wav" weight="0.20" />
+		<variation path="sho_FarMuskTailMix_1.wav" weight="0.15" />
+		<variation path="sho_FarMuskTailMix_2.wav" weight="0.15" />
+		<variation path="sho_FarMuskTailMix_3.wav" weight="0.15" />
+		<variation path="sho_FarMuskTailMix_4.wav" weight="0.15" />
+	</module_sound>
+
+	<module_sound name="tk_teppo_reload"
+	  sound_category="mission_foley">
+		<variation path="sho_GenericReload.wav" weight="0.20" />
+		<variation path="sho_GenericReload2.wav" weight="0.20" />
+		<variation path="sho_GenericReload3.wav" weight="0.20" />
+		<variation path="sho_GenericReload4.wav" weight="0.20" />
+		<variation path="sho_GenericReload5.wav" weight="0.20" />
+	</module_sound>
+
+	<module_sound name="tk_teppo_lever"
+	  sound_category="mission_foley"
+	  path="sho_FiringLever.wav" />
+
+	<!-- 大筒（阶段 3 的场上的炮用；已一并拷入，定义先备好） -->
+
+	<module_sound name="tk_ozutsu_fire_near"
+	  sound_category="mission_combat">
+		<variation path="sho_OzutsuClose_1.wav" weight="0.33" />
+		<variation path="sho_OzutsuClose_2.wav" weight="0.33" />
+		<variation path="sho_OzutsuClose_3.wav" weight="0.33" />
+	</module_sound>
+
+	<module_sound name="tk_ozutsu_fire_mid"
+	  sound_category="mission_combat">
+		<variation path="sho_OzutsuMid_1.wav" weight="0.33" />
+		<variation path="sho_OzutsuMid_2.wav" weight="0.33" />
+		<variation path="sho_OzutsuMid_3.wav" weight="0.33" />
+	</module_sound>
+
+	<module_sound name="tk_ozutsu_fire_far"
+	  sound_category="mission_siege_loud">
+		<variation path="sho_OzutsuFar_1.wav" weight="0.33" />
+		<variation path="sho_OzutsuFar_2.wav" weight="0.33" />
+		<variation path="sho_OzutsuFar_3.wav" weight="0.33" />
+	</module_sound>
+
 	</module_sounds>
 </base>

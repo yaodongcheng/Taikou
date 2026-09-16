@@ -4269,9 +4269,8 @@
 		<Equipments>
 			<EquipmentRoster>
 				<equipment slot="Item0" id="Item.taikou_magoichi_weapon_a" />
-				<equipment slot="Item1" id="Item.bolt_e" />
-				<equipment slot="Item2" id="Item.bolt_e" />
-				<equipment slot="Item3" id="Item.leather_round_shield" />
+				<equipment slot="Item1" id="Item.taikou_teppo_ammo" />
+				<equipment slot="Item2" id="Item.taikou_teppo_ammo" />
 				<equipment slot="Body" id="Item.taikou_magoichi_do_a" />
 				<equipment slot="Gloves" id="Item.reinforced_mail_mitten" />
 				<equipment slot="Head" id="Item.nasal_helmet_with_mail" />
@@ -4279,8 +4278,8 @@
 			</EquipmentRoster>
 			<EquipmentRoster civilian="true">
 				<equipment slot="Item0" id="Item.taikou_magoichi_weapon_a" />
-				<equipment slot="Item1" id="Item.bolt_e" />
-				<equipment slot="Item2" id="Item.bolt_e" />
+				<equipment slot="Item1" id="Item.taikou_teppo_ammo" />
+				<equipment slot="Item2" id="Item.taikou_teppo_ammo" />
 				<equipment slot="Body" id="Item.taikou_magoichi_do_a" />
 				<equipment slot="Leg" id="Item.leather_shoes" />
 			</EquipmentRoster>

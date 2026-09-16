@@ -13,4 +13,14 @@
 	     与 Native 的 race="human" 不同 id → 合并是纯追加，不冲突。
 	     回退方法：删掉下面这一行即可（其余改动都是纯数据、可留可删）。 -->
 	<file id="soln_skins" name="ModuleData/skins.xml" type="skin"/>
+	<!-- 🔴 2026-09-16 启用第三行：soln_module_sound → ModuleData/module_sounds.xml（火器音效要用）。
+	     为什么必须开：音效与 skins 同属 project.mbproj 的 soln 体系，**不在 SubModule 的 XmlNode 体系里**——
+	     不开这行 = 本文件的 48 个音效（40 个 BGM + 8 组火器）**一个都不注册**，
+	     `SoundEvent.GetEventIdFromString` 全查不到。实机症状：铁炮开火只有引擎默认的弩声
+	     （LWN 日志会打 `[FirearmFx] 音效 'tk_teppo_fire_near' 查不到 —— 该档静音`）。
+	     为什么不会重演 09-08 那次崩：那次是 action_sets.xml 逐字拷贝 Native → 同 soln id 合并出
+	     **重复定义** → KeyNotFoundException。本次 module_sounds.xml 的 48 个音效名与 Native 的
+	     **零交集**（Native 实际只定义 3 条 example 音效）→ 合并是纯追加，不冲突。
+	     回退方法：删掉下面这一行即可。 -->
+	<file id="soln_module_sound" name="ModuleData/module_sounds.xml" type="module_sound"/>
 </base>

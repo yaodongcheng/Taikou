@@ -492,4 +492,256 @@
 		</ItemComponent>
 		<Flags Civilian="true" />
 	</Item>
+	<!-- 🔴 2026-09-16 补拷：商队 / 村民战斗场景消费（清单雷档）= 驮畜 + 马具 12 件。
+	     为什么必须有：引擎 CaravanBattleMissionHandler.AfterStart 直接按 id 取这些物品生成驮畜，
+	     缺任何一个 → ItemRosterElement(null) → Mission.CreateHorseAgentFromRosterElements
+	     的 mount.Item.HorseComponent 抛 NullReferenceException（**打商队/劫村民即崩**，实机 2026-09-16）。
+	     非骆驼文化走 mule / mule_unmountable + mule_load_*；骆驼文化走 pack_camel* + camel_saddle*；
+	     num>0 的少数用可骑马具（aseran_village_harness / steppe_fur_harness / steppe_harness）。
+	     来源 = SandBoxCore/ModuleData/items/horses_and_others.xml，**逐字原样拷贝**（官方拷贝纪律）。 -->
+	<Item
+		id="mule_unmountable"
+		name="{=CB97qhVM}Mule"
+		mesh="mule_mesh"
+		is_merchandise="false"
+		item_category="sumpter_horse"
+		value="120"
+		weight="300"
+		Type="Horse">
+		<ItemComponent>
+			<Horse
+				monster="Monster.mule_unmountable"
+				maneuver="48"
+				speed="31"
+				charge_damage="3"
+				body_length="92"
+				is_mountable="false"
+				extra_health="0"
+				is_pack_animal="true" />
+		</ItemComponent>
+		<Flags
+			Civilian="true" />
+	</Item>
+	<Item
+		id="pack_camel"
+		name="{=1O761hqN}Pack Camel{@Plural}pack camels{\@}"
+		mesh="camel_mesh"
+		item_category="sumpter_horse"
+		culture="Culture.aserai"
+		value="220"
+		weight="520"
+		Type="Horse">
+		<ItemComponent>
+			<Horse
+				monster="Monster.camel"
+				maneuver="39"
+				speed="35"
+				charge_damage="4"
+				body_length="113"
+				extra_health="30"
+				is_pack_animal="true"
+				is_mountable="true" />
+		</ItemComponent>
+		<Flags
+			Civilian="true" />
+	</Item>
+	<Item
+		id="pack_camel_unmountable"
+		name="{=1O761hqN}Pack Camel{@Plural}pack camels{\@}"
+		mesh="camel_mesh"
+		is_merchandise="false"
+		item_category="sumpter_horse"
+		culture="Culture.aserai"
+		weight="520"
+		Type="Horse">
+		<ItemComponent>
+			<Horse
+				monster="Monster.camel_unmountable"
+				maneuver="39"
+				speed="35"
+				charge_damage="4"
+				body_length="113"
+				extra_health="30"
+				is_pack_animal="true"
+				is_mountable="false" />
+		</ItemComponent>
+		<Flags
+			Civilian="true" />
+	</Item>
+	<Item
+		id="mule_load_a"
+		name="{=7S6BjECG}Mule Harness with Pack"
+		mesh="mule_load_a"
+		is_merchandise="false"
+		weight="120"
+		appearance="1"
+		Type="HorseHarness">
+		<ItemComponent>
+			<Armor
+				body_armor="10"
+				mane_cover_type="all"
+				family_type="1"
+				material_type="Cloth" />
+		</ItemComponent>
+		<Flags
+			Civilian="true" />
+	</Item>
+	<Item
+		id="mule_load_b"
+		name="{=2SUb8jNP}Mule Harness with Baskets"
+		mesh="mule_load_b"
+		is_merchandise="false"
+		weight="120"
+		appearance="1"
+		Type="HorseHarness">
+		<ItemComponent>
+			<Armor
+				body_armor="10"
+				mane_cover_type="all"
+				family_type="1"
+				material_type="Cloth" />
+		</ItemComponent>
+		<Flags
+			Civilian="true" />
+	</Item>
+	<Item
+		id="mule_load_c"
+		name="{=JHef9oad}Mule Harness with Bags"
+		mesh="mule_load_c"
+		is_merchandise="false"
+		weight="120"
+		appearance="1"
+		Type="HorseHarness">
+		<ItemComponent>
+			<Armor
+				body_armor="10"
+				mane_cover_type="all"
+				family_type="1"
+				material_type="Cloth" />
+		</ItemComponent>
+		<Flags
+			Civilian="true" />
+	</Item>
+	<Item
+		multiplayer_item="false"
+		id="aseran_village_harness"
+		name="{=zPbDZ9VA}Bedouin Common Saddle"
+		mesh="horse_harness_aserai_b_clotest"
+		culture="Culture.aserai"
+		subtype="body_armor"
+		weight="27"
+		difficulty="0"
+		appearance="1"
+		Type="HorseHarness">
+		<ItemComponent>
+			<Armor
+				body_armor="12"
+				mane_cover_type="none"
+				family_type="1"
+				reins_mesh="horse_harness_aserai_b_rein"
+				material_type="Cloth" />
+		</ItemComponent>
+		<Flags
+			Civilian="true" />
+	</Item>
+	<Item
+		multiplayer_item="false"
+		id="steppe_fur_harness"
+		name="{=EfRKaKs0}Steppe Fur Harness"
+		mesh="horse_harness_khuzait_a_clotest"
+		culture="Culture.khuzait"
+		subtype="body_armor"
+		weight="25.5"
+		difficulty="0"
+		appearance="1"
+		Type="HorseHarness">
+		<ItemComponent>
+			<Armor
+				body_armor="16"
+				mane_cover_type="none"
+				family_type="1"
+				reins_mesh="horse_harness_khuzait_a_rein"
+				material_type="Chainmail" />
+		</ItemComponent>
+		<Flags
+			Civilian="true" />
+	</Item>
+	<Item
+		multiplayer_item="false"
+		id="steppe_harness"
+		name="{=OaQE1Frx}Steppe Saddle"
+		mesh="horse_harness_khuzait_b_clotest"
+		culture="Culture.khuzait"
+		subtype="body_armor"
+		weight="23.5"
+		difficulty="0"
+		appearance="1"
+		Type="HorseHarness">
+		<ItemComponent>
+			<Armor
+				body_armor="12"
+				mane_cover_type="none"
+				family_type="1"
+				reins_mesh="horse_harness_khuzait_b_rein"
+				material_type="Chainmail" />
+		</ItemComponent>
+		<Flags
+			Civilian="true" />
+	</Item>
+	<Item
+		id="camel_saddle"
+		name="{=q1z4FQub}Camel Saddle"
+		mesh="camel_saddle1"
+		culture="Culture.aserai"
+		weight="130"
+		appearance="1"
+		Type="HorseHarness">
+		<ItemComponent>
+			<Armor
+				body_armor="10"
+				mane_cover_type="none"
+				family_type="2"
+				material_type="Leather" />
+		</ItemComponent>
+		<Flags
+			Civilian="true" />
+	</Item>
+	<Item
+		id="camel_saddle_a"
+		name="{=ZJYVpjuR}Camel Saddle with Heavy Load"
+		is_merchandise="false"
+		mesh="camel_saddle_a"
+		culture="Culture.aserai"
+		weight="130"
+		appearance="1"
+		Type="HorseHarness">
+		<ItemComponent>
+			<Armor
+				body_armor="10"
+				mane_cover_type="none"
+				family_type="2"
+				material_type="Leather" />
+		</ItemComponent>
+		<Flags
+			Civilian="true" />
+	</Item>
+	<Item
+		id="camel_saddle_b"
+		name="{=OflbQCw6}Camel Saddle with Light Load"
+		is_merchandise="false"
+		mesh="camel_saddle_b"
+		culture="Culture.aserai"
+		weight="130"
+		appearance="1"
+		Type="HorseHarness">
+		<ItemComponent>
+			<Armor
+				body_armor="10"
+				mane_cover_type="none"
+				family_type="2"
+				material_type="Leather" />
+		</ItemComponent>
+		<Flags
+			Civilian="true" />
+	</Item>
 </Items>

@@ -6740,9 +6740,12 @@
     <string id="TAIKOU_tadakatsu_do_a" text="Honda Tadakatsu's Do" />
     <string id="TAIKOU_tadakatsu_helmet_a" text="Honda Tadakatsu's Helmet" />
     <string id="TAIKOU_tadakatsu_weapon_a" text="Honda Tadakatsu's Spear" />
+    <string id="TAIKOU_teppo" text="Matchlock" />
+    <string id="TAIKOU_teppo_ammo" text="Matchlock Ammunition" />
     <string id="TAIKOU_troop_bandit_looter" text="Bandit" />
     <string id="TAIKOU_troop_mounted_samurai" text="Mounted Samurai" />
     <string id="TAIKOU_troop_samurai" text="Samurai" />
+    <string id="TAIKOU_troop_teppo_ashigaru" text="Ashigaru Gunner" />
     <string id="TAIKOU_troop_veteran_ashigaru" text="Veteran Ashigaru" />
     <string id="TAIKOU_troop_yari_ashigaru" text="Ashigaru Spearman" />
     <string id="TAIKOU_troop_yumi_ashigaru" text="Ashigaru Archer" />
