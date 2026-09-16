@@ -34,6 +34,24 @@
 <!-- 生成物（2026-09-08 gen_taikou_culture_full.py）：织丰/原版字段交集 76 字段全量；值全引用自有资源；禁止手改（铁律 22） -->
 
 <!-- 生成物（2026-09-08 gen_taikou_culture_full.py）：织丰/原版字段交集 76 字段全量；值全引用自有资源；禁止手改（铁律 22） -->
+
+<!-- 生成物（2026-09-08 gen_taikou_culture_full.py）：织丰/原版字段交集 76 字段全量；值全引用自有资源；禁止手改（铁律 22） -->
+
+<!-- 生成物（2026-09-08 gen_taikou_culture_full.py）：织丰/原版字段交集 76 字段全量；值全引用自有资源；禁止手改（铁律 22） -->
+
+<!-- 生成物（2026-09-08 gen_taikou_culture_full.py）：织丰/原版字段交集 76 字段全量；值全引用自有资源；禁止手改（铁律 22） -->
+
+<!-- 生成物（2026-09-08 gen_taikou_culture_full.py）：织丰/原版字段交集 76 字段全量；值全引用自有资源；禁止手改（铁律 22） -->
+
+<!-- 生成物（2026-09-08 gen_taikou_culture_full.py）：织丰/原版字段交集 76 字段全量；值全引用自有资源；禁止手改（铁律 22） -->
+
+<!-- 生成物（2026-09-08 gen_taikou_culture_full.py）：织丰/原版字段交集 76 字段全量；值全引用自有资源；禁止手改（铁律 22） -->
+
+<!-- 生成物（2026-09-08 gen_taikou_culture_full.py）：织丰/原版字段交集 76 字段全量；值全引用自有资源；禁止手改（铁律 22） -->
+
+<!-- 生成物（2026-09-08 gen_taikou_culture_full.py）：织丰/原版字段交集 76 字段全量；值全引用自有资源；禁止手改（铁律 22） -->
+
+<!-- 生成物（2026-09-08 gen_taikou_culture_full.py）：织丰/原版字段交集 76 字段全量；值全引用自有资源；禁止手改（铁律 22） -->
 <!-- TaikouCampaign 世界观：日本战国（太阁5）最小数据包 · v0 占位
      生成纪律：v0 手写最小集；全量数据（TK5 时代/城村/人物）进数据生成器后由布局表驱动。 -->
 <SPCultures>
@@ -815,8 +833,8 @@
 			 name="{=TAIKOU_culture_ninja}Ninja"
 			 color="0xff2f4f4f"
 			 color2="0xffb0c4de"
-			 basic_troop="NPCCharacter.yari_ashigaru"
-			 elite_basic_troop="NPCCharacter.veteran_ashigaru"
+			 basic_troop="NPCCharacter.genin"
+			 elite_basic_troop="NPCCharacter.jonin"
 			 melee_militia_troop="NPCCharacter.peasant_farmer"
 			 ranged_militia_troop="NPCCharacter.yumi_ashigaru"
 			 melee_elite_militia_troop="NPCCharacter.yari_ashigaru"
@@ -828,7 +846,7 @@
 			 faction_banner_key="11.0.0.4345.4345.764.764.1.0.0.463.1.1.466.466.764.764.1.0.0"
 			 default_face_key="000fa92e90004202aced5d976886573d5d679585a376fdd605877a7764b8987c00000000000007520000037f0000000f00000037049140010000000000000000"
 			 encounter_background_mesh="encounter_empire"
-			 default_party_template="PartyTemplate.taikou_lord_party_template"
+			 default_party_template="PartyTemplate.taikou_ninja_party_template"
 			 militia_party_template="PartyTemplate.taikou_militia_party_template"
 			 villager_party_template="PartyTemplate.taikou_villager_party_template"
 			 caravan_party_template="PartyTemplate.taikou_caravan_party_template"

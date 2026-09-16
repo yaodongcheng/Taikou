@@ -527,7 +527,7 @@
 		name="{=1O761hqN}Pack Camel{@Plural}pack camels{\@}"
 		mesh="camel_mesh"
 		item_category="sumpter_horse"
-		culture="Culture.aserai"
+		culture="Culture.ikoku"
 		value="220"
 		weight="520"
 		Type="Horse">
@@ -551,7 +551,7 @@
 		mesh="camel_mesh"
 		is_merchandise="false"
 		item_category="sumpter_horse"
-		culture="Culture.aserai"
+		culture="Culture.ikoku"
 		weight="520"
 		Type="Horse">
 		<ItemComponent>
@@ -627,7 +627,7 @@
 		id="aseran_village_harness"
 		name="{=zPbDZ9VA}Bedouin Common Saddle"
 		mesh="horse_harness_aserai_b_clotest"
-		culture="Culture.aserai"
+		culture="Culture.ikoku"
 		subtype="body_armor"
 		weight="27"
 		difficulty="0"
@@ -649,7 +649,7 @@
 		id="steppe_fur_harness"
 		name="{=EfRKaKs0}Steppe Fur Harness"
 		mesh="horse_harness_khuzait_a_clotest"
-		culture="Culture.khuzait"
+		culture="Culture.ikoku"
 		subtype="body_armor"
 		weight="25.5"
 		difficulty="0"
@@ -671,7 +671,7 @@
 		id="steppe_harness"
 		name="{=OaQE1Frx}Steppe Saddle"
 		mesh="horse_harness_khuzait_b_clotest"
-		culture="Culture.khuzait"
+		culture="Culture.ikoku"
 		subtype="body_armor"
 		weight="23.5"
 		difficulty="0"
@@ -692,7 +692,7 @@
 		id="camel_saddle"
 		name="{=q1z4FQub}Camel Saddle"
 		mesh="camel_saddle1"
-		culture="Culture.aserai"
+		culture="Culture.ikoku"
 		weight="130"
 		appearance="1"
 		Type="HorseHarness">
@@ -711,7 +711,7 @@
 		name="{=ZJYVpjuR}Camel Saddle with Heavy Load"
 		is_merchandise="false"
 		mesh="camel_saddle_a"
-		culture="Culture.aserai"
+		culture="Culture.ikoku"
 		weight="130"
 		appearance="1"
 		Type="HorseHarness">
@@ -730,7 +730,7 @@
 		name="{=OflbQCw6}Camel Saddle with Light Load"
 		is_merchandise="false"
 		mesh="camel_saddle_b"
-		culture="Culture.aserai"
+		culture="Culture.ikoku"
 		weight="130"
 		appearance="1"
 		Type="HorseHarness">

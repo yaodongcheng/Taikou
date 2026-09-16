@@ -3697,22 +3697,22 @@
   <HeroProfile id="lord_tk5_1163" birth="0" die="0" clan="" culture="ronin"
                command="0" force="0" govern="0" wisdom="0" charm="0" soldier="0" mount="0" gun="0"
                navy="0" archer="0" combat="0" military="0" ninja="0" build="0" farm="0" mine="0" arthmetic="0" etiquette="0" debate="0" tea="0" medical="0" />
-  <HeroProfile id="lord_tk5_1164" birth="0" die="0" clan="" culture="ronin"
+  <HeroProfile id="lord_tk5_1164" birth="0" die="0" clan="" culture="kinai"
                command="0" force="0" govern="0" wisdom="0" charm="0" soldier="0" mount="0" gun="0"
                navy="0" archer="0" combat="0" military="0" ninja="0" build="0" farm="0" mine="0" arthmetic="0" etiquette="0" debate="0" tea="0" medical="0" />
-  <HeroProfile id="lord_tk5_1165" birth="0" die="0" clan="" culture="ronin"
+  <HeroProfile id="lord_tk5_1165" birth="0" die="0" clan="" culture="kinai"
                command="0" force="0" govern="0" wisdom="0" charm="0" soldier="0" mount="0" gun="0"
                navy="0" archer="0" combat="0" military="0" ninja="0" build="0" farm="0" mine="0" arthmetic="0" etiquette="0" debate="0" tea="0" medical="0" />
-  <HeroProfile id="lord_tk5_1166" birth="0" die="0" clan="" culture="ronin"
+  <HeroProfile id="lord_tk5_1166" birth="0" die="0" clan="" culture="kinai"
                command="0" force="0" govern="0" wisdom="0" charm="0" soldier="0" mount="0" gun="0"
                navy="0" archer="0" combat="0" military="0" ninja="0" build="0" farm="0" mine="0" arthmetic="0" etiquette="0" debate="0" tea="0" medical="0" />
-  <HeroProfile id="lord_tk5_1167" birth="0" die="0" clan="" culture="ronin"
+  <HeroProfile id="lord_tk5_1167" birth="0" die="0" clan="" culture="tosan"
                command="0" force="0" govern="0" wisdom="0" charm="0" soldier="0" mount="0" gun="0"
                navy="0" archer="0" combat="0" military="0" ninja="0" build="0" farm="0" mine="0" arthmetic="0" etiquette="0" debate="0" tea="0" medical="0" />
-  <HeroProfile id="lord_tk5_1168" birth="0" die="0" clan="" culture="ronin"
+  <HeroProfile id="lord_tk5_1168" birth="0" die="0" clan="" culture="kinai"
                command="0" force="0" govern="0" wisdom="0" charm="0" soldier="0" mount="0" gun="0"
                navy="0" archer="0" combat="0" military="0" ninja="0" build="0" farm="0" mine="0" arthmetic="0" etiquette="0" debate="0" tea="0" medical="0" />
-  <HeroProfile id="lord_tk5_1169" birth="0" die="0" clan="" culture="ronin"
+  <HeroProfile id="lord_tk5_1169" birth="0" die="0" clan="" culture="kinai"
                command="0" force="0" govern="0" wisdom="0" charm="0" soldier="0" mount="0" gun="0"
                navy="0" archer="0" combat="0" military="0" ninja="0" build="0" farm="0" mine="0" arthmetic="0" etiquette="0" debate="0" tea="0" medical="0" />
   <HeroProfile id="lord_tk5_1170" birth="0" die="0" clan="" culture="namban"
@@ -3727,40 +3727,40 @@
   <HeroProfile id="lord_tk5_1173" birth="1520" die="0" clan="" culture="pirate"
                command="0" force="0" govern="0" wisdom="0" charm="0" soldier="0" mount="0" gun="0"
                navy="0" archer="0" combat="0" military="0" ninja="0" build="0" farm="0" mine="0" arthmetic="0" etiquette="0" debate="0" tea="0" medical="0" />
-  <HeroProfile id="lord_tk5_1174" birth="0" die="0" clan="" culture="ronin"
+  <HeroProfile id="lord_tk5_1174" birth="0" die="0" clan="" culture="kinai"
                command="0" force="0" govern="0" wisdom="0" charm="0" soldier="0" mount="0" gun="0"
                navy="0" archer="0" combat="0" military="0" ninja="0" build="0" farm="0" mine="0" arthmetic="0" etiquette="0" debate="0" tea="0" medical="0" />
-  <HeroProfile id="lord_tk5_1178" birth="0" die="0" clan="clan_kinoshita_1" culture="neutral_culture"
+  <HeroProfile id="lord_tk5_1178" birth="0" die="0" clan="clan_kinoshita_1" culture="kinai"
                command="0" force="0" govern="0" wisdom="0" charm="0" soldier="0" mount="0" gun="0"
                navy="0" archer="0" combat="0" military="0" ninja="0" build="0" farm="0" mine="0" arthmetic="0" etiquette="0" debate="0" tea="0" medical="0" />
-  <HeroProfile id="lord_tk5_1179" birth="0" die="0" clan="clan_kinoshita_1" culture="kinai"
+  <HeroProfile id="lord_tk5_1179" birth="0" die="0" clan="clan_kinoshita_1" culture="ou"
                command="0" force="0" govern="0" wisdom="0" charm="0" soldier="0" mount="0" gun="0"
                navy="0" archer="0" combat="0" military="0" ninja="0" build="0" farm="0" mine="0" arthmetic="0" etiquette="0" debate="0" tea="0" medical="0" />
-  <HeroProfile id="lord_tk5_1180" birth="0" die="0" clan="clan_kinoshita_1" culture="neutral_culture"
+  <HeroProfile id="lord_tk5_1180" birth="0" die="0" clan="clan_kinoshita_1" culture="tokai"
                command="0" force="0" govern="0" wisdom="0" charm="0" soldier="0" mount="0" gun="0"
                navy="0" archer="0" combat="0" military="0" ninja="0" build="0" farm="0" mine="0" arthmetic="0" etiquette="0" debate="0" tea="0" medical="0" />
-  <HeroProfile id="lord_tk5_1181" birth="0" die="0" clan="clan_azai_2" culture="kinai"
+  <HeroProfile id="lord_tk5_1181" birth="0" die="0" clan="clan_azai_2" culture="ou"
                command="0" force="0" govern="0" wisdom="0" charm="0" soldier="0" mount="0" gun="0"
                navy="0" archer="0" combat="0" military="0" ninja="0" build="0" farm="0" mine="0" arthmetic="0" etiquette="0" debate="0" tea="0" medical="0" />
-  <HeroProfile id="lord_tk5_1182" birth="0" die="0" clan="clan_maeda_1" culture="tosan"
+  <HeroProfile id="lord_tk5_1182" birth="0" die="0" clan="clan_maeda_1" culture="hokuriku"
                command="0" force="0" govern="0" wisdom="0" charm="0" soldier="0" mount="0" gun="0"
                navy="0" archer="0" combat="0" military="0" ninja="0" build="0" farm="0" mine="0" arthmetic="0" etiquette="0" debate="0" tea="0" medical="0" />
-  <HeroProfile id="lord_tk5_1183" birth="0" die="0" clan="clan_uesugi_1" culture="hokuriku"
+  <HeroProfile id="lord_tk5_1183" birth="0" die="0" clan="clan_uesugi_1" culture="ou"
                command="0" force="0" govern="0" wisdom="0" charm="0" soldier="0" mount="0" gun="0"
                navy="0" archer="0" combat="0" military="0" ninja="0" build="0" farm="0" mine="0" arthmetic="0" etiquette="0" debate="0" tea="0" medical="0" />
-  <HeroProfile id="lord_tk5_1184" birth="0" die="0" clan="clan_imagawa_1" culture="tokai"
+  <HeroProfile id="lord_tk5_1184" birth="0" die="0" clan="clan_imagawa_1" culture="kanto"
                command="0" force="0" govern="0" wisdom="0" charm="0" soldier="0" mount="0" gun="0"
                navy="0" archer="0" combat="0" military="0" ninja="0" build="0" farm="0" mine="0" arthmetic="0" etiquette="0" debate="0" tea="0" medical="0" />
-  <HeroProfile id="lord_tk5_1185" birth="0" die="0" clan="clan_takeda_1" culture="tosan"
+  <HeroProfile id="lord_tk5_1185" birth="0" die="0" clan="clan_takeda_1" culture="ou"
                command="0" force="0" govern="0" wisdom="0" charm="0" soldier="0" mount="0" gun="0"
                navy="0" archer="0" combat="0" military="0" ninja="0" build="0" farm="0" mine="0" arthmetic="0" etiquette="0" debate="0" tea="0" medical="0" />
-  <HeroProfile id="lord_tk5_1186" birth="0" die="0" clan="" culture="ronin"
+  <HeroProfile id="lord_tk5_1186" birth="0" die="0" clan="" culture="saikai"
                command="0" force="0" govern="0" wisdom="0" charm="0" soldier="0" mount="0" gun="0"
                navy="0" archer="0" combat="0" military="0" ninja="0" build="0" farm="0" mine="0" arthmetic="0" etiquette="0" debate="0" tea="0" medical="0" />
-  <HeroProfile id="lord_tk5_1187" birth="0" die="0" clan="" culture="ronin"
+  <HeroProfile id="lord_tk5_1187" birth="0" die="0" clan="" culture="ou"
                command="0" force="0" govern="0" wisdom="0" charm="0" soldier="0" mount="0" gun="0"
                navy="0" archer="0" combat="0" military="0" ninja="0" build="0" farm="0" mine="0" arthmetic="0" etiquette="0" debate="0" tea="0" medical="0" />
-  <HeroProfile id="lord_tk5_1188" birth="0" die="0" clan="clan_hojo_2" culture="kanto"
+  <HeroProfile id="lord_tk5_1188" birth="0" die="0" clan="clan_hojo_2" culture="ou"
                command="0" force="0" govern="0" wisdom="0" charm="0" soldier="0" mount="0" gun="0"
                navy="0" archer="0" combat="0" military="0" ninja="0" build="0" farm="0" mine="0" arthmetic="0" etiquette="0" debate="0" tea="0" medical="0" />
   <HeroProfile id="lord_tk5_1189" birth="0" die="0" clan="clan_takahashi_1" culture="saikai"
@@ -3778,133 +3778,133 @@
   <HeroProfile id="lord_tk5_1193" birth="0" die="0" clan="clan_hosokawa_1" culture="kinai"
                command="0" force="0" govern="0" wisdom="0" charm="0" soldier="0" mount="0" gun="0"
                navy="0" archer="0" combat="0" military="0" ninja="0" build="0" farm="0" mine="0" arthmetic="0" etiquette="0" debate="0" tea="0" medical="0" />
-  <HeroProfile id="lord_tk5_1194" birth="0" die="0" clan="clan_oda_1" culture="kinai"
+  <HeroProfile id="lord_tk5_1194" birth="0" die="0" clan="clan_oda_1" culture="ou"
                command="0" force="0" govern="0" wisdom="0" charm="0" soldier="0" mount="0" gun="0"
                navy="0" archer="0" combat="0" military="0" ninja="0" build="0" farm="0" mine="0" arthmetic="0" etiquette="0" debate="0" tea="0" medical="0" />
-  <HeroProfile id="lord_tk5_1195" birth="0" die="0" clan="clan_tokugawa_1" culture="tokai"
+  <HeroProfile id="lord_tk5_1195" birth="0" die="0" clan="clan_tokugawa_1" culture="ou"
                command="0" force="0" govern="0" wisdom="0" charm="0" soldier="0" mount="0" gun="0"
                navy="0" archer="0" combat="0" military="0" ninja="0" build="0" farm="0" mine="0" arthmetic="0" etiquette="0" debate="0" tea="0" medical="0" />
-  <HeroProfile id="lord_tk5_1196" birth="0" die="0" clan="clan_tokugawa_1" culture="tokai"
+  <HeroProfile id="lord_tk5_1196" birth="0" die="0" clan="clan_tokugawa_1" culture="ou"
                command="0" force="0" govern="0" wisdom="0" charm="0" soldier="0" mount="0" gun="0"
                navy="0" archer="0" combat="0" military="0" ninja="0" build="0" farm="0" mine="0" arthmetic="0" etiquette="0" debate="0" tea="0" medical="0" />
   <HeroProfile id="lord_tk5_1197" birth="0" die="0" clan="clan_oda_1" culture="tokai"
                command="0" force="0" govern="0" wisdom="0" charm="0" soldier="0" mount="0" gun="0"
                navy="0" archer="0" combat="0" military="0" ninja="0" build="0" farm="0" mine="0" arthmetic="0" etiquette="0" debate="0" tea="0" medical="0" />
-  <HeroProfile id="lord_tk5_1198" birth="0" die="0" clan="clan_sanada_2" culture="tosan"
+  <HeroProfile id="lord_tk5_1198" birth="0" die="0" clan="clan_sanada_2" culture="kanto"
                command="0" force="0" govern="0" wisdom="0" charm="0" soldier="0" mount="0" gun="0"
                navy="0" archer="0" combat="0" military="0" ninja="0" build="0" farm="0" mine="0" arthmetic="0" etiquette="0" debate="0" tea="0" medical="0" />
-  <HeroProfile id="lord_tk5_1199" birth="0" die="0" clan="" culture="ronin"
+  <HeroProfile id="lord_tk5_1199" birth="0" die="0" clan="" culture="tosan"
                command="0" force="0" govern="0" wisdom="0" charm="0" soldier="0" mount="0" gun="0"
                navy="0" archer="0" combat="0" military="0" ninja="0" build="0" farm="0" mine="0" arthmetic="0" etiquette="0" debate="0" tea="0" medical="0" />
-  <HeroProfile id="lord_tk5_1200" birth="0" die="0" clan="clan_takeda_1" culture="tosan"
+  <HeroProfile id="lord_tk5_1200" birth="0" die="0" clan="clan_takeda_1" culture="ou"
                command="0" force="0" govern="0" wisdom="0" charm="0" soldier="0" mount="0" gun="0"
                navy="0" archer="0" combat="0" military="0" ninja="0" build="0" farm="0" mine="0" arthmetic="0" etiquette="0" debate="0" tea="0" medical="0" />
   <HeroProfile id="lord_tk5_1201" birth="0" die="0" clan="clan_kyoogoku_1" culture="kinai"
                command="0" force="0" govern="0" wisdom="0" charm="0" soldier="0" mount="0" gun="0"
                navy="0" archer="0" combat="0" military="0" ninja="0" build="0" farm="0" mine="0" arthmetic="0" etiquette="0" debate="0" tea="0" medical="0" />
-  <HeroProfile id="lord_tk5_1202" birth="0" die="0" clan="clan_tokugawa_1" culture="tokai"
+  <HeroProfile id="lord_tk5_1202" birth="0" die="0" clan="clan_tokugawa_1" culture="kanto"
                command="0" force="0" govern="0" wisdom="0" charm="0" soldier="0" mount="0" gun="0"
                navy="0" archer="0" combat="0" military="0" ninja="0" build="0" farm="0" mine="0" arthmetic="0" etiquette="0" debate="0" tea="0" medical="0" />
   <HeroProfile id="lord_tk5_1203" birth="0" die="0" clan="clan_nabeshima_1" culture="saikai"
                command="0" force="0" govern="0" wisdom="0" charm="0" soldier="0" mount="0" gun="0"
                navy="0" archer="0" combat="0" military="0" ninja="0" build="0" farm="0" mine="0" arthmetic="0" etiquette="0" debate="0" tea="0" medical="0" />
-  <HeroProfile id="lord_tk5_1204" birth="0" die="0" clan="" culture="ronin"
+  <HeroProfile id="lord_tk5_1204" birth="0" die="0" clan="" culture="hokuriku"
                command="0" force="0" govern="0" wisdom="0" charm="0" soldier="0" mount="0" gun="0"
                navy="0" archer="0" combat="0" military="0" ninja="0" build="0" farm="0" mine="0" arthmetic="0" etiquette="0" debate="0" tea="0" medical="0" />
-  <HeroProfile id="lord_tk5_1205" birth="0" die="0" clan="" culture="ronin"
+  <HeroProfile id="lord_tk5_1205" birth="0" die="0" clan="" culture="ou"
                command="0" force="0" govern="0" wisdom="0" charm="0" soldier="0" mount="0" gun="0"
                navy="0" archer="0" combat="0" military="0" ninja="0" build="0" farm="0" mine="0" arthmetic="0" etiquette="0" debate="0" tea="0" medical="0" />
-  <HeroProfile id="lord_tk5_1206" birth="0" die="0" clan="" culture="ronin"
+  <HeroProfile id="lord_tk5_1206" birth="0" die="0" clan="" culture="saikai"
                command="0" force="0" govern="0" wisdom="0" charm="0" soldier="0" mount="0" gun="0"
                navy="0" archer="0" combat="0" military="0" ninja="0" build="0" farm="0" mine="0" arthmetic="0" etiquette="0" debate="0" tea="0" medical="0" />
-  <HeroProfile id="lord_tk5_1207" birth="0" die="0" clan="" culture="ronin"
+  <HeroProfile id="lord_tk5_1207" birth="0" die="0" clan="" culture="kinai"
                command="0" force="0" govern="0" wisdom="0" charm="0" soldier="0" mount="0" gun="0"
                navy="0" archer="0" combat="0" military="0" ninja="0" build="0" farm="0" mine="0" arthmetic="0" etiquette="0" debate="0" tea="0" medical="0" />
-  <HeroProfile id="lord_tk5_1208" birth="0" die="0" clan="" culture="ronin"
+  <HeroProfile id="lord_tk5_1208" birth="1535" die="0" clan="" culture="sanyo"
                command="0" force="0" govern="0" wisdom="0" charm="0" soldier="0" mount="0" gun="0"
                navy="0" archer="0" combat="0" military="0" ninja="0" build="0" farm="0" mine="0" arthmetic="0" etiquette="0" debate="0" tea="0" medical="0" />
-  <HeroProfile id="lord_tk5_1209" birth="0" die="0" clan="" culture="ronin"
+  <HeroProfile id="lord_tk5_1209" birth="0" die="0" clan="" culture="kanto"
                command="0" force="0" govern="0" wisdom="0" charm="0" soldier="0" mount="0" gun="0"
                navy="0" archer="0" combat="0" military="0" ninja="0" build="0" farm="0" mine="0" arthmetic="0" etiquette="0" debate="0" tea="0" medical="0" />
-  <HeroProfile id="lord_tk5_1210" birth="0" die="0" clan="" culture="ronin"
+  <HeroProfile id="lord_tk5_1210" birth="0" die="0" clan="" culture="ou"
                command="0" force="0" govern="0" wisdom="0" charm="0" soldier="0" mount="0" gun="0"
                navy="0" archer="0" combat="0" military="0" ninja="0" build="0" farm="0" mine="0" arthmetic="0" etiquette="0" debate="0" tea="0" medical="0" />
-  <HeroProfile id="lord_tk5_1211" birth="0" die="0" clan="" culture="ronin"
+  <HeroProfile id="lord_tk5_1211" birth="0" die="0" clan="" culture="kanto"
                command="0" force="0" govern="0" wisdom="0" charm="0" soldier="0" mount="0" gun="0"
                navy="0" archer="0" combat="0" military="0" ninja="0" build="0" farm="0" mine="0" arthmetic="0" etiquette="0" debate="0" tea="0" medical="0" />
-  <HeroProfile id="lord_tk5_1212" birth="0" die="0" clan="" culture="ronin"
+  <HeroProfile id="lord_tk5_1212" birth="0" die="0" clan="" culture="tosan"
                command="0" force="0" govern="0" wisdom="0" charm="0" soldier="0" mount="0" gun="0"
                navy="0" archer="0" combat="0" military="0" ninja="0" build="0" farm="0" mine="0" arthmetic="0" etiquette="0" debate="0" tea="0" medical="0" />
-  <HeroProfile id="lord_tk5_1213" birth="0" die="0" clan="" culture="ronin"
+  <HeroProfile id="lord_tk5_1213" birth="0" die="0" clan="" culture="tokai"
                command="0" force="0" govern="0" wisdom="0" charm="0" soldier="0" mount="0" gun="0"
                navy="0" archer="0" combat="0" military="0" ninja="0" build="0" farm="0" mine="0" arthmetic="0" etiquette="0" debate="0" tea="0" medical="0" />
-  <HeroProfile id="lord_tk5_1214" birth="0" die="0" clan="" culture="ronin"
+  <HeroProfile id="lord_tk5_1214" birth="0" die="0" clan="" culture="tokai"
                command="0" force="0" govern="0" wisdom="0" charm="0" soldier="0" mount="0" gun="0"
                navy="0" archer="0" combat="0" military="0" ninja="0" build="0" farm="0" mine="0" arthmetic="0" etiquette="0" debate="0" tea="0" medical="0" />
-  <HeroProfile id="lord_tk5_1215" birth="0" die="0" clan="" culture="ronin"
+  <HeroProfile id="lord_tk5_1215" birth="0" die="0" clan="" culture="kinai"
                command="0" force="0" govern="0" wisdom="0" charm="0" soldier="0" mount="0" gun="0"
                navy="0" archer="0" combat="0" military="0" ninja="0" build="0" farm="0" mine="0" arthmetic="0" etiquette="0" debate="0" tea="0" medical="0" />
-  <HeroProfile id="lord_tk5_1216" birth="0" die="0" clan="" culture="ronin"
+  <HeroProfile id="lord_tk5_1216" birth="0" die="0" clan="" culture="nankai"
                command="0" force="0" govern="0" wisdom="0" charm="0" soldier="0" mount="0" gun="0"
                navy="0" archer="0" combat="0" military="0" ninja="0" build="0" farm="0" mine="0" arthmetic="0" etiquette="0" debate="0" tea="0" medical="0" />
-  <HeroProfile id="lord_tk5_1217" birth="0" die="0" clan="" culture="ronin"
+  <HeroProfile id="lord_tk5_1217" birth="0" die="0" clan="" culture="tokai"
                command="0" force="0" govern="0" wisdom="0" charm="0" soldier="0" mount="0" gun="0"
                navy="0" archer="0" combat="0" military="0" ninja="0" build="0" farm="0" mine="0" arthmetic="0" etiquette="0" debate="0" tea="0" medical="0" />
-  <HeroProfile id="lord_tk5_1218" birth="0" die="0" clan="" culture="ronin"
+  <HeroProfile id="lord_tk5_1218" birth="0" die="0" clan="" culture="hokuriku"
                command="0" force="0" govern="0" wisdom="0" charm="0" soldier="0" mount="0" gun="0"
                navy="0" archer="0" combat="0" military="0" ninja="0" build="0" farm="0" mine="0" arthmetic="0" etiquette="0" debate="0" tea="0" medical="0" />
-  <HeroProfile id="lord_tk5_1219" birth="0" die="0" clan="" culture="ronin"
+  <HeroProfile id="lord_tk5_1219" birth="0" die="0" clan="" culture="sanyo"
                command="0" force="0" govern="0" wisdom="0" charm="0" soldier="0" mount="0" gun="0"
                navy="0" archer="0" combat="0" military="0" ninja="0" build="0" farm="0" mine="0" arthmetic="0" etiquette="0" debate="0" tea="0" medical="0" />
-  <HeroProfile id="lord_tk5_1220" birth="0" die="0" clan="" culture="ronin"
+  <HeroProfile id="lord_tk5_1220" birth="0" die="0" clan="" culture="kinai"
                command="0" force="0" govern="0" wisdom="0" charm="0" soldier="0" mount="0" gun="0"
                navy="0" archer="0" combat="0" military="0" ninja="0" build="0" farm="0" mine="0" arthmetic="0" etiquette="0" debate="0" tea="0" medical="0" />
-  <HeroProfile id="lord_tk5_1221" birth="0" die="0" clan="" culture="ronin"
+  <HeroProfile id="lord_tk5_1221" birth="0" die="0" clan="" culture="saikai"
                command="0" force="0" govern="0" wisdom="0" charm="0" soldier="0" mount="0" gun="0"
                navy="0" archer="0" combat="0" military="0" ninja="0" build="0" farm="0" mine="0" arthmetic="0" etiquette="0" debate="0" tea="0" medical="0" />
-  <HeroProfile id="lord_tk5_1225" birth="0" die="0" clan="" culture="ronin"
+  <HeroProfile id="lord_tk5_1225" birth="0" die="0" clan="" culture="kanto"
                command="0" force="0" govern="0" wisdom="0" charm="0" soldier="0" mount="0" gun="0"
                navy="0" archer="0" combat="0" military="0" ninja="0" build="0" farm="0" mine="0" arthmetic="0" etiquette="0" debate="0" tea="0" medical="0" />
-  <HeroProfile id="lord_tk5_1226" birth="0" die="0" clan="" culture="ronin"
+  <HeroProfile id="lord_tk5_1226" birth="0" die="0" clan="" culture="hokuriku"
                command="0" force="0" govern="0" wisdom="0" charm="0" soldier="0" mount="0" gun="0"
                navy="0" archer="0" combat="0" military="0" ninja="0" build="0" farm="0" mine="0" arthmetic="0" etiquette="0" debate="0" tea="0" medical="0" />
-  <HeroProfile id="lord_tk5_1227" birth="0" die="0" clan="" culture="ronin"
+  <HeroProfile id="lord_tk5_1227" birth="0" die="0" clan="" culture="ou"
                command="0" force="0" govern="0" wisdom="0" charm="0" soldier="0" mount="0" gun="0"
                navy="0" archer="0" combat="0" military="0" ninja="0" build="0" farm="0" mine="0" arthmetic="0" etiquette="0" debate="0" tea="0" medical="0" />
-  <HeroProfile id="lord_tk5_1228" birth="0" die="0" clan="" culture="ronin"
+  <HeroProfile id="lord_tk5_1228" birth="0" die="0" clan="" culture="kinai"
                command="0" force="0" govern="0" wisdom="0" charm="0" soldier="0" mount="0" gun="0"
                navy="0" archer="0" combat="0" military="0" ninja="0" build="0" farm="0" mine="0" arthmetic="0" etiquette="0" debate="0" tea="0" medical="0" />
-  <HeroProfile id="lord_tk5_1229" birth="0" die="0" clan="" culture="ronin"
+  <HeroProfile id="lord_tk5_1229" birth="0" die="0" clan="" culture="ou"
                command="0" force="0" govern="0" wisdom="0" charm="0" soldier="0" mount="0" gun="0"
                navy="0" archer="0" combat="0" military="0" ninja="0" build="0" farm="0" mine="0" arthmetic="0" etiquette="0" debate="0" tea="0" medical="0" />
-  <HeroProfile id="lord_tk5_1230" birth="0" die="0" clan="" culture="ronin"
+  <HeroProfile id="lord_tk5_1230" birth="0" die="0" clan="" culture="ou"
                command="0" force="0" govern="0" wisdom="0" charm="0" soldier="0" mount="0" gun="0"
                navy="0" archer="0" combat="0" military="0" ninja="0" build="0" farm="0" mine="0" arthmetic="0" etiquette="0" debate="0" tea="0" medical="0" />
-  <HeroProfile id="lord_tk5_1231" birth="0" die="0" clan="" culture="ronin"
+  <HeroProfile id="lord_tk5_1231" birth="0" die="0" clan="" culture="ou"
                command="0" force="0" govern="0" wisdom="0" charm="0" soldier="0" mount="0" gun="0"
                navy="0" archer="0" combat="0" military="0" ninja="0" build="0" farm="0" mine="0" arthmetic="0" etiquette="0" debate="0" tea="0" medical="0" />
-  <HeroProfile id="lord_tk5_1232" birth="0" die="0" clan="clan_chosokabe_2" culture="neutral_culture"
+  <HeroProfile id="lord_tk5_1232" birth="0" die="0" clan="clan_chosokabe_2" culture="nankai"
                command="0" force="0" govern="0" wisdom="0" charm="0" soldier="0" mount="0" gun="0"
                navy="0" archer="0" combat="0" military="0" ninja="0" build="0" farm="0" mine="0" arthmetic="0" etiquette="0" debate="0" tea="0" medical="0" />
-  <HeroProfile id="lord_tk5_1233" birth="0" die="0" clan="" culture="ronin"
+  <HeroProfile id="lord_tk5_1233" birth="0" die="0" clan="" culture="ou"
                command="0" force="0" govern="0" wisdom="0" charm="0" soldier="0" mount="0" gun="0"
                navy="0" archer="0" combat="0" military="0" ninja="0" build="0" farm="0" mine="0" arthmetic="0" etiquette="0" debate="0" tea="0" medical="0" />
   <HeroProfile id="lord_tk5_1234" birth="0" die="0" clan="clan_sanada_2" culture="tosan"
                command="0" force="0" govern="0" wisdom="0" charm="0" soldier="0" mount="0" gun="0"
                navy="0" archer="0" combat="0" military="0" ninja="0" build="0" farm="0" mine="0" arthmetic="0" etiquette="0" debate="0" tea="0" medical="0" />
-  <HeroProfile id="lord_tk5_1235" birth="0" die="0" clan="" culture="ronin"
+  <HeroProfile id="lord_tk5_1235" birth="0" die="0" clan="" culture="ou"
                command="0" force="0" govern="0" wisdom="0" charm="0" soldier="0" mount="0" gun="0"
                navy="0" archer="0" combat="0" military="0" ninja="0" build="0" farm="0" mine="0" arthmetic="0" etiquette="0" debate="0" tea="0" medical="0" />
-  <HeroProfile id="lord_tk5_1236" birth="0" die="0" clan="clan_imagawa_1" culture="tosan"
+  <HeroProfile id="lord_tk5_1236" birth="0" die="0" clan="clan_imagawa_1" culture="ou"
                command="0" force="0" govern="0" wisdom="0" charm="0" soldier="0" mount="0" gun="0"
                navy="0" archer="0" combat="0" military="0" ninja="0" build="0" farm="0" mine="0" arthmetic="0" etiquette="0" debate="0" tea="0" medical="0" />
-  <HeroProfile id="lord_tk5_1237" birth="0" die="0" clan="" culture="ronin"
+  <HeroProfile id="lord_tk5_1237" birth="0" die="0" clan="" culture="ou"
                command="0" force="0" govern="0" wisdom="0" charm="0" soldier="0" mount="0" gun="0"
                navy="0" archer="0" combat="0" military="0" ninja="0" build="0" farm="0" mine="0" arthmetic="0" etiquette="0" debate="0" tea="0" medical="0" />
-  <HeroProfile id="lord_tk5_1238" birth="0" die="0" clan="" culture="ronin"
+  <HeroProfile id="lord_tk5_1238" birth="0" die="0" clan="" culture="ou"
                command="0" force="0" govern="0" wisdom="0" charm="0" soldier="0" mount="0" gun="0"
                navy="0" archer="0" combat="0" military="0" ninja="0" build="0" farm="0" mine="0" arthmetic="0" etiquette="0" debate="0" tea="0" medical="0" />
-  <HeroProfile id="lord_tk5_1240" birth="0" die="0" clan="" culture="ronin"
+  <HeroProfile id="lord_tk5_1240" birth="0" die="0" clan="" culture="ou"
                command="0" force="0" govern="0" wisdom="0" charm="0" soldier="0" mount="0" gun="0"
                navy="0" archer="0" combat="0" military="0" ninja="0" build="0" farm="0" mine="0" arthmetic="0" etiquette="0" debate="0" tea="0" medical="0" />
   <HeroProfile id="lord_tk5_1242" birth="1520" die="0" clan="" culture="pirate"
@@ -3913,7 +3913,7 @@
   <HeroProfile id="lord_tk5_1243" birth="1520" die="0" clan="" culture="pirate"
                command="0" force="0" govern="0" wisdom="0" charm="0" soldier="0" mount="0" gun="0"
                navy="0" archer="0" combat="0" military="0" ninja="0" build="0" farm="0" mine="0" arthmetic="0" etiquette="0" debate="0" tea="0" medical="0" />
-  <HeroProfile id="lord_tk5_1289" birth="0" die="0" clan="" culture="ronin"
+  <HeroProfile id="lord_tk5_1289" birth="0" die="0" clan="" culture="ou"
                command="0" force="0" govern="0" wisdom="0" charm="0" soldier="0" mount="0" gun="0"
                navy="0" archer="0" combat="0" military="0" ninja="0" build="0" farm="0" mine="0" arthmetic="0" etiquette="0" debate="0" tea="0" medical="0" />
   <HeroProfile id="template_ninja_male_01" birth="0" die="0" clan="" culture="ninja"

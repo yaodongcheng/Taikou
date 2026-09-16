@@ -6743,12 +6743,59 @@
     <string id="TAIKOU_teppo" text="Matchlock" />
     <string id="TAIKOU_teppo_ammo" text="Matchlock Ammunition" />
     <string id="TAIKOU_troop_bandit_looter" text="Bandit" />
+    <string id="TAIKOU_troop_chunin" text="Chunin" />
+    <string id="TAIKOU_troop_chunin_do_a" text="Brown Shinobi Garb" />
+    <string id="TAIKOU_troop_elite_ashigaru_do_a" text="Vermilion Do" />
+    <string id="TAIKOU_troop_elite_ashigaru_helmet_a" text="Vermilion Jingasa" />
+    <string id="TAIKOU_troop_genin" text="Genin" />
+    <string id="TAIKOU_troop_genin_do_a" text="Navy Kunoichi Garb" />
+    <string id="TAIKOU_troop_guard1_do_a" text="Brown Leather Bodyguard Do" />
+    <string id="TAIKOU_troop_guard1_helmet_a" text="Brown Bodyguard Kabuto" />
+    <string id="TAIKOU_troop_guard3_do_a" text="Brown Riveted Bodyguard Do" />
+    <string id="TAIKOU_troop_guard3_helmet_a" text="Brown Bodyguard Suji Kabuto" />
+    <string id="TAIKOU_troop_guard4_do_a" text="Golden Lacquered Bodyguard Do" />
+    <string id="TAIKOU_troop_guard4_helmet_a" text="Golden Crested Great Kabuto" />
+    <string id="TAIKOU_troop_guard5_do_a" text="Red-brown Light Bodyguard Do" />
+    <string id="TAIKOU_troop_guard5_helmet_a" text="Red-brown Bodyguard Small Kabuto" />
+    <string id="TAIKOU_troop_hazenin" text="Hazenin" />
+    <string id="TAIKOU_troop_hazenin_do_a" text="Black Lacquered Gusoku" />
+    <string id="TAIKOU_troop_hazenin_helmet_a" text="Black Lacquered Kabuto" />
+    <string id="TAIKOU_troop_jonin" text="Jonin" />
+    <string id="TAIKOU_troop_jonin_do_a" text="Black Shinobi Garb" />
+    <string id="TAIKOU_troop_jonin_helmet_a" text="Black Fukumen" />
+    <string id="TAIKOU_troop_katana_ashigaru" text="Ashigaru Swordsman" />
+    <string id="TAIKOU_troop_katana_ashigaru_do_a" text="Steel-blue Kusari Katabira" />
+    <string id="TAIKOU_troop_katana_ashigaru_helmet_a" text="Steel-blue Jingasa" />
+    <string id="TAIKOU_troop_kyushu_do_a" text="Red-brown Leather Do" />
+    <string id="TAIKOU_troop_kyushu_helmet_a" text="Red-brown Jingasa" />
     <string id="TAIKOU_troop_mounted_samurai" text="Mounted Samurai" />
     <string id="TAIKOU_troop_samurai" text="Samurai" />
+    <string id="TAIKOU_troop_samurai_do_a" text="Tea-blue Gusoku" />
+    <string id="TAIKOU_troop_samurai_helmet_a" text="Blue Iron Kabuto" />
+    <string id="TAIKOU_troop_sennin" text="Sennin" />
+    <string id="TAIKOU_troop_sennin_do_a" text="White Shinobi Garb" />
+    <string id="TAIKOU_troop_sennin_helmet_a" text="White Zukin" />
+    <string id="TAIKOU_troop_shinobigatana_weapon_a" text="Shinobi Blade" />
+    <string id="TAIKOU_troop_taisho" text="Samurai General" />
+    <string id="TAIKOU_troop_taisho_do_a" text="Sakura Gusoku" />
+    <string id="TAIKOU_troop_taisho_helmet_a" text="Sakura Great Kabuto" />
     <string id="TAIKOU_troop_teppo_ashigaru" text="Ashigaru Gunner" />
+    <string id="TAIKOU_troop_teppo_ashigaru_do_a" text="Red-brown Gunpowder Do" />
+    <string id="TAIKOU_troop_teppo_ashigaru_helmet_a" text="Sugegasa" />
+    <string id="TAIKOU_troop_tobinin" text="Tobinin" />
+    <string id="TAIKOU_troop_tobinin_do_a" text="Dark Red Shinobi Garb" />
+    <string id="TAIKOU_troop_totsunin" text="Totsunin" />
+    <string id="TAIKOU_troop_totsunin_do_a" text="Red-brown Heavy Do" />
+    <string id="TAIKOU_troop_totsunin_helmet_a" text="Red-brown Kabuto" />
+    <string id="TAIKOU_troop_uchigatana_weapon_a" text="Uchigatana" />
     <string id="TAIKOU_troop_veteran_ashigaru" text="Veteran Ashigaru" />
     <string id="TAIKOU_troop_yari_ashigaru" text="Ashigaru Spearman" />
+    <string id="TAIKOU_troop_yari_ashigaru_do_a" text="Brown Leather Do" />
+    <string id="TAIKOU_troop_yari_ashigaru_helmet_a" text="Brown Jingasa" />
+    <string id="TAIKOU_troop_yari_weapon_a" text="Long Spear" />
     <string id="TAIKOU_troop_yumi_ashigaru" text="Ashigaru Archer" />
+    <string id="TAIKOU_troop_yumi_ashigaru_do_a" text="Light Leather Bow Do" />
+    <string id="TAIKOU_troop_yumi_weapon_a" text="Bow" />
     <string id="TAIKOU_yoshihiro_do_a" text="Shimazu Yoshihiro's Do" />
     <string id="TAIKOU_yoshihiro_helmet_a" text="Shimazu Yoshihiro's Helmet" />
     <string id="TAIKOU_yoshihiro_weapon_a" text="Shimazu Yoshihiro's Spear" />

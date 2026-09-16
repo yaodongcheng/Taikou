@@ -1291,16 +1291,9 @@
 		</upgrade_targets>
 		<Equipments>
 			<EquipmentRoster>
-				<equipment slot="Item0" id="Item.western_spear_1_t2" />
-				<equipment slot="Head" id="Item.kettle_hat_over_padded_cloth" />
-				<equipment slot="Body" id="Item.short_padded_robe" />
-				<equipment slot="Leg" id="Item.leather_shoes" />
-			</EquipmentRoster>
-			<EquipmentRoster>
-				<equipment slot="Item0" id="Item.western_spear_1_t2" />
-				<equipment slot="Head" id="Item.fur_hat" />
-				<equipment slot="Body" id="Item.short_padded_robe" />
-				<equipment slot="Leg" id="Item.leather_shoes" />
+				<equipment slot="Item0" id="Item.taikou_troop_yari_weapon_a" />
+				<equipment slot="Body" id="Item.taikou_troop_yari_ashigaru_do_a" />
+				<equipment slot="Head" id="Item.taikou_troop_yari_ashigaru_helmet_a" />
 			</EquipmentRoster>
 			<EquipmentSet id="taikou_civil_common" equipmentType="Civilian" civilian="true" />
 		</Equipments>
@@ -1315,18 +1308,9 @@
 		</upgrade_targets>
 		<Equipments>
 			<EquipmentRoster>
-				<equipment slot="Item0" id="Item.hunting_bow" />
+				<equipment slot="Item0" id="Item.taikou_troop_yumi_weapon_a" />
 				<equipment slot="Item1" id="Item.steppe_arrows" />
-				<equipment slot="Head" id="Item.kettle_hat_over_padded_cloth" />
-				<equipment slot="Body" id="Item.short_padded_robe" />
-				<equipment slot="Leg" id="Item.leather_shoes" />
-			</EquipmentRoster>
-			<EquipmentRoster>
-				<equipment slot="Item0" id="Item.hunting_bow" />
-				<equipment slot="Item1" id="Item.steppe_arrows" />
-				<equipment slot="Head" id="Item.fur_hat" />
-				<equipment slot="Body" id="Item.short_padded_robe" />
-				<equipment slot="Leg" id="Item.leather_shoes" />
+				<equipment slot="Body" id="Item.taikou_troop_yumi_ashigaru_do_a" />
 			</EquipmentRoster>
 			<EquipmentSet id="taikou_civil_common" equipmentType="Civilian" civilian="true" />
 		</Equipments>
@@ -1340,21 +1324,14 @@
 			<face_key_template value="BodyProperty.fighter_empire"/>
 		</face>
 		<upgrade_targets>
+
 		</upgrade_targets>
 		<Equipments>
 			<EquipmentRoster>
 				<equipment slot="Item0" id="Item.taikou_teppo" />
 				<equipment slot="Item1" id="Item.taikou_teppo_ammo" />
-				<equipment slot="Head" id="Item.kettle_hat_over_padded_cloth" />
-				<equipment slot="Body" id="Item.short_padded_robe" />
-				<equipment slot="Leg" id="Item.leather_shoes" />
-			</EquipmentRoster>
-			<EquipmentRoster>
-				<equipment slot="Item0" id="Item.taikou_teppo" />
-				<equipment slot="Item1" id="Item.taikou_teppo_ammo" />
-				<equipment slot="Head" id="Item.fur_hat" />
-				<equipment slot="Body" id="Item.short_padded_robe" />
-				<equipment slot="Leg" id="Item.leather_shoes" />
+				<equipment slot="Body" id="Item.taikou_troop_teppo_ashigaru_do_a" />
+				<equipment slot="Head" id="Item.taikou_troop_teppo_ashigaru_helmet_a" />
 			</EquipmentRoster>
 			<EquipmentSet id="taikou_civil_common" equipmentType="Civilian" civilian="true" />
 		</Equipments>
@@ -1369,10 +1346,9 @@
 		</upgrade_targets>
 		<Equipments>
 			<EquipmentRoster>
-				<equipment slot="Item0" id="Item.western_spear_3_t3" />
-				<equipment slot="Head" id="Item.kettle_hat_over_mail_coif" />
-				<equipment slot="Body" id="Item.padded_leather_shirt" />
-				<equipment slot="Leg" id="Item.wrapped_leather_boots" />
+				<equipment slot="Item0" id="Item.taikou_troop_yari_weapon_a" />
+				<equipment slot="Body" id="Item.taikou_troop_elite_ashigaru_do_a" />
+				<equipment slot="Head" id="Item.taikou_troop_elite_ashigaru_helmet_a" />
 			</EquipmentRoster>
 			<EquipmentSet id="taikou_civil_common" equipmentType="Civilian" civilian="true" />
 		</Equipments>
@@ -1383,14 +1359,13 @@
 			<face_key_template value="BodyProperty.fighter_empire"/>
 		</face>
 		<upgrade_targets>
-
+				<upgrade_target id="NPCCharacter.taisho" />
 		</upgrade_targets>
 		<Equipments>
 			<EquipmentRoster>
-				<equipment slot="Item0" id="Item.ridged_sabre_sword_t4" />
-				<equipment slot="Head" id="Item.nasal_helmet_with_mail" />
-				<equipment slot="Body" id="Item.leather_lamellar_armor" />
-				<equipment slot="Leg" id="Item.leather_cavalier_boots" />
+				<equipment slot="Item0" id="Item.taikou_troop_uchigatana_weapon_a" />
+				<equipment slot="Body" id="Item.taikou_troop_samurai_do_a" />
+				<equipment slot="Head" id="Item.taikou_troop_samurai_helmet_a" />
 			</EquipmentRoster>
 			<EquipmentSet id="taikou_civil_common" equipmentType="Civilian" civilian="true" />
 		</Equipments>
@@ -1407,9 +1382,8 @@
 			<EquipmentRoster>
 				<equipment slot="Item0" id="Item.vlandia_lance_2_t4" />
 				<equipment slot="Item1" id="Item.ridged_sabre_sword_t4" />
-				<equipment slot="Head" id="Item.nasal_helmet_with_mail" />
-				<equipment slot="Body" id="Item.eastern_lamellar_armor" />
-				<equipment slot="Leg" id="Item.leather_cavalier_boots" />
+				<equipment slot="Body" id="Item.taikou_troop_samurai_do_a" />
+				<equipment slot="Head" id="Item.taikou_troop_samurai_helmet_a" />
 				<equipment slot="Horse" id="Item.t2_empire_horse" />
 				<equipment slot="HorseHarness" id="Item.light_harness" />
 			</EquipmentRoster>
@@ -1436,6 +1410,159 @@
 				<equipment slot="Leg" id="Item.wrapped_shoes" />
 			</EquipmentRoster>
 			<EquipmentSet id="taikou_civil_bandit" equipmentType="Civilian" civilian="true" />
+		</Equipments>
+	</NPCCharacter>
+
+	<NPCCharacter id="katana_ashigaru" default_group="Infantry" formation_position_preference="Front" level="6" is_hero="false" is_female="false" culture="Culture.ikoku" name="{=TAIKOU_troop_katana_ashigaru}Ashigaru Swordsman" occupation="Soldier" is_basic_troop="true" skill_template="SkillSet.infantry_heavyinfantry_level6_template_skills">
+		<face>
+			<face_key_template value="BodyProperty.fighter_empire"/>
+		</face>
+		<upgrade_targets>
+				<upgrade_target id="NPCCharacter.veteran_ashigaru" />
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.taikou_troop_uchigatana_weapon_a" />
+				<equipment slot="Body" id="Item.taikou_troop_katana_ashigaru_do_a" />
+				<equipment slot="Head" id="Item.taikou_troop_katana_ashigaru_helmet_a" />
+			</EquipmentRoster>
+			<EquipmentSet id="taikou_civil_common" equipmentType="Civilian" civilian="true" />
+		</Equipments>
+	</NPCCharacter>
+
+	<NPCCharacter id="taisho" default_group="Infantry" formation_position_preference="Front" level="21" is_hero="false" is_female="false" culture="Culture.ikoku" name="{=TAIKOU_troop_taisho}Samurai General" occupation="Soldier" skill_template="SkillSet.infantry_heavyinfantry_level21_template_skills">
+		<face>
+			<face_key_template value="BodyProperty.fighter_empire"/>
+		</face>
+		<upgrade_targets>
+
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.taikou_troop_uchigatana_weapon_a" />
+				<equipment slot="Body" id="Item.taikou_troop_taisho_do_a" />
+				<equipment slot="Head" id="Item.taikou_troop_taisho_helmet_a" />
+			</EquipmentRoster>
+			<EquipmentSet id="taikou_civil_common" equipmentType="Civilian" civilian="true" />
+		</Equipments>
+	</NPCCharacter>
+
+	<NPCCharacter id="genin" default_group="Infantry" formation_position_preference="Front" level="6" is_hero="false" is_female="false" culture="Culture.ninja" name="{=TAIKOU_troop_genin}Genin" occupation="Soldier" is_basic_troop="true" skill_template="SkillSet.infantry_heavyinfantry_level6_template_skills">
+		<face>
+			<face_key_template value="BodyProperty.fighter_empire"/>
+		</face>
+		<upgrade_targets>
+				<upgrade_target id="NPCCharacter.chunin" />
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.taikou_troop_shinobigatana_weapon_a" />
+				<equipment slot="Body" id="Item.taikou_troop_genin_do_a" />
+			</EquipmentRoster>
+			<EquipmentSet id="taikou_civil_common" equipmentType="Civilian" civilian="true" />
+		</Equipments>
+	</NPCCharacter>
+
+	<NPCCharacter id="chunin" default_group="Infantry" formation_position_preference="Front" level="11" is_hero="false" is_female="false" culture="Culture.ninja" name="{=TAIKOU_troop_chunin}Chunin" occupation="Soldier" skill_template="SkillSet.infantry_heavyinfantry_level11_template_skills">
+		<face>
+			<face_key_template value="BodyProperty.fighter_empire"/>
+		</face>
+		<upgrade_targets>
+				<upgrade_target id="NPCCharacter.jonin" />
+				<upgrade_target id="NPCCharacter.totsunin" />
+				<upgrade_target id="NPCCharacter.tobinin" />
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.taikou_troop_shinobigatana_weapon_a" />
+				<equipment slot="Body" id="Item.taikou_troop_chunin_do_a" />
+			</EquipmentRoster>
+			<EquipmentSet id="taikou_civil_common" equipmentType="Civilian" civilian="true" />
+		</Equipments>
+	</NPCCharacter>
+
+	<NPCCharacter id="totsunin" default_group="Infantry" formation_position_preference="Front" level="16" is_hero="false" is_female="false" culture="Culture.ninja" name="{=TAIKOU_troop_totsunin}Totsunin" occupation="Soldier" skill_template="SkillSet.infantry_heavyinfantry_level16_template_skills">
+		<face>
+			<face_key_template value="BodyProperty.fighter_empire"/>
+		</face>
+		<upgrade_targets>
+				<upgrade_target id="NPCCharacter.hazenin" />
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.taikou_troop_shinobigatana_weapon_a" />
+				<equipment slot="Body" id="Item.taikou_troop_totsunin_do_a" />
+				<equipment slot="Head" id="Item.taikou_troop_totsunin_helmet_a" />
+			</EquipmentRoster>
+			<EquipmentSet id="taikou_civil_common" equipmentType="Civilian" civilian="true" />
+		</Equipments>
+	</NPCCharacter>
+
+	<NPCCharacter id="tobinin" default_group="Infantry" formation_position_preference="Front" level="16" is_hero="false" is_female="false" culture="Culture.ninja" name="{=TAIKOU_troop_tobinin}Tobinin" occupation="Soldier" skill_template="SkillSet.infantry_heavyinfantry_level16_template_skills">
+		<face>
+			<face_key_template value="BodyProperty.fighter_empire"/>
+		</face>
+		<upgrade_targets>
+				<upgrade_target id="NPCCharacter.hazenin" />
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.taikou_troop_shinobigatana_weapon_a" />
+				<equipment slot="Body" id="Item.taikou_troop_tobinin_do_a" />
+			</EquipmentRoster>
+			<EquipmentSet id="taikou_civil_common" equipmentType="Civilian" civilian="true" />
+		</Equipments>
+	</NPCCharacter>
+
+	<NPCCharacter id="jonin" default_group="Infantry" formation_position_preference="Front" level="16" is_hero="false" is_female="false" culture="Culture.ninja" name="{=TAIKOU_troop_jonin}Jonin" occupation="Soldier" skill_template="SkillSet.infantry_heavyinfantry_level16_template_skills">
+		<face>
+			<face_key_template value="BodyProperty.fighter_empire"/>
+		</face>
+		<upgrade_targets>
+				<upgrade_target id="NPCCharacter.hazenin" />
+				<upgrade_target id="NPCCharacter.sennin" />
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.taikou_troop_shinobigatana_weapon_a" />
+				<equipment slot="Body" id="Item.taikou_troop_jonin_do_a" />
+				<equipment slot="Head" id="Item.taikou_troop_jonin_helmet_a" />
+			</EquipmentRoster>
+			<EquipmentSet id="taikou_civil_common" equipmentType="Civilian" civilian="true" />
+		</Equipments>
+	</NPCCharacter>
+
+	<NPCCharacter id="sennin" default_group="Infantry" formation_position_preference="Front" level="21" is_hero="false" is_female="false" culture="Culture.ninja" name="{=TAIKOU_troop_sennin}Sennin" occupation="Soldier" skill_template="SkillSet.infantry_heavyinfantry_level21_template_skills">
+		<face>
+			<face_key_template value="BodyProperty.fighter_empire"/>
+		</face>
+		<upgrade_targets>
+
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.taikou_troop_shinobigatana_weapon_a" />
+				<equipment slot="Body" id="Item.taikou_troop_sennin_do_a" />
+				<equipment slot="Head" id="Item.taikou_troop_sennin_helmet_a" />
+			</EquipmentRoster>
+			<EquipmentSet id="taikou_civil_common" equipmentType="Civilian" civilian="true" />
+		</Equipments>
+	</NPCCharacter>
+
+	<NPCCharacter id="hazenin" default_group="Infantry" formation_position_preference="Front" level="21" is_hero="false" is_female="false" culture="Culture.ninja" name="{=TAIKOU_troop_hazenin}Hazenin" occupation="Soldier" skill_template="SkillSet.infantry_heavyinfantry_level21_template_skills">
+		<face>
+			<face_key_template value="BodyProperty.fighter_empire"/>
+		</face>
+		<upgrade_targets>
+
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.taikou_troop_shinobigatana_weapon_a" />
+				<equipment slot="Body" id="Item.taikou_troop_hazenin_do_a" />
+				<equipment slot="Head" id="Item.taikou_troop_hazenin_helmet_a" />
+			</EquipmentRoster>
+			<EquipmentSet id="taikou_civil_common" equipmentType="Civilian" civilian="true" />
 		</Equipments>
 	</NPCCharacter>
 

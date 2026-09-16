@@ -135,7 +135,7 @@
 			<base_influence value="60.0"/>
 		</Influence>
 	</Faction>
-	<Faction id="clan_deura_1" is_noble="true" owner="Hero.lord_tk5_94" banner_key="11.167.12.4922.4922.764.764.1.0.0.441.111.0.454.454.764.764.0.0.359" is_minor_faction="false" super_faction="Kingdom.kingdom_org_ninja_togakushi" culture="Culture.tosan" settlement_banner_mesh="encounter_flag_a" name="{=TAIKOU_clan_deura_1}Deura" short_name="{=TAIKOU_clan_deura_1}Deura" title="{=TAIKOU_clan_deura_1}Deura" tier="3">
+	<Faction id="clan_deura_1" is_noble="true" owner="Hero.lord_tk5_94" banner_key="11.167.12.4922.4922.764.764.1.0.0.441.111.0.454.454.764.764.0.0.359" is_minor_faction="false" super_faction="Kingdom.kingdom_org_ninja_togakushi" culture="Culture.ninja" settlement_banner_mesh="encounter_flag_a" name="{=TAIKOU_clan_deura_1}Deura" short_name="{=TAIKOU_clan_deura_1}Deura" title="{=TAIKOU_clan_deura_1}Deura" tier="3">
 		<Influence>
 			<base_influence value="60.0"/>
 		</Influence>
@@ -145,7 +145,7 @@
 			<base_influence value="60.0"/>
 		</Influence>
 	</Faction>
-	<Faction id="clan_fuuma_1" is_noble="true" owner="Hero.lord_tk5_613" banner_key="11.184.14.4922.4922.764.764.1.0.0.141.15.0.454.454.764.764.0.0.0" is_minor_faction="false" super_faction="Kingdom.kingdom_org_ninja_fuuma" culture="Culture.kanto" settlement_banner_mesh="encounter_flag_a" name="{=TAIKOU_clan_fuuma_1}Fuuma" short_name="{=TAIKOU_clan_fuuma_1}Fuuma" title="{=TAIKOU_clan_fuuma_1}Fuuma" tier="3">
+	<Faction id="clan_fuuma_1" is_noble="true" owner="Hero.lord_tk5_613" banner_key="11.184.14.4922.4922.764.764.1.0.0.141.15.0.454.454.764.764.0.0.0" is_minor_faction="false" super_faction="Kingdom.kingdom_org_ninja_fuuma" culture="Culture.ninja" settlement_banner_mesh="encounter_flag_a" name="{=TAIKOU_clan_fuuma_1}Fuuma" short_name="{=TAIKOU_clan_fuuma_1}Fuuma" title="{=TAIKOU_clan_fuuma_1}Fuuma" tier="3">
 		<Influence>
 			<base_influence value="60.0"/>
 		</Influence>
@@ -170,12 +170,12 @@
 			<base_influence value="60.0"/>
 		</Influence>
 	</Faction>
-	<Faction id="clan_hachiya_1" is_noble="true" owner="Hero.lord_tk5_ninja_yasaburoo" banner_key="11.184.14.4922.4922.764.764.1.0.0.335.15.0.499.499.764.764.0.0.0.336.15.0.186.186.764.744.0.0.0" is_minor_faction="false" super_faction="Kingdom.kingdom_org_ninja_hachiya" culture="Culture.sanyo" settlement_banner_mesh="encounter_flag_a" name="{=TAIKOU_clan_hachiya_1}Hachiya" short_name="{=TAIKOU_clan_hachiya_1}Hachiya" title="{=TAIKOU_clan_hachiya_1}Hachiya" tier="3">
+	<Faction id="clan_hachiya_1" is_noble="true" owner="Hero.lord_tk5_ninja_yasaburoo" banner_key="11.184.14.4922.4922.764.764.1.0.0.335.15.0.499.499.764.764.0.0.0.336.15.0.186.186.764.744.0.0.0" is_minor_faction="false" super_faction="Kingdom.kingdom_org_ninja_hachiya" culture="Culture.ninja" settlement_banner_mesh="encounter_flag_a" name="{=TAIKOU_clan_hachiya_1}Hachiya" short_name="{=TAIKOU_clan_hachiya_1}Hachiya" title="{=TAIKOU_clan_hachiya_1}Hachiya" tier="3">
 		<Influence>
 			<base_influence value="60.0"/>
 		</Influence>
 	</Faction>
-	<Faction id="clan_haguro_1" is_noble="true" owner="Hero.lord_tk5_ninja_sanjiroo" banner_key="11.184.14.4922.4922.764.764.1.0.0.336.15.0.382.382.763.764.0.0.0.424.15.0.183.183.903.774.0.0.0.424.15.0.183.183.624.774.0.0.0.424.15.0.183.183.763.904.0.0.0" is_minor_faction="false" super_faction="Kingdom.kingdom_org_ninja_haguro" culture="Culture.kinai" settlement_banner_mesh="encounter_flag_a" name="{=TAIKOU_clan_haguro_1}Haguro" short_name="{=TAIKOU_clan_haguro_1}Haguro" title="{=TAIKOU_clan_haguro_1}Haguro" tier="3">
+	<Faction id="clan_haguro_1" is_noble="true" owner="Hero.lord_tk5_ninja_sanjiroo" banner_key="11.184.14.4922.4922.764.764.1.0.0.336.15.0.382.382.763.764.0.0.0.424.15.0.183.183.903.774.0.0.0.424.15.0.183.183.624.774.0.0.0.424.15.0.183.183.763.904.0.0.0" is_minor_faction="false" super_faction="Kingdom.kingdom_org_ninja_haguro" culture="Culture.ninja" settlement_banner_mesh="encounter_flag_a" name="{=TAIKOU_clan_haguro_1}Haguro" short_name="{=TAIKOU_clan_haguro_1}Haguro" title="{=TAIKOU_clan_haguro_1}Haguro" tier="3">
 		<Influence>
 			<base_influence value="60.0"/>
 		</Influence>
@@ -510,7 +510,7 @@
 			<base_influence value="60.0"/>
 		</Influence>
 	</Faction>
-	<Faction id="clan_momochi_1" is_noble="true" owner="Hero.lord_tk5_729" banner_key="11.154.154.1536.1536.764.764.1.0.0.222.150.155.483.483.764.764.0.0.0" is_minor_faction="false" super_faction="Kingdom.kingdom_org_ninja_iga" culture="Culture.kinai" settlement_banner_mesh="encounter_flag_a" name="{=TAIKOU_clan_momochi_1}Momochi" short_name="{=TAIKOU_clan_momochi_1}Momochi" title="{=TAIKOU_clan_momochi_1}Momochi" tier="3">
+	<Faction id="clan_momochi_1" is_noble="true" owner="Hero.lord_tk5_729" banner_key="11.154.154.1536.1536.764.764.1.0.0.222.150.155.483.483.764.764.0.0.0" is_minor_faction="false" super_faction="Kingdom.kingdom_org_ninja_iga" culture="Culture.ninja" settlement_banner_mesh="encounter_flag_a" name="{=TAIKOU_clan_momochi_1}Momochi" short_name="{=TAIKOU_clan_momochi_1}Momochi" title="{=TAIKOU_clan_momochi_1}Momochi" tier="3">
 		<Influence>
 			<base_influence value="60.0"/>
 		</Influence>
@@ -560,7 +560,7 @@
 			<base_influence value="60.0"/>
 		</Influence>
 	</Faction>
-	<Faction id="clan_nokizaru_1" is_noble="true" owner="Hero.lord_tk5_ninja_dookan" banner_key="11.156.75.4345.4345.776.777.1.0.0.427.1.0.415.388.764.811.0.0.0.436.1.0.359.366.764.706.0.0.0" is_minor_faction="false" super_faction="Kingdom.kingdom_org_ninja_nokizaru" culture="Culture.hokuriku" settlement_banner_mesh="encounter_flag_a" name="{=TAIKOU_clan_nokizaru_1}Nokizaru" short_name="{=TAIKOU_clan_nokizaru_1}Nokizaru" title="{=TAIKOU_clan_nokizaru_1}Nokizaru" tier="3">
+	<Faction id="clan_nokizaru_1" is_noble="true" owner="Hero.lord_tk5_ninja_dookan" banner_key="11.156.75.4345.4345.776.777.1.0.0.427.1.0.415.388.764.811.0.0.0.436.1.0.359.366.764.706.0.0.0" is_minor_faction="false" super_faction="Kingdom.kingdom_org_ninja_nokizaru" culture="Culture.ninja" settlement_banner_mesh="encounter_flag_a" name="{=TAIKOU_clan_nokizaru_1}Nokizaru" short_name="{=TAIKOU_clan_nokizaru_1}Nokizaru" title="{=TAIKOU_clan_nokizaru_1}Nokizaru" tier="3">
 		<Influence>
 			<base_influence value="60.0"/>
 		</Influence>
@@ -670,7 +670,7 @@
 			<base_influence value="60.0"/>
 		</Influence>
 	</Faction>
-	<Faction id="clan_seiki_1" is_noble="true" owner="Hero.lord_tk5_423" banner_key="11.2.2.1536.1536.764.764.1.0.0.204.153.155.454.454.764.764.0.0.0" is_minor_faction="false" super_faction="Kingdom.kingdom_org_ninja_gaibun" culture="Culture.sanyo" settlement_banner_mesh="encounter_flag_a" name="{=TAIKOU_clan_seiki_1}Seiki" short_name="{=TAIKOU_clan_seiki_1}Seiki" title="{=TAIKOU_clan_seiki_1}Seiki" tier="3">
+	<Faction id="clan_seiki_1" is_noble="true" owner="Hero.lord_tk5_423" banner_key="11.2.2.1536.1536.764.764.1.0.0.204.153.155.454.454.764.764.0.0.0" is_minor_faction="false" super_faction="Kingdom.kingdom_org_ninja_gaibun" culture="Culture.ninja" settlement_banner_mesh="encounter_flag_a" name="{=TAIKOU_clan_seiki_1}Seiki" short_name="{=TAIKOU_clan_seiki_1}Seiki" title="{=TAIKOU_clan_seiki_1}Seiki" tier="3">
 		<Influence>
 			<base_influence value="60.0"/>
 		</Influence>
@@ -750,7 +750,7 @@
 			<base_influence value="60.0"/>
 		</Influence>
 	</Faction>
-	<Faction id="clan_suginoboo_1" is_noble="true" owner="Hero.lord_tk5_412" banner_key="11.24.4.4922.4922.764.764.1.0.0.108.5.0.485.485.764.644.0.0.0.325.5.0.454.454.764.844.0.0.0" is_minor_faction="false" super_faction="Kingdom.kingdom_org_ninja_negoro" culture="Culture.kinai" settlement_banner_mesh="encounter_flag_a" name="{=TAIKOU_clan_suginoboo_1}Suginoboo" short_name="{=TAIKOU_clan_suginoboo_1}Suginoboo" title="{=TAIKOU_clan_suginoboo_1}Suginoboo" tier="3">
+	<Faction id="clan_suginoboo_1" is_noble="true" owner="Hero.lord_tk5_412" banner_key="11.24.4.4922.4922.764.764.1.0.0.108.5.0.485.485.764.644.0.0.0.325.5.0.454.454.764.844.0.0.0" is_minor_faction="false" super_faction="Kingdom.kingdom_org_ninja_negoro" culture="Culture.ninja" settlement_banner_mesh="encounter_flag_a" name="{=TAIKOU_clan_suginoboo_1}Suginoboo" short_name="{=TAIKOU_clan_suginoboo_1}Suginoboo" title="{=TAIKOU_clan_suginoboo_1}Suginoboo" tier="3">
 		<Influence>
 			<base_influence value="60.0"/>
 		</Influence>
@@ -765,7 +765,7 @@
 			<base_influence value="60.0"/>
 		</Influence>
 	</Faction>
-	<Faction id="clan_suppa_1" is_noble="true" owner="Hero.lord_tk5_ninja_rokurooji" banner_key="11.24.4.4922.4922.764.764.1.0.0.147.5.0.454.454.764.765.0.0.0" is_minor_faction="false" super_faction="Kingdom.kingdom_org_ninja_suppa" culture="Culture.tosan" settlement_banner_mesh="encounter_flag_a" name="{=TAIKOU_clan_suppa_1}Suppa" short_name="{=TAIKOU_clan_suppa_1}Suppa" title="{=TAIKOU_clan_suppa_1}Suppa" tier="3">
+	<Faction id="clan_suppa_1" is_noble="true" owner="Hero.lord_tk5_ninja_rokurooji" banner_key="11.24.4.4922.4922.764.764.1.0.0.147.5.0.454.454.764.765.0.0.0" is_minor_faction="false" super_faction="Kingdom.kingdom_org_ninja_suppa" culture="Culture.ninja" settlement_banner_mesh="encounter_flag_a" name="{=TAIKOU_clan_suppa_1}Suppa" short_name="{=TAIKOU_clan_suppa_1}Suppa" title="{=TAIKOU_clan_suppa_1}Suppa" tier="3">
 		<Influence>
 			<base_influence value="60.0"/>
 		</Influence>
@@ -805,7 +805,7 @@
 			<base_influence value="60.0"/>
 		</Influence>
 	</Faction>
-	<Faction id="clan_tarou_1" is_noble="true" owner="Hero.lord_tk5_473" banner_key="11.24.4.4922.4922.764.764.1.0.0.419.5.0.454.454.764.764.0.0.0.335.5.0.143.143.873.642.0.0.325.335.5.0.143.143.655.642.0.0.42.335.5.0.143.143.651.882.0.0.134.335.5.0.143.143.877.882.0.0.214" is_minor_faction="false" super_faction="Kingdom.kingdom_org_ninja_kouka" culture="Culture.kinai" settlement_banner_mesh="encounter_flag_a" name="{=TAIKOU_clan_tarou_1}Tarou" short_name="{=TAIKOU_clan_tarou_1}Tarou" title="{=TAIKOU_clan_tarou_1}Tarou" tier="3">
+	<Faction id="clan_tarou_1" is_noble="true" owner="Hero.lord_tk5_473" banner_key="11.24.4.4922.4922.764.764.1.0.0.419.5.0.454.454.764.764.0.0.0.335.5.0.143.143.873.642.0.0.325.335.5.0.143.143.655.642.0.0.42.335.5.0.143.143.651.882.0.0.134.335.5.0.143.143.877.882.0.0.214" is_minor_faction="false" super_faction="Kingdom.kingdom_org_ninja_kouka" culture="Culture.ninja" settlement_banner_mesh="encounter_flag_a" name="{=TAIKOU_clan_tarou_1}Tarou" short_name="{=TAIKOU_clan_tarou_1}Tarou" title="{=TAIKOU_clan_tarou_1}Tarou" tier="3">
 		<Influence>
 			<base_influence value="60.0"/>
 		</Influence>
@@ -895,7 +895,7 @@
 			<base_influence value="60.0"/>
 		</Influence>
 	</Faction>
-	<Faction id="clan_yamasen_1" is_noble="true" owner="Hero.lord_tk5_ninja_gendayuu" banner_key="11.25.10.4345.4345.780.802.1.0.0.503.11.0.164.164.904.913.0.0.0.314.11.0.508.508.764.764.0.0.0.503.11.0.164.164.624.913.0.0.0" is_minor_faction="false" super_faction="Kingdom.kingdom_org_ninja_yamasen" culture="Culture.saikai" settlement_banner_mesh="encounter_flag_a" name="{=TAIKOU_clan_yamasen_1}Yamasen" short_name="{=TAIKOU_clan_yamasen_1}Yamasen" title="{=TAIKOU_clan_yamasen_1}Yamasen" tier="3">
+	<Faction id="clan_yamasen_1" is_noble="true" owner="Hero.lord_tk5_ninja_gendayuu" banner_key="11.25.10.4345.4345.780.802.1.0.0.503.11.0.164.164.904.913.0.0.0.314.11.0.508.508.764.764.0.0.0.503.11.0.164.164.624.913.0.0.0" is_minor_faction="false" super_faction="Kingdom.kingdom_org_ninja_yamasen" culture="Culture.ninja" settlement_banner_mesh="encounter_flag_a" name="{=TAIKOU_clan_yamasen_1}Yamasen" short_name="{=TAIKOU_clan_yamasen_1}Yamasen" title="{=TAIKOU_clan_yamasen_1}Yamasen" tier="3">
 		<Influence>
 			<base_influence value="60.0"/>
 		</Influence>
@@ -905,7 +905,7 @@
 			<base_influence value="60.0"/>
 		</Influence>
 	</Faction>
-	<Faction id="clan_yanagihara_1" is_noble="true" owner="Hero.lord_tk5_749" banner_key="14.2.95.1536.1536.764.764.1.0.0.148.41.0.454.454.764.764.0.0.0" is_minor_faction="false" super_faction="Kingdom.kingdom_org_ninja_kurohabaki" culture="Culture.ou" settlement_banner_mesh="encounter_flag_a" name="{=TAIKOU_clan_yanagihara_1}Yanagihara" short_name="{=TAIKOU_clan_yanagihara_1}Yanagihara" title="{=TAIKOU_clan_yanagihara_1}Yanagihara" tier="3">
+	<Faction id="clan_yanagihara_1" is_noble="true" owner="Hero.lord_tk5_749" banner_key="14.2.95.1536.1536.764.764.1.0.0.148.41.0.454.454.764.764.0.0.0" is_minor_faction="false" super_faction="Kingdom.kingdom_org_ninja_kurohabaki" culture="Culture.ninja" settlement_banner_mesh="encounter_flag_a" name="{=TAIKOU_clan_yanagihara_1}Yanagihara" short_name="{=TAIKOU_clan_yanagihara_1}Yanagihara" title="{=TAIKOU_clan_yanagihara_1}Yanagihara" tier="3">
 		<Influence>
 			<base_influence value="60.0"/>
 		</Influence>

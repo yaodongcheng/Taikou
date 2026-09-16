@@ -3286,6 +3286,46 @@
   <string id="TAIKOU_nobunaga_helmet_a" text="唐冠形兜" />
   <string id="TAIKOU_keiji_helmet_a" text="梅钵前立兜" />
   <string id="TAIKOU_yukimura_helmet_a" text="六文钱前立兜" />
+<!-- ==== 兵种通用武器名（tools/sw2-pipeline/gen_troop_weapon_items.py 产出，禁止手改）==== -->
+  <string id="TAIKOU_troop_shinobigatana_weapon_a" text="忍刀" />
+  <string id="TAIKOU_troop_yumi_weapon_a" text="弓" />
+  <string id="TAIKOU_troop_uchigatana_weapon_a" text="打刀" />
+  <string id="TAIKOU_troop_yari_weapon_a" text="长枪" />
+<!-- ==== 兵种甲/兜名（tools/sw2-pipeline/gen_troop_armor_items.py 产出，禁止手改）==== -->
+  <string id="TAIKOU_troop_yumi_ashigaru_do_a" text="轻革弓胴丸" />
+  <string id="TAIKOU_troop_yari_ashigaru_helmet_a" text="茶革阵笠" />
+  <string id="TAIKOU_troop_yari_ashigaru_do_a" text="茶革赤缀胴丸" />
+  <string id="TAIKOU_troop_totsunin_helmet_a" text="赤茶筋兜" />
+  <string id="TAIKOU_troop_totsunin_do_a" text="赤茶重革胴丸" />
+  <string id="TAIKOU_troop_tobinin_do_a" text="暗赤忍装束" />
+  <string id="TAIKOU_troop_teppo_ashigaru_helmet_a" text="菅笠" />
+  <string id="TAIKOU_troop_teppo_ashigaru_do_a" text="赤茶火药胴丸" />
+  <string id="TAIKOU_troop_taisho_helmet_a" text="樱色大兜" />
+  <string id="TAIKOU_troop_taisho_do_a" text="樱色女具足" />
+  <string id="TAIKOU_troop_sennin_helmet_a" text="白布头巾" />
+  <string id="TAIKOU_troop_sennin_do_a" text="白布忍装束（樱纹）" />
+  <string id="TAIKOU_troop_samurai_helmet_a" text="蓝铁筋兜" />
+  <string id="TAIKOU_troop_samurai_do_a" text="茶青金具足" />
+  <string id="TAIKOU_troop_kyushu_helmet_a" text="赤茶阵笠" />
+  <string id="TAIKOU_troop_kyushu_do_a" text="赤茶革胴丸" />
+  <string id="TAIKOU_troop_katana_ashigaru_helmet_a" text="钢青阵笠" />
+  <string id="TAIKOU_troop_katana_ashigaru_do_a" text="钢青锁帷子" />
+  <string id="TAIKOU_troop_jonin_helmet_a" text="黑覆面" />
+  <string id="TAIKOU_troop_jonin_do_a" text="黑忍装束" />
+  <string id="TAIKOU_troop_hazenin_helmet_a" text="黑漆筋兜" />
+  <string id="TAIKOU_troop_hazenin_do_a" text="黑漆重具足" />
+  <string id="TAIKOU_troop_guard5_helmet_a" text="赤茶护卫小兜" />
+  <string id="TAIKOU_troop_guard5_do_a" text="赤茶轻装亲卫具足" />
+  <string id="TAIKOU_troop_guard4_helmet_a" text="金漆顶缨大兜" />
+  <string id="TAIKOU_troop_guard4_do_a" text="萌黄金漆亲卫具足" />
+  <string id="TAIKOU_troop_guard3_helmet_a" text="茶革护卫筋兜" />
+  <string id="TAIKOU_troop_guard3_do_a" text="茶革密钉亲卫具足" />
+  <string id="TAIKOU_troop_guard1_helmet_a" text="茶革护卫兜" />
+  <string id="TAIKOU_troop_guard1_do_a" text="茶革赤缀亲卫具足" />
+  <string id="TAIKOU_troop_genin_do_a" text="藏青女忍装束" />
+  <string id="TAIKOU_troop_elite_ashigaru_helmet_a" text="朱革阵笠" />
+  <string id="TAIKOU_troop_elite_ashigaru_do_a" text="朱革赤缀胴丸" />
+  <string id="TAIKOU_troop_chunin_do_a" text="茶革忍装束" />
 <!-- ==== 生成块：英雄/家族/王国名字（Scripts/gen_taikou_era_world.py 产出，禁止手改）==== -->
   <string id="TAIKOU_clan_akamatsu_1" text="赤松" />
   <string id="TAIKOU_clan_akamatsu_2" text="赤松" />

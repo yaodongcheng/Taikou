@@ -1,0 +1,275 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Items>
+	<!-- 茶革忍装束（战无2 解包件重定向；网格 tools/armor-pipeline/out/taikou_troop_chunin_do_a.fbx）
+	     普通物品：挂进 EquipmentRoster 只决定初始装备，可被扒/被偷/作战利品。 -->
+	<Item id="taikou_troop_chunin_do_a" name="{=TAIKOU_troop_chunin_do_a}Brown Shinobi Garb" subtype="body_armor" mesh="taikou_troop_chunin_do_a" culture="Culture.ikoku" weight="1.8" difficulty="0" appearance="1.0" Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="16" leg_armor="8" arm_armor="4" has_gender_variations="false" covers_body="true" modifier_group="plate" material_type="Plate" />
+		</ItemComponent>
+		<Flags UseTeamColor="true" />
+	</Item>
+	<!-- 朱革赤缀胴丸（战无2 解包件重定向；网格 tools/armor-pipeline/out/taikou_troop_elite_ashigaru_do_a.fbx）
+	     普通物品：挂进 EquipmentRoster 只决定初始装备，可被扒/被偷/作战利品。 -->
+	<Item id="taikou_troop_elite_ashigaru_do_a" name="{=TAIKOU_troop_elite_ashigaru_do_a}Vermilion Do" subtype="body_armor" mesh="taikou_troop_elite_ashigaru_do_a" culture="Culture.ikoku" weight="1.8" difficulty="0" appearance="1.0" Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="16" leg_armor="8" arm_armor="4" has_gender_variations="false" covers_body="true" modifier_group="plate" material_type="Plate" />
+		</ItemComponent>
+		<Flags UseTeamColor="true" />
+	</Item>
+	<!-- 朱革阵笠（战无2 解包件重定向；网格 tools/armor-pipeline/out/taikou_troop_elite_ashigaru_helmet_a.fbx）
+	     普通物品：挂进 EquipmentRoster 只决定初始装备，可被扒/被偷/作战利品。 -->
+	<Item id="taikou_troop_elite_ashigaru_helmet_a" name="{=TAIKOU_troop_elite_ashigaru_helmet_a}Vermilion Jingasa" subtype="head_armor" mesh="taikou_troop_elite_ashigaru_helmet_a" culture="Culture.ikoku" weight="2.2" difficulty="0" appearance="1.5" Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="26" has_gender_variations="false" hair_cover_type="all" modifier_group="plate" material_type="Plate" />
+		</ItemComponent>
+		<Flags UseTeamColor="true" />
+	</Item>
+	<!-- 藏青女忍装束（战无2 解包件重定向；网格 tools/armor-pipeline/out/taikou_troop_genin_do_a.fbx）
+	     普通物品：挂进 EquipmentRoster 只决定初始装备，可被扒/被偷/作战利品。 -->
+	<Item id="taikou_troop_genin_do_a" name="{=TAIKOU_troop_genin_do_a}Navy Kunoichi Garb" subtype="body_armor" mesh="taikou_troop_genin_do_a" culture="Culture.ikoku" weight="1.3" difficulty="0" appearance="1.0" Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="14" leg_armor="6" arm_armor="2" has_gender_variations="false" covers_body="true" modifier_group="plate" material_type="Plate" />
+		</ItemComponent>
+		<Flags UseTeamColor="true" />
+	</Item>
+	<!-- 茶革赤缀亲卫具足（战无2 解包件重定向；网格 tools/armor-pipeline/out/taikou_troop_guard1_do_a.fbx）
+	     普通物品：挂进 EquipmentRoster 只决定初始装备，可被扒/被偷/作战利品。 -->
+	<Item id="taikou_troop_guard1_do_a" name="{=TAIKOU_troop_guard1_do_a}Brown Leather Bodyguard Do" subtype="body_armor" mesh="taikou_troop_guard1_do_a" culture="Culture.ikoku" weight="13.0" difficulty="0" appearance="2.0" Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="39" leg_armor="10" arm_armor="7" has_gender_variations="false" covers_body="true" modifier_group="plate" material_type="Plate" />
+		</ItemComponent>
+		<Flags UseTeamColor="true" />
+	</Item>
+	<!-- 茶革护卫兜（战无2 解包件重定向；网格 tools/armor-pipeline/out/taikou_troop_guard1_helmet_a.fbx）
+	     普通物品：挂进 EquipmentRoster 只决定初始装备，可被扒/被偷/作战利品。 -->
+	<Item id="taikou_troop_guard1_helmet_a" name="{=TAIKOU_troop_guard1_helmet_a}Brown Bodyguard Kabuto" subtype="head_armor" mesh="taikou_troop_guard1_helmet_a" culture="Culture.ikoku" weight="2.9" difficulty="0" appearance="2.8" Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="42" has_gender_variations="false" hair_cover_type="all" modifier_group="plate" material_type="Plate" />
+		</ItemComponent>
+		<Flags UseTeamColor="true" />
+	</Item>
+	<!-- 茶革密钉亲卫具足（战无2 解包件重定向；网格 tools/armor-pipeline/out/taikou_troop_guard3_do_a.fbx）
+	     普通物品：挂进 EquipmentRoster 只决定初始装备，可被扒/被偷/作战利品。 -->
+	<Item id="taikou_troop_guard3_do_a" name="{=TAIKOU_troop_guard3_do_a}Brown Riveted Bodyguard Do" subtype="body_armor" mesh="taikou_troop_guard3_do_a" culture="Culture.ikoku" weight="13.0" difficulty="0" appearance="2.0" Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="39" leg_armor="10" arm_armor="7" has_gender_variations="false" covers_body="true" modifier_group="plate" material_type="Plate" />
+		</ItemComponent>
+		<Flags UseTeamColor="true" />
+	</Item>
+	<!-- 茶革护卫筋兜（战无2 解包件重定向；网格 tools/armor-pipeline/out/taikou_troop_guard3_helmet_a.fbx）
+	     普通物品：挂进 EquipmentRoster 只决定初始装备，可被扒/被偷/作战利品。 -->
+	<Item id="taikou_troop_guard3_helmet_a" name="{=TAIKOU_troop_guard3_helmet_a}Brown Bodyguard Suji Kabuto" subtype="head_armor" mesh="taikou_troop_guard3_helmet_a" culture="Culture.ikoku" weight="2.9" difficulty="0" appearance="2.8" Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="42" has_gender_variations="false" hair_cover_type="all" modifier_group="plate" material_type="Plate" />
+		</ItemComponent>
+		<Flags UseTeamColor="true" />
+	</Item>
+	<!-- 萌黄金漆亲卫具足（战无2 解包件重定向；网格 tools/armor-pipeline/out/taikou_troop_guard4_do_a.fbx）
+	     普通物品：挂进 EquipmentRoster 只决定初始装备，可被扒/被偷/作战利品。 -->
+	<Item id="taikou_troop_guard4_do_a" name="{=TAIKOU_troop_guard4_do_a}Golden Lacquered Bodyguard Do" subtype="body_armor" mesh="taikou_troop_guard4_do_a" culture="Culture.ikoku" weight="13.0" difficulty="0" appearance="2.0" Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="39" leg_armor="10" arm_armor="7" has_gender_variations="false" covers_body="true" modifier_group="plate" material_type="Plate" />
+		</ItemComponent>
+		<Flags UseTeamColor="true" />
+	</Item>
+	<!-- 金漆顶缨大兜（战无2 解包件重定向；网格 tools/armor-pipeline/out/taikou_troop_guard4_helmet_a.fbx）
+	     普通物品：挂进 EquipmentRoster 只决定初始装备，可被扒/被偷/作战利品。 -->
+	<Item id="taikou_troop_guard4_helmet_a" name="{=TAIKOU_troop_guard4_helmet_a}Golden Crested Great Kabuto" subtype="head_armor" mesh="taikou_troop_guard4_helmet_a" culture="Culture.ikoku" weight="2.9" difficulty="0" appearance="2.8" Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="42" has_gender_variations="false" hair_cover_type="all" modifier_group="plate" material_type="Plate" />
+		</ItemComponent>
+		<Flags UseTeamColor="true" />
+	</Item>
+	<!-- 赤茶轻装亲卫具足（战无2 解包件重定向；网格 tools/armor-pipeline/out/taikou_troop_guard5_do_a.fbx）
+	     普通物品：挂进 EquipmentRoster 只决定初始装备，可被扒/被偷/作战利品。 -->
+	<Item id="taikou_troop_guard5_do_a" name="{=TAIKOU_troop_guard5_do_a}Red-brown Light Bodyguard Do" subtype="body_armor" mesh="taikou_troop_guard5_do_a" culture="Culture.ikoku" weight="13.0" difficulty="0" appearance="2.0" Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="39" leg_armor="10" arm_armor="7" has_gender_variations="false" covers_body="true" modifier_group="plate" material_type="Plate" />
+		</ItemComponent>
+		<Flags UseTeamColor="true" />
+	</Item>
+	<!-- 赤茶护卫小兜（战无2 解包件重定向；网格 tools/armor-pipeline/out/taikou_troop_guard5_helmet_a.fbx）
+	     普通物品：挂进 EquipmentRoster 只决定初始装备，可被扒/被偷/作战利品。 -->
+	<Item id="taikou_troop_guard5_helmet_a" name="{=TAIKOU_troop_guard5_helmet_a}Red-brown Bodyguard Small Kabuto" subtype="head_armor" mesh="taikou_troop_guard5_helmet_a" culture="Culture.ikoku" weight="2.9" difficulty="0" appearance="2.8" Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="42" has_gender_variations="false" hair_cover_type="all" modifier_group="plate" material_type="Plate" />
+		</ItemComponent>
+		<Flags UseTeamColor="true" />
+	</Item>
+	<!-- 黑漆重具足（战无2 解包件重定向；网格 tools/armor-pipeline/out/taikou_troop_hazenin_do_a.fbx）
+	     普通物品：挂进 EquipmentRoster 只决定初始装备，可被扒/被偷/作战利品。 -->
+	<Item id="taikou_troop_hazenin_do_a" name="{=TAIKOU_troop_hazenin_do_a}Black Lacquered Gusoku" subtype="body_armor" mesh="taikou_troop_hazenin_do_a" culture="Culture.ikoku" weight="13.0" difficulty="0" appearance="2.0" Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="39" leg_armor="10" arm_armor="7" has_gender_variations="false" covers_body="true" modifier_group="plate" material_type="Plate" />
+		</ItemComponent>
+		<Flags UseTeamColor="true" />
+	</Item>
+	<!-- 黑漆筋兜（战无2 解包件重定向；网格 tools/armor-pipeline/out/taikou_troop_hazenin_helmet_a.fbx）
+	     普通物品：挂进 EquipmentRoster 只决定初始装备，可被扒/被偷/作战利品。 -->
+	<Item id="taikou_troop_hazenin_helmet_a" name="{=TAIKOU_troop_hazenin_helmet_a}Black Lacquered Kabuto" subtype="head_armor" mesh="taikou_troop_hazenin_helmet_a" culture="Culture.ikoku" weight="2.9" difficulty="0" appearance="2.8" Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="42" has_gender_variations="false" hair_cover_type="all" modifier_group="plate" material_type="Plate" />
+		</ItemComponent>
+		<Flags UseTeamColor="true" />
+	</Item>
+	<!-- 黑忍装束（战无2 解包件重定向；网格 tools/armor-pipeline/out/taikou_troop_jonin_do_a.fbx）
+	     普通物品：挂进 EquipmentRoster 只决定初始装备，可被扒/被偷/作战利品。 -->
+	<Item id="taikou_troop_jonin_do_a" name="{=TAIKOU_troop_jonin_do_a}Black Shinobi Garb" subtype="body_armor" mesh="taikou_troop_jonin_do_a" culture="Culture.ikoku" weight="14.0" difficulty="0" appearance="1.2" Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="24" leg_armor="12" arm_armor="6" has_gender_variations="false" covers_body="true" modifier_group="plate" material_type="Plate" />
+		</ItemComponent>
+		<Flags UseTeamColor="true" />
+	</Item>
+	<!-- 黑覆面（战无2 解包件重定向；网格 tools/armor-pipeline/out/taikou_troop_jonin_helmet_a.fbx）
+	     普通物品：挂进 EquipmentRoster 只决定初始装备，可被扒/被偷/作战利品。 -->
+	<Item id="taikou_troop_jonin_helmet_a" name="{=TAIKOU_troop_jonin_helmet_a}Black Fukumen" subtype="head_armor" mesh="taikou_troop_jonin_helmet_a" culture="Culture.ikoku" weight="2.5" difficulty="0" appearance="2.0" Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="34" has_gender_variations="false" hair_cover_type="all" modifier_group="plate" material_type="Plate" />
+		</ItemComponent>
+		<Flags UseTeamColor="true" />
+	</Item>
+	<!-- 钢青锁帷子（战无2 解包件重定向；网格 tools/armor-pipeline/out/taikou_troop_katana_ashigaru_do_a.fbx）
+	     普通物品：挂进 EquipmentRoster 只决定初始装备，可被扒/被偷/作战利品。 -->
+	<Item id="taikou_troop_katana_ashigaru_do_a" name="{=TAIKOU_troop_katana_ashigaru_do_a}Steel-blue Kusari Katabira" subtype="body_armor" mesh="taikou_troop_katana_ashigaru_do_a" culture="Culture.ikoku" weight="1.3" difficulty="0" appearance="1.0" Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="14" leg_armor="6" arm_armor="2" has_gender_variations="false" covers_body="true" modifier_group="plate" material_type="Plate" />
+		</ItemComponent>
+		<Flags UseTeamColor="true" />
+	</Item>
+	<!-- 钢青阵笠（战无2 解包件重定向；网格 tools/armor-pipeline/out/taikou_troop_katana_ashigaru_helmet_a.fbx）
+	     普通物品：挂进 EquipmentRoster 只决定初始装备，可被扒/被偷/作战利品。 -->
+	<Item id="taikou_troop_katana_ashigaru_helmet_a" name="{=TAIKOU_troop_katana_ashigaru_helmet_a}Steel-blue Jingasa" subtype="head_armor" mesh="taikou_troop_katana_ashigaru_helmet_a" culture="Culture.ikoku" weight="1.5" difficulty="0" appearance="1.0" Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="16" has_gender_variations="false" hair_cover_type="all" modifier_group="plate" material_type="Plate" />
+		</ItemComponent>
+		<Flags UseTeamColor="true" />
+	</Item>
+	<!-- 赤茶革胴丸（战无2 解包件重定向；网格 tools/armor-pipeline/out/taikou_troop_kyushu_do_a.fbx）
+	     普通物品：挂进 EquipmentRoster 只决定初始装备，可被扒/被偷/作战利品。 -->
+	<Item id="taikou_troop_kyushu_do_a" name="{=TAIKOU_troop_kyushu_do_a}Red-brown Leather Do" subtype="body_armor" mesh="taikou_troop_kyushu_do_a" culture="Culture.ikoku" weight="1.3" difficulty="0" appearance="1.0" Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="14" leg_armor="6" arm_armor="2" has_gender_variations="false" covers_body="true" modifier_group="plate" material_type="Plate" />
+		</ItemComponent>
+		<Flags UseTeamColor="true" />
+	</Item>
+	<!-- 赤茶阵笠（战无2 解包件重定向；网格 tools/armor-pipeline/out/taikou_troop_kyushu_helmet_a.fbx）
+	     普通物品：挂进 EquipmentRoster 只决定初始装备，可被扒/被偷/作战利品。 -->
+	<Item id="taikou_troop_kyushu_helmet_a" name="{=TAIKOU_troop_kyushu_helmet_a}Red-brown Jingasa" subtype="head_armor" mesh="taikou_troop_kyushu_helmet_a" culture="Culture.ikoku" weight="1.5" difficulty="0" appearance="1.0" Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="16" has_gender_variations="false" hair_cover_type="all" modifier_group="plate" material_type="Plate" />
+		</ItemComponent>
+		<Flags UseTeamColor="true" />
+	</Item>
+	<!-- 茶青金具足（战无2 解包件重定向；网格 tools/armor-pipeline/out/taikou_troop_samurai_do_a.fbx）
+	     普通物品：挂进 EquipmentRoster 只决定初始装备，可被扒/被偷/作战利品。 -->
+	<Item id="taikou_troop_samurai_do_a" name="{=TAIKOU_troop_samurai_do_a}Tea-blue Gusoku" subtype="body_armor" mesh="taikou_troop_samurai_do_a" culture="Culture.ikoku" weight="14.0" difficulty="0" appearance="1.2" Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="24" leg_armor="12" arm_armor="6" has_gender_variations="false" covers_body="true" modifier_group="plate" material_type="Plate" />
+		</ItemComponent>
+		<Flags UseTeamColor="true" />
+	</Item>
+	<!-- 蓝铁筋兜（战无2 解包件重定向；网格 tools/armor-pipeline/out/taikou_troop_samurai_helmet_a.fbx）
+	     普通物品：挂进 EquipmentRoster 只决定初始装备，可被扒/被偷/作战利品。 -->
+	<Item id="taikou_troop_samurai_helmet_a" name="{=TAIKOU_troop_samurai_helmet_a}Blue Iron Kabuto" subtype="head_armor" mesh="taikou_troop_samurai_helmet_a" culture="Culture.ikoku" weight="2.5" difficulty="0" appearance="2.0" Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="34" has_gender_variations="false" hair_cover_type="all" modifier_group="plate" material_type="Plate" />
+		</ItemComponent>
+		<Flags UseTeamColor="true" />
+	</Item>
+	<!-- 白布忍装束（樱纹）（战无2 解包件重定向；网格 tools/armor-pipeline/out/taikou_troop_sennin_do_a.fbx）
+	     普通物品：挂进 EquipmentRoster 只决定初始装备，可被扒/被偷/作战利品。 -->
+	<Item id="taikou_troop_sennin_do_a" name="{=TAIKOU_troop_sennin_do_a}White Shinobi Garb" subtype="body_armor" mesh="taikou_troop_sennin_do_a" culture="Culture.ikoku" weight="13.0" difficulty="0" appearance="2.0" Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="39" leg_armor="10" arm_armor="7" has_gender_variations="false" covers_body="true" modifier_group="plate" material_type="Plate" />
+		</ItemComponent>
+		<Flags UseTeamColor="true" />
+	</Item>
+	<!-- 白布头巾（战无2 解包件重定向；网格 tools/armor-pipeline/out/taikou_troop_sennin_helmet_a.fbx）
+	     普通物品：挂进 EquipmentRoster 只决定初始装备，可被扒/被偷/作战利品。 -->
+	<Item id="taikou_troop_sennin_helmet_a" name="{=TAIKOU_troop_sennin_helmet_a}White Zukin" subtype="head_armor" mesh="taikou_troop_sennin_helmet_a" culture="Culture.ikoku" weight="2.9" difficulty="0" appearance="2.8" Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="42" has_gender_variations="false" hair_cover_type="all" modifier_group="plate" material_type="Plate" />
+		</ItemComponent>
+		<Flags UseTeamColor="true" />
+	</Item>
+	<!-- 樱色女具足（战无2 解包件重定向；网格 tools/armor-pipeline/out/taikou_troop_taisho_do_a.fbx）
+	     普通物品：挂进 EquipmentRoster 只决定初始装备，可被扒/被偷/作战利品。 -->
+	<Item id="taikou_troop_taisho_do_a" name="{=TAIKOU_troop_taisho_do_a}Sakura Gusoku" subtype="body_armor" mesh="taikou_troop_taisho_do_a" culture="Culture.ikoku" weight="13.0" difficulty="0" appearance="2.0" Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="39" leg_armor="10" arm_armor="7" has_gender_variations="false" covers_body="true" modifier_group="plate" material_type="Plate" />
+		</ItemComponent>
+		<Flags UseTeamColor="true" />
+	</Item>
+	<!-- 樱色大兜（战无2 解包件重定向；网格 tools/armor-pipeline/out/taikou_troop_taisho_helmet_a.fbx）
+	     普通物品：挂进 EquipmentRoster 只决定初始装备，可被扒/被偷/作战利品。 -->
+	<Item id="taikou_troop_taisho_helmet_a" name="{=TAIKOU_troop_taisho_helmet_a}Sakura Great Kabuto" subtype="head_armor" mesh="taikou_troop_taisho_helmet_a" culture="Culture.ikoku" weight="2.9" difficulty="0" appearance="2.8" Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="42" has_gender_variations="false" hair_cover_type="all" modifier_group="plate" material_type="Plate" />
+		</ItemComponent>
+		<Flags UseTeamColor="true" />
+	</Item>
+	<!-- 赤茶火药胴丸（战无2 解包件重定向；网格 tools/armor-pipeline/out/taikou_troop_teppo_ashigaru_do_a.fbx）
+	     普通物品：挂进 EquipmentRoster 只决定初始装备，可被扒/被偷/作战利品。 -->
+	<Item id="taikou_troop_teppo_ashigaru_do_a" name="{=TAIKOU_troop_teppo_ashigaru_do_a}Red-brown Gunpowder Do" subtype="body_armor" mesh="taikou_troop_teppo_ashigaru_do_a" culture="Culture.ikoku" weight="1.3" difficulty="0" appearance="1.0" Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="14" leg_armor="6" arm_armor="2" has_gender_variations="false" covers_body="true" modifier_group="plate" material_type="Plate" />
+		</ItemComponent>
+		<Flags UseTeamColor="true" />
+	</Item>
+	<!-- 菅笠（战无2 解包件重定向；网格 tools/armor-pipeline/out/taikou_troop_teppo_ashigaru_helmet_a.fbx）
+	     普通物品：挂进 EquipmentRoster 只决定初始装备，可被扒/被偷/作战利品。 -->
+	<Item id="taikou_troop_teppo_ashigaru_helmet_a" name="{=TAIKOU_troop_teppo_ashigaru_helmet_a}Sugegasa" subtype="head_armor" mesh="taikou_troop_teppo_ashigaru_helmet_a" culture="Culture.ikoku" weight="1.5" difficulty="0" appearance="1.0" Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="16" has_gender_variations="false" hair_cover_type="all" modifier_group="plate" material_type="Plate" />
+		</ItemComponent>
+		<Flags UseTeamColor="true" />
+	</Item>
+	<!-- 暗赤忍装束（战无2 解包件重定向；网格 tools/armor-pipeline/out/taikou_troop_tobinin_do_a.fbx）
+	     普通物品：挂进 EquipmentRoster 只决定初始装备，可被扒/被偷/作战利品。 -->
+	<Item id="taikou_troop_tobinin_do_a" name="{=TAIKOU_troop_tobinin_do_a}Dark Red Shinobi Garb" subtype="body_armor" mesh="taikou_troop_tobinin_do_a" culture="Culture.ikoku" weight="14.0" difficulty="0" appearance="1.2" Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="24" leg_armor="12" arm_armor="6" has_gender_variations="false" covers_body="true" modifier_group="plate" material_type="Plate" />
+		</ItemComponent>
+		<Flags UseTeamColor="true" />
+	</Item>
+	<!-- 赤茶重革胴丸（战无2 解包件重定向；网格 tools/armor-pipeline/out/taikou_troop_totsunin_do_a.fbx）
+	     普通物品：挂进 EquipmentRoster 只决定初始装备，可被扒/被偷/作战利品。 -->
+	<Item id="taikou_troop_totsunin_do_a" name="{=TAIKOU_troop_totsunin_do_a}Red-brown Heavy Do" subtype="body_armor" mesh="taikou_troop_totsunin_do_a" culture="Culture.ikoku" weight="14.0" difficulty="0" appearance="1.2" Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="24" leg_armor="12" arm_armor="6" has_gender_variations="false" covers_body="true" modifier_group="plate" material_type="Plate" />
+		</ItemComponent>
+		<Flags UseTeamColor="true" />
+	</Item>
+	<!-- 赤茶筋兜（战无2 解包件重定向；网格 tools/armor-pipeline/out/taikou_troop_totsunin_helmet_a.fbx）
+	     普通物品：挂进 EquipmentRoster 只决定初始装备，可被扒/被偷/作战利品。 -->
+	<Item id="taikou_troop_totsunin_helmet_a" name="{=TAIKOU_troop_totsunin_helmet_a}Red-brown Kabuto" subtype="head_armor" mesh="taikou_troop_totsunin_helmet_a" culture="Culture.ikoku" weight="2.5" difficulty="0" appearance="2.0" Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="34" has_gender_variations="false" hair_cover_type="all" modifier_group="plate" material_type="Plate" />
+		</ItemComponent>
+		<Flags UseTeamColor="true" />
+	</Item>
+	<!-- 茶革赤缀胴丸（战无2 解包件重定向；网格 tools/armor-pipeline/out/taikou_troop_yari_ashigaru_do_a.fbx）
+	     普通物品：挂进 EquipmentRoster 只决定初始装备，可被扒/被偷/作战利品。 -->
+	<Item id="taikou_troop_yari_ashigaru_do_a" name="{=TAIKOU_troop_yari_ashigaru_do_a}Brown Leather Do" subtype="body_armor" mesh="taikou_troop_yari_ashigaru_do_a" culture="Culture.ikoku" weight="1.3" difficulty="0" appearance="1.0" Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="14" leg_armor="6" arm_armor="2" has_gender_variations="false" covers_body="true" modifier_group="plate" material_type="Plate" />
+		</ItemComponent>
+		<Flags UseTeamColor="true" />
+	</Item>
+	<!-- 茶革阵笠（战无2 解包件重定向；网格 tools/armor-pipeline/out/taikou_troop_yari_ashigaru_helmet_a.fbx）
+	     普通物品：挂进 EquipmentRoster 只决定初始装备，可被扒/被偷/作战利品。 -->
+	<Item id="taikou_troop_yari_ashigaru_helmet_a" name="{=TAIKOU_troop_yari_ashigaru_helmet_a}Brown Jingasa" subtype="head_armor" mesh="taikou_troop_yari_ashigaru_helmet_a" culture="Culture.ikoku" weight="1.5" difficulty="0" appearance="1.0" Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="16" has_gender_variations="false" hair_cover_type="all" modifier_group="plate" material_type="Plate" />
+		</ItemComponent>
+		<Flags UseTeamColor="true" />
+	</Item>
+	<!-- 轻革弓胴丸（战无2 解包件重定向；网格 tools/armor-pipeline/out/taikou_troop_yumi_ashigaru_do_a.fbx）
+	     普通物品：挂进 EquipmentRoster 只决定初始装备，可被扒/被偷/作战利品。 -->
+	<Item id="taikou_troop_yumi_ashigaru_do_a" name="{=TAIKOU_troop_yumi_ashigaru_do_a}Light Leather Bow Do" subtype="body_armor" mesh="taikou_troop_yumi_ashigaru_do_a" culture="Culture.ikoku" weight="1.3" difficulty="0" appearance="1.0" Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="14" leg_armor="6" arm_armor="2" has_gender_variations="false" covers_body="true" modifier_group="plate" material_type="Plate" />
+		</ItemComponent>
+		<Flags UseTeamColor="true" />
+	</Item>
+</Items>

@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Items>
+	<!-- 长枪（战无2 解包件重定向；网格 tools/armor-pipeline/out/taikou_troop_yari_weapon_a.fbx）
+	     普通物品：挂进 EquipmentRoster 只决定初始装备，可被扒/被偷/作战利品。 -->
+	<Item id="taikou_troop_yari_weapon_a" name="{=TAIKOU_troop_yari_weapon_a}Long Spear" body_name="bo_spear_b" mesh="taikou_troop_yari_weapon_a" culture="Culture.ikoku" weight="3.0" value="30000" difficulty="0" appearance="1.0" Type="TwoHandedWeapon" item_holsters="polearm_back">
+		<ItemComponent>
+			<Weapon weapon_class="TwoHandedPolearm" thrust_speed="90" speed_rating="85" weapon_length="285" swing_damage="70" swing_damage_type="Cut" thrust_damage="130" thrust_damage_type="Pierce" item_usage="polearm_block_thrust" physics_material="wood_weapon" center_of_mass="0,0,0.4">
+				<WeaponFlags MeleeWeapon="true" />
+			</Weapon>
+		</ItemComponent>
+		<Flags />
+	</Item>
+	<!-- 打刀（战无2 解包件重定向；网格 tools/armor-pipeline/out/taikou_troop_uchigatana_weapon_a.fbx）
+	     普通物品：挂进 EquipmentRoster 只决定初始装备，可被扒/被偷/作战利品。 -->
+	<Item id="taikou_troop_uchigatana_weapon_a" name="{=TAIKOU_troop_uchigatana_weapon_a}Uchigatana" body_name="bo_sword_one_handed" mesh="taikou_troop_uchigatana_weapon_a" culture="Culture.ikoku" weight="1.2" value="25000" difficulty="0" appearance="1.0" Type="OneHandedWeapon" item_holsters="sword_left_hip">
+		<ItemComponent>
+			<Weapon weapon_class="OneHandedSword" thrust_speed="105" speed_rating="100" weapon_length="90" swing_damage="110" swing_damage_type="Cut" thrust_damage="85" thrust_damage_type="Pierce" item_usage="onehanded_block_swing_thrust" physics_material="metal_weapon">
+				<WeaponFlags MeleeWeapon="true" />
+			</Weapon>
+		</ItemComponent>
+		<Flags />
+	</Item>
+	<!-- 弓（战无2 解包件重定向；网格 tools/armor-pipeline/out/taikou_troop_yumi_weapon_a.fbx）
+	     普通物品：挂进 EquipmentRoster 只决定初始装备，可被扒/被偷/作战利品。 -->
+	<Item id="taikou_troop_yumi_weapon_a" name="{=TAIKOU_troop_yumi_weapon_a}Bow" body_name="bo_longbow_a" mesh="taikou_troop_yumi_weapon_a" culture="Culture.ikoku" weight="0.8" value="30000" difficulty="0" appearance="1.0" Type="Bow" item_holsters="bow_back">
+		<ItemComponent>
+			<Weapon weapon_class="Bow" ammo_class="Arrow" ammo_limit="1" missile_speed="78" accuracy="94" thrust_speed="97" speed_rating="92" weapon_length="196" thrust_damage="110" thrust_damage_type="Pierce" item_usage="bow" physics_material="wood_weapon" center_of_mass="0.15,0,0">
+				<WeaponFlags RangedWeapon="true" HasString="true" StringHeldByHand="true" NotUsableWithOneHand="true" TwoHandIdleOnMount="true" AutoReload="true" UnloadWhenSheathed="true" />
+			</Weapon>
+		</ItemComponent>
+		<Flags ForceAttachOffHandPrimaryItemBone="true" />
+	</Item>
+	<!-- 忍刀（战无2 解包件重定向；网格 tools/armor-pipeline/out/taikou_troop_shinobigatana_weapon_a.fbx）
+	     普通物品：挂进 EquipmentRoster 只决定初始装备，可被扒/被偷/作战利品。 -->
+	<Item id="taikou_troop_shinobigatana_weapon_a" name="{=TAIKOU_troop_shinobigatana_weapon_a}Shinobi Blade" body_name="bo_sword_one_handed" mesh="taikou_troop_shinobigatana_weapon_a" culture="Culture.ikoku" weight="1.2" value="25000" difficulty="0" appearance="1.0" Type="OneHandedWeapon" item_holsters="sword_left_hip">
+		<ItemComponent>
+			<Weapon weapon_class="OneHandedSword" thrust_speed="105" speed_rating="100" weapon_length="78" swing_damage="110" swing_damage_type="Cut" thrust_damage="85" thrust_damage_type="Pierce" item_usage="onehanded_block_swing_thrust" physics_material="metal_weapon">
+				<WeaponFlags MeleeWeapon="true" />
+			</Weapon>
+		</ItemComponent>
+		<Flags />
+	</Item>
+</Items>

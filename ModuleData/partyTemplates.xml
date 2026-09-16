@@ -36,11 +36,29 @@
 	<MBPartyTemplate id="taikou_lord_party_template">
 		<stacks>
 			<PartyTemplateStack min_value="20" max_value="20" troop="NPCCharacter.yari_ashigaru" />
+			<PartyTemplateStack min_value="8" max_value="8" troop="NPCCharacter.katana_ashigaru" />
 			<PartyTemplateStack min_value="10" max_value="10" troop="NPCCharacter.yumi_ashigaru" />
 			<PartyTemplateStack min_value="4" max_value="4" troop="NPCCharacter.teppo_ashigaru" />
 			<PartyTemplateStack min_value="6" max_value="6" troop="NPCCharacter.veteran_ashigaru" />
 			<PartyTemplateStack min_value="3" max_value="3" troop="NPCCharacter.samurai" />
+			<PartyTemplateStack min_value="1" max_value="1" troop="NPCCharacter.taisho" />
 			<PartyTemplateStack min_value="1" max_value="1" troop="NPCCharacter.mounted_samurai" />
+		</stacks>
+	</MBPartyTemplate>
+
+	<!-- 忍者部队（2026-09-16 新增）：忍者众 13 家的领主部队编制。
+	     由 `Culture.ninja` 的 default_party_template 引用，而忍者众家族改挂该文化
+	     （见 `Scripts/gen_taikou_clan_csv.py` 的身份文化规则）—— 这样忍者头目带的就是忍者，
+	     不是一队正规足轻。编制口径：下忍为主 + 中忍 + 少量特化忍，**无骑兵、无远程**。 -->
+	<MBPartyTemplate id="taikou_ninja_party_template">
+		<stacks>
+			<PartyTemplateStack min_value="12" max_value="12" troop="NPCCharacter.genin" />
+			<PartyTemplateStack min_value="6" max_value="6" troop="NPCCharacter.chunin" />
+			<PartyTemplateStack min_value="3" max_value="3" troop="NPCCharacter.tobinin" />
+			<PartyTemplateStack min_value="3" max_value="3" troop="NPCCharacter.totsunin" />
+			<PartyTemplateStack min_value="2" max_value="2" troop="NPCCharacter.jonin" />
+			<PartyTemplateStack min_value="1" max_value="1" troop="NPCCharacter.sennin" />
+			<PartyTemplateStack min_value="1" max_value="1" troop="NPCCharacter.hazenin" />
 		</stacks>
 	</MBPartyTemplate>
 
