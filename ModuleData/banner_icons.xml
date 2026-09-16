@@ -1,0 +1,1302 @@
+<?xml version="1.0" encoding="utf-8"?>
+<base xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+	type="string">
+	<BannerIconData>
+		<!-- 🔴 生成物·禁止手改（铁律 22）——由 Scripts/gen_taikou_banner_icons.py 从
+		     Scripts/taikou_mon_atlas.py 的图集表生成。改内容 = 改图集表再重跑。
+		     家纹图集资产 = AssetPackages/taikou_banners.tpac（taikou_cl_mon_*，20 张 4x4）。
+		     图标 id 从 840 起（原版占 1..535，织丰声明 536..839）。
+
+		     ⚠️ 雷 50（2026-09-16 实机踩中）：本注释**必须**留在这里，不许上移到
+		     XML 声明与 <base> 之间，也不许移到 <base> 里 <BannerIconData> 之前——
+		     BannerManager.LoadFromXml 硬取 doc.ChildNodes[1] 要它是 <base>、
+		     再取 <base>.ChildNodes[0] 要它是 <BannerIconData>，中间夹注释 = 直接
+		     throw TWXmlLoadException「Incorrect XML document format」→ 模块加载期崩。
+		     放在 <BannerIconData> 内部则安全：那层循环只认 BannerIconGroup/BannerColors。 -->
+		<BannerIconGroup
+			id="9"
+			name="{=TAIKOU_banner_group_mon}Taikou Family Crests"
+			is_pattern="false">
+			<Icon
+				id="840"
+				material_name="taikou_cl_mon_chubu_1"
+				texture_index="0" />
+			<Icon
+				id="841"
+				material_name="taikou_cl_mon_chubu_1"
+				texture_index="1" />
+			<Icon
+				id="842"
+				material_name="taikou_cl_mon_chubu_1"
+				texture_index="2" />
+			<Icon
+				id="843"
+				material_name="taikou_cl_mon_chubu_1"
+				texture_index="3" />
+			<Icon
+				id="844"
+				material_name="taikou_cl_mon_chubu_1"
+				texture_index="4" />
+			<Icon
+				id="845"
+				material_name="taikou_cl_mon_chubu_1"
+				texture_index="5" />
+			<Icon
+				id="846"
+				material_name="taikou_cl_mon_chubu_1"
+				texture_index="6" />
+			<Icon
+				id="847"
+				material_name="taikou_cl_mon_chubu_1"
+				texture_index="7" />
+			<Icon
+				id="848"
+				material_name="taikou_cl_mon_chubu_1"
+				texture_index="8" />
+			<Icon
+				id="849"
+				material_name="taikou_cl_mon_chubu_1"
+				texture_index="9" />
+			<Icon
+				id="850"
+				material_name="taikou_cl_mon_chubu_1"
+				texture_index="10" />
+			<Icon
+				id="851"
+				material_name="taikou_cl_mon_chubu_1"
+				texture_index="11" />
+			<Icon
+				id="852"
+				material_name="taikou_cl_mon_chubu_1"
+				texture_index="12" />
+			<Icon
+				id="853"
+				material_name="taikou_cl_mon_chubu_1"
+				texture_index="13" />
+			<Icon
+				id="854"
+				material_name="taikou_cl_mon_chubu_1"
+				texture_index="14" />
+			<Icon
+				id="855"
+				material_name="taikou_cl_mon_chubu_1"
+				texture_index="15" />
+			<Icon
+				id="856"
+				material_name="taikou_cl_mon_chubu_2"
+				texture_index="0" />
+			<Icon
+				id="857"
+				material_name="taikou_cl_mon_chubu_2"
+				texture_index="1" />
+			<Icon
+				id="858"
+				material_name="taikou_cl_mon_chubu_2"
+				texture_index="2" />
+			<Icon
+				id="859"
+				material_name="taikou_cl_mon_chubu_2"
+				texture_index="3" />
+			<Icon
+				id="860"
+				material_name="taikou_cl_mon_chubu_2"
+				texture_index="4" />
+			<Icon
+				id="861"
+				material_name="taikou_cl_mon_chubu_2"
+				texture_index="5" />
+			<Icon
+				id="862"
+				material_name="taikou_cl_mon_chubu_2"
+				texture_index="6" />
+			<Icon
+				id="863"
+				material_name="taikou_cl_mon_chubu_2"
+				texture_index="7" />
+			<Icon
+				id="864"
+				material_name="taikou_cl_mon_chubu_2"
+				texture_index="8" />
+			<Icon
+				id="865"
+				material_name="taikou_cl_mon_chubu_2"
+				texture_index="9" />
+			<Icon
+				id="866"
+				material_name="taikou_cl_mon_chubu_2"
+				texture_index="10" />
+			<Icon
+				id="867"
+				material_name="taikou_cl_mon_chubu_2"
+				texture_index="11" />
+			<Icon
+				id="868"
+				material_name="taikou_cl_mon_chubu_2"
+				texture_index="12" />
+			<Icon
+				id="869"
+				material_name="taikou_cl_mon_chubu_2"
+				texture_index="13" />
+			<Icon
+				id="870"
+				material_name="taikou_cl_mon_chubu_2"
+				texture_index="14" />
+			<Icon
+				id="871"
+				material_name="taikou_cl_mon_chubu_2"
+				texture_index="15" />
+			<Icon
+				id="872"
+				material_name="taikou_cl_mon_chubu_3"
+				texture_index="0" />
+			<Icon
+				id="873"
+				material_name="taikou_cl_mon_chubu_3"
+				texture_index="1" />
+			<Icon
+				id="874"
+				material_name="taikou_cl_mon_chubu_3"
+				texture_index="2" />
+			<Icon
+				id="875"
+				material_name="taikou_cl_mon_chubu_3"
+				texture_index="3" />
+			<Icon
+				id="876"
+				material_name="taikou_cl_mon_chubu_3"
+				texture_index="4" />
+			<Icon
+				id="877"
+				material_name="taikou_cl_mon_chubu_3"
+				texture_index="5" />
+			<Icon
+				id="878"
+				material_name="taikou_cl_mon_chubu_3"
+				texture_index="6" />
+			<Icon
+				id="879"
+				material_name="taikou_cl_mon_chubu_3"
+				texture_index="7" />
+			<Icon
+				id="880"
+				material_name="taikou_cl_mon_chubu_3"
+				texture_index="8" />
+			<Icon
+				id="881"
+				material_name="taikou_cl_mon_chubu_3"
+				texture_index="9" />
+			<Icon
+				id="882"
+				material_name="taikou_cl_mon_chubu_3"
+				texture_index="10" />
+			<Icon
+				id="883"
+				material_name="taikou_cl_mon_chubu_3"
+				texture_index="11" />
+			<Icon
+				id="884"
+				material_name="taikou_cl_mon_chubu_3"
+				texture_index="12" />
+			<Icon
+				id="885"
+				material_name="taikou_cl_mon_chubu_3"
+				texture_index="13" />
+			<Icon
+				id="886"
+				material_name="taikou_cl_mon_chubu_3"
+				texture_index="14" />
+			<Icon
+				id="887"
+				material_name="taikou_cl_mon_chubu_3"
+				texture_index="15" />
+			<Icon
+				id="888"
+				material_name="taikou_cl_mon_chugoku_1"
+				texture_index="0" />
+			<Icon
+				id="889"
+				material_name="taikou_cl_mon_chugoku_1"
+				texture_index="1" />
+			<Icon
+				id="890"
+				material_name="taikou_cl_mon_chugoku_1"
+				texture_index="2" />
+			<Icon
+				id="891"
+				material_name="taikou_cl_mon_chugoku_1"
+				texture_index="3" />
+			<Icon
+				id="892"
+				material_name="taikou_cl_mon_chugoku_1"
+				texture_index="4" />
+			<Icon
+				id="893"
+				material_name="taikou_cl_mon_chugoku_1"
+				texture_index="5" />
+			<Icon
+				id="894"
+				material_name="taikou_cl_mon_chugoku_1"
+				texture_index="6" />
+			<Icon
+				id="895"
+				material_name="taikou_cl_mon_chugoku_1"
+				texture_index="7" />
+			<Icon
+				id="896"
+				material_name="taikou_cl_mon_chugoku_1"
+				texture_index="8" />
+			<Icon
+				id="897"
+				material_name="taikou_cl_mon_chugoku_1"
+				texture_index="9" />
+			<Icon
+				id="898"
+				material_name="taikou_cl_mon_chugoku_1"
+				texture_index="10" />
+			<Icon
+				id="899"
+				material_name="taikou_cl_mon_chugoku_1"
+				texture_index="11" />
+			<Icon
+				id="900"
+				material_name="taikou_cl_mon_chugoku_1"
+				texture_index="12" />
+			<Icon
+				id="901"
+				material_name="taikou_cl_mon_chugoku_1"
+				texture_index="13" />
+			<Icon
+				id="902"
+				material_name="taikou_cl_mon_chugoku_1"
+				texture_index="14" />
+			<Icon
+				id="903"
+				material_name="taikou_cl_mon_chugoku_1"
+				texture_index="15" />
+			<Icon
+				id="904"
+				material_name="taikou_cl_mon_chugoku_2"
+				texture_index="0" />
+			<Icon
+				id="905"
+				material_name="taikou_cl_mon_chugoku_2"
+				texture_index="1" />
+			<Icon
+				id="906"
+				material_name="taikou_cl_mon_chugoku_2"
+				texture_index="2" />
+			<Icon
+				id="907"
+				material_name="taikou_cl_mon_chugoku_2"
+				texture_index="3" />
+			<Icon
+				id="908"
+				material_name="taikou_cl_mon_chugoku_2"
+				texture_index="4" />
+			<Icon
+				id="909"
+				material_name="taikou_cl_mon_chugoku_2"
+				texture_index="5" />
+			<Icon
+				id="910"
+				material_name="taikou_cl_mon_chugoku_2"
+				texture_index="6" />
+			<Icon
+				id="911"
+				material_name="taikou_cl_mon_chugoku_2"
+				texture_index="7" />
+			<Icon
+				id="912"
+				material_name="taikou_cl_mon_chugoku_2"
+				texture_index="8" />
+			<Icon
+				id="913"
+				material_name="taikou_cl_mon_chugoku_2"
+				texture_index="9" />
+			<Icon
+				id="914"
+				material_name="taikou_cl_mon_chugoku_2"
+				texture_index="10" />
+			<Icon
+				id="915"
+				material_name="taikou_cl_mon_chugoku_2"
+				texture_index="11" />
+			<Icon
+				id="916"
+				material_name="taikou_cl_mon_chugoku_2"
+				texture_index="12" />
+			<Icon
+				id="917"
+				material_name="taikou_cl_mon_chugoku_2"
+				texture_index="13" />
+			<Icon
+				id="918"
+				material_name="taikou_cl_mon_chugoku_2"
+				texture_index="14" />
+			<Icon
+				id="919"
+				material_name="taikou_cl_mon_chugoku_2"
+				texture_index="15" />
+			<Icon
+				id="920"
+				material_name="taikou_cl_mon_custom_1"
+				texture_index="0" />
+			<Icon
+				id="921"
+				material_name="taikou_cl_mon_custom_1"
+				texture_index="1" />
+			<Icon
+				id="922"
+				material_name="taikou_cl_mon_custom_1"
+				texture_index="2" />
+			<Icon
+				id="923"
+				material_name="taikou_cl_mon_custom_1"
+				texture_index="3" />
+			<Icon
+				id="924"
+				material_name="taikou_cl_mon_custom_1"
+				texture_index="4" />
+			<Icon
+				id="925"
+				material_name="taikou_cl_mon_custom_1"
+				texture_index="5" />
+			<Icon
+				id="926"
+				material_name="taikou_cl_mon_custom_1"
+				texture_index="6" />
+			<Icon
+				id="927"
+				material_name="taikou_cl_mon_custom_1"
+				texture_index="7" />
+			<Icon
+				id="928"
+				material_name="taikou_cl_mon_custom_1"
+				texture_index="8" />
+			<Icon
+				id="929"
+				material_name="taikou_cl_mon_custom_1"
+				texture_index="9" />
+			<Icon
+				id="930"
+				material_name="taikou_cl_mon_custom_1"
+				texture_index="10" />
+			<Icon
+				id="931"
+				material_name="taikou_cl_mon_custom_1"
+				texture_index="11" />
+			<Icon
+				id="932"
+				material_name="taikou_cl_mon_custom_1"
+				texture_index="12" />
+			<Icon
+				id="933"
+				material_name="taikou_cl_mon_custom_1"
+				texture_index="13" />
+			<Icon
+				id="934"
+				material_name="taikou_cl_mon_custom_1"
+				texture_index="14" />
+			<Icon
+				id="935"
+				material_name="taikou_cl_mon_custom_1"
+				texture_index="15" />
+			<Icon
+				id="936"
+				material_name="taikou_cl_mon_custom_2"
+				texture_index="0" />
+			<Icon
+				id="937"
+				material_name="taikou_cl_mon_custom_2"
+				texture_index="1" />
+			<Icon
+				id="938"
+				material_name="taikou_cl_mon_custom_2"
+				texture_index="2" />
+			<Icon
+				id="939"
+				material_name="taikou_cl_mon_custom_2"
+				texture_index="3" />
+			<Icon
+				id="940"
+				material_name="taikou_cl_mon_custom_2"
+				texture_index="4" />
+			<Icon
+				id="941"
+				material_name="taikou_cl_mon_custom_2"
+				texture_index="5" />
+			<Icon
+				id="942"
+				material_name="taikou_cl_mon_custom_2"
+				texture_index="6" />
+			<Icon
+				id="943"
+				material_name="taikou_cl_mon_custom_2"
+				texture_index="7" />
+			<Icon
+				id="944"
+				material_name="taikou_cl_mon_custom_2"
+				texture_index="8" />
+			<Icon
+				id="945"
+				material_name="taikou_cl_mon_custom_2"
+				texture_index="9" />
+			<Icon
+				id="946"
+				material_name="taikou_cl_mon_custom_2"
+				texture_index="10" />
+			<Icon
+				id="947"
+				material_name="taikou_cl_mon_custom_2"
+				texture_index="11" />
+			<Icon
+				id="948"
+				material_name="taikou_cl_mon_custom_2"
+				texture_index="12" />
+			<Icon
+				id="949"
+				material_name="taikou_cl_mon_custom_2"
+				texture_index="13" />
+			<Icon
+				id="950"
+				material_name="taikou_cl_mon_custom_2"
+				texture_index="14" />
+			<Icon
+				id="951"
+				material_name="taikou_cl_mon_custom_2"
+				texture_index="15" />
+			<Icon
+				id="952"
+				material_name="taikou_cl_mon_kanto_1"
+				texture_index="0" />
+			<Icon
+				id="953"
+				material_name="taikou_cl_mon_kanto_1"
+				texture_index="1" />
+			<Icon
+				id="954"
+				material_name="taikou_cl_mon_kanto_1"
+				texture_index="2" />
+			<Icon
+				id="955"
+				material_name="taikou_cl_mon_kanto_1"
+				texture_index="3" />
+			<Icon
+				id="956"
+				material_name="taikou_cl_mon_kanto_1"
+				texture_index="4" />
+			<Icon
+				id="957"
+				material_name="taikou_cl_mon_kanto_1"
+				texture_index="5" />
+			<Icon
+				id="958"
+				material_name="taikou_cl_mon_kanto_1"
+				texture_index="6" />
+			<Icon
+				id="959"
+				material_name="taikou_cl_mon_kanto_1"
+				texture_index="7" />
+			<Icon
+				id="960"
+				material_name="taikou_cl_mon_kanto_1"
+				texture_index="8" />
+			<Icon
+				id="961"
+				material_name="taikou_cl_mon_kanto_1"
+				texture_index="9" />
+			<Icon
+				id="962"
+				material_name="taikou_cl_mon_kanto_1"
+				texture_index="10" />
+			<Icon
+				id="963"
+				material_name="taikou_cl_mon_kanto_1"
+				texture_index="11" />
+			<Icon
+				id="964"
+				material_name="taikou_cl_mon_kanto_1"
+				texture_index="12" />
+			<Icon
+				id="965"
+				material_name="taikou_cl_mon_kanto_1"
+				texture_index="13" />
+			<Icon
+				id="966"
+				material_name="taikou_cl_mon_kanto_1"
+				texture_index="14" />
+			<Icon
+				id="967"
+				material_name="taikou_cl_mon_kanto_1"
+				texture_index="15" />
+			<Icon
+				id="968"
+				material_name="taikou_cl_mon_kanto_2"
+				texture_index="0" />
+			<Icon
+				id="969"
+				material_name="taikou_cl_mon_kanto_2"
+				texture_index="1" />
+			<Icon
+				id="970"
+				material_name="taikou_cl_mon_kanto_2"
+				texture_index="2" />
+			<Icon
+				id="971"
+				material_name="taikou_cl_mon_kanto_2"
+				texture_index="3" />
+			<Icon
+				id="972"
+				material_name="taikou_cl_mon_kanto_2"
+				texture_index="4" />
+			<Icon
+				id="973"
+				material_name="taikou_cl_mon_kanto_2"
+				texture_index="5" />
+			<Icon
+				id="974"
+				material_name="taikou_cl_mon_kanto_2"
+				texture_index="6" />
+			<Icon
+				id="975"
+				material_name="taikou_cl_mon_kanto_2"
+				texture_index="7" />
+			<Icon
+				id="976"
+				material_name="taikou_cl_mon_kanto_2"
+				texture_index="8" />
+			<Icon
+				id="977"
+				material_name="taikou_cl_mon_kanto_2"
+				texture_index="9" />
+			<Icon
+				id="978"
+				material_name="taikou_cl_mon_kanto_2"
+				texture_index="10" />
+			<Icon
+				id="979"
+				material_name="taikou_cl_mon_kanto_2"
+				texture_index="11" />
+			<Icon
+				id="980"
+				material_name="taikou_cl_mon_kanto_2"
+				texture_index="12" />
+			<Icon
+				id="981"
+				material_name="taikou_cl_mon_kanto_2"
+				texture_index="13" />
+			<Icon
+				id="982"
+				material_name="taikou_cl_mon_kanto_2"
+				texture_index="14" />
+			<Icon
+				id="983"
+				material_name="taikou_cl_mon_kanto_2"
+				texture_index="15" />
+			<Icon
+				id="984"
+				material_name="taikou_cl_mon_kinki_1"
+				texture_index="0" />
+			<Icon
+				id="985"
+				material_name="taikou_cl_mon_kinki_1"
+				texture_index="1" />
+			<Icon
+				id="986"
+				material_name="taikou_cl_mon_kinki_1"
+				texture_index="2" />
+			<Icon
+				id="987"
+				material_name="taikou_cl_mon_kinki_1"
+				texture_index="3" />
+			<Icon
+				id="988"
+				material_name="taikou_cl_mon_kinki_1"
+				texture_index="4" />
+			<Icon
+				id="989"
+				material_name="taikou_cl_mon_kinki_1"
+				texture_index="5" />
+			<Icon
+				id="990"
+				material_name="taikou_cl_mon_kinki_1"
+				texture_index="6" />
+			<Icon
+				id="991"
+				material_name="taikou_cl_mon_kinki_1"
+				texture_index="7" />
+			<Icon
+				id="992"
+				material_name="taikou_cl_mon_kinki_1"
+				texture_index="8" />
+			<Icon
+				id="993"
+				material_name="taikou_cl_mon_kinki_1"
+				texture_index="9" />
+			<Icon
+				id="994"
+				material_name="taikou_cl_mon_kinki_1"
+				texture_index="10" />
+			<Icon
+				id="995"
+				material_name="taikou_cl_mon_kinki_1"
+				texture_index="11" />
+			<Icon
+				id="996"
+				material_name="taikou_cl_mon_kinki_1"
+				texture_index="12" />
+			<Icon
+				id="997"
+				material_name="taikou_cl_mon_kinki_1"
+				texture_index="13" />
+			<Icon
+				id="998"
+				material_name="taikou_cl_mon_kinki_1"
+				texture_index="14" />
+			<Icon
+				id="999"
+				material_name="taikou_cl_mon_kinki_1"
+				texture_index="15" />
+			<Icon
+				id="1000"
+				material_name="taikou_cl_mon_kinki_2"
+				texture_index="0" />
+			<Icon
+				id="1001"
+				material_name="taikou_cl_mon_kinki_2"
+				texture_index="1" />
+			<Icon
+				id="1002"
+				material_name="taikou_cl_mon_kinki_2"
+				texture_index="2" />
+			<Icon
+				id="1003"
+				material_name="taikou_cl_mon_kinki_2"
+				texture_index="3" />
+			<Icon
+				id="1004"
+				material_name="taikou_cl_mon_kinki_2"
+				texture_index="4" />
+			<Icon
+				id="1005"
+				material_name="taikou_cl_mon_kinki_2"
+				texture_index="5" />
+			<Icon
+				id="1006"
+				material_name="taikou_cl_mon_kinki_2"
+				texture_index="6" />
+			<Icon
+				id="1007"
+				material_name="taikou_cl_mon_kinki_2"
+				texture_index="7" />
+			<Icon
+				id="1008"
+				material_name="taikou_cl_mon_kinki_2"
+				texture_index="8" />
+			<Icon
+				id="1009"
+				material_name="taikou_cl_mon_kinki_2"
+				texture_index="9" />
+			<Icon
+				id="1010"
+				material_name="taikou_cl_mon_kinki_2"
+				texture_index="10" />
+			<Icon
+				id="1011"
+				material_name="taikou_cl_mon_kinki_2"
+				texture_index="11" />
+			<Icon
+				id="1012"
+				material_name="taikou_cl_mon_kinki_2"
+				texture_index="12" />
+			<Icon
+				id="1013"
+				material_name="taikou_cl_mon_kinki_2"
+				texture_index="13" />
+			<Icon
+				id="1014"
+				material_name="taikou_cl_mon_kinki_2"
+				texture_index="14" />
+			<Icon
+				id="1015"
+				material_name="taikou_cl_mon_kinki_2"
+				texture_index="15" />
+			<Icon
+				id="1016"
+				material_name="taikou_cl_mon_kyushu_1"
+				texture_index="0" />
+			<Icon
+				id="1017"
+				material_name="taikou_cl_mon_kyushu_1"
+				texture_index="1" />
+			<Icon
+				id="1018"
+				material_name="taikou_cl_mon_kyushu_1"
+				texture_index="2" />
+			<Icon
+				id="1019"
+				material_name="taikou_cl_mon_kyushu_1"
+				texture_index="3" />
+			<Icon
+				id="1020"
+				material_name="taikou_cl_mon_kyushu_1"
+				texture_index="4" />
+			<Icon
+				id="1021"
+				material_name="taikou_cl_mon_kyushu_1"
+				texture_index="5" />
+			<Icon
+				id="1022"
+				material_name="taikou_cl_mon_kyushu_1"
+				texture_index="6" />
+			<Icon
+				id="1023"
+				material_name="taikou_cl_mon_kyushu_1"
+				texture_index="7" />
+			<Icon
+				id="1024"
+				material_name="taikou_cl_mon_kyushu_1"
+				texture_index="8" />
+			<Icon
+				id="1025"
+				material_name="taikou_cl_mon_kyushu_1"
+				texture_index="9" />
+			<Icon
+				id="1026"
+				material_name="taikou_cl_mon_kyushu_1"
+				texture_index="10" />
+			<Icon
+				id="1027"
+				material_name="taikou_cl_mon_kyushu_1"
+				texture_index="11" />
+			<Icon
+				id="1028"
+				material_name="taikou_cl_mon_kyushu_1"
+				texture_index="12" />
+			<Icon
+				id="1029"
+				material_name="taikou_cl_mon_kyushu_1"
+				texture_index="13" />
+			<Icon
+				id="1030"
+				material_name="taikou_cl_mon_kyushu_1"
+				texture_index="14" />
+			<Icon
+				id="1031"
+				material_name="taikou_cl_mon_kyushu_1"
+				texture_index="15" />
+			<Icon
+				id="1032"
+				material_name="taikou_cl_mon_kyushu_2"
+				texture_index="0" />
+			<Icon
+				id="1033"
+				material_name="taikou_cl_mon_kyushu_2"
+				texture_index="1" />
+			<Icon
+				id="1034"
+				material_name="taikou_cl_mon_kyushu_2"
+				texture_index="2" />
+			<Icon
+				id="1035"
+				material_name="taikou_cl_mon_kyushu_2"
+				texture_index="3" />
+			<Icon
+				id="1036"
+				material_name="taikou_cl_mon_kyushu_2"
+				texture_index="4" />
+			<Icon
+				id="1037"
+				material_name="taikou_cl_mon_kyushu_2"
+				texture_index="5" />
+			<Icon
+				id="1038"
+				material_name="taikou_cl_mon_kyushu_2"
+				texture_index="6" />
+			<Icon
+				id="1039"
+				material_name="taikou_cl_mon_kyushu_2"
+				texture_index="7" />
+			<Icon
+				id="1040"
+				material_name="taikou_cl_mon_kyushu_2"
+				texture_index="8" />
+			<Icon
+				id="1041"
+				material_name="taikou_cl_mon_kyushu_2"
+				texture_index="9" />
+			<Icon
+				id="1042"
+				material_name="taikou_cl_mon_kyushu_2"
+				texture_index="10" />
+			<Icon
+				id="1043"
+				material_name="taikou_cl_mon_kyushu_2"
+				texture_index="11" />
+			<Icon
+				id="1044"
+				material_name="taikou_cl_mon_kyushu_2"
+				texture_index="12" />
+			<Icon
+				id="1045"
+				material_name="taikou_cl_mon_kyushu_2"
+				texture_index="13" />
+			<Icon
+				id="1046"
+				material_name="taikou_cl_mon_kyushu_2"
+				texture_index="14" />
+			<Icon
+				id="1047"
+				material_name="taikou_cl_mon_kyushu_2"
+				texture_index="15" />
+			<Icon
+				id="1048"
+				material_name="taikou_cl_mon_minor_1"
+				texture_index="0" />
+			<Icon
+				id="1049"
+				material_name="taikou_cl_mon_minor_1"
+				texture_index="1" />
+			<Icon
+				id="1050"
+				material_name="taikou_cl_mon_minor_1"
+				texture_index="2" />
+			<Icon
+				id="1051"
+				material_name="taikou_cl_mon_minor_1"
+				texture_index="3" />
+			<Icon
+				id="1052"
+				material_name="taikou_cl_mon_minor_1"
+				texture_index="4" />
+			<Icon
+				id="1053"
+				material_name="taikou_cl_mon_minor_1"
+				texture_index="5" />
+			<Icon
+				id="1054"
+				material_name="taikou_cl_mon_minor_1"
+				texture_index="6" />
+			<Icon
+				id="1055"
+				material_name="taikou_cl_mon_minor_1"
+				texture_index="7" />
+			<Icon
+				id="1056"
+				material_name="taikou_cl_mon_minor_1"
+				texture_index="8" />
+			<Icon
+				id="1057"
+				material_name="taikou_cl_mon_minor_1"
+				texture_index="9" />
+			<Icon
+				id="1058"
+				material_name="taikou_cl_mon_minor_1"
+				texture_index="10" />
+			<Icon
+				id="1059"
+				material_name="taikou_cl_mon_minor_1"
+				texture_index="11" />
+			<Icon
+				id="1060"
+				material_name="taikou_cl_mon_minor_1"
+				texture_index="12" />
+			<Icon
+				id="1061"
+				material_name="taikou_cl_mon_minor_1"
+				texture_index="13" />
+			<Icon
+				id="1062"
+				material_name="taikou_cl_mon_minor_1"
+				texture_index="14" />
+			<Icon
+				id="1063"
+				material_name="taikou_cl_mon_minor_1"
+				texture_index="15" />
+			<Icon
+				id="1064"
+				material_name="taikou_cl_mon_minor_2"
+				texture_index="0" />
+			<Icon
+				id="1065"
+				material_name="taikou_cl_mon_minor_2"
+				texture_index="1" />
+			<Icon
+				id="1066"
+				material_name="taikou_cl_mon_minor_2"
+				texture_index="2" />
+			<Icon
+				id="1067"
+				material_name="taikou_cl_mon_minor_2"
+				texture_index="3" />
+			<Icon
+				id="1068"
+				material_name="taikou_cl_mon_minor_2"
+				texture_index="4" />
+			<Icon
+				id="1069"
+				material_name="taikou_cl_mon_minor_2"
+				texture_index="5" />
+			<Icon
+				id="1070"
+				material_name="taikou_cl_mon_minor_2"
+				texture_index="6" />
+			<Icon
+				id="1071"
+				material_name="taikou_cl_mon_minor_2"
+				texture_index="7" />
+			<Icon
+				id="1072"
+				material_name="taikou_cl_mon_minor_2"
+				texture_index="8" />
+			<Icon
+				id="1073"
+				material_name="taikou_cl_mon_minor_2"
+				texture_index="9" />
+			<Icon
+				id="1074"
+				material_name="taikou_cl_mon_minor_2"
+				texture_index="10" />
+			<Icon
+				id="1075"
+				material_name="taikou_cl_mon_minor_2"
+				texture_index="11" />
+			<Icon
+				id="1076"
+				material_name="taikou_cl_mon_minor_2"
+				texture_index="12" />
+			<Icon
+				id="1077"
+				material_name="taikou_cl_mon_minor_2"
+				texture_index="13" />
+			<Icon
+				id="1078"
+				material_name="taikou_cl_mon_minor_2"
+				texture_index="14" />
+			<Icon
+				id="1079"
+				material_name="taikou_cl_mon_minor_2"
+				texture_index="15" />
+			<Icon
+				id="1080"
+				material_name="taikou_cl_mon_religion_1"
+				texture_index="0" />
+			<Icon
+				id="1081"
+				material_name="taikou_cl_mon_religion_1"
+				texture_index="1" />
+			<Icon
+				id="1082"
+				material_name="taikou_cl_mon_religion_1"
+				texture_index="2" />
+			<Icon
+				id="1083"
+				material_name="taikou_cl_mon_religion_1"
+				texture_index="3" />
+			<Icon
+				id="1084"
+				material_name="taikou_cl_mon_religion_1"
+				texture_index="4" />
+			<Icon
+				id="1085"
+				material_name="taikou_cl_mon_religion_1"
+				texture_index="5" />
+			<Icon
+				id="1086"
+				material_name="taikou_cl_mon_religion_1"
+				texture_index="6" />
+			<Icon
+				id="1087"
+				material_name="taikou_cl_mon_religion_1"
+				texture_index="7" />
+			<Icon
+				id="1088"
+				material_name="taikou_cl_mon_religion_1"
+				texture_index="8" />
+			<Icon
+				id="1089"
+				material_name="taikou_cl_mon_religion_1"
+				texture_index="9" />
+			<Icon
+				id="1090"
+				material_name="taikou_cl_mon_religion_1"
+				texture_index="10" />
+			<Icon
+				id="1091"
+				material_name="taikou_cl_mon_religion_1"
+				texture_index="11" />
+			<Icon
+				id="1092"
+				material_name="taikou_cl_mon_religion_1"
+				texture_index="12" />
+			<Icon
+				id="1093"
+				material_name="taikou_cl_mon_religion_1"
+				texture_index="13" />
+			<Icon
+				id="1094"
+				material_name="taikou_cl_mon_religion_1"
+				texture_index="14" />
+			<Icon
+				id="1095"
+				material_name="taikou_cl_mon_religion_1"
+				texture_index="15" />
+			<Icon
+				id="1096"
+				material_name="taikou_cl_mon_shikoku_1"
+				texture_index="0" />
+			<Icon
+				id="1097"
+				material_name="taikou_cl_mon_shikoku_1"
+				texture_index="1" />
+			<Icon
+				id="1098"
+				material_name="taikou_cl_mon_shikoku_1"
+				texture_index="2" />
+			<Icon
+				id="1099"
+				material_name="taikou_cl_mon_shikoku_1"
+				texture_index="3" />
+			<Icon
+				id="1100"
+				material_name="taikou_cl_mon_shikoku_1"
+				texture_index="4" />
+			<Icon
+				id="1101"
+				material_name="taikou_cl_mon_shikoku_1"
+				texture_index="5" />
+			<Icon
+				id="1102"
+				material_name="taikou_cl_mon_shikoku_1"
+				texture_index="6" />
+			<Icon
+				id="1103"
+				material_name="taikou_cl_mon_shikoku_1"
+				texture_index="7" />
+			<Icon
+				id="1104"
+				material_name="taikou_cl_mon_shikoku_1"
+				texture_index="8" />
+			<Icon
+				id="1105"
+				material_name="taikou_cl_mon_shikoku_1"
+				texture_index="9" />
+			<Icon
+				id="1106"
+				material_name="taikou_cl_mon_shikoku_1"
+				texture_index="10" />
+			<Icon
+				id="1107"
+				material_name="taikou_cl_mon_shikoku_1"
+				texture_index="11" />
+			<Icon
+				id="1108"
+				material_name="taikou_cl_mon_shikoku_1"
+				texture_index="12" />
+			<Icon
+				id="1109"
+				material_name="taikou_cl_mon_shikoku_1"
+				texture_index="13" />
+			<Icon
+				id="1110"
+				material_name="taikou_cl_mon_shikoku_1"
+				texture_index="14" />
+			<Icon
+				id="1111"
+				material_name="taikou_cl_mon_shikoku_1"
+				texture_index="15" />
+			<Icon
+				id="1112"
+				material_name="taikou_cl_mon_tohoku_1"
+				texture_index="0" />
+			<Icon
+				id="1113"
+				material_name="taikou_cl_mon_tohoku_1"
+				texture_index="1" />
+			<Icon
+				id="1114"
+				material_name="taikou_cl_mon_tohoku_1"
+				texture_index="2" />
+			<Icon
+				id="1115"
+				material_name="taikou_cl_mon_tohoku_1"
+				texture_index="3" />
+			<Icon
+				id="1116"
+				material_name="taikou_cl_mon_tohoku_1"
+				texture_index="4" />
+			<Icon
+				id="1117"
+				material_name="taikou_cl_mon_tohoku_1"
+				texture_index="5" />
+			<Icon
+				id="1118"
+				material_name="taikou_cl_mon_tohoku_1"
+				texture_index="6" />
+			<Icon
+				id="1119"
+				material_name="taikou_cl_mon_tohoku_1"
+				texture_index="7" />
+			<Icon
+				id="1120"
+				material_name="taikou_cl_mon_tohoku_1"
+				texture_index="8" />
+			<Icon
+				id="1121"
+				material_name="taikou_cl_mon_tohoku_1"
+				texture_index="9" />
+			<Icon
+				id="1122"
+				material_name="taikou_cl_mon_tohoku_1"
+				texture_index="10" />
+			<Icon
+				id="1123"
+				material_name="taikou_cl_mon_tohoku_1"
+				texture_index="11" />
+			<Icon
+				id="1124"
+				material_name="taikou_cl_mon_tohoku_1"
+				texture_index="12" />
+			<Icon
+				id="1125"
+				material_name="taikou_cl_mon_tohoku_1"
+				texture_index="13" />
+			<Icon
+				id="1126"
+				material_name="taikou_cl_mon_tohoku_1"
+				texture_index="14" />
+			<Icon
+				id="1127"
+				material_name="taikou_cl_mon_tohoku_1"
+				texture_index="15" />
+			<Icon
+				id="1128"
+				material_name="taikou_cl_mon_tohoku_2"
+				texture_index="0" />
+			<Icon
+				id="1129"
+				material_name="taikou_cl_mon_tohoku_2"
+				texture_index="1" />
+			<Icon
+				id="1130"
+				material_name="taikou_cl_mon_tohoku_2"
+				texture_index="2" />
+			<Icon
+				id="1131"
+				material_name="taikou_cl_mon_tohoku_2"
+				texture_index="3" />
+			<Icon
+				id="1132"
+				material_name="taikou_cl_mon_tohoku_2"
+				texture_index="4" />
+			<Icon
+				id="1133"
+				material_name="taikou_cl_mon_tohoku_2"
+				texture_index="5" />
+			<Icon
+				id="1134"
+				material_name="taikou_cl_mon_tohoku_2"
+				texture_index="6" />
+			<Icon
+				id="1135"
+				material_name="taikou_cl_mon_tohoku_2"
+				texture_index="7" />
+			<Icon
+				id="1136"
+				material_name="taikou_cl_mon_tohoku_2"
+				texture_index="8" />
+			<Icon
+				id="1137"
+				material_name="taikou_cl_mon_tohoku_2"
+				texture_index="9" />
+			<Icon
+				id="1138"
+				material_name="taikou_cl_mon_tohoku_2"
+				texture_index="10" />
+			<Icon
+				id="1139"
+				material_name="taikou_cl_mon_tohoku_2"
+				texture_index="11" />
+			<Icon
+				id="1140"
+				material_name="taikou_cl_mon_tohoku_2"
+				texture_index="12" />
+			<Icon
+				id="1141"
+				material_name="taikou_cl_mon_tohoku_2"
+				texture_index="13" />
+			<Icon
+				id="1142"
+				material_name="taikou_cl_mon_tohoku_2"
+				texture_index="14" />
+			<Icon
+				id="1143"
+				material_name="taikou_cl_mon_tohoku_2"
+				texture_index="15" />
+			<Icon
+				id="1144"
+				material_name="taikou_cl_mon_tohoku_3"
+				texture_index="0" />
+			<Icon
+				id="1145"
+				material_name="taikou_cl_mon_tohoku_3"
+				texture_index="1" />
+			<Icon
+				id="1146"
+				material_name="taikou_cl_mon_tohoku_3"
+				texture_index="2" />
+			<Icon
+				id="1147"
+				material_name="taikou_cl_mon_tohoku_3"
+				texture_index="3" />
+			<Icon
+				id="1148"
+				material_name="taikou_cl_mon_tohoku_3"
+				texture_index="4" />
+			<Icon
+				id="1149"
+				material_name="taikou_cl_mon_tohoku_3"
+				texture_index="5" />
+			<Icon
+				id="1150"
+				material_name="taikou_cl_mon_tohoku_3"
+				texture_index="6" />
+			<Icon
+				id="1151"
+				material_name="taikou_cl_mon_tohoku_3"
+				texture_index="7" />
+			<Icon
+				id="1152"
+				material_name="taikou_cl_mon_tohoku_3"
+				texture_index="8" />
+			<Icon
+				id="1153"
+				material_name="taikou_cl_mon_tohoku_3"
+				texture_index="9" />
+			<Icon
+				id="1154"
+				material_name="taikou_cl_mon_tohoku_3"
+				texture_index="10" />
+			<Icon
+				id="1155"
+				material_name="taikou_cl_mon_tohoku_3"
+				texture_index="11" />
+			<Icon
+				id="1156"
+				material_name="taikou_cl_mon_tohoku_3"
+				texture_index="12" />
+			<Icon
+				id="1157"
+				material_name="taikou_cl_mon_tohoku_3"
+				texture_index="13" />
+			<Icon
+				id="1158"
+				material_name="taikou_cl_mon_tohoku_3"
+				texture_index="14" />
+			<Icon
+				id="1159"
+				material_name="taikou_cl_mon_tohoku_3"
+				texture_index="15" />
+		</BannerIconGroup>
+	</BannerIconData>
+</base>

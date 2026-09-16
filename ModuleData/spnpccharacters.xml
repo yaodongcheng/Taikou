@@ -1316,8 +1316,10 @@
 		</Equipments>
 	</NPCCharacter>
 
-	<!-- 铁炮足轻（火绳枪队）。武器 = taikou_teppo（网格复用杂贺孙一那把），弹药 = taikou_teppo_ammo。
+	<!-- 铁炮足轻（火绳枪队）。武器 = taikou_teppo（网格 = 通用铁炮 taikou_troop_teppo_weapon_a），
+	     弹药 = taikou_teppo_ammo。
 	     🔴 弹药槽必须配（Item1）—— 远程武器不带弹药 = 拿着射不出去。
+	     🔴 2026-09-16：taikou_teppo 的网格原来误指向杂贺孙一的专属枪，已换成兵种线通用件。
 	     技能走 Crossbow（引擎里火器挂在弩技能下）。升级目标暂空（同弓足轻）。 -->
 	<NPCCharacter id="teppo_ashigaru" default_group="Ranged" formation_position_preference="Front" level="6" is_hero="false" is_female="false" culture="Culture.ikoku" name="{=TAIKOU_troop_teppo_ashigaru}Ashigaru Gunner" occupation="Soldier" is_basic_troop="true" skill_template="SkillSet.ranged_skirmisher_level6_template_skills">
 		<face>

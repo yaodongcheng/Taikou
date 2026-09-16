@@ -26,6 +26,10 @@
 
   <strings>
 
+    <!-- ==== 旗帜编辑器里的家纹图标组名（数据源 = ModuleData/banner_icons.xml，
+         该文件由 Scripts/gen_taikou_banner_icons.py 生成）==== -->
+    <string id="TAIKOU_banner_group_mon" text="家纹" />
+
     <!-- ==== 势力类型筛档标签（选人界面最左列；键由 gen_taikou_hero_catalog.py 产出，
          中文在这里人工维护。改档位 = 改生成器的 REALM_TYPES 后重跑，再回来补中文）==== -->
     <string id="TAIKOU_forcetype_warrior" text="武将" />

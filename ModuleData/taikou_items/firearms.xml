@@ -14,14 +14,17 @@
      ③ **missile_speed 写在枪上，不在弹药上** —— 引擎取的是手持武器的弹速
         （GetModifiedMissileSpeedForCurrentUsage 拿的是枪占的槽位）。
         织丰在弹药上写 500、CA_BloodSmoke 写 10，两者都不生效。
-     网格复用战无2 解包件 taikou_magoichi_weapon_a（杂贺孙一那把枪的网格），
-     走 tools/armor-pipeline 管线重定向，已在 Taikou/AssetPackages 里。 -->
+     网格 = **通用铁炮** `taikou_troop_teppo_weapon_a`（兵种线那把，战无2 解包件重定向，
+     已在 Taikou/AssetPackages 里）。
+     🔴 2026-09-16 更正：**原来这里指向 `taikou_magoichi_weapon_a`（杂贺孙一的专属枪）** ——
+     通用铁炮拿专属网格用是错的（兵种穿帮），已换成兵种线的通用件。
+     杂贺本人仍走他自己的 `taikou_magoichi_weapon_a`（物品 id 不同，互不影响）。 -->
 <Items>
 	<!-- 铁炮（标准款，兵种与常规武将用）。
 	     定位：比弓穿透强、比弩更狠，但射速慢、精度差 —— 火绳枪的历史特点。
 	     对照：织丰 tanegashima_musket（伤害 300 / 射速 73 / 精度 40）、
 	           杂贺孙一专属 (taikou_magoichi_weapon_a)（伤害 200 / 射速 88 / 精度 40） -->
-	<Item id="taikou_teppo" name="{=TAIKOU_teppo}Matchlock" body_name="bo_composite_crossbows" mesh="taikou_magoichi_weapon_a" culture="Culture.ikoku" weight="4.0" value="8000" difficulty="0" appearance="1.0" Type="Crossbow" item_holsters="crossbow_back">
+	<Item id="taikou_teppo" name="{=TAIKOU_teppo}Matchlock" body_name="bo_composite_crossbows" mesh="taikou_troop_teppo_weapon_a" culture="Culture.ikoku" weight="4.0" value="8000" difficulty="0" appearance="1.0" Type="Crossbow" item_holsters="crossbow_back">
 		<ItemComponent>
 			<Weapon weapon_class="Crossbow" ammo_class="Cartridge" ammo_limit="1" missile_speed="550" accuracy="30" thrust_speed="85" speed_rating="65" weapon_length="120" thrust_damage="180" thrust_damage_type="Pierce" item_usage="crossbow" physics_material="wood_weapon" center_of_mass="0,0,0.4">
 				<WeaponFlags RangedWeapon="true" HasString="true" UseHandAsThrowBase="true" NotUsableWithOneHand="true" TwoHandIdleOnMount="true" BonusAgainstShield="true" />

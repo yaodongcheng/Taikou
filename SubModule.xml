@@ -630,6 +630,16 @@
 				<GameType value="TaikouCampaign1598"/>
 			</IncludedGameTypes>
 		</XmlNode>
+		<!-- 🔴 家纹图标注册（2026-09-16）。**故意不写 IncludedGameTypes**：
+		     引擎在 MountAndBlade.View 的 OnSubModuleLoad 里就调 BannerManager.LoadBannerIcons()，
+		     那一刻 Game.Current 还是 null → gameType 传空串；而 GetMergedXmlForManaged 对
+		     「GameTypesIncluded 非空且不含 gameType」的段直接 continue → 写了反而整段被跳过。
+		     原版 Native 自己的 BannerIcons 段同样不写 IncludedGameTypes。
+		     数据 = ModuleData/banner_icons.xml（320 个家纹，id 840..1159，生成物）。
+		     资产 = AssetPackages/taikou_banners.tpac（taikou_cl_mon_* 共 20 张 4x4 图集）。 -->
+		<XmlNode>
+			<XmlName id="BannerIcons" path="banner_icons"/>
+		</XmlNode>
 </Xmls>
 </Module>
 
