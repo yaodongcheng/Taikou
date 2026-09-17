@@ -674,7 +674,6 @@
 		<Equipments>
 			<EquipmentRoster>
 				<equipment slot="Item0" id="Item.taikou_kenshin_weapon_a" />
-				<equipment slot="Item1" id="Item.leather_round_shield" />
 				<equipment slot="Body" id="Item.taikou_kenshin_do_a" />
 				<equipment slot="Head" id="Item.taikou_kenshin_helmet_a" />
 			</EquipmentRoster>
@@ -2213,7 +2212,6 @@
 		<Equipments>
 			<EquipmentRoster>
 				<equipment slot="Item0" id="Item.taikou_nobunaga_weapon_a" />
-				<equipment slot="Item1" id="Item.leather_round_shield" />
 				<equipment slot="Body" id="Item.taikou_nobunaga_do_a" />
 			</EquipmentRoster>
 			<EquipmentRoster civilian="true">
@@ -3942,7 +3940,6 @@
 		<Equipments>
 			<EquipmentRoster>
 				<equipment slot="Item0" id="Item.taikou_katsuie_weapon_a" />
-				<equipment slot="Item1" id="Item.leather_round_shield" />
 				<equipment slot="Body" id="Item.taikou_katsuie_do_a" />
 			</EquipmentRoster>
 			<EquipmentRoster civilian="true">
@@ -4124,7 +4121,6 @@
 		<Equipments>
 			<EquipmentRoster>
 				<equipment slot="Item0" id="Item.taikou_yoshihiro_weapon_a" />
-				<equipment slot="Item1" id="Item.leather_round_shield" />
 				<equipment slot="Body" id="Item.taikou_yoshihiro_do_a" />
 			</EquipmentRoster>
 			<EquipmentRoster civilian="true">
@@ -4638,7 +4634,6 @@
 		<Equipments>
 			<EquipmentRoster>
 				<equipment slot="Item0" id="Item.taikou_shingen_weapon_a" />
-				<equipment slot="Item1" id="Item.leather_round_shield" />
 				<equipment slot="Body" id="Item.taikou_shingen_do_a" />
 				<equipment slot="Head" id="Item.taikou_shingen_helmet_a" />
 			</EquipmentRoster>
@@ -5172,7 +5167,6 @@
 		<Equipments>
 			<EquipmentRoster>
 				<equipment slot="Item0" id="Item.taikou_ieyasu_weapon_a" />
-				<equipment slot="Item1" id="Item.leather_round_shield" />
 				<equipment slot="Body" id="Item.taikou_ieyasu_do_a" />
 				<equipment slot="Head" id="Item.taikou_ieyasu_helmet_a" />
 			</EquipmentRoster>

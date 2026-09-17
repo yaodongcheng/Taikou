@@ -3188,7 +3188,6 @@
 		<Equipments>
 			<EquipmentRoster>
 				<equipment slot="Item0" id="Item.taikou_yukimura_weapon_a" />
-				<equipment slot="Item1" id="Item.leather_round_shield" />
 				<equipment slot="Body" id="Item.taikou_yukimura_do_a" />
 			</EquipmentRoster>
 			<EquipmentRoster civilian="true">
@@ -3382,7 +3381,6 @@
 		<Equipments>
 			<EquipmentRoster>
 				<equipment slot="Item0" id="Item.taikou_sakon_weapon_a" />
-				<equipment slot="Item1" id="Item.leather_round_shield" />
 				<equipment slot="Body" id="Item.taikou_sakon_do_a" />
 			</EquipmentRoster>
 			<EquipmentRoster civilian="true">
@@ -3449,7 +3447,6 @@
 		<Equipments>
 			<EquipmentRoster>
 				<equipment slot="Item0" id="Item.taikou_yoshihiro_weapon_a" />
-				<equipment slot="Item1" id="Item.leather_round_shield" />
 				<equipment slot="Body" id="Item.taikou_yoshihiro_do_a" />
 			</EquipmentRoster>
 			<EquipmentRoster civilian="true">
@@ -3944,7 +3941,6 @@
 		<Equipments>
 			<EquipmentRoster>
 				<equipment slot="Item0" id="Item.taikou_masamune_weapon_a" />
-				<equipment slot="Item1" id="Item.leather_round_shield" />
 				<equipment slot="Body" id="Item.taikou_masamune_do_a" />
 				<equipment slot="Head" id="Item.taikou_masamune_helmet_a" />
 			</EquipmentRoster>
@@ -4357,7 +4353,6 @@
 		<Equipments>
 			<EquipmentRoster>
 				<equipment slot="Item0" id="Item.taikou_ieyasu_weapon_a" />
-				<equipment slot="Item1" id="Item.leather_round_shield" />
 				<equipment slot="Body" id="Item.taikou_ieyasu_do_a" />
 				<equipment slot="Head" id="Item.taikou_ieyasu_helmet_a" />
 			</EquipmentRoster>
@@ -4475,7 +4470,6 @@
 		<Equipments>
 			<EquipmentRoster>
 				<equipment slot="Item0" id="Item.taikou_kanetsugu_weapon_a" />
-				<equipment slot="Item1" id="Item.leather_round_shield" />
 				<equipment slot="Body" id="Item.taikou_kanetsugu_do_a" />
 				<equipment slot="Head" id="Item.taikou_kanetsugu_helmet_a" />
 			</EquipmentRoster>
@@ -5552,7 +5546,6 @@
 		<Equipments>
 			<EquipmentRoster>
 				<equipment slot="Item0" id="Item.taikou_tadakatsu_weapon_a" />
-				<equipment slot="Item1" id="Item.leather_round_shield" />
 				<equipment slot="Body" id="Item.taikou_tadakatsu_do_a" />
 				<equipment slot="Head" id="Item.taikou_tadakatsu_helmet_a" />
 			</EquipmentRoster>
@@ -6464,7 +6457,6 @@
 		<Equipments>
 			<EquipmentRoster>
 				<equipment slot="Item0" id="Item.taikou_mitsunari_weapon_a" />
-				<equipment slot="Item1" id="Item.leather_round_shield" />
 				<equipment slot="Body" id="Item.taikou_mitsunari_do_a" />
 			</EquipmentRoster>
 			<EquipmentRoster civilian="true">
