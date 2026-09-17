@@ -23,4 +23,18 @@
 	     **零交集**（Native 实际只定义 3 条 example 音效）→ 合并是纯追加，不冲突。
 	     回退方法：删掉下面这一行即可。 -->
 	<file id="soln_module_sound" name="ModuleData/module_sounds.xml" type="module_sound"/>
+	<!-- 🔴 2026-09-16 启用第四行：soln_item_holsters → ModuleData/item_holsters.xml（火器背后斜挂）。
+	     为什么必须开：item_holsters 与 skins / module_sounds 同属 project.mbproj 的 soln 体系，
+	     **不在 SubModule 的 XmlNode 体系里**——不开这行 = 那个文件完全不加载，铁炮继续用
+	     Native 的 `crossbow_back` 槽 = 枪管朝天（实机症状：枪托卡在背上沿、枪管直挺挺朝上）。
+	     引擎侧合并函数 = MBObjectManager.GetMergedXmlForNative("soln_item_holsters")
+	     （TaleWorlds.MountAndBlade.CreateProcessedItemHolstersXMLForNative，已反编译确认），
+	     把**所有模块**注册到该 soln id 的文件合并后原样交给 native。
+	     为什么不会重演 09-08 那次崩：那次是 action_sets.xml 逐字拷贝 Native → 同 soln id 合并出
+	     **重复定义** → KeyNotFoundException。本次 item_holsters.xml 只加了两个**新 id**
+	     （taikou_firearm / taikou_firearm_2），与 Native 的 id 零交集 → 合并是纯追加，不冲突。
+	     （该合并**没有** action_sets 那样的同名去重，是原样直送 native，所以新 id 是硬要求。）
+	     回退方法：删掉下面这一行即可（item_holsters.xml 留着不生效，无害；
+	     但物品侧的 item_holsters="taikou_firearm..." 会查不到槽 → 需一并回退物品那两行）。 -->
+	<file id="soln_item_holsters" name="ModuleData/item_holsters.xml" type="item_holster"/>
 </base>

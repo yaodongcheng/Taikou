@@ -1,6 +1,74 @@
-<!--Item holsters define the position of not-used weapons on agents. You can add new or override old item holster parameters by adding nodes to this xml.
-For examples please refer to: Native/ModuleData/item_holsters.xml.-->
-<item_holsters>
-	<replace_this_with_actual_nodes/>
-</item_holsters>
+<!-- 太阁火器 —— 背后挂接槽（长枪斜挎，不是弩的平挂）。
 
+     【为什么需要这个文件】
+     铁炮是「弩的换皮」（Type=Crossbow / item_usage=crossbow），默认跟着弩用 Native 的
+     `crossbow_back` 槽。而弩在背上时**弩臂朝上**（弩网格 +Z = 弩臂方向，实测：+Z 端截面
+     0.403m 宽 = 弩臂，-Z 端 0.025m = 枪托；原点在枪托端）。火枪网格 +Z 是枪口、全长 1.38m
+     ⇒ 跟着弩槽走 = 枪管顺着「弩臂朝上」的方向直冲天上（实机症状：枪托卡在背上沿、枪管朝天）。
+
+     【本槽怎么做】
+     整套照抄原版**长兵器**槽 `polearm_back` / `polearm_back_3`（holster_skeleton / base_set /
+     holster_position / holster_rotation 四样逐字相同），只换 id 和拔枪动作。
+     理由 —— **结构等价**：我方火枪网格与自家长枪 `taikou_troop_yari_weapon_a` 由同一个脚本
+     `tools/sw2-pipeline/scripts/build_weapon.py` 产出，约定逐字相同（原点 = 握持点、+Z = 尖端、
+     握把后 0.18m / 枪管前 1.20m）。**同一个挂接槽 ⇒ 同一种背法**，只是火枪短一些。
+     旁证：原版用 `polearm_back` 的物品是 `bo_staff`（100cm）与 `push_fork`（200cm）——
+     本枪 138cm 正落在这段区间内，等于「一根原版长度的长杆挂在背上」。
+
+     ⚠️ 为什么不沿用社区火器槽（织丰 `firearms` / CA_BloodSmoke `cla_firearms` 的
+     `-45,0,-90`）：实测织丰火枪网格 `sho_tanegashima_a_1` 与**本枪约定一致**（原点近握把、
+     +Z 向前、1.32m），把同一组数值套到本枪上实机仍然**枪口偏天**（用户 2026-09-17 复核），
+     该组数值对本枪不成立。改用原版长兵器槽 = 拿一个「游戏里已经跑通、且长度区间匹配」的姿势。
+
+     【两个槽】
+     引擎按物品 item_holsters 列表取**第一个空槽**；同一人带两把枪时用第二个（`_2` 那条）。
+
+     🔴 【加载方式 —— 本文件存在的唯一理由】
+     item_holsters 属 project.mbproj 的 soln 体系（`soln_item_holsters`），
+     **不在 SubModule 的 XmlNode 体系里**：光有这个文件不生效，必须同时在
+     ModuleData/project.mbproj 里挂一行。引擎侧合并函数 =
+     `MBObjectManager.GetMergedXmlForNative("soln_item_holsters")`
+     （TaleWorlds.MountAndBlade.CreateProcessedItemHolstersXMLForNative），
+     它把**所有模块**注册到该 soln id 下的文件合并后原样交给 native。
+     回退方法：删掉 mbproj 那一行即可（本文件留着不生效，无害）。
+
+     🔴 【为什么用新 id，不直接写 polearm_back】
+     直接写原版 id 会和长枪抢槽（两者同 id 时引擎怎么分配未经验证）；用独立 id =
+     两把枪永远有自己的位置，且拔枪动作能保持 `act_equip_crossbow`（照抄原版 id 的话
+     拔枪会放 `act_equip_spear` 的长枪动作，与弩 usage 不搭）。合并机制**没有**
+     action_sets 那样的同名去重（对比 CreateProcessedActionSetsXMLForNative），原样直送
+     native，所以新 id 是硬要求。
+
+     【调参入口】
+     · holster_position（三轴平移，米）/ holster_rotation_yaw_pitch_roll（偏航/俯仰/翻滚，度）
+       —— 落点是**握持点**：握把后还有 0.18m 枪托、前有 1.20m 枪管。
+     · 物品侧可再叠一层微调：<Item holster_position_shift="x,y,z">，改物品即可。
+
+     ⚠️ 注释一律留在 <base> 之外：引擎会「盲读子节点」，节点列表里夹注释 = 反序列化炸
+     （2026-09-10 雷 52 同款，clan_names 里一条注释崩过整个文化段）。 -->
+<base>
+	<item_holsters>
+		<item_holster id="taikou_firearm"
+					  equip_action="act_equip_crossbow"
+					  equip_action_left_stance="act_equip_crossbow_left_stance"
+					  unequip_action="act_unequip_crossbow"
+					  unequip_action_left_stance="act_unequip_crossbow_left_stance"
+					  show_holster_when_drawn="false"
+					  group_name="crossbow_back"
+					  holster_skeleton="holster_skeleton_back"
+					  base_set="thorax_back_near_left"
+					  holster_position="0.070, -0.180, -0.020"
+					  holster_rotation_yaw_pitch_roll="0.790, -105.810, -177.170" />
+		<item_holster id="taikou_firearm_2"
+					  equip_action="act_equip_crossbow"
+					  equip_action_left_stance="act_equip_crossbow_left_stance"
+					  unequip_action="act_unequip_crossbow"
+					  unequip_action_left_stance="act_unequip_crossbow_left_stance"
+					  show_holster_when_drawn="false"
+					  group_name="crossbow_back"
+					  holster_skeleton="holster_skeleton_back"
+					  base_set="thorax_back_near_left_2"
+					  holster_position="0.050, -0.180, -0.060"
+					  holster_rotation_yaw_pitch_roll="0.320, -105.830, -175.510" />
+	</item_holsters>
+</base>

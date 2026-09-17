@@ -298,8 +298,11 @@
 	     🔴 2026-09-16 修正：item_usage **必须用原版 `crossbow`**，不能用自定义名——
 	     `item_usage_sets.xml` 只由 **Native 模块**加载（引擎硬编码，字符串只在 TaleWorlds.Native.dll 里，
 	     托管层没有对应 XmlName，内容包注册不了）。内容包写自定义 usage 名 = 该 usage 永远不存在，
-	     掏出武器时 native 取到无效索引 → AccessViolationException（2026-09-16 实机踩实）。 -->
-	<Item id="taikou_magoichi_weapon_a" name="{=TAIKOU_magoichi_weapon_a}Saika Magoichi's Matchlock" body_name="bo_composite_crossbows" mesh="taikou_magoichi_weapon_a" culture="Culture.ikoku" weight="4.5" value="50000" difficulty="0" appearance="1.0" Type="Crossbow" item_holsters="crossbow_back">
+	     掏出武器时 native 取到无效索引 → AccessViolationException（2026-09-16 实机踩实）。
+	     🔴 2026-09-16 背后挂接：**不用弩的 `crossbow_back`**（跟弩挂 = 枪管朝天，网格 +Z 是枪口、
+	     长 1.6m），改走专用的 `taikou_firearm` 槽；🔴 2026-09-17 换值 = 整套照抄原版长兵器槽
+	     `polearm_back`。定义与来源见 `ModuleData/item_holsters.xml`。 -->
+	<Item id="taikou_magoichi_weapon_a" name="{=TAIKOU_magoichi_weapon_a}Saika Magoichi's Matchlock" body_name="bo_composite_crossbows" mesh="taikou_magoichi_weapon_a" culture="Culture.ikoku" weight="4.5" value="50000" difficulty="0" appearance="1.0" Type="Crossbow" item_holsters="taikou_firearm:taikou_firearm_2">
 		<ItemComponent>
 			<Weapon weapon_class="Crossbow" ammo_class="Cartridge" ammo_limit="1" missile_speed="600" accuracy="40" thrust_speed="93" speed_rating="88" weapon_length="159" thrust_damage="200" thrust_damage_type="Pierce" item_usage="crossbow" physics_material="wood_weapon" center_of_mass="0,0,0.4">
 				<WeaponFlags RangedWeapon="true" HasString="true" UseHandAsThrowBase="true" NotUsableWithOneHand="true" TwoHandIdleOnMount="true" BonusAgainstShield="true" />
