@@ -34665,7 +34665,7 @@
 					body_meta_mesh_upperbody="box_a"
 					legs_mesh="feet_male_a"
 					hands_mesh="hands_male_a"
-					face_meta_mesh="head_kenshin_a"
+					face_meta_mesh="head_kenshin_a_skull"
 					underwear_bottom_mesh="underwear_male"
 					underwear_top_mesh="">
 					<deform_keys>
@@ -36779,23 +36779,23 @@
 					<face_textures
 						group_id="1">
 						<face_texture
-							name="head_kenshin_a"
-							lod_material="head_kenshin_a"
+							name="head_kenshin_a_skull"
+							lod_material="head_kenshin_a_skull"
 							color="0xFFFFFFFF"
 							tags="face_texture1,face_texture2"></face_texture>
 						<face_texture
-							name="head_kenshin_a"
-							lod_material="head_kenshin_a"
+							name="head_kenshin_a_skull"
+							lod_material="head_kenshin_a_skull"
 							color="0xFFFFFFFF"
 							tags="face_texture3,face_texture4"></face_texture>
 						<face_texture
-							name="head_kenshin_a"
-							lod_material="head_kenshin_a"
+							name="head_kenshin_a_skull"
+							lod_material="head_kenshin_a_skull"
 							color="0xFFFFFFFF"
 							tags="face_texture5,face_texture6,face_texture7"></face_texture>
 						<face_texture
-							name="head_kenshin_a"
-							lod_material="head_kenshin_a"
+							name="head_kenshin_a_skull"
+							lod_material="head_kenshin_a_skull"
 							color="0xFFFFFFFF"
 							tags="face_texture8,face_texture9,face_texture10"></face_texture>
 						<!-- <face_texture name="head_male_e" lod_material="head_male_e" color="0xFFFFFFFF" tags="face_texture1,face_texture2,face_texture3">
@@ -36826,32 +36826,32 @@
 					<mouth_textures
 						group_id="4">
 						<mouth_texture
-							name="head_kenshin_a_mouth"
+							name="head_kenshin_a_skull_mouth"
 							lod_material="mouth_mat"
 							color="0xFFFFFFFF"
 							tags="mouth_texture1,mouth_texture2"></mouth_texture>
 						<mouth_texture
-							name="head_kenshin_a_mouth"
+							name="head_kenshin_a_skull_mouth"
 							lod_material="mouth_mat"
 							color="0xFFFFFFFF"
 							tags="mouth_texture3,mouth_texture4"></mouth_texture>
 						<mouth_texture
-							name="head_kenshin_a_mouth"
+							name="head_kenshin_a_skull_mouth"
 							lod_material="mouth_mat"
 							color="0xFFFFFFFF"
 							tags="mouth_texture5,mouth_texture6"></mouth_texture>
 						<mouth_texture
-							name="head_kenshin_a_mouth"
+							name="head_kenshin_a_skull_mouth"
 							lod_material="mouth_mat"
 							color="0xFFFFFFFF"
 							tags="mouth_texture7,mouth_texture8"></mouth_texture>
 						<mouth_texture
-							name="head_kenshin_a_mouth"
+							name="head_kenshin_a_skull_mouth"
 							lod_material="mouth_mat"
 							color="0xFFFFFFFF"
 							tags="mouth_texture1,mouth_texture2"></mouth_texture>
 						<mouth_texture
-							name="head_kenshin_a_mouth"
+							name="head_kenshin_a_skull_mouth"
 							lod_material="mouth_mat"
 							color="0xFFFFFFFF"
 							tags="mouth_texture7,mouth_texture8"></mouth_texture>
@@ -36891,7 +36891,7 @@
 					body_meta_mesh_upperbody="box_a"
 					legs_mesh="feet_female_a"
 					hands_mesh="hands_female_a"
-					face_meta_mesh="head_kenshin_a"
+					face_meta_mesh="head_kenshin_a_skull"
 					underwear_bottom_mesh="underwear_male_teen"
 					underwear_top_mesh="">
 					<deform_keys>
@@ -38536,23 +38536,23 @@
 					<face_textures
 						group_id="1">
 						<face_texture
-							name="head_kenshin_a"
-							lod_material="head_kenshin_a"
+							name="head_kenshin_a_skull"
+							lod_material="head_kenshin_a_skull"
 							color="0xFFFFFFFF"
 							tags="face_texture1,face_texture2"></face_texture>
 						<face_texture
-							name="head_kenshin_a"
-							lod_material="head_kenshin_a"
+							name="head_kenshin_a_skull"
+							lod_material="head_kenshin_a_skull"
 							color="0xFFFFFFFF"
 							tags="face_texture3,face_texture4"></face_texture>
 						<face_texture
-							name="head_kenshin_a"
-							lod_material="head_kenshin_a"
+							name="head_kenshin_a_skull"
+							lod_material="head_kenshin_a_skull"
 							color="0xFFFFFFFF"
 							tags="face_texture5,face_texture6,face_texture7"></face_texture>
 						<face_texture
-							name="head_kenshin_a"
-							lod_material="head_kenshin_a"
+							name="head_kenshin_a_skull"
+							lod_material="head_kenshin_a_skull"
 							color="0xFFFFFFFF"
 							tags="face_texture8,face_texture9,face_texture10"></face_texture>
 						<!-- <face_texture name="head_male_e" lod_material="head_male_e" color="0xFFFFFFFF" tags="face_texture1,face_texture2,face_texture3">
@@ -38583,27 +38583,27 @@
 					<mouth_textures
 						group_id="4">
 						<mouth_texture
-							name="head_kenshin_a_mouth"
+							name="head_kenshin_a_skull_mouth"
 							lod_material="mouth_mat"
 							color="0xFFFFFFFF"
 							tags="mouth_texture1,mouth_texture2"></mouth_texture>
 						<mouth_texture
-							name="head_kenshin_a_mouth"
+							name="head_kenshin_a_skull_mouth"
 							lod_material="mouth_mat"
 							color="0xFFFFFFFF"
 							tags="mouth_texture3,mouth_texture4"></mouth_texture>
 						<mouth_texture
-							name="head_kenshin_a_mouth"
+							name="head_kenshin_a_skull_mouth"
 							lod_material="mouth_mat"
 							color="0xFFFFFFFF"
 							tags="mouth_texture5,mouth_texture6"></mouth_texture>
 						<mouth_texture
-							name="head_kenshin_a_mouth"
+							name="head_kenshin_a_skull_mouth"
 							lod_material="mouth_mat"
 							color="0xFFFFFFFF"
 							tags="mouth_texture1,mouth_texture2"></mouth_texture>
 						<mouth_texture
-							name="head_kenshin_a_mouth"
+							name="head_kenshin_a_skull_mouth"
 							lod_material="mouth_mat"
 							color="0xFFFFFFFF"
 							tags="mouth_texture1,mouth_texture2"></mouth_texture>
@@ -38646,7 +38646,7 @@
 					body_meta_mesh_upperbody="box_a"
 					legs_mesh="feet_female_a"
 					hands_mesh="hands_female_a"
-					face_meta_mesh="head_kenshin_a"
+					face_meta_mesh="head_kenshin_a_skull"
 					underwear_bottom_mesh="underwear_male_teen"
 					underwear_top_mesh="">
 					<deform_keys>
@@ -40258,18 +40258,18 @@
 					<face_textures
 						group_id="1">
 						<face_texture
-							name="head_kenshin_a"
-							lod_material="head_kenshin_a"
+							name="head_kenshin_a_skull"
+							lod_material="head_kenshin_a_skull"
 							color="0xFFFFFFFF"
 							tags="face_texture1,face_texture2"></face_texture>
 						<face_texture
-							name="head_kenshin_a"
-							lod_material="head_kenshin_a"
+							name="head_kenshin_a_skull"
+							lod_material="head_kenshin_a_skull"
 							color="0xFFFFFFFF"
 							tags="face_texture3,face_texture4"></face_texture>
 						<face_texture
-							name="head_kenshin_a"
-							lod_material="head_kenshin_a"
+							name="head_kenshin_a_skull"
+							lod_material="head_kenshin_a_skull"
 							color="0xFFFFFFFF"
 							tags="face_texture5,face_texture6,face_texture7"></face_texture>
 						<!-- <face_texture name="head_male_e" lod_material="head_male_e" color="0xFFFFFFFF" tags="face_texture1,face_texture2,face_texture3">
@@ -40300,22 +40300,22 @@
 					<mouth_textures
 						group_id="4">
 						<mouth_texture
-							name="head_kenshin_a_mouth"
+							name="head_kenshin_a_skull_mouth"
 							lod_material="mouth_mat"
 							color="0xFFFFFFFF"
 							tags="mouth_texture1,mouth_texture2"></mouth_texture>
 						<mouth_texture
-							name="head_kenshin_a_mouth"
+							name="head_kenshin_a_skull_mouth"
 							lod_material="mouth_mat"
 							color="0xFFFFFFFF"
 							tags="mouth_texture3,mouth_texture4"></mouth_texture>
 						<mouth_texture
-							name="head_kenshin_a_mouth"
+							name="head_kenshin_a_skull_mouth"
 							lod_material="mouth_mat"
 							color="0xFFFFFFFF"
 							tags="mouth_texture5,mouth_texture6"></mouth_texture>
 						<mouth_texture
-							name="head_kenshin_a_mouth"
+							name="head_kenshin_a_skull_mouth"
 							lod_material="mouth_mat"
 							color="0xFFFFFFFF"
 							tags="mouth_texture1,mouth_texture2"></mouth_texture>
@@ -40358,7 +40358,7 @@
 					body_meta_mesh_upperbody="box_a"
 					legs_mesh="feet_female_a"
 					hands_mesh="hands_female_a"
-					face_meta_mesh="head_kenshin_a"
+					face_meta_mesh="head_kenshin_a_skull"
 					underwear_bottom_mesh="underwear_male_teen"
 					underwear_top_mesh="">
 					<deform_keys>
@@ -41950,45 +41950,45 @@
 					<face_textures
 						group_id="1">
 						<face_texture
-							name="head_kenshin_a"
-							lod_material="head_kenshin_a"
+							name="head_kenshin_a_skull"
+							lod_material="head_kenshin_a_skull"
 							color="0xFFFFFFFF"
 							tags="face_texture1,face_texture2"></face_texture>
 						<face_texture
-							name="head_kenshin_a"
-							lod_material="head_kenshin_a"
+							name="head_kenshin_a_skull"
+							lod_material="head_kenshin_a_skull"
 							color="0xFFFFFFFF"
 							tags="face_texture3,face_texture4"></face_texture>
 						<face_texture
-							name="head_kenshin_a"
-							lod_material="head_kenshin_a"
+							name="head_kenshin_a_skull"
+							lod_material="head_kenshin_a_skull"
 							color="0xFFFFFFFF"
 							tags="face_texture5,face_texture6,face_texture7"></face_texture>
 						<face_texture
-							name="head_kenshin_a"
-							lod_material="head_kenshin_a"
+							name="head_kenshin_a_skull"
+							lod_material="head_kenshin_a_skull"
 							color="0xFFFFFFFF"
 							tags="face_texture8,face_texture9,face_texture10"></face_texture>
 					</face_textures>
 					<mouth_textures
 						group_id="4">
 						<mouth_texture
-							name="head_kenshin_a_mouth"
+							name="head_kenshin_a_skull_mouth"
 							lod_material="mouth_mat"
 							color="0xFFFFFFFF"
 							tags="mouth_texture1,mouth_texture2"></mouth_texture>
 						<mouth_texture
-							name="head_kenshin_a_mouth"
+							name="head_kenshin_a_skull_mouth"
 							lod_material="mouth_mat"
 							color="0xFFFFFFFF"
 							tags="mouth_texture5,mouth_texture6"></mouth_texture>
 						<mouth_texture
-							name="head_kenshin_a_mouth"
+							name="head_kenshin_a_skull_mouth"
 							lod_material="mouth_mat"
 							color="0xFFFFFFFF"
 							tags="mouth_texture3,mouth_texture4"></mouth_texture>
 						<mouth_texture
-							name="head_kenshin_a_mouth"
+							name="head_kenshin_a_skull_mouth"
 							lod_material="mouth_mat"
 							color="0xFFFFFFFF"
 							tags="mouth_texture3,mouth_texture4"></mouth_texture>
@@ -42031,7 +42031,7 @@
 					body_meta_mesh_upperbody="box_a"
 					legs_mesh="feet_female_kid3"
 					hands_mesh="hands_female_kid3"
-					face_meta_mesh="head_kenshin_a"
+					face_meta_mesh="head_kenshin_a_skull"
 					underwear_bottom_mesh="underwear_baby"
 					underwear_top_mesh="">
 					<deform_keys>
@@ -43244,8 +43244,8 @@
 					<face_textures
 						group_id="1">
 						<face_texture
-							name="head_kenshin_a"
-							lod_material="head_kenshin_a"
+							name="head_kenshin_a_skull"
+							lod_material="head_kenshin_a_skull"
 							color="0xFFFFFFFF"
 							tags="face_texture1,face_texture2"></face_texture>
 						<!-- <face_texture name="head_male_e" lod_material="head_male_e" color="0xFFFFFFFF" tags="face_texture1,face_texture2,face_texture3">
@@ -43276,7 +43276,7 @@
 					<mouth_textures
 						group_id="4">
 						<mouth_texture
-							name="head_kenshin_a_mouth"
+							name="head_kenshin_a_skull_mouth"
 							lod_material="mouth_mat"
 							color="0xFFFFFFFF"
 							tags="mouth_texture1,mouth_texture2"></mouth_texture>
@@ -110586,7 +110586,7 @@
 					body_meta_mesh_upperbody="box_a"
 					legs_mesh="feet_male_a"
 					hands_mesh="hands_male_a"
-					face_meta_mesh="head_hideyoshi_a"
+					face_meta_mesh="head_hideyoshi_a_skull"
 					underwear_bottom_mesh="underwear_male"
 					underwear_top_mesh="">
 					<deform_keys>
@@ -112700,23 +112700,23 @@
 					<face_textures
 						group_id="1">
 						<face_texture
-							name="head_hideyoshi_a"
-							lod_material="head_hideyoshi_a"
+							name="head_hideyoshi_a_skull"
+							lod_material="head_hideyoshi_a_skull"
 							color="0xFFFFFFFF"
 							tags="face_texture1,face_texture2"></face_texture>
 						<face_texture
-							name="head_hideyoshi_a"
-							lod_material="head_hideyoshi_a"
+							name="head_hideyoshi_a_skull"
+							lod_material="head_hideyoshi_a_skull"
 							color="0xFFFFFFFF"
 							tags="face_texture3,face_texture4"></face_texture>
 						<face_texture
-							name="head_hideyoshi_a"
-							lod_material="head_hideyoshi_a"
+							name="head_hideyoshi_a_skull"
+							lod_material="head_hideyoshi_a_skull"
 							color="0xFFFFFFFF"
 							tags="face_texture5,face_texture6,face_texture7"></face_texture>
 						<face_texture
-							name="head_hideyoshi_a"
-							lod_material="head_hideyoshi_a"
+							name="head_hideyoshi_a_skull"
+							lod_material="head_hideyoshi_a_skull"
 							color="0xFFFFFFFF"
 							tags="face_texture8,face_texture9,face_texture10"></face_texture>
 						<!-- <face_texture name="head_male_e" lod_material="head_male_e" color="0xFFFFFFFF" tags="face_texture1,face_texture2,face_texture3">
@@ -112747,32 +112747,32 @@
 					<mouth_textures
 						group_id="4">
 						<mouth_texture
-							name="head_hideyoshi_a_mouth"
+							name="head_hideyoshi_a_skull_mouth"
 							lod_material="mouth_mat"
 							color="0xFFFFFFFF"
 							tags="mouth_texture1,mouth_texture2"></mouth_texture>
 						<mouth_texture
-							name="head_hideyoshi_a_mouth"
+							name="head_hideyoshi_a_skull_mouth"
 							lod_material="mouth_mat"
 							color="0xFFFFFFFF"
 							tags="mouth_texture3,mouth_texture4"></mouth_texture>
 						<mouth_texture
-							name="head_hideyoshi_a_mouth"
+							name="head_hideyoshi_a_skull_mouth"
 							lod_material="mouth_mat"
 							color="0xFFFFFFFF"
 							tags="mouth_texture5,mouth_texture6"></mouth_texture>
 						<mouth_texture
-							name="head_hideyoshi_a_mouth"
+							name="head_hideyoshi_a_skull_mouth"
 							lod_material="mouth_mat"
 							color="0xFFFFFFFF"
 							tags="mouth_texture7,mouth_texture8"></mouth_texture>
 						<mouth_texture
-							name="head_hideyoshi_a_mouth"
+							name="head_hideyoshi_a_skull_mouth"
 							lod_material="mouth_mat"
 							color="0xFFFFFFFF"
 							tags="mouth_texture1,mouth_texture2"></mouth_texture>
 						<mouth_texture
-							name="head_hideyoshi_a_mouth"
+							name="head_hideyoshi_a_skull_mouth"
 							lod_material="mouth_mat"
 							color="0xFFFFFFFF"
 							tags="mouth_texture7,mouth_texture8"></mouth_texture>
@@ -112812,7 +112812,7 @@
 					body_meta_mesh_upperbody="box_a"
 					legs_mesh="feet_female_a"
 					hands_mesh="hands_female_a"
-					face_meta_mesh="head_hideyoshi_a"
+					face_meta_mesh="head_hideyoshi_a_skull"
 					underwear_bottom_mesh="underwear_male_teen"
 					underwear_top_mesh="">
 					<deform_keys>
@@ -114457,23 +114457,23 @@
 					<face_textures
 						group_id="1">
 						<face_texture
-							name="head_hideyoshi_a"
-							lod_material="head_hideyoshi_a"
+							name="head_hideyoshi_a_skull"
+							lod_material="head_hideyoshi_a_skull"
 							color="0xFFFFFFFF"
 							tags="face_texture1,face_texture2"></face_texture>
 						<face_texture
-							name="head_hideyoshi_a"
-							lod_material="head_hideyoshi_a"
+							name="head_hideyoshi_a_skull"
+							lod_material="head_hideyoshi_a_skull"
 							color="0xFFFFFFFF"
 							tags="face_texture3,face_texture4"></face_texture>
 						<face_texture
-							name="head_hideyoshi_a"
-							lod_material="head_hideyoshi_a"
+							name="head_hideyoshi_a_skull"
+							lod_material="head_hideyoshi_a_skull"
 							color="0xFFFFFFFF"
 							tags="face_texture5,face_texture6,face_texture7"></face_texture>
 						<face_texture
-							name="head_hideyoshi_a"
-							lod_material="head_hideyoshi_a"
+							name="head_hideyoshi_a_skull"
+							lod_material="head_hideyoshi_a_skull"
 							color="0xFFFFFFFF"
 							tags="face_texture8,face_texture9,face_texture10"></face_texture>
 						<!-- <face_texture name="head_male_e" lod_material="head_male_e" color="0xFFFFFFFF" tags="face_texture1,face_texture2,face_texture3">
@@ -114504,27 +114504,27 @@
 					<mouth_textures
 						group_id="4">
 						<mouth_texture
-							name="head_hideyoshi_a_mouth"
+							name="head_hideyoshi_a_skull_mouth"
 							lod_material="mouth_mat"
 							color="0xFFFFFFFF"
 							tags="mouth_texture1,mouth_texture2"></mouth_texture>
 						<mouth_texture
-							name="head_hideyoshi_a_mouth"
+							name="head_hideyoshi_a_skull_mouth"
 							lod_material="mouth_mat"
 							color="0xFFFFFFFF"
 							tags="mouth_texture3,mouth_texture4"></mouth_texture>
 						<mouth_texture
-							name="head_hideyoshi_a_mouth"
+							name="head_hideyoshi_a_skull_mouth"
 							lod_material="mouth_mat"
 							color="0xFFFFFFFF"
 							tags="mouth_texture5,mouth_texture6"></mouth_texture>
 						<mouth_texture
-							name="head_hideyoshi_a_mouth"
+							name="head_hideyoshi_a_skull_mouth"
 							lod_material="mouth_mat"
 							color="0xFFFFFFFF"
 							tags="mouth_texture1,mouth_texture2"></mouth_texture>
 						<mouth_texture
-							name="head_hideyoshi_a_mouth"
+							name="head_hideyoshi_a_skull_mouth"
 							lod_material="mouth_mat"
 							color="0xFFFFFFFF"
 							tags="mouth_texture1,mouth_texture2"></mouth_texture>
@@ -114567,7 +114567,7 @@
 					body_meta_mesh_upperbody="box_a"
 					legs_mesh="feet_female_a"
 					hands_mesh="hands_female_a"
-					face_meta_mesh="head_hideyoshi_a"
+					face_meta_mesh="head_hideyoshi_a_skull"
 					underwear_bottom_mesh="underwear_male_teen"
 					underwear_top_mesh="">
 					<deform_keys>
@@ -116179,18 +116179,18 @@
 					<face_textures
 						group_id="1">
 						<face_texture
-							name="head_hideyoshi_a"
-							lod_material="head_hideyoshi_a"
+							name="head_hideyoshi_a_skull"
+							lod_material="head_hideyoshi_a_skull"
 							color="0xFFFFFFFF"
 							tags="face_texture1,face_texture2"></face_texture>
 						<face_texture
-							name="head_hideyoshi_a"
-							lod_material="head_hideyoshi_a"
+							name="head_hideyoshi_a_skull"
+							lod_material="head_hideyoshi_a_skull"
 							color="0xFFFFFFFF"
 							tags="face_texture3,face_texture4"></face_texture>
 						<face_texture
-							name="head_hideyoshi_a"
-							lod_material="head_hideyoshi_a"
+							name="head_hideyoshi_a_skull"
+							lod_material="head_hideyoshi_a_skull"
 							color="0xFFFFFFFF"
 							tags="face_texture5,face_texture6,face_texture7"></face_texture>
 						<!-- <face_texture name="head_male_e" lod_material="head_male_e" color="0xFFFFFFFF" tags="face_texture1,face_texture2,face_texture3">
@@ -116221,22 +116221,22 @@
 					<mouth_textures
 						group_id="4">
 						<mouth_texture
-							name="head_hideyoshi_a_mouth"
+							name="head_hideyoshi_a_skull_mouth"
 							lod_material="mouth_mat"
 							color="0xFFFFFFFF"
 							tags="mouth_texture1,mouth_texture2"></mouth_texture>
 						<mouth_texture
-							name="head_hideyoshi_a_mouth"
+							name="head_hideyoshi_a_skull_mouth"
 							lod_material="mouth_mat"
 							color="0xFFFFFFFF"
 							tags="mouth_texture3,mouth_texture4"></mouth_texture>
 						<mouth_texture
-							name="head_hideyoshi_a_mouth"
+							name="head_hideyoshi_a_skull_mouth"
 							lod_material="mouth_mat"
 							color="0xFFFFFFFF"
 							tags="mouth_texture5,mouth_texture6"></mouth_texture>
 						<mouth_texture
-							name="head_hideyoshi_a_mouth"
+							name="head_hideyoshi_a_skull_mouth"
 							lod_material="mouth_mat"
 							color="0xFFFFFFFF"
 							tags="mouth_texture1,mouth_texture2"></mouth_texture>
@@ -116279,7 +116279,7 @@
 					body_meta_mesh_upperbody="box_a"
 					legs_mesh="feet_female_a"
 					hands_mesh="hands_female_a"
-					face_meta_mesh="head_hideyoshi_a"
+					face_meta_mesh="head_hideyoshi_a_skull"
 					underwear_bottom_mesh="underwear_male_teen"
 					underwear_top_mesh="">
 					<deform_keys>
@@ -117871,45 +117871,45 @@
 					<face_textures
 						group_id="1">
 						<face_texture
-							name="head_hideyoshi_a"
-							lod_material="head_hideyoshi_a"
+							name="head_hideyoshi_a_skull"
+							lod_material="head_hideyoshi_a_skull"
 							color="0xFFFFFFFF"
 							tags="face_texture1,face_texture2"></face_texture>
 						<face_texture
-							name="head_hideyoshi_a"
-							lod_material="head_hideyoshi_a"
+							name="head_hideyoshi_a_skull"
+							lod_material="head_hideyoshi_a_skull"
 							color="0xFFFFFFFF"
 							tags="face_texture3,face_texture4"></face_texture>
 						<face_texture
-							name="head_hideyoshi_a"
-							lod_material="head_hideyoshi_a"
+							name="head_hideyoshi_a_skull"
+							lod_material="head_hideyoshi_a_skull"
 							color="0xFFFFFFFF"
 							tags="face_texture5,face_texture6,face_texture7"></face_texture>
 						<face_texture
-							name="head_hideyoshi_a"
-							lod_material="head_hideyoshi_a"
+							name="head_hideyoshi_a_skull"
+							lod_material="head_hideyoshi_a_skull"
 							color="0xFFFFFFFF"
 							tags="face_texture8,face_texture9,face_texture10"></face_texture>
 					</face_textures>
 					<mouth_textures
 						group_id="4">
 						<mouth_texture
-							name="head_hideyoshi_a_mouth"
+							name="head_hideyoshi_a_skull_mouth"
 							lod_material="mouth_mat"
 							color="0xFFFFFFFF"
 							tags="mouth_texture1,mouth_texture2"></mouth_texture>
 						<mouth_texture
-							name="head_hideyoshi_a_mouth"
+							name="head_hideyoshi_a_skull_mouth"
 							lod_material="mouth_mat"
 							color="0xFFFFFFFF"
 							tags="mouth_texture5,mouth_texture6"></mouth_texture>
 						<mouth_texture
-							name="head_hideyoshi_a_mouth"
+							name="head_hideyoshi_a_skull_mouth"
 							lod_material="mouth_mat"
 							color="0xFFFFFFFF"
 							tags="mouth_texture3,mouth_texture4"></mouth_texture>
 						<mouth_texture
-							name="head_hideyoshi_a_mouth"
+							name="head_hideyoshi_a_skull_mouth"
 							lod_material="mouth_mat"
 							color="0xFFFFFFFF"
 							tags="mouth_texture3,mouth_texture4"></mouth_texture>
@@ -117952,7 +117952,7 @@
 					body_meta_mesh_upperbody="box_a"
 					legs_mesh="feet_female_kid3"
 					hands_mesh="hands_female_kid3"
-					face_meta_mesh="head_hideyoshi_a"
+					face_meta_mesh="head_hideyoshi_a_skull"
 					underwear_bottom_mesh="underwear_baby"
 					underwear_top_mesh="">
 					<deform_keys>
@@ -119165,8 +119165,8 @@
 					<face_textures
 						group_id="1">
 						<face_texture
-							name="head_hideyoshi_a"
-							lod_material="head_hideyoshi_a"
+							name="head_hideyoshi_a_skull"
+							lod_material="head_hideyoshi_a_skull"
 							color="0xFFFFFFFF"
 							tags="face_texture1,face_texture2"></face_texture>
 						<!-- <face_texture name="head_male_e" lod_material="head_male_e" color="0xFFFFFFFF" tags="face_texture1,face_texture2,face_texture3">
@@ -119197,7 +119197,7 @@
 					<mouth_textures
 						group_id="4">
 						<mouth_texture
-							name="head_hideyoshi_a_mouth"
+							name="head_hideyoshi_a_skull_mouth"
 							lod_material="mouth_mat"
 							color="0xFFFFFFFF"
 							tags="mouth_texture1,mouth_texture2"></mouth_texture>
@@ -119247,7 +119247,7 @@
 					body_meta_mesh_upperbody="box_a"
 					legs_mesh="feet_male_a"
 					hands_mesh="hands_male_a"
-					face_meta_mesh="head_tadakatsu_a"
+					face_meta_mesh="head_tadakatsu_a_skull"
 					underwear_bottom_mesh="underwear_male"
 					underwear_top_mesh="">
 					<deform_keys>
@@ -121361,23 +121361,23 @@
 					<face_textures
 						group_id="1">
 						<face_texture
-							name="head_tadakatsu_a"
-							lod_material="head_tadakatsu_a"
+							name="head_tadakatsu_a_skull"
+							lod_material="head_tadakatsu_a_skull"
 							color="0xFFFFFFFF"
 							tags="face_texture1,face_texture2"></face_texture>
 						<face_texture
-							name="head_tadakatsu_a"
-							lod_material="head_tadakatsu_a"
+							name="head_tadakatsu_a_skull"
+							lod_material="head_tadakatsu_a_skull"
 							color="0xFFFFFFFF"
 							tags="face_texture3,face_texture4"></face_texture>
 						<face_texture
-							name="head_tadakatsu_a"
-							lod_material="head_tadakatsu_a"
+							name="head_tadakatsu_a_skull"
+							lod_material="head_tadakatsu_a_skull"
 							color="0xFFFFFFFF"
 							tags="face_texture5,face_texture6,face_texture7"></face_texture>
 						<face_texture
-							name="head_tadakatsu_a"
-							lod_material="head_tadakatsu_a"
+							name="head_tadakatsu_a_skull"
+							lod_material="head_tadakatsu_a_skull"
 							color="0xFFFFFFFF"
 							tags="face_texture8,face_texture9,face_texture10"></face_texture>
 						<!-- <face_texture name="head_male_e" lod_material="head_male_e" color="0xFFFFFFFF" tags="face_texture1,face_texture2,face_texture3">
@@ -121408,32 +121408,32 @@
 					<mouth_textures
 						group_id="4">
 						<mouth_texture
-							name="head_tadakatsu_a_mouth"
+							name="head_tadakatsu_a_skull_mouth"
 							lod_material="mouth_mat"
 							color="0xFFFFFFFF"
 							tags="mouth_texture1,mouth_texture2"></mouth_texture>
 						<mouth_texture
-							name="head_tadakatsu_a_mouth"
+							name="head_tadakatsu_a_skull_mouth"
 							lod_material="mouth_mat"
 							color="0xFFFFFFFF"
 							tags="mouth_texture3,mouth_texture4"></mouth_texture>
 						<mouth_texture
-							name="head_tadakatsu_a_mouth"
+							name="head_tadakatsu_a_skull_mouth"
 							lod_material="mouth_mat"
 							color="0xFFFFFFFF"
 							tags="mouth_texture5,mouth_texture6"></mouth_texture>
 						<mouth_texture
-							name="head_tadakatsu_a_mouth"
+							name="head_tadakatsu_a_skull_mouth"
 							lod_material="mouth_mat"
 							color="0xFFFFFFFF"
 							tags="mouth_texture7,mouth_texture8"></mouth_texture>
 						<mouth_texture
-							name="head_tadakatsu_a_mouth"
+							name="head_tadakatsu_a_skull_mouth"
 							lod_material="mouth_mat"
 							color="0xFFFFFFFF"
 							tags="mouth_texture1,mouth_texture2"></mouth_texture>
 						<mouth_texture
-							name="head_tadakatsu_a_mouth"
+							name="head_tadakatsu_a_skull_mouth"
 							lod_material="mouth_mat"
 							color="0xFFFFFFFF"
 							tags="mouth_texture7,mouth_texture8"></mouth_texture>
@@ -121473,7 +121473,7 @@
 					body_meta_mesh_upperbody="box_a"
 					legs_mesh="feet_female_a"
 					hands_mesh="hands_female_a"
-					face_meta_mesh="head_tadakatsu_a"
+					face_meta_mesh="head_tadakatsu_a_skull"
 					underwear_bottom_mesh="underwear_male_teen"
 					underwear_top_mesh="">
 					<deform_keys>
@@ -123118,23 +123118,23 @@
 					<face_textures
 						group_id="1">
 						<face_texture
-							name="head_tadakatsu_a"
-							lod_material="head_tadakatsu_a"
+							name="head_tadakatsu_a_skull"
+							lod_material="head_tadakatsu_a_skull"
 							color="0xFFFFFFFF"
 							tags="face_texture1,face_texture2"></face_texture>
 						<face_texture
-							name="head_tadakatsu_a"
-							lod_material="head_tadakatsu_a"
+							name="head_tadakatsu_a_skull"
+							lod_material="head_tadakatsu_a_skull"
 							color="0xFFFFFFFF"
 							tags="face_texture3,face_texture4"></face_texture>
 						<face_texture
-							name="head_tadakatsu_a"
-							lod_material="head_tadakatsu_a"
+							name="head_tadakatsu_a_skull"
+							lod_material="head_tadakatsu_a_skull"
 							color="0xFFFFFFFF"
 							tags="face_texture5,face_texture6,face_texture7"></face_texture>
 						<face_texture
-							name="head_tadakatsu_a"
-							lod_material="head_tadakatsu_a"
+							name="head_tadakatsu_a_skull"
+							lod_material="head_tadakatsu_a_skull"
 							color="0xFFFFFFFF"
 							tags="face_texture8,face_texture9,face_texture10"></face_texture>
 						<!-- <face_texture name="head_male_e" lod_material="head_male_e" color="0xFFFFFFFF" tags="face_texture1,face_texture2,face_texture3">
@@ -123165,27 +123165,27 @@
 					<mouth_textures
 						group_id="4">
 						<mouth_texture
-							name="head_tadakatsu_a_mouth"
+							name="head_tadakatsu_a_skull_mouth"
 							lod_material="mouth_mat"
 							color="0xFFFFFFFF"
 							tags="mouth_texture1,mouth_texture2"></mouth_texture>
 						<mouth_texture
-							name="head_tadakatsu_a_mouth"
+							name="head_tadakatsu_a_skull_mouth"
 							lod_material="mouth_mat"
 							color="0xFFFFFFFF"
 							tags="mouth_texture3,mouth_texture4"></mouth_texture>
 						<mouth_texture
-							name="head_tadakatsu_a_mouth"
+							name="head_tadakatsu_a_skull_mouth"
 							lod_material="mouth_mat"
 							color="0xFFFFFFFF"
 							tags="mouth_texture5,mouth_texture6"></mouth_texture>
 						<mouth_texture
-							name="head_tadakatsu_a_mouth"
+							name="head_tadakatsu_a_skull_mouth"
 							lod_material="mouth_mat"
 							color="0xFFFFFFFF"
 							tags="mouth_texture1,mouth_texture2"></mouth_texture>
 						<mouth_texture
-							name="head_tadakatsu_a_mouth"
+							name="head_tadakatsu_a_skull_mouth"
 							lod_material="mouth_mat"
 							color="0xFFFFFFFF"
 							tags="mouth_texture1,mouth_texture2"></mouth_texture>
@@ -123228,7 +123228,7 @@
 					body_meta_mesh_upperbody="box_a"
 					legs_mesh="feet_female_a"
 					hands_mesh="hands_female_a"
-					face_meta_mesh="head_tadakatsu_a"
+					face_meta_mesh="head_tadakatsu_a_skull"
 					underwear_bottom_mesh="underwear_male_teen"
 					underwear_top_mesh="">
 					<deform_keys>
@@ -124840,18 +124840,18 @@
 					<face_textures
 						group_id="1">
 						<face_texture
-							name="head_tadakatsu_a"
-							lod_material="head_tadakatsu_a"
+							name="head_tadakatsu_a_skull"
+							lod_material="head_tadakatsu_a_skull"
 							color="0xFFFFFFFF"
 							tags="face_texture1,face_texture2"></face_texture>
 						<face_texture
-							name="head_tadakatsu_a"
-							lod_material="head_tadakatsu_a"
+							name="head_tadakatsu_a_skull"
+							lod_material="head_tadakatsu_a_skull"
 							color="0xFFFFFFFF"
 							tags="face_texture3,face_texture4"></face_texture>
 						<face_texture
-							name="head_tadakatsu_a"
-							lod_material="head_tadakatsu_a"
+							name="head_tadakatsu_a_skull"
+							lod_material="head_tadakatsu_a_skull"
 							color="0xFFFFFFFF"
 							tags="face_texture5,face_texture6,face_texture7"></face_texture>
 						<!-- <face_texture name="head_male_e" lod_material="head_male_e" color="0xFFFFFFFF" tags="face_texture1,face_texture2,face_texture3">
@@ -124882,22 +124882,22 @@
 					<mouth_textures
 						group_id="4">
 						<mouth_texture
-							name="head_tadakatsu_a_mouth"
+							name="head_tadakatsu_a_skull_mouth"
 							lod_material="mouth_mat"
 							color="0xFFFFFFFF"
 							tags="mouth_texture1,mouth_texture2"></mouth_texture>
 						<mouth_texture
-							name="head_tadakatsu_a_mouth"
+							name="head_tadakatsu_a_skull_mouth"
 							lod_material="mouth_mat"
 							color="0xFFFFFFFF"
 							tags="mouth_texture3,mouth_texture4"></mouth_texture>
 						<mouth_texture
-							name="head_tadakatsu_a_mouth"
+							name="head_tadakatsu_a_skull_mouth"
 							lod_material="mouth_mat"
 							color="0xFFFFFFFF"
 							tags="mouth_texture5,mouth_texture6"></mouth_texture>
 						<mouth_texture
-							name="head_tadakatsu_a_mouth"
+							name="head_tadakatsu_a_skull_mouth"
 							lod_material="mouth_mat"
 							color="0xFFFFFFFF"
 							tags="mouth_texture1,mouth_texture2"></mouth_texture>
@@ -124940,7 +124940,7 @@
 					body_meta_mesh_upperbody="box_a"
 					legs_mesh="feet_female_a"
 					hands_mesh="hands_female_a"
-					face_meta_mesh="head_tadakatsu_a"
+					face_meta_mesh="head_tadakatsu_a_skull"
 					underwear_bottom_mesh="underwear_male_teen"
 					underwear_top_mesh="">
 					<deform_keys>
@@ -126532,45 +126532,45 @@
 					<face_textures
 						group_id="1">
 						<face_texture
-							name="head_tadakatsu_a"
-							lod_material="head_tadakatsu_a"
+							name="head_tadakatsu_a_skull"
+							lod_material="head_tadakatsu_a_skull"
 							color="0xFFFFFFFF"
 							tags="face_texture1,face_texture2"></face_texture>
 						<face_texture
-							name="head_tadakatsu_a"
-							lod_material="head_tadakatsu_a"
+							name="head_tadakatsu_a_skull"
+							lod_material="head_tadakatsu_a_skull"
 							color="0xFFFFFFFF"
 							tags="face_texture3,face_texture4"></face_texture>
 						<face_texture
-							name="head_tadakatsu_a"
-							lod_material="head_tadakatsu_a"
+							name="head_tadakatsu_a_skull"
+							lod_material="head_tadakatsu_a_skull"
 							color="0xFFFFFFFF"
 							tags="face_texture5,face_texture6,face_texture7"></face_texture>
 						<face_texture
-							name="head_tadakatsu_a"
-							lod_material="head_tadakatsu_a"
+							name="head_tadakatsu_a_skull"
+							lod_material="head_tadakatsu_a_skull"
 							color="0xFFFFFFFF"
 							tags="face_texture8,face_texture9,face_texture10"></face_texture>
 					</face_textures>
 					<mouth_textures
 						group_id="4">
 						<mouth_texture
-							name="head_tadakatsu_a_mouth"
+							name="head_tadakatsu_a_skull_mouth"
 							lod_material="mouth_mat"
 							color="0xFFFFFFFF"
 							tags="mouth_texture1,mouth_texture2"></mouth_texture>
 						<mouth_texture
-							name="head_tadakatsu_a_mouth"
+							name="head_tadakatsu_a_skull_mouth"
 							lod_material="mouth_mat"
 							color="0xFFFFFFFF"
 							tags="mouth_texture5,mouth_texture6"></mouth_texture>
 						<mouth_texture
-							name="head_tadakatsu_a_mouth"
+							name="head_tadakatsu_a_skull_mouth"
 							lod_material="mouth_mat"
 							color="0xFFFFFFFF"
 							tags="mouth_texture3,mouth_texture4"></mouth_texture>
 						<mouth_texture
-							name="head_tadakatsu_a_mouth"
+							name="head_tadakatsu_a_skull_mouth"
 							lod_material="mouth_mat"
 							color="0xFFFFFFFF"
 							tags="mouth_texture3,mouth_texture4"></mouth_texture>
@@ -126613,7 +126613,7 @@
 					body_meta_mesh_upperbody="box_a"
 					legs_mesh="feet_female_kid3"
 					hands_mesh="hands_female_kid3"
-					face_meta_mesh="head_tadakatsu_a"
+					face_meta_mesh="head_tadakatsu_a_skull"
 					underwear_bottom_mesh="underwear_baby"
 					underwear_top_mesh="">
 					<deform_keys>
@@ -127826,8 +127826,8 @@
 					<face_textures
 						group_id="1">
 						<face_texture
-							name="head_tadakatsu_a"
-							lod_material="head_tadakatsu_a"
+							name="head_tadakatsu_a_skull"
+							lod_material="head_tadakatsu_a_skull"
 							color="0xFFFFFFFF"
 							tags="face_texture1,face_texture2"></face_texture>
 						<!-- <face_texture name="head_male_e" lod_material="head_male_e" color="0xFFFFFFFF" tags="face_texture1,face_texture2,face_texture3">
@@ -127858,7 +127858,7 @@
 					<mouth_textures
 						group_id="4">
 						<mouth_texture
-							name="head_tadakatsu_a_mouth"
+							name="head_tadakatsu_a_skull_mouth"
 							lod_material="mouth_mat"
 							color="0xFFFFFFFF"
 							tags="mouth_texture1,mouth_texture2"></mouth_texture>
@@ -135893,7 +135893,7 @@
 					body_meta_mesh_upperbody="box_a"
 					legs_mesh="feet_male_a"
 					hands_mesh="hands_male_a"
-					face_meta_mesh="head_ieyasu_a"
+					face_meta_mesh="head_ieyasu_a_skull"
 					underwear_bottom_mesh="underwear_male"
 					underwear_top_mesh="">
 					<deform_keys>
@@ -138007,23 +138007,23 @@
 					<face_textures
 						group_id="1">
 						<face_texture
-							name="head_ieyasu_a"
-							lod_material="head_ieyasu_a"
+							name="head_ieyasu_a_skull"
+							lod_material="head_ieyasu_a_skull"
 							color="0xFFFFFFFF"
 							tags="face_texture1,face_texture2"></face_texture>
 						<face_texture
-							name="head_ieyasu_a"
-							lod_material="head_ieyasu_a"
+							name="head_ieyasu_a_skull"
+							lod_material="head_ieyasu_a_skull"
 							color="0xFFFFFFFF"
 							tags="face_texture3,face_texture4"></face_texture>
 						<face_texture
-							name="head_ieyasu_a"
-							lod_material="head_ieyasu_a"
+							name="head_ieyasu_a_skull"
+							lod_material="head_ieyasu_a_skull"
 							color="0xFFFFFFFF"
 							tags="face_texture5,face_texture6,face_texture7"></face_texture>
 						<face_texture
-							name="head_ieyasu_a"
-							lod_material="head_ieyasu_a"
+							name="head_ieyasu_a_skull"
+							lod_material="head_ieyasu_a_skull"
 							color="0xFFFFFFFF"
 							tags="face_texture8,face_texture9,face_texture10"></face_texture>
 						<!-- <face_texture name="head_male_e" lod_material="head_male_e" color="0xFFFFFFFF" tags="face_texture1,face_texture2,face_texture3">
@@ -138054,32 +138054,32 @@
 					<mouth_textures
 						group_id="4">
 						<mouth_texture
-							name="head_ieyasu_a_mouth"
+							name="head_ieyasu_a_skull_mouth"
 							lod_material="mouth_mat"
 							color="0xFFFFFFFF"
 							tags="mouth_texture1,mouth_texture2"></mouth_texture>
 						<mouth_texture
-							name="head_ieyasu_a_mouth"
+							name="head_ieyasu_a_skull_mouth"
 							lod_material="mouth_mat"
 							color="0xFFFFFFFF"
 							tags="mouth_texture3,mouth_texture4"></mouth_texture>
 						<mouth_texture
-							name="head_ieyasu_a_mouth"
+							name="head_ieyasu_a_skull_mouth"
 							lod_material="mouth_mat"
 							color="0xFFFFFFFF"
 							tags="mouth_texture5,mouth_texture6"></mouth_texture>
 						<mouth_texture
-							name="head_ieyasu_a_mouth"
+							name="head_ieyasu_a_skull_mouth"
 							lod_material="mouth_mat"
 							color="0xFFFFFFFF"
 							tags="mouth_texture7,mouth_texture8"></mouth_texture>
 						<mouth_texture
-							name="head_ieyasu_a_mouth"
+							name="head_ieyasu_a_skull_mouth"
 							lod_material="mouth_mat"
 							color="0xFFFFFFFF"
 							tags="mouth_texture1,mouth_texture2"></mouth_texture>
 						<mouth_texture
-							name="head_ieyasu_a_mouth"
+							name="head_ieyasu_a_skull_mouth"
 							lod_material="mouth_mat"
 							color="0xFFFFFFFF"
 							tags="mouth_texture7,mouth_texture8"></mouth_texture>
@@ -138119,7 +138119,7 @@
 					body_meta_mesh_upperbody="box_a"
 					legs_mesh="feet_female_a"
 					hands_mesh="hands_female_a"
-					face_meta_mesh="head_ieyasu_a"
+					face_meta_mesh="head_ieyasu_a_skull"
 					underwear_bottom_mesh="underwear_male_teen"
 					underwear_top_mesh="">
 					<deform_keys>
@@ -139764,23 +139764,23 @@
 					<face_textures
 						group_id="1">
 						<face_texture
-							name="head_ieyasu_a"
-							lod_material="head_ieyasu_a"
+							name="head_ieyasu_a_skull"
+							lod_material="head_ieyasu_a_skull"
 							color="0xFFFFFFFF"
 							tags="face_texture1,face_texture2"></face_texture>
 						<face_texture
-							name="head_ieyasu_a"
-							lod_material="head_ieyasu_a"
+							name="head_ieyasu_a_skull"
+							lod_material="head_ieyasu_a_skull"
 							color="0xFFFFFFFF"
 							tags="face_texture3,face_texture4"></face_texture>
 						<face_texture
-							name="head_ieyasu_a"
-							lod_material="head_ieyasu_a"
+							name="head_ieyasu_a_skull"
+							lod_material="head_ieyasu_a_skull"
 							color="0xFFFFFFFF"
 							tags="face_texture5,face_texture6,face_texture7"></face_texture>
 						<face_texture
-							name="head_ieyasu_a"
-							lod_material="head_ieyasu_a"
+							name="head_ieyasu_a_skull"
+							lod_material="head_ieyasu_a_skull"
 							color="0xFFFFFFFF"
 							tags="face_texture8,face_texture9,face_texture10"></face_texture>
 						<!-- <face_texture name="head_male_e" lod_material="head_male_e" color="0xFFFFFFFF" tags="face_texture1,face_texture2,face_texture3">
@@ -139811,27 +139811,27 @@
 					<mouth_textures
 						group_id="4">
 						<mouth_texture
-							name="head_ieyasu_a_mouth"
+							name="head_ieyasu_a_skull_mouth"
 							lod_material="mouth_mat"
 							color="0xFFFFFFFF"
 							tags="mouth_texture1,mouth_texture2"></mouth_texture>
 						<mouth_texture
-							name="head_ieyasu_a_mouth"
+							name="head_ieyasu_a_skull_mouth"
 							lod_material="mouth_mat"
 							color="0xFFFFFFFF"
 							tags="mouth_texture3,mouth_texture4"></mouth_texture>
 						<mouth_texture
-							name="head_ieyasu_a_mouth"
+							name="head_ieyasu_a_skull_mouth"
 							lod_material="mouth_mat"
 							color="0xFFFFFFFF"
 							tags="mouth_texture5,mouth_texture6"></mouth_texture>
 						<mouth_texture
-							name="head_ieyasu_a_mouth"
+							name="head_ieyasu_a_skull_mouth"
 							lod_material="mouth_mat"
 							color="0xFFFFFFFF"
 							tags="mouth_texture1,mouth_texture2"></mouth_texture>
 						<mouth_texture
-							name="head_ieyasu_a_mouth"
+							name="head_ieyasu_a_skull_mouth"
 							lod_material="mouth_mat"
 							color="0xFFFFFFFF"
 							tags="mouth_texture1,mouth_texture2"></mouth_texture>
@@ -139874,7 +139874,7 @@
 					body_meta_mesh_upperbody="box_a"
 					legs_mesh="feet_female_a"
 					hands_mesh="hands_female_a"
-					face_meta_mesh="head_ieyasu_a"
+					face_meta_mesh="head_ieyasu_a_skull"
 					underwear_bottom_mesh="underwear_male_teen"
 					underwear_top_mesh="">
 					<deform_keys>
@@ -141486,18 +141486,18 @@
 					<face_textures
 						group_id="1">
 						<face_texture
-							name="head_ieyasu_a"
-							lod_material="head_ieyasu_a"
+							name="head_ieyasu_a_skull"
+							lod_material="head_ieyasu_a_skull"
 							color="0xFFFFFFFF"
 							tags="face_texture1,face_texture2"></face_texture>
 						<face_texture
-							name="head_ieyasu_a"
-							lod_material="head_ieyasu_a"
+							name="head_ieyasu_a_skull"
+							lod_material="head_ieyasu_a_skull"
 							color="0xFFFFFFFF"
 							tags="face_texture3,face_texture4"></face_texture>
 						<face_texture
-							name="head_ieyasu_a"
-							lod_material="head_ieyasu_a"
+							name="head_ieyasu_a_skull"
+							lod_material="head_ieyasu_a_skull"
 							color="0xFFFFFFFF"
 							tags="face_texture5,face_texture6,face_texture7"></face_texture>
 						<!-- <face_texture name="head_male_e" lod_material="head_male_e" color="0xFFFFFFFF" tags="face_texture1,face_texture2,face_texture3">
@@ -141528,22 +141528,22 @@
 					<mouth_textures
 						group_id="4">
 						<mouth_texture
-							name="head_ieyasu_a_mouth"
+							name="head_ieyasu_a_skull_mouth"
 							lod_material="mouth_mat"
 							color="0xFFFFFFFF"
 							tags="mouth_texture1,mouth_texture2"></mouth_texture>
 						<mouth_texture
-							name="head_ieyasu_a_mouth"
+							name="head_ieyasu_a_skull_mouth"
 							lod_material="mouth_mat"
 							color="0xFFFFFFFF"
 							tags="mouth_texture3,mouth_texture4"></mouth_texture>
 						<mouth_texture
-							name="head_ieyasu_a_mouth"
+							name="head_ieyasu_a_skull_mouth"
 							lod_material="mouth_mat"
 							color="0xFFFFFFFF"
 							tags="mouth_texture5,mouth_texture6"></mouth_texture>
 						<mouth_texture
-							name="head_ieyasu_a_mouth"
+							name="head_ieyasu_a_skull_mouth"
 							lod_material="mouth_mat"
 							color="0xFFFFFFFF"
 							tags="mouth_texture1,mouth_texture2"></mouth_texture>
@@ -141586,7 +141586,7 @@
 					body_meta_mesh_upperbody="box_a"
 					legs_mesh="feet_female_a"
 					hands_mesh="hands_female_a"
-					face_meta_mesh="head_ieyasu_a"
+					face_meta_mesh="head_ieyasu_a_skull"
 					underwear_bottom_mesh="underwear_male_teen"
 					underwear_top_mesh="">
 					<deform_keys>
@@ -143178,45 +143178,45 @@
 					<face_textures
 						group_id="1">
 						<face_texture
-							name="head_ieyasu_a"
-							lod_material="head_ieyasu_a"
+							name="head_ieyasu_a_skull"
+							lod_material="head_ieyasu_a_skull"
 							color="0xFFFFFFFF"
 							tags="face_texture1,face_texture2"></face_texture>
 						<face_texture
-							name="head_ieyasu_a"
-							lod_material="head_ieyasu_a"
+							name="head_ieyasu_a_skull"
+							lod_material="head_ieyasu_a_skull"
 							color="0xFFFFFFFF"
 							tags="face_texture3,face_texture4"></face_texture>
 						<face_texture
-							name="head_ieyasu_a"
-							lod_material="head_ieyasu_a"
+							name="head_ieyasu_a_skull"
+							lod_material="head_ieyasu_a_skull"
 							color="0xFFFFFFFF"
 							tags="face_texture5,face_texture6,face_texture7"></face_texture>
 						<face_texture
-							name="head_ieyasu_a"
-							lod_material="head_ieyasu_a"
+							name="head_ieyasu_a_skull"
+							lod_material="head_ieyasu_a_skull"
 							color="0xFFFFFFFF"
 							tags="face_texture8,face_texture9,face_texture10"></face_texture>
 					</face_textures>
 					<mouth_textures
 						group_id="4">
 						<mouth_texture
-							name="head_ieyasu_a_mouth"
+							name="head_ieyasu_a_skull_mouth"
 							lod_material="mouth_mat"
 							color="0xFFFFFFFF"
 							tags="mouth_texture1,mouth_texture2"></mouth_texture>
 						<mouth_texture
-							name="head_ieyasu_a_mouth"
+							name="head_ieyasu_a_skull_mouth"
 							lod_material="mouth_mat"
 							color="0xFFFFFFFF"
 							tags="mouth_texture5,mouth_texture6"></mouth_texture>
 						<mouth_texture
-							name="head_ieyasu_a_mouth"
+							name="head_ieyasu_a_skull_mouth"
 							lod_material="mouth_mat"
 							color="0xFFFFFFFF"
 							tags="mouth_texture3,mouth_texture4"></mouth_texture>
 						<mouth_texture
-							name="head_ieyasu_a_mouth"
+							name="head_ieyasu_a_skull_mouth"
 							lod_material="mouth_mat"
 							color="0xFFFFFFFF"
 							tags="mouth_texture3,mouth_texture4"></mouth_texture>
@@ -143259,7 +143259,7 @@
 					body_meta_mesh_upperbody="box_a"
 					legs_mesh="feet_female_kid3"
 					hands_mesh="hands_female_kid3"
-					face_meta_mesh="head_ieyasu_a"
+					face_meta_mesh="head_ieyasu_a_skull"
 					underwear_bottom_mesh="underwear_baby"
 					underwear_top_mesh="">
 					<deform_keys>
@@ -144472,8 +144472,8 @@
 					<face_textures
 						group_id="1">
 						<face_texture
-							name="head_ieyasu_a"
-							lod_material="head_ieyasu_a"
+							name="head_ieyasu_a_skull"
+							lod_material="head_ieyasu_a_skull"
 							color="0xFFFFFFFF"
 							tags="face_texture1,face_texture2"></face_texture>
 						<!-- <face_texture name="head_male_e" lod_material="head_male_e" color="0xFFFFFFFF" tags="face_texture1,face_texture2,face_texture3">
@@ -144504,7 +144504,7 @@
 					<mouth_textures
 						group_id="4">
 						<mouth_texture
-							name="head_ieyasu_a_mouth"
+							name="head_ieyasu_a_skull_mouth"
 							lod_material="mouth_mat"
 							color="0xFFFFFFFF"
 							tags="mouth_texture1,mouth_texture2"></mouth_texture>
@@ -153215,7 +153215,7 @@
 					body_meta_mesh_upperbody="box_a"
 					legs_mesh="feet_male_a"
 					hands_mesh="hands_male_a"
-					face_meta_mesh="head_nagamasa_a"
+					face_meta_mesh="head_nagamasa_a_skull"
 					underwear_bottom_mesh="underwear_male"
 					underwear_top_mesh="">
 					<deform_keys>
@@ -155329,23 +155329,23 @@
 					<face_textures
 						group_id="1">
 						<face_texture
-							name="head_nagamasa_a"
-							lod_material="head_nagamasa_a"
+							name="head_nagamasa_a_skull"
+							lod_material="head_nagamasa_a_skull"
 							color="0xFFFFFFFF"
 							tags="face_texture1,face_texture2"></face_texture>
 						<face_texture
-							name="head_nagamasa_a"
-							lod_material="head_nagamasa_a"
+							name="head_nagamasa_a_skull"
+							lod_material="head_nagamasa_a_skull"
 							color="0xFFFFFFFF"
 							tags="face_texture3,face_texture4"></face_texture>
 						<face_texture
-							name="head_nagamasa_a"
-							lod_material="head_nagamasa_a"
+							name="head_nagamasa_a_skull"
+							lod_material="head_nagamasa_a_skull"
 							color="0xFFFFFFFF"
 							tags="face_texture5,face_texture6,face_texture7"></face_texture>
 						<face_texture
-							name="head_nagamasa_a"
-							lod_material="head_nagamasa_a"
+							name="head_nagamasa_a_skull"
+							lod_material="head_nagamasa_a_skull"
 							color="0xFFFFFFFF"
 							tags="face_texture8,face_texture9,face_texture10"></face_texture>
 						<!-- <face_texture name="head_male_e" lod_material="head_male_e" color="0xFFFFFFFF" tags="face_texture1,face_texture2,face_texture3">
@@ -155376,32 +155376,32 @@
 					<mouth_textures
 						group_id="4">
 						<mouth_texture
-							name="head_nagamasa_a_mouth"
+							name="head_nagamasa_a_skull_mouth"
 							lod_material="mouth_mat"
 							color="0xFFFFFFFF"
 							tags="mouth_texture1,mouth_texture2"></mouth_texture>
 						<mouth_texture
-							name="head_nagamasa_a_mouth"
+							name="head_nagamasa_a_skull_mouth"
 							lod_material="mouth_mat"
 							color="0xFFFFFFFF"
 							tags="mouth_texture3,mouth_texture4"></mouth_texture>
 						<mouth_texture
-							name="head_nagamasa_a_mouth"
+							name="head_nagamasa_a_skull_mouth"
 							lod_material="mouth_mat"
 							color="0xFFFFFFFF"
 							tags="mouth_texture5,mouth_texture6"></mouth_texture>
 						<mouth_texture
-							name="head_nagamasa_a_mouth"
+							name="head_nagamasa_a_skull_mouth"
 							lod_material="mouth_mat"
 							color="0xFFFFFFFF"
 							tags="mouth_texture7,mouth_texture8"></mouth_texture>
 						<mouth_texture
-							name="head_nagamasa_a_mouth"
+							name="head_nagamasa_a_skull_mouth"
 							lod_material="mouth_mat"
 							color="0xFFFFFFFF"
 							tags="mouth_texture1,mouth_texture2"></mouth_texture>
 						<mouth_texture
-							name="head_nagamasa_a_mouth"
+							name="head_nagamasa_a_skull_mouth"
 							lod_material="mouth_mat"
 							color="0xFFFFFFFF"
 							tags="mouth_texture7,mouth_texture8"></mouth_texture>
@@ -155441,7 +155441,7 @@
 					body_meta_mesh_upperbody="box_a"
 					legs_mesh="feet_female_a"
 					hands_mesh="hands_female_a"
-					face_meta_mesh="head_nagamasa_a"
+					face_meta_mesh="head_nagamasa_a_skull"
 					underwear_bottom_mesh="underwear_male_teen"
 					underwear_top_mesh="">
 					<deform_keys>
@@ -157086,23 +157086,23 @@
 					<face_textures
 						group_id="1">
 						<face_texture
-							name="head_nagamasa_a"
-							lod_material="head_nagamasa_a"
+							name="head_nagamasa_a_skull"
+							lod_material="head_nagamasa_a_skull"
 							color="0xFFFFFFFF"
 							tags="face_texture1,face_texture2"></face_texture>
 						<face_texture
-							name="head_nagamasa_a"
-							lod_material="head_nagamasa_a"
+							name="head_nagamasa_a_skull"
+							lod_material="head_nagamasa_a_skull"
 							color="0xFFFFFFFF"
 							tags="face_texture3,face_texture4"></face_texture>
 						<face_texture
-							name="head_nagamasa_a"
-							lod_material="head_nagamasa_a"
+							name="head_nagamasa_a_skull"
+							lod_material="head_nagamasa_a_skull"
 							color="0xFFFFFFFF"
 							tags="face_texture5,face_texture6,face_texture7"></face_texture>
 						<face_texture
-							name="head_nagamasa_a"
-							lod_material="head_nagamasa_a"
+							name="head_nagamasa_a_skull"
+							lod_material="head_nagamasa_a_skull"
 							color="0xFFFFFFFF"
 							tags="face_texture8,face_texture9,face_texture10"></face_texture>
 						<!-- <face_texture name="head_male_e" lod_material="head_male_e" color="0xFFFFFFFF" tags="face_texture1,face_texture2,face_texture3">
@@ -157133,27 +157133,27 @@
 					<mouth_textures
 						group_id="4">
 						<mouth_texture
-							name="head_nagamasa_a_mouth"
+							name="head_nagamasa_a_skull_mouth"
 							lod_material="mouth_mat"
 							color="0xFFFFFFFF"
 							tags="mouth_texture1,mouth_texture2"></mouth_texture>
 						<mouth_texture
-							name="head_nagamasa_a_mouth"
+							name="head_nagamasa_a_skull_mouth"
 							lod_material="mouth_mat"
 							color="0xFFFFFFFF"
 							tags="mouth_texture3,mouth_texture4"></mouth_texture>
 						<mouth_texture
-							name="head_nagamasa_a_mouth"
+							name="head_nagamasa_a_skull_mouth"
 							lod_material="mouth_mat"
 							color="0xFFFFFFFF"
 							tags="mouth_texture5,mouth_texture6"></mouth_texture>
 						<mouth_texture
-							name="head_nagamasa_a_mouth"
+							name="head_nagamasa_a_skull_mouth"
 							lod_material="mouth_mat"
 							color="0xFFFFFFFF"
 							tags="mouth_texture1,mouth_texture2"></mouth_texture>
 						<mouth_texture
-							name="head_nagamasa_a_mouth"
+							name="head_nagamasa_a_skull_mouth"
 							lod_material="mouth_mat"
 							color="0xFFFFFFFF"
 							tags="mouth_texture1,mouth_texture2"></mouth_texture>
@@ -157196,7 +157196,7 @@
 					body_meta_mesh_upperbody="box_a"
 					legs_mesh="feet_female_a"
 					hands_mesh="hands_female_a"
-					face_meta_mesh="head_nagamasa_a"
+					face_meta_mesh="head_nagamasa_a_skull"
 					underwear_bottom_mesh="underwear_male_teen"
 					underwear_top_mesh="">
 					<deform_keys>
@@ -158808,18 +158808,18 @@
 					<face_textures
 						group_id="1">
 						<face_texture
-							name="head_nagamasa_a"
-							lod_material="head_nagamasa_a"
+							name="head_nagamasa_a_skull"
+							lod_material="head_nagamasa_a_skull"
 							color="0xFFFFFFFF"
 							tags="face_texture1,face_texture2"></face_texture>
 						<face_texture
-							name="head_nagamasa_a"
-							lod_material="head_nagamasa_a"
+							name="head_nagamasa_a_skull"
+							lod_material="head_nagamasa_a_skull"
 							color="0xFFFFFFFF"
 							tags="face_texture3,face_texture4"></face_texture>
 						<face_texture
-							name="head_nagamasa_a"
-							lod_material="head_nagamasa_a"
+							name="head_nagamasa_a_skull"
+							lod_material="head_nagamasa_a_skull"
 							color="0xFFFFFFFF"
 							tags="face_texture5,face_texture6,face_texture7"></face_texture>
 						<!-- <face_texture name="head_male_e" lod_material="head_male_e" color="0xFFFFFFFF" tags="face_texture1,face_texture2,face_texture3">
@@ -158850,22 +158850,22 @@
 					<mouth_textures
 						group_id="4">
 						<mouth_texture
-							name="head_nagamasa_a_mouth"
+							name="head_nagamasa_a_skull_mouth"
 							lod_material="mouth_mat"
 							color="0xFFFFFFFF"
 							tags="mouth_texture1,mouth_texture2"></mouth_texture>
 						<mouth_texture
-							name="head_nagamasa_a_mouth"
+							name="head_nagamasa_a_skull_mouth"
 							lod_material="mouth_mat"
 							color="0xFFFFFFFF"
 							tags="mouth_texture3,mouth_texture4"></mouth_texture>
 						<mouth_texture
-							name="head_nagamasa_a_mouth"
+							name="head_nagamasa_a_skull_mouth"
 							lod_material="mouth_mat"
 							color="0xFFFFFFFF"
 							tags="mouth_texture5,mouth_texture6"></mouth_texture>
 						<mouth_texture
-							name="head_nagamasa_a_mouth"
+							name="head_nagamasa_a_skull_mouth"
 							lod_material="mouth_mat"
 							color="0xFFFFFFFF"
 							tags="mouth_texture1,mouth_texture2"></mouth_texture>
@@ -158908,7 +158908,7 @@
 					body_meta_mesh_upperbody="box_a"
 					legs_mesh="feet_female_a"
 					hands_mesh="hands_female_a"
-					face_meta_mesh="head_nagamasa_a"
+					face_meta_mesh="head_nagamasa_a_skull"
 					underwear_bottom_mesh="underwear_male_teen"
 					underwear_top_mesh="">
 					<deform_keys>
@@ -160500,45 +160500,45 @@
 					<face_textures
 						group_id="1">
 						<face_texture
-							name="head_nagamasa_a"
-							lod_material="head_nagamasa_a"
+							name="head_nagamasa_a_skull"
+							lod_material="head_nagamasa_a_skull"
 							color="0xFFFFFFFF"
 							tags="face_texture1,face_texture2"></face_texture>
 						<face_texture
-							name="head_nagamasa_a"
-							lod_material="head_nagamasa_a"
+							name="head_nagamasa_a_skull"
+							lod_material="head_nagamasa_a_skull"
 							color="0xFFFFFFFF"
 							tags="face_texture3,face_texture4"></face_texture>
 						<face_texture
-							name="head_nagamasa_a"
-							lod_material="head_nagamasa_a"
+							name="head_nagamasa_a_skull"
+							lod_material="head_nagamasa_a_skull"
 							color="0xFFFFFFFF"
 							tags="face_texture5,face_texture6,face_texture7"></face_texture>
 						<face_texture
-							name="head_nagamasa_a"
-							lod_material="head_nagamasa_a"
+							name="head_nagamasa_a_skull"
+							lod_material="head_nagamasa_a_skull"
 							color="0xFFFFFFFF"
 							tags="face_texture8,face_texture9,face_texture10"></face_texture>
 					</face_textures>
 					<mouth_textures
 						group_id="4">
 						<mouth_texture
-							name="head_nagamasa_a_mouth"
+							name="head_nagamasa_a_skull_mouth"
 							lod_material="mouth_mat"
 							color="0xFFFFFFFF"
 							tags="mouth_texture1,mouth_texture2"></mouth_texture>
 						<mouth_texture
-							name="head_nagamasa_a_mouth"
+							name="head_nagamasa_a_skull_mouth"
 							lod_material="mouth_mat"
 							color="0xFFFFFFFF"
 							tags="mouth_texture5,mouth_texture6"></mouth_texture>
 						<mouth_texture
-							name="head_nagamasa_a_mouth"
+							name="head_nagamasa_a_skull_mouth"
 							lod_material="mouth_mat"
 							color="0xFFFFFFFF"
 							tags="mouth_texture3,mouth_texture4"></mouth_texture>
 						<mouth_texture
-							name="head_nagamasa_a_mouth"
+							name="head_nagamasa_a_skull_mouth"
 							lod_material="mouth_mat"
 							color="0xFFFFFFFF"
 							tags="mouth_texture3,mouth_texture4"></mouth_texture>
@@ -160581,7 +160581,7 @@
 					body_meta_mesh_upperbody="box_a"
 					legs_mesh="feet_female_kid3"
 					hands_mesh="hands_female_kid3"
-					face_meta_mesh="head_nagamasa_a"
+					face_meta_mesh="head_nagamasa_a_skull"
 					underwear_bottom_mesh="underwear_baby"
 					underwear_top_mesh="">
 					<deform_keys>
@@ -161794,8 +161794,8 @@
 					<face_textures
 						group_id="1">
 						<face_texture
-							name="head_nagamasa_a"
-							lod_material="head_nagamasa_a"
+							name="head_nagamasa_a_skull"
+							lod_material="head_nagamasa_a_skull"
 							color="0xFFFFFFFF"
 							tags="face_texture1,face_texture2"></face_texture>
 						<!-- <face_texture name="head_male_e" lod_material="head_male_e" color="0xFFFFFFFF" tags="face_texture1,face_texture2,face_texture3">
@@ -161826,7 +161826,7 @@
 					<mouth_textures
 						group_id="4">
 						<mouth_texture
-							name="head_nagamasa_a_mouth"
+							name="head_nagamasa_a_skull_mouth"
 							lod_material="mouth_mat"
 							color="0xFFFFFFFF"
 							tags="mouth_texture1,mouth_texture2"></mouth_texture>
@@ -187183,7 +187183,7 @@
 					body_meta_mesh_upperbody="box_a"
 					legs_mesh="feet_male_a"
 					hands_mesh="hands_male_a"
-					face_meta_mesh="head_kanetsugu_a"
+					face_meta_mesh="head_kanetsugu_a_skull"
 					underwear_bottom_mesh="underwear_male"
 					underwear_top_mesh="">
 					<deform_keys>
@@ -189297,23 +189297,23 @@
 					<face_textures
 						group_id="1">
 						<face_texture
-							name="head_kanetsugu_a"
-							lod_material="head_kanetsugu_a"
+							name="head_kanetsugu_a_skull"
+							lod_material="head_kanetsugu_a_skull"
 							color="0xFFFFFFFF"
 							tags="face_texture1,face_texture2"></face_texture>
 						<face_texture
-							name="head_kanetsugu_a"
-							lod_material="head_kanetsugu_a"
+							name="head_kanetsugu_a_skull"
+							lod_material="head_kanetsugu_a_skull"
 							color="0xFFFFFFFF"
 							tags="face_texture3,face_texture4"></face_texture>
 						<face_texture
-							name="head_kanetsugu_a"
-							lod_material="head_kanetsugu_a"
+							name="head_kanetsugu_a_skull"
+							lod_material="head_kanetsugu_a_skull"
 							color="0xFFFFFFFF"
 							tags="face_texture5,face_texture6,face_texture7"></face_texture>
 						<face_texture
-							name="head_kanetsugu_a"
-							lod_material="head_kanetsugu_a"
+							name="head_kanetsugu_a_skull"
+							lod_material="head_kanetsugu_a_skull"
 							color="0xFFFFFFFF"
 							tags="face_texture8,face_texture9,face_texture10"></face_texture>
 						<!-- <face_texture name="head_male_e" lod_material="head_male_e" color="0xFFFFFFFF" tags="face_texture1,face_texture2,face_texture3">
@@ -189344,32 +189344,32 @@
 					<mouth_textures
 						group_id="4">
 						<mouth_texture
-							name="head_kanetsugu_a_mouth"
+							name="head_kanetsugu_a_skull_mouth"
 							lod_material="mouth_mat"
 							color="0xFFFFFFFF"
 							tags="mouth_texture1,mouth_texture2"></mouth_texture>
 						<mouth_texture
-							name="head_kanetsugu_a_mouth"
+							name="head_kanetsugu_a_skull_mouth"
 							lod_material="mouth_mat"
 							color="0xFFFFFFFF"
 							tags="mouth_texture3,mouth_texture4"></mouth_texture>
 						<mouth_texture
-							name="head_kanetsugu_a_mouth"
+							name="head_kanetsugu_a_skull_mouth"
 							lod_material="mouth_mat"
 							color="0xFFFFFFFF"
 							tags="mouth_texture5,mouth_texture6"></mouth_texture>
 						<mouth_texture
-							name="head_kanetsugu_a_mouth"
+							name="head_kanetsugu_a_skull_mouth"
 							lod_material="mouth_mat"
 							color="0xFFFFFFFF"
 							tags="mouth_texture7,mouth_texture8"></mouth_texture>
 						<mouth_texture
-							name="head_kanetsugu_a_mouth"
+							name="head_kanetsugu_a_skull_mouth"
 							lod_material="mouth_mat"
 							color="0xFFFFFFFF"
 							tags="mouth_texture1,mouth_texture2"></mouth_texture>
 						<mouth_texture
-							name="head_kanetsugu_a_mouth"
+							name="head_kanetsugu_a_skull_mouth"
 							lod_material="mouth_mat"
 							color="0xFFFFFFFF"
 							tags="mouth_texture7,mouth_texture8"></mouth_texture>
@@ -189409,7 +189409,7 @@
 					body_meta_mesh_upperbody="box_a"
 					legs_mesh="feet_female_a"
 					hands_mesh="hands_female_a"
-					face_meta_mesh="head_kanetsugu_a"
+					face_meta_mesh="head_kanetsugu_a_skull"
 					underwear_bottom_mesh="underwear_male_teen"
 					underwear_top_mesh="">
 					<deform_keys>
@@ -191054,23 +191054,23 @@
 					<face_textures
 						group_id="1">
 						<face_texture
-							name="head_kanetsugu_a"
-							lod_material="head_kanetsugu_a"
+							name="head_kanetsugu_a_skull"
+							lod_material="head_kanetsugu_a_skull"
 							color="0xFFFFFFFF"
 							tags="face_texture1,face_texture2"></face_texture>
 						<face_texture
-							name="head_kanetsugu_a"
-							lod_material="head_kanetsugu_a"
+							name="head_kanetsugu_a_skull"
+							lod_material="head_kanetsugu_a_skull"
 							color="0xFFFFFFFF"
 							tags="face_texture3,face_texture4"></face_texture>
 						<face_texture
-							name="head_kanetsugu_a"
-							lod_material="head_kanetsugu_a"
+							name="head_kanetsugu_a_skull"
+							lod_material="head_kanetsugu_a_skull"
 							color="0xFFFFFFFF"
 							tags="face_texture5,face_texture6,face_texture7"></face_texture>
 						<face_texture
-							name="head_kanetsugu_a"
-							lod_material="head_kanetsugu_a"
+							name="head_kanetsugu_a_skull"
+							lod_material="head_kanetsugu_a_skull"
 							color="0xFFFFFFFF"
 							tags="face_texture8,face_texture9,face_texture10"></face_texture>
 						<!-- <face_texture name="head_male_e" lod_material="head_male_e" color="0xFFFFFFFF" tags="face_texture1,face_texture2,face_texture3">
@@ -191101,27 +191101,27 @@
 					<mouth_textures
 						group_id="4">
 						<mouth_texture
-							name="head_kanetsugu_a_mouth"
+							name="head_kanetsugu_a_skull_mouth"
 							lod_material="mouth_mat"
 							color="0xFFFFFFFF"
 							tags="mouth_texture1,mouth_texture2"></mouth_texture>
 						<mouth_texture
-							name="head_kanetsugu_a_mouth"
+							name="head_kanetsugu_a_skull_mouth"
 							lod_material="mouth_mat"
 							color="0xFFFFFFFF"
 							tags="mouth_texture3,mouth_texture4"></mouth_texture>
 						<mouth_texture
-							name="head_kanetsugu_a_mouth"
+							name="head_kanetsugu_a_skull_mouth"
 							lod_material="mouth_mat"
 							color="0xFFFFFFFF"
 							tags="mouth_texture5,mouth_texture6"></mouth_texture>
 						<mouth_texture
-							name="head_kanetsugu_a_mouth"
+							name="head_kanetsugu_a_skull_mouth"
 							lod_material="mouth_mat"
 							color="0xFFFFFFFF"
 							tags="mouth_texture1,mouth_texture2"></mouth_texture>
 						<mouth_texture
-							name="head_kanetsugu_a_mouth"
+							name="head_kanetsugu_a_skull_mouth"
 							lod_material="mouth_mat"
 							color="0xFFFFFFFF"
 							tags="mouth_texture1,mouth_texture2"></mouth_texture>
@@ -191164,7 +191164,7 @@
 					body_meta_mesh_upperbody="box_a"
 					legs_mesh="feet_female_a"
 					hands_mesh="hands_female_a"
-					face_meta_mesh="head_kanetsugu_a"
+					face_meta_mesh="head_kanetsugu_a_skull"
 					underwear_bottom_mesh="underwear_male_teen"
 					underwear_top_mesh="">
 					<deform_keys>
@@ -192776,18 +192776,18 @@
 					<face_textures
 						group_id="1">
 						<face_texture
-							name="head_kanetsugu_a"
-							lod_material="head_kanetsugu_a"
+							name="head_kanetsugu_a_skull"
+							lod_material="head_kanetsugu_a_skull"
 							color="0xFFFFFFFF"
 							tags="face_texture1,face_texture2"></face_texture>
 						<face_texture
-							name="head_kanetsugu_a"
-							lod_material="head_kanetsugu_a"
+							name="head_kanetsugu_a_skull"
+							lod_material="head_kanetsugu_a_skull"
 							color="0xFFFFFFFF"
 							tags="face_texture3,face_texture4"></face_texture>
 						<face_texture
-							name="head_kanetsugu_a"
-							lod_material="head_kanetsugu_a"
+							name="head_kanetsugu_a_skull"
+							lod_material="head_kanetsugu_a_skull"
 							color="0xFFFFFFFF"
 							tags="face_texture5,face_texture6,face_texture7"></face_texture>
 						<!-- <face_texture name="head_male_e" lod_material="head_male_e" color="0xFFFFFFFF" tags="face_texture1,face_texture2,face_texture3">
@@ -192818,22 +192818,22 @@
 					<mouth_textures
 						group_id="4">
 						<mouth_texture
-							name="head_kanetsugu_a_mouth"
+							name="head_kanetsugu_a_skull_mouth"
 							lod_material="mouth_mat"
 							color="0xFFFFFFFF"
 							tags="mouth_texture1,mouth_texture2"></mouth_texture>
 						<mouth_texture
-							name="head_kanetsugu_a_mouth"
+							name="head_kanetsugu_a_skull_mouth"
 							lod_material="mouth_mat"
 							color="0xFFFFFFFF"
 							tags="mouth_texture3,mouth_texture4"></mouth_texture>
 						<mouth_texture
-							name="head_kanetsugu_a_mouth"
+							name="head_kanetsugu_a_skull_mouth"
 							lod_material="mouth_mat"
 							color="0xFFFFFFFF"
 							tags="mouth_texture5,mouth_texture6"></mouth_texture>
 						<mouth_texture
-							name="head_kanetsugu_a_mouth"
+							name="head_kanetsugu_a_skull_mouth"
 							lod_material="mouth_mat"
 							color="0xFFFFFFFF"
 							tags="mouth_texture1,mouth_texture2"></mouth_texture>
@@ -192876,7 +192876,7 @@
 					body_meta_mesh_upperbody="box_a"
 					legs_mesh="feet_female_a"
 					hands_mesh="hands_female_a"
-					face_meta_mesh="head_kanetsugu_a"
+					face_meta_mesh="head_kanetsugu_a_skull"
 					underwear_bottom_mesh="underwear_male_teen"
 					underwear_top_mesh="">
 					<deform_keys>
@@ -194468,45 +194468,45 @@
 					<face_textures
 						group_id="1">
 						<face_texture
-							name="head_kanetsugu_a"
-							lod_material="head_kanetsugu_a"
+							name="head_kanetsugu_a_skull"
+							lod_material="head_kanetsugu_a_skull"
 							color="0xFFFFFFFF"
 							tags="face_texture1,face_texture2"></face_texture>
 						<face_texture
-							name="head_kanetsugu_a"
-							lod_material="head_kanetsugu_a"
+							name="head_kanetsugu_a_skull"
+							lod_material="head_kanetsugu_a_skull"
 							color="0xFFFFFFFF"
 							tags="face_texture3,face_texture4"></face_texture>
 						<face_texture
-							name="head_kanetsugu_a"
-							lod_material="head_kanetsugu_a"
+							name="head_kanetsugu_a_skull"
+							lod_material="head_kanetsugu_a_skull"
 							color="0xFFFFFFFF"
 							tags="face_texture5,face_texture6,face_texture7"></face_texture>
 						<face_texture
-							name="head_kanetsugu_a"
-							lod_material="head_kanetsugu_a"
+							name="head_kanetsugu_a_skull"
+							lod_material="head_kanetsugu_a_skull"
 							color="0xFFFFFFFF"
 							tags="face_texture8,face_texture9,face_texture10"></face_texture>
 					</face_textures>
 					<mouth_textures
 						group_id="4">
 						<mouth_texture
-							name="head_kanetsugu_a_mouth"
+							name="head_kanetsugu_a_skull_mouth"
 							lod_material="mouth_mat"
 							color="0xFFFFFFFF"
 							tags="mouth_texture1,mouth_texture2"></mouth_texture>
 						<mouth_texture
-							name="head_kanetsugu_a_mouth"
+							name="head_kanetsugu_a_skull_mouth"
 							lod_material="mouth_mat"
 							color="0xFFFFFFFF"
 							tags="mouth_texture5,mouth_texture6"></mouth_texture>
 						<mouth_texture
-							name="head_kanetsugu_a_mouth"
+							name="head_kanetsugu_a_skull_mouth"
 							lod_material="mouth_mat"
 							color="0xFFFFFFFF"
 							tags="mouth_texture3,mouth_texture4"></mouth_texture>
 						<mouth_texture
-							name="head_kanetsugu_a_mouth"
+							name="head_kanetsugu_a_skull_mouth"
 							lod_material="mouth_mat"
 							color="0xFFFFFFFF"
 							tags="mouth_texture3,mouth_texture4"></mouth_texture>
@@ -194549,7 +194549,7 @@
 					body_meta_mesh_upperbody="box_a"
 					legs_mesh="feet_female_kid3"
 					hands_mesh="hands_female_kid3"
-					face_meta_mesh="head_kanetsugu_a"
+					face_meta_mesh="head_kanetsugu_a_skull"
 					underwear_bottom_mesh="underwear_baby"
 					underwear_top_mesh="">
 					<deform_keys>
@@ -195762,8 +195762,8 @@
 					<face_textures
 						group_id="1">
 						<face_texture
-							name="head_kanetsugu_a"
-							lod_material="head_kanetsugu_a"
+							name="head_kanetsugu_a_skull"
+							lod_material="head_kanetsugu_a_skull"
 							color="0xFFFFFFFF"
 							tags="face_texture1,face_texture2"></face_texture>
 						<!-- <face_texture name="head_male_e" lod_material="head_male_e" color="0xFFFFFFFF" tags="face_texture1,face_texture2,face_texture3">
@@ -195794,7 +195794,7 @@
 					<mouth_textures
 						group_id="4">
 						<mouth_texture
-							name="head_kanetsugu_a_mouth"
+							name="head_kanetsugu_a_skull_mouth"
 							lod_material="mouth_mat"
 							color="0xFFFFFFFF"
 							tags="mouth_texture1,mouth_texture2"></mouth_texture>
