@@ -6,6 +6,6 @@
 				<WeaponFlags CanBlockRanged="true" HasHitPoints="true" />
 			</Weapon>
 		</ItemComponent>
-		<Flags WoodenParry="true" ForceAttachOffHandPrimaryItemBone="true" HeldInOffHand="true" />
+		<Flags WoodenParry="true" ForceAttachOffHandPrimaryItemBone="true" HeldInOffHand="true"  Civilian="true" />
 	</Item>
 </Items>

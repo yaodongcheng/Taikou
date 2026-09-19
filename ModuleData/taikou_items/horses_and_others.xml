@@ -744,4 +744,99 @@
 		<Flags
 			Civilian="true" />
 	</Item>
+	<!-- ============================================================================
+	     🔴 测试用对照物品（2026-09-19 加）—— 不是内容，是"验铁炮装填"的对照组。
+
+	     来源：SandBoxCore/ModuleData/items/weapons.xml 的 crossbow_a / bolt_a **逐字抄**，
+	           只改两处：① id 加 taikou_test_ 前缀（不能沿用原版 id —— 跨模块重复定义有风险）
+	                    ② culture 换成 Culture.ikoku（这样在 Taikou 世界里能拿到）
+	     🔴 item_usage 保持原版的 crossbow_light / 空 —— **这正是对照的意义**：
+	        它走"原版行为"，铁炮走自定义的 tk_firearm，两者并排比装填。
+	     拿到手：控制台 `campaign.add_item_to_main_party taikou_test_crossbow | 1` + `taikou_test_bolt | 1`
+	     （或者在城市市场里找 —— 文化已指到 ikoku）
+	     清理：验完把这两个 <Item> 删掉即可。
+	     ============================================================================ -->
+	<Item
+		id="taikou_test_crossbow"
+		name="{=LAEaH3zB}Simple Light Crossbow"
+		body_name="bo_cross_bow_heavy"
+		mesh="crossbow_a"
+		culture="Culture.ikoku"
+		weight="1.0"
+		appearance="0.8"
+		difficulty="0"
+		Type="Crossbow"
+		AmmoOffset="0.0, 0.02131, 0.24650"
+		item_holsters="crossbow_back:bow_hip:mace_right_hip:bow_hip_2"
+		holster_position_shift="0.02,0,-0.4">
+		<ItemComponent>
+			<Weapon
+				weapon_class="Crossbow"
+				ammo_class="Bolt"
+				missile_speed="60"
+				accuracy="80"
+				thrust_damage="67"
+				thrust_speed="80"
+				speed_rating="70"
+				weapon_length="95"
+				ammo_limit="1"
+				reload_phase_count="2"
+				thrust_damage_type="Pierce"
+				item_usage="crossbow_light"
+				physics_material="wood_weapon"
+				center_of_mass="0,0,0.4"
+				modifier_group="crossbow">
+				<WeaponFlags
+					RangedWeapon="true"
+					HasString="true"
+					NotUsableWithOneHand="true"
+					TwoHandIdleOnMount="true"
+					CanBeUsedWhileCrouched="true" />
+			</Weapon>
+		</ItemComponent>
+		<Flags
+			Stealth="true"  Civilian="true" />
+	</Item>
+	<Item
+		id="taikou_test_bolt"
+		name="{=g7vxJhiz}Light Bolts"
+		body_name="bo_capsule_arrow"
+		holster_body_name="bo_axe_short"
+		mesh="bolt_bl_a"
+		holster_mesh="bolt_bl_a_quiver"
+		flying_mesh="bolt_bl_flying"
+		holster_mesh_with_weapon="bolt_bl_a_quiver"
+		weight="0.05"
+		appearance="1"
+		Type="Bolts"
+		item_holsters="quiver_bolts:quiver_bolts_2:quiver_back_middle:quiver_back_top">
+		<ItemComponent>
+			<Weapon
+				weapon_class="Bolt"
+				stack_amount="20"
+				thrust_speed="0"
+				thrust_damage="2"
+				thrust_damage_type="Pierce"
+				speed_rating="0"
+				missile_speed="10"
+				weapon_length="47"
+				item_usage=""
+				passby_sound_code="event:/mission/combat/missile/passby"
+				rotation="180, 0, 0"
+				physics_material="missile"
+				sticking_position="0,-0.47,0"
+				sticking_rotation="90,0,0"
+				center_of_mass="0,0,-0.1"
+				modifier_group="bolt">
+				<WeaponFlags
+					AttachAmmoToVisual="true"
+					Consumable="true"
+					AmmoSticksWhenShot="true"
+					AmmoBreaksOnBounceBack="true" />
+			</Weapon>
+		</ItemComponent>
+		<Flags
+			ForceAttachOffHandPrimaryItemBone="true"
+			Stealth="true"  Civilian="true" />
+	</Item>
 </Items>

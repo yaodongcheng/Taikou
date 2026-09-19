@@ -6,7 +6,7 @@
 		<ItemComponent>
 			<Armor body_armor="16" leg_armor="8" arm_armor="4" has_gender_variations="false" covers_body="true" modifier_group="plate" material_type="Plate" />
 		</ItemComponent>
-		<Flags UseTeamColor="true" />
+		<Flags UseTeamColor="true" Civilian="true" />
 	</Item>
 	<!-- 朱革赤缀胴丸（战无2 解包件重定向；网格 tools/armor-pipeline/out/taikou_troop_elite_ashigaru_do_a.fbx）
 	     普通物品：挂进 EquipmentRoster 只决定初始装备，可被扒/被偷/作战利品。 -->
@@ -14,7 +14,7 @@
 		<ItemComponent>
 			<Armor body_armor="16" leg_armor="8" arm_armor="4" has_gender_variations="false" covers_body="true" modifier_group="plate" material_type="Plate" />
 		</ItemComponent>
-		<Flags UseTeamColor="true" />
+		<Flags UseTeamColor="true" Civilian="true" />
 	</Item>
 	<!-- 朱革阵笠（战无2 解包件重定向；网格 tools/armor-pipeline/out/taikou_troop_elite_ashigaru_helmet_a.fbx）
 	     普通物品：挂进 EquipmentRoster 只决定初始装备，可被扒/被偷/作战利品。 -->
@@ -22,7 +22,7 @@
 		<ItemComponent>
 			<Armor head_armor="26" has_gender_variations="false" hair_cover_type="all" modifier_group="plate" material_type="Plate" />
 		</ItemComponent>
-		<Flags UseTeamColor="true" />
+		<Flags UseTeamColor="true" Civilian="true" />
 	</Item>
 	<!-- 藏青女忍装束（战无2 解包件重定向；网格 tools/armor-pipeline/out/taikou_troop_genin_do_a.fbx）
 	     普通物品：挂进 EquipmentRoster 只决定初始装备，可被扒/被偷/作战利品。 -->
@@ -30,7 +30,7 @@
 		<ItemComponent>
 			<Armor body_armor="14" leg_armor="6" arm_armor="2" has_gender_variations="false" covers_body="true" modifier_group="plate" material_type="Plate" />
 		</ItemComponent>
-		<Flags UseTeamColor="true" />
+		<Flags UseTeamColor="true" Civilian="true" />
 	</Item>
 	<!-- 茶革赤缀亲卫具足（战无2 解包件重定向；网格 tools/armor-pipeline/out/taikou_troop_guard1_do_a.fbx）
 	     普通物品：挂进 EquipmentRoster 只决定初始装备，可被扒/被偷/作战利品。 -->
@@ -38,7 +38,7 @@
 		<ItemComponent>
 			<Armor body_armor="39" leg_armor="10" arm_armor="7" has_gender_variations="false" covers_body="true" modifier_group="plate" material_type="Plate" />
 		</ItemComponent>
-		<Flags UseTeamColor="true" />
+		<Flags UseTeamColor="true" Civilian="true" />
 	</Item>
 	<!-- 茶革护卫兜（战无2 解包件重定向；网格 tools/armor-pipeline/out/taikou_troop_guard1_helmet_a.fbx）
 	     普通物品：挂进 EquipmentRoster 只决定初始装备，可被扒/被偷/作战利品。 -->
@@ -46,7 +46,7 @@
 		<ItemComponent>
 			<Armor head_armor="42" has_gender_variations="false" hair_cover_type="all" modifier_group="plate" material_type="Plate" />
 		</ItemComponent>
-		<Flags UseTeamColor="true" />
+		<Flags UseTeamColor="true" Civilian="true" />
 	</Item>
 	<!-- 茶革密钉亲卫具足（战无2 解包件重定向；网格 tools/armor-pipeline/out/taikou_troop_guard3_do_a.fbx）
 	     普通物品：挂进 EquipmentRoster 只决定初始装备，可被扒/被偷/作战利品。 -->
@@ -54,7 +54,7 @@
 		<ItemComponent>
 			<Armor body_armor="39" leg_armor="10" arm_armor="7" has_gender_variations="false" covers_body="true" modifier_group="plate" material_type="Plate" />
 		</ItemComponent>
-		<Flags UseTeamColor="true" />
+		<Flags UseTeamColor="true" Civilian="true" />
 	</Item>
 	<!-- 茶革护卫筋兜（战无2 解包件重定向；网格 tools/armor-pipeline/out/taikou_troop_guard3_helmet_a.fbx）
 	     普通物品：挂进 EquipmentRoster 只决定初始装备，可被扒/被偷/作战利品。 -->
@@ -62,7 +62,7 @@
 		<ItemComponent>
 			<Armor head_armor="42" has_gender_variations="false" hair_cover_type="all" modifier_group="plate" material_type="Plate" />
 		</ItemComponent>
-		<Flags UseTeamColor="true" />
+		<Flags UseTeamColor="true" Civilian="true" />
 	</Item>
 	<!-- 萌黄金漆亲卫具足（战无2 解包件重定向；网格 tools/armor-pipeline/out/taikou_troop_guard4_do_a.fbx）
 	     普通物品：挂进 EquipmentRoster 只决定初始装备，可被扒/被偷/作战利品。 -->
@@ -70,7 +70,7 @@
 		<ItemComponent>
 			<Armor body_armor="39" leg_armor="10" arm_armor="7" has_gender_variations="false" covers_body="true" modifier_group="plate" material_type="Plate" />
 		</ItemComponent>
-		<Flags UseTeamColor="true" />
+		<Flags UseTeamColor="true" Civilian="true" />
 	</Item>
 	<!-- 金漆顶缨大兜（战无2 解包件重定向；网格 tools/armor-pipeline/out/taikou_troop_guard4_helmet_a.fbx）
 	     普通物品：挂进 EquipmentRoster 只决定初始装备，可被扒/被偷/作战利品。 -->
@@ -78,7 +78,7 @@
 		<ItemComponent>
 			<Armor head_armor="42" has_gender_variations="false" hair_cover_type="all" modifier_group="plate" material_type="Plate" />
 		</ItemComponent>
-		<Flags UseTeamColor="true" />
+		<Flags UseTeamColor="true" Civilian="true" />
 	</Item>
 	<!-- 赤茶轻装亲卫具足（战无2 解包件重定向；网格 tools/armor-pipeline/out/taikou_troop_guard5_do_a.fbx）
 	     普通物品：挂进 EquipmentRoster 只决定初始装备，可被扒/被偷/作战利品。 -->
@@ -86,7 +86,7 @@
 		<ItemComponent>
 			<Armor body_armor="39" leg_armor="10" arm_armor="7" has_gender_variations="false" covers_body="true" modifier_group="plate" material_type="Plate" />
 		</ItemComponent>
-		<Flags UseTeamColor="true" />
+		<Flags UseTeamColor="true" Civilian="true" />
 	</Item>
 	<!-- 赤茶护卫小兜（战无2 解包件重定向；网格 tools/armor-pipeline/out/taikou_troop_guard5_helmet_a.fbx）
 	     普通物品：挂进 EquipmentRoster 只决定初始装备，可被扒/被偷/作战利品。 -->
@@ -94,7 +94,7 @@
 		<ItemComponent>
 			<Armor head_armor="42" has_gender_variations="false" hair_cover_type="all" modifier_group="plate" material_type="Plate" />
 		</ItemComponent>
-		<Flags UseTeamColor="true" />
+		<Flags UseTeamColor="true" Civilian="true" />
 	</Item>
 	<!-- 黑漆重具足（战无2 解包件重定向；网格 tools/armor-pipeline/out/taikou_troop_hazenin_do_a.fbx）
 	     普通物品：挂进 EquipmentRoster 只决定初始装备，可被扒/被偷/作战利品。 -->
@@ -102,7 +102,7 @@
 		<ItemComponent>
 			<Armor body_armor="39" leg_armor="10" arm_armor="7" has_gender_variations="false" covers_body="true" modifier_group="plate" material_type="Plate" />
 		</ItemComponent>
-		<Flags UseTeamColor="true" />
+		<Flags UseTeamColor="true" Civilian="true" />
 	</Item>
 	<!-- 黑漆筋兜（战无2 解包件重定向；网格 tools/armor-pipeline/out/taikou_troop_hazenin_helmet_a.fbx）
 	     普通物品：挂进 EquipmentRoster 只决定初始装备，可被扒/被偷/作战利品。 -->
@@ -110,7 +110,7 @@
 		<ItemComponent>
 			<Armor head_armor="42" has_gender_variations="false" hair_cover_type="all" modifier_group="plate" material_type="Plate" />
 		</ItemComponent>
-		<Flags UseTeamColor="true" />
+		<Flags UseTeamColor="true" Civilian="true" />
 	</Item>
 	<!-- 黑忍装束（战无2 解包件重定向；网格 tools/armor-pipeline/out/taikou_troop_jonin_do_a.fbx）
 	     普通物品：挂进 EquipmentRoster 只决定初始装备，可被扒/被偷/作战利品。 -->
@@ -118,7 +118,7 @@
 		<ItemComponent>
 			<Armor body_armor="24" leg_armor="12" arm_armor="6" has_gender_variations="false" covers_body="true" modifier_group="plate" material_type="Plate" />
 		</ItemComponent>
-		<Flags UseTeamColor="true" />
+		<Flags UseTeamColor="true" Civilian="true" />
 	</Item>
 	<!-- 黑覆面（战无2 解包件重定向；网格 tools/armor-pipeline/out/taikou_troop_jonin_helmet_a.fbx）
 	     普通物品：挂进 EquipmentRoster 只决定初始装备，可被扒/被偷/作战利品。 -->
@@ -126,7 +126,7 @@
 		<ItemComponent>
 			<Armor head_armor="34" has_gender_variations="false" hair_cover_type="all" modifier_group="plate" material_type="Plate" />
 		</ItemComponent>
-		<Flags UseTeamColor="true" />
+		<Flags UseTeamColor="true" Civilian="true" />
 	</Item>
 	<!-- 钢青锁帷子（战无2 解包件重定向；网格 tools/armor-pipeline/out/taikou_troop_katana_ashigaru_do_a.fbx）
 	     普通物品：挂进 EquipmentRoster 只决定初始装备，可被扒/被偷/作战利品。 -->
@@ -134,7 +134,7 @@
 		<ItemComponent>
 			<Armor body_armor="14" leg_armor="6" arm_armor="2" has_gender_variations="false" covers_body="true" modifier_group="plate" material_type="Plate" />
 		</ItemComponent>
-		<Flags UseTeamColor="true" />
+		<Flags UseTeamColor="true" Civilian="true" />
 	</Item>
 	<!-- 钢青阵笠（战无2 解包件重定向；网格 tools/armor-pipeline/out/taikou_troop_katana_ashigaru_helmet_a.fbx）
 	     普通物品：挂进 EquipmentRoster 只决定初始装备，可被扒/被偷/作战利品。 -->
@@ -142,7 +142,7 @@
 		<ItemComponent>
 			<Armor head_armor="16" has_gender_variations="false" hair_cover_type="all" modifier_group="plate" material_type="Plate" />
 		</ItemComponent>
-		<Flags UseTeamColor="true" />
+		<Flags UseTeamColor="true" Civilian="true" />
 	</Item>
 	<!-- 赤茶革胴丸（战无2 解包件重定向；网格 tools/armor-pipeline/out/taikou_troop_kyushu_do_a.fbx）
 	     普通物品：挂进 EquipmentRoster 只决定初始装备，可被扒/被偷/作战利品。 -->
@@ -150,7 +150,7 @@
 		<ItemComponent>
 			<Armor body_armor="14" leg_armor="6" arm_armor="2" has_gender_variations="false" covers_body="true" modifier_group="plate" material_type="Plate" />
 		</ItemComponent>
-		<Flags UseTeamColor="true" />
+		<Flags UseTeamColor="true" Civilian="true" />
 	</Item>
 	<!-- 赤茶阵笠（战无2 解包件重定向；网格 tools/armor-pipeline/out/taikou_troop_kyushu_helmet_a.fbx）
 	     普通物品：挂进 EquipmentRoster 只决定初始装备，可被扒/被偷/作战利品。 -->
@@ -158,7 +158,7 @@
 		<ItemComponent>
 			<Armor head_armor="16" has_gender_variations="false" hair_cover_type="all" modifier_group="plate" material_type="Plate" />
 		</ItemComponent>
-		<Flags UseTeamColor="true" />
+		<Flags UseTeamColor="true" Civilian="true" />
 	</Item>
 	<!-- 茶青金具足（战无2 解包件重定向；网格 tools/armor-pipeline/out/taikou_troop_samurai_do_a.fbx）
 	     普通物品：挂进 EquipmentRoster 只决定初始装备，可被扒/被偷/作战利品。 -->
@@ -166,7 +166,7 @@
 		<ItemComponent>
 			<Armor body_armor="24" leg_armor="12" arm_armor="6" has_gender_variations="false" covers_body="true" modifier_group="plate" material_type="Plate" />
 		</ItemComponent>
-		<Flags UseTeamColor="true" />
+		<Flags UseTeamColor="true" Civilian="true" />
 	</Item>
 	<!-- 蓝铁筋兜（战无2 解包件重定向；网格 tools/armor-pipeline/out/taikou_troop_samurai_helmet_a.fbx）
 	     普通物品：挂进 EquipmentRoster 只决定初始装备，可被扒/被偷/作战利品。 -->
@@ -174,7 +174,7 @@
 		<ItemComponent>
 			<Armor head_armor="34" has_gender_variations="false" hair_cover_type="all" modifier_group="plate" material_type="Plate" />
 		</ItemComponent>
-		<Flags UseTeamColor="true" />
+		<Flags UseTeamColor="true" Civilian="true" />
 	</Item>
 	<!-- 白布忍装束（樱纹）（战无2 解包件重定向；网格 tools/armor-pipeline/out/taikou_troop_sennin_do_a.fbx）
 	     普通物品：挂进 EquipmentRoster 只决定初始装备，可被扒/被偷/作战利品。 -->
@@ -182,7 +182,7 @@
 		<ItemComponent>
 			<Armor body_armor="39" leg_armor="10" arm_armor="7" has_gender_variations="false" covers_body="true" modifier_group="plate" material_type="Plate" />
 		</ItemComponent>
-		<Flags UseTeamColor="true" />
+		<Flags UseTeamColor="true" Civilian="true" />
 	</Item>
 	<!-- 白布头巾（战无2 解包件重定向；网格 tools/armor-pipeline/out/taikou_troop_sennin_helmet_a.fbx）
 	     普通物品：挂进 EquipmentRoster 只决定初始装备，可被扒/被偷/作战利品。 -->
@@ -190,7 +190,7 @@
 		<ItemComponent>
 			<Armor head_armor="42" has_gender_variations="false" hair_cover_type="all" modifier_group="plate" material_type="Plate" />
 		</ItemComponent>
-		<Flags UseTeamColor="true" />
+		<Flags UseTeamColor="true" Civilian="true" />
 	</Item>
 	<!-- 樱色女具足（战无2 解包件重定向；网格 tools/armor-pipeline/out/taikou_troop_taisho_do_a.fbx）
 	     普通物品：挂进 EquipmentRoster 只决定初始装备，可被扒/被偷/作战利品。 -->
@@ -198,7 +198,7 @@
 		<ItemComponent>
 			<Armor body_armor="39" leg_armor="10" arm_armor="7" has_gender_variations="false" covers_body="true" modifier_group="plate" material_type="Plate" />
 		</ItemComponent>
-		<Flags UseTeamColor="true" />
+		<Flags UseTeamColor="true" Civilian="true" />
 	</Item>
 	<!-- 樱色大兜（战无2 解包件重定向；网格 tools/armor-pipeline/out/taikou_troop_taisho_helmet_a.fbx）
 	     普通物品：挂进 EquipmentRoster 只决定初始装备，可被扒/被偷/作战利品。 -->
@@ -206,7 +206,7 @@
 		<ItemComponent>
 			<Armor head_armor="42" has_gender_variations="false" hair_cover_type="all" modifier_group="plate" material_type="Plate" />
 		</ItemComponent>
-		<Flags UseTeamColor="true" />
+		<Flags UseTeamColor="true" Civilian="true" />
 	</Item>
 	<!-- 赤茶火药胴丸（战无2 解包件重定向；网格 tools/armor-pipeline/out/taikou_troop_teppo_ashigaru_do_a.fbx）
 	     普通物品：挂进 EquipmentRoster 只决定初始装备，可被扒/被偷/作战利品。 -->
@@ -214,7 +214,7 @@
 		<ItemComponent>
 			<Armor body_armor="14" leg_armor="6" arm_armor="2" has_gender_variations="false" covers_body="true" modifier_group="plate" material_type="Plate" />
 		</ItemComponent>
-		<Flags UseTeamColor="true" />
+		<Flags UseTeamColor="true" Civilian="true" />
 	</Item>
 	<!-- 菅笠（战无2 解包件重定向；网格 tools/armor-pipeline/out/taikou_troop_teppo_ashigaru_helmet_a.fbx）
 	     普通物品：挂进 EquipmentRoster 只决定初始装备，可被扒/被偷/作战利品。 -->
@@ -222,7 +222,7 @@
 		<ItemComponent>
 			<Armor head_armor="16" has_gender_variations="false" hair_cover_type="all" modifier_group="plate" material_type="Plate" />
 		</ItemComponent>
-		<Flags UseTeamColor="true" />
+		<Flags UseTeamColor="true" Civilian="true" />
 	</Item>
 	<!-- 暗赤忍装束（战无2 解包件重定向；网格 tools/armor-pipeline/out/taikou_troop_tobinin_do_a.fbx）
 	     普通物品：挂进 EquipmentRoster 只决定初始装备，可被扒/被偷/作战利品。 -->
@@ -230,7 +230,7 @@
 		<ItemComponent>
 			<Armor body_armor="24" leg_armor="12" arm_armor="6" has_gender_variations="false" covers_body="true" modifier_group="plate" material_type="Plate" />
 		</ItemComponent>
-		<Flags UseTeamColor="true" />
+		<Flags UseTeamColor="true" Civilian="true" />
 	</Item>
 	<!-- 赤茶重革胴丸（战无2 解包件重定向；网格 tools/armor-pipeline/out/taikou_troop_totsunin_do_a.fbx）
 	     普通物品：挂进 EquipmentRoster 只决定初始装备，可被扒/被偷/作战利品。 -->
@@ -238,7 +238,7 @@
 		<ItemComponent>
 			<Armor body_armor="24" leg_armor="12" arm_armor="6" has_gender_variations="false" covers_body="true" modifier_group="plate" material_type="Plate" />
 		</ItemComponent>
-		<Flags UseTeamColor="true" />
+		<Flags UseTeamColor="true" Civilian="true" />
 	</Item>
 	<!-- 赤茶筋兜（战无2 解包件重定向；网格 tools/armor-pipeline/out/taikou_troop_totsunin_helmet_a.fbx）
 	     普通物品：挂进 EquipmentRoster 只决定初始装备，可被扒/被偷/作战利品。 -->
@@ -246,7 +246,7 @@
 		<ItemComponent>
 			<Armor head_armor="34" has_gender_variations="false" hair_cover_type="all" modifier_group="plate" material_type="Plate" />
 		</ItemComponent>
-		<Flags UseTeamColor="true" />
+		<Flags UseTeamColor="true" Civilian="true" />
 	</Item>
 	<!-- 茶革赤缀胴丸（战无2 解包件重定向；网格 tools/armor-pipeline/out/taikou_troop_yari_ashigaru_do_a.fbx）
 	     普通物品：挂进 EquipmentRoster 只决定初始装备，可被扒/被偷/作战利品。 -->
@@ -254,7 +254,7 @@
 		<ItemComponent>
 			<Armor body_armor="14" leg_armor="6" arm_armor="2" has_gender_variations="false" covers_body="true" modifier_group="plate" material_type="Plate" />
 		</ItemComponent>
-		<Flags UseTeamColor="true" />
+		<Flags UseTeamColor="true" Civilian="true" />
 	</Item>
 	<!-- 茶革阵笠（战无2 解包件重定向；网格 tools/armor-pipeline/out/taikou_troop_yari_ashigaru_helmet_a.fbx）
 	     普通物品：挂进 EquipmentRoster 只决定初始装备，可被扒/被偷/作战利品。 -->
@@ -262,7 +262,7 @@
 		<ItemComponent>
 			<Armor head_armor="16" has_gender_variations="false" hair_cover_type="all" modifier_group="plate" material_type="Plate" />
 		</ItemComponent>
-		<Flags UseTeamColor="true" />
+		<Flags UseTeamColor="true" Civilian="true" />
 	</Item>
 	<!-- 轻革弓胴丸（战无2 解包件重定向；网格 tools/armor-pipeline/out/taikou_troop_yumi_ashigaru_do_a.fbx）
 	     普通物品：挂进 EquipmentRoster 只决定初始装备，可被扒/被偷/作战利品。 -->
@@ -270,6 +270,6 @@
 		<ItemComponent>
 			<Armor body_armor="14" leg_armor="6" arm_armor="2" has_gender_variations="false" covers_body="true" modifier_group="plate" material_type="Plate" />
 		</ItemComponent>
-		<Flags UseTeamColor="true" />
+		<Flags UseTeamColor="true" Civilian="true" />
 	</Item>
 </Items>

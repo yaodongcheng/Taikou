@@ -8,7 +8,7 @@
 				<WeaponFlags MeleeWeapon="true" />
 			</Weapon>
 		</ItemComponent>
-		<Flags />
+		<Flags Civilian="true" />
 	</Item>
 	<!-- 打刀（战无2 解包件重定向；网格 tools/armor-pipeline/out/taikou_troop_uchigatana_weapon_a.fbx）
 	     普通物品：挂进 EquipmentRoster 只决定初始装备，可被扒/被偷/作战利品。 -->
@@ -18,7 +18,7 @@
 				<WeaponFlags MeleeWeapon="true" />
 			</Weapon>
 		</ItemComponent>
-		<Flags />
+		<Flags Civilian="true" />
 	</Item>
 	<!-- 弓（战无2 解包件重定向；网格 tools/armor-pipeline/out/taikou_troop_yumi_weapon_a.fbx）
 	     普通物品：挂进 EquipmentRoster 只决定初始装备，可被扒/被偷/作战利品。 -->
@@ -28,7 +28,7 @@
 				<WeaponFlags RangedWeapon="true" HasString="true" StringHeldByHand="true" NotUsableWithOneHand="true" TwoHandIdleOnMount="true" AutoReload="true" UnloadWhenSheathed="true" />
 			</Weapon>
 		</ItemComponent>
-		<Flags ForceAttachOffHandPrimaryItemBone="true" />
+		<Flags ForceAttachOffHandPrimaryItemBone="true" Civilian="true" />
 	</Item>
 	<!-- 忍刀（战无2 解包件重定向；网格 tools/armor-pipeline/out/taikou_troop_shinobigatana_weapon_a.fbx）
 	     普通物品：挂进 EquipmentRoster 只决定初始装备，可被扒/被偷/作战利品。 -->
@@ -38,6 +38,6 @@
 				<WeaponFlags MeleeWeapon="true" />
 			</Weapon>
 		</ItemComponent>
-		<Flags />
+		<Flags Civilian="true" />
 	</Item>
 </Items>

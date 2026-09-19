@@ -27,6 +27,12 @@
 #     体检入口：Scripts/check_settlement_distance_cache.py
 ModuleData/settlements_distance_cache.bin
 #
+# 5.3 手工备份文件 —— 批量改动前脚本留的 `*.bak_*`（如 `weapons.xml.bak_civilian_20260919_1432`）。
+#     🔴 用**通配**而不是点名：点名 = 漏网（CLAUDE.md 铁律 26 的实测教训：点名了 `Debug/StoryEngine_RuntimeLog.txt`
+#        却漏掉同目录的 `prompt_dump_*.txt`，结果 21 个探针产物漏进库）。
+#     备份是"改坏了的退路"，不是数据源，不该进库。
+*.bak*
+#
 # 5.2 shader 编译缓存 —— D3D11 产物，与显卡/驱动/引擎版本绑定，跨机器无意义。
 #     （原注释「ShaderCache 是生成缓存，随 Main_map 一并入库」的决定已撤回。）
 SceneObj/Main_map/ShaderCache/

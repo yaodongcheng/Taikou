@@ -37,4 +37,23 @@
 	     回退方法：删掉下面这一行即可（item_holsters.xml 留着不生效，无害；
 	     但物品侧的 item_holsters="taikou_firearm..." 会查不到槽 → 需一并回退物品那两行）。 -->
 	<file id="soln_item_holsters" name="ModuleData/item_holsters.xml" type="item_holster"/>
+	<!-- 🔴 2026-09-19 启用第五、六行：soln_action_sets / soln_action_types（铁炮装填动画接线）。
+	     为什么必须开：这两个文件与 skins / module_sounds / item_holsters 同属 soln 体系，
+	     **不在 SubModule 的 XmlNode 体系里**——不开这两行 = ModuleData/action_{sets,types}.xml
+	     **从不解析** = act_gun_reload 静默不存在（实机症状：`custom.do_anim act_gun_reload` 报 act_none、
+	     铁炮装填照旧播引擎的弩动作）。
+	     为什么不会重演 09-08 那次崩：那次是 action_sets.xml **逐字拷贝 Native** → 同 soln id 合并出
+	     **重复定义** → KeyNotFoundException。本次两个文件合计只加**一个全新动作**（act_gun_reload）
+	     与**一条绑定**，与 Native 的动作名零交集 → 合并是纯追加，不冲突。
+	     （引擎侧合并函数 = Module.CreateProcessedActionSetsXMLForNative，已反编译确认：
+	       同 id 的 action_set 是由 C# 层【追加合并】进第一个，原版几千个动作不会被挤掉。）
+	     回退方法：删掉下面这两行即可（action_*.xml 留着不生效，无害）。 -->
+	<file id="soln_action_sets" name="ModuleData/action_sets.xml" type="action_set"/>
+	<file id="soln_action_types" name="ModuleData/action_types.xml" type="action_type"/>
+	<!-- 🔴 2026-09-19 启用第七行：soln_item_usage_sets —— 这一行是【探针】，不是功能。
+	     目的 = 验证"内容包注册 soln_item_usage_sets 之后，引擎到底读不读它"
+	     （背景与判据详见 ModuleData/item_usage_sets.xml 头部注释）。
+	     安全性：那个文件此刻是**空根** → 即使被合并进去也等于什么都没加，不会崩。
+	     回退方法：删掉下面这一行即可。 -->
+	<file id="soln_item_usage_sets" name="ModuleData/item_usage_sets.xml" type="item_usage_set"/>
 </base>

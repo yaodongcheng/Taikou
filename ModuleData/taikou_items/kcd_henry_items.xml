@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- ============================================================
+     KCD 亨利 —— 物品定义（独立文件，不碰 gen_weapon_items.py 的输出）
+     来源工程：plans/KCD亨利换装工程.md
+     资产：kcd_henry_sword_a（tools/kcd-pipeline 出网格 + split_rma.py 出贴图）
+     注册方式：Taikou 的 SubModule.xml 已注册 <XmlName id="Items" path="taikou_items"/>
+               → 引擎加载该目录下**全部** XML，新丢一个文件进来即生效
+     ⚠️ 铁律 22：taikou_items/weapons.xml 是 gen_weapon_items.py 的输出，禁止手改；
+        亨利的物品一律写在本文件里
+     ⚠️ 坑 12：<Item> 内部禁塞注释（引擎按下标盲读子节点）
+     ============================================================ -->
+<Items>
+
+	<Item id="kcd_henry_sword_a"
+	      name="{=KCD_henry_sword_a}Henry's Longsword"
+	      body_name="bo_sword_one_handed"
+	      mesh="kcd_henry_sword_a"
+	      culture="Culture.ikoku"
+	      weight="1.8"
+	      value="4500"
+	      difficulty="0"
+	      appearance="1.0"
+	      is_merchandise="true"
+	      Type="TwoHandedWeapon"
+	      item_holsters="sword_left_hip">
+		<ItemComponent>
+			<Weapon
+				weapon_class="TwoHandedSword"
+				thrust_speed="90"
+				speed_rating="88"
+				weapon_length="125"
+				swing_damage="62"
+				swing_damage_type="Cut"
+				thrust_damage="45"
+				thrust_damage_type="Pierce"
+				item_usage="twohanded_block_swing_thrust"
+				physics_material="metal_weapon"
+				center_of_mass="0,0,0.15">
+				<WeaponFlags MeleeWeapon="true" />
+			</Weapon>
+		</ItemComponent>
+		<Flags Civilian="true" />
+	</Item>
+
+</Items>

@@ -10,19 +10,19 @@
 		<ItemComponent>
 			<Armor head_armor="34" has_gender_variations="false" hair_cover_type="all" beard_cover_type="type2" modifier_group="plate" material_type="Plate" />
 		</ItemComponent>
-		<Flags UseTeamColor="true" />
+		<Flags UseTeamColor="true"  Civilian="true" />
 	</Item>
 	<Item id="kettle_hat_over_mail_coif" name="{=tMLH04n4}Kettle Hat over Mail Coif" mesh="vlandia_helmet_i_a" culture="Culture.ikoku" weight="2.9" appearance="2.8" Type="HeadArmor">
 		<ItemComponent>
 			<Armor head_armor="42" has_gender_variations="false" hair_cover_type="all" beard_cover_type="all" modifier_group="chain" material_type="Chainmail" />
 		</ItemComponent>
-		<Flags UseTeamColor="true" />
+		<Flags UseTeamColor="true"  Civilian="true" />
 	</Item>
 	<Item id="nasal_helmet_with_mail" name="{=EWR2MNeM}Nasal Helmet with Mail" subtype="head_armor" mesh="nasal_helmet_reinforced" culture="Culture.ikoku" weight="2.5" difficulty="0" appearance="3" Type="HeadArmor">
 		<ItemComponent>
 			<Armor head_armor="39" has_gender_variations="false" hair_cover_type="all" modifier_group="plate" material_type="Plate" />
 		</ItemComponent>
-		<Flags />
+		<Flags Civilian="true" />
 	</Item>
 	<!-- ⚠️⚠️ **占位·无真实模型** ——「六文钱前立兜」（真田幸村 的兜）
 	     战无2 原模型里这块与头部/头发连体，没有独立网格可导（2026-09-15 用户裁定：

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <!-- 太阁火器 —— 铁炮（火绳枪）与弹药。
      🔴 三个要点（2026-09-15 调研 + 2026-09-16 实机修正，改之前先读）：
      ① **火器标记用 ammo_class="Cartridge"，不是 Bolt**。原版弩兵的武器同样是
@@ -31,11 +31,11 @@
 	           杂贺孙一专属 (taikou_magoichi_weapon_a)（伤害 200 / 射速 88 / 精度 40） -->
 	<Item id="taikou_teppo" name="{=TAIKOU_teppo}Matchlock" body_name="bo_composite_crossbows" mesh="taikou_troop_teppo_weapon_a" culture="Culture.ikoku" weight="4.0" value="8000" difficulty="0" appearance="1.0" Type="Crossbow" item_holsters="taikou_firearm:taikou_firearm_2">
 		<ItemComponent>
-			<Weapon weapon_class="Crossbow" ammo_class="Cartridge" ammo_limit="1" missile_speed="550" accuracy="30" thrust_speed="85" speed_rating="65" weapon_length="120" thrust_damage="180" thrust_damage_type="Pierce" item_usage="crossbow" physics_material="wood_weapon" center_of_mass="0,0,0.4">
+			<Weapon weapon_class="Crossbow" ammo_class="Cartridge" ammo_limit="1" reload_phase_count="2" missile_speed="550" accuracy="30" thrust_speed="85" speed_rating="65" weapon_length="120" thrust_damage="180" thrust_damage_type="Pierce" item_usage="tk_firearm" physics_material="wood_weapon" center_of_mass="0,0,0.4">
 				<WeaponFlags RangedWeapon="true" HasString="true" UseHandAsThrowBase="true" NotUsableWithOneHand="true" TwoHandIdleOnMount="true" BonusAgainstShield="true" />
 			</Weapon>
 		</ItemComponent>
-		<Flags />
+		<Flags Civilian="true" />
 	</Item>
 	<!-- 铁炮弹药。武器侧 ammo_class="Cartridge" ↔ 这里 weapon_class="Cartridge"，必须成对。
 	     stack_amount 是单次带弹量（铁炮 ammo_limit=1，打一发装一发）。 -->
@@ -45,6 +45,6 @@
 				<WeaponFlags Consumable="true" AmmoSticksWhenShot="true" AmmoBreaksOnBounceBack="true" />
 			</Weapon>
 		</ItemComponent>
-		<Flags />
+		<Flags Civilian="true" />
 	</Item>
 </Items>

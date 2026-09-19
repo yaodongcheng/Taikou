@@ -1,5 +1,19 @@
-<!--You can add new or override old action types by adding nodes to this xml. For examples please refer to: Native/ModuleData/action_types.xml.-->
-<action_types>
-	<replace_this_with_actual_nodes/>
-</action_types>
+<!-- Taikou 的动画接线正本之一：动作名声明。
+     动画资产本体 = AssetPackages/lwn_taikou_anim.tpac（由中转模块 TaikouAnim 编译后手工拷入）。
+     本文件由 ModuleData/project.mbproj 的 soln_action_types 那一行注册 —— 不挂那行 = 文件从不解析。
 
+     🔴 2026-09-19 启用。为什么不会重演 09-08 那次崩：那次是 Taikou 的 action_sets.xml **逐字拷贝 Native**
+        → 同 soln id 合并出重复定义 → KeyNotFoundException。本次只声明【一个全新动作】 act_gun_reload，
+        与 Native 的动作名**零交集** → 合并是纯追加，不冲突。
+     回退方法：删掉 mbproj 里 soln_action_types 那一行即可。 -->
+<action_types>
+	<!-- 🔴 type / action_stage 照 Native 的 act_reload_crossbow 抄（同一套属性）：
+	     引擎靠这两个属性把动作认成"装填"，并挂进装填状态机（mid = 主段）。
+	     不带这两个属性 = 动作存在、能手动播，但引擎的装填流程不会用它。
+	     注：action_stage 是"类别"不是"唯一占位"—— 织丰的 act_reload_musket 也用同一个 stage，
+	     具体播哪条由 usage 的 reload_action 决定（见 item_usage_sets.xml）。 -->
+	<action
+		name="act_gun_reload"
+		type="actt_reload"
+		action_stage="as_reload_mid_phase" />
+</action_types>

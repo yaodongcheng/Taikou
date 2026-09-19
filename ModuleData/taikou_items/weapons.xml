@@ -6,7 +6,7 @@
 				<WeaponFlags MeleeWeapon="true" />
 			</Weapon>
 		</ItemComponent>
-		<Flags DropOnWeaponChange="true" ForceAttachOffHandPrimaryItemBone="true" HeldInOffHand="true" HasToBeHeldUp="true" />
+		<Flags DropOnWeaponChange="true" ForceAttachOffHandPrimaryItemBone="true" HeldInOffHand="true" HasToBeHeldUp="true"  Civilian="true" />
 	</Item>
 	<CraftedItem id="peasant_pickaxe_1_t1" name="{=zUFRE9y4}Pickaxe" crafting_template="OneHandedAxe" modifier_group="cheap_weapon">
 		<Pieces>
@@ -28,7 +28,7 @@
 				<WeaponFlags MeleeWeapon="true" />
 			</Weapon>
 		</ItemComponent>
-		<Flags />
+		<Flags Civilian="true" />
 	</Item>
 	<CraftedItem id="western_spear_1_t2" name="{=hyq1zBg5}Simple Commoner Spear" crafting_template="TwoHandedPolearm" culture="Culture.ikoku" modifier_group="polearm">
 		<Pieces>
@@ -101,7 +101,7 @@
 				<WeaponFlags RangedWeapon="true" HasString="true" StringHeldByHand="true" NotUsableWithOneHand="true" TwoHandIdleOnMount="true" AutoReload="true" UnloadWhenSheathed="true" />
 			</Weapon>
 		</ItemComponent>
-		<Flags ForceAttachOffHandPrimaryItemBone="true" />
+		<Flags ForceAttachOffHandPrimaryItemBone="true"  Civilian="true" />
 	</Item>
 	<Item id="nordic_shortbow" name="{=tEimkEsU}Nordic Shortbow" body_name="bo_composite_shotbow_c" mesh="shortbow_e" culture="Culture.ikoku" weight="0.3" difficulty="30" appearance="0.6" Type="Bow" item_holsters="bow_hip:bow_hip_2:bow_back:bow_back_2">
 		<ItemComponent>
@@ -109,7 +109,7 @@
 				<WeaponFlags RangedWeapon="true" HasString="true" StringHeldByHand="true" NotUsableWithOneHand="true" TwoHandIdleOnMount="true" AutoReload="true" UnloadWhenSheathed="true" />
 			</Weapon>
 		</ItemComponent>
-		<Flags ForceAttachOffHandPrimaryItemBone="true" />
+		<Flags ForceAttachOffHandPrimaryItemBone="true"  Civilian="true" />
 	</Item>
 	<CraftedItem id="leafblade_throwing_knife" name="{=te48yHa8}Leafblade Throwing Knife" culture="Culture.ikoku" crafting_template="ThrowingKnife" modifier_group="knife_throwing">
 		<Pieces>
@@ -125,7 +125,7 @@
 				<WeaponFlags Consumable="true" AmmoSticksWhenShot="true" AmmoBreaksOnBounceBack="true" />
 			</Weapon>
 		</ItemComponent>
-		<Flags />
+		<Flags Civilian="true" />
 	</Item>
 	<Item id="blunt_arrows" name="{=DC0qJkVs}Blunt Arrows" is_merchandise="false" body_name="bo_capsule_arrow" holster_body_name="bo_axe_short" mesh="arrow_bl_i" holster_mesh="arrow_bl_i_quiver" holster_mesh_with_weapon="arrow_bl_i_quiver" culture="Culture.ikoku" weight="0.05" flying_mesh="arrow_bl_flying" appearance="1" Type="Arrows" item_holsters="quiver_back_middle:quiver_back_top:quiver_bolts:quiver_bolts_2" holster_position_shift="0.0,0.0,0.15">
 		<ItemComponent>
@@ -133,7 +133,7 @@
 				<WeaponFlags Consumable="true" AmmoSticksWhenShot="true" AmmoBreaksOnBounceBack="true" />
 			</Weapon>
 		</ItemComponent>
-		<Flags />
+		<Flags Civilian="true" />
 	</Item>
 	<!-- bolt_e：原版弹药定义拷入（远程武器要自给；本块由 gen_weapon_items.py 产出） -->
 <Item
@@ -176,7 +176,7 @@
 			</Weapon>
 		</ItemComponent>
 		<Flags
-			ForceAttachOffHandPrimaryItemBone="true" />
+			ForceAttachOffHandPrimaryItemBone="true"  Civilian="true" />
 	</Item>
 	<!-- piercing_arrows：原版弹药定义拷入（远程武器要自给；本块由 gen_weapon_items.py 产出） -->
 <Item
@@ -218,7 +218,7 @@
 					AmmoBreaksOnBounceBack="true" />
 			</Weapon>
 		</ItemComponent>
-		<Flags />
+		<Flags Civilian="true" />
 	</Item>
 	<!-- 真田幸村 的枪（战无2 解包件重定向；网格 tools/armor-pipeline/out/taikou_yukimura_weapon_a.fbx）
 	     普通物品：挂进 EquipmentRoster 只决定初始装备，可被扒/被偷/作战利品。 -->
@@ -228,7 +228,7 @@
 				<WeaponFlags MeleeWeapon="true" />
 			</Weapon>
 		</ItemComponent>
-		<Flags />
+		<Flags Civilian="true" />
 	</Item>
 	<!-- 前田庆次 的枪（战无2 解包件重定向；网格 tools/armor-pipeline/out/taikou_keiji_weapon_a.fbx）
 	     普通物品：挂进 EquipmentRoster 只决定初始装备，可被扒/被偷/作战利品。 -->
@@ -238,7 +238,7 @@
 				<WeaponFlags MeleeWeapon="true" />
 			</Weapon>
 		</ItemComponent>
-		<Flags />
+		<Flags Civilian="true" />
 	</Item>
 	<!-- 织田信长 的太刀（战无2 解包件重定向；网格 tools/armor-pipeline/out/taikou_nobunaga_weapon_a.fbx）
 	     普通物品：挂进 EquipmentRoster 只决定初始装备，可被扒/被偷/作战利品。 -->
@@ -248,7 +248,7 @@
 				<WeaponFlags MeleeWeapon="true" TwoHandIdleOnMount="true" />
 			</Weapon>
 		</ItemComponent>
-		<Flags />
+		<Flags Civilian="true" />
 	</Item>
 	<!-- 明智光秀 的太刀（战无2 解包件重定向；网格 tools/armor-pipeline/out/taikou_mitsuhide_weapon_a.fbx）
 	     普通物品：挂进 EquipmentRoster 只决定初始装备，可被扒/被偷/作战利品。 -->
@@ -258,7 +258,7 @@
 				<WeaponFlags MeleeWeapon="true" TwoHandIdleOnMount="true" />
 			</Weapon>
 		</ItemComponent>
-		<Flags />
+		<Flags Civilian="true" />
 	</Item>
 	<!-- 上杉谦信 的枪（战无2 解包件重定向；网格 tools/armor-pipeline/out/taikou_kenshin_weapon_a.fbx）
 	     普通物品：挂进 EquipmentRoster 只决定初始装备，可被扒/被偷/作战利品。 -->
@@ -268,7 +268,7 @@
 				<WeaponFlags MeleeWeapon="true" />
 			</Weapon>
 		</ItemComponent>
-		<Flags />
+		<Flags Civilian="true" />
 	</Item>
 	<!-- 阿市 的刀（战无2 解包件重定向；网格 tools/armor-pipeline/out/taikou_oichi_weapon_a.fbx）
 	     普通物品：挂进 EquipmentRoster 只决定初始装备，可被扒/被偷/作战利品。 -->
@@ -278,7 +278,7 @@
 				<WeaponFlags MeleeWeapon="true" />
 			</Weapon>
 		</ItemComponent>
-		<Flags />
+		<Flags Civilian="true" />
 	</Item>
 	<!-- 出云阿国 的枪（战无2 解包件重定向；网格 tools/armor-pipeline/out/taikou_okuni_weapon_a.fbx）
 	     普通物品：挂进 EquipmentRoster 只决定初始装备，可被扒/被偷/作战利品。 -->
@@ -288,27 +288,17 @@
 				<WeaponFlags MeleeWeapon="true" />
 			</Weapon>
 		</ItemComponent>
-		<Flags />
+		<Flags Civilian="true" />
 	</Item>
 	<!-- 杂贺孙一 的铁炮（战无2 解包件重定向；网格 tools/armor-pipeline/out/taikou_magoichi_weapon_a.fbx）
-	     普通物品：挂进 EquipmentRoster 只决定初始装备，可被扒/被偷/作战利品。
-	     🔴 2026-09-15 火器化：ammo_class Bolt→Cartridge（弹药同步换 Item.taikou_teppo_ammo）。
-	     改 Cartridge 是为了和原版弩兵区分（原版弩也是 Crossbow+Bolt，火器特效逻辑按
-	     ammo_class 认火器，用 Bolt 会把原版弩兵一起误判）。
-	     🔴 2026-09-16 修正：item_usage **必须用原版 `crossbow`**，不能用自定义名——
-	     `item_usage_sets.xml` 只由 **Native 模块**加载（引擎硬编码，字符串只在 TaleWorlds.Native.dll 里，
-	     托管层没有对应 XmlName，内容包注册不了）。内容包写自定义 usage 名 = 该 usage 永远不存在，
-	     掏出武器时 native 取到无效索引 → AccessViolationException（2026-09-16 实机踩实）。
-	     🔴 2026-09-16 背后挂接：**不用弩的 `crossbow_back`**（跟弩挂 = 枪管朝天，网格 +Z 是枪口、
-	     长 1.6m），改走专用的 `taikou_firearm` 槽；🔴 2026-09-17 换值 = 整套照抄原版长兵器槽
-	     `polearm_back`。定义与来源见 `ModuleData/item_holsters.xml`。 -->
-	<Item id="taikou_magoichi_weapon_a" name="{=TAIKOU_magoichi_weapon_a}Saika Magoichi's Matchlock" body_name="bo_composite_crossbows" mesh="taikou_magoichi_weapon_a" culture="Culture.ikoku" weight="4.5" value="50000" difficulty="0" appearance="1.0" Type="Crossbow" item_holsters="taikou_firearm:taikou_firearm_2">
+	     普通物品：挂进 EquipmentRoster 只决定初始装备，可被扒/被偷/作战利品。 -->
+	<Item id="taikou_magoichi_weapon_a" name="{=TAIKOU_magoichi_weapon_a}Saika Magoichi's Matchlock" body_name="bo_composite_crossbows" mesh="taikou_magoichi_weapon_a" culture="Culture.ikoku" weight="4.5" value="50000" difficulty="0" appearance="1.0" Type="Crossbow" item_holsters="crossbow_back">
 		<ItemComponent>
-			<Weapon weapon_class="Crossbow" ammo_class="Cartridge" ammo_limit="1" missile_speed="600" accuracy="40" thrust_speed="93" speed_rating="88" weapon_length="159" thrust_damage="200" thrust_damage_type="Pierce" item_usage="crossbow" physics_material="wood_weapon" center_of_mass="0,0,0.4">
+			<Weapon weapon_class="Crossbow" ammo_class="Cartridge" ammo_limit="1" reload_phase_count="2" missile_speed="600" accuracy="40" thrust_speed="93" speed_rating="88" weapon_length="159" thrust_damage="200" thrust_damage_type="Pierce" item_usage="tk_firearm" physics_material="wood_weapon" center_of_mass="0,0,0.4">
 				<WeaponFlags RangedWeapon="true" HasString="true" UseHandAsThrowBase="true" NotUsableWithOneHand="true" TwoHandIdleOnMount="true" BonusAgainstShield="true" />
 			</Weapon>
 		</ItemComponent>
-		<Flags />
+		<Flags Civilian="true" />
 	</Item>
 	<!-- 佐佐木小次郎 的太刀（战无2 解包件重定向；网格 tools/armor-pipeline/out/taikou_kojiro_weapon_a.fbx）
 	     普通物品：挂进 EquipmentRoster 只决定初始装备，可被扒/被偷/作战利品。 -->
@@ -318,7 +308,7 @@
 				<WeaponFlags MeleeWeapon="true" TwoHandIdleOnMount="true" />
 			</Weapon>
 		</ItemComponent>
-		<Flags />
+		<Flags Civilian="true" />
 	</Item>
 	<!-- 柴田胜家 的枪（战无2 解包件重定向；网格 tools/armor-pipeline/out/taikou_katsuie_weapon_a.fbx）
 	     普通物品：挂进 EquipmentRoster 只决定初始装备，可被扒/被偷/作战利品。 -->
@@ -328,7 +318,7 @@
 				<WeaponFlags MeleeWeapon="true" />
 			</Weapon>
 		</ItemComponent>
-		<Flags />
+		<Flags Civilian="true" />
 	</Item>
 	<!-- 武田信玄 的刀（战无2 解包件重定向；网格 tools/armor-pipeline/out/taikou_shingen_weapon_a.fbx）
 	     普通物品：挂进 EquipmentRoster 只决定初始装备，可被扒/被偷/作战利品。 -->
@@ -338,7 +328,7 @@
 				<WeaponFlags MeleeWeapon="true" />
 			</Weapon>
 		</ItemComponent>
-		<Flags />
+		<Flags Civilian="true" />
 	</Item>
 	<!-- 伊达政宗 的太刀（战无2 解包件重定向；网格 tools/armor-pipeline/out/taikou_masamune_weapon_a.fbx）
 	     普通物品：挂进 EquipmentRoster 只决定初始装备，可被扒/被偷/作战利品。 -->
@@ -348,7 +338,7 @@
 				<WeaponFlags MeleeWeapon="true" TwoHandIdleOnMount="true" />
 			</Weapon>
 		</ItemComponent>
-		<Flags />
+		<Flags Civilian="true" />
 	</Item>
 	<!-- 归蝶 的太刀（战无2 解包件重定向；网格 tools/armor-pipeline/out/taikou_nouhime_weapon_a.fbx）
 	     普通物品：挂进 EquipmentRoster 只决定初始装备，可被扒/被偷/作战利品。 -->
@@ -358,7 +348,7 @@
 				<WeaponFlags MeleeWeapon="true" TwoHandIdleOnMount="true" />
 			</Weapon>
 		</ItemComponent>
-		<Flags />
+		<Flags Civilian="true" />
 	</Item>
 	<!-- 服部半藏 的刀（战无2 解包件重定向；网格 tools/armor-pipeline/out/taikou_hanzo_weapon_a.fbx）
 	     普通物品：挂进 EquipmentRoster 只决定初始装备，可被扒/被偷/作战利品。 -->
@@ -368,7 +358,7 @@
 				<WeaponFlags MeleeWeapon="true" />
 			</Weapon>
 		</ItemComponent>
-		<Flags />
+		<Flags Civilian="true" />
 	</Item>
 	<!-- 森兰丸 的太刀（战无2 解包件重定向；网格 tools/armor-pipeline/out/taikou_rammaru_weapon_a.fbx）
 	     普通物品：挂进 EquipmentRoster 只决定初始装备，可被扒/被偷/作战利品。 -->
@@ -378,7 +368,7 @@
 				<WeaponFlags MeleeWeapon="true" TwoHandIdleOnMount="true" />
 			</Weapon>
 		</ItemComponent>
-		<Flags />
+		<Flags Civilian="true" />
 	</Item>
 	<!-- 丰臣秀吉 的枪（战无2 解包件重定向；网格 tools/armor-pipeline/out/taikou_hideyoshi_weapon_a.fbx）
 	     普通物品：挂进 EquipmentRoster 只决定初始装备，可被扒/被偷/作战利品。 -->
@@ -388,7 +378,7 @@
 				<WeaponFlags MeleeWeapon="true" />
 			</Weapon>
 		</ItemComponent>
-		<Flags />
+		<Flags Civilian="true" />
 	</Item>
 	<!-- 本多忠胜 的枪（战无2 解包件重定向；网格 tools/armor-pipeline/out/taikou_tadakatsu_weapon_a.fbx）
 	     普通物品：挂进 EquipmentRoster 只决定初始装备，可被扒/被偷/作战利品。 -->
@@ -398,7 +388,7 @@
 				<WeaponFlags MeleeWeapon="true" />
 			</Weapon>
 		</ItemComponent>
-		<Flags />
+		<Flags Civilian="true" />
 	</Item>
 	<!-- 稻姬 的弓（战无2 解包件重定向；网格 tools/armor-pipeline/out/taikou_inahime_weapon_a.fbx）
 	     普通物品：挂进 EquipmentRoster 只决定初始装备，可被扒/被偷/作战利品。 -->
@@ -408,7 +398,7 @@
 				<WeaponFlags RangedWeapon="true" HasString="true" StringHeldByHand="true" NotUsableWithOneHand="true" TwoHandIdleOnMount="true" AutoReload="true" UnloadWhenSheathed="true" />
 			</Weapon>
 		</ItemComponent>
-		<Flags ForceAttachOffHandPrimaryItemBone="true" />
+		<Flags ForceAttachOffHandPrimaryItemBone="true" Civilian="true" />
 	</Item>
 	<!-- 德川家康 的枪（战无2 解包件重定向；网格 tools/armor-pipeline/out/taikou_ieyasu_weapon_a.fbx）
 	     普通物品：挂进 EquipmentRoster 只决定初始装备，可被扒/被偷/作战利品。 -->
@@ -418,7 +408,7 @@
 				<WeaponFlags MeleeWeapon="true" />
 			</Weapon>
 		</ItemComponent>
-		<Flags />
+		<Flags Civilian="true" />
 	</Item>
 	<!-- 石田三成 的刀（战无2 解包件重定向；网格 tools/armor-pipeline/out/taikou_mitsunari_weapon_a.fbx）
 	     普通物品：挂进 EquipmentRoster 只决定初始装备，可被扒/被偷/作战利品。 -->
@@ -428,7 +418,7 @@
 				<WeaponFlags MeleeWeapon="true" />
 			</Weapon>
 		</ItemComponent>
-		<Flags />
+		<Flags Civilian="true" />
 	</Item>
 	<!-- 浅井长政 的枪（战无2 解包件重定向；网格 tools/armor-pipeline/out/taikou_nagamasa_weapon_a.fbx）
 	     普通物品：挂进 EquipmentRoster 只决定初始装备，可被扒/被偷/作战利品。 -->
@@ -438,7 +428,7 @@
 				<WeaponFlags MeleeWeapon="true" />
 			</Weapon>
 		</ItemComponent>
-		<Flags />
+		<Flags Civilian="true" />
 	</Item>
 	<!-- 岛左近 的太刀（战无2 解包件重定向；网格 tools/armor-pipeline/out/taikou_sakon_weapon_a.fbx）
 	     普通物品：挂进 EquipmentRoster 只决定初始装备，可被扒/被偷/作战利品。 -->
@@ -448,7 +438,7 @@
 				<WeaponFlags MeleeWeapon="true" TwoHandIdleOnMount="true" />
 			</Weapon>
 		</ItemComponent>
-		<Flags />
+		<Flags Civilian="true" />
 	</Item>
 	<!-- 岛津义弘 的枪（战无2 解包件重定向；网格 tools/armor-pipeline/out/taikou_yoshihiro_weapon_a.fbx）
 	     普通物品：挂进 EquipmentRoster 只决定初始装备，可被扒/被偷/作战利品。 -->
@@ -458,7 +448,7 @@
 				<WeaponFlags MeleeWeapon="true" />
 			</Weapon>
 		</ItemComponent>
-		<Flags />
+		<Flags Civilian="true" />
 	</Item>
 	<!-- 訚千代 的枪（战无2 解包件重定向；网格 tools/armor-pipeline/out/taikou_ginchiyo_weapon_a.fbx）
 	     普通物品：挂进 EquipmentRoster 只决定初始装备，可被扒/被偷/作战利品。 -->
@@ -468,7 +458,7 @@
 				<WeaponFlags MeleeWeapon="true" />
 			</Weapon>
 		</ItemComponent>
-		<Flags />
+		<Flags Civilian="true" />
 	</Item>
 	<!-- 直江兼续 的枪（战无2 解包件重定向；网格 tools/armor-pipeline/out/taikou_kanetsugu_weapon_a.fbx）
 	     普通物品：挂进 EquipmentRoster 只决定初始装备，可被扒/被偷/作战利品。 -->
@@ -478,7 +468,7 @@
 				<WeaponFlags MeleeWeapon="true" />
 			</Weapon>
 		</ItemComponent>
-		<Flags />
+		<Flags Civilian="true" />
 	</Item>
 	<!-- 宁宁 的刀（战无2 解包件重定向；网格 tools/armor-pipeline/out/taikou_nene_weapon_a.fbx）
 	     普通物品：挂进 EquipmentRoster 只决定初始装备，可被扒/被偷/作战利品。 -->
@@ -488,7 +478,7 @@
 				<WeaponFlags MeleeWeapon="true" />
 			</Weapon>
 		</ItemComponent>
-		<Flags />
+		<Flags Civilian="true" />
 	</Item>
 	<!-- 风魔小太郎 的刀（战无2 解包件重定向；网格 tools/armor-pipeline/out/taikou_kotaro_weapon_a.fbx）
 	     普通物品：挂进 EquipmentRoster 只决定初始装备，可被扒/被偷/作战利品。 -->
@@ -498,7 +488,7 @@
 				<WeaponFlags MeleeWeapon="true" />
 			</Weapon>
 		</ItemComponent>
-		<Flags />
+		<Flags Civilian="true" />
 	</Item>
 	<!-- 宫本武藏 的太刀（战无2 解包件重定向；网格 tools/armor-pipeline/out/taikou_musashi_weapon_a.fbx）
 	     普通物品：挂进 EquipmentRoster 只决定初始装备，可被扒/被偷/作战利品。 -->
@@ -508,6 +498,6 @@
 				<WeaponFlags MeleeWeapon="true" TwoHandIdleOnMount="true" />
 			</Weapon>
 		</ItemComponent>
-		<Flags />
+		<Flags Civilian="true" />
 	</Item>
 </Items>

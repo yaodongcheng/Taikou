@@ -4,6 +4,6 @@
 		<ItemComponent>
 			<Armor arm_armor="23" covers_hands="true" modifier_group="chain" material_type="Chainmail" />
 		</ItemComponent>
-		<Flags />
+		<Flags Civilian="true" />
 	</Item>
 </Items>

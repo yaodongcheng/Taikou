@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Taikou 的自定义物品动作组：铁炮专用（把"装填"那一条换成我们自己的动画）。
+
+     🔴 写法（2026-09-19 定稿，**不用 base_set 继承**）：
+        整块**逐字抄**自 Modules/Native/ModuleData/item_usage_sets.xml 的 <item_usage_set id="crossbow">，
+        只改两处：① id 改成 tk_firearm  ② 站立那条 usage 的 reload_action 换成 act_gun_reload。
+        骑马那条 reload_action 保持原版（act_reload_crossbow_horseback —— 这条自制动画是站姿，马上播会很怪）。
+        其余（flags / idles / movement_sets / rider_idles / 音效）**与原版逐字节相同** —— 等于
+        "原版弩的用法原封不动，只换一个装填动作"，不留任何未验证的继承行为。
+
+     🔴 为什么废弃 base_set 版：`base_set="crossbow"` 只覆盖 <usages> 的写法**实机失败** ——
+        症状 = 能拔枪但点不出装填（2026-09-19）。线索：织丰的 musket_fast 明明 base_set="musket"，
+        却又把 <flags> 完整重写了一遍 ⇒ 未声明的段很可能**不继承**。
+        回退保底：把物品的 item_usage 改回 "crossbow" 即可（一行）。
+
+     判据（这条链正常工作的证据）：引擎日志出现
+        opening .../Modules/Taikou/ModuleData/item_usage_sets.xml          （文件被读）
+     探针背景见 git 历史（2026-09-19 用空根验证过"内容包注册 soln_item_usage_sets 确实会加载"）。 -->
+<item_usage_sets>
+	<item_usage_set
+		id="tk_firearm"
+		has_single_stance="true"
+		last_arrow_sound="event:/mission/combat/last_arrow"
+		equip_sound="event:/mission/combat/equip/bow_equip"
+		unequip_sound="event:/mission/combat/equip/bow_unequip">
+		<flags>
+			<flag
+				name="requires_no_shield" />
+		</flags>
+		<idles>
+			<idle
+				action="act_idle_crossbow_1"
+				is_left_stance="False"
+				require_free_left_hand="False" />
+		</idles>
+		<movement_sets>
+			<movement_set
+				id="crossbow" />
+		</movement_sets>
+		<rider_idles>
+			<rider_idle
+				mount_id="horse"
+				pace="1"
+				action="act_rider_idle_crossbow_1"
+				require_free_left_hand="True"
+				required_mount_action="act_horse_idle_1" />
+			<rider_idle
+				mount_id="horse"
+				pace="1"
+				action="act_rider_idle_crossbow_2"
+				require_free_left_hand="True"
+				required_mount_action="act_horse_idle_2" />
+			<rider_idle
+				mount_id="horse"
+				pace="1"
+				action="act_rider_idle_crossbow_3"
+				require_free_left_hand="True"
+				required_mount_action="act_horse_idle_3" />
+			<rider_idle
+				mount_id="horse"
+				pace="1"
+				action="act_rider_idle_crossbow_4"
+				require_free_left_hand="True"
+				required_mount_action="act_horse_idle_4" />
+			<rider_idle
+				mount_id="horse"
+				pace="1"
+				action="act_rider_stand_crossbow_1"
+				require_free_left_hand="True"
+				required_mount_action="act_horse_stand_1" />
+			<rider_idle
+				mount_id="horse"
+				pace="1"
+				action="act_rider_stand_crossbow_2"
+				require_free_left_hand="True"
+				required_mount_action="act_horse_stand_2" />
+			<rider_idle
+				mount_id="horse"
+				pace="1"
+				action="act_rider_stand_crossbow_3"
+				require_free_left_hand="True"
+				required_mount_action="act_horse_stand_3" />
+			<rider_idle
+				mount_id="horse"
+				pace="1"
+				action="act_rider_stand_crossbow_4"
+				require_free_left_hand="True"
+				required_mount_action="act_horse_stand_4" />
+			<rider_idle
+				mount_id="camel"
+				pace="1"
+				action="act_camel_rider_idle_crossbow_1"
+				require_free_left_hand="True"
+				required_mount_action="act_camel_idle_1" />
+			<rider_idle
+				mount_id="camel"
+				pace="1"
+				action="act_camel_rider_idle_crossbow_2"
+				require_free_left_hand="True"
+				required_mount_action="act_camel_idle_2" />
+			<rider_idle
+				mount_id="camel"
+				pace="1"
+				action="act_camel_rider_idle_crossbow_3"
+				require_free_left_hand="True"
+				required_mount_action="act_camel_idle_3" />
+			<rider_idle
+				mount_id="camel"
+				pace="1"
+				action="act_camel_rider_idle_crossbow_4"
+				require_free_left_hand="True"
+				required_mount_action="act_camel_idle_4" />
+			<rider_idle
+				mount_id="camel"
+				pace="1"
+				action="act_camel_rider_idle_crossbow_5"
+				require_free_left_hand="True"
+				required_mount_action="act_camel_idle_5" />
+			<rider_idle
+				mount_id="camel"
+				pace="1"
+				action="act_camel_rider_stand_crossbow_1"
+				require_free_left_hand="True"
+				required_mount_action="act_camel_stand_1" />
+			<rider_idle
+				mount_id="camel"
+				pace="1"
+				action="act_camel_rider_stand_crossbow_2"
+				require_free_left_hand="True"
+				required_mount_action="act_camel_stand_2" />
+			<rider_idle
+				mount_id="camel"
+				pace="1"
+				action="act_camel_rider_stand_crossbow_3"
+				require_free_left_hand="True"
+				required_mount_action="act_camel_stand_3" />
+			<rider_idle
+				mount_id="camel"
+				pace="1"
+				action="act_camel_rider_stand_crossbow_4"
+				require_free_left_hand="True"
+				required_mount_action="act_camel_stand_4" />
+			<rider_idle
+				mount_id="camel"
+				pace="1"
+				action="act_camel_rider_stand_crossbow_5"
+				require_free_left_hand="True"
+				required_mount_action="act_camel_stand_5" />
+			<rider_idle
+				mount_id="horse"
+				pace="0"
+				action="act_rider_stand_crossbow_pace_0"
+				require_free_left_hand="True" />
+			<rider_idle
+				mount_id="horse"
+				pace="1"
+				action="act_rider_stand_crossbow_pace_1"
+				require_free_left_hand="True" />
+			<rider_idle
+				mount_id="horse"
+				pace="2"
+				action="act_rider_stand_crossbow_pace_2"
+				require_free_left_hand="True" />
+			<rider_idle
+				mount_id="horse"
+				pace="3"
+				action="act_rider_stand_crossbow_pace_3"
+				require_free_left_hand="True" />
+			<rider_idle
+				mount_id="horse"
+				pace="4"
+				action="act_rider_stand_crossbow_pace_4"
+				require_free_left_hand="True" />
+			<rider_idle
+				mount_id="horse"
+				pace="5"
+				action="act_rider_stand_crossbow_pace_5"
+				require_free_left_hand="True" />
+			<rider_idle
+				mount_id="camel"
+				pace="0"
+				action="act_camel_rider_stand_crossbow_pace_0"
+				require_free_left_hand="True" />
+			<rider_idle
+				mount_id="camel"
+				pace="1"
+				action="act_camel_rider_stand_crossbow_pace_1"
+				require_free_left_hand="True" />
+			<rider_idle
+				mount_id="camel"
+				pace="2"
+				action="act_camel_rider_stand_crossbow_pace_2"
+				require_free_left_hand="True" />
+			<rider_idle
+				mount_id="camel"
+				pace="3"
+				action="act_camel_rider_stand_crossbow_pace_3"
+				require_free_left_hand="True" />
+			<rider_idle
+				mount_id="camel"
+				pace="4"
+				action="act_camel_rider_stand_crossbow_pace_4"
+				require_free_left_hand="True" />
+			<rider_idle
+				mount_id="camel"
+				pace="5"
+				action="act_camel_rider_stand_crossbow_pace_5"
+				require_free_left_hand="True" />
+		</rider_idles>
+		<usages>
+			<usage
+				style="attack_any"
+				ready_action="act_ready_crossbow"
+				release_action="act_release_crossbow"
+				ready_continue_ranged_action="act_ready_continue_crossbow"
+				reload_action="act_gun_reload"
+				is_mounted="False"
+				require_free_left_hand="False"
+				strike_type="thrust" />
+			<usage
+				style="attack_any"
+				ready_action="act_ready_crossbow"
+				release_action="act_release_crossbow"
+				ready_continue_ranged_action="act_ready_continue_crossbow"
+				reload_action="act_reload_crossbow_horseback"
+				is_mounted="True"
+				require_free_left_hand="False"
+				strike_type="thrust" />
+		</usages>
+	</item_usage_set>
+</item_usage_sets>

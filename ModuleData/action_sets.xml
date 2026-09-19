@@ -1,5 +1,21 @@
-<!--You can add new or override old action sets by adding nodes to this xml. For examples please refer to: Native/ModuleData/action_sets.xml.-->
-<action_sets>
-	<replace_this_with_actual_nodes/>
-</action_sets>
+<!-- Taikou 的动画接线正本之二：动作名 → 动画 clip 的绑定。
 
+     引擎行为（反编译 TaleWorlds.MountAndBlade.Module.CreateProcessedActionSetsXMLForNative 实证）：
+       同 id 的 <action_set> 由 C# 层【追加合并】进第一个 —— 我们这一条会被 Add() 进 Native 的
+       as_human_warrior 里，原版几千个动作一条都不会被挤掉。
+
+     🔴 animation= 填的是【动画 clip 名】，不是 FBX take 名、不是骨架动画（SkeletonAnimation）资源名。
+        写错 = 静默解析成 act_none，没有任何报错，只是播不出来。
+
+     🔴 2026-09-19 启用。为什么不会重演 09-08 那次崩：见 action_types.xml 的说明（零交集、纯追加）。
+     回退方法：删掉 mbproj 里 soln_action_sets 那一行即可。 -->
+<action_sets>
+	<action_set
+		id="as_human_warrior"
+		skeleton="human_skeleton"
+		movement_system="bipedal">
+		<action
+			type="act_gun_reload"
+			animation="gun_reload" />
+	</action_set>
+</action_sets>
