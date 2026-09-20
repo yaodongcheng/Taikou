@@ -16,4 +16,12 @@
 		name="act_gun_reload"
 		type="actt_reload"
 		action_stage="as_reload_mid_phase" />
+
+	<!-- 🔴 2026-09-20 新增：飞行待机（阶段 1A 探针）。
+	     🔴 必须带 type="actt_idle" —— 用法组的 <idles> 只认带这个属性的动作（Native 73 条里 71 条带）。
+	     本次同样与 Native 动作名**零交集**，合并是纯追加，不会重演 09-08 那次 KeyNotFoundException。
+	     验：实机控制台 custom.do_anim act_fly_idle -->
+	<action
+		name="act_fly_idle"
+		type="actt_idle" />
 </action_types>

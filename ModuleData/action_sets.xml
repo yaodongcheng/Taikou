@@ -17,5 +17,12 @@
 		<action
 			type="act_gun_reload"
 			animation="gun_reload" />
+
+		<!-- 🔴 2026-09-20 新增：飞行待机（阶段 1A 探针）。
+		     animation= 填的是**实测出来的 clip 名**（tpaccli list 装机包得到 `flight_idle_a`），
+		     不是计划文档早期建议的 `fly_idle`、不是 TRF/FBX 文件名。写错 = 静默 act_none。 -->
+		<action
+			type="act_fly_idle"
+			animation="flight_idle_a" />
 	</action_set>
 </action_sets>
