@@ -24,4 +24,10 @@
 	<action
 		name="act_fly_idle"
 		type="actt_idle" />
+
+	<!-- 🔴 2026-09-20 新增：处决动画（T17「带位移动画」实验的载体）。
+	     表演类动作：**不带** type / action_stage / usage_direction —— 只靠控制台 do_anim 手动播，
+	     不挂进任何状态机。与 Native 动作名零交集，合并纯追加。
+	     验：实机控制台 custom.do_anim act_execution02_root（播完 custom.print_pos_dir 位置有没有变）-->
+	<action name="act_execution02_root" />
 </action_types>

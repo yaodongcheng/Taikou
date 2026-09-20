@@ -24,5 +24,15 @@
 		<action
 			type="act_fly_idle"
 			animation="flight_idle_a" />
+
+		<!-- 🔴 2026-09-20 新增：处决动画（T17「带位移动画」实验的载体）。
+		     animation= 填的是**实测出来的 clip 名**（用 tpaccli clipinfo 读装机包，挑出
+		     AnimationClip 类型的资产名 = `execution_02`；它挂的 SkeletalAnimation = `gs_execution02_root`，
+		     即带位移的 Root 变体）。写错 = 静默 act_none、do_anim 会报 duration 0.00s。
+		     🔴 本条注释里【不许出现连续两个减号】：XML 注释里那是非法字符，整个文件解析失败、
+		     引擎启动即崩（XmlException @ CreateProcessedActionSetsXMLForNative）。要提命令行参数就只写名字、不带杠。 -->
+		<action
+			type="act_execution02_root"
+			animation="execution_02" />
 	</action_set>
 </action_sets>
