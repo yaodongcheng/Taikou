@@ -30,4 +30,19 @@
 	     不挂进任何状态机。与 Native 动作名零交集，合并纯追加。
 	     验：实机控制台 custom.do_anim act_execution02_root（播完 custom.print_pos_dir 位置有没有变）-->
 	<action name="act_execution02_root" />
+
+	<!-- 🔴 2026-09-21 新增：飞行动作 4 条（起飞 / 巡航 / 冲刺 / 落地）—— 玩家飞行用。
+
+	     表演类动作，照上面 act_execution02_root 的样式**裸声明**（不带 type / action_stage /
+	     usage_direction）：这 4 条由我们的 Flight 代码每帧 SetActionChannel 直接指定，
+	     **不进引擎的走跑状态机**。理由：引擎那套移动模式只有 走 / 跑 / 蹲走 / 蹲跑 四个且名字写死在
+	     native 里，表达不了「抬头爬升、低头俯冲」，所以飞行整体接管、不走它。
+
+	     与 Native 动作名零交集，合并纯追加（不会重演 09-08 那次 KeyNotFoundException）。
+
+	     验：实机控制台逐条 custom.do_anim act_fly_cruise / act_fly_boost / act_fly_start / act_fly_land -->
+	<action name="act_fly_start" />
+	<action name="act_fly_cruise" />
+	<action name="act_fly_boost" />
+	<action name="act_fly_land" />
 </action_types>

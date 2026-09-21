@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 法印与法术弹 —— 施法体系 P0/P1 探针（2026-09-21 立）。
+     依据：plans/法印施法体系-实施计划.md §四（物品设计）与 §八.1（阴魔斩）。
+     核心思路 = **把法术伪装成弹药**：骑砍原生的武器/导弹机制已经把「抬起→瞄准→发射→飞行→
+     重力→碰撞→插地→命中→范围伤害」全做完了，我们要做的只是换掉飞行物的外观。
+
+     🔴 本文件是 P0/P1 的**最小验证件**，两个网格都是**占位**，不是最终外观：
+        法印    mesh="crossbow_a"            ← 原版轻弩网格（占位）
+        法术弹  flying_mesh="projectile_pot" ← 原版火罐网格（占位）
+     占位是故意的：P0 要验的命题只有一个 ——「换了 flying_mesh，射出去的形状真的会变吗」。
+     网格用原版件 = 排除「我们的资产包坏了」这个变量；形状差异足够大（一支弩矢 vs 一个陶罐），
+     肉眼一眼可判。这条过了，P2 才把 flying_mesh 换成月牙网格。
+     （同类先例：原版 `pot_projectile`（火罐）就是 flying_mesh 与 mesh 都指一个陶罐。）
+
+     🔴 与铁炮（taikou_items/firearms.xml）的三处**刻意不同**，别照抄那边：
+       ① `ammo_class="Bolt"`，不是 `Cartridge`。火器的 Cartridge 是给 FirearmFxLogic 认的
+          （认到就播枪声 + 枪口烟）。法印不是火器，用 Bolt 与弩同口径 → 现有火器逻辑查表
+          查不到 → 静默跳过，不会误播火器表现。法术自己的表现另有 SpellCastFxLogic（计划 P3）。
+       ② `item_usage="crossbow_light"`，用原版弩的用法。自定义 usage 是本工程验证过的可行路
+          （铁炮的 `tk_firearm`），**但前提是 `item_usage_sets.xml` 必须在 `project.mbproj`
+          里挂 `soln_item_usage_sets` 那一行**（雷 122：不挂 = 文件完全不加载 = native 取到
+          无效索引 = AccessViolation）。P1 要"零代码最小验证"，所以先不引入自定义 usage；
+          结印/推掌动作（计划 §4.3）另起一轮做。
+       ③ `reload_phase_count="2"`，照原版弩。计划 §4.1 写的是 1（"法印抬手即可"），但全库
+          18 处该字段**清一色是 2**，没有 1 的先例。P1 先用原版值拿一个干净基线；
+          想试 1 就改这一个数字，一次实机即可定性。
+
+     🔴 伤害两处都填了非零（法印 60 / 法术弹 60）—— 引擎侧到底取"发射器"还是"弹药"的
+        thrust_damage，我们没实测（原版弩 67 + 弩矢 2 看不出是谁生效）。两处都填 =
+        无论取哪边都有伤害，P1 的验收（"打中敌人并造成伤害"）必过；P5 调参时再定。
+     弹药伤害类型写 Cut（月牙是斩击）。范围伤害 `AffectsArea` 按计划 §4.2 **暂不开** ——
+     先让 P1 是一条干净的直线，AOE 留到 P5 单独开、单独看。
+     `is_merchandise="false"` 也是探针期的选择：不进货架、不污染世界，接入玩法时再开。
+
+     验收入口（游戏内控制台；首参可弃，见 CLAUDE.md 工作流约定）：
+        campaign.add_item_to_main_party taikou_spell_seal 1
+        campaign.add_item_to_main_party taikou_spell_crescent 40
+     然后把法印装到弩槽、法术弹装到弩矢槽，对准人射一发。 -->
+<Items>
+	<!-- 法印（施法武器）。逐字照原版 `crossbow_a`（Simple Light Crossbow）改写，
+	     只动四处：id / name / mesh（占位）/ culture / weight / is_merchandise。
+	     其余字段（AmmoOffset / item_holsters / holster_position_shift / WeaponFlags）
+	     **与原版逐字相同** —— 网格还是那把弩，挂接与偏移就必须照抄，否则枪贴不住背、弹装不上膛。 -->
+	<Item
+		id="taikou_spell_seal"
+		name="{=TAIKOU_spell_seal}Spell Seal"
+		is_merchandise="false"
+		body_name="bo_cross_bow_heavy"
+		mesh="crossbow_a"
+		culture="Culture.ikoku"
+		weight="1.5"
+		appearance="0.8"
+		difficulty="0"
+		Type="Crossbow"
+		AmmoOffset="0.0, 0.02131, 0.24650"
+		item_holsters="crossbow_back:bow_hip:mace_right_hip:bow_hip_2"
+		holster_position_shift="0.02,0,-0.4">
+		<ItemComponent>
+			<Weapon
+				weapon_class="Crossbow"
+				ammo_class="Bolt"
+				missile_speed="60"
+				accuracy="80"
+				thrust_damage="60"
+				thrust_speed="80"
+				speed_rating="70"
+				weapon_length="95"
+				ammo_limit="1"
+				thrust_damage_type="Pierce"
+				item_usage="crossbow_light"
+				reload_phase_count="2"
+				physics_material="wood_weapon"
+				center_of_mass="0,0,0.4"
+				modifier_group="crossbow">
+				<WeaponFlags
+					RangedWeapon="true"
+					HasString="true"
+					NotUsableWithOneHand="true"
+					TwoHandIdleOnMount="true"
+					CanBeUsedWhileCrouched="true" />
+			</Weapon>
+		</ItemComponent>
+		<Flags
+			Stealth="true" />
+	</Item>
+	<!-- 法术弹（阴魔斩用的那一发）。逐字照原版 `bolt_a`（Light Bolts）改写 ——
+	     🔴 **只有 `flying_mesh` 这一处是这轮要验的变量**，其余保持原版：
+	        mesh / holster_mesh = 原版弩矢（进袋子里还是弩矢的样子，二期换成月牙）
+	        body_name = `bo_capsule_arrow`（原版弩矢的碰撞胶囊）
+	        sticking_position / sticking_rotation / rotation = 原版弩矢的 47cm 口径
+	     异形网格的碰撞体（计划 §十 风险 2）与袋中外观都**不在本轮**，P1 求的是干净基线。 -->
+	<Item
+		id="taikou_spell_crescent"
+		name="{=TAIKOU_spell_crescent}Crescent"
+		is_merchandise="false"
+		body_name="bo_capsule_arrow"
+		holster_body_name="bo_axe_short"
+		flying_mesh="projectile_pot"
+		mesh="bolt_bl_a"
+		holster_mesh="bolt_bl_a_quiver"
+		holster_mesh_with_weapon="bolt_bl_a_quiver"
+		culture="Culture.ikoku"
+		weight="0.05"
+		appearance="1"
+		Type="Bolts"
+		item_holsters="quiver_bolts:quiver_bolts_2:quiver_back_middle:quiver_back_top">
+		<ItemComponent>
+			<Weapon
+				weapon_class="Bolt"
+				stack_amount="40"
+				thrust_speed="0"
+				thrust_damage="60"
+				thrust_damage_type="Cut"
+				speed_rating="0"
+				missile_speed="10"
+				weapon_length="47"
+				item_usage=""
+				passby_sound_code="event:/mission/combat/missile/passby"
+				rotation="180, 0, 0"
+				physics_material="missile"
+				sticking_position="0,-0.47,0"
+				sticking_rotation="90,0,0"
+				center_of_mass="0,0,-0.1"
+				modifier_group="bolt">
+				<WeaponFlags
+					AttachAmmoToVisual="true"
+					Consumable="true"
+					AmmoSticksWhenShot="true"
+					AmmoBreaksOnBounceBack="true" />
+			</Weapon>
+		</ItemComponent>
+		<Flags
+			ForceAttachOffHandPrimaryItemBone="true"
+			Stealth="true" />
+	</Item>
+</Items>

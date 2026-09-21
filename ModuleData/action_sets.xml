@@ -34,5 +34,28 @@
 		<action
 			type="act_execution02_root"
 			animation="execution_02" />
+
+		<!-- 🔴 2026-09-21 新增：飞行动作 4 条（起飞 / 巡航 / 冲刺 / 落地）。
+		     animation= 一律填【实测 clip 名】（tpaccli list 装机包 lwn_taikou_anim.tpac 读出来的），
+		     **不是** TRF 文件名、**不是** UE 源动画名、**不是** SkeletalAnimation 资源名。
+		     🔴 注意真实 clip 名和 TRF 文件名并不一一对应，举例：
+		        TRF fly_A_SuperheroLanding_A  ⇒  实测 clip 名 flight_superland_a（不是 flight_landing_a）
+		        TRF fly_A_Flight_Hover_Start_A ⇒  实测 clip 名 flight_hoverstart_a
+		     写错 = 静默 act_none，无报错，只是播不出来。
+		     🔴 本条注释里【不许出现连续两个减号】：XML 注释里那是非法字符，整个文件解析失败、
+		     引擎启动即崩（XmlException @ CreateProcessedActionSetsXMLForNative）。
+		     验：实机逐条 custom.do_anim act_fly_cruise / act_fly_boost / act_fly_start / act_fly_land -->
+		<action
+			type="act_fly_start"
+			animation="flight_hoverstart_a" />
+		<action
+			type="act_fly_cruise"
+			animation="flight_hovermove_a" />
+		<action
+			type="act_fly_boost"
+			animation="flight_fastmove_a" />
+		<action
+			type="act_fly_land"
+			animation="flight_superland_a" />
 	</action_set>
 </action_sets>
