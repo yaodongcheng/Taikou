@@ -3265,9 +3265,14 @@
   <string id="TAIKOU_teppo_ammo" text="铁炮弹药" />
 
   <!-- 法印与法术弹：物品定义见 taikou_items/spells.xml（施法体系 P0/P1 探针，
-       两个网格都是占位件）。英文层由 gen_taikou_english_strings.py 从数据 XML 抽取生成。 -->
-  <string id="TAIKOU_spell_seal" text="法印" />
-  <string id="TAIKOU_spell_crescent" text="月牙" />
+       两个网格都是占位件）。英文层由 gen_taikou_english_strings.py 从数据 XML 抽取生成。
+       【注意·铁律 14】本文件禁 emoji/超 BMP 字符，注释里也别放。
+       中文层刻意也用 ASCII 同名串（不是漏翻）：控制台 campaign.add_item_to_main_party
+       按【本地化显示名】查物品，中文层若写「法印」，中文客户端就得在控制台里敲中文
+       （控制台未必吃 IME）。探针期两串保持一致 = 什么语言都能敲。
+       P2 换正式网格时把这里改回正经中文名，控制台命令随之改成新显示名。 -->
+  <string id="TAIKOU_spell_seal" text="SpellSeal" />
+  <string id="TAIKOU_spell_crescent" text="SpellCrescent" />
 <!-- ==== 战无2 装备名（tools/sw2-pipeline/gen_armor_items.py 产出，禁止手改）==== -->
   <string id="TAIKOU_musashi_do_a" text="野袴道服" />
   <string id="TAIKOU_kotaro_do_a" text="风魔忍装束" />

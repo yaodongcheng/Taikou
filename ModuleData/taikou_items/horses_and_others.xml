@@ -752,7 +752,13 @@
 	                    ② culture 换成 Culture.ikoku（这样在 Taikou 世界里能拿到）
 	     🔴 item_usage 保持原版的 crossbow_light / 空 —— **这正是对照的意义**：
 	        它走"原版行为"，铁炮走自定义的 tk_firearm，两者并排比装填。
-	     拿到手：控制台 `campaign.add_item_to_main_party taikou_test_crossbow | 1` + `taikou_test_bolt | 1`
+	     拿到手：控制台 `campaign.add_item_to_main_party Simple Light Crossbow | 1`
+	             + `campaign.add_item_to_main_party Light Bolts | 1`
+	     🔴 **2026-09-21 更正**：原来这里写的是 `taikou_test_crossbow | 1`（用 id）—— **敲 id 查不到**。
+	        `CampaignCheats.GetItemObject` 是按**本地化显示名**（去空格、忽略大小写）比对的，
+	        这两个物品的 name 沿用了原版键 `{=LAEaH3zB}` / `{=g7vxJhiz}`，
+	        所以要敲**游戏里显示的名字**（英文 Simple Light Crossbow / Light Bolts，中文则是原版中文名）。
+	        参数组之间用竖线 `|`（`GetSeparatedNames(strings,"|")`），不是空格。
 	     （或者在城市市场里找 —— 文化已指到 ikoku）
 	     清理：验完把这两个 <Item> 删掉即可。
 	     ============================================================================ -->

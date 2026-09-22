@@ -31,10 +31,27 @@
      弹药伤害类型写 Cut（月牙是斩击）。范围伤害 `AffectsArea` 按计划 §4.2 **暂不开** ——
      先让 P1 是一条干净的直线，AOE 留到 P5 单独开、单独看。
      `is_merchandise="false"` 也是探针期的选择：不进货架、不污染世界，接入玩法时再开。
+     🔴 两件都带 `<Flags Civilian="true" />`（CLAUDE.md 铁律 33：**任何装备都要平民装可用**）——
+        原版 `crossbow_a` / `bolt_a` 自己**没有**这个标记（它们只有 `Stealth`），
+        照抄原版字段时最容易把它一起漏掉（本文件第一版就漏了，全库 195/197 只缺这两件）。
+        漏了的症状 = 玩家在城镇里换日常装时**选不到这件东西**，战场上却用得好好的。
+        检查：`python Scripts/check_items_civilian.py`（已进一键体检）。
 
-     验收入口（游戏内控制台；首参可弃，见 CLAUDE.md 工作流约定）：
-        campaign.add_item_to_main_party taikou_spell_seal 1
-        campaign.add_item_to_main_party taikou_spell_crescent 40
+     验收入口（游戏内控制台）：
+        campaign.add_item_to_main_party SpellSeal | 1
+        campaign.add_item_to_main_party SpellCrescent | 40
+     🔴 **两个坑，2026-09-21 各踩一次（反编译 1.2.12 实证，别再猜）**：
+       ① `campaign.add_item_to_main_party` **按「显示名」查，不按 StringId**
+          （`CampaignCheats.GetItemObject`：拿 `ItemObject.Name.ToString()` 去掉所有空格、
+            忽略大小写，跟输入比对；`Name` 是本地化后的显示名，
+            `ItemObject.Deserialize` 里 `Name = new TextObject(node.Attributes["name"].InnerText)`）。
+          ⇒ 敲 `taikou_spell_seal` 永远查不到，**要敲显示名**。
+       ② 参数组之间用**竖线 `|`** 分隔（`GetSeparatedNames(strings, "|")`），组内才用空格拼。
+          敲成 `SpellSeal 1`（没竖线）→ 整串 "SpellSeal 1" 被当成**一个**名字去比对 → 同样 not found。
+     🔴 **所以本文件的两个物品把显示名做成了「中英同串的 ASCII」**（`SpellSeal` / `SpellCrescent`）：
+        免得中文客户端得敲中文（控制台未必吃 IME）、英文客户端得敲英文。
+        这是**探针期**的刻意选择，P2 换成正式网格时一并换成正经本地化名
+        （改 `name=` 的 fallback 与 CNs 里那两条即可，控制台命令随之改成新显示名）。
      然后把法印装到弩槽、法术弹装到弩矢槽，对准人射一发。 -->
 <Items>
 	<!-- 法印（施法武器）。逐字照原版 `crossbow_a`（Simple Light Crossbow）改写，
@@ -43,7 +60,7 @@
 	     **与原版逐字相同** —— 网格还是那把弩，挂接与偏移就必须照抄，否则枪贴不住背、弹装不上膛。 -->
 	<Item
 		id="taikou_spell_seal"
-		name="{=TAIKOU_spell_seal}Spell Seal"
+		name="{=TAIKOU_spell_seal}SpellSeal"
 		is_merchandise="false"
 		body_name="bo_cross_bow_heavy"
 		mesh="crossbow_a"
@@ -81,7 +98,8 @@
 			</Weapon>
 		</ItemComponent>
 		<Flags
-			Stealth="true" />
+			Stealth="true"
+			Civilian="true" />
 	</Item>
 	<!-- 法术弹（阴魔斩用的那一发）。逐字照原版 `bolt_a`（Light Bolts）改写 ——
 	     🔴 **只有 `flying_mesh` 这一处是这轮要验的变量**，其余保持原版：
@@ -91,7 +109,7 @@
 	     异形网格的碰撞体（计划 §十 风险 2）与袋中外观都**不在本轮**，P1 求的是干净基线。 -->
 	<Item
 		id="taikou_spell_crescent"
-		name="{=TAIKOU_spell_crescent}Crescent"
+		name="{=TAIKOU_spell_crescent}SpellCrescent"
 		is_merchandise="false"
 		body_name="bo_capsule_arrow"
 		holster_body_name="bo_axe_short"
@@ -131,6 +149,7 @@
 		</ItemComponent>
 		<Flags
 			ForceAttachOffHandPrimaryItemBone="true"
-			Stealth="true" />
+			Stealth="true"
+			Civilian="true" />
 	</Item>
 </Items>

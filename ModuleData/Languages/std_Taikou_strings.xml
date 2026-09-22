@@ -6758,8 +6758,8 @@
     <string id="TAIKOU_skill_ninja" text="Ninjutsu" />
     <string id="TAIKOU_skill_soldier" text="Spearmen" />
     <string id="TAIKOU_skill_tea" text="Tea Ceremony" />
-    <string id="TAIKOU_spell_crescent" text="Crescent" />
-    <string id="TAIKOU_spell_seal" text="Spell Seal" />
+    <string id="TAIKOU_spell_crescent" text="SpellCrescent" />
+    <string id="TAIKOU_spell_seal" text="SpellSeal" />
     <string id="TAIKOU_story_goal_hanzo" text="Unite the realm under the lord you serve. Your work is espionage, seizure and sabotage." />
     <string id="TAIKOU_story_goal_kinoshita" text="Rise from the ranks and unite the realm. Governance, arms and diplomacy must all be mastered." />
     <string id="TAIKOU_story_goal_kuki" text="Unite the realm under the lord you serve. Subdue the rival sea lords and pacify the waters." />
