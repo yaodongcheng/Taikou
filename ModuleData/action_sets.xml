@@ -25,15 +25,18 @@
 			type="act_fly_idle"
 			animation="flight_idle_a" />
 
-		<!-- 🔴 2026-09-20 新增：处决动画（T17「带位移动画」实验的载体）。
-		     animation= 填的是**实测出来的 clip 名**（用 tpaccli clipinfo 读装机包，挑出
-		     AnimationClip 类型的资产名 = `execution_02`；它挂的 SkeletalAnimation = `gs_execution02_root`，
-		     即带位移的 Root 变体）。写错 = 静默 act_none、do_anim 会报 duration 0.00s。
+		<!-- 🔴 2026-09-20 新增、2026-09-22 改名：处决动画（T17「带位移动画」实验的载体）。
+		     animation= 填的是**实测出来的 clip 名**（用 tpaccli list 读装机包，挑出
+		     AnimationClip 类型的资产名 = `execution02`；它挂的 SkeletalAnimation = `ue_ghostsamurai_execution02__root`，
+		     即带位移的 Root 变体）。🔴 2026-09-22 用户在 TaikouAnim 工程里重导了这条，
+		     旧名 `execution_02` / `gs_execution02_root` 已不在包里，**这里必须跟着改成新名**，
+		     否则静默 act_none。同批还多了个 `executed02`（被处决那一侧），暂时没接。
+		     写错 = 静默 act_none、do_anim 会报 duration 0.00s。
 		     🔴 本条注释里【不许出现连续两个减号】：XML 注释里那是非法字符，整个文件解析失败、
 		     引擎启动即崩（XmlException @ CreateProcessedActionSetsXMLForNative）。要提命令行参数就只写名字、不带杠。 -->
 		<action
 			type="act_execution02_root"
-			animation="execution_02" />
+			animation="execution02" />
 
 		<!-- 🔴 2026-09-21 新增：飞行动作 4 条（起飞 / 巡航 / 冲刺 / 落地）。
 		     animation= 一律填【实测 clip 名】（tpaccli list 装机包 lwn_taikou_anim.tpac 读出来的），
@@ -57,5 +60,64 @@
 		<action
 			type="act_fly_land"
 			animation="flight_superland_a" />
+
+		<!-- 🔴 2026-09-22 新增 7 条：冲刺入姿 / 四方向闪避 / 抬头 / 低头。
+		     animation= 一律填**装机包里实测的 clip 名**（tpaccli list 读 `lwn_taikou_anim.tpac` 得到），
+		     不是 TRF 文件名。对应 TRF → clip 名：
+		        fly_A_Flight_FastMove_Start_A   => flight_fastmove_start_a
+		        fly_A_Flight_Dodge_A_L/R/U/D    => flight_dodge_a_l / _r / _u / _d
+		        fly_A_Flight_HoverMove_A_PitchU => flight_hovermove_a_pitchu
+		        fly_A_Flight_HoverMove_A_PitchD => flight_hovermove_a_pitchd
+	     写错 = 静默 act_none。验：实机逐条 custom.do_anim（见 action_types.xml 同名注释） -->
+		<action
+			type="act_fly_dash_start"
+			animation="flight_fastmove_start_a" />
+		<action
+			type="act_fly_dodge_l"
+			animation="flight_dodge_a_l" />
+		<action
+			type="act_fly_dodge_r"
+			animation="flight_dodge_a_r" />
+		<action
+			type="act_fly_dodge_u"
+			animation="flight_dodge_a_u" />
+		<action
+			type="act_fly_dodge_d"
+			animation="flight_dodge_a_d" />
+		<action
+			type="act_fly_climb"
+			animation="flight_hovermove_a_pitchu" />
+		<action
+			type="act_fly_dive"
+			animation="flight_hovermove_a_pitchd" />
+
+		<!-- 🔴 2026-09-22 新增 6 条：压弯（左/右）× 两个家族 + 冲刺家的抬头/低头。
+		     animation= 一律填**装机包里实测的 clip 名**（tpaccli list 读 `lwn_taikou_anim.tpac`）。
+		     TRF 名 => clip 名：
+		        fly_A_Flight_HoverMove_A_LeanL  => flight_hovermove_a_leanl
+		        fly_A_Flight_HoverMove_A_LeanR  => flight_hovermove_a_leanr
+		        fly_A_Flight_FastMove_A_LeanL   => flight_fastmove_a_leanl
+		        fly_A_Flight_FastMove_A_LeanR   => flight_fastmove_a_leanr
+		        fly_A_Flight_FastMove_A_PitchU  => flight_fastmove_a_pitchu
+		        fly_A_Flight_FastMove_A_PitchD  => flight_fastmove_a_pitchd
+		     写错 = 静默 act_none。 -->
+		<action
+			type="act_fly_lean_l"
+			animation="flight_hovermove_a_leanl" />
+		<action
+			type="act_fly_lean_r"
+			animation="flight_hovermove_a_leanr" />
+		<action
+			type="act_fly_boost_lean_l"
+			animation="flight_fastmove_a_leanl" />
+		<action
+			type="act_fly_boost_lean_r"
+			animation="flight_fastmove_a_leanr" />
+		<action
+			type="act_fly_boost_climb"
+			animation="flight_fastmove_a_pitchu" />
+		<action
+			type="act_fly_boost_dive"
+			animation="flight_fastmove_a_pitchd" />
 	</action_set>
 </action_sets>

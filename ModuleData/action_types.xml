@@ -45,4 +45,35 @@
 	<action name="act_fly_cruise" />
 	<action name="act_fly_boost" />
 	<action name="act_fly_land" />
+
+	<!-- 🔴 2026-09-22 新增 7 条：冲刺入姿 / 四方向闪避 / 抬头 / 低头。
+	     来源：A 套飞行动画进包（`lwn_taikou_anim.tpac`，53 资产那版）。
+	     ① 冲刺入姿 `act_fly_dash_start` 与 四方向闪避 `act_fly_dodge_l/r/u/d`：
+	        C# 侧动作名早已写在 FlightTuning（ActBoostStart / ActDodgeL..D），本条只是把 XML 补上。
+	     ② 抬头 `act_fly_climb` / 低头 `act_fly_dive`：FlightTuning.ActClimb / ActDive 从空串填成这两个名字
+	        （之前留空 = 抬头时"保持上一条姿态"，看着像平板上升）。
+	     ⚠️ 现在接的是**巡航家（直立）**的抬头/低头姿态；冲刺时会从趴姿切到直立姿态，
+	        要按"冲刺家也各有一套"再拆状态，见 plans/玩家飞行-实施方案.md §3.8.1。
+	     验：实机控制台逐条 custom.do_anim act_fly_dash_start / act_fly_dodge_l / act_fly_climb / act_fly_dive -->
+	<action name="act_fly_dash_start" />
+	<action name="act_fly_dodge_l" />
+	<action name="act_fly_dodge_r" />
+	<action name="act_fly_dodge_u" />
+	<action name="act_fly_dodge_d" />
+	<action name="act_fly_climb" />
+	<action name="act_fly_dive" />
+
+	<!-- 🔴 2026-09-22 新增 6 条：压弯（左/右）× 两个家族 + 冲刺家的抬头/低头。
+	     为什么两个家族分开：**巡航家是直立姿势、冲刺家是趴姿**（实测身体轴一个竖直、一个水平），
+	     混用会硬翻 90°。
+	     触发：压弯 = 横移输入 A/D（带迟滞，`custom.flight tune bank / bankout` 可调）；
+	     冲刺抬头/低头 = 相机俯仰（冲刺态时走这两条，不再走 act_fly_climb / act_fly_dive）。
+	     未接的：`flight_hovermove_a_pitchf / _pitchb`（前倾/后仰）留待定用途，包里已有资源。
+	     验：实机 custom.do_anim 逐条（进飞行后按 A/D、抬头低头更直观） -->
+	<action name="act_fly_lean_l" />
+	<action name="act_fly_lean_r" />
+	<action name="act_fly_boost_lean_l" />
+	<action name="act_fly_boost_lean_r" />
+	<action name="act_fly_boost_climb" />
+	<action name="act_fly_boost_dive" />
 </action_types>
