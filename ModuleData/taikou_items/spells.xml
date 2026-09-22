@@ -57,7 +57,12 @@
 	<!-- 法印（施法武器）。逐字照原版 `crossbow_a`（Simple Light Crossbow）改写，
 	     只动四处：id / name / mesh（占位）/ culture / weight / is_merchandise。
 	     其余字段（AmmoOffset / item_holsters / holster_position_shift / WeaponFlags）
-	     **与原版逐字相同** —— 网格还是那把弩，挂接与偏移就必须照抄，否则枪贴不住背、弹装不上膛。 -->
+	     **与原版逐字相同** —— 网格还是那把弩，挂接与偏移就必须照抄，否则枪贴不住背、弹装不上膛。
+	     🔴 `missile_speed = 180`（原版弩是 60）—— **弹速写在武器上才有用，写在弹药上无效**
+	        （项目已实证：引擎取的是手持武器的弹速 `GetModifiedMissileSpeedForCurrentUsage`，
+	          拿的是枪占的槽位；织丰在弹药写 500、CA_BloodSmoke 写 10，两者都不生效）。
+	        实机症状（60）：**子弹没飞多远就消失** —— 初速太低，重力早早把它按到地上。
+	        嫌不够远就继续加（240 / 300）；副作用是弹道变平直，"弩那种抛物线"感消失。 -->
 	<Item
 		id="taikou_spell_seal"
 		name="{=TAIKOU_spell_seal}SpellSeal"
@@ -76,7 +81,7 @@
 			<Weapon
 				weapon_class="Crossbow"
 				ammo_class="Bolt"
-				missile_speed="60"
+				missile_speed="180"
 				accuracy="80"
 				thrust_damage="60"
 				thrust_speed="80"

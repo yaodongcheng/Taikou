@@ -28,12 +28,20 @@
 	<!-- 🔴 2026-09-20 新增：处决动画（T17「带位移动画」实验的载体）。
 	     表演类动作：**不带** type / action_stage / usage_direction —— 只靠控制台 do_anim 手动播，
 	     不挂进任何状态机。与 Native 动作名零交集，合并纯追加。
-	     验：实机控制台 custom.do_anim act_execution02_root（播完 custom.print_pos_dir 位置有没有变）-->
-	<action name="act_execution02_root" />
+	     🔴 2026-09-22 改名：原 `act_execution02_root` 的 `_root` 后缀去掉 —— 动作名只说"演什么"，
+	     "带不带位移"是 clip 自己的事，不写进动作名。旧名作废，勿再使用。
+	     验：实机控制台 custom.do_anim act_execution02（播完 custom.print_pos_dir 位置有没有变）-->
+	<action name="act_execution02" />
+
+	<!-- 🔴 2026-09-22 新增：被处决那一侧（clip `executed02`，与上面是同一段表演的配套两侧）。
+	     攻击方播 act_execution02、受击方播 act_executed02，两条要同时起播才对得上；
+	     本次只做声明与接线（供控制台单播检查），两边怎么配对、怎么同步留给玩法实现。
+	     验：实机控制台 custom.do_anim act_executed02 -->
+	<action name="act_executed02" />
 
 	<!-- 🔴 2026-09-21 新增：飞行动作 4 条（起飞 / 巡航 / 冲刺 / 落地）—— 玩家飞行用。
 
-	     表演类动作，照上面 act_execution02_root 的样式**裸声明**（不带 type / action_stage /
+	     表演类动作，照上面 act_execution02 的样式**裸声明**（不带 type / action_stage /
 	     usage_direction）：这 4 条由我们的 Flight 代码每帧 SetActionChannel 直接指定，
 	     **不进引擎的走跑状态机**。理由：引擎那套移动模式只有 走 / 跑 / 蹲走 / 蹲跑 四个且名字写死在
 	     native 里，表达不了「抬头爬升、低头俯冲」，所以飞行整体接管、不走它。

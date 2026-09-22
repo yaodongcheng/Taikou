@@ -30,13 +30,16 @@
 		     AnimationClip 类型的资产名 = `execution02`；它挂的 SkeletalAnimation = `ue_ghostsamurai_execution02__root`，
 		     即带位移的 Root 变体）。🔴 2026-09-22 用户在 TaikouAnim 工程里重导了这条，
 		     旧名 `execution_02` / `gs_execution02_root` 已不在包里，**这里必须跟着改成新名**，
-		     否则静默 act_none。同批还多了个 `executed02`（被处决那一侧），暂时没接。
+		     否则静默 act_none。同批的 `executed02`（被处决那一侧）2026-09-22 一并接线为 act_executed02。
 		     写错 = 静默 act_none、do_anim 会报 duration 0.00s。
 		     🔴 本条注释里【不许出现连续两个减号】：XML 注释里那是非法字符，整个文件解析失败、
 		     引擎启动即崩（XmlException @ CreateProcessedActionSetsXMLForNative）。要提命令行参数就只写名字、不带杠。 -->
 		<action
-			type="act_execution02_root"
+			type="act_execution02"
 			animation="execution02" />
+		<action
+			type="act_executed02"
+			animation="executed02" />
 
 		<!-- 🔴 2026-09-21 新增：飞行动作 4 条（起飞 / 巡航 / 冲刺 / 落地）。
 		     animation= 一律填【实测 clip 名】（tpaccli list 装机包 lwn_taikou_anim.tpac 读出来的），
