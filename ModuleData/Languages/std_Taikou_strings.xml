@@ -6399,6 +6399,7 @@
     <string id="TAIKOU_player_father_name" text="Denbei" />
     <string id="TAIKOU_player_mother_name" text="Kinu" />
     <string id="TAIKOU_probe_crescent_phys" text="ProbeCrescentPhys" />
+    <string id="TAIKOU_probe_keep" text="ProbeKeep" />
     <string id="TAIKOU_probe_shell" text="ProbeShell" />
     <string id="TAIKOU_rammaru_do_a" text="Morii Ranmaru's Do" />
     <string id="TAIKOU_rammaru_helmet_a" text="Morii Ranmaru's Helmet" />
