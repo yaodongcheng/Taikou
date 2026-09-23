@@ -58,11 +58,19 @@
 	     只动四处：id / name / mesh（占位）/ culture / weight / is_merchandise。
 	     其余字段（AmmoOffset / item_holsters / holster_position_shift / WeaponFlags）
 	     **与原版逐字相同** —— 网格还是那把弩，挂接与偏移就必须照抄，否则枪贴不住背、弹装不上膛。
-	     🔴 `missile_speed = 180`（原版弩是 60）—— **弹速写在武器上才有用，写在弹药上无效**
-	        （项目已实证：引擎取的是手持武器的弹速 `GetModifiedMissileSpeedForCurrentUsage`，
-	          拿的是枪占的槽位；织丰在弹药写 500、CA_BloodSmoke 写 10，两者都不生效）。
-	        实机症状（60）：**子弹没飞多远就消失** —— 初速太低，重力早早把它按到地上。
-	        嫌不够远就继续加（240 / 300）；副作用是弹道变平直，"弩那种抛物线"感消失。 -->
+	     🔴 `missile_speed = 60`（= **原版弩的值**；探针期一度调到 180，2026-09-22 用户裁定"太快"改回）
+	        —— **弹速写在武器上才有用，写在弹药上无效**（项目已实证：引擎取的是手持武器的弹速
+	        `GetModifiedMissileSpeedForCurrentUsage`，拿的是枪占的槽位；织丰在弹药写 500、
+	        CA_BloodSmoke 写 10，两者都不生效）。
+	        ⚠️ **别再把"没飞多远就消失"归因于初速低** —— 那是 2026-09-22 之前的误判。
+	        诊断日志（`custom.spell_trace`）实测：初速 180 时一发飞了 **492 m / 7.59 s**（高抛弹道），
+	        真正让它"消失"的是命中判定，与初速无关：
+	          · 撞到 `dont_stick_missiles` 的表面（如石头）→ BounceBack → 本弹的
+	            `AmmoBreaksOnBounceBack` → **BecomeInvisible**（碎掉）
+	          · 飞出战场边界 / 落水 → BecomeInvisible
+	        所以降速只会让它飞得近，不会让它"更容易消失"。
+	        旋钮只有一个数：改大 = 更快更平直（原版弩 60 → 曾是 180）；改小 = 更慢更弯。
+	        想先试手感别改这里 —— 控制台 `custom.spell_trace speed 0.5` 当场生效、不用重开局。 -->
 	<Item
 		id="taikou_spell_seal"
 		name="{=TAIKOU_spell_seal}SpellSeal"
@@ -81,7 +89,7 @@
 			<Weapon
 				weapon_class="Crossbow"
 				ammo_class="Bolt"
-				missile_speed="180"
+				missile_speed="60"
 				accuracy="80"
 				thrust_damage="60"
 				thrust_speed="80"
@@ -157,6 +165,129 @@
 					Consumable="true"
 					AmmoSticksWhenShot="true"
 					AmmoBreaksOnBounceBack="true" />
+			</Weapon>
+		</ItemComponent>
+		<Flags
+			ForceAttachOffHandPrimaryItemBone="true"
+			Stealth="true"
+			Civilian="true" />
+	</Item>
+
+	<!-- ═══════════════ 以下两件是**诊断探针**（2026-09-23 立），不是玩法内容，验完即删 ═══════════════
+
+	     背景：法术弹（`taikou_spell_crescent`）飞到一定距离后**网格不画了**（弹还在飞），
+	     而同期做的对照实验里「原版网格挂在场景实体上」**一路可见**。两者最大的差别是渲染路径：
+	     我们的弹走**导弹渲染路径**，陪飞走**普通实体路径**。
+	     而 BattleArtillery 的炮弹与原版 `boulder` 都带 `MissileWithPhysics="true"`（= 导弹是真物理刚体），
+	     我们没有这个 flag。以下两件用来把这条线索钉死。
+
+	     🔴 两件都**不是给玩法用的**：`is_merchandise="false"`，验完连同本段一起删。 -->
+
+	<!-- 探针①：**逐字抄 BattleArtillery 的炮弹**（`bt_cannonball`），只改四处：
+	     id / name / culture / 补 Civilian 标记（铁律 33）。
+	     它是 Boulder 类 + `Type="Thrown"` + `item_usage="heavy_stone"` ⇒ **玩家可以拿在手里扔**
+	     （原版多人模式的 `boulder` 就是这个形态，动作是 `act_release_heavy_thrown`）。
+	     用途：确认「原封不动的人家配置」在我们这台机器上是不是也能一路可见。 -->
+	<Item
+		id="taikou_probe_shell"
+		name="{=TAIKOU_probe_shell}ProbeShell"
+		is_merchandise="false"
+		body_name="bo_projectile_rock"
+		flying_mesh="projectile_grapeshot_piece_a_fire"
+		holster_body_name="bo_axe_short"
+		mesh="projectile_grapeshot_piece_a_fire"
+		holster_mesh=""
+		culture="Culture.ikoku"
+		subtype="arrows"
+		weight="15"
+		difficulty="0"
+		appearance="1"
+		Type="Thrown"
+		item_holsters="">
+		<ItemComponent>
+			<Weapon
+				weapon_class="Boulder"
+				ammo_class="Boulder"
+				stack_amount="1"
+				position="0.05, -0.15, 0"
+				center_of_mass="0,0,0"
+				physics_material="boulder_stone"
+				thrust_speed="100"
+				speed_rating="0"
+				missile_speed="8"
+				weapon_length="95"
+				trail_particle_name="psys_game_burning_jar_trail"
+				thrust_damage="500"
+				item_usage="heavy_stone"
+				flying_sound_code="event:/mission/combat/boulder/passby"
+				rotation_speed="2, 0.5, 0">
+				<WeaponFlags
+					RangedWeapon="true"
+					Consumable="true"
+					NotUsableWithOneHand="true"
+					TwoHandIdleOnMount="true"
+					CanPenetrateShield="true"
+					CanKnockDown="true"
+					Burning="true"
+					AffectsAreaBig="true"
+					MissileWithPhysics="true"
+					UseHandAsThrowBase="true"
+					LeavesTrail="true"
+					AmmoCanBreakOnBounceBack="true"
+					AffectsArea="true" />
+			</Weapon>
+		</ItemComponent>
+		<Flags
+			QuickFadeOut="true"
+			CannotBePickedUp="true"
+			DropOnWeaponChange="true"
+			DropOnAnyAction="true"
+			Civilian="true" />
+	</Item>
+
+	<!-- 探针②：**我们的法术弹 + 一个 flag**（`MissileWithPhysics="true"`）。
+	     除这一个 flag 外与 `taikou_spell_crescent` 逐字相同（同一套网格、材质、物理材质、碰撞体）。
+	     用途：一发定论 —— 若它一路可见，则「导弹是否物理刚体」就是那个"设置"，
+	     修法 = 给正式弹补上这个 flag；若它照样提前消失，则与这个 flag 无关，另找。 -->
+	<Item
+		id="taikou_probe_crescent_phys"
+		name="{=TAIKOU_probe_crescent_phys}ProbeCrescentPhys"
+		is_merchandise="false"
+		body_name="bo_capsule_arrow"
+		holster_body_name="bo_axe_short"
+		flying_mesh="lwn_yinmo_crescent"
+		mesh="bolt_bl_a"
+		holster_mesh="bolt_bl_a_quiver"
+		holster_mesh_with_weapon="bolt_bl_a_quiver"
+		culture="Culture.ikoku"
+		weight="0.05"
+		appearance="1"
+		Type="Bolts"
+		item_holsters="quiver_bolts:quiver_bolts_2:quiver_back_middle:quiver_back_top">
+		<ItemComponent>
+			<Weapon
+				weapon_class="Bolt"
+				stack_amount="40"
+				thrust_speed="0"
+				thrust_damage="60"
+				thrust_damage_type="Cut"
+				speed_rating="0"
+				missile_speed="10"
+				weapon_length="47"
+				item_usage=""
+				passby_sound_code="event:/mission/combat/missile/passby"
+				rotation="0, 0, 0"
+				physics_material="missile"
+				sticking_position="0,-0.47,0"
+				sticking_rotation="90,0,0"
+				center_of_mass="0,0,-0.1"
+				modifier_group="bolt">
+				<WeaponFlags
+					AttachAmmoToVisual="true"
+					Consumable="true"
+					AmmoSticksWhenShot="true"
+					AmmoBreaksOnBounceBack="true"
+					MissileWithPhysics="true" />
 			</Weapon>
 		</ItemComponent>
 		<Flags

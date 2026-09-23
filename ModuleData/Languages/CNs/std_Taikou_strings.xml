@@ -3273,6 +3273,8 @@
        P2 换正式网格时把这里改回正经中文名，控制台命令随之改成新显示名。 -->
   <string id="TAIKOU_spell_seal" text="SpellSeal" />
   <string id="TAIKOU_spell_crescent" text="SpellCrescent" />
+  <string id="TAIKOU_probe_shell" text="ProbeShell" />
+  <string id="TAIKOU_probe_crescent_phys" text="ProbeCrescentPhys" />
 <!-- ==== 战无2 装备名（tools/sw2-pipeline/gen_armor_items.py 产出，禁止手改）==== -->
   <string id="TAIKOU_musashi_do_a" text="野袴道服" />
   <string id="TAIKOU_kotaro_do_a" text="风魔忍装束" />
