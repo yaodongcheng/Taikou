@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!-- 生成物 —— 禁止手改（铁律 22）。改效果请改 spec 并重跑：
-     python tools/particle-pipeline/gen_particle_effect.py <spec.py> -o <输出.xml> -->
+﻿<?xml version="1.0" encoding="utf-8"?>
 <particle_effects>
 	<effect
 		name="lwn_yinmo_charge"
@@ -4917,3 +4915,5 @@
 		</emitters>
 	</effect>
 </particle_effects>
+<!-- 生成物 —— 禁止手改（铁律 22）。改效果请改 spec 并重跑：
+     python tools/particle-pipeline/gen_particle_effect.py <spec.py> -o <输出.xml> -->

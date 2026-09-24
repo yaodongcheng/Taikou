@@ -47,12 +47,20 @@
      ⚠️ 飞行网格的**朝向约定 = 网格本地 +Z 是飞行方向**（原版弹丸一致：bolt_bl_a 尖端在 +Z）。
         朝向看着不对时**先调 tilt_deg**（绕飞行轴转，数据改、不用重编资产），别急着改网格几何。
         `tilt_deg` 怎么定的：月牙烘完是「+Z = 腹（飞行方向）· +Y = 刃面法线 · X = 3.8 m 的展开方向」，
-        而本框架的基准姿态是「+Z = 飞行方向 · +Y = 世界上方」⇒ 不转的话刃面朝上（月牙**平躺着飞**，
-        像飞盘）。要「**薄刃立着、凸面朝前**」（验收 §7.4 第 2 条）就得绕飞行轴转 90° ⇒ **默认写 90**。
-        ⚠️ 90 与 −90 都是"立着"，只差正反面/上下翻；实机若看到反面/倒着，把它改成 -90 或 180 再试
-        （别去改网格 —— 一次数据改动就够）。
-        标定工具：游戏内 `custom.spell tilt <度>` + `custom.spell cast <法术id>`（一次实机试遍几个候选）。 -->
+        而本框架的基准姿态是「+Z = 飞行方向 · +Y = 世界上方」⇒ **0 = 刃面朝上 = 月牙平躺着飞 = 横切**（当前值，
+        2026-09-24 用户实机裁定"竖劈看不清、要横切"）；**90 / −90 = 薄刃立着 = 竖劈**（只差正反面）。
+        标定工具：游戏内 `custom.spell tilt <度>` + `custom.spell cast <法术id>`（**当场生效、不用重启**）。 -->
 <Spells>
+	<!-- 🔴🔴 2026-09-24 临时：三个粒子挂点**全部换成原版件**，用来把「挂点 / 命中爆散 / 蓄力粒子」
+	     这条**管线本身**先跑通（原版件是本项目实机验证过能看见的：诊断件的示踪火线用过
+	     `psys_game_missile_flame`、陪飞拖尾用过 `psys_game_burning_jar_trail`）。
+	     理由：我们自己的三个效果（`lwn_yinmo_trail` / `_burst` / `_charge`，已挂在
+	     `Taikou/ModuleData/particle_systems_yinmo.xml` 并由 project.mbproj 注册）在实机上
+	     **查不到名字**（日志 `[Spell] 粒子 '…' 查不到`），而文件在、注册行在、结构与原版一致、引擎零报错
+	     ⇒ 先用原版件排除"是挂点/管线写错了"这个变量，把"我们那份 XML 为什么加载不了"变成**独立问题**。
+	     换回来的条件：那份 XML 能被 `GetRuntimeIdByName` 认到之后，把 `trail_particle` / `impact_particle` /
+	     `charge_particle` 三个值改回 `lwn_yinmo_*` 即可（**一行数据、不动代码**）。 -->
+
 	<!-- 阴魔斩（阴魔斩 = 阶段 1 的验收件，不新增法术）。
 	     网格/贴图/材质/粒子四样资产都已做好，这里只做接线：
 	       网格 lwn_yinmo_crescent（月牙弧 + 弧心能量核，合并成一件；飞行轴 = 本地 +Z）
@@ -64,6 +72,19 @@
 	        那不是这张表的错，去把 `tools/armor-pipeline/scripts/build_spell_mesh.py` 的产物
 	        （`SCALE = 1.0`，2026-09-23 已改）重新编译进 Taikou 包即可；急着看手感也可以先把
 	        这个值临时改成 `0.2`（数据可调，不用重编资产）。 -->
+
+	<!-- 🔴 **三个粒子挂点**（2026-09-24 实机结论，详见计划 §A / §B）：
+	     ① 拖尾与爆散现在挂的是**原版件** —— 我们自己的三个效果（lwn_yinmo_trail / _burst / _charge）
+	        **运行时进不来**。根因已查明：引擎运行期的粒子表来自**编译产物**
+	        （AssetPackages 里的 `Particle` 资产；证据 = `tpaccli dump` 按名字捞
+	        `psys_game_burning_jar_trail`，打出的是 `META Particle`），ModuleData 的 XML + mbproj 注册
+	        只是**编辑器源**（同源实证：HikageRising 一个粒子 XML 都没有，122 个粒子全是 tpac 资产且生效）。
+	        ⇒ 修法 = 在编辑器里把那份 XML 发布成粒子包（走 TaikouAnim 沙箱，它 mbproj 里已经挂好那两行），
+	          产物拷进 Taikou/AssetPackages；之后把下面三个值换成 lwn_yinmo_* 即可（**一行数据，不动代码**）。
+	     ② `charge_particle` 原来是**空的** —— 按住 X 蓄力时只有那颗球、没有火。现在先挂个原版火占位。
+	     ③ `charge_scale` = 蓄力核**满蓄力时**的放大倍率（起手那一刻是它的 1/3）。
+	        2026-09-24 用户裁定"球太大" → 由原来的 1.5 缩到 **0.375**（核网格 ⌀0.72 m ⇒ 满蓄力 ⌀0.27 m）。
+	        运行时想再调：游戏里 `custom.spell core <倍率>`（不用重启）。 -->
 	<Spell
 		id="projectile_yinmo_zhan"
 		ammo="taikou_spell_crescent"
@@ -72,9 +93,11 @@
 
 		mesh="lwn_yinmo_crescent"
 		scale="1"
-		tilt_deg="90"
-		trail_particle="lwn_yinmo_trail"
-		impact_particle="lwn_yinmo_burst"
+		tilt_deg="0"
+		trail_particle="psys_game_burning_jar_trail"
+		impact_particle="psys_game_missile_flame"
+		charge_particle="psys_game_missile_flame"
+		charge_scale="0.375"
 
 		damage="60"
 		damage_type="Cut"
@@ -120,9 +143,9 @@
 
 		mesh="lwn_yinmo_crescent"
 		scale="1"
-		tilt_deg="90"
-		trail_particle="lwn_yinmo_trail"
-		impact_particle="lwn_yinmo_burst"
+		tilt_deg="0"
+		trail_particle="psys_game_burning_jar_trail"
+		impact_particle="psys_game_missile_flame"
 
 		lock_max="3"
 		lock_angle="25"
@@ -153,9 +176,9 @@
 
 		mesh="lwn_yinmo_crescent"
 		scale="1.5"
-		tilt_deg="90"
-		trail_particle="lwn_yinmo_trail"
-		impact_particle="lwn_yinmo_burst"
+		tilt_deg="0"
+		trail_particle="psys_game_burning_jar_trail"
+		impact_particle="psys_game_missile_flame"
 
 		start_height="25"
 		speed="45"
@@ -187,8 +210,8 @@
 
 		mesh="lwn_yinmo_crescent"
 		scale="2"
-		impact_particle="lwn_yinmo_burst"
-		trail_particle="lwn_yinmo_trail"
+		impact_particle="psys_game_missile_flame"
+		trail_particle="psys_game_burning_jar_trail"
 
 		duration="8"
 		repeat_interval="1"
@@ -227,10 +250,10 @@
 
 		mesh="lwn_yinmo_crescent"
 		scale="0.6"
-		tilt_deg="90"
-		trail_particle="lwn_yinmo_trail"
-		impact_particle="lwn_yinmo_burst"
-		charge_particle="lwn_yinmo_charge"
+		tilt_deg="0"
+		trail_particle="psys_game_burning_jar_trail"
+		impact_particle="psys_game_missile_flame"
+		charge_particle="psys_game_missile_flame"
 
 		cast_type="channel"
 		charge_time="0.8"
@@ -260,7 +283,7 @@
 		targeting="self"
 		payloads="aura"
 
-		charge_particle="lwn_yinmo_charge"
+		charge_particle="psys_game_missile_flame"
 		indicator="lwn_flight_sigil"
 		indicator_scale="2.5"
 

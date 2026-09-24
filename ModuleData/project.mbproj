@@ -57,7 +57,14 @@
 	     回退方法：删掉下面这一行即可。 -->
 	<file id="soln_item_usage_sets" name="ModuleData/item_usage_sets.xml" type="item_usage_set"/>
 	<!-- 🔴 2026-09-23 启用第八行：soln_particle_systems → ModuleData/particle_systems_yinmo.xml
-	     （阴魔斩的拖尾 / 命中爆散 / 蓄力三个粒子效果，13 个 emitter）。
+	     （阴魔斩的拖尾 / 命中爆散 / 蓄力三个粒子效果，15 个 emitter）。
+	     🔴🔴 **2026-09-24 实机更正（重要，别再按下面那段理解）**：这一行**只让编辑器认出这份 XML**，
+	        **游戏运行期读不到它** —— 运行期的粒子表来自 `AssetPackages` 里的 `Particle` 资产（编译产物）。
+	        判据：`tpaccli dump` 按名字捞原版 `psys_game_burning_jar_trail` → 打出的是 `META Particle`；
+	        反证：HikageRising 一个粒子 XML 都没有、122 个粒子全是 tpac 资产且确实生效。
+	        ⇒ 本文件 + 这一行的身份 = **编辑器源**。要进游戏还得在编辑器里 Publish 出粒子包、
+	          产物改名拷进 `Taikou/AssetPackages/`；完整五步见 plans/法术体系-通用施法框架.md §B。
+	     （以下是 2026-09-23 当时写的设计说明，保留备查：）
 	     为什么必须开：粒子与 skins / module_sounds / item_holsters 同属 project.mbproj 的 soln 体系，
 	     **不在 SubModule 的 XmlNode 体系里**——不开这行 = 这个文件完全不加载 = 法术的拖尾与爆散
 	     **一个都看不见**（`ParticleSystemManager.GetRuntimeIdByName` 查不到，[Spell] 日志会打"粒子查不到"）。
