@@ -84,4 +84,15 @@
 	<action name="act_fly_boost_lean_r" />
 	<action name="act_fly_boost_climb" />
 	<action name="act_fly_boost_dive" />
+
+	<!-- ═══════════ 施法手势（2026-09-24）· 🔴 **只在【通道 1 = 上身】播**，腿保持飞行姿态 ═══════════
+	     来源 = FlexibleCombatSystem 的魔法动画（经 `tools/anim-retarget` 重定向）：
+	       MagicIdle         (55 帧 / 1.80 s) → 蓄力循环（按住右键期间一直播，靠 anf_cyclic 自己转）
+	       ProjectileSpell   (70 帧 / 2.30 s) → 释放（松左键那一拍播一次；出手帧在 36%）
+	     内容包侧：clip 在 `AssetPackages/lwn_taikou_anim.tpac`（名 `magic_idle` / `magic_projectile_spell`）。
+	     代码侧：`Combat/SpellCastInput.cs` 的 PlayChargeAnim / PlayReleaseAnim。
+	     写错 = 静默 act_none（`ActionIndexCache.Create` 查不到就跳过，不会崩）。
+	     验：实机进飞行 → 按住右键看上身有没有起手姿势。 -->
+	<action name="act_cast_charge" />
+	<action name="act_cast_projectile" />
 </action_types>

@@ -122,5 +122,14 @@
 		<action
 			type="act_fly_boost_dive"
 			animation="flight_fastmove_a_pitchd" />
+
+		<!-- 施法手势（2026-09-24）：动画名 = 包里实测的 clip 名（`tpaccli dump` 出来的 AnimationClip），
+		     不是 TRF 名。蓄力 = magic_idle（循环），释放 = magic_projectile_spell（一次性）。 -->
+		<action
+			type="act_cast_charge"
+			animation="magic_idle" />
+		<action
+			type="act_cast_projectile"
+			animation="magic_projectile_spell" />
 	</action_set>
 </action_sets>

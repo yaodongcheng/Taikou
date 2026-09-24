@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <!-- 法术表 —— Taikou 填值，LWN 侧 SpellRegistry / SpellPieces 读取（照 FirearmFx.xml 的放法，C# 直接读盘）
      代码侧契约（字段含义、四段模型、三条接口契约）见 LWN 的 Combat/SpellDef.cs 头注释；
      方案见 plans/法术体系-通用施法框架.md。
@@ -82,9 +82,14 @@
 	        ⇒ 修法 = 在编辑器里把那份 XML 发布成粒子包（走 TaikouAnim 沙箱，它 mbproj 里已经挂好那两行），
 	          产物拷进 Taikou/AssetPackages；之后把下面三个值换成 lwn_yinmo_* 即可（**一行数据，不动代码**）。
 	     ② `charge_particle` 原来是**空的** —— 按住 X 蓄力时只有那颗球、没有火。现在先挂个原版火占位。
-	     ③ `charge_scale` = 蓄力核**满蓄力时**的放大倍率（起手那一刻是它的 1/3）。
+	     ③ `charge_scale` = 蓄力核**满蓄力时**的放大倍率（球的生长曲线 = 从 0 线性长到满，蓄满不再变）。
+	        🔴 **`charge_time` 必须非 0，否则 `Power` 在按下第一帧就 =1** —— 球一下就是满尺寸、看不到生长过程。
+	        现在 `charge_time="1.2"`（满蓄 1.2 秒）；`charge_bonus` 没配 ⇒ **蓄力不改变伤害**（只影响生长与手感）。
 	        2026-09-24 用户裁定"球太大" → 由原来的 1.5 缩到 **0.375**（核网格 ⌀0.72 m ⇒ 满蓄力 ⌀0.27 m）。
 	        运行时想再调：游戏里 `custom.spell core <倍率>`（不用重启）。 -->
+	<!-- 2026-09-24 深夜：我们自己的粒子包做出来了（离线编译：tools/tpactool 的 particleimport，
+	     产物 Modules/Taikou/AssetPackages/lwn_yinmo_prt.tpac）⇒ 本行的三个粒子值从原版占位换回 lwn_yinmo_*。
+	     若实机拖尾/爆散/蓄力火消失 → 先敲 custom.ninja_report lwn_yinmo_trail 看引擎认不认这个名字。 -->
 	<Spell
 		id="projectile_yinmo_zhan"
 		ammo="taikou_spell_crescent"
@@ -94,9 +99,9 @@
 		mesh="lwn_yinmo_crescent"
 		scale="1"
 		tilt_deg="0"
-		trail_particle="psys_game_burning_jar_trail"
-		impact_particle="psys_game_missile_flame"
-		charge_particle="psys_game_missile_flame"
+		trail_particle="lwn_yinmo_trail"
+		impact_particle="lwn_yinmo_burst"
+		charge_particle="lwn_yinmo_charge"
 		charge_scale="0.375"
 
 		damage="60"
@@ -112,7 +117,8 @@
 		pierce="1"
 
 		cast_type="normal"
-		release_at="0.42"
+		charge_time="1.2"
+		release_at="0.36"
 		end_at="0.80" />
 
 	<!-- ═══════════ 阶段 2 的三个验收件（2026-09-23 立）═══════════════════════
