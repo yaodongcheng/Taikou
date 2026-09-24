@@ -172,143 +172,30 @@
 			Stealth="true"
 			Civilian="true" />
 	</Item>
+	<!-- ═══════════ 阶段 2 的三个验收件（2026-09-23 立）：多目标 / 天降 / 放置 ═══════════
 
-	<!-- ═══════════════ 以下两件是**诊断探针**（2026-09-23 立），不是玩法内容，验完即删 ═══════════════
+	     它们是**机制验收件**，不是正式法术：三件都复用月牙那一个网格（`lwn_yinmo_crescent`），
+	     所以"看起来一样、行为不同"正是要看的 —— 区别全部由 `AssetRegistry/Spells.xml` 里那三行决定
+	     （瞄准轴 locked/ground、投送轴 projectile(start_height/turn_rate)/place）。
+	     配套数据行：projectile_multi_bolts / skyfall_meteor / place_firezone。
 
-	     背景：法术弹（`taikou_spell_crescent`）飞到一定距离后**网格不画了**（弹还在飞），
-	     而同期做的对照实验里「原版网格挂在场景实体上」**一路可见**。两者最大的差别是渲染路径：
-	     我们的弹走**导弹渲染路径**，陪飞走**普通实体路径**。
-	     而 BattleArtillery 的炮弹与原版 `boulder` 都带 `MissileWithPhysics="true"`（= 导弹是真物理刚体），
-	     我们没有这个 flag。以下两件用来把这条线索钉死。
+	     逐字照 `taikou_spell_crescent` 改写，只动 id / name（其余字段一个没变 —— 同一套网格、
+	     同一套碰撞体、同一套挂接，这样出问题一定不在资产上）。
 
-	     🔴 两件都**不是给玩法用的**：`is_merchandise="false"`，验完连同本段一起删。 -->
+	     验收入口（控制台，**不用装备**）：
+	       custom.spell cast projectile_multi_bolts    多目标：锁住锥内最多 3 人，各追一发
+	       custom.spell cast skyfall_meteor            天降：落点正上方 25 m 砸下来，半径伤害
+	       custom.spell cast place_firezone            放置：地上留一片 8 秒，每秒烧一次
+	     （想走"装备法印开火"那条路：campaign.add_item_to_main_party SpellMulti | 40 之类，
+	       显示名刻意做成 ASCII，免得中文客户端要在控制台里敲中文。） -->
 
-	<!-- 探针①：**逐字抄 BattleArtillery 的炮弹**（`bt_cannonball`），只改四处：
-	     id / name / culture / 补 Civilian 标记（铁律 33）。
-	     它是 Boulder 类 + `Type="Thrown"` + `item_usage="heavy_stone"` ⇒ **玩家可以拿在手里扔**
-	     （原版多人模式的 `boulder` 就是这个形态，动作是 `act_release_heavy_thrown`）。
-	     用途：确认「原封不动的人家配置」在我们这台机器上是不是也能一路可见。 -->
 	<Item
-		id="taikou_probe_shell"
-		name="{=TAIKOU_probe_shell}ProbeShell"
-		is_merchandise="false"
-		body_name="bo_projectile_rock"
-		flying_mesh="projectile_grapeshot_piece_a_fire"
-		holster_body_name="bo_axe_short"
-		mesh="projectile_grapeshot_piece_a_fire"
-		holster_mesh=""
-		culture="Culture.ikoku"
-		subtype="arrows"
-		weight="15"
-		difficulty="0"
-		appearance="1"
-		Type="Thrown"
-		item_holsters="">
-		<ItemComponent>
-			<Weapon
-				weapon_class="Boulder"
-				ammo_class="Boulder"
-				stack_amount="1"
-				position="0.05, -0.15, 0"
-				center_of_mass="0,0,0"
-				physics_material="boulder_stone"
-				thrust_speed="100"
-				speed_rating="0"
-				missile_speed="8"
-				weapon_length="95"
-				trail_particle_name="psys_game_burning_jar_trail"
-				thrust_damage="500"
-				item_usage="heavy_stone"
-				flying_sound_code="event:/mission/combat/boulder/passby"
-				rotation_speed="2, 0.5, 0">
-				<WeaponFlags
-					RangedWeapon="true"
-					Consumable="true"
-					NotUsableWithOneHand="true"
-					TwoHandIdleOnMount="true"
-					CanPenetrateShield="true"
-					CanKnockDown="true"
-					Burning="true"
-					AffectsAreaBig="true"
-					MissileWithPhysics="true"
-					UseHandAsThrowBase="true"
-					LeavesTrail="true"
-					AmmoCanBreakOnBounceBack="true"
-					AffectsArea="true" />
-			</Weapon>
-		</ItemComponent>
-		<Flags
-			QuickFadeOut="true"
-			CannotBePickedUp="true"
-			DropOnWeaponChange="true"
-			DropOnAnyAction="true"
-			Civilian="true" />
-	</Item>
-
-	<!-- 探针②：**我们的法术弹 + 一个 flag**（`MissileWithPhysics="true"`）。
-	     除这一个 flag 外与 `taikou_spell_crescent` 逐字相同（同一套网格、材质、物理材质、碰撞体）。
-	     用途：一发定论 —— 若它一路可见，则「导弹是否物理刚体」就是那个"设置"，
-	     修法 = 给正式弹补上这个 flag；若它照样提前消失，则与这个 flag 无关，另找。 -->
-	<Item
-		id="taikou_probe_crescent_phys"
-		name="{=TAIKOU_probe_crescent_phys}ProbeCrescentPhys"
+		id="taikou_spell_multi"
+		name="{=TAIKOU_spell_multi}SpellMulti"
 		is_merchandise="false"
 		body_name="bo_capsule_arrow"
 		holster_body_name="bo_axe_short"
 		flying_mesh="lwn_yinmo_crescent"
-		mesh="bolt_bl_a"
-		holster_mesh="bolt_bl_a_quiver"
-		holster_mesh_with_weapon="bolt_bl_a_quiver"
-		culture="Culture.ikoku"
-		weight="0.05"
-		appearance="1"
-		Type="Bolts"
-		item_holsters="quiver_bolts:quiver_bolts_2:quiver_back_middle:quiver_back_top">
-		<ItemComponent>
-			<Weapon
-				weapon_class="Bolt"
-				stack_amount="40"
-				thrust_speed="0"
-				thrust_damage="60"
-				thrust_damage_type="Cut"
-				speed_rating="0"
-				missile_speed="10"
-				weapon_length="47"
-				item_usage=""
-				passby_sound_code="event:/mission/combat/missile/passby"
-				rotation="0, 0, 0"
-				physics_material="missile"
-				sticking_position="0,-0.47,0"
-				sticking_rotation="90,0,0"
-				center_of_mass="0,0,-0.1"
-				modifier_group="bolt">
-				<WeaponFlags
-					AttachAmmoToVisual="true"
-					Consumable="true"
-					AmmoSticksWhenShot="true"
-					AmmoBreaksOnBounceBack="true"
-					MissileWithPhysics="true" />
-			</Weapon>
-		</ItemComponent>
-		<Flags
-			ForceAttachOffHandPrimaryItemBone="true"
-			Stealth="true"
-			Civilian="true" />
-	</Item>
-
-	<!-- 探针③（2026-09-23）：**拿原版"完整套装"网格当弹打** —— `aserai_castle_keep_a_l2`
-	     （阿塞莱城堡主楼，场景建筑，LOD 链完整）。
-	     用途：切开最后两个可能 ——
-	       · 它一路可见 ⇒ "完整资产"在导弹路径上没问题 ⇒ 锅在**我们月牙的资产本身**
-	       · 它也在一百多米外消失 ⇒ 是**导弹渲染路径的普遍上限**，与资产无关
-	     除 id / name / flying_mesh 外，与 `taikou_spell_crescent` 逐字相同（同一套 Bolt 类配置）。 -->
-	<Item
-		id="taikou_probe_keep"
-		name="{=TAIKOU_probe_keep}ProbeKeep"
-		is_merchandise="false"
-		body_name="bo_capsule_arrow"
-		holster_body_name="bo_axe_short"
-		flying_mesh="aserai_castle_keep_a_l2"
 		mesh="bolt_bl_a"
 		holster_mesh="bolt_bl_a_quiver"
 		holster_mesh_with_weapon="bolt_bl_a_quiver"
@@ -347,4 +234,190 @@
 			Stealth="true"
 			Civilian="true" />
 	</Item>
+
+	<Item
+		id="taikou_spell_sky"
+		name="{=TAIKOU_spell_sky}SpellSky"
+		is_merchandise="false"
+		body_name="bo_capsule_arrow"
+		holster_body_name="bo_axe_short"
+		flying_mesh="lwn_yinmo_crescent"
+		mesh="bolt_bl_a"
+		holster_mesh="bolt_bl_a_quiver"
+		holster_mesh_with_weapon="bolt_bl_a_quiver"
+		culture="Culture.ikoku"
+		weight="0.05"
+		appearance="1"
+		Type="Bolts"
+		item_holsters="quiver_bolts:quiver_bolts_2:quiver_back_middle:quiver_back_top">
+		<ItemComponent>
+			<Weapon
+				weapon_class="Bolt"
+				stack_amount="40"
+				thrust_speed="0"
+				thrust_damage="60"
+				thrust_damage_type="Cut"
+				speed_rating="0"
+				missile_speed="10"
+				weapon_length="47"
+				item_usage=""
+				passby_sound_code="event:/mission/combat/missile/passby"
+				rotation="0, 0, 0"
+				physics_material="missile"
+				sticking_position="0,-0.47,0"
+				sticking_rotation="90,0,0"
+				center_of_mass="0,0,-0.1"
+				modifier_group="bolt">
+				<WeaponFlags
+					AttachAmmoToVisual="true"
+					Consumable="true"
+					AmmoSticksWhenShot="true"
+					AmmoBreaksOnBounceBack="true" />
+			</Weapon>
+		</ItemComponent>
+		<Flags
+			ForceAttachOffHandPrimaryItemBone="true"
+			Stealth="true"
+			Civilian="true" />
+	</Item>
+
+	<Item
+		id="taikou_spell_zone"
+		name="{=TAIKOU_spell_zone}SpellZone"
+		is_merchandise="false"
+		body_name="bo_capsule_arrow"
+		holster_body_name="bo_axe_short"
+		flying_mesh="lwn_yinmo_crescent"
+		mesh="bolt_bl_a"
+		holster_mesh="bolt_bl_a_quiver"
+		holster_mesh_with_weapon="bolt_bl_a_quiver"
+		culture="Culture.ikoku"
+		weight="0.05"
+		appearance="1"
+		Type="Bolts"
+		item_holsters="quiver_bolts:quiver_bolts_2:quiver_back_middle:quiver_back_top">
+		<ItemComponent>
+			<Weapon
+				weapon_class="Bolt"
+				stack_amount="40"
+				thrust_speed="0"
+				thrust_damage="60"
+				thrust_damage_type="Cut"
+				speed_rating="0"
+				missile_speed="10"
+				weapon_length="47"
+				item_usage=""
+				passby_sound_code="event:/mission/combat/missile/passby"
+				rotation="0, 0, 0"
+				physics_material="missile"
+				sticking_position="0,-0.47,0"
+				sticking_rotation="90,0,0"
+				center_of_mass="0,0,-0.1"
+				modifier_group="bolt">
+				<WeaponFlags
+					AttachAmmoToVisual="true"
+					Consumable="true"
+					AmmoSticksWhenShot="true"
+					AmmoBreaksOnBounceBack="true" />
+			</Weapon>
+		</ItemComponent>
+		<Flags
+			ForceAttachOffHandPrimaryItemBone="true"
+			Stealth="true"
+			Civilian="true" />
+	</Item>
+
+	<!-- 阶段 3 的两个验收件（引导光束 / 雷电领域）：照 SpellZone 同模板改 id/name，
+	     网格与碰撞体一字未动 —— 行为差别全在 AssetRegistry/Spells.xml 那两行。 -->
+	<Item
+		id="taikou_spell_beam"
+		name="{=TAIKOU_spell_beam}SpellBeam"
+		is_merchandise="false"
+		body_name="bo_capsule_arrow"
+		holster_body_name="bo_axe_short"
+		flying_mesh="lwn_yinmo_crescent"
+		mesh="bolt_bl_a"
+		holster_mesh="bolt_bl_a_quiver"
+		holster_mesh_with_weapon="bolt_bl_a_quiver"
+		culture="Culture.ikoku"
+		weight="0.05"
+		appearance="1"
+		Type="Bolts"
+		item_holsters="quiver_bolts:quiver_bolts_2:quiver_back_middle:quiver_back_top">
+		<ItemComponent>
+			<Weapon
+				weapon_class="Bolt"
+				stack_amount="40"
+				thrust_speed="0"
+				thrust_damage="60"
+				thrust_damage_type="Cut"
+				speed_rating="0"
+				missile_speed="10"
+				weapon_length="47"
+				item_usage=""
+				passby_sound_code="event:/mission/combat/missile/passby"
+				rotation="0, 0, 0"
+				physics_material="missile"
+				sticking_position="0,-0.47,0"
+				sticking_rotation="90,0,0"
+				center_of_mass="0,0,-0.1"
+				modifier_group="bolt">
+				<WeaponFlags
+					AttachAmmoToVisual="true"
+					Consumable="true"
+					AmmoSticksWhenShot="true"
+					AmmoBreaksOnBounceBack="true" />
+			</Weapon>
+		</ItemComponent>
+		<Flags
+			ForceAttachOffHandPrimaryItemBone="true"
+			Stealth="true"
+			Civilian="true" />
+	</Item>
+	<Item
+		id="taikou_spell_aura"
+		name="{=TAIKOU_spell_aura}SpellAura"
+		is_merchandise="false"
+		body_name="bo_capsule_arrow"
+		holster_body_name="bo_axe_short"
+		flying_mesh="lwn_yinmo_crescent"
+		mesh="bolt_bl_a"
+		holster_mesh="bolt_bl_a_quiver"
+		holster_mesh_with_weapon="bolt_bl_a_quiver"
+		culture="Culture.ikoku"
+		weight="0.05"
+		appearance="1"
+		Type="Bolts"
+		item_holsters="quiver_bolts:quiver_bolts_2:quiver_back_middle:quiver_back_top">
+		<ItemComponent>
+			<Weapon
+				weapon_class="Bolt"
+				stack_amount="40"
+				thrust_speed="0"
+				thrust_damage="60"
+				thrust_damage_type="Cut"
+				speed_rating="0"
+				missile_speed="10"
+				weapon_length="47"
+				item_usage=""
+				passby_sound_code="event:/mission/combat/missile/passby"
+				rotation="0, 0, 0"
+				physics_material="missile"
+				sticking_position="0,-0.47,0"
+				sticking_rotation="90,0,0"
+				center_of_mass="0,0,-0.1"
+				modifier_group="bolt">
+				<WeaponFlags
+					AttachAmmoToVisual="true"
+					Consumable="true"
+					AmmoSticksWhenShot="true"
+					AmmoBreaksOnBounceBack="true" />
+			</Weapon>
+		</ItemComponent>
+		<Flags
+			ForceAttachOffHandPrimaryItemBone="true"
+			Stealth="true"
+			Civilian="true" />
+	</Item>
+
 </Items>

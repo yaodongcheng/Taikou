@@ -6398,9 +6398,6 @@
     <string id="TAIKOU_player_faction" text="Player" />
     <string id="TAIKOU_player_father_name" text="Denbei" />
     <string id="TAIKOU_player_mother_name" text="Kinu" />
-    <string id="TAIKOU_probe_crescent_phys" text="ProbeCrescentPhys" />
-    <string id="TAIKOU_probe_keep" text="ProbeKeep" />
-    <string id="TAIKOU_probe_shell" text="ProbeShell" />
     <string id="TAIKOU_rammaru_do_a" text="Morii Ranmaru's Do" />
     <string id="TAIKOU_rammaru_helmet_a" text="Morii Ranmaru's Helmet" />
     <string id="TAIKOU_rammaru_weapon_a" text="Morii Ranmaru's Katana" />
@@ -6761,8 +6758,13 @@
     <string id="TAIKOU_skill_ninja" text="Ninjutsu" />
     <string id="TAIKOU_skill_soldier" text="Spearmen" />
     <string id="TAIKOU_skill_tea" text="Tea Ceremony" />
+    <string id="TAIKOU_spell_aura" text="SpellAura" />
+    <string id="TAIKOU_spell_beam" text="SpellBeam" />
     <string id="TAIKOU_spell_crescent" text="SpellCrescent" />
+    <string id="TAIKOU_spell_multi" text="SpellMulti" />
     <string id="TAIKOU_spell_seal" text="SpellSeal" />
+    <string id="TAIKOU_spell_sky" text="SpellSky" />
+    <string id="TAIKOU_spell_zone" text="SpellZone" />
     <string id="TAIKOU_story_goal_hanzo" text="Unite the realm under the lord you serve. Your work is espionage, seizure and sabotage." />
     <string id="TAIKOU_story_goal_kinoshita" text="Rise from the ranks and unite the realm. Governance, arms and diplomacy must all be mastered." />
     <string id="TAIKOU_story_goal_kuki" text="Unite the realm under the lord you serve. Subdue the rival sea lords and pacify the waters." />

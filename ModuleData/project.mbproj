@@ -56,4 +56,19 @@
 	     安全性：那个文件此刻是**空根** → 即使被合并进去也等于什么都没加，不会崩。
 	     回退方法：删掉下面这一行即可。 -->
 	<file id="soln_item_usage_sets" name="ModuleData/item_usage_sets.xml" type="item_usage_set"/>
+	<!-- 🔴 2026-09-23 启用第八行：soln_particle_systems → ModuleData/particle_systems_yinmo.xml
+	     （阴魔斩的拖尾 / 命中爆散 / 蓄力三个粒子效果，13 个 emitter）。
+	     为什么必须开：粒子与 skins / module_sounds / item_holsters 同属 project.mbproj 的 soln 体系，
+	     **不在 SubModule 的 XmlNode 体系里**——不开这行 = 这个文件完全不加载 = 法术的拖尾与爆散
+	     **一个都看不见**（`ParticleSystemManager.GetRuntimeIdByName` 查不到，[Spell] 日志会打"粒子查不到"）。
+	     为什么不会重演 09-08 那次崩（同 soln id 合并出重复定义 → KeyNotFoundException）：
+	     11 个 effect 名（lwn_yinmo_charge / _trail / _burst）与 Native 的 218 个**零交集**，
+	     与 TaikouAnim 沙箱里那份是同一份文件（那边是给 ModKit 预览用的，运行时不要勾选 TaikouAnim）
+	     ⇒ 合并是纯追加。
+	     ⚠️ 本文件是工具链生成物的**交付副本**：生成器 = tools/particle-pipeline/gen_particle_effect.py
+	        （spec = examples/yinmo_spec.py），产物先落 out/yinmo_slash.xml，再拷到本模块并改名为
+	        particle_systems_yinmo.xml（名字照 Native 惯例：particle_systems_*.xml）。
+	        **重生成后必须重新拷一次**，两份不会自动同步（铁律 22：生成物禁手改）。
+	     回退方法：删掉下面这一行即可（文件留着不生效，无害）。 -->
+	<file id="soln_particle_systems" name="ModuleData/particle_systems_yinmo.xml" type="particle_system"/>
 </base>
