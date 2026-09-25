@@ -8,7 +8,12 @@
         写错 = 静默解析成 act_none，没有任何报错，只是播不出来。
 
      🔴 2026-09-19 启用。为什么不会重演 09-08 那次崩：见 action_types.xml 的说明（零交集、纯追加）。
-     回退方法：删掉 mbproj 里 soln_action_sets 那一行即可。 -->
+     回退方法：删掉 mbproj 里 soln_action_sets 那一行即可。
+
+     🔴🔴 **命名规则（2026-09-25 用户裁定）**：动作名的词跟着 clip 走 —— 去掉 clip 名的
+        `flight_` 前缀和 `_a` 后缀就是同一个词，一眼对得上（对照表见 action_types.xml 顶部与
+        Flight/FlightAnimMachine.cs 顶部）。旧的一套 act_fly_cruise / act_fly_boost / act_fly_dash_start /
+        act_fly_climb / act_fly_dive / act_fly_lean_l / act_cast_charge … 全部作废，勿再使用。 -->
 <action_sets>
 	<action_set
 		id="as_human_warrior"
@@ -41,7 +46,7 @@
 			type="act_executed02"
 			animation="executed02" />
 
-		<!-- 🔴 2026-09-21 新增：飞行动作 4 条（起飞 / 巡航 / 冲刺 / 落地）。
+		<!-- 🔴 2026-09-21 新增：飞行动作 4 条（起飞 / 悬停移动 / 快移 / 落地）。
 		     animation= 一律填【实测 clip 名】（tpaccli list 装机包 lwn_taikou_anim.tpac 读出来的），
 		     **不是** TRF 文件名、**不是** UE 源动画名、**不是** SkeletalAnimation 资源名。
 		     🔴 注意真实 clip 名和 TRF 文件名并不一一对应，举例：
@@ -50,30 +55,30 @@
 		     写错 = 静默 act_none，无报错，只是播不出来。
 		     🔴 本条注释里【不许出现连续两个减号】：XML 注释里那是非法字符，整个文件解析失败、
 		     引擎启动即崩（XmlException @ CreateProcessedActionSetsXMLForNative）。
-		     验：实机逐条 custom.do_anim act_fly_cruise / act_fly_boost / act_fly_start / act_fly_land -->
+		     验：实机逐条 custom.do_anim act_fly_hovermove / act_fly_fastmove / act_fly_hoverstart / act_fly_superland -->
 		<action
-			type="act_fly_start"
+			type="act_fly_hoverstart"
 			animation="flight_hoverstart_a" />
 		<action
-			type="act_fly_cruise"
+			type="act_fly_hovermove"
 			animation="flight_hovermove_a" />
 		<action
-			type="act_fly_boost"
+			type="act_fly_fastmove"
 			animation="flight_fastmove_a" />
 		<action
-			type="act_fly_land"
+			type="act_fly_superland"
 			animation="flight_superland_a" />
 
-		<!-- 🔴 2026-09-22 新增 7 条：冲刺入姿 / 四方向闪避 / 抬头 / 低头。
+		<!-- 🔴 2026-09-22 新增 7 条：快移入姿 / 四方向闪避 / 抬头 / 低头。
 		     animation= 一律填**装机包里实测的 clip 名**（tpaccli list 读 `lwn_taikou_anim.tpac` 得到），
 		     不是 TRF 文件名。对应 TRF → clip 名：
 		        fly_A_Flight_FastMove_Start_A   => flight_fastmove_start_a
 		        fly_A_Flight_Dodge_A_L/R/U/D    => flight_dodge_a_l / _r / _u / _d
 		        fly_A_Flight_HoverMove_A_PitchU => flight_hovermove_a_pitchu
 		        fly_A_Flight_HoverMove_A_PitchD => flight_hovermove_a_pitchd
-	     写错 = 静默 act_none。验：实机逐条 custom.do_anim（见 action_types.xml 同名注释） -->
+		     写错 = 静默 act_none。验：实机逐条 custom.do_anim（见 action_types.xml 同名注释） -->
 		<action
-			type="act_fly_dash_start"
+			type="act_fly_fastmove_start"
 			animation="flight_fastmove_start_a" />
 		<action
 			type="act_fly_dodge_l"
@@ -88,13 +93,13 @@
 			type="act_fly_dodge_d"
 			animation="flight_dodge_a_d" />
 		<action
-			type="act_fly_climb"
+			type="act_fly_hovermove_pitchu"
 			animation="flight_hovermove_a_pitchu" />
 		<action
-			type="act_fly_dive"
+			type="act_fly_hovermove_pitchd"
 			animation="flight_hovermove_a_pitchd" />
 
-		<!-- 🔴 2026-09-22 新增 6 条：压弯（左/右）× 两个家族 + 冲刺家的抬头/低头。
+		<!-- 🔴 2026-09-22 新增 6 条：压弯（左/右）× 两个家族 + 快移家的抬头/低头。
 		     animation= 一律填**装机包里实测的 clip 名**（tpaccli list 读 `lwn_taikou_anim.tpac`）。
 		     TRF 名 => clip 名：
 		        fly_A_Flight_HoverMove_A_LeanL  => flight_hovermove_a_leanl
@@ -105,31 +110,32 @@
 		        fly_A_Flight_FastMove_A_PitchD  => flight_fastmove_a_pitchd
 		     写错 = 静默 act_none。 -->
 		<action
-			type="act_fly_lean_l"
+			type="act_fly_hovermove_lean_l"
 			animation="flight_hovermove_a_leanl" />
 		<action
-			type="act_fly_lean_r"
+			type="act_fly_hovermove_lean_r"
 			animation="flight_hovermove_a_leanr" />
 		<action
-			type="act_fly_boost_lean_l"
+			type="act_fly_fastmove_lean_l"
 			animation="flight_fastmove_a_leanl" />
 		<action
-			type="act_fly_boost_lean_r"
+			type="act_fly_fastmove_lean_r"
 			animation="flight_fastmove_a_leanr" />
 		<action
-			type="act_fly_boost_climb"
+			type="act_fly_fastmove_pitchu"
 			animation="flight_fastmove_a_pitchu" />
 		<action
-			type="act_fly_boost_dive"
+			type="act_fly_fastmove_pitchd"
 			animation="flight_fastmove_a_pitchd" />
 
 		<!-- 施法手势（2026-09-24）：动画名 = 包里实测的 clip 名（`tpaccli dump` 出来的 AnimationClip），
-		     不是 TRF 名。蓄力 = magic_idle（循环），释放 = magic_projectile_spell（一次性）。 -->
+		     不是 TRF 名。蓄力 = magic_idle（循环），释放 = magic_projectile_spell（一次性）。
+		     🔴 2026-09-25 动作名跟着 clip 改名（原 act_cast_charge / act_cast_projectile）。 -->
 		<action
-			type="act_cast_charge"
+			type="act_magic_idle"
 			animation="magic_idle" />
 		<action
-			type="act_cast_projectile"
+			type="act_magic_projectile"
 			animation="magic_projectile_spell" />
 	</action_set>
 </action_sets>
