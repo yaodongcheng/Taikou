@@ -254,10 +254,10 @@
 		family="channel"
 		payloads="damage,status"
 
-		mesh="lwn_yinmo_crescent"
-		scale="0.6"
+		mesh="lwn_lightning_arc"
+		scale="3"
 		tilt_deg="0"
-		trail_particle="psys_game_burning_jar_trail"
+		trail_particle=""
 		impact_particle="psys_game_missile_flame"
 		charge_particle="psys_game_missile_flame"
 
