@@ -59,9 +59,18 @@
 		<action
 			type="act_fly_hoverstart"
 			animation="flight_hoverstart_a" />
+		<!-- 🔴 2026-09-27：巡航改播**前倾合成件**（HoverMove + AddF）。
+		     为什么换：基础版 `flight_hovermove_a` 是**没叠加法层**的悬停姿势，看不出速度；
+		     AddF 合成件把整体前倾 25°（实测合成后根骨绕 X 轴 25.0°），才有"迎风前倾"的观感。
+		     源 TRF = `fly_A_Flight_HoverMove_A_AddF.trf`；clip 名 = `tpaccli clipinfo` 读出来的
+		     `flight_hovermove_a_addf`（2.033 秒 / cyclic / BlendIn 0.3，与同类循环件一致）。
+		     ⚠️ 同族的 AddB / AddL / AddR / AddD / AddU 五条**还没导入**——要用得先导，别先写名字：
+		     写不存在的 clip = 静默 act_none（不报错、只是播不出来）。
+		     ⚠️ 状态机侧的过渡时长（悬停 ⇄ 巡航）由 `flight.xml` 那条边上的
+		     `blend="hoverBlendSeconds"` 管，热调键 `custom.flight tune hoverblend`。 -->
 		<action
 			type="act_fly_hovermove"
-			animation="flight_hovermove_a" />
+			animation="flight_hovermove_a_addf" />
 		<action
 			type="act_fly_fastmove"
 			animation="flight_fastmove_a" />
