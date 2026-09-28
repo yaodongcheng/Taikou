@@ -1181,6 +1181,38 @@
     <string id="TAIKOU_forcetype_pirate" text="Pirate" />
     <string id="TAIKOU_forcetype_trader" text="Trader" />
     <string id="TAIKOU_forcetype_warrior" text="Warrior" />
+    <string id="TAIKOU_gem_accel" text="Accelerate" />
+    <string id="TAIKOU_gem_antigrav" text="Anti-Gravity" />
+    <string id="TAIKOU_gem_bounce" text="Bounce" />
+    <string id="TAIKOU_gem_bounce_cast" text="Ricochet" />
+    <string id="TAIKOU_gem_burrower" text="Burrower" />
+    <string id="TAIKOU_gem_crit" text="Critical" />
+    <string id="TAIKOU_gem_delayed_turn" text="Delayed Turn" />
+    <string id="TAIKOU_gem_drag" text="Air Drag" />
+    <string id="TAIKOU_gem_drill" text="Drill" />
+    <string id="TAIKOU_gem_expire_cast" text="Fuse" />
+    <string id="TAIKOU_gem_explode" text="Explode" />
+    <string id="TAIKOU_gem_gravity" text="Heavy Gravity" />
+    <string id="TAIKOU_gem_haste" text="Haste" />
+    <string id="TAIKOU_gem_heavy" text="Heavy" />
+    <string id="TAIKOU_gem_homing" text="Homing" />
+    <string id="TAIKOU_gem_huge" text="Giant" />
+    <string id="TAIKOU_gem_lasting" text="Lasting" />
+    <string id="TAIKOU_gem_light" text="Light" />
+    <string id="TAIKOU_gem_lock" text="Extra Lock" />
+    <string id="TAIKOU_gem_multi" text="Multishot" />
+    <string id="TAIKOU_gem_pierce" text="Pierce" />
+    <string id="TAIKOU_gem_power" text="Power Up" />
+    <string id="TAIKOU_gem_quickcast" text="Quick Cast" />
+    <string id="TAIKOU_gem_skyfall" text="Skyfall" />
+    <string id="TAIKOU_gem_slow" text="Slow" />
+    <string id="TAIKOU_gem_split" text="Split" />
+    <string id="TAIKOU_gem_spread" text="Split Damage" />
+    <string id="TAIKOU_gem_timer" text="Timer" />
+    <string id="TAIKOU_gem_trigger" text="Trigger" />
+    <string id="TAIKOU_gem_wide" text="Widen" />
+    <string id="TAIKOU_gem_wobble" text="Unstable" />
+    <string id="TAIKOU_gem_zerog" text="Weightless" />
     <string id="TAIKOU_ginchiyo_do_a" text="Bekki Ginchiyo's Do" />
     <string id="TAIKOU_ginchiyo_helmet_a" text="Bekki Ginchiyo's Helmet" />
     <string id="TAIKOU_ginchiyo_weapon_a" text="Bekki Ginchiyo's Spear" />

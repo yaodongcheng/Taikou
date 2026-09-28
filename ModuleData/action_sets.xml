@@ -102,21 +102,27 @@
 			type="act_fly_dodge_d"
 			animation="flight_dodge_a_d" />
 		<action
-			type="act_fly_hovermove_pitchu"
-			animation="flight_hovermove_a_pitchu" />
+			type="act_fly_hovermove_addu"
+			animation="flight_hovermove_a_addu" />
 		<action
-			type="act_fly_hovermove_pitchd"
-			animation="flight_hovermove_a_pitchd" />
+			type="act_fly_hovermove_addd"
+			animation="flight_hovermove_a_addd" />
 
 		<!-- 🔴 2026-09-22 新增 6 条：压弯（左/右）× 两个家族 + 快移家的抬头/低头。
-		     animation= 一律填**装机包里实测的 clip 名**（tpaccli list 读 `lwn_taikou_anim.tpac`）。
-		     TRF 名 => clip 名：
-		        fly_A_Flight_HoverMove_A_LeanL  => flight_hovermove_a_leanl
-		        fly_A_Flight_HoverMove_A_LeanR  => flight_hovermove_a_leanr
-		        fly_A_Flight_FastMove_A_LeanL   => flight_fastmove_a_leanl
-		        fly_A_Flight_FastMove_A_LeanR   => flight_fastmove_a_leanr
-		        fly_A_Flight_FastMove_A_PitchU  => flight_fastmove_a_pitchu
-		        fly_A_Flight_FastMove_A_PitchD  => flight_fastmove_a_pitchd
+		     animation= 一律填**装机包里实测的 clip 名**（用 `tpaccli list` 指定 `Taikou\AssetPackages` 目录）。
+		     🔴 **XML 注释里禁止"连续两个半角减号"**（命令行开关就是那个写法）—— 写进注释会让整个
+		        文件 `not well-formed`，2026-09-28 在这上面栽过一次（用户当场发现）。要提命令行开关，
+		        用文字描述，别把符号照抄进来。
+		     🔴 **2026-09-28 用户重导 + 改名**（新包 = Publish 产物，已装机）——
+		        抬头/低头那 4 条从 `_pitchu/_pitchd` 改成 **`_addu/_addd`**，**动作名跟着 clip 改**
+		        （先例 = 2026-09-25 的施法两条）。
+		        source 名（TRF）=> clip 名：
+		           fly_a_flight_hovermove_a_addu => flight_hovermove_a_addu    （原 …_pitchu）
+		           fly_a_flight_hovermove_a_addd => flight_hovermove_a_addd    （原 …_pitchd）
+		           fly_a_flight_fastmove_a_addu  => flight_fastmove_a_addu     （原 …_pitchu）
+		           fly_a_flight_fastmove_a_addd  => flight_fastmove_a_addd     （原 …_pitchd）
+		           fly_a_flight_hovermove_a_addl / addr => flight_hovermove_a_leanl / _leanr   （clip 名没改）
+		           fly_a_flight_fastmove_a_addl / addr  => flight_fastmove_a_leanl / _leanr    （clip 名没改）
 		     写错 = 静默 act_none。 -->
 		<action
 			type="act_fly_hovermove_lean_l"
@@ -131,11 +137,11 @@
 			type="act_fly_fastmove_lean_r"
 			animation="flight_fastmove_a_leanr" />
 		<action
-			type="act_fly_fastmove_pitchu"
-			animation="flight_fastmove_a_pitchu" />
+			type="act_fly_fastmove_addu"
+			animation="flight_fastmove_a_addu" />
 		<action
-			type="act_fly_fastmove_pitchd"
-			animation="flight_fastmove_a_pitchd" />
+			type="act_fly_fastmove_addd"
+			animation="flight_fastmove_a_addd" />
 
 		<!-- 施法手势（2026-09-24）：动画名 = 包里实测的 clip 名（`tpaccli dump` 出来的 AnimationClip），
 		     不是 TRF 名。蓄力 = magic_idle（循环），释放 = magic_projectile_spell（一次性）。

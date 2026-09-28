@@ -3283,6 +3283,42 @@
   <!-- 阶段 3 的两个验收件：引导光束（按住持续喷射）/ 雷电领域（以自己为圆心持续电周围）。 -->
   <string id="TAIKOU_spell_beam" text="SpellBeam" />
   <string id="TAIKOU_spell_aura" text="SpellAura" />
+  <!-- 阶段 5 的修正宝石（AssetRegistry/Modifiers.xml）。
+       英文层是生成物（gen_taikou_english_strings.py 从数据 XML 的 fallback 抽取），
+       中文层是人工维护 —— 数据里加一颗宝石就要在这里补一条，键集不能缺。
+       注意：本文件内禁止任何 emoji / 超 BMP 字符（铁律 14：引擎 UTF-16 解析器遇代理对直接崩）。 -->
+  <string id="TAIKOU_gem_power" text="伤害强化" />
+  <string id="TAIKOU_gem_haste" text="加速" />
+  <string id="TAIKOU_gem_slow" text="减速" />
+  <string id="TAIKOU_gem_heavy" text="重击" />
+  <string id="TAIKOU_gem_light" text="轻击" />
+  <string id="TAIKOU_gem_huge" text="巨大化" />
+  <string id="TAIKOU_gem_lasting" text="持久" />
+  <string id="TAIKOU_gem_wide" text="扩大范围" />
+  <string id="TAIKOU_gem_multi" text="多发" />
+  <string id="TAIKOU_gem_lock" text="增锁" />
+  <string id="TAIKOU_gem_quickcast" text="速咏" />
+  <string id="TAIKOU_gem_skyfall" text="天降" />
+  <string id="TAIKOU_gem_zerog" text="失重" />
+  <string id="TAIKOU_gem_antigrav" text="反重力" />
+  <string id="TAIKOU_gem_gravity" text="加重力" />
+  <string id="TAIKOU_gem_homing" text="追踪" />
+  <string id="TAIKOU_gem_pierce" text="贯穿" />
+  <string id="TAIKOU_gem_explode" text="爆炸" />
+  <string id="TAIKOU_gem_crit" text="会心" />
+  <string id="TAIKOU_gem_wobble" text="不稳" />
+  <string id="TAIKOU_gem_bounce" text="弹跳" />
+  <string id="TAIKOU_gem_drill" text="钻地" />
+  <string id="TAIKOU_gem_spread" text="伤害均分" />
+  <string id="TAIKOU_gem_drag" text="风阻" />
+  <string id="TAIKOU_gem_accel" text="沿途加速" />
+  <string id="TAIKOU_gem_delayed_turn" text="延迟转向" />
+  <string id="TAIKOU_gem_trigger" text="触发" />
+  <string id="TAIKOU_gem_timer" text="定时" />
+  <string id="TAIKOU_gem_bounce_cast" text="连弹" />
+  <string id="TAIKOU_gem_expire_cast" text="引信" />
+  <string id="TAIKOU_gem_split" text="分裂" />
+  <string id="TAIKOU_gem_burrower" text="遁地" />
 <!-- ==== 战无2 装备名（tools/sw2-pipeline/gen_armor_items.py 产出，禁止手改）==== -->
   <string id="TAIKOU_musashi_do_a" text="野袴道服" />
   <string id="TAIKOU_kotaro_do_a" text="风魔忍装束" />
