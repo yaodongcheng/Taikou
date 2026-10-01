@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 钩索（2026-10-01 立）—— 武器 + 绳弹**一对**物品。
+     方案 = LivingWorldNpcs 的 plans\钩索-实施计划.md §3.0（起手）/ §3.3 复用件对照表。
+     三单元架构：**物品属内容包（本文件）、逻辑归 LWN**（Combat\Grapple*.cs）。
+
+     🔴 起手链路（为什么是"弓 + 箭"）：
+        装备（**准星自动出现 —— 引擎自带，远程武器通用件，零 UI 代码**）
+        → 右键 = 拉弓（原生瞄准姿态）→ 松手 = 开火 → 引擎回调 `Mission.OnAgentShootMissile`
+        → LWN 的拦截补丁判"这一发用的弹药是绳弹" → `return false`（**真的没有导弹被建出来**）
+        → 改发我们自己的钩头实体 + 绳子。**引擎的准星/瞄准/射击动画全部白拿。**
+        拦不到（补丁关了 / 别人拿了绳弹）→ 引擎照常发一颗真箭（flying_mesh 那件），不会崩。
+
+     🔴 绳弹要"永远不用管"：LWN 在拦截后**立刻把弹药退还**（幂等：补到"应该有 1 个"）⇒
+        玩家背包里永远只有 1 个绳弹、永远打不完 —— 体验上就是"不需要箭"。
+        （借的是引擎现成枚举 `Arrow`，加不了新弹种；副作用 = 别人拿普通弓也能装这发绳弹，
+          所以拦截判据写的是"**弹药是绳弹**"，与武器无关。）
+
+     🔴 占位声明（探针期，同 taikou_items/spells.xml 的口径）：
+        · 钩索本体网格 = `shortbow_h`（原版短弓）—— **占位**，将来换成正经"钩索发射器"资产；
+        · 绳弹网格 = `arrow_bl_a` —— 占位；
+        · 显示名 = **中英同串 ASCII**（`GrappleHook` / `GrappleDart`）——
+          免得中文客户端要敲中文（控制台未必吃 IME）、英文客户端要敲英文；
+          `campaign.add_item_to_main_party` 是**按显示名**查、参数组之间用**竖线 `|`** 分隔。
+        · 两件都 `is_merchandise="false"`：探针期不进商人不掉落，用 `custom.grapple equip` 发。
+
+     🔴 两件都带 `<Flags Civilian="true" />`（CLAUDE.md 铁律 33：**任何装备都要平民装可用**）——
+        原版 `shortbow_h` / 各箭矢自己都带，但照抄字段时最容易漏（spells.xml 第一版就漏过）。 -->
+<Items>
+	<!-- 钩索本体：借"弓"的用法组（`item_usage="bow"`）—— 为将来换投掷/专用动作留的口子在 LWN 侧（§3.0）。
+	     逐字照本包 `hunting_bow` 改写，只动：id / name / 网格 / is_merchandise / 伤害数值。
+	     伤害填 1：正常路径下引擎**根本不会发这颗弹**（被拦截），数值只是补丁关掉时的兜底。 -->
+	<Item
+		id="taikou_grapple_hook"
+		name="{=TAIKOU_grapple_hook}GrappleHook"
+		is_merchandise="false"
+		body_name="bo_composite_shotbow_h"
+		mesh="shortbow_h"
+		culture="Culture.ikoku"
+		weight="0.6"
+		difficulty="0"
+		appearance="1"
+		Type="Bow"
+		item_holsters="bow_hip:bow_hip_2:bow_back:bow_back_2">
+		<ItemComponent>
+			<Weapon
+				weapon_class="Bow"
+				ammo_class="Arrow"
+				ammo_limit="1"
+				thrust_speed="75"
+				speed_rating="87"
+				missile_speed="64"
+				weapon_length="110"
+				accuracy="85"
+				thrust_damage="1"
+				thrust_damage_type="Pierce"
+				item_usage="bow"
+				physics_material="wood_weapon"
+				center_of_mass="0.1,0,-0.15"
+				modifier_group="bow">
+				<WeaponFlags
+					RangedWeapon="true"
+					HasString="true"
+					StringHeldByHand="true"
+					NotUsableWithOneHand="true"
+					TwoHandIdleOnMount="true"
+					AutoReload="true"
+					UnloadWhenSheathed="true" />
+			</Weapon>
+		</ItemComponent>
+		<Flags
+			ForceAttachOffHandPrimaryItemBone="true"
+			Civilian="true" />
+	</Item>
+	<!-- 绳弹（钩索专用箭）：只随钩索一起发，不给商人、不进掉落。
+	     `stack_amount="1"` —— 玩家永远只有 1 个（拦截后立即退还，见 LWN 的 GrappleFirePatch）。
+	     `flying_mesh` = 补丁关掉时真飞出去的那件（占位推草叉，与钩头实体同一件，一眼能认出是谁的弹）。 -->
+	<Item
+		id="taikou_grapple_dart"
+		name="{=TAIKOU_grapple_dart}GrappleDart"
+		is_merchandise="false"
+		body_name="bo_capsule_arrow"
+		holster_body_name="bo_axe_short"
+		mesh="arrow_bl_a"
+		flying_mesh="push_fork"
+		holster_mesh="arrow_bl_a_quiver"
+		holster_mesh_with_weapon="arrow_bl_a_quiver"
+		culture="Culture.ikoku"
+		weight="0.05"
+		appearance="1"
+		Type="Arrows"
+		item_holsters="quiver:quiver_2:quiver_back_middle:quiver_back_top"
+		holster_position_shift="0.0,0.0,0.0">
+		<ItemComponent>
+			<Weapon
+				weapon_class="Arrow"
+				stack_amount="1"
+				thrust_speed="0"
+				speed_rating="0"
+				physics_material="missile"
+				missile_speed="10"
+				weapon_length="97"
+				thrust_damage="1"
+				thrust_damage_type="Pierce"
+				item_usage="arrow_right"
+				passby_sound_code="event:/mission/combat/missile/passby"
+				rotation="0, -80, 25"
+				sticking_position="0,-0.97,0"
+				sticking_rotation="90,0,0"
+				center_of_mass="-0.00,0.05,-0.00"
+				modifier_group="arrow">
+				<WeaponFlags
+					Consumable="true"
+					AmmoSticksWhenShot="true"
+					AmmoBreaksOnBounceBack="true" />
+			</Weapon>
+		</ItemComponent>
+		<Flags
+			Civilian="true" />
+	</Item>
+</Items>

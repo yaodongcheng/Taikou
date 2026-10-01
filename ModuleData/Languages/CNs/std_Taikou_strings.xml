@@ -3274,6 +3274,11 @@
         2026-09-23 随自管实体迁移删除，连带删掉这里的三条串。） -->
   <string id="TAIKOU_spell_seal" text="SpellSeal" />
   <string id="TAIKOU_spell_crescent" text="SpellCrescent" />
+  <!-- 钩索（2026-10-01；物品见 taikou_items/grapple.xml，逻辑在 LWN 的 Combat\Grapple*.cs）。
+       同样刻意用 ASCII 显示名：控制台 add_item_to_main_party 按【显示名】查、参数组用竖线 | 分隔，
+       中文层写中文的话中文客户端就得在控制台敲中文（控制台未必吃 IME）。 -->
+  <string id="TAIKOU_grapple_hook" text="GrappleHook" />
+  <string id="TAIKOU_grapple_dart" text="GrappleDart" />
   <!-- 阶段 2 的三个机制验收件（物品见 taikou_items/spells.xml；数据行见 AssetRegistry/Spells.xml）：
        多目标（软锁 3 + 追踪 + 中毒）/ 天降（落点上方砸下来）/ 放置（地上留一片持续烧）。
        同样刻意用 ASCII 显示名：控制台 add_item_to_main_party 按显示名查。 -->
