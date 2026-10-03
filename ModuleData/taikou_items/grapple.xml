@@ -72,7 +72,12 @@
 			Civilian="true" />
 	</Item>
 	<!-- 绳弹（钩索专用箭）：只随钩索一起发，不给商人、不进掉落。
-	     `stack_amount="1"` —— 玩家永远只有 1 个（拦截后立即退还，见 LWN 的 GrappleFirePatch）。
+	     🔴 `stack_amount` **必须 > 1**（2026-10-03 实机 + 反编译实锤）：HUD 右下角的子弹数走
+	        `MissionEquipment.GetAmmoAmount()`，它累加弹药槽时有个条件 **`ModifiedMaxAmount > 1`** ——
+	        `stack_amount="1"` 的弹**永远不计数** ⇒ 弹袋里有弹、也能射出去，**但 HUD 显示 0**
+	        （一模一样的原因让"退还弹药"看起来也没生效）。
+	     ⟹ 这里写 20（只是"上限"，不是实际数量）：**实际数量由 LWN 侧钉死在 1**，
+	        `custom.grapple equip` 装填时设 1、每次开火拦截后幂等补回 1 ⇒ 玩家体验仍是"永远 1 发、打不完"。
 	     `flying_mesh` = 补丁关掉时真飞出去的那件（占位推草叉，与钩头实体同一件，一眼能认出是谁的弹）。 -->
 	<Item
 		id="taikou_grapple_dart"
@@ -93,7 +98,7 @@
 		<ItemComponent>
 			<Weapon
 				weapon_class="Arrow"
-				stack_amount="1"
+				stack_amount="20"
 				thrust_speed="0"
 				speed_rating="0"
 				physics_material="missile"
