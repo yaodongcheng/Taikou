@@ -26,7 +26,9 @@
      🔴 两件都带 `<Flags Civilian="true" />`（CLAUDE.md 铁律 33：**任何装备都要平民装可用**）——
         原版 `shortbow_h` / 各箭矢自己都带，但照抄字段时最容易漏（spells.xml 第一版就漏过）。 -->
 <Items>
-	<!-- 钩索本体：借"弓"的用法组（`item_usage="bow"`）—— 为将来换投掷/专用动作留的口子在 LWN 侧（§3.0）。
+	<!-- 钩索本体：用法组已换成自家 `grapple_hook`（2026-10-04，= 逐字抄原版 bow 只改 id；
+	     弓的"拉弓/持械/放箭"实际挂在**弹药**的组上，见下面绳弹的 `grapple_dart`；
+	     定义都在本包 `ModuleData/item_usage_sets.xml`，回退 = 本行改回 `bow`）。
 	     逐字照本包 `hunting_bow` 改写，只动：id / name / 网格 / is_merchandise / 伤害数值。
 	     伤害填 1：正常路径下引擎**根本不会发这颗弹**（被拦截），数值只是补丁关掉时的兜底。 -->
 	<Item
@@ -106,7 +108,7 @@
 				weapon_length="97"
 				thrust_damage="1"
 				thrust_damage_type="Pierce"
-				item_usage="arrow_right"
+				item_usage="grapple_dart"
 				passby_sound_code="event:/mission/combat/missile/passby"
 				rotation="0, -80, 25"
 				sticking_position="0,-0.97,0"

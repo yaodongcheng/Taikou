@@ -152,5 +152,27 @@
 		<action
 			type="act_magic_projectile"
 			animation="magic_projectile_spell" />
+
+		<!-- 钩索（2026-10-04）：animation = 装机包里实测的 clip 名（tpaccli list 读出来的；与动作名同名）。
+		     usage 驱动三条（ready/hold/release，挂在自家 grapple_dart 组上）+ 状态机驱动三条（pull/land/recover）。
+		     写错 = 静默 act_none、播不出来。 -->
+		<action
+			type="act_grapple_ground_ready"
+			animation="grapple_ground_ready" />
+		<action
+			type="act_grapple_ground_hold"
+			animation="grapple_ground_hold" />
+		<action
+			type="act_grapple_ground_release"
+			animation="grapple_ground_release" />
+		<action
+			type="act_grapple_ground_pull"
+			animation="grapple_ground_pull" />
+		<action
+			type="act_grapple_ground_land"
+			animation="grapple_ground_land" />
+		<action
+			type="act_grapple_ground_recover"
+			animation="grapple_ground_recover" />
 	</action_set>
 </action_sets>
