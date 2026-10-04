@@ -108,7 +108,7 @@
 	<!-- ═══════════ 钩索（2026-10-04）· 六条动作，两类驱动 ═══════════
 	     来源 = UE `A_GrappleOnGround`（经 `tools/anim-retarget` 重定向 + 按用户节点切段）：
 	       · **武器 usage 驱动**（换成自家 `grapple_hook` / `grapple_dart` 两组，见 item_usage_sets.xml）：
-	           grapple_ground_ready    ( 6 帧 / 0.200 s) → 按右键起手
+	           grapple_ground_ready    ( 6 帧 / 0.200 s) → 按住左键起手
 	           grapple_ground_hold     (15 帧 / 0.500 s) → 持械循环（第 6 帧定格撑长）
 	           grapple_ground_release  (10 帧 / 0.333 s) → 松手甩出
 	       · **状态机驱动**（通道 0，ModuleData/statemachines/grapple.xml）：
@@ -117,11 +117,31 @@
 	           grapple_ground_recover  ( 9 帧 / 0.300 s) → 收手（打空的出口用）
 	     内容包侧：clip 在 `AssetPackages/lwn_taikou_anim.tpac`（tpaccli list 实测名 = 上列同名）。
 	     代码侧：`Combat/GrappleAnimMachine.cs` + `Combat/GrappleAnimConditions.cs`。
-	     写错 = 静默 act_none（查不到就跳过，不会崩）。
-	     验：实机 `custom.grapple animlock 过程` 等锁档命令看姿态；usage 那三条按右键/松手感。 -->
-	<action name="act_grapple_ground_ready" />
-	<action name="act_grapple_ground_hold" />
-	<action name="act_grapple_ground_release" />
+
+	     🔴🔴 **2026-10-04 晚补：三条 usage 驱动的动作必须带 `type` / `action_stage`**（照 Native 的
+	        `act_ready_bow` / `act_ready_continue_bow` / `act_release_bow` 逐字抄）——
+	        引擎的远程武器状态机靠这两个属性认"这条动作是 ready 阶段 / 释放阶段"；
+	        **只写名字 = 动作存在、能手动播（usage 也能起手），但引擎认不出阶段** ⇒
+	        实测症状 = 按住左键 ready **反复重播、永远进不了 hold**（0.2 s 一遍遍重放）。
+	        旁证：织丰火枪（`act_ready_musket` 等六条）**每条都带**这两个属性；同文件上面
+	        `act_gun_reload` 的注释早就写过同一条规则（"不带 = 引擎的装填流程不会用它"）。
+	     三条**状态机驱动**的动作（pull / land / recover）**保持裸声明**——它们由我们自己的
+	     `GrappleAnimMachine` 每帧 Force，**不进引擎的武器流程**，缺属性无碍（照 act_fly_* 先例）。
+	     写错 = 静默 act_none（查不到就跳过，不会崩）；漏 type/stage = 能播但流程不认（本条教训）。
+	     验：实机 `custom.grapple equip` → 按住左键：起手 → **持械循环（进得去 = 本刀通）**；
+	     `custom.anim_state` 看 channel 0 的 `stage=AttackReady`。 -->
+	<action
+		name="act_grapple_ground_ready"
+		type="actt_ready_ranged"
+		action_stage="as_attack_ready" />
+	<action
+		name="act_grapple_ground_hold"
+		type="actt_ready_ranged"
+		action_stage="as_attack_ready" />
+	<action
+		name="act_grapple_ground_release"
+		type="actt_release_ranged"
+		action_stage="as_attack_release" />
 	<action name="act_grapple_ground_pull" />
 	<action name="act_grapple_ground_land" />
 	<action name="act_grapple_ground_recover" />
