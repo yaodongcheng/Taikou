@@ -240,8 +240,9 @@
 	           ready_continue_ranged_action / ready_continue_shake_action = act_grapple_ground_hold（持械循环）
 	           release_action = act_grapple_ground_release（松手甩出）
 	           reload_action / reload_crouched_action = **必须有动作**（2026-10-04 实机：留空 ⇒ AutoReload
-	             上弦链断 ⇒ 左键完全无反应）；2026-10-07 起 = `act_grapple_reload`，动画 = `grapple_ground_ready`
-	             （一次性 0.6 s；**不用循环件** —— 装填流程要等动作收尾）⇒ 拔钩索时不再演"拉弓搭箭"。
+	             上弦链断 ⇒ 左键完全无反应）；2026-10-07 起 = `act_grapple_reload`，动画 = `grapple_ground_recover`
+	             （一次性 1.167 s，**无 keep / 无 cyclic** —— 装填流程要等动作收尾；先前错绑 `ready`（带 keep）
+	             曾导致"按住左键无法瞄准"，见 action_sets.xml 那条注释）⇒ 拔钩索时不再演"拉弓搭箭"。
 	         骑马那条保持原版（骑马不可用；马上播站姿会怪 —— 同 tk_firearm 的做法）。
 	       · 🔴 待机（`<idles>`，2026-10-07 试跑）= 两条组**都**指向 `act_grapple_idle`
 	         （= hold 那条 clip 的另一个动作名，声明见 action_sets.xml / action_types.xml）。

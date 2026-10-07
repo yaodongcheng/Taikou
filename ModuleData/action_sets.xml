@@ -180,28 +180,32 @@
 		        并进去 = 引擎随机挑待机时会把原版弓的姿势混进来（4 条 idle_bow 变体同组）。 -->
 		<action
 			type="act_grapple_idle"
-			animation="grapple_ground_hold"
+			animation="grapple_ground_idle"
 			alternative_group="idle_grapple" />
 		<!-- 移动组待机（2026-10-07）：同一条 clip 的**第三个**动作名，专门给 movement_sets.xml 的 `idle` 槽用
-		     （那条槽按原版惯例不加 alternative_group —— 见 action_types.xml 同批注释）。 -->
+		     （那条槽按原版惯例不加 alternative_group —— 见 action_types.xml 同批注释）。
+		     🔴 2026-10-07 晚换到**用户新做的** `grapple_ground_idle`（1.833 s 循环，勾了 cycle）——
+		     此前借的是 hold（瞄准循环），现在是正经待机件。 -->
 		<action
 			type="act_grapple_walk_idle"
-			animation="grapple_ground_hold" />
-		<!-- 拔/收钩索（2026-10-07）：同 clip 的另两个动作名，由 item_holsters.xml 的槽位引用。
-		     equip = 起手那条（举起来）；unequip = 收手那条（收回去）。
-		     等有正经"拔/收"动画时，只改这两行 animation。 -->
+			animation="grapple_ground_idle" />
+		<!-- 拔/收钩索（2026-10-07）：由 item_holsters.xml 的槽位引用。
+		     equip = **`grapple_ground_reload`**（= "进入待机过渡"，用户裁定：拔出来那下也用它，跟引擎的上弦那步同一条，
+		             画面上就是"从腰上拔出 → 过渡进待机"）· unequip = `grapple_ground_unload`（"退出的反向"）。
+		     `grapple_ground_ready`（沉身备战）只留给**瞄准起手**那一槽，不掺和拔/收。 -->
 		<action
 			type="act_grapple_equip"
-			animation="grapple_ground_ready" />
+			animation="grapple_ground_reload" />
 		<action
 			type="act_grapple_unequip"
-			animation="grapple_ground_recover" />
-		<!-- 上弦（reload，2026-10-07）：动画 = `grapple_ground_ready`（一次性 0.6 s）。
-		     🔴 用户裁定：**不用 hold 那条循环件** —— 引擎的装填流程要等这条动作"收尾"，
-		        循环件收不了尾 ⇒ 左键无反应的风险不值得赌（单段装填 = as_reload_last_phase）。
-		     代价（已知、接受）：上手那下也是 ready ⇒ 切到钩索时会"举两次手"。 -->
+			animation="grapple_ground_unload" />
+		<!-- 上弦（reload，2026-10-07）：动画 = **`grapple_ground_reload`**（用户新做的"进入待机过渡"，0.6 s 一次性，
+		     **不带 keep / cyclic** ⇒ 引擎的装填流程能等到它收尾 ✓）。
+		     🔴 历史（别再走回头路）：① 留空 ⇒ 上弦链断、左键无反应（10-04）；② 借 `ready` ⇒ 那条带 keep、
+		        引擎等不到收尾 ⇒ **按住左键无法瞄准**（10-07）；③ 借 `recover` = 能用但动作语义不对；
+		    ④ 正主 = 用户这条专用件 ✓。 -->
 		<action
 			type="act_grapple_reload"
-			animation="grapple_ground_ready" />
+			animation="grapple_ground_reload" />
 	</action_set>
 </action_sets>
