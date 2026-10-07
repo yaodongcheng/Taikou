@@ -44,6 +44,18 @@
        —— 落点是**握持点**：握把后还有 0.18m 枪托、前有 1.20m 枪管。
      · 物品侧可再叠一层微调：<Item holster_position_shift="x,y,z">，改物品即可。
 
+     ═══════════ 钩索（2026-10-07 追加）═══════════
+     同一个文件、同一套机制：**拔/收钩索那一下**原来演的是弓的动作（物品的 item_holsters 指 bow_hip 一族），
+     现在换成自家动作。四个新槽（taikou_grapple_hip / _hip_2 / _back / _back_2）**逐字照抄**原版
+     bow_hip / bow_hip_2 / bow_back / bow_back_2 的几何参数（holster_skeleton / base_set / group_name /
+     位置 / 旋转全部原样）—— 挂的位置和原来一模一样，只有"拔/收那一下演什么"变了：
+       · equip   → act_grapple_equip   （动画 = 我们的 起手 那条 clip）
+       · unequip → act_grapple_unequip （动画 = 我们的 收手 那条 clip）
+     ⚠️ **两处缺一不可**：物品侧（taikou_items/grapple.xml）的 item_holsters 也必须换成这四个新 id，
+        否则照旧走弓的槽、拔枪动作不变。
+     ⚠️ left_stance 两条也指同一条自家动作 —— 本物品 has_single_stance="true"，这条路径永不触发，
+        指过来只为字段完整（照原版每个槽四个字段都填的惯例）。
+
      ⚠️ 注释一律留在 <base> 之外：引擎会「盲读子节点」，节点列表里夹注释 = 反序列化炸
      （2026-09-10 雷 52 同款，clan_names 里一条注释崩过整个文化段）。 -->
 <base>
@@ -70,5 +82,49 @@
 					  base_set="thorax_back_near_left_2"
 					  holster_position="0.050, -0.180, -0.060"
 					  holster_rotation_yaw_pitch_roll="0.320, -105.830, -175.510" />
+		<item_holster id="taikou_grapple_hip"
+					  equip_action="act_grapple_equip"
+					  equip_action_left_stance="act_grapple_equip"
+					  unequip_action="act_grapple_unequip"
+					  unequip_action_left_stance="act_grapple_unequip"
+					  show_holster_when_drawn="true"
+					  group_name="bow_hip_1"
+					  holster_skeleton="holster_skeleton_hip_left"
+					  base_set="abdomen"
+					  holster_position="0.07, 0.09, 0.25"
+					  holster_rotation_yaw_pitch_roll="-69.95, 54.63, 29.43" />
+		<item_holster id="taikou_grapple_hip_2"
+					  equip_action="act_grapple_equip"
+					  equip_action_left_stance="act_grapple_equip"
+					  unequip_action="act_grapple_unequip"
+					  unequip_action_left_stance="act_grapple_unequip"
+					  show_holster_when_drawn="true"
+					  group_name="bow_hip_2"
+					  holster_skeleton="holster_skeleton"
+					  base_set="abdomen_right"
+					  holster_position="0.08, 0.12, -0.25"
+					  holster_rotation_yaw_pitch_roll="-69.61, -121.76, -147.21" />
+		<item_holster id="taikou_grapple_back"
+					  equip_action="act_grapple_equip"
+					  equip_action_left_stance="act_grapple_equip"
+					  unequip_action="act_grapple_unequip"
+					  unequip_action_left_stance="act_grapple_unequip"
+					  show_holster_when_drawn="false"
+					  group_name="back_bow"
+					  holster_skeleton="holster_skeleton_back"
+					  base_set="thorax_back_bow"
+					  holster_position="-0.050, -0.140, -0.030"
+					  holster_rotation_yaw_pitch_roll="62.200, -0.110, 90.910" />
+		<item_holster id="taikou_grapple_back_2"
+					  equip_action="act_grapple_equip"
+					  equip_action_left_stance="act_grapple_equip"
+					  unequip_action="act_grapple_unequip"
+					  unequip_action_left_stance="act_grapple_unequip"
+					  show_holster_when_drawn="false"
+					  group_name="back_top"
+					  holster_skeleton="holster_skeleton_back"
+					  base_set="thorax_back"
+					  holster_position="-0.040, -0.150, 0.050"
+					  holster_rotation_yaw_pitch_roll="60.350, -179.900, -89.280" />
 	</item_holsters>
 </base>

@@ -78,4 +78,18 @@
 	        **重生成后必须重新拷一次**，两份不会自动同步（铁律 22：生成物禁手改）。
 	     回退方法：删掉下面这一行即可（文件留着不生效，无害）。 -->
 	<file id="soln_particle_systems" name="ModuleData/particle_systems_yinmo.xml" type="particle_system"/>
+	<!-- 🔴 2026-10-07 启用第九、十行：soln_movement_sets / soln_full_movement_sets
+	     → ModuleData/{movement_sets,full_movement_sets}.xml（钩索自己的移动组：把"站着持弓"换成钩索姿态）。
+	     为什么必须开：movement_sets 与 skins / item_holsters 同属 project.mbproj 的 soln 体系，
+	     **不在 SubModule 的 XmlNode 体系里**——不开这两行 = 两个文件完全不加载，站姿照旧是弓。
+	     为什么不会重演 09-08 那次崩：那次是 action_sets.xml **逐字拷贝 Native** → 同 soln id 合并出
+	     **重复定义** → KeyNotFoundException。本次只用**全新 id**（四个 `*_grapple` 移动组 + 一个
+	     `grapple` 完整组），与 Native / Shokuho / CA_BloodSmoke 的 id 零交集 → 合并是纯追加。
+	     （引擎侧合并函数 = Module.CreateProcessedModuleDataXMLForNative，已反编译确认：
+	       movement_sets 原样拼接、无同名去重；full_movement_sets 按 id 合并子节点。）
+	     先例（同机装着的模块都这么做）：Shokuho 的 walk_musket / walk_ozutsu、CA_BloodSmoke。
+	     回退方法（两处缺一不可）：删掉下面这两行 + 把 item_usage_sets.xml 里 `grapple_hook` 的
+	     `<movement_set id="grapple"/>` 改回 `bow`（文件留着不生效，无害）。 -->
+	<file id="soln_movement_sets" name="ModuleData/movement_sets.xml" type="movement_set"/>
+	<file id="soln_full_movement_sets" name="ModuleData/full_movement_sets.xml" type="full_movement_set"/>
 </base>

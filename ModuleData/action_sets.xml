@@ -174,5 +174,34 @@
 		<action
 			type="act_grapple_ground_recover"
 			animation="grapple_ground_recover" />
+		<!-- 待机（2026-10-07 试跑）：新开一条正牌 idle，animation 先借用现成的 hold clip
+		     （同一条 clip 挂两个动作名合法；将来有正经待机件只改这一行）。
+		     🔴 `alternative_group` 用**自家组名**，不要并进 `idle_bow` ——
+		        并进去 = 引擎随机挑待机时会把原版弓的姿势混进来（4 条 idle_bow 变体同组）。 -->
+		<action
+			type="act_grapple_idle"
+			animation="grapple_ground_hold"
+			alternative_group="idle_grapple" />
+		<!-- 移动组待机（2026-10-07）：同一条 clip 的**第三个**动作名，专门给 movement_sets.xml 的 `idle` 槽用
+		     （那条槽按原版惯例不加 alternative_group —— 见 action_types.xml 同批注释）。 -->
+		<action
+			type="act_grapple_walk_idle"
+			animation="grapple_ground_hold" />
+		<!-- 拔/收钩索（2026-10-07）：同 clip 的另两个动作名，由 item_holsters.xml 的槽位引用。
+		     equip = 起手那条（举起来）；unequip = 收手那条（收回去）。
+		     等有正经"拔/收"动画时，只改这两行 animation。 -->
+		<action
+			type="act_grapple_equip"
+			animation="grapple_ground_ready" />
+		<action
+			type="act_grapple_unequip"
+			animation="grapple_ground_recover" />
+		<!-- 上弦（reload，2026-10-07）：动画 = `grapple_ground_ready`（一次性 0.6 s）。
+		     🔴 用户裁定：**不用 hold 那条循环件** —— 引擎的装填流程要等这条动作"收尾"，
+		        循环件收不了尾 ⇒ 左键无反应的风险不值得赌（单段装填 = as_reload_last_phase）。
+		     代价（已知、接受）：上手那下也是 ready ⇒ 切到钩索时会"举两次手"。 -->
+		<action
+			type="act_grapple_reload"
+			animation="grapple_ground_ready" />
 	</action_set>
 </action_sets>

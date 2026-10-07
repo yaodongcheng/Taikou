@@ -145,4 +145,37 @@
 	<action name="act_grapple_ground_pull" />
 	<action name="act_grapple_ground_land" />
 	<action name="act_grapple_ground_recover" />
+	<!-- 待机（2026-10-07 试跑）：把待机槽从原版 `act_idle_bow_1`（持弓站立）换成钩索自己的姿态。
+	     🔴 为什么不直接把 `<idle action>` 指向 act_grapple_ground_hold —— 那条带
+	        `type="actt_ready_ranged"` + `action_stage="as_attack_ready"`（见上），放进 idle 槽 =
+	        引擎可能把"站着不动"认成"已经进了瞄准阶段"，把开火流程搅乱。
+	     所以新开一条**正牌 idle**：声明形状照原版 `act_idle_bow_1` 逐字（`type="actt_idle"`），
+	     只是 animation 指到同一条 clip —— **同一条 clip 挂两个动作名是合法的**，资产零改动，
+	     换的只是"哪个场合播它"。将来有了正经待机 clip，只改 action_sets.xml 里那一行 animation。 -->
+	<action
+		name="act_grapple_idle"
+		type="actt_idle" />
+	<!-- 移动组待机（2026-10-07）：移动组（movement_sets.xml）的 `idle` 槽要的是**走动类**动作 ——
+	     原版这一族（`act_walk_idle_bow` / `act_crouch_run_idle_bow` …）在这一层全是**裸声明**（无 type）。
+	     照抄其形状：只写名字。加了 type 反而可能被引擎按别的类别认走。 -->
+	<action name="act_grapple_walk_idle" />
+	<!-- 拔/收钩索（2026-10-07）：由 item_holsters.xml 的槽位引用（**不在用法组里**）。
+	     声明形状照抄原版 `act_equip_bow_left_hip`：只写 type、**不带 action_stage** ——
+	     带了 stage = 引擎可能把这当"已进入瞄准"的信号（与上面待机那条同一个理由）。 -->
+	<action
+		name="act_grapple_equip"
+		type="actt_equip_unequip" />
+	<action
+		name="act_grapple_unequip"
+		type="actt_equip_unequip" />
+	<!-- 上弦（reload，2026-10-07）：**每次把钩索拔出来**，引擎都要先"搭箭"才给瞄 —— 那一下原来播
+	     原版 `act_reload_bow_right`（1.3 s 拉弓搭箭、一眼出戏）。声明形状**照抄它**：
+	     `type="actt_reload"` + `action_stage="as_reload_last_phase"`（弓是**单段装填** = last phase；
+	     火器那条 act_gun_reload 是 `as_reload_mid_phase`，**别抄错**）。
+	     🔴 少这两个属性 = 动作能播、但引擎的装填流程不认 ⇒ 永远停在"没上弦"、左键无反应
+	        （2026-10-04 实测过：reload 槽留空就是这个症状）。 -->
+	<action
+		name="act_grapple_reload"
+		type="actt_reload"
+		action_stage="as_reload_last_phase" />
 </action_types>
