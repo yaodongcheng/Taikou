@@ -199,13 +199,18 @@
 		<action
 			type="act_grapple_unequip"
 			animation="grapple_ground_unload" />
-		<!-- 上弦（reload，2026-10-07）：动画 = **`grapple_ground_reload`**（用户新做的"进入待机过渡"，0.6 s 一次性，
-		     **不带 keep / cyclic** ⇒ 引擎的装填流程能等到它收尾 ✓）。
-		     🔴 历史（别再走回头路）：① 留空 ⇒ 上弦链断、左键无反应（10-04）；② 借 `ready` ⇒ 那条带 keep、
-		        引擎等不到收尾 ⇒ **按住左键无法瞄准**（10-07）；③ 借 `recover` = 能用但动作语义不对；
-		    ④ 正主 = 用户这条专用件 ✓。 -->
+		<!-- 上弦（reload，2026-10-07 晚改）：动画 = **`grapple_ground_hold`**（持械循环）。
+		     🔴 为什么换成它（用户要求）：**不需要每发都看见一个"上弦"动作** —— 弓每射一箭引擎必"搭下一支箭"，
+		        这一槽非有不可（留空 = 链断、左键无反应，10-04），但**视觉上应该什么变化都没有**；
+		        `hold` 就是开完枪时你**已经在的那个姿势** ⇒ 播它 = 等于没动 ✓。
+		     ✅ **终态（2026-10-07 晚）= `grapple_ground_still`**：2 帧 / 0.067 s、**姿态 = release 最后两帧**
+		        （末帧就是"抛完手还在那个位置"的姿势 ⇒ 视觉上等于没动 ✓，且带 0.78° 微动 ⇒ 编辑器/引擎认 ✓）。
+		        P10、`Flags=[]`、**不带 `enforce_all`** ⇒ 不盖 ch0 的 pull ✓（反面教材见下）。
+		     🔴 **别指带 `enforce_all`/P30 的 clip**（会盖掉 pull）；**别指循环件**（引擎等不到收尾）；**别连留空**（链断）。
+		     · equip（切武器上手）另走一条：`act_grapple_equip` → `grapple_ground_reload`（"进入待机过渡"），
+		       那条用户要有动作的，保持看得见 ✓。 -->
 		<action
 			type="act_grapple_reload"
-			animation="grapple_ground_reload" />
+			animation="grapple_ground_still" />
 	</action_set>
 </action_sets>
