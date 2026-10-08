@@ -58,7 +58,7 @@
 		name="{=TAIKOU_grapple_hook}GrappleHook"
 		is_merchandise="false"
 		body_name="bo_composite_shotbow_h"
-		mesh="lwn_grapple_ring"
+		mesh="lwn_proxy_invisible"
 		culture="Culture.ikoku"
 		weight="0.6"
 		difficulty="0"
