@@ -107,7 +107,7 @@
 
 	<!-- ═══════════ 钩索（2026-10-04）· 六条动作，两类驱动 ═══════════
 	     来源 = UE `A_GrappleOnGround`（经 `tools/anim-retarget` 重定向 + 按用户节点切段）：
-	       · **武器 usage 驱动**（换成自家 `grapple_hook` / `grapple_dart` 两组，见 item_usage_sets.xml）：
+	       · **武器 usage 驱动**（换成自家 `grapple_rope`（绳）/ `grapple_hook`（钩）两组，见 item_usage_sets.xml）：
 	           grapple_ground_ready    ( 6 帧 / 0.200 s) → 按住左键起手
 	           grapple_ground_hold     (15 帧 / 0.500 s) → 持械循环（第 6 帧定格撑长）
 	           grapple_ground_release  (10 帧 / 0.333 s) → 松手甩出
@@ -159,6 +159,15 @@
 	     原版这一族（`act_walk_idle_bow` / `act_crouch_run_idle_bow` …）在这一层全是**裸声明**（无 type）。
 	     照抄其形状：只写名字。加了 type 反而可能被引擎按别的类别认走。 -->
 	<action name="act_grapple_walk_idle" />
+	<!-- 走 / 跑（2026-10-08 用户新做两条 clip）：同上一族，**裸声明**（照抄原版 `act_walk_forward_bow` /
+	     `act_run_forward_bow` 的形状，它们也是零属性）。
+	     🔴🔴 这两条**必须在这里声明**：`movement_sets.xml` 的 `forward` 槽引用的就是这两个名字，
+	     而**没声明的动作名 = native 取到无效索引 = 装备/持械时 AccessViolation**
+	     （2026-10-08 实机：绳那件一拔出来就 AV，栈顶 = `MissionState.TickMission` 的托管→本机转换；
+	       我只把动作加进了 action_sets.xml + movement_sets.xml，漏了这一层 —— 雷 122 同族）。
+	     ⚠️ 加新动作名时**三处都要**：① 本文件声明 ② action_sets.xml 映射到 clip ③ 谁引用它（movement_sets 等）。 -->
+	<action name="act_grapple_walk_forward" />
+	<action name="act_grapple_run_forward" />
 	<!-- 拔/收钩索（2026-10-07）：由 item_holsters.xml 的槽位引用（**不在用法组里**）。
 	     声明形状照抄原版 `act_equip_bow_left_hip`：只写 type、**不带 action_stage** ——
 	     带了 stage = 引擎可能把这当"已进入瞄准"的信号（与上面待机那条同一个理由）。 -->

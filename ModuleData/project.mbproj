@@ -88,7 +88,7 @@
 	     （引擎侧合并函数 = Module.CreateProcessedModuleDataXMLForNative，已反编译确认：
 	       movement_sets 原样拼接、无同名去重；full_movement_sets 按 id 合并子节点。）
 	     先例（同机装着的模块都这么做）：Shokuho 的 walk_musket / walk_ozutsu、CA_BloodSmoke。
-	     回退方法（两处缺一不可）：删掉下面这两行 + 把 item_usage_sets.xml 里 `grapple_hook` 的
+	     回退方法（两处缺一不可）：删掉下面这两行 + 把 item_usage_sets.xml 里 `grapple_rope` 的
 	     `<movement_set id="grapple"/>` 改回 `bow`（文件留着不生效，无害）。 -->
 	<file id="soln_movement_sets" name="ModuleData/movement_sets.xml" type="movement_set"/>
 	<file id="soln_full_movement_sets" name="ModuleData/full_movement_sets.xml" type="full_movement_set"/>

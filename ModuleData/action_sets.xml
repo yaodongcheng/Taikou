@@ -154,7 +154,7 @@
 			animation="magic_projectile_spell" />
 
 		<!-- 钩索（2026-10-04）：animation = 装机包里实测的 clip 名（tpaccli list 读出来的；与动作名同名）。
-		     usage 驱动三条（ready/hold/release，挂在自家 grapple_dart 组上）+ 状态机驱动三条（pull/land/recover）。
+		     usage 驱动三条（ready/hold/release，挂在自家 grapple_hook 组上（2026-10-08 由 grapple_dart 改名））+ 状态机驱动三条（pull/land/recover）。
 		     写错 = 静默 act_none、播不出来。 -->
 		<action
 			type="act_grapple_ground_ready"
@@ -189,6 +189,18 @@
 		<action
 			type="act_grapple_walk_idle"
 			animation="grapple_ground_idle" />
+		<!-- 走动 / 跑动（2026-10-08 用户新做两条 clip）：**只换 `forward` 那一槽**（见 movement_sets.xml），
+		     其余七个方向 + 八条 adder 仍是弓的动作 —— 要全换就一个槽一条 clip、一行一个映射。
+		     ⚠️ clip 元数据口径 = **抄原版 `walk_forward_bow` / `run_forward_bow` 那一行**（见 plans 文档 §A9）：
+		        Flags 只带 `make_walk_sound`（**不要勾 cyclic** —— locomotion 不靠它循环）、Priority 0、
+		        BlendIn 走 0.3 / 跑 0.4、BlendOut 0、Param 走全 0 / 跑 Param1=0.4。
+		     ⚠️ 两条 clip 必须先在 ModKit 里导入发布，否则这两个动作名解析不到动画（走/跑会没动作）。 -->
+		<action
+			type="act_grapple_walk_forward"
+			animation="grapple_ground_move_walk" />
+		<action
+			type="act_grapple_run_forward"
+			animation="grapple_ground_move_run" />
 		<!-- 拔/收钩索（2026-10-07）：由 item_holsters.xml 的槽位引用。
 		     equip = **`grapple_ground_reload`**（= "进入待机过渡"，用户裁定：拔出来那下也用它，跟引擎的上弦那步同一条，
 		             画面上就是"从腰上拔出 → 过渡进待机"）· unequip = `grapple_ground_unload`（"退出的反向"）。

@@ -13,8 +13,11 @@
      照抄原版 `walk_bow` / `run_bow` / `crouch_walk_bow` / `crouch_run_bow` 四套，只改两处：
        ① id 换成带 `_grapple` 后缀的新 id（合并机制是**原样拼接、无同名去重** ⇒ 新 id 必须）；
        ② 站立那两条的 `idle` 换成我们的动作 `act_grapple_walk_idle`。
-     其余槽位（走／跑／各方向／转身／adder）**逐字保留弓的原值** —— 等将来有正经走动动画再逐条换
+     其余槽位（各方向／转身／adder）**逐字保留弓的原值** —— 等将来有正经走动动画再逐条换
      （那时也只改这一个文件，不动 Native）。
+     🔴 **2026-10-08：走 / 跑的 `forward` 已换成自家两条**（`act_grapple_walk_forward` / `act_grapple_run_forward`
+        → 用户新做的 `grapple_ground_move_walk` / `grapple_ground_move_run`）—— 其余七个方向 + 八条 adder
+        仍是弓的动作，所以现在"往前走是新动作、横着走是弓的姿势"，要统一就一个槽一条 clip。
      ⚠️ 蹲姿两条的 idle **故意保留弓的原值**：我们的 clip 是站姿，套到蹲姿上会出现"蹲着却站直"的穿帮。
      ⚠️ adder 那八条是**全武器共用**的（名字里没有 bow），照抄即可、不要改。
 
@@ -26,13 +29,13 @@
      ⇒ 新 id = 纯追加，不会挤掉原版任何一套，也不会重演 09-08 那次"同 id 重复定义"的崩。
      先例（同一台机器上装着的模块）：Shokuho 的 `walk_musket` / `walk_ozutsu`（写法与本文件同款：
      照抄弩的走动、只把 idle 换成自家动作）、CA_BloodSmoke 也走同一条路。
-     回退方法（两处缺一不可）：删掉 mbproj 那一行 + 把 item_usage_sets.xml 里 `grapple_hook` 的
+     回退方法（两处缺一不可）：删掉 mbproj 那一行 + 把 item_usage_sets.xml 里 `grapple_rope` 的
      `<movement_set id="grapple"/>` 改回 `bow`。 -->
 <movement_sets>
 	<movement_set
 		id="walk_grapple"
 		idle="act_grapple_walk_idle"
-		forward="act_walk_forward_bow"
+		forward="act_grapple_walk_forward"
 		backward="act_walk_backward_bow"
 		right="act_walk_right_bow"
 		right_back="act_walk_right_back_bow"
@@ -52,7 +55,7 @@
 	<movement_set
 		id="run_grapple"
 		idle="act_grapple_walk_idle"
-		forward="act_run_forward_bow"
+		forward="act_grapple_run_forward"
 		backward="act_run_backward_bow"
 		right="act_run_right_bow"
 		right_back="act_run_right_back_bow"

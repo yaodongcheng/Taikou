@@ -3267,27 +3267,32 @@
   <!-- 法印与法术弹：物品定义见 taikou_items/spells.xml（施法体系，网格已是正式件
        lwn_yinmo_crescent）。英文层由 gen_taikou_english_strings.py 从数据 XML 抽取生成。
        【注意·铁律 14】本文件禁 emoji/超 BMP 字符，注释里也别放。
-       中文层刻意也用 ASCII 同名串（不是漏翻）：控制台 campaign.add_item_to_main_party
-       按【本地化显示名】查物品，中文层若写「法印」，中文客户端就得在控制台里敲中文
-       （控制台未必吃 IME）。两串保持一致 = 什么语言都能敲。
+       中文层【必须写中文】（2026-10-08 用户裁定，废止「中英同串 ASCII」那套图省事的做法）：
+       控制台「按显示名查物品」的麻烦换个方式解决 —— 我们自己的命令一律按 StringId 查
+       （范本 GrappleCommands.ResolveContentItem），原版 add_item_to_main_party 则中文客户端敲中文名。
+       本组词条已于 2026-10-08 改成中文名（法印 / 月牙法弹 / 多重法弹 / 天降法弹 / 焚地法阵 / 引导光束 / 雷电领域）。
        （P0/P1 的三个诊断探针物品 ProbeShell/ProbeCrescentPhys/ProbeKeep 已于
         2026-09-23 随自管实体迁移删除，连带删掉这里的三条串。） -->
-  <string id="TAIKOU_spell_seal" text="SpellSeal" />
-  <string id="TAIKOU_spell_crescent" text="SpellCrescent" />
-  <!-- 钩索（2026-10-01；物品见 taikou_items/grapple.xml，逻辑在 LWN 的 Combat\Grapple*.cs）。
-       同样刻意用 ASCII 显示名：控制台 add_item_to_main_party 按【显示名】查、参数组用竖线 | 分隔，
-       中文层写中文的话中文客户端就得在控制台敲中文（控制台未必吃 IME）。 -->
-  <string id="TAIKOU_grapple_hook" text="GrappleHook" />
-  <string id="TAIKOU_grapple_dart" text="GrappleDart" />
+  <string id="TAIKOU_spell_seal" text="法印" />
+  <string id="TAIKOU_spell_crescent" text="月牙法弹" />
+  <!-- 钩索（2026-10-01）：物品定义见 taikou_items/grapple.xml，逻辑在 LWN 的 Combat\Grapple*.cs。
+       【2026-10-08 用户裁定】这两件要中文名（此前与法印那批同样刻意写 ASCII 同名串，理由是
+       原版控制台 add_item_to_main_party 按【显示名】查、中文层写中文就得在控制台敲中文、IME 未必吃）。
+       改中文后的代价：用**原版**那条命令发它时，中文客户端得敲「钩索绳 / 钩爪」。
+       LWN 自己的命令不受影响 —— custom.grapple equip 是按 StringId 查的
+       （GrappleCommands.ResolveContentItem：先精确 StringId、兜底按 StringId 子串），与显示名无关。
+       ⚠️ 本文件禁 emoji/超 BMP 字符（铁律 14）—— 注释里也别放。 -->
+  <string id="TAIKOU_grapple_rope" text="钩索绳" />
+  <string id="TAIKOU_grapple_hook" text="钩爪" />
   <!-- 阶段 2 的三个机制验收件（物品见 taikou_items/spells.xml；数据行见 AssetRegistry/Spells.xml）：
        多目标（软锁 3 + 追踪 + 中毒）/ 天降（落点上方砸下来）/ 放置（地上留一片持续烧）。
        同样刻意用 ASCII 显示名：控制台 add_item_to_main_party 按显示名查。 -->
-  <string id="TAIKOU_spell_multi" text="SpellMulti" />
-  <string id="TAIKOU_spell_sky" text="SpellSky" />
-  <string id="TAIKOU_spell_zone" text="SpellZone" />
+  <string id="TAIKOU_spell_multi" text="多重法弹" />
+  <string id="TAIKOU_spell_sky" text="天降法弹" />
+  <string id="TAIKOU_spell_zone" text="焚地法阵" />
   <!-- 阶段 3 的两个验收件：引导光束（按住持续喷射）/ 雷电领域（以自己为圆心持续电周围）。 -->
-  <string id="TAIKOU_spell_beam" text="SpellBeam" />
-  <string id="TAIKOU_spell_aura" text="SpellAura" />
+  <string id="TAIKOU_spell_beam" text="引导光束" />
+  <string id="TAIKOU_spell_aura" text="雷电领域" />
   <!-- 阶段 5 的修正宝石（AssetRegistry/Modifiers.xml）。
        英文层是生成物（gen_taikou_english_strings.py 从数据 XML 的 fallback 抽取），
        中文层是人工维护 —— 数据里加一颗宝石就要在这里补一条，键集不能缺。

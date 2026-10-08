@@ -38,8 +38,8 @@
         检查：`python Scripts/check_items_civilian.py`（已进一键体检）。
 
      验收入口（游戏内控制台）：
-        campaign.add_item_to_main_party SpellSeal | 1
-        campaign.add_item_to_main_party SpellCrescent | 40
+        campaign.add_item_to_main_party 法印 | 1              （中文客户端；英文客户端敲 SpellSeal）
+        campaign.add_item_to_main_party 月牙法弹 | 40          （英文客户端敲 SpellCrescent）
      🔴 **两个坑，2026-09-21 各踩一次（反编译 1.2.12 实证，别再猜）**：
        ① `campaign.add_item_to_main_party` **按「显示名」查，不按 StringId**
           （`CampaignCheats.GetItemObject`：拿 `ItemObject.Name.ToString()` 去掉所有空格、
@@ -48,10 +48,11 @@
           ⇒ 敲 `taikou_spell_seal` 永远查不到，**要敲显示名**。
        ② 参数组之间用**竖线 `|`** 分隔（`GetSeparatedNames(strings, "|")`），组内才用空格拼。
           敲成 `SpellSeal 1`（没竖线）→ 整串 "SpellSeal 1" 被当成**一个**名字去比对 → 同样 not found。
-     🔴 **所以本文件的两个物品把显示名做成了「中英同串的 ASCII」**（`SpellSeal` / `SpellCrescent`）：
-        免得中文客户端得敲中文（控制台未必吃 IME）、英文客户端得敲英文。
-        这是**探针期**的刻意选择，P2 换成正式网格时一并换成正经本地化名
-        （改 `name=` 的 fallback 与 CNs 里那两条即可，控制台命令随之改成新显示名）。
+     🔴 **显示名（2026-10-08 用户裁定更正）**：此前把这两件做成「中英同串的 ASCII」图控制台省事 ——
+        **该做法已废止**（中文玩家看到的是英文名）。中文层要写中文名；控制台取物品走 **StringId**
+        （我们自己的命令一律如此），走原版 `campaign.add_item_to_main_party` 时敲中文名即可。
+        ✅ 现状（2026-10-08 已改）：中文层 = 法印 / 月牙法弹 / 多重法弹 / 天降法弹 / 焚地法阵 / 引导光束 / 雷电领域；
+        英文层（生成物）仍是 SpellSeal 等 ASCII。
      然后把法印装到弩槽、法术弹装到弩矢槽，对准人射一发。 -->
 <Items>
 	<!-- 法印（施法武器）。逐字照原版 `crossbow_a`（Simple Light Crossbow）改写，
@@ -187,7 +188,7 @@
 	       custom.spell cast skyfall_meteor            天降：落点正上方 25 m 砸下来，半径伤害
 	       custom.spell cast place_firezone            放置：地上留一片 8 秒，每秒烧一次
 	     （想走"装备法印开火"那条路：campaign.add_item_to_main_party SpellMulti | 40 之类，
-	       显示名刻意做成 ASCII，免得中文客户端要在控制台里敲中文。） -->
+	       显示名自 2026-10-08 起中文层已有中文名：中文客户端敲「多重法弹」、英文客户端敲 SpellMulti。） -->
 
 	<Item
 		id="taikou_spell_multi"

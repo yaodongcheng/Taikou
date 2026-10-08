@@ -1216,8 +1216,8 @@
     <string id="TAIKOU_ginchiyo_do_a" text="Bekki Ginchiyo's Do" />
     <string id="TAIKOU_ginchiyo_helmet_a" text="Bekki Ginchiyo's Helmet" />
     <string id="TAIKOU_ginchiyo_weapon_a" text="Bekki Ginchiyo's Spear" />
-    <string id="TAIKOU_grapple_dart" text="GrappleDart" />
     <string id="TAIKOU_grapple_hook" text="GrappleHook" />
+    <string id="TAIKOU_grapple_rope" text="GrappleRope" />
     <string id="TAIKOU_hanzo_do_a" text="Hattori Hanzo's Do" />
     <string id="TAIKOU_hanzo_helmet_a" text="Hattori Hanzo's Helmet" />
     <string id="TAIKOU_hanzo_weapon_a" text="Hattori Hanzo's Blade" />
