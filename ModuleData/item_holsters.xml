@@ -104,27 +104,27 @@
 					  base_set="abdomen_right"
 					  holster_position="0.08, 0.12, -0.25"
 					  holster_rotation_yaw_pitch_roll="-69.61, -121.76, -147.21" />
-		<item_holster id="taikou_grapple_back"
+		<!-- hooks 专用髋位槽（2026-10-08 立）—— 几何照抄 `taikou_grapple_hip`（挂的位置跟绳一样），
+		     只两处不同：① `group_name` 独立（`grapple_hook_hip`；**共用组会抢位**）
+		     ② 旋转 = **`0, 0, 70`**（钩自己的口径，不再借弓的）。
+		     🔴 **三个分量各干什么 —— 用户 2026-10-08 亲自逐个试出来的（这是权威口径，别再改回去）**：
+		        · **pitch** = 绕**钩自身长轴**自旋（只让爪子转圈，杆的朝向不变）
+		        · **yaw**  = **水平转**（在水平面里甩，杆不会竖起来）
+		        · **roll** = ✅ **垂直倾斜**（唯一能把杆从"平"转到"垂"的）
+		     🔴 **标定锚点**：`0, 0, 0` 时**爪朝正前方（水平）** ⇒ 从这个基准起
+		        `roll = 90` 是**正下**，实测 **90° 看着不自然（太僵），70° 才是顺眼的下垂角** ⇒ 现在用 70。
+		     ⇒ 想让钩再往下一点/往上一点：**只改最后一个数（roll）**，±5 一档试。
+		     ⚠️ 别再用 `-69.95, 54.63, 29.43`（那是**弓**的旋转，钩的长轴与弓不同 ⇒ 会横着/扎肚子）。 -->
+		<item_holster id="taikou_grapple_hook_hip"
 					  equip_action="act_grapple_equip"
 					  equip_action_left_stance="act_grapple_equip"
 					  unequip_action="act_grapple_unequip"
 					  unequip_action_left_stance="act_grapple_unequip"
-					  show_holster_when_drawn="false"
-					  group_name="back_bow"
-					  holster_skeleton="holster_skeleton_back"
-					  base_set="thorax_back_bow"
-					  holster_position="-0.050, -0.140, -0.030"
-					  holster_rotation_yaw_pitch_roll="62.200, -0.110, 90.910" />
-		<item_holster id="taikou_grapple_back_2"
-					  equip_action="act_grapple_equip"
-					  equip_action_left_stance="act_grapple_equip"
-					  unequip_action="act_grapple_unequip"
-					  unequip_action_left_stance="act_grapple_unequip"
-					  show_holster_when_drawn="false"
-					  group_name="back_top"
-					  holster_skeleton="holster_skeleton_back"
-					  base_set="thorax_back"
-					  holster_position="-0.040, -0.150, 0.050"
-					  holster_rotation_yaw_pitch_roll="60.350, -179.900, -89.280" />
-	</item_holsters>
+					  show_holster_when_drawn="true"
+					  group_name="grapple_hook_hip"
+					  holster_skeleton="holster_skeleton_hip_left"
+					  base_set="abdomen"
+					  holster_position="0.07, 0.09, 0.25"
+					  holster_rotation_yaw_pitch_roll="0, 0, 70" />
+		</item_holsters>
 </base>

@@ -70,7 +70,7 @@
 		difficulty="0"
 		appearance="1"
 		Type="Bow"
-		item_holsters="taikou_grapple_hip:taikou_grapple_hip_2:taikou_grapple_back:taikou_grapple_back_2">
+		item_holsters="taikou_grapple_hip:taikou_grapple_hip_2">
 		<ItemComponent>
 			<Weapon
 				weapon_class="Bow"
@@ -117,12 +117,16 @@
 	        症状 = **进背包 / 装备界面搜到这件物品就崩**（图标懒加载，不搜到不崩）。
 	        ⇒ 用 1.2 cm 代理件（与 `mesh` 同款做法），**不许写空串**
 	        —— 雷 166（`mesh=""` 装备时 AccessViolation）的同一族：引擎要求网格字段**非空**。
-	     🔴 图标不靠本字段：本件 `holster_mesh` 是代理（实机身上不显示钩），**背包图标由 LWN 的
-	        tableau 补丁画成真钩**（`Combat/GrappleIconPatch.cs`，只在画图标那条链上生效）。
-	     🔴 `holster_mesh_with_weapon` **也必须是代理**（2026-10-08 用户报"预览里居然是个箭袋"）：
-	        这一格是**弓和弹同时收起来**时挂在身上的那件 —— 原版箭矢写的是箭袋网格
-	        （`arrow_bl_a_quiver`）。照抄原版字段时很容易只改 `holster_mesh` 而漏掉它
-	        ⇒ **装备界面 3D 人物/实机里身上冒出一个原版箭袋**（跟"什么都看不见"的设计相反）。
+	     🔴 图标不靠本字段：本件 `holster_mesh` 是**真钩**（2026-10-08 用户改口径："钩爪的模型
+	        可以和钩锁绳放在一起" ⇒ 让它在**人物预览/身上**也现身），背包图标同样走它
+	        （箭类取 `holster_mesh`）+ LWN 的 tableau 补丁做**居中放大**（`Combat/GrappleIconPatch.cs`）。
+	     🔴 `holster_mesh_with_weapon` **也用真钩**（同一口径）：这一格是**弓和弹同时收起来**时挂在身上的那件
+	        —— 原版箭矢写的是箭袋网格（`arrow_bl_a_quiver`），照抄时最容易只改一格 ⇒ 预览里冒出一个原版箭袋。
+	     🔴 **挂点排第二个髋位组**：绳（Bow）占 `bow_hip_1`（= `taikou_grapple_hip`）⇒ 钩若也排第一个
+	        会**抢同一个组 / 完全重叠**，所以钩把 `taikou_grapple_hip_2`（组 `bow_hip_2`，腹侧另一边）排在最前，
+	        后面几个照旧当兜底 —— 一左一右都在腰上，互不打架。
+	     🔴 `mesh` **仍是 1.2 cm 代理**（这一格是"拿在手里"的那件：手里那枚钩是 LWN 的运行时实体，能绕小臂转、
+	        朝向可调；引擎挂在手上的网格做不到 ⇒ 必须隐形，否则同框两个钩）。
 	     `flying_mesh` = 补丁关掉时真飞出去的那件（与运行时实体同一件网格，一眼能认出是谁的弹）。 -->
 	<Item
 		id="taikou_grapple_hook"
@@ -132,13 +136,13 @@
 		holster_body_name="bo_axe_short"
 		mesh="lwn_proxy_invisible"
 		flying_mesh="lwn_grapple_hook"
-		holster_mesh="lwn_proxy_invisible"
-		holster_mesh_with_weapon="lwn_proxy_invisible"
+		holster_mesh="lwn_grapple_hook"
+		holster_mesh_with_weapon="lwn_grapple_hook"
 		culture="Culture.ikoku"
 		weight="0.05"
 		appearance="1"
 		Type="Arrows"
-		item_holsters="quiver:quiver_2:quiver_back_middle:quiver_back_top"
+		item_holsters="taikou_grapple_hook_hip:taikou_grapple_hip_2"
 		holster_position_shift="0.0,0.0,0.0">
 		<ItemComponent>
 			<Weapon
