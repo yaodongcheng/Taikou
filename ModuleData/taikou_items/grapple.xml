@@ -119,6 +119,10 @@
 	        —— 雷 166（`mesh=""` 装备时 AccessViolation）的同一族：引擎要求网格字段**非空**。
 	     🔴 图标不靠本字段：本件 `holster_mesh` 是代理（实机身上不显示钩），**背包图标由 LWN 的
 	        tableau 补丁画成真钩**（`Combat/GrappleIconPatch.cs`，只在画图标那条链上生效）。
+	     🔴 `holster_mesh_with_weapon` **也必须是代理**（2026-10-08 用户报"预览里居然是个箭袋"）：
+	        这一格是**弓和弹同时收起来**时挂在身上的那件 —— 原版箭矢写的是箭袋网格
+	        （`arrow_bl_a_quiver`）。照抄原版字段时很容易只改 `holster_mesh` 而漏掉它
+	        ⇒ **装备界面 3D 人物/实机里身上冒出一个原版箭袋**（跟"什么都看不见"的设计相反）。
 	     `flying_mesh` = 补丁关掉时真飞出去的那件（与运行时实体同一件网格，一眼能认出是谁的弹）。 -->
 	<Item
 		id="taikou_grapple_hook"
@@ -129,7 +133,7 @@
 		mesh="lwn_proxy_invisible"
 		flying_mesh="lwn_grapple_hook"
 		holster_mesh="lwn_proxy_invisible"
-		holster_mesh_with_weapon="arrow_bl_a_quiver"
+		holster_mesh_with_weapon="lwn_proxy_invisible"
 		culture="Culture.ikoku"
 		weight="0.05"
 		appearance="1"
