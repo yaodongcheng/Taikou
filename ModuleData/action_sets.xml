@@ -201,6 +201,24 @@
 		<action
 			type="act_grapple_run_forward"
 			animation="grapple_ground_move_run" />
+		<action
+			type="act_grapple_walk_back"
+			animation="grapple_ground_move_walk_back" />
+		<action
+			type="act_grapple_run_back"
+			animation="grapple_ground_move_run_back" />
+		<action
+			type="act_grapple_walk_left"
+			animation="grapple_ground_move_walk_left" />
+		<action
+			type="act_grapple_run_left"
+			animation="grapple_ground_move_run_left" />
+		<action
+			type="act_grapple_walk_right"
+			animation="grapple_ground_move_walk_right" />
+		<action
+			type="act_grapple_run_right"
+			animation="grapple_ground_move_run_right" />
 		<!-- 拔/收钩索（2026-10-07）：由 item_holsters.xml 的槽位引用。
 		     equip = **`grapple_ground_reload`**（= "进入待机过渡"，用户裁定：拔出来那下也用它，跟引擎的上弦那步同一条，
 		             画面上就是"从腰上拔出 → 过渡进待机"）· unequip = `grapple_ground_unload`（"退出的反向"）。

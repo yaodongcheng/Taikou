@@ -15,9 +15,12 @@
        ② 站立那两条的 `idle` 换成我们的动作 `act_grapple_walk_idle`。
      其余槽位（各方向／转身／adder）**逐字保留弓的原值** —— 等将来有正经走动动画再逐条换
      （那时也只改这一个文件，不动 Native）。
-     🔴 **2026-10-08：走 / 跑的 `forward` 已换成自家两条**（`act_grapple_walk_forward` / `act_grapple_run_forward`
-        → 用户新做的 `grapple_ground_move_walk` / `grapple_ground_move_run`）—— 其余七个方向 + 八条 adder
-        仍是弓的动作，所以现在"往前走是新动作、横着走是弓的姿势"，要统一就一个槽一条 clip。
+     🔴 **2026-10-08：走 / 跑的四个正方向已全换成自家的**（`forward` / `backward` / `left` / `right`，走跑各四条 = 八条，
+        clip = `grapple_ground_move_{walk|run}[_back|_left|_right]`）。
+        **仍是弓的九个槽**：两个斜向（`right_back` / `left_back`）、两个转身过渡（`left_to_right` / `right_to_left`）、
+        `rotate`、以及八条 adder（adder 是全武器共用、名字里没有 bow，照抄即可）。
+        ⇒ 现在"直着走/跑/退/横移都是新动作，斜着走与转身还是弓的姿势"；要统一 = 一个槽一条 clip、一行一个映射。
+        🔴 接新动作**三处都要**（`action_types` 声明 + `action_sets` 映射 + 本文件引用）—— 漏第一处 = 拔刀 AccessViolation（雷 169）。
      ⚠️ 蹲姿两条的 idle **故意保留弓的原值**：我们的 clip 是站姿，套到蹲姿上会出现"蹲着却站直"的穿帮。
      ⚠️ adder 那八条是**全武器共用**的（名字里没有 bow），照抄即可、不要改。
 
@@ -36,10 +39,10 @@
 		id="walk_grapple"
 		idle="act_grapple_walk_idle"
 		forward="act_grapple_walk_forward"
-		backward="act_walk_backward_bow"
-		right="act_walk_right_bow"
+		backward="act_grapple_walk_back"
+		right="act_grapple_walk_right"
 		right_back="act_walk_right_back_bow"
-		left="act_walk_left_bow"
+		left="act_grapple_walk_left"
 		left_back="act_walk_left_back_bow"
 		left_to_right="act_walk_left_to_right_bow"
 		right_to_left="act_walk_right_to_left_bow"
@@ -56,10 +59,10 @@
 		id="run_grapple"
 		idle="act_grapple_walk_idle"
 		forward="act_grapple_run_forward"
-		backward="act_run_backward_bow"
-		right="act_run_right_bow"
+		backward="act_grapple_run_back"
+		right="act_grapple_run_right"
 		right_back="act_run_right_back_bow"
-		left="act_run_left_bow"
+		left="act_grapple_run_left"
 		left_back="act_run_left_back_bow"
 		left_to_right="act_run_left_to_right_bow"
 		right_to_left="act_run_right_to_left_bow"

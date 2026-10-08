@@ -168,6 +168,12 @@
 	     ⚠️ 加新动作名时**三处都要**：① 本文件声明 ② action_sets.xml 映射到 clip ③ 谁引用它（movement_sets 等）。 -->
 	<action name="act_grapple_walk_forward" />
 	<action name="act_grapple_run_forward" />
+	<action name="act_grapple_walk_back" />
+	<action name="act_grapple_run_back" />
+	<action name="act_grapple_walk_left" />
+	<action name="act_grapple_run_left" />
+	<action name="act_grapple_walk_right" />
+	<action name="act_grapple_run_right" />
 	<!-- 拔/收钩索（2026-10-07）：由 item_holsters.xml 的槽位引用（**不在用法组里**）。
 	     声明形状照抄原版 `act_equip_bow_left_hip`：只写 type、**不带 action_stage** ——
 	     带了 stage = 引擎可能把这当"已进入瞄准"的信号（与上面待机那条同一个理由）。 -->
