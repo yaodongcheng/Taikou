@@ -1,4 +1,4 @@
-﻿<base type="solution">
+<base type="solution">
 	<!-- 🔴 2026-09-08 实机两连崩修复：本文件只挂 soln_soundtrack（主菜单音乐）。
 	     其余模板行（physics_materials / action_sets / collision_infos / skins …）为拷贝死档——
 	     引擎按 soln id 跨模块合并（GetMergedXmlForNative），Taikou 的 action_sets.xml 与 Native 同源冲突
@@ -50,46 +50,17 @@
 	     回退方法：删掉下面这两行即可（action_*.xml 留着不生效，无害）。 -->
 	<file id="soln_action_sets" name="ModuleData/action_sets.xml" type="action_set"/>
 	<file id="soln_action_types" name="ModuleData/action_types.xml" type="action_type"/>
-	<!-- 🔴 2026-09-19 启用第七行：soln_item_usage_sets —— 这一行是【探针】，不是功能。
-	     目的 = 验证"内容包注册 soln_item_usage_sets 之后，引擎到底读不读它"
-	     （背景与判据详见 ModuleData/item_usage_sets.xml 头部注释）。
-	     安全性：那个文件此刻是**空根** → 即使被合并进去也等于什么都没加，不会崩。
-	     回退方法：删掉下面这一行即可。 -->
+	<!-- 🔴 2026-09-19 启用第七行：soln_item_usage_sets（铁炮自己的用法组 `tk_firearm`）。
+	     为什么必须开：与 skins / item_holsters 同属 soln 体系，**不在 SubModule 的 XmlNode 体系里**
+	     —— 不开这行 = ModuleData/item_usage_sets.xml 完全不加载 = 物品的 `item_usage="tk_firearm"`
+	     查不到 ⇒ 铁炮退回原版弩的用法（装填动画与各项槽位全变回原版）。
+	     安全性：只加**一个全新 id**（tk_firearm），与 Native / 织丰的用法组 id 零交集 → 合并是纯追加。
+	     回退方法：删掉下面这一行即可（并把物品的 item_usage 改回 crossbow）。 -->
 	<file id="soln_item_usage_sets" name="ModuleData/item_usage_sets.xml" type="item_usage_set"/>
-	<!-- 🔴 2026-09-23 启用第八行：soln_particle_systems → ModuleData/particle_systems_yinmo.xml
-	     （阴魔斩的拖尾 / 命中爆散 / 蓄力三个粒子效果，15 个 emitter）。
-	     🔴🔴 **2026-09-24 实机更正（重要，别再按下面那段理解）**：这一行**只让编辑器认出这份 XML**，
-	        **游戏运行期读不到它** —— 运行期的粒子表来自 `AssetPackages` 里的 `Particle` 资产（编译产物）。
-	        判据：`tpaccli dump` 按名字捞原版 `psys_game_burning_jar_trail` → 打出的是 `META Particle`；
-	        反证：HikageRising 一个粒子 XML 都没有、122 个粒子全是 tpac 资产且确实生效。
-	        ⇒ 本文件 + 这一行的身份 = **编辑器源**。要进游戏还得在编辑器里 Publish 出粒子包、
-	          产物改名拷进 `Taikou/AssetPackages/`；完整五步见 plans/法术体系-通用施法框架.md §B。
-	     （以下是 2026-09-23 当时写的设计说明，保留备查：）
-	     为什么必须开：粒子与 skins / module_sounds / item_holsters 同属 project.mbproj 的 soln 体系，
-	     **不在 SubModule 的 XmlNode 体系里**——不开这行 = 这个文件完全不加载 = 法术的拖尾与爆散
-	     **一个都看不见**（`ParticleSystemManager.GetRuntimeIdByName` 查不到，[Spell] 日志会打"粒子查不到"）。
-	     为什么不会重演 09-08 那次崩（同 soln id 合并出重复定义 → KeyNotFoundException）：
-	     11 个 effect 名（lwn_yinmo_charge / _trail / _burst）与 Native 的 218 个**零交集**，
-	     与 TaikouAnim 沙箱里那份是同一份文件（那边是给 ModKit 预览用的，运行时不要勾选 TaikouAnim）
-	     ⇒ 合并是纯追加。
-	     ⚠️ 本文件是工具链生成物的**交付副本**：生成器 = tools/particle-pipeline/gen_particle_effect.py
-	        （spec = examples/yinmo_spec.py），产物先落 out/yinmo_slash.xml，再拷到本模块并改名为
-	        particle_systems_yinmo.xml（名字照 Native 惯例：particle_systems_*.xml）。
-	        **重生成后必须重新拷一次**，两份不会自动同步（铁律 22：生成物禁手改）。
-	     回退方法：删掉下面这一行即可（文件留着不生效，无害）。 -->
-	<file id="soln_particle_systems" name="ModuleData/particle_systems_yinmo.xml" type="particle_system"/>
-	<!-- 🔴 2026-10-07 启用第九、十行：soln_movement_sets / soln_full_movement_sets
-	     → ModuleData/{movement_sets,full_movement_sets}.xml（钩索自己的移动组：把"站着持弓"换成钩索姿态）。
-	     为什么必须开：movement_sets 与 skins / item_holsters 同属 project.mbproj 的 soln 体系，
-	     **不在 SubModule 的 XmlNode 体系里**——不开这两行 = 两个文件完全不加载，站姿照旧是弓。
-	     为什么不会重演 09-08 那次崩：那次是 action_sets.xml **逐字拷贝 Native** → 同 soln id 合并出
-	     **重复定义** → KeyNotFoundException。本次只用**全新 id**（四个 `*_grapple` 移动组 + 一个
-	     `grapple` 完整组），与 Native / Shokuho / CA_BloodSmoke 的 id 零交集 → 合并是纯追加。
-	     （引擎侧合并函数 = Module.CreateProcessedModuleDataXMLForNative，已反编译确认：
-	       movement_sets 原样拼接、无同名去重；full_movement_sets 按 id 合并子节点。）
-	     先例（同机装着的模块都这么做）：Shokuho 的 walk_musket / walk_ozutsu、CA_BloodSmoke。
-	     回退方法（两处缺一不可）：删掉下面这两行 + 把 item_usage_sets.xml 里 `grapple_rope` 的
-	     `<movement_set id="grapple"/>` 改回 `bow`（文件留着不生效，无害）。 -->
-	<file id="soln_movement_sets" name="ModuleData/movement_sets.xml" type="movement_set"/>
-	<file id="soln_full_movement_sets" name="ModuleData/full_movement_sets.xml" type="full_movement_set"/>
+	<!-- 🔴 2026-10-09 分家：粒子 / 移动组三类**已搬去** LivingWorldNpcs（通用正本在那边）：
+	     `soln_particle_systems`（阴魔斩三个粒子效果）· `soln_movement_sets` / `soln_full_movement_sets`
+	     （钩索四套 `*_grapple` 移动组）。本文件不再注册这三行。
+	     资产（编译好的 Particle 与 clip）也一并搬到了 `LivingWorldNpcs/AssetPackages/`。
+	     回退：把 LivingWorldNpcs/ModuleData/project.mbproj 的对应行删掉即可（那边是通用正本的唯一出处）。
+	     历史说明见 git 记录（2026-09-23 粒子启用 / 2026-10-07 移动组启用）。 -->
 </base>
