@@ -242,5 +242,24 @@
 		<action
 			type="act_grapple_reload"
 			animation="grapple_ground_still" />
+
+		<!-- 被捆缚（2026-10-09，步骤 5「勾人」）：animation 指到**原版自带**的地牢囚犯躺地三条 clip
+		     （在 `Native/AssetPackages/animation_clips.tpac`，1.2.12 与 1.5.x 双端都在；`tpaccli clipinfo` 实读：
+		        lay 3.6 s 躺下 · cycle **11 s 循环**（带 cyclic）· standup 3.6 s 起身，
+		        三条是同一条骨架动画切的段（源帧 1→111 / 111→429 / 111→1）⇒ 首尾姿势天然接得上；
+		        Flags 自带 `enforce_all` + `lock_movement` ⇒ 姿势不会被别的层动掉）。
+		     🔴 跨模块引原版 clip 名 = 本方案唯一"没实机验过"的假设 ⇒ 验收第一步就敲
+		        `custom.do_anim act_grapple_bound_cycle`（自己 / 一个 NPC 各播一次）看姿势。
+		        播不出来 = 静默 act_none（无报错）⇒ 退回"给目标临时切 as_human_hideout_bandit 那套 set"。
+		     写错名字 / clip 不存在 = 同样静默 act_none。 -->
+		<action
+			type="act_grapple_bound_lay"
+			animation="anim_dungeon_prisoner_lay" />
+		<action
+			type="act_grapple_bound_cycle"
+			animation="anim_dungeon_prisoner_lay_cycle" />
+		<action
+			type="act_grapple_bound_standup"
+			animation="anim_dungeon_prisoner_lay_standup" />
 	</action_set>
 </action_sets>

@@ -193,4 +193,17 @@
 		name="act_grapple_reload"
 		type="actt_reload"
 		action_stage="as_reload_last_phase" />
+	<!-- 被捆缚（2026-10-09，步骤 5「勾人」）：目标被拽倒之后"躺下 / 躺地循环 / 起身"三段。
+	     animation 指向**原版自带**的地牢囚犯躺地三条 clip（接线见 action_sets.xml 同批注释）——
+	     我们只借动作名，**资产零新增**。
+	     🔴 **裸声明**（零属性）：这三条由我们自己的代码（GrappleBind）发，
+	        不进引擎的武器/装填流程 ⇒ 照 `act_fly_*` / `act_grapple_ground_pull` 那一族的形状写。
+	        ⚠️ 原版给 `act_dungeon_prisoner_lay` / `_cycle` 标的是 `type="actt_sit_on_the_floor"`，
+	           **故意不抄** —— 那是"引擎认定该 Agent 处于坐地状态"的分类；我们只是借姿势，
+	           不要把被捆的人塞进引擎的坐地状态机（要试就在这一行加回去，纯数据改动、重启即生效）。
+	     🔴 加动作名**三处都要**：① 本文件声明 ② action_sets.xml 映射 ③ 谁引用它
+	        （漏①= native 取到无效索引 = AccessViolation，雷 169）。 -->
+	<action name="act_grapple_bound_lay" />
+	<action name="act_grapple_bound_cycle" />
+	<action name="act_grapple_bound_standup" />
 </action_types>
